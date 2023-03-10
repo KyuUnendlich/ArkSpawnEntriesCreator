@@ -79,16 +79,32 @@ namespace ArkSpawnEntriesCreator
                     if (dinoEntriesAdd.Count != 0)
                     {
                         // First one is different
-                        string outputText = startTextA + spawnContainer + startTextB + spawnentryA +
-                                            dinoEntriesAdd[0].BP + spawnentryB + dinoEntriesAdd[0].entryweight +
-                                            spawnentryC + dinoEntriesAdd[0].BP + spawnentryD;
+                        string outputText = startTextA + spawnContainer + startTextB;
                         
                         // Next ones can be iterated
-                        for (int i = 1; i < dinoEntriesAdd.Count; i++)
+                        for (int i = 0; i < dinoEntriesAdd.Count; i++)
                         {
-                            outputText += comma + spawnentryA + dinoEntriesAdd[i].BP + spawnentryB + dinoEntriesAdd[i].entryweight + spawnentryC + dinoEntriesAdd[i].BP + spawnentryD;
+                            if (i != 0)
+                            {
+                                outputText += comma;
+                            }
+
+                            outputText += spawnentryA + dinoEntriesAdd[i].BP + spawnentryB + dinoEntriesAdd[i].chanceForOne + spawnentryC + dinoEntriesAdd[i].BP + spawnentryD;
+
+                            if (!dinoEntriesAdd[i].chanceForTwo.Equals("0"))
+                            {
+                                outputText += comma + spawnentryA + dinoEntriesAdd[i].BP + "2" + spawnentryB + dinoEntriesAdd[i].chanceForTwo + spawnentryC + dinoEntriesAdd[i].BP + "\",\"" + dinoEntriesAdd[i].BP + spawnentryD;
+                            }
+                            if (!dinoEntriesAdd[i].chanceForThree.Equals("0"))
+                            {
+                                outputText += comma + spawnentryA + dinoEntriesAdd[i].BP + "3" + spawnentryB + dinoEntriesAdd[i].chanceForThree + spawnentryC + dinoEntriesAdd[i].BP + "\",\"" + dinoEntriesAdd[i].BP + "\",\"" + dinoEntriesAdd[i].BP + spawnentryD;
+                            }
+                            if (!dinoEntriesAdd[i].chanceForFour.Equals("0"))
+                            {
+                                outputText += comma + spawnentryA + dinoEntriesAdd[i].BP + "4" + spawnentryB + dinoEntriesAdd[i].chanceForFour + spawnentryC + dinoEntriesAdd[i].BP + "\",\"" + dinoEntriesAdd[i].BP + "\",\"" + dinoEntriesAdd[i].BP + "\",\"" + dinoEntriesAdd[i].BP + spawnentryD;
+                            }
                         }
-                        
+
                         //Transition to second block
                         outputText += transition + spawnlimitA + dinoEntriesAdd[0].BP + spawnlimitB + dinoEntriesAdd[0].spawnlimit + spawnlimitC;
                         
@@ -239,7 +255,7 @@ namespace ArkSpawnEntriesCreator
             this.BP = BP;
             this.entryweight = entryweight;
             this.spawnlimit = spawnlimit;
-            this.chanceForOne = "1.0";
+            this.chanceForOne = entryweight;
             this.chanceForTwo = "0";
             this.chanceForThree = "0";
             this.chanceForFour = "0";
