@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using Microsoft.VisualBasic.FileIO;
+using System.Globalization;
 
 
 namespace ArkSpawnEntriesCreator
@@ -36,7 +37,7 @@ namespace ArkSpawnEntriesCreator
             //OldReduceMethod();
             //return;
 
-            var path = @"D:\Stuff\ArkSpawnEntriesCreator\ArkSpawnEntriesCreator\ArkSpawnEntries.csv";
+            var path = @"D:\ARK Saves\ArkSpawnEntriesCreator\ArkSpawnEntries.csv";
             using (TextFieldParser csvParser = new TextFieldParser(path))
             {
                 csvParser.CommentTokens = new string[] { "#" };
@@ -58,7 +59,8 @@ namespace ArkSpawnEntriesCreator
                     // Read current line fields, pointer moves to the next line.
                     string[] entryweightArray = csvParser.ReadFields();
                     string[] spawnlimitArray = csvParser.ReadFields();
-                 
+                    string[] amountChancesArray = csvParser.ReadFields();
+
                     string spawnContainer = spawnlimitArray[0];
                     for (int i = 2; i < 174; i++)    // hardcoded to debug better, change later
                     {
@@ -70,8 +72,59 @@ namespace ArkSpawnEntriesCreator
                             }
                             else
                             {
-                                DinoEntry temp = new DinoEntry(dinoBPs[i], entryweightArray[i], spawnlimitArray[i]);
-                                dinoEntriesAdd.Add(temp);
+                                if (!amountChancesArray[i].Equals(""))
+                                {
+                                    string[] amountsArray = amountChancesArray[i].Split(",");
+
+                                    int size = amountsArray.Length;
+
+                                    float entryWeight = float.Parse(entryweightArray[i]);
+                                    
+                                    float twoChance = 0.0f;
+                                    float threeChance = 0.0f;
+                                    float fourChance = 0.0f;
+
+                                    float oneChance = float.Parse(amountsArray[0]);
+
+                                    if (size > 1)
+                                    {
+                                        twoChance = float.Parse(amountsArray[1]);
+                                    }
+
+                                    if (size > 2)
+                                    {
+                                        threeChance = float.Parse(amountsArray[2]);
+                                    }
+
+                                    if (size > 3)
+                                    {
+                                        fourChance = float.Parse(amountsArray[3]);
+                                    }
+
+                                    // variable to reduce entries to actual used values, chances are just proportional;
+                                    // the idea is to have a percentage of creatures normally as entrywight, now with groups of dinos spawning you have a lot more that spawn
+                                    // so you reduce the values so they add up to original dino count
+                                    float amountofDinos = oneChance + 2.0f * twoChance + 3.0f * threeChance +
+                                                          4.0f * fourChance;
+                                    float sumOfChances = oneChance + twoChance + threeChance + fourChance;
+                                    float amountMultipleReducer = sumOfChances / amountofDinos; // this is always <= 1
+                                    oneChance = oneChance / sumOfChances * amountMultipleReducer * entryWeight;
+                                    twoChance = twoChance / sumOfChances * amountMultipleReducer * entryWeight;
+                                    threeChance = threeChance / sumOfChances * amountMultipleReducer * entryWeight;
+                                    fourChance = fourChance / sumOfChances * amountMultipleReducer * entryWeight;
+
+                                    DinoEntry temp = new DinoEntry(dinoBPs[i], entryweightArray[i], spawnlimitArray[i],
+                                        oneChance.ToString("0.000"), twoChance.ToString("0.000"),
+                                        threeChance.ToString("0.000"), fourChance.ToString("0.000"));
+                                    dinoEntriesAdd.Add(temp);
+                                }
+                                else
+                                {
+                                    DinoEntry temp = new DinoEntry(dinoBPs[i], entryweightArray[i], spawnlimitArray[i]);
+                                    dinoEntriesAdd.Add(temp);
+                                }
+
+
                             }
                         }
                     }
@@ -147,7 +200,6 @@ namespace ArkSpawnEntriesCreator
                         File.AppendAllText(Path, "\r\n");
                     }
                     // End of line, reset Lists
-                    
                 }
             }
 
