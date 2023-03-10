@@ -109,9 +109,20 @@ namespace ArkSpawnEntriesCreator
                                     float sumOfChances = oneChance + twoChance + threeChance + fourChance;
                                     float amountMultipleReducer = sumOfChances / amountofDinos; // this is always <= 1
                                     oneChance = oneChance / sumOfChances * amountMultipleReducer * entryWeight;
-                                    twoChance = twoChance / sumOfChances * amountMultipleReducer * entryWeight;
-                                    threeChance = threeChance / sumOfChances * amountMultipleReducer * entryWeight;
-                                    fourChance = fourChance / sumOfChances * amountMultipleReducer * entryWeight;
+                                    if (twoChance != 0.0f)
+                                    {
+                                        twoChance = twoChance / sumOfChances * amountMultipleReducer * entryWeight;
+                                    }
+
+                                    if (threeChance != 0.0f)
+                                    {
+                                        threeChance = threeChance / sumOfChances * amountMultipleReducer * entryWeight;
+                                    }
+
+                                    if (fourChance != 0.0f)
+                                    {
+                                        fourChance = fourChance / sumOfChances * amountMultipleReducer * entryWeight;
+                                    }
 
                                     DinoEntry temp = new DinoEntry(dinoBPs[i], entryweightArray[i], spawnlimitArray[i],
                                         oneChance.ToString("0.000"), twoChance.ToString("0.000"),
@@ -144,15 +155,15 @@ namespace ArkSpawnEntriesCreator
 
                             outputText += spawnentryA + dinoEntriesAdd[i].BP + spawnentryB + dinoEntriesAdd[i].chanceForOne + spawnentryC + dinoEntriesAdd[i].BP + spawnentryD;
 
-                            if (!dinoEntriesAdd[i].chanceForTwo.Equals("0"))
+                            if (!dinoEntriesAdd[i].chanceForTwo.Equals("0.000"))
                             {
                                 outputText += comma + spawnentryA + dinoEntriesAdd[i].BP + "2" + spawnentryB + dinoEntriesAdd[i].chanceForTwo + spawnentryC + dinoEntriesAdd[i].BP + "\",\"" + dinoEntriesAdd[i].BP + spawnentryD;
                             }
-                            if (!dinoEntriesAdd[i].chanceForThree.Equals("0"))
+                            if (!dinoEntriesAdd[i].chanceForThree.Equals("0.000"))
                             {
                                 outputText += comma + spawnentryA + dinoEntriesAdd[i].BP + "3" + spawnentryB + dinoEntriesAdd[i].chanceForThree + spawnentryC + dinoEntriesAdd[i].BP + "\",\"" + dinoEntriesAdd[i].BP + "\",\"" + dinoEntriesAdd[i].BP + spawnentryD;
                             }
-                            if (!dinoEntriesAdd[i].chanceForFour.Equals("0"))
+                            if (!dinoEntriesAdd[i].chanceForFour.Equals("0.000"))
                             {
                                 outputText += comma + spawnentryA + dinoEntriesAdd[i].BP + "4" + spawnentryB + dinoEntriesAdd[i].chanceForFour + spawnentryC + dinoEntriesAdd[i].BP + "\",\"" + dinoEntriesAdd[i].BP + "\",\"" + dinoEntriesAdd[i].BP + "\",\"" + dinoEntriesAdd[i].BP + spawnentryD;
                             }
@@ -308,9 +319,9 @@ namespace ArkSpawnEntriesCreator
             this.entryweight = entryweight;
             this.spawnlimit = spawnlimit;
             this.chanceForOne = entryweight;
-            this.chanceForTwo = "0";
-            this.chanceForThree = "0";
-            this.chanceForFour = "0";
+            this.chanceForTwo = "0.000";
+            this.chanceForThree = "0.000";
+            this.chanceForFour = "0.000";
         }
     }
 }
