@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a05cce3f-a961-4b73-87e0-d4a9f71b9353" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ArkSpawnEntriesCreator/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ArkSpawnEntriesCreator/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ArkSpawnEntriesCreator/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ArkSpawnEntriesCreator/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ArkSpawnEntries old 2lines.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ArkSpawnEntries.csv" beforeDir="false" afterPath="$PROJECT_DIR$/ArkSpawnEntries.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/ArkSpawnEntriesCreator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/ArkSpawnEntriesCreator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/ArkSpawnEntriesCreator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/ArkSpawnEntriesCreator.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/ArkSpawnEntriesCreator.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/ArkSpawnEntriesCreator.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/ArkSpawnEntriesCreator.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/ArkSpawnEntriesCreator.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +64,7 @@
       <workItem from="1678473339277" duration="1637000" />
       <workItem from="1678475419311" duration="8950000" />
       <workItem from="1678489746743" duration="484000" />
+      <workItem from="1678550307529" duration="293000" />
     </task>
     <servers />
   </component>
@@ -84,21 +77,21 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2005" height="305" key="GridCell.Tab.0.bottom" timestamp="1678490234810">
+    <state width="2005" height="305" key="GridCell.Tab.0.bottom" timestamp="1678550602736">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.bottom/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1678490234810" />
-    <state width="2005" height="305" key="GridCell.Tab.0.center" timestamp="1678490234810">
+    <state width="2005" height="305" key="GridCell.Tab.0.bottom/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1678550602736" />
+    <state width="2005" height="305" key="GridCell.Tab.0.center" timestamp="1678550602736">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.center/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1678490234810" />
-    <state width="2005" height="305" key="GridCell.Tab.0.left" timestamp="1678490234810">
+    <state width="2005" height="305" key="GridCell.Tab.0.center/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1678550602736" />
+    <state width="2005" height="305" key="GridCell.Tab.0.left" timestamp="1678550602736">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.left/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1678490234810" />
-    <state width="2005" height="305" key="GridCell.Tab.0.right" timestamp="1678490234810">
+    <state width="2005" height="305" key="GridCell.Tab.0.left/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1678550602736" />
+    <state width="2005" height="305" key="GridCell.Tab.0.right" timestamp="1678550602736">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="305" key="GridCell.Tab.0.right/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1678490234810" />
+    <state width="2005" height="305" key="GridCell.Tab.0.right/0.0.2048.1112/-1920.0.1920.1040@0.0.2048.1112" timestamp="1678550602736" />
   </component>
 </project>
