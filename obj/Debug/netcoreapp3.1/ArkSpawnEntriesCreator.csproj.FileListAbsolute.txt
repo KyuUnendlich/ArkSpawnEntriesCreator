@@ -24,3 +24,17 @@ D:\ARK Saves\ArkSpawnEntriesCreator\obj\Debug\netcoreapp3.1\ArkSpawnEntriesCreat
 D:\ARK Saves\ArkSpawnEntriesCreator\obj\Debug\netcoreapp3.1\ArkSpawnEntriesCreator.dll
 D:\ARK Saves\ArkSpawnEntriesCreator\obj\Debug\netcoreapp3.1\ArkSpawnEntriesCreator.pdb
 D:\ARK Saves\ArkSpawnEntriesCreator\obj\Debug\netcoreapp3.1\ArkSpawnEntriesCreator.genruntimeconfig.cache
+G:\ARK Saves\ArkSpawnEntriesCreator\bin\Debug\netcoreapp3.1\ArkSpawnEntriesCreator.exe
+G:\ARK Saves\ArkSpawnEntriesCreator\bin\Debug\netcoreapp3.1\ArkSpawnEntriesCreator.deps.json
+G:\ARK Saves\ArkSpawnEntriesCreator\bin\Debug\netcoreapp3.1\ArkSpawnEntriesCreator.runtimeconfig.json
+G:\ARK Saves\ArkSpawnEntriesCreator\bin\Debug\netcoreapp3.1\ArkSpawnEntriesCreator.runtimeconfig.dev.json
+G:\ARK Saves\ArkSpawnEntriesCreator\bin\Debug\netcoreapp3.1\ArkSpawnEntriesCreator.dll
+G:\ARK Saves\ArkSpawnEntriesCreator\bin\Debug\netcoreapp3.1\ArkSpawnEntriesCreator.pdb
+G:\ARK Saves\ArkSpawnEntriesCreator\obj\Debug\netcoreapp3.1\ArkSpawnEntriesCreator.csproj.AssemblyReference.cache
+G:\ARK Saves\ArkSpawnEntriesCreator\obj\Debug\netcoreapp3.1\ArkSpawnEntriesCreator.GeneratedMSBuildEditorConfig.editorconfig
+G:\ARK Saves\ArkSpawnEntriesCreator\obj\Debug\netcoreapp3.1\ArkSpawnEntriesCreator.AssemblyInfoInputs.cache
+G:\ARK Saves\ArkSpawnEntriesCreator\obj\Debug\netcoreapp3.1\ArkSpawnEntriesCreator.AssemblyInfo.cs
+G:\ARK Saves\ArkSpawnEntriesCreator\obj\Debug\netcoreapp3.1\ArkSpawnEntriesCreator.csproj.CoreCompileInputs.cache
+G:\ARK Saves\ArkSpawnEntriesCreator\obj\Debug\netcoreapp3.1\ArkSpawnEntriesCreator.dll
+G:\ARK Saves\ArkSpawnEntriesCreator\obj\Debug\netcoreapp3.1\ArkSpawnEntriesCreator.pdb
+G:\ARK Saves\ArkSpawnEntriesCreator\obj\Debug\netcoreapp3.1\ArkSpawnEntriesCreator.genruntimeconfig.cache

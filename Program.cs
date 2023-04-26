@@ -9,7 +9,7 @@ namespace ArkSpawnEntriesCreator
 {
     class Program
     {
-        const string Path = "C:/Users/Admin/Desktop/ark.txt";
+        const string Path = "C:/Users/matth/Desktop/ark.txt";
         
         const string startTextA = "ConfigAddNPCSpawnEntriesContainer=(NPCSpawnEntriesContainerClassString=\"";
         const string startTextB = "\",NPCSpawnEntries=(";
@@ -35,9 +35,10 @@ namespace ArkSpawnEntriesCreator
         {
             //OldMethod();
             //OldReduceMethod();
+            //CompareCSVFileEntries();
             //return;
 
-            var path = @"D:\ARK Saves\ArkSpawnEntriesCreator\ArkSpawnEntries.csv";
+            var path = @"G:\ARK Saves\ArkSpawnEntriesCreator\ArkSpawnEntries.csv";
             using (TextFieldParser csvParser = new TextFieldParser(path))
             {
                 csvParser.CommentTokens = new string[] { "#" };
@@ -141,6 +142,60 @@ namespace ArkSpawnEntriesCreator
             }
 
             
+        }
+
+        private static void CompareCSVFileEntries()
+        {
+            var path = @"G:\ARK Saves\ArkSpawnEntriesCreator\ArkSpawnEntries.csv";
+            var pathComp = @"G:\ARK Saves\ArkSpawnEntriesCreator\ArkSpawnEntriesComp.csv";
+            using (TextFieldParser csvParser = new TextFieldParser(path))
+            using (TextFieldParser csvParserComp = new TextFieldParser(pathComp))
+            {
+                csvParser.CommentTokens = new string[] { "#" };
+                csvParser.SetDelimiters(new string[] { "," });
+                csvParser.HasFieldsEnclosedInQuotes = true;
+
+                csvParserComp.CommentTokens = new string[] { "#" };
+                csvParserComp.SetDelimiters(new string[] { "," });
+                csvParserComp.HasFieldsEnclosedInQuotes = true;
+
+                // Skip the row with the column names
+                csvParser.ReadLine();
+                // Read the row with the blueprint
+                string[] dinoBPs = csvParser.ReadFields();
+                // Skip the row with the descriptions
+                csvParser.ReadFields();
+
+                // Skip the row with the column names
+                csvParserComp.ReadLine();
+                // Read the row with the blueprint
+                csvParserComp.ReadFields();
+                // Skip the row with the descriptions
+                csvParserComp.ReadFields();
+
+                while (!csvParser.EndOfData)
+                {
+                    List<DinoEntry> dinoEntriesAdd = new List<DinoEntry>();
+                    List<string> dinoEntriesRemove = new List<string>();
+
+                    // Read current line fields, pointer moves to the next line.
+                    string[] entryweightArray = csvParser.ReadFields();
+                    string[] spawnlimitArray = csvParser.ReadFields();
+
+                    string[] entryweightArrayComp = csvParserComp.ReadFields();
+                    string[] spawnlimitArrayComp = csvParserComp.ReadFields();
+
+                    string spawnContainer = spawnlimitArray[0];
+                    for (int i = 2; i < 196; i++)    // hardcoded to debug better, change later
+                    {
+                        if (!entryweightArray[i].Equals("") && !entryweightArray[i].Equals("r") && !entryweightArrayComp[i].Equals(""))
+                        {
+                             File.AppendAllText(Path, dinoBPs[i]+spawnContainer+spawnlimitArray[i]);
+                             File.AppendAllText(Path, "\r\n");
+                        }
+                    }
+                }
+            }
         }
 
         private static void OldReduceMethod()
