@@ -166,14 +166,18 @@ namespace ArkSpawnEntriesCreator
                 csvParser.ReadLine();
                 // Read the row with the blueprint
                 string[] dinoBPs = csvParser.ReadFields();
-                // Skip the row with the descriptions
+                // Skip the rows with the descriptions
+                csvParser.ReadFields();
+                csvParser.ReadFields();
                 csvParser.ReadFields();
 
                 // Skip the row with the column names
                 csvParserComp.ReadLine();
                 // Read the row with the blueprint
                 csvParserComp.ReadFields();
-                // Skip the row with the descriptions
+                // Skip the rows with the descriptions
+                csvParserComp.ReadFields();
+                csvParserComp.ReadFields();
                 csvParserComp.ReadFields();
 
                 while (!csvParser.EndOfData)
@@ -189,7 +193,7 @@ namespace ArkSpawnEntriesCreator
                     string[] spawnlimitArrayComp = csvParserComp.ReadFields();
 
                     string spawnContainer = spawnlimitArray[0];
-                    for (int i = 2; i < 216; i++)    // hardcoded to debug better, change later
+                    for (int i = 2; i < entryweightArrayComp.Length; i++)    // smaller one, vanilla unimportant
                     {
                         if (!entryweightArray[i].Equals("") || !entryweightArrayComp[i].Equals(""))
                         {
@@ -223,14 +227,18 @@ namespace ArkSpawnEntriesCreator
                 csvParser.ReadLine();
                 // Read the row with the blueprint
                 string[] dinoBPs = csvParser.ReadFields();
-                // Skip the row with the descriptions
+                // Skip the rows with the descriptions
+                csvParser.ReadFields();
+                csvParser.ReadFields();
                 csvParser.ReadFields();
 
                 // Skip the row with the column names
                 csvParserComp.ReadLine();
                 // Read the row with the blueprint
                 csvParserComp.ReadFields();
-                // Skip the row with the descriptions
+                // Skip the rows with the descriptions
+                csvParserComp.ReadFields();
+                csvParserComp.ReadFields();
                 csvParserComp.ReadFields();
 
                 while (!csvParser.EndOfData)
@@ -246,11 +254,11 @@ namespace ArkSpawnEntriesCreator
                     string[] spawnlimitArrayComp = csvParserComp.ReadFields();
 
                     string spawnContainer = spawnlimitArray[0];
-                    for (int i = 2; i < 196; i++)    // hardcoded to debug better, change later
+                    for (int i = 2; i < entryweightArrayComp.Length; i++)    // smaller one, vanilla unimportant
                     {
                         if (!entryweightArray[i].Equals("") && !entryweightArray[i].Equals("r") && !entryweightArrayComp[i].Equals(""))
                         {
-                             File.AppendAllText(Path, dinoBPs[i]+spawnContainer+spawnlimitArray[i]);
+                             File.AppendAllText(Path, dinoBPs[i]+spawnContainer + "  " + spawnlimitArray[i] + "  " +spawnlimitArrayComp[i]);
                              File.AppendAllText(Path, "\r\n");
                         }
                     }
@@ -363,7 +371,7 @@ namespace ArkSpawnEntriesCreator
                     string[] amountChancesArray = csvParser.ReadFields();
 
                     string spawnContainer = spawnlimitArray[0];
-                    for (int i = 2; i < 174; i++)    // hardcoded to debug better, change later
+                    for (int i = 2; i < entryweightArray.Length; i++)    // hardcoded to debug better, change later
                     {
                         if (!entryweightArray[i].Equals(""))
                         {
