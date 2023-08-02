@@ -54,6 +54,8 @@ namespace ArkSpawnEntriesCreator
                 csvParser.ReadFields();
                 csvParser.ReadFields();
                 csvParser.ReadFields();
+                csvParser.ReadFields();
+                csvParser.ReadFields();
 
                 while (!csvParser.EndOfData)
                 {
@@ -199,7 +201,7 @@ namespace ArkSpawnEntriesCreator
                         {
                             if (!entryweightArray[i].Equals(entryweightArrayComp[i]))
                             {
-                                File.AppendAllText(Path, dinoBPs[i] + spawnContainer + spawnlimitArray[i]);
+                                File.AppendAllText(Path, dinoBPs[i] + "||" + spawnContainer + "||" + spawnlimitArray[i] + "||" + spawnlimitArrayComp[i]);
                                 File.AppendAllText(Path, "\r\n");
                             }
                         }
