@@ -195,7 +195,8 @@ namespace ArkSpawnEntriesCreator
                     string[] spawnlimitArrayComp = csvParserComp.ReadFields();
 
                     string spawnContainer = spawnlimitArray[0];
-                    for (int i = 2; i < entryweightArrayComp.Length; i++)    // smaller one, vanilla unimportant
+                    int length = Math.Min(entryweightArrayComp.Length, entryweightArray.Length);
+                    for (int i = 2; i < length; i++)    // smaller one, vanilla unimportant
                     {
                         if (!entryweightArray[i].Equals("") || !entryweightArrayComp[i].Equals(""))
                         {
@@ -256,7 +257,8 @@ namespace ArkSpawnEntriesCreator
                     string[] spawnlimitArrayComp = csvParserComp.ReadFields();
 
                     string spawnContainer = spawnlimitArray[0];
-                    for (int i = 2; i < entryweightArrayComp.Length; i++)    // smaller one, vanilla unimportant
+                    int length = Math.Min(entryweightArrayComp.Length, entryweightArray.Length);
+                    for (int i = 2; i < length; i++)    // smaller one, vanilla unimportant
                     {
                         if (!entryweightArray[i].Equals("") && !entryweightArray[i].Equals("r") && !entryweightArrayComp[i].Equals(""))
                         {
