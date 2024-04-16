@@ -33,12 +33,21 @@ namespace ArkSpawnEntriesCreator
         
         static void Main(string[] args)
         {
+
+            //EngramCleanup.EngramsVanillaHider();
+            //EngramCleanup.EngramsDateRemover();
+            EngramCleanup.EngramsVanillaRemoverX();
+            //CreateDinoEntries();
+            //return;
+
             //OldMethod();
             //OldReduceMethod();
             //CompareCSVFileEntries();
             //CompareCSVFileEntriesAllValues();
-            //return;
 
+        }
+
+        private static void CreateDinoEntries() {
             var path = @"G:\ARK Saves\ArkSpawnEntriesCreator\ArkSpawnEntries.csv";
             using (TextFieldParser csvParser = new TextFieldParser(path))
             {
@@ -61,7 +70,7 @@ namespace ArkSpawnEntriesCreator
                 {
                     List<DinoEntry> dinoEntriesAdd = new List<DinoEntry>();
                     List<string> dinoEntriesRemove = new List<string>();
-                    
+
                     // Read current line fields, pointer moves to the next line.
                     string[] entryweightArray = csvParser.ReadFields();
                     string[] spawnlimitArray = csvParser.ReadFields();
@@ -79,16 +88,16 @@ namespace ArkSpawnEntriesCreator
                             {
                                 DinoEntry temp = new DinoEntry(dinoBPs[i], entryweightArray[i], spawnlimitArray[i]);
                                 dinoEntriesAdd.Add(temp);
-                                
+
                             }
                         }
                     }
-                    
+
                     if (dinoEntriesAdd.Count != 0)
                     {
                         // First one is different
                         string outputText = startTextA + spawnContainer + startTextB;
-                        
+
                         // Next ones can be iterated
                         for (int i = 0; i < dinoEntriesAdd.Count; i++)
                         {
@@ -98,18 +107,18 @@ namespace ArkSpawnEntriesCreator
                             }
 
                             outputText += spawnentryA + dinoEntriesAdd[i].BP + spawnentryB + dinoEntriesAdd[i].entryweight + spawnentryC + dinoEntriesAdd[i].BP + spawnentryD;
-                            
+
                         }
 
                         //Transition to second block
                         outputText += transition + spawnlimitA + dinoEntriesAdd[0].BP + spawnlimitB + dinoEntriesAdd[0].spawnlimit + spawnlimitC;
-                        
+
                         // Next ones can be iterated
                         for (int i = 1; i < dinoEntriesAdd.Count; i++)
                         {
                             outputText += comma + spawnlimitA + dinoEntriesAdd[i].BP + spawnlimitB + dinoEntriesAdd[i].spawnlimit + spawnlimitC;
                         }
-                        
+
                         outputText += ending;
 
                         File.AppendAllText(Path, outputText);
@@ -122,7 +131,7 @@ namespace ArkSpawnEntriesCreator
                         outputText += spawnContainer;
                         outputText += startReduceB;
                         outputText += dinoEntriesRemove[0];
-                        
+
                         for (int i = 1; i < dinoEntriesRemove.Count; i++)
                         {
                             outputText += reduceLoop1;
@@ -138,16 +147,15 @@ namespace ArkSpawnEntriesCreator
                         }
 
                         outputText += reduceEnding;
-                        
+
                         File.AppendAllText(Path, outputText);
                         File.AppendAllText(Path, "\r\n");
                     }
                     // End of line, reset Lists
                 }
             }
-
-            
         }
+
 
         private static void CompareCSVFileEntriesAllValues()
         {
