@@ -34,9 +34,11 @@ namespace ArkSpawnEntriesCreator
         static void Main(string[] args)
         {
 
-            //EngramCleanup.EngramsVanillaHider();
+            LootDropAddition.AddLootToLootDrop();
+
+            //EngramCleanup.EngramsVanillaHiderXY();
             //EngramCleanup.EngramsDateRemover();
-            EngramCleanup.EngramsVanillaRemoverX();
+            //EngramCleanup.EngramsVanillaRemoverX();
             //CreateDinoEntries();
             //return;
 
