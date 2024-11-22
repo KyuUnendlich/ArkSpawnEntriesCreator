@@ -25,9 +25,11 @@ namespace ArkSpawnEntriesCreator
         {
             using (TextFieldParser csvParser = new TextFieldParser(csvPath))
             {
-                // Added subcategory in beacon like this:
+                // Add a subcategory in beacon like this (dummy adobe door with dummy weight, so you can replace that later):
                 // https://imgur.com/trJXySx
-                // Subcategory is filled by adding blueprint names in " with , between multiple, then ),ItemsWeights=( then 10000,10000 for the same amount of blueprints
+                // Change Min/Max Entry, Loot Quality, Etc there
+                // Export to get loot texts
+                // Loot Text is filled by adding blueprint names in " with , inbetween multiple bps --> then -->  ),ItemsWeights=(  --> then --> 10000,10000 for the same amount of blueprints
                 // What comes before and after is stitched back at the end
 
                 csvParser.CommentTokens = new string[] { "#" };
@@ -43,8 +45,8 @@ namespace ArkSpawnEntriesCreator
                 csvParser.ReadLine();
                 string[] level_of_bp = csvParser.ReadFields();
 
+                // Read Loot Texts into stringlist
                 var lootTexts = new List<string>();
-
                 using (var sr = new StreamReader(txtPathFjo))
                 {
                     string line;
@@ -56,9 +58,6 @@ namespace ArkSpawnEntriesCreator
 
                 //Divide csv blueprints into subcategories by level
                 List<string> subcategories = GetSubcategoriesByLevel(loot_ids, level_of_bp);
-                foreach (string category in subcategories) { 
-                    
-                }
                
                 File.AppendAllText(outputPath, lootTexts[0] + subcategories[0] + lootTexts[1] + "\r\n");
                 File.AppendAllText(outputPath, lootTexts[2] + subcategories[0] + lootTexts[3] + "\r\n");
@@ -75,12 +74,15 @@ namespace ArkSpawnEntriesCreator
         }
 
         public static List<string> GetSubcategoriesByLevel(string[] loot_ids, string[] level_of_bp) {
+
+            // Lists to store attributed BPs to
             List<string> category1List = new List<string>();
             List<string> category2List = new List<string>();
             List<string> category3List = new List<string>();
             List<string> category4List = new List<string>();
             List<string> category5List = new List<string>();
 
+            // change level in accordance to distribution
             for (int i = 1; i < loot_ids.Length; i++)
             {
                 int level = int.Parse(level_of_bp[i]);
@@ -106,17 +108,20 @@ namespace ArkSpawnEntriesCreator
                 }
             }
 
+            //bp names
             String category5 = "";
             String category4 = "";
             String category3 = "";
             String category2 = "";
             String category1 = "";
+            //weights (10000)
             String category5p2 = "";
             String category4p2 = "";
             String category3p2 = "";
             String category2p2 = "";
             String category1p2 = "";
 
+            // Iterating through BP List, adding texts together with , (weights as well)
             for (int i = 0; i < category5List.Count; i++)
             {
                 if (i != 0)
@@ -173,12 +178,14 @@ namespace ArkSpawnEntriesCreator
                 category1p2 += "10000";
             }
 
+            // Fully create the actual middlepart that will be included (adding BPs & Weights together)
             category1 += middlepart_itemswights + category1p2;
             category2 += middlepart_itemswights + category2p2;
             category3 += middlepart_itemswights + category3p2;
             category4 += middlepart_itemswights + category4p2;
             category5 += middlepart_itemswights + category5p2;
 
+            // Prints incase you want to count category distribution
             /*
             File.AppendAllText(outputPathCat, category1);
             File.AppendAllText(outputPathCat, "\r\n");
@@ -193,6 +200,7 @@ namespace ArkSpawnEntriesCreator
             File.AppendAllText(outputPathCat, ""+ category1List.Count+"  " + category2List.Count + "  " + category3List.Count + "  " + category4List.Count + "  " + category5List.Count);
             */
 
+            // Returns List with all categories, sorted from low level to high
             List<string> subcat = new List<string>();
             subcat.Add(category1);
             subcat.Add(category2);
