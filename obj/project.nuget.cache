@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "qI8xkB21kwy40+iIHCxTstY0dIHaOlbZ00j1yU2WCQb8/RZjUfbk8mKjhBSE06PMXcEljqBj4/om0opNA6XiRQ==",
+  "dgSpecHash": "/cXIZpITJM4=",
   "success": true,
   "projectFilePath": "G:\\ARK Saves\\ArkSpawnEntriesCreator\\ArkSpawnEntriesCreator.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\matth\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
     "C:\\Users\\matth\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\matth\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
     "C:\\Users\\matth\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
     "C:\\Users\\matth\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.32\\microsoft.netcore.app.host.win-x64.3.1.32.nupkg.sha512"
   ],

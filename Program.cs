@@ -34,13 +34,13 @@ namespace ArkSpawnEntriesCreator
         static void Main(string[] args)
         {
 
-            LootDropAddition.AddLootToLootDrop();
+            LootDropAddition.AddLootToLootDropLevel();
 
             //EngramCleanup.EngramsVanillaHiderXY();
             //EngramCleanup.EngramsDateRemover();
             //EngramCleanup.EngramsVanillaRemoverX();
+
             //CreateDinoEntries();
-            //return;
 
             //OldMethod();
             //OldReduceMethod();
@@ -82,7 +82,7 @@ namespace ArkSpawnEntriesCreator
                     {
                         if (!entryweightArray[i].Equals(""))
                         {
-                            if (entryweightArray[i].Equals("r"))
+                            if (entryweightArray[i].Equals("x"))
                             {
                                 dinoEntriesRemove.Add(dinoBPs[i]);
                             }
@@ -223,8 +223,8 @@ namespace ArkSpawnEntriesCreator
 
         private static void CompareCSVFileEntries()
         {
-            var path = @"G:\ARK Saves\ArkSpawnEntriesCreator\ArkSpawnEntries.csv";
-            var pathComp = @"G:\ARK Saves\ArkSpawnEntriesCreator\ArkSpawnEntriesComp.csv";
+            var path = @"G:\ARK Saves\ArkSpawnEntriesCreator\Modded.csv";
+            var pathComp = @"G:\ARK Saves\ArkSpawnEntriesCreator\Added.csv";
             using (TextFieldParser csvParser = new TextFieldParser(path))
             using (TextFieldParser csvParserComp = new TextFieldParser(pathComp))
             {
@@ -244,12 +244,16 @@ namespace ArkSpawnEntriesCreator
                 csvParser.ReadFields();
                 csvParser.ReadFields();
                 csvParser.ReadFields();
+                csvParser.ReadFields();
+                csvParser.ReadFields();
 
                 // Skip the row with the column names
                 csvParserComp.ReadLine();
                 // Read the row with the blueprint
                 csvParserComp.ReadFields();
                 // Skip the rows with the descriptions
+                csvParserComp.ReadFields();
+                csvParserComp.ReadFields();
                 csvParserComp.ReadFields();
                 csvParserComp.ReadFields();
                 csvParserComp.ReadFields();
