@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/cXIZpITJM4=",
+  "dgSpecHash": "gfW6WHbkoEU=",
   "success": true,
-  "projectFilePath": "G:\\ARK Saves\\ArkSpawnEntriesCreator\\ArkSpawnEntriesCreator.csproj",
+  "projectFilePath": "E:\\ARK Saves\\ArkSpawnEntriesCreator\\ArkSpawnEntriesCreator.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\matth\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
     "C:\\Users\\matth\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",

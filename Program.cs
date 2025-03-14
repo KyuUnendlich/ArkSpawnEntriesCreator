@@ -36,6 +36,8 @@ namespace ArkSpawnEntriesCreator
 
             //LootDropAddition.AddLootToLootDropLevel();
 
+            //CreatureLister.ListCreatures();
+
             //EngramCleanup.EngramsVanillaHiderXY();
             //EngramCleanup.EngramsDateRemover();
             //EngramCleanup.EngramsVanillaRemoverX();
@@ -50,7 +52,7 @@ namespace ArkSpawnEntriesCreator
         }
 
         private static void CreateDinoEntries() {
-            var path = @"G:\ARK Saves\ArkSpawnEntriesCreator\ArkSpawnEntries.csv";
+            var path = @"E:\ARK Saves\ArkSpawnEntriesCreator\ArkSpawnEntries.csv";
             using (TextFieldParser csvParser = new TextFieldParser(path))
             {
                 csvParser.CommentTokens = new string[] { "#" };
