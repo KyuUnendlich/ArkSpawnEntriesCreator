@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ArkSpawnEntriesCreator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5eb544d0cacf6c8fc6be5370ba59b238e94cac7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c11a48bea4f89a1af53d21c078404fccd02d015")]
 [assembly: System.Reflection.AssemblyProductAttribute("ArkSpawnEntriesCreator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ArkSpawnEntriesCreator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
