@@ -170,7 +170,7 @@ namespace ArkSpawnEntriesCreator
                             }
                             else
                             {
-                                string text_nospaces = text.Replace(" ", "");
+                                string text_nospaces = text.Replace(" ", "").Replace(",", "");
                                 spawnContainers[spawnContainerIndex].spawnEntries[currentSpawnEntryinContainer].AddSubBPWeight(text_nospaces);
                             }
                         }
@@ -246,16 +246,15 @@ namespace ArkSpawnEntriesCreator
 
                         }
 
-
-                        //Cancel out, end reached
-                        if (text.Contains("GlobalNPCRandomSpawnClassWeights"))
-                        {
-                            globalSpawnWeights = true;
-                            break;
-                        }
-
                     }
 
+                }
+
+                //Cancel out, end reached
+                if (text.Contains("GlobalNPCRandomSpawnClassWeights"))
+                {
+                    globalSpawnWeights = true;
+                    break;
                 }
             }
 
@@ -275,24 +274,6 @@ namespace ArkSpawnEntriesCreator
                     searchForMainBP = true;
                     searchForSubBPs = false;
                     currentGlobalSpawnEntry++;
-                }
-
-                if (searchForMainBP)
-                {
-                    if (text.Contains("AssetPathName"))
-                    {
-                        int first_index = text.LastIndexOf(".") + 1;
-                        int last_index = text.LastIndexOf(",") - 1;
-                        string globalMain = text.Substring(first_index, last_index - first_index);
-
-                        SpawnEntry spawnEntry = new SpawnEntry();
-                        spawnEntry.SetMainBP(globalMain);
-
-                        searchForMainBP = false;
-                        searchForSubBPs = true;
-
-                        globalEntries.Add(spawnEntry);
-                    }
                 }
 
                 //SubBP Logic
@@ -321,16 +302,42 @@ namespace ArkSpawnEntriesCreator
                         }
                         else
                         {
-                            string text_nospaces = text.Replace(" ", "");
+                            string text_nospaces = text.Replace(" ", "").Replace(",", "");
                             globalEntries[currentGlobalSpawnEntry].AddSubBPWeight(text_nospaces);
                         }
                     }
+                }
+
+                //Main BP Search (lower than SubBP, cause otherwise it would find this line again (and this is an easy fix))
+                if (searchForMainBP)
+                {
+                    if (text.Contains("AssetPathName"))
+                    {
+                        int first_index = text.LastIndexOf(".") + 1;
+                        int last_index = text.LastIndexOf(",") - 1;
+                        string globalMain = text.Substring(first_index, last_index - first_index);
+
+                        SpawnEntry spawnEntry = new SpawnEntry();
+                        spawnEntry.SetMainBP(globalMain);
+
+                        searchForMainBP = false;
+                        searchForSubBPs = true;
+
+                        globalEntries.Add(spawnEntry);
+                    }
+                }
+
+                //We Out
+                if (text.Contains("ServerExtraWorldSingletonActorClasses"))
+                {
+                    break;
                 }
             }
 
             //DinoAdditionsPrint
             if (spawnContainers.Count != 0)
             {
+                File.AppendAllText(Path, "\r\n");
                 File.AppendAllText(Path, "Dino Additions: ");
                 File.AppendAllText(Path, "\r\n");
                 StringBuilder sb = new StringBuilder();
@@ -358,6 +365,7 @@ namespace ArkSpawnEntriesCreator
             //GlobalEntryWeights
             if (globalEntries.Count != 0)
             {
+                File.AppendAllText(Path, "\r\n");
                 File.AppendAllText(Path, "Global Entry Weights: ");
                 File.AppendAllText(Path, "\r\n");
                 StringBuilder sb = new StringBuilder();
