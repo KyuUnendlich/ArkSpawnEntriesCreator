@@ -13,15 +13,121 @@ namespace ArkSpawnEntriesCreator
 
         const string outputPathCat = "C:/Users/matth/Desktop/lootdropscat.txt";
 
-        const string csvPath = @"G:\ARK Saves\ArkSpawnEntriesCreator\LootDrops.csv";
+        const string csvPath = @"E:\ARK Saves\ArkSpawnEntriesCreator\LootDrops.csv";
 
-        const string txtPath = @"G:\ARK Saves\ArkSpawnEntriesCreator\LootDropsBase.txt";
+        const string txtPath = @"E:\ARK Saves\ArkSpawnEntriesCreator\LootDropsBase.txt";
 
-        const string txtPathFjo = @"G:\ARK Saves\ArkSpawnEntriesCreator\LootDropsFjordur.txt";
+        const string txtPathFjo = @"E:\ARK Saves\ArkSpawnEntriesCreator\LootDropsBaseFjordur.txt";
+
+        const string txtPathFjoGenesis2Loot = @"E:\ARK Saves\ArkSpawnEntriesCreator\LootFjoFromGen2_JULY.txt";
 
         const string middlepart_itemswights = "),ItemsWeights=(";
 
-        public static void AddLootToLootDropLevel()
+        public static void AddLootToLootDropLevelFjordurGenesis2Loots()
+        {
+            using (TextFieldParser csvParser = new TextFieldParser(csvPath))
+            {
+                // Add a subcategory (Item Set Entry) in beacon like this (dummy adobe door with dummy weight, so you can replace that later):
+                // https://imgur.com/trJXySx
+                // Change Min/Max Entry, Loot Quality, Etc there
+                // Alternatively, reuse an existing Item Set Entry
+                // Export to get loot texts
+                // Loot Text is filled by adding blueprint names in " with , inbetween multiple bps --> then -->  ),ItemsWeights=(  --> then --> 10000,10000 for the same amount of blueprints
+                // What comes before and after is stitched back at the end
+
+                // How to use: Split the Item Set Entry at ),ItemsWeights=(; remove ),ItemsWeights=( as well
+
+                csvParser.CommentTokens = new string[] { "#" };
+                csvParser.SetDelimiters(new string[] { "," });
+                csvParser.HasFieldsEnclosedInQuotes = true;
+
+                // Skip the rows with dino name / source
+                csvParser.ReadLine();
+                csvParser.ReadLine();
+                // Read the row with the blueprint
+                string[] loot_ids = csvParser.ReadFields();
+                // Skip the row for special chars
+                csvParser.ReadLine();
+                string[] level_of_bp = csvParser.ReadFields();
+
+                // Read Loot Texts into stringlist
+                var lootTexts = new List<string>();
+                using (var sr = new StreamReader(txtPathFjoGenesis2Loot))
+                {
+                    string line;
+                    while ((line = sr.ReadLine()) != null)
+                    {
+                        lootTexts.Add(line);
+                    }
+                }
+
+                //Divide csv blueprints into subcategories by level
+                List<string> subcategories = GetSubcategoriesByLevel(loot_ids, level_of_bp);
+
+                File.AppendAllText(outputPath, lootTexts[0] + subcategories[0] + lootTexts[1] + "\r\n");
+                File.AppendAllText(outputPath, lootTexts[0] + subcategories[0] + lootTexts[1] + "\r\n");
+                File.AppendAllText(outputPath, lootTexts[2] + subcategories[1] + lootTexts[3] + "\r\n");
+                File.AppendAllText(outputPath, lootTexts[2] + subcategories[1] + lootTexts[3] + "\r\n");
+                File.AppendAllText(outputPath, lootTexts[4] + subcategories[2] + lootTexts[5] + "\r\n");
+                File.AppendAllText(outputPath, lootTexts[4] + subcategories[2] + lootTexts[5] + "\r\n");
+                File.AppendAllText(outputPath, lootTexts[6] + subcategories[3] + lootTexts[7] + "\r\n");
+                File.AppendAllText(outputPath, lootTexts[6] + subcategories[3] + lootTexts[7] + "\r\n");
+                File.AppendAllText(outputPath, lootTexts[8] + subcategories[4] + lootTexts[9] + "\r\n");
+                File.AppendAllText(outputPath, lootTexts[8] + subcategories[4] + lootTexts[9] + "\r\n");
+
+            }
+        }
+
+        public static void AddLootToLootDrop5Split()
+        {
+            using (TextFieldParser csvParser = new TextFieldParser(csvPath))
+            {
+                // Add a subcategory (Item Set Entry) in beacon like this (dummy adobe door with dummy weight, so you can replace that later):
+                // https://imgur.com/trJXySx
+                // Change Min/Max Entry, Loot Quality, Etc there
+                // Alternatively, reuse an existing Item Set Entry
+                // Export to get loot texts
+                // Loot Text is filled by adding blueprint names in " with , inbetween multiple bps --> then -->  ),ItemsWeights=(  --> then --> 10000,10000 for the same amount of blueprints
+                // What comes before and after is stitched back at the end
+
+                // How to use: Split the Item Set Entry at ),ItemsWeights=(; remove ),ItemsWeights=( as well
+
+                csvParser.CommentTokens = new string[] { "#" };
+                csvParser.SetDelimiters(new string[] { "," });
+                csvParser.HasFieldsEnclosedInQuotes = true;
+
+                // Skip the rows with dino name / source
+                csvParser.ReadLine();
+                csvParser.ReadLine();
+                // Read the row with the blueprint
+                string[] loot_ids = csvParser.ReadFields();
+                // Skip the row for special chars
+                csvParser.ReadLine();
+                string[] level_of_bp = csvParser.ReadFields();
+
+                // Read Loot Texts into stringlist
+                var lootTexts = new List<string>();
+                using (var sr = new StreamReader(txtPathFjoGenesis2Loot))
+                {
+                    string line;
+                    while ((line = sr.ReadLine()) != null)
+                    {
+                        lootTexts.Add(line);
+                    }
+                }
+
+                //Divide csv blueprints into subcategories by level
+                List<string> subcategories = GetSubcategoriesByLevel(loot_ids, level_of_bp);
+
+                File.AppendAllText(outputPath, subcategories[0] + "\r\n");
+                File.AppendAllText(outputPath, subcategories[1] + "\r\n");
+                File.AppendAllText(outputPath, subcategories[2] + "\r\n");
+                File.AppendAllText(outputPath, subcategories[3] + "\r\n");
+                File.AppendAllText(outputPath, subcategories[4] + "\r\n");
+            }
+        }
+
+        public static void AddLootToLootDropLevelFjordur()
         {
             using (TextFieldParser csvParser = new TextFieldParser(csvPath))
             {

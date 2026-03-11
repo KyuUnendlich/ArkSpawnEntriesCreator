@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using Microsoft.VisualBasic.FileIO;
 using System.Globalization;
+using static System.Net.Mime.MediaTypeNames;
+using System.Text;
+using System.Xml;
 
 
 namespace ArkSpawnEntriesCreator
@@ -10,31 +13,12 @@ namespace ArkSpawnEntriesCreator
     class Program
     {
         const string Path = "C:/Users/matth/Desktop/ark.txt";
-        
-        const string startTextA = "ConfigAddNPCSpawnEntriesContainer=(NPCSpawnEntriesContainerClassString=\"";
-        const string startTextB = "\",NPCSpawnEntries=(";
-        const string spawnentryA = "(AnEntryName=\"";
-        const string spawnentryB = "\",EntryWeight=";
-        const string spawnentryC = ",NPCsToSpawnStrings=(\"";
-        const string spawnentryD = "\"))";
-        const string comma = ","; //use in front of non-first spawnentries and spawnlimits
-        const string transition = "),NPCSpawnLimits=(";
-        const string spawnlimitA = "(NPCClassString=\"";
-        const string spawnlimitB = "\",MaxPercentageOfDesiredNumToAllow=";
-        const string spawnlimitC = ")";
-        const string ending = "))";
-        
-        const string startReduceA = "ConfigSubtractNPCSpawnEntriesContainer=(NPCSpawnEntriesContainerClassString=\"";
-        const string startReduceB = "\",NPCSpawnEntries=((NPCsToSpawnStrings=(\"";
-        const string reduceLoop1 = "\")),(NPCsToSpawnStrings=(\"";
-        const string reduceTransition = "\"))),NPCSpawnLimits=((NPCClassString=\"";
-        const string reduceLoop2 = "\"),(NPCClassString=\"";
-        const string reduceEnding = "\")))";
-        
+
         static void Main(string[] args)
         {
 
-            //LootDropAddition.AddLootToLootDropLevel();
+            //LootDropAddition.AddLootToLootDropLevelFjordurGenesis2Loots();
+            //LootDropAddition.AddLootToLootDrop5Split();
 
             //CreatureLister.ListCreatures();
 
@@ -42,508 +26,461 @@ namespace ArkSpawnEntriesCreator
             //EngramCleanup.EngramsDateRemover();
             //EngramCleanup.EngramsVanillaRemoverX();
 
-            CreateDinoEntries();
+            //MainASE
+            //ASE_Things.CreateDinoEntries();
 
-            //OldMethod();
-            //OldReduceMethod();
-            //CompareCSVFileEntries();
-            //CompareCSVFileEntriesAllValues();
+            //ASE_Things.OldMethod();
+            //ASE_Things.OldReduceMethod();
+            //ASE_Things.CompareCSVFileEntries();
+            //ASE_Things.CompareCSVFileEntriesAllValues();
 
+            ExtractAdditionalNPCSpawnValues();
         }
 
-        private static void CreateDinoEntries() {
-            var path = @"E:\ARK Saves\ArkSpawnEntriesCreator\ArkSpawnEntries.csv";
-            using (TextFieldParser csvParser = new TextFieldParser(path))
+        private static void ExtractAdditionalNPCSpawnValues()
+        {
+            //Input text is extracted TheNPCSpawnEntriesContainerAdditions from ModDataAsset / PrimalGameData
+
+            const string path = "C:/Users/matth/Desktop/strings.txt";
+            // Open the text file using a stream reader.
+            using StreamReader reader = new(path);
+
+            bool searchingStartAdditions = false;
+
+            File.AppendAllText(Path, "Added Engrams List:");
+            File.AppendAllText(Path, "\r\n");
+
+            //Searching for beginning of additions
+            while (!searchingStartAdditions)
             {
-                csvParser.CommentTokens = new string[] { "#" };
-                csvParser.SetDelimiters(new string[] { "," });
-                csvParser.HasFieldsEnclosedInQuotes = true;
+                string text = reader.ReadLine();
 
-                // Skip the row with the column names
-                csvParser.ReadLine();
-                // Read the row with the blueprint
-                string[] dinoBPs = csvParser.ReadFields();
-                // Skip the rows with the descriptions
-                csvParser.ReadFields();
-                csvParser.ReadFields();
-                csvParser.ReadFields();
-                csvParser.ReadFields();
-                csvParser.ReadFields();
-
-                while (!csvParser.EndOfData)
+                //Write Engram Entries
+                if (text.Contains("BlueprintGeneratedClass'EngramEntry"))
                 {
-                    List<DinoEntry> dinoEntriesAdd = new List<DinoEntry>();
-                    List<string> dinoEntriesRemove = new List<string>();
+                    int first_index = text.LastIndexOf(":") + 39;
+                    int last_index = text.LastIndexOf(",") - 2;
+                    string engramEntry = text.Substring(first_index, last_index - first_index);
 
-                    // Read current line fields, pointer moves to the next line.
-                    string[] entryweightArray = csvParser.ReadFields();
-                    string[] spawnlimitArray = csvParser.ReadFields();
+                    File.AppendAllText(Path, engramEntry);
+                    File.AppendAllText(Path, "\r\n");
+                }
 
-                    string spawnContainer = spawnlimitArray[0];
-                    for (int i = 2; i < entryweightArray.Length; i++)
+                //Searching for beginning of additions
+                if (text.Contains("TheNPCSpawnEntriesContainerAdditions"))
+                {
+                    searchingStartAdditions = true;
+                }
+            }
+
+            bool foundLimitLine = false;
+            bool mainBP = false;
+            bool subBPs = false;
+            bool subBPWeights = false;
+            bool NPCsPercentage = false;
+            bool globalSpawnWeights = false;
+
+            List<SpawnContainer> spawnContainers = new List<SpawnContainer>();
+            int spawnContainerIndex = -1;
+            int currentSpawnEntryinContainer = -1;
+
+            while (!reader.EndOfStream)
+            {
+                string text = reader.ReadLine();
+
+                //Starting New Container
+                if (text.Contains("\"SpawnEntriesContainerClass\":"))
+                {
+                    foundLimitLine = false;
+                    spawnContainerIndex++;
+                    currentSpawnEntryinContainer = -1;
+
+                    int first_index = text.LastIndexOf(":") + 2;
+                    int last_index = text.LastIndexOf(",");
+                    string containerName = text.Substring(first_index, last_index - first_index);
+
+                    spawnContainers.Add(new SpawnContainer(containerName));
+                }
+
+                if (!foundLimitLine)
+                {
+
+                    //Looking for used entry name in Container
+                    if (text.Contains("\"AnEntryName\":"))
                     {
-                        if (!entryweightArray[i].Equals(""))
+                        currentSpawnEntryinContainer++;
+
+                        int first_index = text.LastIndexOf(":") + 1;
+                        int last_index = text.LastIndexOf(",") - 3;
+                        string entryName = text.Substring(first_index + 2, last_index - first_index);
+
+                        spawnContainers[spawnContainerIndex].spawnEntries.Add(new SpawnEntry(entryName));
+                    }
+
+                    //Looking for Main BP
+                    if (text.Contains("NPCsToSpawn"))
+                    {
+                        mainBP = true;
+                    }
+
+                    // MainBP Logic
+                    if (mainBP)
+                    {
+                        if (text.Contains("AssetPathName"))
                         {
-                            if (entryweightArray[i].Equals("x"))
+                            mainBP = false;
+
+                            int first_index = text.LastIndexOf(".") + 1;
+                            int last_index = text.LastIndexOf(",") - 1;
+                            string mainBP_ = text.Substring(first_index, last_index - first_index);
+
+                            spawnContainers[spawnContainerIndex].spawnEntries[currentSpawnEntryinContainer].SetMainBP(mainBP_);
+                        }
+                    }
+
+                    //If there are subclasses for this entry
+                    if (text.Contains("ToClass"))
+                    {
+                        subBPs = true;
+                    }
+
+                    //SubBP Logic
+                    if (subBPs)
+                    {
+                        if (text.Contains("AssetPathName"))
+                        {
+                            int first_index = text.LastIndexOf(".") + 1;
+                            int last_index = text.LastIndexOf(",") - 1;
+                            string subBP = text.Substring(first_index, last_index - first_index);
+
+                            spawnContainers[spawnContainerIndex].spawnEntries[currentSpawnEntryinContainer].AddSubBP(subBP);
+                        }
+
+                        if (text.Contains("\"Weights\":"))
+                        {
+                            subBPWeights = true;
+                        }
+
+                        else if (subBPWeights)
+                        {
+                            if (text.Contains("]"))
                             {
-                                dinoEntriesRemove.Add(dinoBPs[i]);
+                                subBPs = false;
+                                subBPWeights = false;
                             }
                             else
                             {
-                                DinoEntry temp = new DinoEntry(dinoBPs[i], entryweightArray[i], spawnlimitArray[i]);
-                                dinoEntriesAdd.Add(temp);
-
+                                string text_nospaces = text.Replace(" ", "");
+                                spawnContainers[spawnContainerIndex].spawnEntries[currentSpawnEntryinContainer].AddSubBPWeight(text_nospaces);
                             }
                         }
                     }
 
-                    if (dinoEntriesAdd.Count != 0)
+                    //Multiple NPC Logic
+                    if (text.Contains("NPCsToSpawnPercentageChance"))
                     {
-                        // First one is different
-                        string outputText = startTextA + spawnContainer + startTextB;
-
-                        // Next ones can be iterated
-                        for (int i = 0; i < dinoEntriesAdd.Count; i++)
-                        {
-                            if (i != 0)
-                            {
-                                outputText += comma;
-                            }
-
-                            outputText += spawnentryA + dinoEntriesAdd[i].BP + spawnentryB + dinoEntriesAdd[i].entryweight + spawnentryC + dinoEntriesAdd[i].BP + spawnentryD;
-
-                        }
-
-                        //Transition to second block
-                        outputText += transition + spawnlimitA + dinoEntriesAdd[0].BP + spawnlimitB + dinoEntriesAdd[0].spawnlimit + spawnlimitC;
-
-                        // Next ones can be iterated
-                        for (int i = 1; i < dinoEntriesAdd.Count; i++)
-                        {
-                            outputText += comma + spawnlimitA + dinoEntriesAdd[i].BP + spawnlimitB + dinoEntriesAdd[i].spawnlimit + spawnlimitC;
-                        }
-
-                        outputText += ending;
-
-                        File.AppendAllText(Path, outputText);
-                        File.AppendAllText(Path, "\r\n");
+                        NPCsPercentage = true;
                     }
 
-                    if (dinoEntriesRemove.Count != 0)
+                    //Write the Chances for each
+                    else if (NPCsPercentage)
                     {
-                        string outputText = startReduceA;
-                        outputText += spawnContainer;
-                        outputText += startReduceB;
-                        outputText += dinoEntriesRemove[0];
-
-                        for (int i = 1; i < dinoEntriesRemove.Count; i++)
+                        if (text.Contains("]"))
                         {
-                            outputText += reduceLoop1;
-                            outputText += dinoEntriesRemove[i];
+                            NPCsPercentage = false;
                         }
-
-                        outputText += reduceTransition;
-                        outputText += dinoEntriesRemove[0];
-                        for (int i = 1; i < dinoEntriesRemove.Count; i++)
+                        else
                         {
-                            outputText += reduceLoop2;
-                            outputText += dinoEntriesRemove[i];
+                            string text_nospaces = text.Replace(" ", "");
+                            spawnContainers[spawnContainerIndex].spawnEntries[currentSpawnEntryinContainer].SetNPCsAmountChance(text_nospaces);
                         }
-
-                        outputText += reduceEnding;
-
-                        File.AppendAllText(Path, outputText);
-                        File.AppendAllText(Path, "\r\n");
                     }
-                    // End of line, reset Lists
-                }
-            }
-        }
 
-
-        private static void CompareCSVFileEntriesAllValues()
-        {
-            var path = @"G:\ARK Saves\ArkSpawnEntriesCreator\ArkSpawnEntries.csv";
-            var pathComp = @"G:\ARK Saves\ArkSpawnEntriesCreator\ArkSpawnEntriesComp.csv";
-            using (TextFieldParser csvParser = new TextFieldParser(path))
-            using (TextFieldParser csvParserComp = new TextFieldParser(pathComp))
-            {
-                csvParser.CommentTokens = new string[] { "#" };
-                csvParser.SetDelimiters(new string[] { "," });
-                csvParser.HasFieldsEnclosedInQuotes = true;
-
-                csvParserComp.CommentTokens = new string[] { "#" };
-                csvParserComp.SetDelimiters(new string[] { "," });
-                csvParserComp.HasFieldsEnclosedInQuotes = true;
-
-                // Skip the row with the column names
-                csvParser.ReadLine();
-                // Read the row with the blueprint
-                string[] dinoBPs = csvParser.ReadFields();
-                // Skip the rows with the descriptions
-                csvParser.ReadFields();
-                csvParser.ReadFields();
-                csvParser.ReadFields();
-
-                // Skip the row with the column names
-                csvParserComp.ReadLine();
-                // Read the row with the blueprint
-                csvParserComp.ReadFields();
-                // Skip the rows with the descriptions
-                csvParserComp.ReadFields();
-                csvParserComp.ReadFields();
-                csvParserComp.ReadFields();
-
-                while (!csvParser.EndOfData)
-                {
-                    List<DinoEntry> dinoEntriesAdd = new List<DinoEntry>();
-                    List<string> dinoEntriesRemove = new List<string>();
-
-                    // Read current line fields, pointer moves to the next line.
-                    string[] entryweightArray = csvParser.ReadFields();
-                    string[] spawnlimitArray = csvParser.ReadFields();
-
-                    string[] entryweightArrayComp = csvParserComp.ReadFields();
-                    string[] spawnlimitArrayComp = csvParserComp.ReadFields();
-
-                    string spawnContainer = spawnlimitArray[0];
-                    int length = Math.Min(entryweightArrayComp.Length, entryweightArray.Length);
-                    for (int i = 2; i < length; i++)    // smaller one, vanilla unimportant
+                    //Looking for EntryWeight
+                    if (text.Contains("EntryWeight"))
                     {
-                        if (!entryweightArray[i].Equals("") || !entryweightArrayComp[i].Equals(""))
-                        {
-                            if (!entryweightArray[i].Equals(entryweightArrayComp[i]))
-                            {
-                                File.AppendAllText(Path, dinoBPs[i] + "||" + spawnContainer + "||" + spawnlimitArray[i] + "||" + spawnlimitArrayComp[i]);
-                                File.AppendAllText(Path, "\r\n");
-                            }
-                        }
+
+                        int first_index = text.LastIndexOf(":") + 1;
+                        int last_index = text.LastIndexOf(",") - 1;
+                        string entryWeight = text.Substring(first_index + 1, last_index - first_index);
+
+                        spawnContainers[spawnContainerIndex].spawnEntries[currentSpawnEntryinContainer].SetEntryWeight(entryWeight);
                     }
                 }
-            }
-        }
 
-        private static void CompareCSVFileEntries()
-        {
-            var path = @"G:\ARK Saves\ArkSpawnEntriesCreator\Modded.csv";
-            var pathComp = @"G:\ARK Saves\ArkSpawnEntriesCreator\Added.csv";
-            using (TextFieldParser csvParser = new TextFieldParser(path))
-            using (TextFieldParser csvParserComp = new TextFieldParser(pathComp))
-            {
-                csvParser.CommentTokens = new string[] { "#" };
-                csvParser.SetDelimiters(new string[] { "," });
-                csvParser.HasFieldsEnclosedInQuotes = true;
 
-                csvParserComp.CommentTokens = new string[] { "#" };
-                csvParserComp.SetDelimiters(new string[] { "," });
-                csvParserComp.HasFieldsEnclosedInQuotes = true;
-
-                // Skip the row with the column names
-                csvParser.ReadLine();
-                // Read the row with the blueprint
-                string[] dinoBPs = csvParser.ReadFields();
-                // Skip the rows with the descriptions
-                csvParser.ReadFields();
-                csvParser.ReadFields();
-                csvParser.ReadFields();
-                csvParser.ReadFields();
-                csvParser.ReadFields();
-
-                // Skip the row with the column names
-                csvParserComp.ReadLine();
-                // Read the row with the blueprint
-                csvParserComp.ReadFields();
-                // Skip the rows with the descriptions
-                csvParserComp.ReadFields();
-                csvParserComp.ReadFields();
-                csvParserComp.ReadFields();
-                csvParserComp.ReadFields();
-                csvParserComp.ReadFields();
-
-                while (!csvParser.EndOfData)
+                //Starting Limit Part
+                if (text.Contains("AdditionalNPCSpawnLimits"))
                 {
-                    List<DinoEntry> dinoEntriesAdd = new List<DinoEntry>();
-                    List<string> dinoEntriesRemove = new List<string>();
-
-                    // Read current line fields, pointer moves to the next line.
-                    string[] entryweightArray = csvParser.ReadFields();
-                    string[] spawnlimitArray = csvParser.ReadFields();
-
-                    string[] entryweightArrayComp = csvParserComp.ReadFields();
-                    string[] spawnlimitArrayComp = csvParserComp.ReadFields();
-
-                    string spawnContainer = spawnlimitArray[0];
-                    int length = Math.Min(entryweightArrayComp.Length, entryweightArray.Length);
-                    for (int i = 2; i < length; i++)    // smaller one, vanilla unimportant
-                    {
-                        if (!entryweightArray[i].Equals("") && !entryweightArray[i].Equals("r") && !entryweightArrayComp[i].Equals(""))
-                        {
-                             File.AppendAllText(Path, dinoBPs[i]+spawnContainer + "  " + spawnlimitArray[i] + "  " +spawnlimitArrayComp[i]);
-                             File.AppendAllText(Path, "\r\n");
-                        }
-                    }
+                    foundLimitLine = true;
                 }
-            }
-        }
-
-        private static void OldReduceMethod()
-        {
-            const string spawnContainer = "DinoSpawnEntriesSnow_C";
-            const string dino1 = "Yutyrannus_Character_BP_C";
-            const string dino2 = "Ptero_Character_BP_C";
-            
-            string outputText = startReduceA;
-            outputText += spawnContainer;
-            outputText += startReduceB;
-            outputText += dino1;
-            //outputText += reduceLoop1;
-            //outputText += dino2;
-            outputText += reduceTransition;
-            outputText += dino1;
-            //outputText += reduceLoop2;
-            //outputText += dino2;
-            outputText += reduceEnding;
-            
-            File.AppendAllText(Path, outputText);
-            File.AppendAllText(Path, "\r\n");
-        }
-
-        private static void OldMethod()
-        {
-
-            //Change these values as you want new containers
-            const int amount = 3;
-            const string spawnContainer = "DinoSpawnEntriesBeach_C";
-            const string dino1 = "Orolo_Character_BP_C";
-            const string entryweight1 = "0.05";
-            const string maxAllowed1 = "0.015";
-            const string dino2 = "AMonkey_Character_BP_C";
-            const string entryweight2 = "0.03";
-            const string maxAllowed2 = "0.01";
-            const string dino3 = "Zuniceratops_Character_BP_C";
-            const string entryweight3 = "0.1";
-            const string maxAllowed3 = "0.025";
-            const string dino4 = "Brachiosaurus_Character_BP_C";
-            const string entryweight4 = "0.05";
-            const string maxAllowed4 = "0.07";
-
-            string outputText = startTextA;
-            outputText += spawnContainer + startTextB + spawnentryA + dino1 + spawnentryB + entryweight1 + spawnentryC + dino1 + spawnentryD;
-            if (amount >= 2){
-                outputText += comma + spawnentryA + dino2 + spawnentryB + entryweight2 + spawnentryC + dino2 + spawnentryD;
-            }
-            if (amount >= 3)
-            {
-                outputText += comma + spawnentryA + dino3 + spawnentryB + entryweight3 + spawnentryC + dino3 + spawnentryD;
-            }
-            if (amount >= 4)
-            {
-                outputText += comma + spawnentryA + dino4 + spawnentryB + entryweight4 + spawnentryC + dino4 + spawnentryD;
-            }
-            outputText += transition + spawnlimitA + dino1 + spawnlimitB + maxAllowed1 + spawnlimitC;
-            if (amount >= 2)
-            {
-                outputText += comma + spawnlimitA + dino2 + spawnlimitB + maxAllowed2 + spawnlimitC;
-            }
-            if (amount >= 3)
-            {
-                outputText += comma + spawnlimitA + dino3 + spawnlimitB + maxAllowed3 + spawnlimitC;
-            }
-            if (amount >= 4)
-            {
-                outputText += comma + spawnlimitA + dino4 + spawnlimitB + maxAllowed4 + spawnlimitC;
-            }
-            outputText += ending;
 
 
-            File.AppendAllText(Path, outputText);
-            File.AppendAllText(Path, "\r\n");
-        }
-        
-        private static void GroupVariant()
-        {
-            //OldMethod();
-            //OldReduceMethod();
-            //return;
-
-            var path = @"D:\ARK Saves\ArkSpawnEntriesCreator\ArkSpawnEntries.csv";
-            using (TextFieldParser csvParser = new TextFieldParser(path))
-            {
-                csvParser.CommentTokens = new string[] { "#" };
-                csvParser.SetDelimiters(new string[] { "," });
-                csvParser.HasFieldsEnclosedInQuotes = true;
-
-                // Skip the row with the column names
-                csvParser.ReadLine();
-                // Read the row with the blueprint
-                string[] dinoBPs = csvParser.ReadFields();
-                // Skip the row with the descriptions
-                csvParser.ReadFields();
-
-                while (!csvParser.EndOfData)
+                if (foundLimitLine)
                 {
-                    List<DinoEntry> dinoEntriesAdd = new List<DinoEntry>();
-                    List<string> dinoEntriesRemove = new List<string>();
-                    
-                    // Read current line fields, pointer moves to the next line.
-                    string[] entryweightArray = csvParser.ReadFields();
-                    string[] spawnlimitArray = csvParser.ReadFields();
-                    string[] amountChancesArray = csvParser.ReadFields();
-
-                    string spawnContainer = spawnlimitArray[0];
-                    for (int i = 2; i < entryweightArray.Length; i++)    // hardcoded to debug better, change later
+                    if (text.Contains("AssetPathName"))
                     {
-                        if (!entryweightArray[i].Equals(""))
+                        int first_index = text.LastIndexOf(".") + 1;
+                        int last_index = text.LastIndexOf(",") - 1;
+                        string maxPercBP = text.Substring(first_index, last_index - first_index);
+
+                        //Find correct BP
+                        foreach (SpawnEntry spawnEntry in spawnContainers[spawnContainerIndex].spawnEntries)
                         {
-                            if (entryweightArray[i].Equals("r"))
+                            if (spawnEntry.mainBP.Equals(maxPercBP))
                             {
-                                dinoEntriesRemove.Add(dinoBPs[i]);
-                            }
-                            else
-                            {
-                                if (!amountChancesArray[i].Equals(""))
+                                bool maxPercFound = false;
+                                while (!maxPercFound)
                                 {
-                                    string[] amountsArray = amountChancesArray[i].Split(",");
-
-                                    int size = amountsArray.Length;
-
-                                    float entryWeight = float.Parse(entryweightArray[i]);
-                                    
-                                    float twoChance = 0.0f;
-                                    float threeChance = 0.0f;
-                                    float fourChance = 0.0f;
-
-                                    float oneChance = float.Parse(amountsArray[0]);
-
-                                    if (size > 1)
+                                    string text2 = reader.ReadLine();
+                                    if (text2.Contains("MaxPercentageOfDesiredNumToAllow"))
                                     {
-                                        twoChance = float.Parse(amountsArray[1]);
+                                        int first_index2 = text2.LastIndexOf(":") + 2;
+                                        string maxPerc = text2.Substring(first_index2, text2.Length - first_index2);
+                                        spawnEntry.SetmaxPercentage(maxPerc);
+                                        maxPercFound = true;
+                                        break;
                                     }
-
-                                    if (size > 2)
-                                    {
-                                        threeChance = float.Parse(amountsArray[2]);
-                                    }
-
-                                    if (size > 3)
-                                    {
-                                        fourChance = float.Parse(amountsArray[3]);
-                                    }
-
-                                    // variable to reduce entries to actual used values, chances are just proportional;
-                                    // the idea is to have a percentage of creatures normally as entrywight, now with groups of dinos spawning you have a lot more that spawn
-                                    // so you reduce the values so they add up to original dino count
-                                    float amountofDinos = oneChance + 2.0f * twoChance + 3.0f * threeChance +
-                                                          4.0f * fourChance;
-                                    float sumOfChances = oneChance + twoChance + threeChance + fourChance;
-                                    float amountMultipleReducer = sumOfChances / amountofDinos; // this is always <= 1
-                                    oneChance = oneChance / sumOfChances * amountMultipleReducer * entryWeight;
-                                    if (twoChance != 0.0f)
-                                    {
-                                        twoChance = twoChance / sumOfChances * amountMultipleReducer * entryWeight;
-                                    }
-
-                                    if (threeChance != 0.0f)
-                                    {
-                                        threeChance = threeChance / sumOfChances * amountMultipleReducer * entryWeight;
-                                    }
-
-                                    if (fourChance != 0.0f)
-                                    {
-                                        fourChance = fourChance / sumOfChances * amountMultipleReducer * entryWeight;
-                                    }
-
-                                    DinoEntry temp = new DinoEntry(dinoBPs[i], entryweightArray[i], spawnlimitArray[i],
-                                        oneChance.ToString("0.000"), twoChance.ToString("0.000"),
-                                        threeChance.ToString("0.000"), fourChance.ToString("0.000"));
-                                    dinoEntriesAdd.Add(temp);
                                 }
-                                else
-                                {
-                                    DinoEntry temp = new DinoEntry(dinoBPs[i], entryweightArray[i], spawnlimitArray[i]);
-                                    dinoEntriesAdd.Add(temp);
-                                }
-
-
                             }
+
                         }
-                    }
-                    
-                    if (dinoEntriesAdd.Count != 0)
-                    {
-                        // First one is different
-                        string outputText = startTextA + spawnContainer + startTextB;
-                        
-                        // Next ones can be iterated
-                        for (int i = 0; i < dinoEntriesAdd.Count; i++)
+
+
+                        //Cancel out, end reached
+                        if (text.Contains("GlobalNPCRandomSpawnClassWeights"))
                         {
-                            if (i != 0)
-                            {
-                                outputText += comma;
-                            }
-
-                            outputText += spawnentryA + dinoEntriesAdd[i].BP + spawnentryB + dinoEntriesAdd[i].chanceForOne + spawnentryC + dinoEntriesAdd[i].BP + spawnentryD;
-
-                            if (!dinoEntriesAdd[i].chanceForTwo.Equals("0.000"))
-                            {
-                                outputText += comma + spawnentryA + dinoEntriesAdd[i].BP + "2" + spawnentryB + dinoEntriesAdd[i].chanceForTwo + spawnentryC + dinoEntriesAdd[i].BP + "\",\"" + dinoEntriesAdd[i].BP + spawnentryD;
-                            }
-                            if (!dinoEntriesAdd[i].chanceForThree.Equals("0.000"))
-                            {
-                                outputText += comma + spawnentryA + dinoEntriesAdd[i].BP + "3" + spawnentryB + dinoEntriesAdd[i].chanceForThree + spawnentryC + dinoEntriesAdd[i].BP + "\",\"" + dinoEntriesAdd[i].BP + "\",\"" + dinoEntriesAdd[i].BP + spawnentryD;
-                            }
-                            if (!dinoEntriesAdd[i].chanceForFour.Equals("0.000"))
-                            {
-                                outputText += comma + spawnentryA + dinoEntriesAdd[i].BP + "4" + spawnentryB + dinoEntriesAdd[i].chanceForFour + spawnentryC + dinoEntriesAdd[i].BP + "\",\"" + dinoEntriesAdd[i].BP + "\",\"" + dinoEntriesAdd[i].BP + "\",\"" + dinoEntriesAdd[i].BP + spawnentryD;
-                            }
+                            globalSpawnWeights = true;
+                            break;
                         }
 
-                        //Transition to second block
-                        outputText += transition + spawnlimitA + dinoEntriesAdd[0].BP + spawnlimitB + dinoEntriesAdd[0].spawnlimit + spawnlimitC;
-                        
-                        // Next ones can be iterated
-                        for (int i = 1; i < dinoEntriesAdd.Count; i++)
-                        {
-                            outputText += comma + spawnlimitA + dinoEntriesAdd[i].BP + spawnlimitB + dinoEntriesAdd[i].spawnlimit + spawnlimitC;
-                        }
-                        
-                        outputText += ending;
-
-                        File.AppendAllText(Path, outputText);
-                        File.AppendAllText(Path, "\r\n");
                     }
 
-                    if (dinoEntriesRemove.Count != 0)
-                    {
-                        string outputText = startReduceA;
-                        outputText += spawnContainer;
-                        outputText += startReduceB;
-                        outputText += dinoEntriesRemove[0];
-                        
-                        for (int i = 1; i < dinoEntriesRemove.Count; i++)
-                        {
-                            outputText += reduceLoop1;
-                            outputText += dinoEntriesRemove[i];
-                        }
-
-                        outputText += reduceTransition;
-                        outputText += dinoEntriesRemove[0];
-                        for (int i = 1; i < dinoEntriesRemove.Count; i++)
-                        {
-                            outputText += reduceLoop2;
-                            outputText += dinoEntriesRemove[i];
-                        }
-
-                        outputText += reduceEnding;
-                        
-                        File.AppendAllText(Path, outputText);
-                        File.AppendAllText(Path, "\r\n");
-                    }
-                    // End of line, reset Lists
                 }
             }
 
-            
+            bool searchForMainBP = false;
+            bool searchForSubBPs = false;
+            bool searchForSubBPWeights = false;
+            int currentGlobalSpawnEntry = -1;
+
+            List<SpawnEntry> globalEntries = new List<SpawnEntry>();
+
+            while (globalSpawnWeights)
+            {
+                string text = reader.ReadLine();
+
+                if (text.Contains("FromClass"))
+                {
+                    searchForMainBP = true;
+                    searchForSubBPs = false;
+                    currentGlobalSpawnEntry++;
+                }
+
+                if (searchForMainBP)
+                {
+                    if (text.Contains("AssetPathName"))
+                    {
+                        int first_index = text.LastIndexOf(".") + 1;
+                        int last_index = text.LastIndexOf(",") - 1;
+                        string globalMain = text.Substring(first_index, last_index - first_index);
+
+                        SpawnEntry spawnEntry = new SpawnEntry();
+                        spawnEntry.SetMainBP(globalMain);
+
+                        searchForMainBP = false;
+                        searchForSubBPs = true;
+
+                        globalEntries.Add(spawnEntry);
+                    }
+                }
+
+                //SubBP Logic
+                if (searchForSubBPs)
+                {
+                    if (text.Contains("AssetPathName"))
+                    {
+                        int first_index = text.LastIndexOf(".") + 1;
+                        int last_index = text.LastIndexOf(",") - 1;
+                        string subBP = text.Substring(first_index, last_index - first_index);
+
+                        globalEntries[currentGlobalSpawnEntry].AddSubBP(subBP);
+                    }
+
+                    if (text.Contains("\"Weights\":"))
+                    {
+                        searchForSubBPWeights = true;
+                    }
+
+                    else if (searchForSubBPWeights)
+                    {
+                        if (text.Contains("]"))
+                        {
+                            searchForSubBPs = false;
+                            searchForSubBPWeights = false;
+                        }
+                        else
+                        {
+                            string text_nospaces = text.Replace(" ", "");
+                            globalEntries[currentGlobalSpawnEntry].AddSubBPWeight(text_nospaces);
+                        }
+                    }
+                }
+            }
+
+            //DinoAdditionsPrint
+            if (spawnContainers.Count != 0)
+            {
+                File.AppendAllText(Path, "Dino Additions: ");
+                File.AppendAllText(Path, "\r\n");
+                StringBuilder sb = new StringBuilder();
+
+                foreach (SpawnContainer cont in spawnContainers)
+                {
+                    sb.AppendLine("Container Name: " + cont.name);
+                    foreach (SpawnEntry entry in cont.spawnEntries)
+                    {
+                        sb.AppendLine("   Entry Name: " + entry.entryName);
+                        sb.AppendLine("      Main BP: " + entry.mainBP);
+                        sb.AppendLine("      Entry Weight: " + entry.entryWeight);
+                        sb.AppendLine("      Spawn Limit: " + entry.maxPercentage);
+                        sb.AppendLine("      Multi Spawn Chance: " + entry.amountToSpawnChance);
+                        int lengthOfSubBPs = entry.subBPs.Count;
+                        for (int i = 0; i < lengthOfSubBPs; i++)
+                        {
+                            sb.AppendLine("         SubBP: " + entry.subBPs[i] + " " + entry.subBPWeights[i]);
+                        }
+                    }
+                }
+                File.AppendAllText(Path, sb.ToString());
+            }
+
+            //GlobalEntryWeights
+            if (globalEntries.Count != 0)
+            {
+                File.AppendAllText(Path, "Global Entry Weights: ");
+                File.AppendAllText(Path, "\r\n");
+                StringBuilder sb = new StringBuilder();
+                foreach (SpawnEntry entry in globalEntries)
+                {
+                    sb.AppendLine("   Main BP: " + entry.mainBP);
+                    int lengthOfSubBPs = entry.subBPs.Count;
+                    for (int i = 0; i < lengthOfSubBPs; i++)
+                    {
+                        sb.AppendLine("      SubBP: " + entry.subBPs[i] + " " + entry.subBPWeights[i]);
+                    }
+                }
+                File.AppendAllText(Path, sb.ToString());
+            }
+
+        }
+
+        private static void FormatPrehistoricStringsStrings()
+        {
+            //strings from this table https://docs.google.com/spreadsheets/d/13w7AA2Ufcw4Zud9FuOAkNZ70coiuHzc9hvEBzEKgmGo/edit?gid=1123079697#gid=1123079697
+
+            const string path = "C:/Users/matth/Desktop/strings.txt";
+            try
+            {
+                // Open the text file using a stream reader.
+                using StreamReader reader = new(path);
+
+
+                while (!reader.EndOfStream)
+                {
+                    // Read the stream as a string.
+                    string text = reader.ReadLine();
+
+                    int length = text.Length;
+                    int indexStart = text.IndexOf('/');
+                    text = text.Substring(indexStart, length - 27);
+
+                    int indexEnd = text.IndexOf('\'');
+                    text = text.Substring(0, indexEnd);
+
+                    text += "_C";
+
+                    File.AppendAllText(Path, text);
+                    File.AppendAllText(Path, "\r\n");
+                }
+            }
+            catch (IOException e)
+            {
+                Console.WriteLine("The file could not be read:");
+                Console.WriteLine(e.Message);
+            }
+        }
+    }
+
+    public struct SpawnContainer
+    {
+        public List<SpawnEntry> spawnEntries;
+        public string name;
+
+        public SpawnContainer(string name) : this()
+        {
+            this.name = name;
+            this.spawnEntries = new List<SpawnEntry>();
+        }
+    }
+
+    public class SpawnEntry
+    {
+        public string entryName;
+        public string mainBP;
+        public List<string> subBPs;
+        public List<string> subBPWeights;
+        public string amountToSpawnChance;
+        public string entryWeight;
+        public string maxPercentage;
+
+        public SpawnEntry(string entryName)
+        {
+            this.entryName = entryName;
+            this.subBPs = new List<string>();
+            this.subBPWeights = new List<string>();
+            this.mainBP = "";
+            this.amountToSpawnChance = "";
+            this.entryWeight = "";
+            this.maxPercentage = "";
+        }
+
+        public SpawnEntry()
+        {
+            this.entryName = "";
+            this.subBPs = new List<string>();
+            this.subBPWeights = new List<string>();
+            this.mainBP = "";
+            this.amountToSpawnChance = "";
+            this.entryWeight = "";
+            this.maxPercentage = "";
+        }
+
+        public void AddSubBP(string subBP) {
+            this.subBPs.Add(subBP);
+        }
+
+        public void AddSubBPWeight(string subBPweight)
+        {
+            this.subBPWeights.Add(subBPweight);
+        }
+
+        public void SetNPCsAmountChance(string amount)
+        {
+            this.amountToSpawnChance += amount;
+        }
+        public void SetMainBP(string bp)
+        {
+            this.mainBP = bp;
+        }
+        public void SetEntryWeight(string EW)
+        {
+            this.entryWeight = EW;
+        }
+
+        public void SetmaxPercentage(string MP)
+        {
+            this.maxPercentage = MP;
         }
     }
 
@@ -556,7 +493,7 @@ namespace ArkSpawnEntriesCreator
         public string chanceForTwo;
         public string chanceForThree;
         public string chanceForFour;
-        
+
         public DinoEntry(string BP, string entryweight, string spawnlimit, string chanceForOne, string chanceForTwo, string chanceForThree, string chanceForFour)
         {
             this.BP = BP;
@@ -567,7 +504,7 @@ namespace ArkSpawnEntriesCreator
             this.chanceForThree = chanceForThree;
             this.chanceForFour = chanceForFour;
         }
-        
+
         public DinoEntry(string BP, string entryweight, string spawnlimit)
         {
             this.BP = BP;
