@@ -6,6 +6,8 @@ using System.Globalization;
 using static System.Net.Mime.MediaTypeNames;
 using System.Text;
 using System.Xml;
+using System.Linq.Expressions;
+using System.Diagnostics.Tracing;
 
 
 namespace ArkSpawnEntriesCreator
@@ -191,7 +193,7 @@ namespace ArkSpawnEntriesCreator
                         }
                         else
                         {
-                            string text_nospaces = text.Replace(" ", "");
+                            string text_nospaces = text.Replace(" ", "").Replace(",", "-");
                             spawnContainers[spawnContainerIndex].spawnEntries[currentSpawnEntryinContainer].SetNPCsAmountChance(text_nospaces);
                         }
                     }
@@ -381,6 +383,74 @@ namespace ArkSpawnEntriesCreator
                 File.AppendAllText(Path, sb.ToString());
             }
 
+            //MultiParamsSummary
+            if (spawnContainers.Count != 0)
+            {
+                File.AppendAllText(Path, "\r\n");
+                File.AppendAllText(Path, "MultiParams Summary: ");
+                File.AppendAllText(Path, "\r\n");
+                StringBuilder sb = new StringBuilder();
+
+                Dictionary<string, List<string>> perBP_MultiParams = new Dictionary<string, List<string>>();
+                Dictionary<string, List<string>> perBP_EntryWeights = new Dictionary<string, List<string>>();
+                Dictionary<string, List<string>> perBP_SpawnLimits = new Dictionary<string, List<string>>();
+
+                foreach (SpawnContainer cont in spawnContainers)
+                {
+                    foreach (SpawnEntry entry in cont.spawnEntries)
+                    {
+                        perBP_EntryWeights.TryAdd(entry.mainBP, new List<string>());
+                        perBP_SpawnLimits.TryAdd(entry.mainBP, new List<string>());
+                        perBP_MultiParams.TryAdd(entry.mainBP, new List<string>());
+                    }
+                }
+
+                foreach (SpawnContainer cont in spawnContainers)
+                {
+                    foreach (SpawnEntry entry in cont.spawnEntries)
+                    {
+                        perBP_EntryWeights[entry.mainBP].Add(entry.entryWeight);
+                        perBP_SpawnLimits[entry.mainBP].Add(entry.maxPercentage);
+                        perBP_MultiParams[entry.mainBP].Add(entry.amountToSpawnChance);
+                    }
+                }
+
+                var mainBPList = perBP_MultiParams.Keys;
+
+                string[] mainBPArray = new string[mainBPList.Count];
+                mainBPList.CopyTo(mainBPArray, 0);
+
+                HelperFunctions.selectionSort(mainBPArray);
+
+                foreach (string key in mainBPArray)
+                {
+                    sb.AppendLine("   Main BP: " + key);
+
+                    List<string> entryList = perBP_EntryWeights[key];
+                    List<string> limitList = perBP_SpawnLimits[key];
+                    List<string> multiList = perBP_MultiParams[key];
+                    
+                    int amountEntries = entryList.Count;
+                    int amountLimits = limitList.Count;
+                    int amountMultis = multiList.Count;
+
+                    //This shouldnt be possible
+                    if (!amountEntries.Equals(amountLimits) || !amountEntries.Equals(amountMultis)) {
+                        sb.AppendLine("   Error: Different Amount of Values for each List" + amountEntries + " " + amountLimits + " " + amountMultis);
+                        int amountOfEntries = Math.Min(Math.Min(amountEntries, amountMultis), amountLimits);
+                    }
+
+                    for (int i = 0; i < amountEntries; i++)
+                    {
+                        sb.AppendLine("      Entry Weight:                   " + entryList[i]);
+                        sb.AppendLine("      Spawn Limit:                             " + limitList[i]);
+                        sb.AppendLine("      Multi Spawn Chance:                               " + multiList[i]);
+                    }
+                }
+
+                File.AppendAllText(Path, sb.ToString());
+
+            }
         }
 
         private static void FormatPrehistoricStringsStrings()
