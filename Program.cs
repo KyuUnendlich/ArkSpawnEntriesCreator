@@ -604,7 +604,7 @@ namespace ArkSpawnEntriesCreator
         }
 
         //const string Path = "C:/Users/matth/Desktop/Ascended/AtlasFish.txt";
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/Cricosaurus.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/WakSpino.txt";
     }
 
 
