@@ -14,7 +14,6 @@ namespace ArkSpawnEntriesCreator
 {
     class Program
     {
-        const string Path = "C:/Users/matth/Desktop/Ascended/CyrusDrakonis.txt";
 
         static void Main(string[] args)
         {
@@ -47,13 +46,39 @@ namespace ArkSpawnEntriesCreator
             // Open the text file using a stream reader.
             using StreamReader reader = new(path);
 
-            bool searchingStartAdditions = false;
+            bool readingEngramEntries = false;
+            bool readingDinoEntries = false;
+            bool readingDinoAdditions = false;
 
-            File.AppendAllText(Path, "Added Engrams List:");
-            File.AppendAllText(Path, "\r\n");
+            //Whats the first thing to find, EngramEntries, DinoEntries, DinoAdditions
+            while (!reader.EndOfStream && !readingEngramEntries && !readingDinoEntries && !readingDinoAdditions)
+            {
+                string text = reader.ReadLine();
 
-            //Searching for beginning of additions
-            while (!searchingStartAdditions)
+                if (text.Contains("AdditionalEngramBlueprintClasses"))
+                {
+                    readingEngramEntries = true;
+                }
+
+                if (text.Contains("AdditionalDinoEntries"))
+                {
+                    readingEngramEntries = false;
+                    readingDinoEntries = true;
+                }
+
+                if (text.Contains("TheNPCSpawnEntriesContainerAdditions"))
+                {
+                    readingEngramEntries = false;
+                    readingDinoEntries = false;
+                    readingDinoAdditions = true;
+                }
+            }
+
+            StringBuilder sb_engramEntries = new StringBuilder();
+            bool foundEngramEntry = false;
+
+            //Searching through engram entries
+            while (readingEngramEntries && !readingDinoEntries && !reader.EndOfStream)
             {
                 string text = reader.ReadLine();
 
@@ -64,15 +89,65 @@ namespace ArkSpawnEntriesCreator
                     int last_index = text.LastIndexOf(",") - 2;
                     string engramEntry = text.Substring(first_index, last_index - first_index);
 
-                    File.AppendAllText(Path, engramEntry);
-                    File.AppendAllText(Path, "\r\n");
+                    sb_engramEntries.AppendLine("   "+ engramEntry);
+                    foundEngramEntry = true;
+                }
+
+                if (text.Contains("AdditionalDinoEntries")) {
+                    readingDinoEntries = true;
+                    readingEngramEntries = false;
                 }
 
                 //Searching for beginning of additions
                 if (text.Contains("TheNPCSpawnEntriesContainerAdditions"))
                 {
-                    searchingStartAdditions = true;
+                    readingDinoAdditions = true;
+                    readingEngramEntries = false;
                 }
+            }
+
+            if (foundEngramEntry)
+            {
+                File.AppendAllText(Path, "Engram Entries: ");
+                File.AppendAllText(Path, "\r\n");
+                File.AppendAllText(Path, sb_engramEntries.ToString());
+                File.AppendAllText(Path, "\r\n");
+            }
+
+
+            StringBuilder sb_dinoEntries = new StringBuilder();
+            bool foundDinoEntry = false;
+
+            //Searching through dino entries
+            while (readingDinoEntries && !readingDinoAdditions && !reader.EndOfStream)
+            {
+                string text = reader.ReadLine();
+
+                //Write Dino Entries
+                if (text.Contains("BlueprintGeneratedClass'DinoEntry"))
+                {
+                    int first_index = text.LastIndexOf(":") + 37;
+                    int last_index = text.LastIndexOf(",") - 2;
+                    string dinoEntry = text.Substring(first_index, last_index - first_index);
+
+                    sb_dinoEntries.AppendLine("   " + dinoEntry);
+                    foundDinoEntry = true;
+                }
+
+                //Searching for beginning of additions
+                if (text.Contains("TheNPCSpawnEntriesContainerAdditions"))
+                {
+                    readingDinoAdditions = true;
+                    readingDinoEntries = false;
+                }
+            }
+
+            if (foundDinoEntry)
+            {
+                File.AppendAllText(Path, "Dino Entries: ");
+                File.AppendAllText(Path, "\r\n");
+                File.AppendAllText(Path, sb_dinoEntries.ToString());
+                File.AppendAllText(Path, "\r\n");
             }
 
             bool foundLimitLine = false;
@@ -86,7 +161,7 @@ namespace ArkSpawnEntriesCreator
             int spawnContainerIndex = -1;
             int currentSpawnEntryinContainer = -1;
 
-            while (!reader.EndOfStream)
+            while (!reader.EndOfStream && readingDinoAdditions)
             {
                 string text = reader.ReadLine();
 
@@ -339,7 +414,6 @@ namespace ArkSpawnEntriesCreator
             //DinoAdditionsPrint
             if (spawnContainers.Count != 0)
             {
-                File.AppendAllText(Path, "\r\n");
                 File.AppendAllText(Path, "Dino Additions: ");
                 File.AppendAllText(Path, "\r\n");
                 StringBuilder sb = new StringBuilder();
@@ -488,7 +562,7 @@ namespace ArkSpawnEntriesCreator
 
                         if (!subBPString.Equals(""))
                         {
-                            sb.AppendLine("SubBPList " + subBPString);
+                            sb.AppendLine("SubBPList: " + subBPString);
                         }
                     }
                     sb.AppendLine("");
@@ -497,42 +571,36 @@ namespace ArkSpawnEntriesCreator
             }
         }
 
-        private static void FormatPrehistoricStringsStrings()
+        enum Mod
         {
-            //strings from this table https://docs.google.com/spreadsheets/d/13w7AA2Ufcw4Zud9FuOAkNZ70coiuHzc9hvEBzEKgmGo/edit?gid=1123079697#gid=1123079697
+            Prehistoric1,
+            Prehistoric2,
+            Prehistoric3,
+            Prehistoric4,
+            Prehistoric5,
+            CyrusDrakonis,
+            WakSpino,
+            Hatze,
+            ElementalRaptors,
+            Hydrovanta,
+            ShadAtlas,
+            PortsOfAtlas,
+            AtlasReborn,
+            AtlasFish,
+            MoroLivy,
+            MoroGigantophis,
+            SulfurTitan,
+            Edmontonia,
+            Anomalocaris,
+            Cricosaurus,
 
-            const string path = "C:/Users/matth/Desktop/strings.txt";
-            try
-            {
-                // Open the text file using a stream reader.
-                using StreamReader reader = new(path);
 
-
-                while (!reader.EndOfStream)
-                {
-                    // Read the stream as a string.
-                    string text = reader.ReadLine();
-
-                    int length = text.Length;
-                    int indexStart = text.IndexOf('/');
-                    text = text.Substring(indexStart, length - 27);
-
-                    int indexEnd = text.IndexOf('\'');
-                    text = text.Substring(0, indexEnd);
-
-                    text += "_C";
-
-                    File.AppendAllText(Path, text);
-                    File.AppendAllText(Path, "\r\n");
-                }
-            }
-            catch (IOException e)
-            {
-                Console.WriteLine("The file could not be read:");
-                Console.WriteLine(e.Message);
-            }
         }
+
+        //const string Path = "C:/Users/matth/Desktop/Ascended/AtlasFish.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/Prehistoric5.txt";
     }
+
 
     public struct SpawnContainer
     {

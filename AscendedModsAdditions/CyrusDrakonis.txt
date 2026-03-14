@@ -1,0 +1,79 @@
+Engram Entries: 
+   FishBait_C
+   
+Dino Entries: 
+   Drakyros_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Drakyros
+      Main BP: Drakyros_Character_BP_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: DrakyrosNormalMountain
+      Main BP: Drakyros_Character_BP_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: DrakyrosIceDesert
+      Main BP: Drakyros_Character_BP_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: DrakyrosIceextsnow
+      Main BP: Drakyros_Character_BP_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Drakyrosicewyv
+      Main BP: Drakyros_Character_BP_C
+      Entry Weight: 0.047
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: DrakyrosIceDesert
+      Main BP: Drakyros_Character_BP_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
+
+Global Entry Weights: 
+   Main BP: Drakyros_Character_BP_C
+      SubBP: Drakyros_Character_BP_C 0.95
+      SubBP: AlphaDrakyros_Character_BP_C 0.05
+   Main BP: IceJumper_Character_BP_C
+      SubBP: IceJumper_Character_BP_C 0.95
+      SubBP: Drakyros_Character_BP_C 0.05
+   Main BP: Carno_Character_BP_Aberrant_C
+      SubBP: Carno_Character_BP_Aberrant_C 0.92
+      SubBP: AbDrakyros_Character_BP_C 0.08
+   Main BP: Maelizard_Character_BP_C
+      SubBP: Maelizard_Character_BP_C 0.96
+      SubBP: Drakyros_Character_BP_C 0.04
+
+MultiParams Summary: 
+   Main BP: Drakyros_Character_BP_C
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.047
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0
+

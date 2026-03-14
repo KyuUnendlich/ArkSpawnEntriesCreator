@@ -1,0 +1,506 @@
+Engram Entries: 
+   BerryJam_C
+   Saddle_Liraionosaurus_C
+   SpiritOfTheArk_C
+   DilongCollar_C
+   Saddle_Massospondylus_C
+   SweetMelon_Fermented_C
+   Saddle_Dracovenator_C
+   Saddle_Kelenken_C
+   Greeves_Kelenken_C
+   Saddle_Venenosaurus_C
+   Saddle_Hyneria_C
+   SeaKingKibble_C
+   Saddle_Thresher_C
+
+Dino Entries: 
+   Dilong_C
+   Lira_C
+   Scelidosaurus_C
+   Massospondylus_C
+   Dracovenator_C
+   Kelenken_C
+   Venenosaurus_C
+   Hyneria_C
+   Acheroraptor_C
+   Thresher_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Scelidosaurus (1-2)
+      Main BP: Scelidosaurus_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 1.0-0.6
+         SubBP: Scelidosaurus_Character_BP_C 0.9
+         SubBP: Scelidosaurus_Character_BP_Eerie_C 0.1
+Container Name: null
+   Entry Name: Scelidosaurus (1-2)
+      Main BP: Scelidosaurus_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0-0.6
+         SubBP: Scelidosaurus_Character_BP_C 0.9
+         SubBP: Scelidosaurus_Character_BP_Eerie_C 0.1
+Container Name: null
+   Entry Name: Scelidosaurus (1-2)
+      Main BP: Scelidosaurus_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 1.0-0.6
+         SubBP: Scelidosaurus_Character_BP_C 0.9
+         SubBP: Scelidosaurus_Character_BP_Eerie_C 0.1
+   Entry Name: Lira (1-2)
+      Main BP: Lirainosaurus_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0-0.6
+         SubBP: Lirainosaurus_Character_BP_C 0.95
+         SubBP: Lirainosaurus_Character_BP_Bionic_C 0.05
+   Entry Name: Veneno (2)
+      Main BP: Venenosaurus_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Scelidosaurus (1-2)
+      Main BP: Scelidosaurus_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0-0.6
+         SubBP: Scelidosaurus_Character_BP_C 0.9
+         SubBP: Scelidosaurus_Character_BP_Eerie_C 0.1
+   Entry Name: Lira (1-2)
+      Main BP: Lirainosaurus_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.15
+      Multi Spawn Chance: 1.0-0.6
+         SubBP: Lirainosaurus_Character_BP_C 0.95
+         SubBP: Lirainosaurus_Character_BP_Bionic_C 0.05
+   Entry Name: Veneno (2)
+      Main BP: Venenosaurus_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.15
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Dilong (2)
+      Main BP: Dilong_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.35
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Dilong (2)
+      Main BP: Dilong_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Kelenken (2) + Terror Bird (1)
+      Main BP: Kelenken_Character_BP_C
+      Entry Weight: 0.5
+      Spawn Limit: 0.15
+      Multi Spawn Chance: 1.0-0.5-1.0
+Container Name: null
+   Entry Name: Kelenken (2) + Terror Bird (1)
+      Main BP: Kelenken_Character_BP_C
+      Entry Weight: 0.5
+      Spawn Limit: 0.15
+      Multi Spawn Chance: 1.0-0.5-1.0
+Container Name: null
+   Entry Name: Hyneria (1)
+      Main BP: Hyneria_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+   Entry Name: Thresher Shark
+      Main BP: ThresherShark_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.0
+      Multi Spawn Chance: 1.0-0.5-0.25
+Container Name: null
+   Entry Name: Hyneria (1)
+      Main BP: Hyneria_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+   Entry Name: Thresher Shark
+      Main BP: ThresherShark_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.15
+      Multi Spawn Chance: 1.0-0.5-0.25
+Container Name: null
+   Entry Name: Thresher Shark
+      Main BP: ThresherShark_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.3
+      Multi Spawn Chance: 1.0-0.5-0.25
+Container Name: null
+   Entry Name: Thresher Shark
+      Main BP: ThresherShark_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 1.0-0.5-0.25
+Container Name: null
+   Entry Name: Massospondylus
+      Main BP: Massospondylus_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+         SubBP: Massospondylus_Character_BP_C 0.95
+         SubBP: Massospondylus_Character_BP_Eerie_C 0.05
+   Entry Name: Kelenken (2) + Terror Bird (1)
+      Main BP: Kelenken_Character_BP_Scorched_C
+      Entry Weight: 0.5
+      Spawn Limit: 0.15
+      Multi Spawn Chance: 1.0-0.5-1.0
+Container Name: null
+   Entry Name: Dracovenator (1)
+      Main BP: Dracovenator_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+         SubBP: Dracovenator_Character_BP_C 0.95
+         SubBP: MegaDracovenator_Character_BP_C 0.05
+Container Name: null
+   Entry Name: Scelidosaurus (1-2)
+      Main BP: Scelidosaurus_Character_BP_Scorched_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.09
+      Multi Spawn Chance: 1.0-0.6
+         SubBP: Scelidosaurus_Character_BP_Scorched_C 0.9
+         SubBP: Scelidosaurus_Character_BP_Eerie_C 0.1
+   Entry Name: Lira (1-2)
+      Main BP: Lirainosaurus_Character_BP_Scorched_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.09
+      Multi Spawn Chance: 1.0-0.6
+         SubBP: Lirainosaurus_Character_BP_Scorched_C 0.95
+         SubBP: Lirainosaurus_Character_BP_Bionic_C 0.05
+Container Name: null
+   Entry Name: Veneno (2)
+      Main BP: Venenosaurus_Character_BP_Aberrant_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Dilong (2)
+      Main BP: Dilong_Character_BP_Aberrant_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Acheroraptor (1-2)
+      Main BP: Scelidosaurus_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 1.0-0.6
+         SubBP: Scelidosaurus_Character_BP_C 0.9
+         SubBP: Scelidosaurus_Character_BP_Eerie_C 0.1
+   Entry Name: Lira (1-2)
+      Main BP: Lirainosaurus_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.6
+         SubBP: Lirainosaurus_Character_BP_C 0.95
+         SubBP: Lirainosaurus_Character_BP_Bionic_C 0.05
+   Entry Name: Scelidosaurus (1-2)
+      Main BP: Scelidosaurus_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.15
+      Multi Spawn Chance: 1.0-0.6
+         SubBP: Scelidosaurus_Character_BP_C 0.9
+         SubBP: Scelidosaurus_Character_BP_Eerie_C 0.1
+Container Name: null
+   Entry Name: Dilong (2)
+      Main BP: Dilong_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Massospondylus
+      Main BP: Massospondylus_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.07
+      Multi Spawn Chance: 1.0
+         SubBP: Massospondylus_Character_BP_C 0.95
+         SubBP: Massospondylus_Character_BP_Eerie_C 0.05
+   Entry Name: Kelenken (2) + Terror Bird (1)
+      Main BP: Kelenken_Character_BP_Scorched_C
+      Entry Weight: 0.8
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0-0.5-1.0
+   Entry Name: Scelidosaurus (1-2)
+      Main BP: Scelidosaurus_Character_BP_Scorched_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.12
+      Multi Spawn Chance: 1.0-0.6
+         SubBP: Scelidosaurus_Character_BP_Scorched_C 0.9
+         SubBP: Scelidosaurus_Character_BP_Eerie_C 0.1
+Container Name: null
+   Entry Name: Dracovenator (1)
+      Main BP: Dracovenator_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.11
+      Multi Spawn Chance: 1.0
+         SubBP: Dracovenator_Character_BP_C 0.95
+         SubBP: MegaDracovenator_Character_BP_C 0.05
+Container Name: null
+   Entry Name: Scelidosaurus (1-2)
+      Main BP: Scelidosaurus_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.11
+      Multi Spawn Chance: 1.0-0.6
+         SubBP: Scelidosaurus_Character_BP_C 0.9
+         SubBP: Scelidosaurus_Character_BP_Eerie_C 0.1
+Container Name: null
+   Entry Name: Scelidosaurus (1-2)
+      Main BP: Scelidosaurus_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.6
+         SubBP: Scelidosaurus_Character_BP_C 0.9
+         SubBP: Scelidosaurus_Character_BP_Eerie_C 0.1
+   Entry Name: Lira (1-2)
+      Main BP: Lirainosaurus_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 1.0-0.6
+         SubBP: Lirainosaurus_Character_BP_C 0.95
+         SubBP: Lirainosaurus_Character_BP_Bionic_C 0.05
+Container Name: null
+   Entry Name: Veneno (2)
+      Main BP: Venenosaurus_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.07
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Kelenken (2) + Terror Bird (1)
+      Main BP: Kelenken_Character_BP_C
+      Entry Weight: 0.3
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 1.0-0.5-1.0
+Container Name: null
+   Entry Name: Dilong (2)
+      Main BP: Dilong_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Dracovenator (1)
+      Main BP: Dracovenator_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.11
+      Multi Spawn Chance: 1.0
+         SubBP: Dracovenator_Character_BP_C 0.95
+         SubBP: MegaDracovenator_Character_BP_C 0.05
+Container Name: null
+   Entry Name: Scelidosaurus (1-2)
+      Main BP: Scelidosaurus_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.11
+      Multi Spawn Chance: 1.0-0.6
+         SubBP: Scelidosaurus_Character_BP_C 0.9
+         SubBP: Scelidosaurus_Character_BP_Eerie_C 0.1
+Container Name: null
+   Entry Name: Scelidosaurus (1-2)
+      Main BP: Scelidosaurus_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.11
+      Multi Spawn Chance: 1.0-0.6
+         SubBP: Scelidosaurus_Character_BP_C 0.9
+         SubBP: Scelidosaurus_Character_BP_Eerie_C 0.1
+Container Name: null
+   Entry Name: Kelenken (2) + Terror Bird (1)
+      Main BP: Kelenken_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 1.0-0.5-1.0
+
+Global Entry Weights: 
+   Main BP: Massospondylus_Character_BP_C
+      SubBP: Bone_MegaMassospondylus_Character_BP_C 0.05
+      SubBP: Massospondylus_Character_BP_C 0.95
+   Main BP: ThresherShark_Character_BP_C
+      SubBP: ThresherShark_Character_BP_Ghost_C 0.05
+      SubBP: ThresherShark_Character_BP_C 0.95
+
+MultiParams Summary: 
+   Main BP: Dilong_Character_BP_Aberrant_C
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5
+
+   Main BP: Dilong_Character_BP_C
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.35
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               1.0-0.5
+
+   Main BP: Dracovenator_Character_BP_C
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.11
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.11
+      Multi Spawn Chance:                               1.0
+SubBPList: Dracovenator_Character_BP_C: 0.95, MegaDracovenator_Character_BP_C: 0.05
+SubBPList: Dracovenator_Character_BP_C: 0.95, MegaDracovenator_Character_BP_C: 0.05
+SubBPList: Dracovenator_Character_BP_C: 0.95, MegaDracovenator_Character_BP_C: 0.05
+
+   Main BP: Hyneria_Character_BP_C
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+
+   Main BP: Kelenken_Character_BP_C
+      Entry Weight:                   0.5
+      Spawn Limit:                             0.15
+      Multi Spawn Chance:                               1.0-0.5-1.0
+      Entry Weight:                   0.5
+      Spawn Limit:                             0.15
+      Multi Spawn Chance:                               1.0-0.5-1.0
+      Entry Weight:                   0.3
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               1.0-0.5-1.0
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               1.0-0.5-1.0
+
+   Main BP: Kelenken_Character_BP_Scorched_C
+      Entry Weight:                   0.5
+      Spawn Limit:                             0.15
+      Multi Spawn Chance:                               1.0-0.5-1.0
+      Entry Weight:                   0.8
+      Spawn Limit:                             0.06
+      Multi Spawn Chance:                               1.0-0.5-1.0
+
+   Main BP: Lirainosaurus_Character_BP_C
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               1.0-0.6
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.15
+      Multi Spawn Chance:                               1.0-0.6
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.6
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               1.0-0.6
+SubBPList: Lirainosaurus_Character_BP_C: 0.95, Lirainosaurus_Character_BP_Bionic_C: 0.05
+SubBPList: Lirainosaurus_Character_BP_C: 0.95, Lirainosaurus_Character_BP_Bionic_C: 0.05
+SubBPList: Lirainosaurus_Character_BP_C: 0.95, Lirainosaurus_Character_BP_Bionic_C: 0.05
+SubBPList: Lirainosaurus_Character_BP_C: 0.95, Lirainosaurus_Character_BP_Bionic_C: 0.05
+
+   Main BP: Lirainosaurus_Character_BP_Scorched_C
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.09
+      Multi Spawn Chance:                               1.0-0.6
+SubBPList: Lirainosaurus_Character_BP_Scorched_C: 0.95, Lirainosaurus_Character_BP_Bionic_C: 0.05
+
+   Main BP: Massospondylus_Character_BP_C
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.07
+      Multi Spawn Chance:                               1.0
+SubBPList: Massospondylus_Character_BP_C: 0.95, Massospondylus_Character_BP_Eerie_C: 0.05
+SubBPList: Massospondylus_Character_BP_C: 0.95, Massospondylus_Character_BP_Eerie_C: 0.05
+
+   Main BP: Scelidosaurus_Character_BP_C
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               1.0-0.6
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               1.0-0.6
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               1.0-0.6
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               1.0-0.6
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               1.0-0.6
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.15
+      Multi Spawn Chance:                               1.0-0.6
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.11
+      Multi Spawn Chance:                               1.0-0.6
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.6
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.11
+      Multi Spawn Chance:                               1.0-0.6
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.11
+      Multi Spawn Chance:                               1.0-0.6
+SubBPList: Scelidosaurus_Character_BP_C: 0.9, Scelidosaurus_Character_BP_Eerie_C: 0.1
+SubBPList: Scelidosaurus_Character_BP_C: 0.9, Scelidosaurus_Character_BP_Eerie_C: 0.1
+SubBPList: Scelidosaurus_Character_BP_C: 0.9, Scelidosaurus_Character_BP_Eerie_C: 0.1
+SubBPList: Scelidosaurus_Character_BP_C: 0.9, Scelidosaurus_Character_BP_Eerie_C: 0.1
+SubBPList: Scelidosaurus_Character_BP_C: 0.9, Scelidosaurus_Character_BP_Eerie_C: 0.1
+SubBPList: Scelidosaurus_Character_BP_C: 0.9, Scelidosaurus_Character_BP_Eerie_C: 0.1
+SubBPList: Scelidosaurus_Character_BP_C: 0.9, Scelidosaurus_Character_BP_Eerie_C: 0.1
+SubBPList: Scelidosaurus_Character_BP_C: 0.9, Scelidosaurus_Character_BP_Eerie_C: 0.1
+SubBPList: Scelidosaurus_Character_BP_C: 0.9, Scelidosaurus_Character_BP_Eerie_C: 0.1
+SubBPList: Scelidosaurus_Character_BP_C: 0.9, Scelidosaurus_Character_BP_Eerie_C: 0.1
+
+   Main BP: Scelidosaurus_Character_BP_Scorched_C
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.09
+      Multi Spawn Chance:                               1.0-0.6
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.12
+      Multi Spawn Chance:                               1.0-0.6
+SubBPList: Scelidosaurus_Character_BP_Scorched_C: 0.9, Scelidosaurus_Character_BP_Eerie_C: 0.1
+SubBPList: Scelidosaurus_Character_BP_Scorched_C: 0.9, Scelidosaurus_Character_BP_Eerie_C: 0.1
+
+   Main BP: ThresherShark_Character_BP_C
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.0
+      Multi Spawn Chance:                               1.0-0.5-0.25
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.15
+      Multi Spawn Chance:                               1.0-0.5-0.25
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.3
+      Multi Spawn Chance:                               1.0-0.5-0.25
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               1.0-0.5-0.25
+
+   Main BP: Venenosaurus_Character_BP_Aberrant_C
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0-0.5
+
+   Main BP: Venenosaurus_Character_BP_C
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.15
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.07
+      Multi Spawn Chance:                               1.0-0.5
+
