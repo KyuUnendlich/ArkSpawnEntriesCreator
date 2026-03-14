@@ -394,6 +394,8 @@ namespace ArkSpawnEntriesCreator
                 Dictionary<string, List<string>> perBP_MultiParams = new Dictionary<string, List<string>>();
                 Dictionary<string, List<string>> perBP_EntryWeights = new Dictionary<string, List<string>>();
                 Dictionary<string, List<string>> perBP_SpawnLimits = new Dictionary<string, List<string>>();
+                Dictionary<string, List<List<string>>> perBP_SubBPs = new Dictionary<string, List<List<string>>> ();
+                Dictionary<string, List<List<string>>> perBP_SubBPsWeights = new Dictionary<string, List<List<string>>>();
 
                 foreach (SpawnContainer cont in spawnContainers)
                 {
@@ -402,6 +404,9 @@ namespace ArkSpawnEntriesCreator
                         perBP_EntryWeights.TryAdd(entry.mainBP, new List<string>());
                         perBP_SpawnLimits.TryAdd(entry.mainBP, new List<string>());
                         perBP_MultiParams.TryAdd(entry.mainBP, new List<string>());
+                        perBP_SubBPs.TryAdd(entry.mainBP, new List<List<string>> ());
+                        perBP_SubBPsWeights.TryAdd(entry.mainBP, new List<List<string>>());
+
                     }
                 }
 
@@ -412,6 +417,8 @@ namespace ArkSpawnEntriesCreator
                         perBP_EntryWeights[entry.mainBP].Add(entry.entryWeight);
                         perBP_SpawnLimits[entry.mainBP].Add(entry.maxPercentage);
                         perBP_MultiParams[entry.mainBP].Add(entry.amountToSpawnChance);
+                        perBP_SubBPs[entry.mainBP].Add(entry.subBPs);
+                        perBP_SubBPsWeights[entry.mainBP].Add(entry.subBPWeights);
                     }
                 }
 
@@ -429,15 +436,19 @@ namespace ArkSpawnEntriesCreator
                     List<string> entryList = perBP_EntryWeights[key];
                     List<string> limitList = perBP_SpawnLimits[key];
                     List<string> multiList = perBP_MultiParams[key];
-                    
+                    List<List<string>> subBPList = perBP_SubBPs[key];
+                    List<List<string>> subBPWeightList = perBP_SubBPsWeights[key];
+
+
                     int amountEntries = entryList.Count;
                     int amountLimits = limitList.Count;
                     int amountMultis = multiList.Count;
 
                     //This shouldnt be possible
-                    if (!amountEntries.Equals(amountLimits) || !amountEntries.Equals(amountMultis)) {
+                    if (!amountEntries.Equals(amountLimits) || !amountEntries.Equals(amountMultis))
+                    {
                         sb.AppendLine("   Error: Different Amount of Values for each List" + amountEntries + " " + amountLimits + " " + amountMultis);
-                        int amountOfEntries = Math.Min(Math.Min(amountEntries, amountMultis), amountLimits);
+                        amountEntries = Math.Min(Math.Min(amountEntries, amountMultis), amountLimits);
                     }
 
                     for (int i = 0; i < amountEntries; i++)
@@ -446,10 +457,43 @@ namespace ArkSpawnEntriesCreator
                         sb.AppendLine("      Spawn Limit:                             " + limitList[i]);
                         sb.AppendLine("      Multi Spawn Chance:                               " + multiList[i]);
                     }
+
+                    int amountSubBPs = subBPList.Count;
+                    int amountSubBPWeights = subBPWeightList.Count;
+
+                    //This shouldnt be possible
+                    if (!amountSubBPs.Equals(amountSubBPWeights))
+                    {
+                        sb.AppendLine("   Error: Different Amount of Values for each Sub BP List" + amountSubBPs + " " + amountSubBPWeights);
+                        amountSubBPs = Math.Min(amountSubBPs, amountSubBPWeights);
+                    }
+
+                    for (int i = 0; i < amountSubBPs; i++)
+                    {
+
+                        string subBPString = "";
+
+                        List<string> currentSubBPList = subBPList[i];
+                        List<string> currentSubBPWeightList = subBPWeightList[i];
+
+                        for (int j = 0; j < currentSubBPList.Count; j++)
+                        {
+                            if (j != 0)
+                            {
+                                subBPString += ", ";
+                            }
+                            subBPString += currentSubBPList[j] + ": ";
+                            subBPString += currentSubBPWeightList[j];
+                        }
+
+                        if (!subBPString.Equals(""))
+                        {
+                            sb.AppendLine("SubBPList " + subBPString);
+                        }
+                    }
+                    sb.AppendLine("");
                 }
-
                 File.AppendAllText(Path, sb.ToString());
-
             }
         }
 

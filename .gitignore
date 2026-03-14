@@ -270,3 +270,5 @@ bin/Debug/netcoreapp3.1/ArkSpawnEntriesCreator.pdb
 bin/Debug/netcoreapp3.1/ArkSpawnEntriesCreator.exe
 bin/Debug/netcoreapp3.1/ArkSpawnEntriesCreator.dll
 .vs/ArkSpawnEntriesCreator/DesignTimeBuild/.dtbcache.v2
+/bin
+/obj
