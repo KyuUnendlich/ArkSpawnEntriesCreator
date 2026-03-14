@@ -14,7 +14,7 @@ namespace ArkSpawnEntriesCreator
 {
     class Program
     {
-        const string Path = "C:/Users/matth/Desktop/ark.txt";
+        const string Path = "C:/Users/matth/Desktop/Ascended/CyrusDrakonis.txt";
 
         static void Main(string[] args)
         {
@@ -267,7 +267,7 @@ namespace ArkSpawnEntriesCreator
 
             List<SpawnEntry> globalEntries = new List<SpawnEntry>();
 
-            while (globalSpawnWeights)
+            while (globalSpawnWeights && !reader.EndOfStream)
             {
                 string text = reader.ReadLine();
 
@@ -278,7 +278,7 @@ namespace ArkSpawnEntriesCreator
                     currentGlobalSpawnEntry++;
                 }
 
-                //SubBP Logic
+                //Global SubBP Logic 
                 if (searchForSubBPs)
                 {
                     if (text.Contains("AssetPathName"))
@@ -310,7 +310,7 @@ namespace ArkSpawnEntriesCreator
                     }
                 }
 
-                //Main BP Search (lower than SubBP, cause otherwise it would find this line again (and this is an easy fix))
+                //Global Main BP Search (lower than SubBP, cause otherwise it would find this line again (and this is an easy fix))
                 if (searchForMainBP)
                 {
                     if (text.Contains("AssetPathName"))
