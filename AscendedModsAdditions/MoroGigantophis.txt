@@ -1,0 +1,102 @@
+Engram Entries: 
+   MorosGigantophis_BasicSaddle_C
+   Gigantophis_Flute_C
+   Gigantophis_PulseGun_C
+   Gigantophis_PulseGun_Ammo_C
+   Gigantophis_WesternSnakeHat_C
+   Gigantophis_GatlingGun_C
+   Gigantophis_GatlingGun_Ammo_C
+   Gigantophis_SantaHat_C
+   MorosGigantophis_AmmoBelt_C
+   Gigantophis_Dossier_C
+   Gigantophis_ChibiPet_C
+
+Dino Entries: 
+   MorosGigantophis_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: 
+      Main BP: MorosGigantophis_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.0005
+      Multi Spawn Chance: 0.01
+Container Name: null
+   Entry Name: 
+      Main BP: MorosGigantophis_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 1E-06
+      Multi Spawn Chance: 0.001
+Container Name: null
+   Entry Name: 
+      Main BP: MorosGigantophis_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 0.2
+Container Name: null
+   Entry Name: 
+      Main BP: MorosGigantophis_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.005
+      Multi Spawn Chance: 0.7
+Container Name: null
+   Entry Name: 
+      Main BP: MorosGigantophis_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.0005
+      Multi Spawn Chance: 0.04
+Container Name: null
+   Entry Name: 
+      Main BP: MorosGigantophis_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 5E-06
+      Multi Spawn Chance: 0.04
+Container Name: null
+   Entry Name: 
+      Main BP: MorosGigantophis_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.0005
+      Multi Spawn Chance: 0.04
+Container Name: null
+   Entry Name: 
+      Main BP: MorosGigantophis_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.0005
+      Multi Spawn Chance: 0.04
+Container Name: null
+   Entry Name: 
+      Main BP: MorosGigantophis_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.0005
+      Multi Spawn Chance: 0.04
+
+MultiParams Summary: 
+   Main BP: MorosGigantophis_Character_BP_C
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.0005
+      Multi Spawn Chance:                               0.01
+      Entry Weight:                   1.0
+      Spawn Limit:                             1E-06
+      Multi Spawn Chance:                               0.001
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               0.2
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.005
+      Multi Spawn Chance:                               0.7
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.0005
+      Multi Spawn Chance:                               0.04
+      Entry Weight:                   0.1
+      Spawn Limit:                             5E-06
+      Multi Spawn Chance:                               0.04
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.0005
+      Multi Spawn Chance:                               0.04
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.0005
+      Multi Spawn Chance:                               0.04
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.0005
+      Multi Spawn Chance:                               0.04
+

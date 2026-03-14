@@ -1,0 +1,506 @@
+Engram Entries: 
+   ElementalDart_C
+   FA-VAL_C
+   VAL-Tranq_C
+   Pyroraptor_Saddle_C
+   PyroraptorSickle_C
+   ElementalDust_C
+   Weapon_Cryo_ClimbPick_C
+   Cryoraptor_Saddle_C
+   Weapon_VR-BR_C
+   Venoraptor_Saddle_C
+   ElementalArrow_C
+   ElementalDustF_C
+   ElementalDustI_C
+   ElementalDustP_C
+
+Dino Entries: 
+   TAC-Cryoraptor_C
+   TAC-Electroraptor_C
+   TAC-Hydroraptor_C
+   TAC-MasterRaptor_C
+   TAC-Pyroraptor_C
+   TAC-Venoraptor_C
+   TAC-Cryoraptor_Alpha_C
+   TAC-Alpha_Venoraptor_C
+   TAC-Alpha_Pyroraptor_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Container just so it all works
+      Main BP: Pyroraptor_Character_Bp_Child_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: MonsterIsland
+      Main BP: Pyroraptor_Character_Bp_Child_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.3-0.1
+Container Name: null
+   Entry Name: MonsterIsland
+      Main BP: Pyroraptor_Character_Bp_Child_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.3-0.1
+Container Name: null
+   Entry Name: MonsterIsland
+      Main BP: Pyroraptor_Character_Bp_Child_C
+      Entry Weight: 0.0025
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.3-0.1
+Container Name: null
+   Entry Name: MonsterIsland
+      Main BP: Pyroraptor_Character_Bp_Child_C
+      Entry Weight: 0.0025
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.3-0.1
+Container Name: null
+   Entry Name: MonsterIsland
+      Main BP: Pyroraptor_Character_Bp_Child_C
+      Entry Weight: 0.001
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.3-0.1
+Container Name: null
+   Entry Name: MonsterIsland
+      Main BP: Pyroraptor_Character_Bp_Child_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.3-0.1
+Container Name: null
+   Entry Name: MonsterIsland
+      Main BP: Pyroraptor_Character_Bp_Child_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.3-0.1
+Container Name: null
+   Entry Name: MonsterIsland
+      Main BP: Pyroraptor_Character_Bp_Child_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.3-0.1
+Container Name: null
+   Entry Name: MonsterIsland
+      Main BP: Pyroraptor_Character_Bp_Child_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.3-0.1
+Container Name: null
+   Entry Name: MonsterIsland
+      Main BP: Pyroraptor_Character_Bp_Child_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.3-0.1
+Container Name: null
+   Entry Name: MonsterIsland
+      Main BP: Pyroraptor_Character_Bp_Child_C
+      Entry Weight: 0.0005
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.3-0.1
+Container Name: null
+   Entry Name: MonsterIsland
+      Main BP: Pyroraptor_Character_Bp_Child_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.3-0.1
+Container Name: null
+   Entry Name: MonsterIsland
+      Main BP: Pyroraptor_Character_Bp_Child_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.3-0.1
+Container Name: null
+   Entry Name: MonsterIsland
+      Main BP: Pyroraptor_Character_Bp_Child_C
+      Entry Weight: 0.003
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.3-0.1
+Container Name: null
+   Entry Name: MonsterIsland
+      Main BP: Pyroraptor_Character_Bp_Child_C
+      Entry Weight: 0.003
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.3-0.1
+Container Name: null
+   Entry Name: Snow
+      Main BP: Cryoraptor_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.1
+Container Name: null
+   Entry Name: Snow
+      Main BP: Cryoraptor_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.1
+Container Name: null
+   Entry Name: Snow
+      Main BP: Cryoraptor_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.1
+Container Name: null
+   Entry Name: Snow
+      Main BP: Cryoraptor_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.1
+Container Name: null
+   Entry Name: Snow
+      Main BP: Cryoraptor_Character_BP_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.1
+Container Name: null
+   Entry Name: Snow
+      Main BP: Cryoraptor_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.1
+Container Name: null
+   Entry Name: Snow
+      Main BP: Cryoraptor_Character_BP_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.1
+Container Name: null
+   Entry Name: Snow
+      Main BP: Cryoraptor_Character_BP_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.1
+Container Name: null
+   Entry Name: Snow
+      Main BP: Cryoraptor_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.1
+Container Name: null
+   Entry Name: Snow
+      Main BP: Cryoraptor_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.1
+Container Name: null
+   Entry Name: Snow
+      Main BP: Cryoraptor_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.1
+Container Name: null
+   Entry Name: Swamp
+      Main BP: Venoraptor_Character_BP_Child_C
+      Entry Weight: 0.005
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.1
+Container Name: null
+   Entry Name: Swamp
+      Main BP: Venoraptor_Character_BP_Child_C
+      Entry Weight: 0.005
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.1
+Container Name: null
+   Entry Name: Swamp
+      Main BP: Venoraptor_Character_BP_Child_C
+      Entry Weight: 0.005
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.1
+Container Name: null
+   Entry Name: Swamp
+      Main BP: Venoraptor_Character_BP_Child_C
+      Entry Weight: 0.005
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.1
+Container Name: null
+   Entry Name: Swamp
+      Main BP: Venoraptor_Character_BP_Child_C
+      Entry Weight: 0.005
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.1
+Container Name: null
+   Entry Name: Swamp
+      Main BP: Venoraptor_Character_BP_Child_C
+      Entry Weight: 0.005
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.1
+Container Name: null
+   Entry Name: Swamp
+      Main BP: Venoraptor_Character_BP_Child_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.1
+Container Name: null
+   Entry Name: Swamp
+      Main BP: Venoraptor_Character_BP_Child_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.1
+Container Name: null
+   Entry Name: Swamp
+      Main BP: Venoraptor_Character_BP_Child_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.1
+Container Name: null
+   Entry Name: Swamp
+      Main BP: Venoraptor_Character_BP_Child_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.1
+Container Name: null
+   Entry Name: Swamp
+      Main BP: Venoraptor_Character_BP_Child_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.1
+Container Name: null
+   Entry Name: Swamp
+      Main BP: Venoraptor_Character_BP_Child_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.1
+Container Name: null
+   Entry Name: Swamp
+      Main BP: Venoraptor_Character_BP_Child_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.1
+Container Name: null
+   Entry Name: Swamp
+      Main BP: Venoraptor_Character_BP_Child_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.1
+Container Name: null
+   Entry Name: MonsterIsland
+      Main BP: Pyroraptor_Character_Bp_Child_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.3-0.1
+Container Name: null
+   Entry Name: MonsterIsland
+      Main BP: Pyroraptor_Character_Bp_Child_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.3-0.1
+Container Name: null
+   Entry Name: Swamp
+      Main BP: Venoraptor_Character_BP_Child_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.1
+Container Name: null
+   Entry Name: Swamp
+      Main BP: Venoraptor_Character_BP_Child_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.1
+Container Name: null
+   Entry Name: Swamp
+      Main BP: Venoraptor_Character_BP_Child_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.1
+Container Name: null
+   Entry Name: MonsterIsland
+      Main BP: Pyroraptor_Character_Bp_Child_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.3-0.1
+Container Name: null
+   Entry Name: Snow
+      Main BP: Cryoraptor_Character_BP_C
+      Entry Weight: 0.07
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.1
+Container Name: null
+   Entry Name: Snow
+      Main BP: Cryoraptor_Character_BP_C
+      Entry Weight: 0.07
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.1
+Container Name: null
+   Entry Name: Swamp
+      Main BP: Venoraptor_Character_BP_Child_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.1
+Container Name: null
+   Entry Name: Swamp
+      Main BP: Venoraptor_Character_BP_Child_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.1
+
+Global Entry Weights: 
+   Main BP: Pyroraptor_Character_Bp_Child_C
+      SubBP: FireraptorAlpha_Character_Bp_C 2.0
+      SubBP: Pyroraptor_Character_Bp_Child_C 98.0
+   Main BP: Cryoraptor_Character_BP_C
+      SubBP: AlphaIceraptor_Character_BP_C 2.0
+      SubBP: Cryoraptor_Character_BP_C 98.0
+   Main BP: Venoraptor_Character_BP_Child_C
+      SubBP: Alphapoisonraptor_Character_BP_C 2.0
+      SubBP: Venoraptor_Character_BP_Child_C 98.0
+
+MultiParams Summary: 
+   Main BP: Cryoraptor_Character_BP_C
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.1
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.1
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.1
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.1
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.1
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.1
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.1
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.1
+      Entry Weight:                   0.07
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.1
+      Entry Weight:                   0.07
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.1
+
+   Main BP: Pyroraptor_Character_Bp_Child_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.3-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.3-0.1
+      Entry Weight:                   0.0025
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.3-0.1
+      Entry Weight:                   0.0025
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.3-0.1
+      Entry Weight:                   0.001
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.3-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.3-0.1
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.3-0.1
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.3-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.3-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.3-0.1
+      Entry Weight:                   0.0005
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.3-0.1
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.3-0.1
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.3-0.1
+      Entry Weight:                   0.003
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.3-0.1
+      Entry Weight:                   0.003
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.3-0.1
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.3-0.1
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.3-0.1
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.3-0.1
+
+   Main BP: Venoraptor_Character_BP_Child_C
+      Entry Weight:                   0.005
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.1
+      Entry Weight:                   0.005
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.1
+      Entry Weight:                   0.005
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.1
+      Entry Weight:                   0.005
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.1
+      Entry Weight:                   0.005
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.1
+      Entry Weight:                   0.005
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.1
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.1
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.1
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.1
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.1
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.1
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.1
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.1
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.1
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.1
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.1
+

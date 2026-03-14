@@ -1,0 +1,732 @@
+Engram Entries: 
+   Saddle_Atlasuchus_C
+   Saddle_GrandTortugar_C
+   SaddlePlatform_GrandTortugar_C
+   Saddle_Olfend_C
+   Saddle_Ostrich_C
+   Saddle_Seahorse_C
+   Kiln_C
+   BlacksmithForge_C
+   MarineCropPlot_C
+
+Dino Entries: 
+   Atlasuchus_C
+   Jackrabbit_C
+   Olfend_C
+   Ostrich_C
+   Parrot_C
+   Seahorse_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Jackrabbit (2-3)
+      Main BP: Jackrabbit_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.5
+   Entry Name: Ostrich (1-2)
+      Main BP: Ostrich_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.9
+   Entry Name: Parrot (1-2)
+      Main BP: Parrot_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Jackrabbit (2-3)
+      Main BP: Jackrabbit_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.5
+   Entry Name: Ostrich (1-2)
+      Main BP: Ostrich_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.9
+   Entry Name: Parrot (1-2)
+      Main BP: Parrot_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Jackrabbit (2-3)
+      Main BP: Jackrabbit_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.5
+   Entry Name: Parrot (1-2)
+      Main BP: Parrot_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Jackrabbit (2-3)
+      Main BP: Jackrabbit_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.5
+   Entry Name: Parrot (1-2)
+      Main BP: Parrot_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Jackrabbit (2-3)
+      Main BP: Jackrabbit_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.5
+   Entry Name: Olfend (1-2)
+      Main BP: Olfend_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5
+   Entry Name: Ostrich (2-3)
+      Main BP: Ostrich_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.5
+Container Name: null
+   Entry Name: Jackrabbit (2-3)
+      Main BP: Jackrabbit_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.5
+   Entry Name: Olfend (1-2)
+      Main BP: Olfend_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5
+   Entry Name: Ostrich (2-3)
+      Main BP: Ostrich_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.5
+Container Name: null
+   Entry Name: Jackrabbit (2-3)
+      Main BP: Jackrabbit_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.5
+   Entry Name: Olfend (1-2)
+      Main BP: Olfend_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5
+   Entry Name: Ostrich (2-3)
+      Main BP: Ostrich_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.5
+Container Name: null
+   Entry Name: Jackrabbit (2-3)
+      Main BP: Jackrabbit_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.5
+   Entry Name: Olfend (1-2)
+      Main BP: Olfend_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5
+   Entry Name: Ostrich (2-3)
+      Main BP: Ostrich_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.5
+Container Name: null
+   Entry Name: Parrot (1-2)
+      Main BP: Parrot_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.15
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Parrot (1-2)
+      Main BP: Parrot_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.15
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Jackrabbit (2-3)
+      Main BP: Jackrabbit_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.5
+Container Name: null
+   Entry Name: Jackrabbit (2-3)
+      Main BP: Jackrabbit_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.5
+Container Name: null
+   Entry Name: Jackrabbit (2-3)
+      Main BP: Jackrabbit_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.5
+Container Name: null
+   Entry Name: Atlasuchus (1-5)
+      Main BP: Atlasuchus_Character_BP_C
+      Entry Weight: 0.4
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.9-0.9-0.9-0.9
+   Entry Name: Alpha Atlasuchus
+      Main BP: Atlasuchus_Character_BP_Alpha_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Atlasuchus (1-5)
+      Main BP: Atlasuchus_Character_BP_C
+      Entry Weight: 0.4
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.9-0.9-0.9-0.9
+   Entry Name: Alpha Atlasuchus
+      Main BP: Atlasuchus_Character_BP_Alpha_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Grand Tortugar
+      Main BP: GrandTortugar_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Grand Tortugar
+      Main BP: GrandTortugar_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Atlasuchus (1-5)
+      Main BP: Atlasuchus_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.9-0.9-0.9-0.9
+   Entry Name: Alpha Atlasuchus
+      Main BP: Atlasuchus_Character_BP_Alpha_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
+   Entry Name: Grand Tortugar
+      Main BP: GrandTortugar_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Atlasuchus (1-5)
+      Main BP: Atlasuchus_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.9-0.9-0.9
+   Entry Name: Alpha Atlasuchus
+      Main BP: Atlasuchus_Character_BP_Alpha_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
+   Entry Name: Grand Tortugar
+      Main BP: GrandTortugar_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Seahorses
+      Main BP: Seahorse_Character_BP_C
+      Entry Weight: 0.3
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5-0.5
+Container Name: null
+   Entry Name: Seahorses
+      Main BP: Seahorse_Character_BP_C
+      Entry Weight: 0.3
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5-0.5
+Container Name: null
+   Entry Name: Seahorses
+      Main BP: Seahorse_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5-0.5
+Container Name: null
+   Entry Name: Seahorses
+      Main BP: Seahorse_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5-0.5
+Container Name: null
+   Entry Name: Seahorses
+      Main BP: Seahorse_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5-0.5
+Container Name: null
+   Entry Name: Jackrabbit (2-3)
+      Main BP: Jackrabbit_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.5
+   Entry Name: Olfend (2-3)
+      Main BP: Olfend_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.8-0.5
+   Entry Name: Parrot (1-2)
+      Main BP: Parrot_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Jackrabbit (2-3)
+      Main BP: Jackrabbit_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.5
+   Entry Name: Olfend (2-3)
+      Main BP: Olfend_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.8-0.5
+   Entry Name: Ostrich (2-3)
+      Main BP: Ostrich_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.5
+Container Name: null
+   Entry Name: Jackrabbit (2-3)
+      Main BP: Jackrabbit_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.5
+   Entry Name: Olfend (2-3)
+      Main BP: Olfend_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.8-0.5
+   Entry Name: Ostrich (2-3)
+      Main BP: Ostrich_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.5
+Container Name: null
+   Entry Name: Atlasuchus (1-5)
+      Main BP: Atlasuchus_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.9-0.9-0.9-0.9
+   Entry Name: Alpha Atlasuchus
+      Main BP: Atlasuchus_Character_BP_Alpha_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Olfend (1-2)
+      Main BP: Olfend_Character_BP_Aberrant_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Olfend (2-3)
+      Main BP: Olfend_Character_BP_Aberrant_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.8-0.5
+   Entry Name: Atlas Parrot (1-2)
+      Main BP: Parrot_Character_BP_Aberrant_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Grand Tortugar
+      Main BP: GrandTortugar_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Atlas Parrot (1-2)
+      Main BP: Parrot_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Jackrabbit (2-3)
+      Main BP: Jackrabbit_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.5
+   Entry Name: Parrot (1-2)
+      Main BP: Parrot_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Jackrabbit (2-3)
+      Main BP: Jackrabbit_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.5
+Container Name: null
+   Entry Name: Jackrabbit (2-3)
+      Main BP: Jackrabbit_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.5
+Container Name: null
+   Entry Name: Olfend (2-3)
+      Main BP: Olfend_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.8-0.5
+   Entry Name: Parrot (1-2)
+      Main BP: Parrot_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Ostrich (2-3)
+      Main BP: Ostrich_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.5
+Container Name: null
+   Entry Name: Ostrich (2-3)
+      Main BP: Ostrich_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.5
+Container Name: null
+   Entry Name: Grand Tortugar
+      Main BP: GrandTortugar_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Jackrabbit (2-3)
+      Main BP: Jackrabbit_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.5
+   Entry Name: Olfend (2-3)
+      Main BP: Olfend_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5
+   Entry Name: Parrot (1-2)
+      Main BP: Parrot_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Grand Tortugar
+      Main BP: GrandTortugar_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Grand Tortugar
+      Main BP: GrandTortugar_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Atlasuchus (1-5)
+      Main BP: Atlasuchus_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.9-0.9-0.9-0.9
+   Entry Name: Alpha Atlasuchus
+      Main BP: Atlasuchus_Character_BP_Alpha_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Grand Tortugar
+      Main BP: GrandTortugar_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Jackrabbit (2-3)
+      Main BP: Jackrabbit_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.5
+   Entry Name: Olfend (2-3)
+      Main BP: Olfend_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.8-0.5
+   Entry Name: Ostrich (2-3)
+      Main BP: Ostrich_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.5
+
+Global Entry Weights: 
+   Main BP: Jackrabbit_Character_BP_C
+      SubBP: Jackrabbit_Character_BP_C 0.99
+      SubBP: Jackrabbit_Character_Jackalope_BP_C 0.01
+
+MultiParams Summary: 
+   Main BP: Atlasuchus_Character_BP_Alpha_C
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0
+
+   Main BP: Atlasuchus_Character_BP_C
+      Entry Weight:                   0.4
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.9-0.9-0.9-0.9
+      Entry Weight:                   0.4
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.9-0.9-0.9-0.9
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.9-0.9-0.9-0.9
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.9-0.9-0.9
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.9-0.9-0.9-0.9
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.9-0.9-0.9-0.9
+
+   Main BP: GrandTortugar_Character_BP_C
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+
+   Main BP: Jackrabbit_Character_BP_C
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.5
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.5
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.5
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.5
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.5
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.5
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.5
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.5
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.5
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.5
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.5
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.5
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.5
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.5
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.5
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.5
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.5
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.5
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.5
+
+   Main BP: Olfend_Character_BP_Aberrant_C
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.8-0.5
+
+   Main BP: Olfend_Character_BP_C
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.8-0.5
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.8-0.5
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.8-0.5
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.8-0.5
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.8-0.5
+
+   Main BP: Ostrich_Character_BP_C
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.9
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.9
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.5
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.5
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.5
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.5
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.5
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.5
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.5
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.5
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.5
+
+   Main BP: Parrot_Character_BP_Aberrant_C
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5
+
+   Main BP: Parrot_Character_BP_C
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.15
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.15
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5
+
+   Main BP: Seahorse_Character_BP_C
+      Entry Weight:                   0.3
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5-0.5
+      Entry Weight:                   0.3
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5-0.5
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5-0.5
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5-0.5
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5-0.5
+

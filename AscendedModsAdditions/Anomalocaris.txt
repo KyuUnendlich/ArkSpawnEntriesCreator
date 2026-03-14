@@ -1,0 +1,53 @@
+Engram Entries: 
+   AnomalocarisSaddle_C
+   AnomaloCocktail_C
+
+Dino Entries: 
+   AnomaloAA_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Anomalo
+      Main BP: AnomalocarisAA_Character_BP_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Anomalo
+      Main BP: AnomalocarisAA_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.25
+Container Name: null
+   Entry Name: Anomalo
+      Main BP: AnomalocarisAA_Character_BP_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Anomalo
+      Main BP: AnomalocarisAA_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.25
+
+Global Entry Weights: 
+   Main BP: AnomalocarisAA_Character_BP_C
+      SubBP: AnomalocarisAA_Character_BP_C 0.975
+      SubBP: MegaAnomalocarisAA_Character_BP_C 0.025
+
+MultiParams Summary: 
+   Main BP: AnomalocarisAA_Character_BP_C
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.25
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.25
+

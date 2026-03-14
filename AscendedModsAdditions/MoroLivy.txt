@@ -1,0 +1,53 @@
+Engram Entries: 
+   LivyatanCommunicationPad_Moro_C
+   SaddleLivyatanMoro_C
+   BoneSaddleLivyatan_C
+   LivyHideDryingRack_C
+   CraftingBench_Livy_C
+   SaddleLivyatanDefault_C
+   BackPlates_Siege_C
+   Cockpit_Siege_C
+   DriedLivyatanHide_C
+   FishingNets_BoneSaddle_C
+   HeadPlates_Siege_C
+   LeatherPads_LivySaddle_C
+   MetalHelmet_Siege_C
+   MetalPads_Siege_C
+   StomachPlates_Siege_C
+   AlphaLivyHuntingHorn_C
+
+Dino Entries: 
+   Livyatan_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: MorosLivyatan
+      Main BP: Moro_Livyatan_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.5
+Container Name: null
+   Entry Name: MorosLivyatan
+      Main BP: Moro_Livyatan_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.0001
+      Multi Spawn Chance: 0.1
+Container Name: null
+   Entry Name: MorosLivyatan
+      Main BP: Moro_Livyatan_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.0001
+      Multi Spawn Chance: 0.1
+
+MultiParams Summary: 
+   Main BP: Moro_Livyatan_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.5
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.0001
+      Multi Spawn Chance:                               0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.0001
+      Multi Spawn Chance:                               0.1
+

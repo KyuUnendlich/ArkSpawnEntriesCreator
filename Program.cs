@@ -309,14 +309,20 @@ namespace ArkSpawnEntriesCreator
                                 bool maxPercFound = false;
                                 while (!maxPercFound)
                                 {
-                                    string text2 = reader.ReadLine();
-                                    if (text2.Contains("MaxPercentageOfDesiredNumToAllow"))
+                                    if (!reader.EndOfStream)
                                     {
-                                        int first_index2 = text2.LastIndexOf(":") + 2;
-                                        string maxPerc = text2.Substring(first_index2, text2.Length - first_index2);
-                                        spawnEntry.SetmaxPercentage(maxPerc);
+                                        string text2 = reader.ReadLine();
+                                        if (text2.Contains("MaxPercentageOfDesiredNumToAllow"))
+                                        {
+                                            int first_index2 = text2.LastIndexOf(":") + 2;
+                                            string maxPerc = text2.Substring(first_index2, text2.Length - first_index2);
+                                            spawnEntry.SetmaxPercentage(maxPerc);
+                                            maxPercFound = true;
+                                            break;
+                                        }
+                                    }
+                                    else {
                                         maxPercFound = true;
-                                        break;
                                     }
                                 }
                             }
@@ -598,7 +604,7 @@ namespace ArkSpawnEntriesCreator
         }
 
         //const string Path = "C:/Users/matth/Desktop/Ascended/AtlasFish.txt";
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/Prehistoric5.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/Cricosaurus.txt";
     }
 
 
