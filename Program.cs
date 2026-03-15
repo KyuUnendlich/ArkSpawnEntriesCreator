@@ -205,13 +205,13 @@ namespace ArkSpawnEntriesCreator
                     {
                         if (text.Contains("AssetPathName"))
                         {
-                            mainBP = false;
+                            //mainBP = false;
 
                             int first_index = text.LastIndexOf(".") + 1;
                             int last_index = text.LastIndexOf(",") - 1;
                             string mainBP_ = text.Substring(first_index, last_index - first_index);
 
-                            spawnContainers[spawnContainerIndex].spawnEntries[currentSpawnEntryinContainer].SetMainBP(mainBP_);
+                            spawnContainers[spawnContainerIndex].spawnEntries[currentSpawnEntryinContainer].mainBPs.Add(mainBP_);
                         }
                     }
 
@@ -219,6 +219,7 @@ namespace ArkSpawnEntriesCreator
                     if (text.Contains("ToClass"))
                     {
                         subBPs = true;
+                        mainBP = false;
                     }
 
                     //SubBP Logic
@@ -257,6 +258,7 @@ namespace ArkSpawnEntriesCreator
                     if (text.Contains("NPCsToSpawnPercentageChance"))
                     {
                         NPCsPercentage = true;
+                        mainBP = false;
                     }
 
                     //Write the Chances for each
@@ -276,7 +278,6 @@ namespace ArkSpawnEntriesCreator
                     //Looking for EntryWeight
                     if (text.Contains("EntryWeight"))
                     {
-
                         int first_index = text.LastIndexOf(":") + 1;
                         int last_index = text.LastIndexOf(",") - 1;
                         string entryWeight = text.Substring(first_index + 1, last_index - first_index);
@@ -285,13 +286,11 @@ namespace ArkSpawnEntriesCreator
                     }
                 }
 
-
                 //Starting Limit Part
                 if (text.Contains("AdditionalNPCSpawnLimits"))
                 {
                     foundLimitLine = true;
                 }
-
 
                 if (foundLimitLine)
                 {
@@ -304,33 +303,40 @@ namespace ArkSpawnEntriesCreator
                         //Find correct BP
                         foreach (SpawnEntry spawnEntry in spawnContainers[spawnContainerIndex].spawnEntries)
                         {
-                            if (spawnEntry.mainBP.Equals(maxPercBP))
+                            List<string> mainBPList = spawnEntry.mainBPs;
+                            List<string> maxPercentagesList = spawnEntry.maxPercentages;
+                            for (int currentMainBP = 0; currentMainBP < mainBPList.Count; currentMainBP++)
                             {
-                                bool maxPercFound = false;
-                                while (!maxPercFound)
+                                if (mainBPList[currentMainBP].Equals(maxPercBP))
                                 {
-                                    if (!reader.EndOfStream)
+                                    bool maxPercFound = false;
+                                    while (!maxPercFound)
                                     {
-                                        string text2 = reader.ReadLine();
-                                        if (text2.Contains("MaxPercentageOfDesiredNumToAllow"))
+                                        if (!reader.EndOfStream)
                                         {
-                                            int first_index2 = text2.LastIndexOf(":") + 2;
-                                            string maxPerc = text2.Substring(first_index2, text2.Length - first_index2);
-                                            spawnEntry.SetmaxPercentage(maxPerc);
-                                            maxPercFound = true;
-                                            break;
+                                            string text2 = reader.ReadLine();
+                                            if (text2.Contains("MaxPercentageOfDesiredNumToAllow"))
+                                            {
+                                                int first_index2 = text2.LastIndexOf(":") + 2;
+                                                string maxPerc = text2.Substring(first_index2, text2.Length - first_index2);
+                                                maxPercentagesList[currentMainBP] = maxPerc;
+                                                break;
+                                            }
+
+                                            //End of MaxPercentages
+                                            if (text2.Contains("]")) {
+                                                maxPercFound = true;
+                                            }
                                         }
-                                    }
-                                    else {
-                                        maxPercFound = true;
+                                        else
+                                        {
+                                            maxPercFound = true;
+                                        }
                                     }
                                 }
                             }
-
                         }
-
                     }
-
                 }
 
                 //Cancel out, end reached
@@ -401,7 +407,7 @@ namespace ArkSpawnEntriesCreator
                         string globalMain = text.Substring(first_index, last_index - first_index);
 
                         SpawnEntry spawnEntry = new SpawnEntry();
-                        spawnEntry.SetMainBP(globalMain);
+                        spawnEntry.mainBPs.Add(globalMain);
 
                         searchForMainBP = false;
                         searchForSubBPs = true;
@@ -429,15 +435,27 @@ namespace ArkSpawnEntriesCreator
                     sb.AppendLine("Container Name: " + cont.name);
                     foreach (SpawnEntry entry in cont.spawnEntries)
                     {
-                        sb.AppendLine("   Entry Name: " + entry.entryName);
-                        sb.AppendLine("      Main BP: " + entry.mainBP);
-                        sb.AppendLine("      Entry Weight: " + entry.entryWeight);
-                        sb.AppendLine("      Spawn Limit: " + entry.maxPercentage);
-                        sb.AppendLine("      Multi Spawn Chance: " + entry.amountToSpawnChance);
-                        int lengthOfSubBPs = entry.subBPs.Count;
-                        for (int i = 0; i < lengthOfSubBPs; i++)
+                        List<string> mainBPList = entry.mainBPs;
+                        List<string> maxPercentagesList = entry.maxPercentages;
+                        for (int currentMainBP = 0; currentMainBP < mainBPList.Count; currentMainBP++)
                         {
-                            sb.AppendLine("         SubBP: " + entry.subBPs[i] + " " + entry.subBPWeights[i]);
+                            sb.AppendLine("   Entry Name: " + entry.entryName);
+                            sb.AppendLine("      Main BP: " + mainBPList[currentMainBP]);
+                            sb.AppendLine("      Entry Weight: " + entry.entryWeight);
+                            if (currentMainBP < maxPercentagesList.Count)
+                            {
+                                if (maxPercentagesList[currentMainBP].Contains("Default")) {
+                                    sb.AppendLine("      Spawn Limit: " + "Error, wrong BP or couldnt be found");
+                                } else {
+                                    sb.AppendLine("      Spawn Limit: " + maxPercentagesList[currentMainBP]);
+                                } 
+                            }
+                            sb.AppendLine("      Multi Spawn Chance: " + entry.amountToSpawnChance);
+                            int lengthOfSubBPs = entry.subBPs.Count;
+                            for (int currentSubBP = 0; currentSubBP < lengthOfSubBPs; currentSubBP++)
+                            {
+                                sb.AppendLine("         SubBP: " + entry.subBPs[currentSubBP] + " " + entry.subBPWeights[currentSubBP]);
+                            }
                         }
                     }
                 }
@@ -453,7 +471,7 @@ namespace ArkSpawnEntriesCreator
                 StringBuilder sb = new StringBuilder();
                 foreach (SpawnEntry entry in globalEntries)
                 {
-                    sb.AppendLine("   Main BP: " + entry.mainBP);
+                    sb.AppendLine("   Main BP: " + entry.mainBPs[0]);
                     int lengthOfSubBPs = entry.subBPs.Count;
                     for (int i = 0; i < lengthOfSubBPs; i++)
                     {
@@ -481,12 +499,15 @@ namespace ArkSpawnEntriesCreator
                 {
                     foreach (SpawnEntry entry in cont.spawnEntries)
                     {
-                        perBP_EntryWeights.TryAdd(entry.mainBP, new List<string>());
-                        perBP_SpawnLimits.TryAdd(entry.mainBP, new List<string>());
-                        perBP_MultiParams.TryAdd(entry.mainBP, new List<string>());
-                        perBP_SubBPs.TryAdd(entry.mainBP, new List<List<string>> ());
-                        perBP_SubBPsWeights.TryAdd(entry.mainBP, new List<List<string>>());
-
+                        List<string> mainBPList = entry.mainBPs;
+                        for (int i = 0; i < mainBPList.Count; i++)
+                        {
+                            perBP_EntryWeights.TryAdd(mainBPList[i], new List<string>());
+                            perBP_SpawnLimits.TryAdd(mainBPList[i], new List<string>());
+                            perBP_MultiParams.TryAdd(mainBPList[i], new List<string>());
+                            perBP_SubBPs.TryAdd(mainBPList[i], new List<List<string>>());
+                            perBP_SubBPsWeights.TryAdd(mainBPList[i], new List<List<string>>());
+                        }
                     }
                 }
 
@@ -494,18 +515,26 @@ namespace ArkSpawnEntriesCreator
                 {
                     foreach (SpawnEntry entry in cont.spawnEntries)
                     {
-                        perBP_EntryWeights[entry.mainBP].Add(entry.entryWeight);
-                        perBP_SpawnLimits[entry.mainBP].Add(entry.maxPercentage);
-                        perBP_MultiParams[entry.mainBP].Add(entry.amountToSpawnChance);
-                        perBP_SubBPs[entry.mainBP].Add(entry.subBPs);
-                        perBP_SubBPsWeights[entry.mainBP].Add(entry.subBPWeights);
+                        List<string> mainBPList = entry.mainBPs;
+                        List<string> maxPercentagesList = entry.maxPercentages;
+                        for (int i = 0; i < mainBPList.Count; i++)
+                        {
+                            perBP_EntryWeights[mainBPList[i]].Add(entry.entryWeight);
+                            if (i < maxPercentagesList.Count)
+                            {
+                                perBP_SpawnLimits[mainBPList[i]].Add(maxPercentagesList[i]);
+                            }
+                            perBP_MultiParams[mainBPList[i]].Add(entry.amountToSpawnChance);
+                            perBP_SubBPs[mainBPList[i]].Add(entry.subBPs);
+                            perBP_SubBPsWeights[mainBPList[i]].Add(entry.subBPWeights);
+                        }
                     }
                 }
 
-                var mainBPList = perBP_MultiParams.Keys;
+                var listofAllMainBPS = perBP_MultiParams.Keys;
 
-                string[] mainBPArray = new string[mainBPList.Count];
-                mainBPList.CopyTo(mainBPArray, 0);
+                string[] mainBPArray = new string[listofAllMainBPS.Count];
+                listofAllMainBPS.CopyTo(mainBPArray, 0);
 
                 HelperFunctions.selectionSort(mainBPArray);
 
@@ -534,7 +563,14 @@ namespace ArkSpawnEntriesCreator
                     for (int i = 0; i < amountEntries; i++)
                     {
                         sb.AppendLine("      Entry Weight:                   " + entryList[i]);
-                        sb.AppendLine("      Spawn Limit:                             " + limitList[i]);
+                        if (limitList[i].Contains("Default"))
+                        {
+                            sb.AppendLine("      Spawn Limit: " + "             Error, wrong BP or couldnt be found");
+                        }
+                        else
+                        {
+                            sb.AppendLine("      Spawn Limit:                             " + limitList[i]);
+                        }
                         sb.AppendLine("      Multi Spawn Chance:                               " + multiList[i]);
                     }
 
@@ -604,7 +640,7 @@ namespace ArkSpawnEntriesCreator
         }
 
         //const string Path = "C:/Users/matth/Desktop/Ascended/AtlasFish.txt";
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/WakSpino.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/Prehistoric1.txt";
     }
 
 
@@ -623,33 +659,37 @@ namespace ArkSpawnEntriesCreator
     public class SpawnEntry
     {
         public string entryName;
-        public string mainBP;
+        public List<string> mainBPs;
         public List<string> subBPs;
         public List<string> subBPWeights;
         public string amountToSpawnChance;
         public string entryWeight;
-        public string maxPercentage;
+        public List<string> maxPercentages;
 
         public SpawnEntry(string entryName)
         {
             this.entryName = entryName;
-            this.subBPs = new List<string>();
-            this.subBPWeights = new List<string>();
-            this.mainBP = "";
-            this.amountToSpawnChance = "";
-            this.entryWeight = "";
-            this.maxPercentage = "";
+            subBPs = new List<string>();
+            subBPWeights = new List<string>();
+            mainBPs = new List<string>();
+            amountToSpawnChance = "";
+            entryWeight = "";
+            maxPercentages = new List<string> {"Default1", "Default2", "Default3", "Default4", "Default5",
+                "Default6", "Default7", "Default8", "Default9", "Default10", "Default11",
+                "Default12", "Default13", "Default14", "Default15"};
         }
 
         public SpawnEntry()
         {
-            this.entryName = "";
-            this.subBPs = new List<string>();
-            this.subBPWeights = new List<string>();
-            this.mainBP = "";
-            this.amountToSpawnChance = "";
-            this.entryWeight = "";
-            this.maxPercentage = "";
+            entryName = "";
+            subBPs = new List<string>();
+            subBPWeights = new List<string>();
+            mainBPs = new List<string>();
+            amountToSpawnChance = "";
+            entryWeight = "";
+            maxPercentages = new List<string> {"Default1", "Default2", "Default3", "Default4", "Default5", 
+                "Default6", "Default7", "Default8", "Default9", "Default10", "Default11", 
+                "Default12", "Default13", "Default14", "Default15"};
         }
 
         public void AddSubBP(string subBP) {
@@ -665,19 +705,12 @@ namespace ArkSpawnEntriesCreator
         {
             this.amountToSpawnChance += amount;
         }
-        public void SetMainBP(string bp)
-        {
-            this.mainBP = bp;
-        }
+
         public void SetEntryWeight(string EW)
         {
             this.entryWeight = EW;
         }
 
-        public void SetmaxPercentage(string MP)
-        {
-            this.maxPercentage = MP;
-        }
     }
 
     public struct DinoEntry
