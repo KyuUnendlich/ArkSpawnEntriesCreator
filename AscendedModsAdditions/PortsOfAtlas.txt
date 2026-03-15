@@ -5,6 +5,7 @@ Engram Entries:
    Saddle_Olfend_C
    Saddle_Ostrich_C
    Saddle_Seahorse_C
+   Grill_C
    Kiln_C
    BlacksmithForge_C
    MarineCropPlot_C
@@ -16,6 +17,10 @@ Dino Entries:
    Ostrich_C
    Parrot_C
    Seahorse_C
+
+ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT Remaps: 
+   /Game/ASA/Dinos/GrandTortugar/GrandTortugar_Character_BP.GrandTortugar_Character_BP_C
+   /PortsOfAtlas/Creatures/GrandTortugar/GrandTortugar_Character_BP.GrandTortugar_Character_BP_C
 
 Dino Additions: 
 Container Name: null
