@@ -48,6 +48,7 @@ namespace ArkSpawnEntriesCreator
 
             bool readingEngramEntries = false;
             bool readingDinoEntries = false;
+            bool readingRemaps = false;
             bool readingDinoAdditions = false;
 
             //Whats the first thing to find, EngramEntries, DinoEntries, DinoAdditions
@@ -66,10 +67,18 @@ namespace ArkSpawnEntriesCreator
                     readingDinoEntries = true;
                 }
 
+                if (text.Contains("Remap_NPC"))
+                {
+                    readingEngramEntries = false;
+                    readingDinoEntries = false;
+                    readingRemaps = true;
+                }
+
                 if (text.Contains("TheNPCSpawnEntriesContainerAdditions"))
                 {
                     readingEngramEntries = false;
                     readingDinoEntries = false;
+                    readingRemaps = false;
                     readingDinoAdditions = true;
                 }
             }
@@ -78,7 +87,7 @@ namespace ArkSpawnEntriesCreator
             bool foundEngramEntry = false;
 
             //Searching through engram entries
-            while (readingEngramEntries && !readingDinoEntries && !reader.EndOfStream)
+            while (readingEngramEntries && !reader.EndOfStream)
             {
                 string text = reader.ReadLine();
 
@@ -95,6 +104,13 @@ namespace ArkSpawnEntriesCreator
 
                 if (text.Contains("AdditionalDinoEntries")) {
                     readingDinoEntries = true;
+                    readingEngramEntries = false;
+                }
+
+                //Searching for remaps
+                if (text.Contains("Remap_NPC"))
+                {
+                    readingRemaps = true;
                     readingEngramEntries = false;
                 }
 
@@ -119,7 +135,7 @@ namespace ArkSpawnEntriesCreator
             bool foundDinoEntry = false;
 
             //Searching through dino entries
-            while (readingDinoEntries && !readingDinoAdditions && !reader.EndOfStream)
+            while (readingDinoEntries && !reader.EndOfStream)
             {
                 string text = reader.ReadLine();
 
@@ -134,12 +150,20 @@ namespace ArkSpawnEntriesCreator
                     foundDinoEntry = true;
                 }
 
+                //Searching for remaps
+                if (text.Contains("Remap_NPC"))
+                {
+                    readingRemaps = true;
+                    readingDinoEntries = false;
+                }
+
                 //Searching for beginning of additions
                 if (text.Contains("TheNPCSpawnEntriesContainerAdditions"))
                 {
                     readingDinoAdditions = true;
                     readingDinoEntries = false;
                 }
+
             }
 
             if (foundDinoEntry)
@@ -147,6 +171,40 @@ namespace ArkSpawnEntriesCreator
                 File.AppendAllText(Path, "Dino Entries: ");
                 File.AppendAllText(Path, "\r\n");
                 File.AppendAllText(Path, sb_dinoEntries.ToString());
+                File.AppendAllText(Path, "\r\n");
+            }
+
+            StringBuilder sb_remaps = new StringBuilder();
+            bool foundRemaps = false;
+
+            while (!reader.EndOfStream && readingRemaps)
+            {
+                foundRemaps = true;
+                string text = reader.ReadLine();
+
+                //Write Remaps
+                if (text.Contains("AssetPathName"))
+                {
+                    int first_index = 30;
+                    int last_index = text.LastIndexOf(",") - 1;
+                    string remapBP = text.Substring(first_index, last_index - first_index);
+
+                    sb_remaps.AppendLine("   " + remapBP);
+                }
+
+                //Searching for beginning of additions
+                if (text.Contains("TheNPCSpawnEntriesContainerAdditions"))
+                {
+                    readingRemaps = false;
+                    readingDinoAdditions = true;
+                }
+            }
+
+            if (foundRemaps)
+            {
+                File.AppendAllText(Path, "ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT Remaps: ");
+                File.AppendAllText(Path, "\r\n");
+                File.AppendAllText(Path, sb_remaps.ToString());
                 File.AppendAllText(Path, "\r\n");
             }
 
@@ -160,6 +218,7 @@ namespace ArkSpawnEntriesCreator
             List<SpawnContainer> spawnContainers = new List<SpawnContainer>();
             int spawnContainerIndex = -1;
             int currentSpawnEntryinContainer = -1;
+
 
             while (!reader.EndOfStream && readingDinoAdditions)
             {
@@ -603,8 +662,10 @@ namespace ArkSpawnEntriesCreator
 
         }
 
+        //There is now a branch (multi-main-bp) for Mods that have one addition per container with multiple different dinos
+
         //const string Path = "C:/Users/matth/Desktop/Ascended/AtlasFish.txt";
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/WakSpino.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/PortsOfAtlas.txt";
     }
 
 
