@@ -42,6 +42,10 @@ namespace ArkSpawnEntriesCreator
         {
             //Input text is extracted TheNPCSpawnEntriesContainerAdditions from ModDataAsset / PrimalGameData
 
+            if (replaceFile) {
+                File.Delete(Path);
+            }
+
             const string path = "C:/Users/matth/Desktop/strings.txt";
             // Open the text file using a stream reader.
             using StreamReader reader = new(path);
@@ -665,7 +669,8 @@ namespace ArkSpawnEntriesCreator
         //There is now a branch (multi-main-bp) for Mods that have one addition per container with multiple different dinos
 
         //const string Path = "C:/Users/matth/Desktop/Ascended/AtlasFish.txt";
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/PortsOfAtlas.txt";
+        const bool replaceFile = true;
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/ShadAtlas.txt";
     }
 
 
