@@ -98,7 +98,7 @@ namespace ArkSpawnEntriesCreator
                 //Write Engram Entries
                 if (text.Contains("BlueprintGeneratedClass'EngramEntry"))
                 {
-                    int first_index = text.LastIndexOf(":") + 39;
+                    int first_index = text.LastIndexOf(":") + 27;
                     int last_index = text.LastIndexOf(",") - 2;
                     string engramEntry = text.Substring(first_index, last_index - first_index);
 
@@ -651,7 +651,7 @@ namespace ArkSpawnEntriesCreator
             WakSpino,
             Hatze,
             ElementalRaptors,
-            Hydrovanta,
+            MoroHydrovanta,
             ShadAtlas,
             PortsOfAtlas,
             AtlasReborn,
@@ -670,7 +670,7 @@ namespace ArkSpawnEntriesCreator
 
         //const string Path = "C:/Users/matth/Desktop/Ascended/AtlasFish.txt";
         const bool replaceFile = true;
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/ShadAtlas.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/MoroHydrovanta.txt";
     }
 
 

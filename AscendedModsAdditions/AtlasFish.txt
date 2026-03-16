@@ -4,3 +4,38 @@ Dino Entries:
    Istiophorus_C
    Thunnus_C
    Anguilla_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Marlin
+      Main BP: Istiophorus_Character_BP_C
+      Entry Weight: 0.5
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Eel
+      Main BP: Anguilla_Character_BP_C
+      Entry Weight: 0.33
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Marlin
+      Main BP: Istiophorus_Character_BP_C
+      Entry Weight: 0.4
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+
+MultiParams Summary: 
+   Main BP: Anguilla_Character_BP_C
+      Entry Weight:                   0.33
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               1.0
+
+   Main BP: Istiophorus_Character_BP_C
+      Entry Weight:                   0.5
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.4
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+

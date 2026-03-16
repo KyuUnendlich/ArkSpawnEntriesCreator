@@ -1,6 +1,6 @@
 Engram Entries: 
-   EdmontoniaSaddle_C
-   EdFlamethrowerSaddle_C
+   EngramEntry_EdmontoniaSaddle_C
+   EngramEntry_EdFlamethrowerSaddle_C
 
 Dino Entries: 
    EdmontoniaAA_C

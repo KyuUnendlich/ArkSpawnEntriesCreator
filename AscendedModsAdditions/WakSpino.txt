@@ -1,9 +1,9 @@
 Engram Entries: 
-   Saddle_Wak_Spino_C
-   FishSoup_C
-   Saddle_Wak_Spino_Flag_C
-   Chibi_Wak_Spino_C
-   Chibi_SE_Wak_Spino_C
+   EngramEntry_Saddle_Wak_Spino_C
+   EngramEntry_FishSoup_C
+   EngramEntry_Saddle_Wak_Spino_Flag_C
+   EngramEntry_Chibi_Wak_Spino_C
+   EngramEntry_Chibi_SE_Wak_Spino_C
 
 Dino Entries: 
    Wak_Spino_C

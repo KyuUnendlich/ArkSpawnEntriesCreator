@@ -1,5 +1,5 @@
 Engram Entries: 
-   FishBait_C
+   EngramEntry_FishBait_C
    
 Dino Entries: 
    Drakyros_C
