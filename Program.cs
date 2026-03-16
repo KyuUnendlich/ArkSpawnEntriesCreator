@@ -642,7 +642,7 @@ namespace ArkSpawnEntriesCreator
 
         enum Mod
         {
-            Prehistoric1,
+            Prehistoric1, //Beasts
             Prehistoric2,
             Prehistoric3,
             Prehistoric4,
@@ -650,18 +650,18 @@ namespace ArkSpawnEntriesCreator
             CyrusDrakonis,
             WakSpino,
             Hatze,
-            ElementalRaptors,
-            MoroHydrovanta,
+            ElementalRaptors, //TAC_FireAndIce
+            MoroHydrovanta, //Hydrovanta
             ShadAtlas,
             PortsOfAtlas,
             AtlasReborn,
             AtlasFish,
             MoroLivy,
             MoroGigantophis,
-            SulfurTitan,
+            SulfurTitan, //TitanSulfur
             Edmontonia,
-            Anomalocaris,
-            Cricosaurus,
+            Anomalocaris, //AA_Anomalo
+            Cricosaurus, //AA_Crico
 
 
         }
@@ -670,7 +670,7 @@ namespace ArkSpawnEntriesCreator
 
         //const string Path = "C:/Users/matth/Desktop/Ascended/AtlasFish.txt";
         const bool replaceFile = true;
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/MoroHydrovanta.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/Hatze.txt";
     }
 
 
