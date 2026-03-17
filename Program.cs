@@ -183,28 +183,30 @@ namespace ArkSpawnEntriesCreator
             StringBuilder sb_remaps = new StringBuilder();
             bool foundRemaps = false;
 
+            bool fromPart = false;
+            bool toPart = false;
+            bool weights = false;
+            string weightsTemp = "";
+
             while (!reader.EndOfStream && readingRemaps)
             {
                 foundRemaps = true;
+
                 string text = reader.ReadLine();
-                bool fromPart = false;
-                bool toPart = false;
-                bool weights = false;
-                string weightsTemp = "";
 
                 if (text.Contains("FromClass"))
                 {
                     sb_remaps.AppendLine("      ");
                     fromPart = true;
                     toPart = false;
-                    sb_remaps.AppendLine("From Class: ");
+                    sb_remaps.AppendLine("FromClass: ");
                 }
 
                 if (text.Contains("ToClass"))
                 {
                     fromPart = false;
                     toPart = true;
-                    sb_remaps.AppendLine("To Class: ");
+                    sb_remaps.AppendLine("ToClass: ");
                 }
 
                 if (weights)
@@ -701,10 +703,11 @@ namespace ArkSpawnEntriesCreator
                 string path2 = "E:/ARK Saves/ArkSpawnEntriesCreator/strings2.txt";
                 using StreamReader reader_remaps = new(path2);
                 StringBuilder sb_remapsAdditional = new StringBuilder();
-                bool fromPart = false;
-                bool toPart = false;
-                bool weights = false;
-                string weightsTemp = "";
+
+                fromPart = false;
+                toPart = false;
+                fromPart = false;
+                weightsTemp = "";
 
                 while (!reader_remaps.EndOfStream)
                 {
@@ -810,7 +813,7 @@ namespace ArkSpawnEntriesCreator
         //const string Path = "C:/Users/matth/Desktop/Ascended/AtlasFish.txt";
         const bool replaceFile = true;
         const bool secondString2 = false;
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/PaleoApexPredators.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/PaleoDangerousDepths.txt";
     }
 
 
