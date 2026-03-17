@@ -1,0 +1,1256 @@
+[
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "PA_SpawnControl_AP_CCA_C",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Properties": {
+      "bHasCookedComponentInstancingData": true,
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'PA_SpawnControl_AP_CCA_C:SimpleConstructionScript_1'",
+        "ObjectPath": "/PA_EVO_Pack_01/SharedBPs/SpawnBlueprints/PA_SpawnControl_AP_CCA.8"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'PA_SpawnControl_AP_CCA_C:ExecuteUbergraph_PA_SpawnControl_AP_CCA'",
+        "ObjectPath": "/PA_EVO_Pack_01/SharedBPs/SpawnBlueprints/PA_SpawnControl_AP_CCA.3"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'SaveGameActorTickable'",
+      "ObjectPath": "/Script/ShooterGame"
+    },
+    "Children": [
+      {
+        "ObjectName": "Function'PA_SpawnControl_AP_CCA_C:EditSpawners'",
+        "ObjectPath": "/PA_EVO_Pack_01/SharedBPs/SpawnBlueprints/PA_SpawnControl_AP_CCA.2"
+      },
+      {
+        "ObjectName": "Function'PA_SpawnControl_AP_CCA_C:BPPreInitializeComponents'",
+        "ObjectPath": "/PA_EVO_Pack_01/SharedBPs/SpawnBlueprints/PA_SpawnControl_AP_CCA.1"
+      },
+      {
+        "ObjectName": "Function'PA_SpawnControl_AP_CCA_C:ExecuteUbergraph_PA_SpawnControl_AP_CCA'",
+        "ObjectPath": "/PA_EVO_Pack_01/SharedBPs/SpawnBlueprints/PA_SpawnControl_AP_CCA.3"
+      }
+    ],
+    "ChildProperties": [
+      {
+        "Type": "StructProperty",
+        "Name": "UberGraphFrame",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Transient | DuplicateTransient",
+        "Struct": {
+          "ObjectName": "Class'PointerToUberGraphFrame'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "StasisComponent",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 8,
+        "PropertyFlags": "BlueprintVisible | InstancedReference | NonTransactional",
+        "PropertyClass": {
+          "ObjectName": "Class'SphereComponent'",
+          "ObjectPath": "/Script/Engine"
+        }
+      },
+      {
+        "Type": "SoftClassProperty",
+        "Name": "RexSpawner",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 48,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "PropertyClass": {
+          "ObjectName": "Class'Class'",
+          "ObjectPath": "/Script/CoreUObject"
+        },
+        "MetaClass": {
+          "ObjectName": "Class'NPCSpawnEntriesContainer'",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "RexClass",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Inner": {
+          "Type": "SoftClassProperty",
+          "Name": "RexClass",
+          "Flags": "RF_Public",
+          "ElementSize": 48,
+          "PropertyClass": {
+            "ObjectName": "Class'Class'",
+            "ObjectPath": "/Script/CoreUObject"
+          },
+          "MetaClass": {
+            "ObjectName": "Class'PrimalDinoCharacter'",
+            "ObjectPath": "/Script/ShooterGame"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "RemapAdditions",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "RemapAdditions",
+          "Flags": "RF_Public",
+          "ElementSize": 120,
+          "Struct": {
+            "ObjectName": "UserDefinedStruct'Struct_Remaps_PA_AP'",
+            "ObjectPath": "/PA_EVO_Pack_01/SharedBPs/SpawnBlueprints/Struct_Remaps_PA_AP.0"
+          }
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "bAddedRemap",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 1,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "RandomReplacements",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "RandomReplacements",
+          "Flags": "RF_Public",
+          "ElementSize": 96,
+          "Struct": {
+            "ObjectName": "Class'ClassRemappingWeight'",
+            "ObjectPath": "/Script/ShooterGame"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "TekReplacements",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Inner": {
+          "Type": "StructProperty",
+          "Name": "TekReplacements",
+          "Flags": "RF_Public",
+          "ElementSize": 96,
+          "Struct": {
+            "ObjectName": "Class'ClassRemappingWeight'",
+            "ObjectPath": "/Script/ShooterGame"
+          }
+        }
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "TekSpawnMaps",
+        "Flags": "RF_Public | RF_LoadCompleted",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+        "Inner": {
+          "Type": "StrProperty",
+          "Name": "TekSpawnMaps",
+          "Flags": "RF_Public",
+          "ElementSize": 16
+        }
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_PA_SpawnControl_AP_CCA": {
+        "ObjectName": "Function'PA_SpawnControl_AP_CCA_C:ExecuteUbergraph_PA_SpawnControl_AP_CCA'",
+        "ObjectPath": "/PA_EVO_Pack_01/SharedBPs/SpawnBlueprints/PA_SpawnControl_AP_CCA.3"
+      },
+      "BPPreInitializeComponents": {
+        "ObjectName": "Function'PA_SpawnControl_AP_CCA_C:BPPreInitializeComponents'",
+        "ObjectPath": "/PA_EVO_Pack_01/SharedBPs/SpawnBlueprints/PA_SpawnControl_AP_CCA.1"
+      },
+      "EditSpawners": {
+        "ObjectName": "Function'PA_SpawnControl_AP_CCA_C:EditSpawners'",
+        "ObjectPath": "/PA_EVO_Pack_01/SharedBPs/SpawnBlueprints/PA_SpawnControl_AP_CCA.2"
+      }
+    },
+    "ClassFlags": "CLASS_Config | CLASS_ReplicationDataIsSetUp | CLASS_CompiledFromBlueprint | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "PA_SpawnControl_AP_CCA_C'Default__PA_SpawnControl_AP_CCA_C'",
+      "ObjectPath": "/PA_EVO_Pack_01/SharedBPs/SpawnBlueprints/PA_SpawnControl_AP_CCA.4"
+    },
+    "EditorTags": {
+      "BlueprintType": "BPTYPE_Normal"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "BPPreInitializeComponents",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'PA_SpawnControl_AP_CCA_C'",
+      "ObjectPath": "/PA_EVO_Pack_01/SharedBPs/SpawnBlueprints/PA_SpawnControl_AP_CCA.0"
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'PrimalActor:BPPreInitializeComponents'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "EditSpawners",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'PA_SpawnControl_AP_CCA_C'",
+      "ObjectPath": "/PA_EVO_Pack_01/SharedBPs/SpawnBlueprints/PA_SpawnControl_AP_CCA.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "ArrayProperty",
+        "Name": "ZoneVolumeRefs",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnTemplate",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "ZoneVolumeRefs",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'NPCZoneVolume'",
+            "ObjectPath": "/Script/ShooterGame"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'NPCZoneVolume'",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ArrayProperty",
+        "Name": "CallFunc_GetAllActorsOfClass_OutActors",
+        "Flags": "RF_Public",
+        "ElementSize": 16,
+        "PropertyFlags": "ReferenceParm",
+        "Inner": {
+          "Type": "ObjectProperty",
+          "Name": "CallFunc_GetAllActorsOfClass_OutActors",
+          "Flags": "RF_Public",
+          "ElementSize": 8,
+          "PropertyClass": {
+            "ObjectName": "Class'NPCZoneManager'",
+            "ObjectPath": "/Script/ShooterGame"
+          }
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'NPCZoneManager'",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_Array_Get_Item_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'NPCZoneVolume'",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Add_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_3",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_NotEqual_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_SoftClassReference_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_HasDefaults | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_PA_SpawnControl_AP_CCA",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'Function'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'PA_SpawnControl_AP_CCA_C'",
+      "ObjectPath": "/PA_EVO_Pack_01/SharedBPs/SpawnBlueprints/PA_SpawnControl_AP_CCA.0"
+    },
+    "ChildProperties": [
+      {
+        "Type": "IntProperty",
+        "Name": "EntryPoint",
+        "Flags": "RF_Public",
+        "ElementSize": 4,
+        "PropertyFlags": "BlueprintVisible | BlueprintReadOnly | Parm"
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_BPGetGameData_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'PrimalGameData'",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Array_Index_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_BPGetGameData_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'PrimalGameData'",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "Temp_int_Loop_Counter_Variable_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Add_IntInt_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_BPGetPrimaryMapName_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Array_Get_Item",
+        "Flags": "RF_Public",
+        "ElementSize": 120,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'Struct_Remaps_PA_AP'",
+          "ObjectPath": "/PA_EVO_Pack_01/SharedBPs/SpawnBlueprints/Struct_Remaps_PA_AP.0"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "CallFunc_Array_Get_Item_1",
+        "Flags": "RF_Public",
+        "ElementSize": 112,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'Struct_MapRemapBindings_PA_AP'",
+          "ObjectPath": "/PA_EVO_Pack_01/SharedBPs/SpawnBlueprints/Struct_MapRemapBindings_PA_AP.0"
+        }
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Less_IntInt_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_StriStri_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "IntProperty",
+        "Name": "CallFunc_Array_Length_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 4
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_EqualEqual_IntInt_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      },
+      {
+        "Type": "StructProperty",
+        "Name": "K2Node_MakeStruct_Struct_Remaps_PA_AP",
+        "Flags": "RF_Public",
+        "ElementSize": 120,
+        "Struct": {
+          "ObjectName": "UserDefinedStruct'Struct_Remaps_PA_AP'",
+          "ObjectPath": "/PA_EVO_Pack_01/SharedBPs/SpawnBlueprints/Struct_Remaps_PA_AP.0"
+        }
+      },
+      {
+        "Type": "ObjectProperty",
+        "Name": "CallFunc_BPGetGameData_ReturnValue_2",
+        "Flags": "RF_Public",
+        "ElementSize": 8,
+        "PropertyClass": {
+          "ObjectName": "Class'PrimalGameData'",
+          "ObjectPath": "/Script/ShooterGame"
+        }
+      },
+      {
+        "Type": "StrProperty",
+        "Name": "CallFunc_BPGetPrimaryMapName_ReturnValue_1",
+        "Flags": "RF_Public",
+        "ElementSize": 16
+      },
+      {
+        "Type": "BoolProperty",
+        "Name": "CallFunc_Array_Contains_ReturnValue",
+        "Flags": "RF_Public",
+        "ElementSize": 1,
+        "FieldSize": 1,
+        "ByteOffset": 0,
+        "ByteMask": 1,
+        "FieldMask": 255,
+        "BoolSize": 1,
+        "bIsNativeBool": true
+      }
+    ],
+    "FunctionFlags": "FUNC_Final | FUNC_UbergraphFunction | FUNC_HasDefaults"
+  },
+  {
+    "Type": "PA_SpawnControl_AP_CCA_C",
+    "Name": "Default__PA_SpawnControl_AP_CCA_C",
+    "Flags": "RF_Public | RF_Transactional | RF_ClassDefaultObject | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "BlueprintGeneratedClass'/PA_EVO_Pack_01/SharedBPs/SpawnBlueprints/PA_SpawnControl_AP_CCA.PA_SpawnControl_AP_CCA_C'",
+    "Properties": {
+      "RexSpawner": {
+        "AssetPathName": "/Game/ScorchedEarth/CoreBlueprints/Spawners/SE_DinoSpawnEntries_RexSolo.SE_DinoSpawnEntries_RexSolo_C",
+        "SubPathString": ""
+      },
+      "RexClass": [
+        {
+          "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Rex/EVO_Rex_Character_BP.EVO_Rex_Character_BP_C",
+          "SubPathString": ""
+        }
+      ],
+      "RemapAdditions": [
+        {
+          "DefaultRemap_4_221590EB41DD12DAF994A988C9E38E62": {
+            "FromClass": {
+              "AssetPathName": "/Game/PrimalEarth/Dinos/Giganotosaurus/Gigant_Character_BP.Gigant_Character_BP_C",
+              "SubPathString": ""
+            },
+            "ToClass": {
+              "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Giga/EVO_Giga_Character_BP.EVO_Giga_Character_BP_C",
+              "SubPathString": ""
+            }
+          },
+          "AlternateBindings_6_987F2DA749A57A2EC40BA08436A4F92A": [],
+          "bRemapAdded_10_6610BA1B4F2083392B564B8A1D6E00F4": false
+        },
+        {
+          "DefaultRemap_4_221590EB41DD12DAF994A988C9E38E62": {
+            "FromClass": {
+              "AssetPathName": "/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP_C",
+              "SubPathString": ""
+            },
+            "ToClass": {
+              "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Rex/EVO_Rex_Character_BP.EVO_Rex_Character_BP_C",
+              "SubPathString": ""
+            }
+          },
+          "AlternateBindings_6_987F2DA749A57A2EC40BA08436A4F92A": [
+            {
+              "MapName_2_49280EFC4CED4BF030E9A0B8013D0A82": "ScorchedEarth_WP",
+              "Remap_6_66B6734D4D761F7381F6A1BAA5E8D64B": {
+                "FromClass": {
+                  "AssetPathName": "/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP_C",
+                  "SubPathString": ""
+                },
+                "ToClass": {
+                  "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Rex/Tarbo/EVO_Tarbo_Character_BP.EVO_Tarbo_Character_BP_C",
+                  "SubPathString": ""
+                }
+              }
+            },
+            {
+              "MapName_2_49280EFC4CED4BF030E9A0B8013D0A82": "ScorchedEarthRM_WP",
+              "Remap_6_66B6734D4D761F7381F6A1BAA5E8D64B": {
+                "FromClass": {
+                  "AssetPathName": "/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP_C",
+                  "SubPathString": ""
+                },
+                "ToClass": {
+                  "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Rex/Tarbo/EVO_Tarbo_Character_BP.EVO_Tarbo_Character_BP_C",
+                  "SubPathString": ""
+                }
+              }
+            }
+          ],
+          "bRemapAdded_10_6610BA1B4F2083392B564B8A1D6E00F4": false
+        },
+        {
+          "DefaultRemap_4_221590EB41DD12DAF994A988C9E38E62": {
+            "FromClass": {
+              "AssetPathName": "/Game/PrimalEarth/Dinos/Rex/MegaRex_Character_BP.MegaRex_Character_BP_C",
+              "SubPathString": ""
+            },
+            "ToClass": {
+              "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Rex/Alpha/EVO_Alpha_Rex_Character_BP.EVO_Alpha_Rex_Character_BP_C",
+              "SubPathString": ""
+            }
+          },
+          "AlternateBindings_6_987F2DA749A57A2EC40BA08436A4F92A": [],
+          "bRemapAdded_10_6610BA1B4F2083392B564B8A1D6E00F4": false
+        },
+        {
+          "DefaultRemap_4_221590EB41DD12DAF994A988C9E38E62": {
+            "FromClass": {
+              "AssetPathName": "/Game/Extinction/Dinos/Corrupt/Giganotosaurus/Gigant_Character_BP_Corrupt.Gigant_Character_BP_Corrupt_C",
+              "SubPathString": ""
+            },
+            "ToClass": {
+              "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Giga/Extinction/EVO_Corrupt_Giga_Character_BP.EVO_Corrupt_Giga_Character_BP_C",
+              "SubPathString": ""
+            }
+          },
+          "AlternateBindings_6_987F2DA749A57A2EC40BA08436A4F92A": [],
+          "bRemapAdded_10_6610BA1B4F2083392B564B8A1D6E00F4": false
+        },
+        {
+          "DefaultRemap_4_221590EB41DD12DAF994A988C9E38E62": {
+            "FromClass": {
+              "AssetPathName": "/Game/Extinction/Dinos/Corrupt/Rex/Rex_Character_BP_Corrupt.Rex_Character_BP_Corrupt_C",
+              "SubPathString": ""
+            },
+            "ToClass": {
+              "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Rex/Extinction/EVO_Corrupt_Rex_Character_BP.EVO_Corrupt_Rex_Character_BP_C",
+              "SubPathString": ""
+            }
+          },
+          "AlternateBindings_6_987F2DA749A57A2EC40BA08436A4F92A": [],
+          "bRemapAdded_10_6610BA1B4F2083392B564B8A1D6E00F4": false
+        },
+        {
+          "DefaultRemap_4_221590EB41DD12DAF994A988C9E38E62": {
+            "FromClass": {
+              "AssetPathName": "/Game/PrimalEarth/Dinos/Rex/BionicRex_Character_BP.BionicRex_Character_BP_C",
+              "SubPathString": ""
+            },
+            "ToClass": {
+              "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Rex/Bionic/EVO_Tek_Rex_Character_BP.EVO_Tek_Rex_Character_BP_C",
+              "SubPathString": ""
+            }
+          },
+          "AlternateBindings_6_987F2DA749A57A2EC40BA08436A4F92A": [],
+          "bRemapAdded_10_6610BA1B4F2083392B564B8A1D6E00F4": false
+        },
+        {
+          "DefaultRemap_4_221590EB41DD12DAF994A988C9E38E62": {
+            "FromClass": {
+              "AssetPathName": "/Game/Extinction/Dinos/Corrupt/Rex/MegaRex_Character_BP_Corrupt.MegaRex_Character_BP_Corrupt_C",
+              "SubPathString": ""
+            },
+            "ToClass": {
+              "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Rex/Extinction/EVO_Alpha_Corrupt_Tek_Rex_Character_BP.EVO_Alpha_Corrupt_Tek_Rex_Character_BP_C",
+              "SubPathString": ""
+            }
+          },
+          "AlternateBindings_6_987F2DA749A57A2EC40BA08436A4F92A": [],
+          "bRemapAdded_10_6610BA1B4F2083392B564B8A1D6E00F4": false
+        },
+        {
+          "DefaultRemap_4_221590EB41DD12DAF994A988C9E38E62": {
+            "FromClass": {
+              "AssetPathName": "/Game/LostColony/Dinos/ZombieDino/Rex/Rex_Character_BP_Corrupt_Zombie.Rex_Character_BP_Corrupt_Zombie_C",
+              "SubPathString": ""
+            },
+            "ToClass": {
+              "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Rex/Zombie/EVO_Rex_Character_BP_Corrupted_Zombie.EVO_Rex_Character_BP_Corrupted_Zombie_C",
+              "SubPathString": ""
+            }
+          },
+          "AlternateBindings_6_987F2DA749A57A2EC40BA08436A4F92A": [],
+          "bRemapAdded_10_6610BA1B4F2083392B564B8A1D6E00F4": false
+        }
+      ],
+      "RandomReplacements": [
+        {
+          "FromClass": {
+            "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Rex/EVO_Rex_Character_BP.EVO_Rex_Character_BP_C",
+            "SubPathString": ""
+          },
+          "ToClasses": [
+            {
+              "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Rex/Legacy/EVO_Legacy_Rex_Character_BP.EVO_Legacy_Rex_Character_BP_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Rex/Alpha/EVO_Alpha_Rex_Character_BP.EVO_Alpha_Rex_Character_BP_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Rex/EVO_Rex_Character_BP.EVO_Rex_Character_BP_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Rex/Alpha/EVO_Alpha_Legacy_Rex_Character_BP.EVO_Alpha_Legacy_Rex_Character_BP_C",
+              "SubPathString": ""
+            }
+          ],
+          "Weights": [
+            5.0,
+            4.75,
+            90.0,
+            0.25
+          ],
+          "ActiveEvent": "None",
+          "bExactMatch": true
+        },
+        {
+          "FromClass": {
+            "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Rex/Tarbo/EVO_Tarbo_Character_BP.EVO_Tarbo_Character_BP_C",
+            "SubPathString": ""
+          },
+          "ToClasses": [
+            {
+              "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Rex/Tarbo/EVO_Alpha_Tarbo_Character_BP.EVO_Alpha_Tarbo_Character_BP_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Rex/Tarbo/EVO_Tarbo_Character_BP.EVO_Tarbo_Character_BP_C",
+              "SubPathString": ""
+            }
+          ],
+          "Weights": [
+            5.0,
+            95.0
+          ],
+          "ActiveEvent": "None",
+          "bExactMatch": true
+        }
+      ],
+      "TekReplacements": [
+        {
+          "FromClass": {
+            "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Giga/EVO_Giga_Character_BP.EVO_Giga_Character_BP_C",
+            "SubPathString": ""
+          },
+          "ToClasses": [
+            {
+              "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Giga/EVO_Giga_Character_BP.EVO_Giga_Character_BP_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Giga/Extinction/EVO_Wasteland_Giga_Character_BP.EVO_Wasteland_Giga_Character_BP_C",
+              "SubPathString": ""
+            }
+          ],
+          "Weights": [
+            90.0,
+            10.0
+          ],
+          "ActiveEvent": "None",
+          "bExactMatch": true
+        },
+        {
+          "FromClass": {
+            "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Rex/EVO_Rex_Character_BP.EVO_Rex_Character_BP_C",
+            "SubPathString": ""
+          },
+          "ToClasses": [
+            {
+              "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Rex/Legacy/EVO_Legacy_Rex_Character_BP.EVO_Legacy_Rex_Character_BP_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Rex/Alpha/EVO_Alpha_Rex_Character_BP.EVO_Alpha_Rex_Character_BP_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Rex/EVO_Rex_Character_BP.EVO_Rex_Character_BP_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Rex/Alpha/EVO_Alpha_Legacy_Rex_Character_BP.EVO_Alpha_Legacy_Rex_Character_BP_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Rex/Bionic/EVO_Tek_Rex_Character_BP.EVO_Tek_Rex_Character_BP_C",
+              "SubPathString": ""
+            }
+          ],
+          "Weights": [
+            5.0,
+            4.75,
+            80.0,
+            0.25,
+            10.0
+          ],
+          "ActiveEvent": "None",
+          "bExactMatch": true
+        }
+      ],
+      "TekSpawnMaps": [
+        "Extinction_WP",
+        "Astraeos_WP"
+      ],
+      "bHidden": true,
+      "bActorEnableCollision": false,
+      "bClimbable": false,
+      "bPreventActorStasis": true,
+      "bUseAttachmentReplication": false,
+      "bBPPreInitializeComponents": true
+    }
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "SceneComponent_2",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SceneComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'PA_SpawnControl_AP_CCA_C'",
+      "ObjectPath": "/PA_EVO_Pack_01/SharedBPs/SpawnBlueprints/PA_SpawnControl_AP_CCA.0"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'PA_SpawnControl_AP_CCA_C:SimpleConstructionScript_1'",
+      "ObjectPath": "/PA_EVO_Pack_01/SharedBPs/SpawnBlueprints/PA_SpawnControl_AP_CCA.8"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SceneComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'PA_SpawnControl_AP_CCA_C:SceneComponent_2'",
+        "ObjectPath": "/PA_EVO_Pack_01/SharedBPs/SpawnBlueprints/PA_SpawnControl_AP_CCA.5"
+      },
+      "VariableGuid": "56BC9799-C494E6E6-321D4295-7D5EB316",
+      "InternalVariableName": "DefaultSceneRoot"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SCS_Node'",
+    "Outer": {
+      "ObjectName": "SimpleConstructionScript'PA_SpawnControl_AP_CCA_C:SimpleConstructionScript_1'",
+      "ObjectPath": "/PA_EVO_Pack_01/SharedBPs/SpawnBlueprints/PA_SpawnControl_AP_CCA.8"
+    },
+    "Properties": {
+      "ComponentClass": {
+        "ObjectName": "Class'SphereComponent'",
+        "ObjectPath": "/Script/Engine"
+      },
+      "ComponentTemplate": {
+        "ObjectName": "SphereComponent'PA_SpawnControl_AP_CCA_C:SphereComponent_1140'",
+        "ObjectPath": "/PA_EVO_Pack_01/SharedBPs/SpawnBlueprints/PA_SpawnControl_AP_CCA.9"
+      },
+      "CookedComponentInstancingData": {
+        "ChangedPropertyList": [
+          {
+            "PropertyName": "SphereRadius",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'SphereComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "bUseSystemDefaultObstacleAreaClass",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'SphereComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "AreaClassOverride",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'SphereComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "BodyInstance",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'SphereComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ObjectType",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'BodyInstance'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "CollisionEnabled",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'BodyInstance'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "CollisionProfileName",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'BodyInstance'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "CollisionResponses",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'BodyInstance'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 1,
+            "PropertyScope": {
+              "ObjectName": "Class'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Response",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 5,
+            "PropertyScope": {
+              "ObjectName": "Class'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Response",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 6,
+            "PropertyScope": {
+              "ObjectName": "Class'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Response",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 7,
+            "PropertyScope": {
+              "ObjectName": "Class'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Response",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 8,
+            "PropertyScope": {
+              "ObjectName": "Class'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Response",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "ResponseArray",
+            "ArrayIndex": 10,
+            "PropertyScope": {
+              "ObjectName": "Class'CollisionResponse'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          {
+            "PropertyName": "Response",
+            "ArrayIndex": 0,
+            "PropertyScope": {
+              "ObjectName": "Class'ResponseChannel'",
+              "ObjectPath": "/Script/Engine"
+            }
+          }
+        ],
+        "bHasValidCookedData": true
+      },
+      "VariableGuid": "CB613CCA-ED022C41-E8DF2B65-C49C1051",
+      "InternalVariableName": "StasisComponent"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_1",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'PA_SpawnControl_AP_CCA_C'",
+      "ObjectPath": "/PA_EVO_Pack_01/SharedBPs/SpawnBlueprints/PA_SpawnControl_AP_CCA.0"
+    },
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'PA_SpawnControl_AP_CCA_C:SimpleConstructionScript_1.SCS_Node_8'",
+          "ObjectPath": "/PA_EVO_Pack_01/SharedBPs/SpawnBlueprints/PA_SpawnControl_AP_CCA.7"
+        }
+      ],
+      "AllNodes": [
+        {
+          "ObjectName": "SCS_Node'PA_SpawnControl_AP_CCA_C:SimpleConstructionScript_1.SCS_Node_8'",
+          "ObjectPath": "/PA_EVO_Pack_01/SharedBPs/SpawnBlueprints/PA_SpawnControl_AP_CCA.7"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'PA_SpawnControl_AP_CCA_C:SimpleConstructionScript_1.SCS_Node_1'",
+        "ObjectPath": "/PA_EVO_Pack_01/SharedBPs/SpawnBlueprints/PA_SpawnControl_AP_CCA.6"
+      }
+    }
+  },
+  {
+    "Type": "SphereComponent",
+    "Name": "SphereComponent_1140",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'SphereComponent'",
+    "Outer": {
+      "ObjectName": "BlueprintGeneratedClass'PA_SpawnControl_AP_CCA_C'",
+      "ObjectPath": "/PA_EVO_Pack_01/SharedBPs/SpawnBlueprints/PA_SpawnControl_AP_CCA.0"
+    },
+    "Properties": {
+      "SphereRadius": 16.0,
+      "bUseSystemDefaultObstacleAreaClass": false,
+      "AreaClassOverride": {
+        "ObjectName": "Class'NavArea_Obstacle'",
+        "ObjectPath": "/Script/NavigationSystem"
+      },
+      "BodyInstance": {
+        "ObjectType": "ECC_WorldDynamic",
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "CollisionProfileName": "StasisComponent",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Weapon",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PlayerPawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "DinoPawn",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Structure",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "DinoPawnCollideWithRider",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        }
+      }
+    }
+  }
+]

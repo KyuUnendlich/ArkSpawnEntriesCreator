@@ -1,107 +1,3053 @@
-cheat spawndino "Blueprint'/PrehistoricBeasts2/Anzu/BPs/Anzu_Character_BP_Aberrant.Anzu_Character_BP_Aberrant'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts4/Dilong/BPs/Dilong_Character_BP_Aberrant.Dilong_Character_BP_Aberrant'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeastsPartV/Edmontosaurus/BPs/Edmontosaurus_Character_BP_Aberrant.Edmontosaurus_Character_BP_Aberrant'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeastsPartV/Gandakasia/BPs/Gandakasia_Character_BP_Aberrant.Gandakasia_Character_BP_Aberrant'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts2/Genyodectes/BPs/Genyodectes_Character_BP_Aberrant.Genyodectes_Character_BP_Aberrant'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts3/Koolasuchus/BPs/Koolasuchus_Character_BP_Aberrant.Koolasuchus_Character_BP_Aberrant'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts4/Lirainosaurus/BPs/Lirainosaurus_Character_BP_Aberrant.Lirainosaurus_Character_BP_Aberrant'" 500 0 0 150
-cheat spawndino "Blueprint'/Beasts/Nasutoceratops/BPs/Nasutoceratops_Character_BP_Aberrant.Nasutoceratops_Character_BP_Aberrant'" 500 0 0 150
-cheat spawndino "Blueprint'/Beasts/Neimongosaurus/BPs/Neimongosaurus_Character_BP_Aberrant.Neimongosaurus_Character_BP_Aberrant'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts2/Ouranosaurus/BPs/Ouranosaurus_Character_BP_Aberrant.Ouranosaurus_Character_BP_Aberrant'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts2/Paraxenisaurus/BPs/Paraxenisaurus_Character_BP_Aberrant.Paraxenisaurus_Character_BP_Aberrant'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts3/Pinacosaurus/BPs/Pinacosaurus_Character_BP_Aberrant.Pinacosaurus_Character_BP_Aberrant'" 500 0 0 150
-cheat spawndino "Blueprint'/Beasts/Postosuchus/BPs/Postosuchus_Character_BP_Aberrant.Postosuchus_Character_BP_Aberrant'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts3/Saltasaurus/BPs/Saltasaurus_Character_BP_Aberrant.Saltasaurus_Character_BP_Aberrant'" 500 0 0 150
-cheat spawndino "Blueprint'/Beasts/Siamosaurus/BPs/Siamosaurus_Character_BP_Aberrant.Siamosaurus_Character_BP_Aberrant'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeastsPartV/Sinornithoides/BPs/Sinornithoides_Character_BP_Aberrant.Sinornithoides_Character_BP_Aberrant'" 500 0 0 150
-cheat spawndino "Blueprint'/Beasts/Tsintaosaurus/BPs/Tsintaosaurus_Character_BP_Aberrant.Tsintaosaurus_Character_BP_Aberrant'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts4/Venenosaurus/BPs/Venenosaurus_Character_BP_Aberrant.Venenosaurus_Character_BP_Aberrant'" 500 0 0 150
-cheat spawndino "Blueprint'/Beasts/Yangchuanosaurus/BPs/Yangchuanosaurus_Character_BP_Aberrant.Yangchuanosaurus_Character_BP_Aberrant'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts2/Zuniceratops/BPs/Zuniceratops_Character_BP_Aberrant.Zuniceratops_Character_BP_Aberrant'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts4/Acheroraptor/BPs/Acheroraptor_Character_BP.Acheroraptor_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeastsPartV/Angulomastacator/BPs/Angulomastacator_Character_BP.Angulomastacator_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts2/Anzu/BPs/Anzu_Character_BP.Anzu_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts3/Axelrodichthys/BPs/Axelrodichthys_Character_BP.Axelrodichthys_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts2/Baculites/BPs/Baculites_Character_BP.Baculites_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts3/Cryodrakon/BPs/Cryodrakon_Character_BP.Cryodrakon_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/Beasts/Dearc/BPs/Dearc_Character_BP.Dearc_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts4/Dilong/BPs/Dilong_Character_BP.Dilong_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts3/Dolichorhynchops/BPs/Dolichorhynchops_Character_BP.Dolichorhynchops_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts4/Dracovenator/BPs/Dracovenator_Character_BP.Dracovenator_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeastsPartV/Edmontosaurus/BPs/Edmontosaurus_Character_BP.Edmontosaurus_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts2/Genyodectes/BPs/Genyodectes_Character_BP_Eerie.Genyodectes_Character_BP_Eerie'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts3/Hainosaurus/BPs/Hainosaurus_Character_BP_Eerie.Hainosaurus_Character_BP_Eerie'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts4/Massospondylus/BPs/Massospondylus_Character_BP_Eerie.Massospondylus_Character_BP_Eerie'" 500 0 0 150
-cheat spawndino "Blueprint'/Beasts/Nasutoceratops/BPs/Nasutoceratops_Character_BP_Eerie.Nasutoceratops_Character_BP_Eerie'" 500 0 0 150
-cheat spawndino "Blueprint'/Beasts/Neovenator/BPs/Neovenator_Character_BP_Eerie.Neovenator_Character_BP_Eerie'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts2/Paraxenisaurus/BPs/Paraxenisaurus_Character_BP_Eerie.Paraxenisaurus_Character_BP_Eerie'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts3/Pinacosaurus/BPs/Pinacosaurus_Character_BP_Eerie.Pinacosaurus_Character_BP_Eerie'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeastsPartV/Purussaurus/BPs/Purussaurus_Character_BP_Eerie.Purussaurus_Character_BP_Eerie'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts4/Scelidosaurus/BPs/Scelidosaurus_Character_BP_Eerie.Scelidosaurus_Character_BP_Eerie'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeastsPartV/Sinornithoides/BPs/Sinornithoides_Character_BP_Eerie.Sinornithoides_Character_BP_Eerie'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeastsPartV/Eotriceratops/BPs/Eotriceratops_Character_BP.Eotriceratops_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeastsPartV/Gandakasia/BPs/Gandakasia_Character_BP.Gandakasia_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts2/Genyodectes/BPs/Genyodectes_Character_BP.Genyodectes_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts3/Giant_Sea_Slug/BPs/GiantSeaSlug_Character_BP.GiantSeaSlug_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeastsPartV/Gomphotherium/BPs/Gomphotherium_Character_BP.Gomphotherium_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts3/Hainosaurus/BPs/Hainosaurus_Character_BP.Hainosaurus_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeastsPartV/HaastsEagle/BPs/HaastsEagle_Character_BP.HaastsEagle_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts4/Hyneria/BPs/Hyneria_Character_BP.Hyneria_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/Beasts/Inostrancevia/BPs/Inostrancevia_Character_BP.Inostrancevia_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts2/Jiangjunosaurus/BPs/Jiangjunosaurus_Character_BP.Jiangjunosaurus_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts4/Kelenken/BPs/Kelenken_Character_BP.Kelenken_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts3/Koolasuchus/BPs/Koolasuchus_Character_BP.Koolasuchus_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts4/Lirainosaurus/BPs/Lirainosaurus_Character_BP.Lirainosaurus_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeastsPartV/Angulomastacator/BPs/Angulomastacator_Character_BP_Lost.Angulomastacator_Character_BP_Lost'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts2/Anzu/BPs/Anzu_Character_BP_Lost.Anzu_Character_BP_Lost'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts3/Cryodrakon/BPs/Cryodrakon_Character_BP_Lost.Cryodrakon_Character_BP_Lost'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts3/Lythronax/BPs/Lythronax_Character_BP_Lost.Lythronax_Character_BP_Lost'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts2/Mapusaurus/BPs/Mapusaurus_Character_BP_Lost.Mapusaurus_Character_BP_Lost'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts2/Paraxenisaurus/BPs/Paraxenisaurus_Character_BP_Lost.Paraxenisaurus_Character_BP_Lost'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts3/Pinacosaurus/BPs/Pinacosaurus_Character_BP_Lost.Pinacosaurus_Character_BP_Lost'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts3/Saltasaurus/BPs/Saltasaurus_Character_BP_Lost.Saltasaurus_Character_BP_Lost'" 500 0 0 150
-cheat spawndino "Blueprint'/Beasts/Yangchuanosaurus/BPs/Yangchuanosaurus_Character_BP_Lost.Yangchuanosaurus_Character_BP_Lost'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts2/Zuniceratops/BPs/Zuniceratops_Character_BP_Lost.Zuniceratops_Character_BP_Lost'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts2/Lualabaea/BPs/Lualabaea_Character_BP.Lualabaea_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts3/Lythronax/BPs/Lythronax_Character_BP.Lythronax_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts2/Mapusaurus/BPs/Mapusaurus_Character_BP.Mapusaurus_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts4/Massospondylus/BPs/Massospondylus_Character_BP.Massospondylus_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/Beasts/Nasutoceratops/BPs/Nasutoceratops_Character_BP.Nasutoceratops_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/Beasts/Neimongosaurus/BPs/Neimongosaurus_Character_BP.Neimongosaurus_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/Beasts/Neovenator/BPs/Neovenator_Character_BP.Neovenator_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts2/Ornithocheirus/BPs/Ornithocheirus_Character_BP.Ornithocheirus_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts2/Ouranosaurus/BPs/Ouranosaurus_Character_BP.Ouranosaurus_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts2/Paraxenisaurus/BPs/Paraxenisaurus_Character_BP.Paraxenisaurus_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts3/Pinacosaurus/BPs/Pinacosaurus_Character_BP.Pinacosaurus_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/Beasts/Postosuchus/BPs/Postosuchus_Character_BP.Postosuchus_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts3/Prionosuchus/BPs/Prionosuchus_Character_BP.Prionosuchus_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeastsPartV/Purussaurus/BPs/Purussaurus_Character_BP.Purussaurus_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/Beasts/Pyroraptor/BPs/Pyroraptor_Character_BP.Pyroraptor_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts3/Saltasaurus/BPs/Saltasaurus_Character_BP.Saltasaurus_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts4/Scelidosaurus/BPs/Scelidosaurus_Character_BP.Scelidosaurus_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeastsPartV/Edmontosaurus/BPs/Edmontosaurus_Character_BP_Scorched.Edmontosaurus_Character_BP_Scorched'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts2/Genyodectes/BPs/Genyodectes_Character_BP_Scorched.Genyodectes_Character_BP_Scorched'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeastsPartV/HaastsEagle/BPs/HaastsEagle_Character_BP_Scorched.HaastsEagle_Character_BP_Scorched'" 500 0 0 150
-cheat spawndino "Blueprint'/Beasts/Inostrancevia/BPs/Inostrancevia_Character_BP_Scorched.Inostrancevia_Character_BP_Scorched'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts2/Jiangjunosaurus/BPs/Jiangjunosaurus_Character_BP_Scorched.Jiangjunosaurus_Character_BP_Scorched'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts4/Kelenken/BPs/Kelenken_Character_BP_scorched.Kelenken_Character_BP_scorched'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts4/Lirainosaurus/BPs/Lirainosaurus_Character_BP_Scorched.Lirainosaurus_Character_BP_Scorched'" 500 0 0 150
-cheat spawndino "Blueprint'/Beasts/Neimongosaurus/BPs/Neimongosaurus_Character_BP_Scorched.Neimongosaurus_Character_BP_Scorched'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts2/Ouranosaurus/BPs/Ouranosaurus_Character_BP_Scorched.Ouranosaurus_Character_BP_Scorched'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts2/Paraxenisaurus/BPs/Paraxenisaurus_Character_BP_Scorched.Paraxenisaurus_Character_BP_Scorched'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts3/Pinacosaurus/BPs/Pinacosaurus_Character_BP_Scorched.Pinacosaurus_Character_BP_Scorched'" 500 0 0 150
-cheat spawndino "Blueprint'/Beasts/Postosuchus/BPs/Postosuchus_Character_BP_Scorched.Postosuchus_Character_BP_Scorched'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts4/Scelidosaurus/BPs/Scelidosaurus_Character_BP_Scorched.Scelidosaurus_Character_BP_Scorched'" 500 0 0 150
-cheat spawndino "Blueprint'/Beasts/Tsintaosaurus/BPs/Tsintaosaurus_Character_BP_Scorched .Tsintaosaurus_Character_BP_Scorched '" 500 0 0 150
-cheat spawndino "Blueprint'/Beasts/Siamosaurus/BPs/Siamosaurus_Character_BP.Siamosaurus_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeastsPartV/Sinornithoides/BPs/Sinornithoides_Character_BP.Sinornithoides_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeastsPartV/Gandakasia/BPs/Gandakasia_Character_BP_Bionic.Gandakasia_Character_BP_Bionic'" 500 0 0 150
-cheat spawndino "Blueprint'/Beasts/Inostrancevia/BPs/Inostrancevia_Character_BP_Bionic.Inostrancevia_Character_BP_Bionic'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts3/Koolasuchus/BPs/Koolasuchus_Character_BP_Bionic.Koolasuchus_Character_BP_Bionic'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts4/Lirainosaurus/BPs/Lirainosaurus_Character_BP_Bionic.Lirainosaurus_Character_BP_Bionic'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts2/Ouranosaurus/BPs/Ouranosaurus_Character_BP_Bionic.Ouranosaurus_Character_BP_Bionic''" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts4/ThresherShark/BPs/ThresherShark_Character_BP.ThresherShark_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/Beasts/Tsintaosaurus/BPs/Tsintaosaurus_Character_BP.Tsintaosaurus_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts4/Venenosaurus/BPs/Venenosaurus_Character_BP.Venenosaurus_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/Beasts/Yangchuanosaurus/BPs/Yangchuanosaurus_Character_BP.Yangchuanosaurus_Character_BP'" 500 0 0 150
-cheat spawndino "Blueprint'/PrehistoricBeasts2/Zuniceratops/BPs/Zuniceratops_Character_BP.Zuniceratops_Character_BP'" 500 0 0 150
+[
+  {
+    "Type": "ModDataAsset",
+    "Name": "ModDataAsset_PA_EVO_Pack_01",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Class": "UScriptClass'ModDataAsset'",
+    "Properties": {
+      "ModName": "PA_EVO_Pack_01",
+      "ModDescription": "TLCs of ARK's Rex and Giga",
+      "AdditionalEngramBlueprintClasses": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'EngramEntry_Saddle_EVO_Giga_C'",
+          "ObjectPath": "/PA_EVO_Pack_01/Dinos/EVO_Giga/Saddle/EngramEntry_Saddle_EVO_Giga.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'EngramEntry_Saddle_EVO_Rex_C'",
+          "ObjectPath": "/PA_EVO_Pack_01/Dinos/EVO_Rex/Saddle/EngramEntry_Saddle_EVO_Rex.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'EngramEntry_Saddle_EVO_Tarbo_C'",
+          "ObjectPath": "/PA_EVO_Pack_01/Dinos/EVO_Rex/Tarbo/Saddle/EngramEntry_Saddle_EVO_Tarbo.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'EngramEntry_Saddle_Tek_EVO_Rex_C'",
+          "ObjectPath": "/PA_EVO_Pack_01/Dinos/EVO_Rex/TekSaddle/EngramEntry_Saddle_Tek_EVO_Rex.0"
+        }
+      ],
+      "AdditionalStructureEngrams": [
+        {
+          "ForClass": {
+            "AssetPathName": "/Game/PrimalEarth/Structures/StorageBox_AnvilBench.StorageBox_AnvilBench_C",
+            "SubPathString": ""
+          },
+          "ClassAdditions": [
+            {
+              "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Rex/Saddle/PrimalItemArmor_EVO_Rex_Saddle.PrimalItemArmor_EVO_Rex_Saddle_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Giga/Saddle/PrimalItemArmor_EVO_Giga_Saddle.PrimalItemArmor_EVO_Giga_Saddle_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Rex/Tarbo/Saddle/PrimalItemArmor_EVO_Tarbo_Saddle.PrimalItemArmor_EVO_Tarbo_Saddle_C",
+              "SubPathString": ""
+            }
+          ]
+        },
+        {
+          "ForClass": {
+            "AssetPathName": "/Game/PrimalEarth/Structures/StorageBox_TekReplicator.StorageBox_TekReplicator_C",
+            "SubPathString": ""
+          },
+          "ClassAdditions": [
+            {
+              "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Rex/Saddle/PrimalItemArmor_EVO_Rex_Saddle.PrimalItemArmor_EVO_Rex_Saddle_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Giga/Saddle/PrimalItemArmor_EVO_Giga_Saddle.PrimalItemArmor_EVO_Giga_Saddle_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Rex/Tarbo/Saddle/PrimalItemArmor_EVO_Tarbo_Saddle.PrimalItemArmor_EVO_Tarbo_Saddle_C",
+              "SubPathString": ""
+            }
+          ]
+        },
+        {
+          "ForClass": {
+            "AssetPathName": "/Game/PrimalEarth/Structures/StorageBox_Fabricator.StorageBox_Fabricator_C",
+            "SubPathString": ""
+          },
+          "ClassAdditions": [
+            {
+              "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Rex/Saddle/PrimalItemArmor_EVO_Rex_Saddle.PrimalItemArmor_EVO_Rex_Saddle_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Giga/Saddle/PrimalItemArmor_EVO_Giga_Saddle.PrimalItemArmor_EVO_Giga_Saddle_C",
+              "SubPathString": ""
+            },
+            {
+              "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Rex/Tarbo/Saddle/PrimalItemArmor_EVO_Tarbo_Saddle.PrimalItemArmor_EVO_Tarbo_Saddle_C",
+              "SubPathString": ""
+            }
+          ]
+        }
+      ],
+      "AdditionalDinoEntries": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'DinoEntry_EVO_Giga_C'",
+          "ObjectPath": "/PA_EVO_Pack_01/Dinos/EVO_Giga/DinoEntry/DinoEntry_EVO_Giga.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'DinoEntry_EVO_Rex_C'",
+          "ObjectPath": "/PA_EVO_Pack_01/Dinos/EVO_Rex/DinoEntry/DinoEntry_EVO_Rex.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'DinoEntry_EVO_Tarbo_C'",
+          "ObjectPath": "/PA_EVO_Pack_01/Dinos/EVO_Rex/Tarbo/DinoEntry/DinoEntry_EVO_Tarbo.0"
+        }
+      ],
+      "TheNPCSpawnEntriesContainerAdditions": [
+        {
+          "SpawnEntriesContainerClass": null,
+          "SpawnEntriesContainerClassString": "",
+          "bSpawnEntriesContainerClassStringUseExactString": false,
+          "AdditionalNPCSpawnEntries": [
+            {
+              "AnEntryName": "Tarbosaurus",
+              "NPCsToSpawn": [
+                {
+                  "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Rex/Tarbo/EVO_Tarbo_Character_BP.EVO_Tarbo_Character_BP_C",
+                  "SubPathString": ""
+                }
+              ],
+              "NPCsToSpawnStrings": [],
+              "NPCRandomSpawnClassWeights": [],
+              "NPCsSpawnOffsets": [
+                {
+                  "X": 0.0,
+                  "Y": 250.0,
+                  "Z": 0.0
+                }
+              ],
+              "NPCsToSpawnPercentageChance": [
+                1.0
+              ],
+              "NPCMinLevelOffset": [],
+              "NPCMaxLevelOffset": [],
+              "NPCMinLevelMultiplier": [],
+              "NPCMaxLevelMultiplier": [],
+              "bAddLevelOffsetBeforeMultiplier": false,
+              "NPCOverrideLevel": [],
+              "ExtentCheck": {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              "GroupSpawnOffset": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 35.0
+              },
+              "EntryWeight": 0.05,
+              "ManualSpawnPointSpreadRadius": 650.0,
+              "WaterOnlySpawnMinimumWaterHeight": 140.0,
+              "MaximumWaterHeight": 0.0,
+              "ColorSets": null,
+              "NPCDifficultyLevelRanges": [],
+              "LevelDifficultyTestOverride": -1.0,
+              "SpawnMinDistanceFromStructuresMultiplier": 0.6,
+              "SpawnMinDistanceFromPlayersMultiplier": 0.3,
+              "SpawnMinDistanceFromTamedDinosMultiplier": 0.0,
+              "RandGroupSpawnOffsetZMin": 0.0,
+              "RandGroupSpawnOffsetZMax": 0.0
+            }
+          ],
+          "AdditionalNPCSpawnLimits": [
+            {
+              "NPCClass": {
+                "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Rex/Tarbo/EVO_Tarbo_Character_BP.EVO_Tarbo_Character_BP_C",
+                "SubPathString": ""
+              },
+              "NPCClassString": "",
+              "MaxPercentageOfDesiredNumToAllow": 0.1
+            }
+          ]
+        },
+        {
+          "SpawnEntriesContainerClass": null,
+          "SpawnEntriesContainerClassString": "",
+          "bSpawnEntriesContainerClassStringUseExactString": false,
+          "AdditionalNPCSpawnEntries": [
+            {
+              "AnEntryName": "Tarbosaurus",
+              "NPCsToSpawn": [
+                {
+                  "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Rex/Tarbo/EVO_Tarbo_Character_BP.EVO_Tarbo_Character_BP_C",
+                  "SubPathString": ""
+                }
+              ],
+              "NPCsToSpawnStrings": [],
+              "NPCRandomSpawnClassWeights": [],
+              "NPCsSpawnOffsets": [
+                {
+                  "X": 0.0,
+                  "Y": 250.0,
+                  "Z": 0.0
+                }
+              ],
+              "NPCsToSpawnPercentageChance": [
+                0.35
+              ],
+              "NPCMinLevelOffset": [],
+              "NPCMaxLevelOffset": [],
+              "NPCMinLevelMultiplier": [],
+              "NPCMaxLevelMultiplier": [],
+              "bAddLevelOffsetBeforeMultiplier": false,
+              "NPCOverrideLevel": [],
+              "ExtentCheck": {
+                "X": 100.0,
+                "Y": 100.0,
+                "Z": 100.0
+              },
+              "GroupSpawnOffset": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 35.0
+              },
+              "EntryWeight": 0.025,
+              "ManualSpawnPointSpreadRadius": 650.0,
+              "WaterOnlySpawnMinimumWaterHeight": 140.0,
+              "MaximumWaterHeight": 0.0,
+              "ColorSets": null,
+              "NPCDifficultyLevelRanges": [],
+              "LevelDifficultyTestOverride": -1.0,
+              "SpawnMinDistanceFromStructuresMultiplier": 0.6,
+              "SpawnMinDistanceFromPlayersMultiplier": 0.3,
+              "SpawnMinDistanceFromTamedDinosMultiplier": 0.0,
+              "RandGroupSpawnOffsetZMin": 0.0,
+              "RandGroupSpawnOffsetZMax": 0.0
+            }
+          ],
+          "AdditionalNPCSpawnLimits": [
+            {
+              "NPCClass": {
+                "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Rex/Tarbo/EVO_Tarbo_Character_BP.EVO_Tarbo_Character_BP_C",
+                "SubPathString": ""
+              },
+              "NPCClassString": "",
+              "MaxPercentageOfDesiredNumToAllow": 0.1
+            }
+          ]
+        },
+        {
+          "SpawnEntriesContainerClass": null,
+          "SpawnEntriesContainerClassString": "",
+          "bSpawnEntriesContainerClassStringUseExactString": false,
+          "AdditionalNPCSpawnEntries": [
+            {
+              "AnEntryName": "Tarbo (1)",
+              "NPCsToSpawn": [
+                {
+                  "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Rex/Tarbo/EVO_Tarbo_Character_BP.EVO_Tarbo_Character_BP_C",
+                  "SubPathString": ""
+                }
+              ],
+              "NPCsToSpawnStrings": [],
+              "NPCRandomSpawnClassWeights": [],
+              "NPCsSpawnOffsets": [
+                {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 0.0
+                }
+              ],
+              "NPCsToSpawnPercentageChance": [
+                1.0
+              ],
+              "NPCMinLevelOffset": [],
+              "NPCMaxLevelOffset": [],
+              "NPCMinLevelMultiplier": [],
+              "NPCMaxLevelMultiplier": [],
+              "bAddLevelOffsetBeforeMultiplier": false,
+              "NPCOverrideLevel": [],
+              "ExtentCheck": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "GroupSpawnOffset": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 35.0
+              },
+              "EntryWeight": 0.02,
+              "ManualSpawnPointSpreadRadius": 650.0,
+              "WaterOnlySpawnMinimumWaterHeight": 140.0,
+              "MaximumWaterHeight": 0.0,
+              "ColorSets": null,
+              "NPCDifficultyLevelRanges": [],
+              "LevelDifficultyTestOverride": -1.0,
+              "SpawnMinDistanceFromStructuresMultiplier": 0.0,
+              "SpawnMinDistanceFromPlayersMultiplier": 0.0,
+              "SpawnMinDistanceFromTamedDinosMultiplier": 0.0,
+              "RandGroupSpawnOffsetZMin": 0.0,
+              "RandGroupSpawnOffsetZMax": 0.0
+            }
+          ],
+          "AdditionalNPCSpawnLimits": [
+            {
+              "NPCClass": {
+                "AssetPathName": "/PA_EVO_Pack_01/Dinos/EVO_Rex/Tarbo/EVO_Tarbo_Character_BP.EVO_Tarbo_Character_BP_C",
+                "SubPathString": ""
+              },
+              "NPCClassString": "",
+              "MaxPercentageOfDesiredNumToAllow": 0.05
+            }
+          ]
+        }
+      ],
+      "DinoBabySetups": [
+        {
+          "DinoNameTag": "EVO_Rex",
+          "BabyBoneModifierRanges": [
+            {
+              "bAffectsLegLength": false,
+              "bUseExtraMax": false,
+              "MinLegLengthMultiplier": 1.0,
+              "MaxLegLengthMultiplier": 1.0,
+              "BoneArray": [
+                {
+                  "BoneName": "C_back_001",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 0.8,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "C_back_002",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 0.8,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "C_back_003",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 0.8,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "C_back_004",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 0.8,
+                    "Y": 1.0,
+                    "Z": 0.75
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "C_back_005",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 0.9,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tail_001",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.8,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tail_002",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.8,
+                    "Z": 0.75
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tail_003",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.8,
+                    "Z": 0.75
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tail_004",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.8,
+                    "Z": 0.75
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tail_005",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.8,
+                    "Z": 0.75
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tail_006",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.8,
+                    "Z": 0.75
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tail_007",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.8,
+                    "Z": 0.75
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tail_008",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.8,
+                    "Z": 0.75
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tail_009",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.8,
+                    "Z": 0.75
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "l_thigh",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.75
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "r_thigh",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.75
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "l_leg",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.75
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "r_leg",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.75
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "l_upperarm",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.25,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "l_lowerarm",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.25,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "r_lowerarm",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.25,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_neck_001",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_neck_002",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_neck_003",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_neck_004",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tail_010",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.8,
+                    "Z": 0.75
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tail_011",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.8,
+                    "Z": 0.75
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tail_012",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.8,
+                    "Z": 0.75
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_head",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.9
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_jaw",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "R_eye",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 0.9,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "L_eye",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 0.9,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "None",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "None",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "None",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                }
+              ],
+              "GlobalFatRemap": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            }
+          ],
+          "WildRandomScaleRangeWeights": [],
+          "WildRandomScaleRanges": []
+        },
+        {
+          "DinoNameTag": "EVO_giga",
+          "BabyBoneModifierRanges": [
+            {
+              "bAffectsLegLength": false,
+              "bUseExtraMax": false,
+              "MinLegLengthMultiplier": 1.0,
+              "MaxLegLengthMultiplier": 1.0,
+              "BoneArray": [
+                {
+                  "BoneName": "c_head",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.9,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_jaw",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 0.99,
+                    "Y": 0.875,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tongue_001",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 0.8,
+                    "Y": 0.85,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tongue_002",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 0.8,
+                    "Y": 0.85,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tongue_003",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 0.8,
+                    "Y": 0.85,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tongue_004",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 0.8,
+                    "Y": 0.85,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tongue_005",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 0.8,
+                    "Y": 0.85,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tongue_006",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 0.8,
+                    "Y": 0.85,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "C_back_005",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "C_back_004",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "C_back_003",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "C_back_002",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "C_back_001",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tail_001",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tail_002",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tail_003",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tail_004",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tail_005",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tail_006",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tail_007",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tail_008",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tail_009",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tail_010",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tail_011",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tail_012",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_neck_001",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.1,
+                    "Z": 0.7
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_neck_002",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.1,
+                    "Z": 1.0
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_neck_003",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.1,
+                    "Z": 0.7
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_neck_004",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.1,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_neck_005",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.1,
+                    "Z": 0.5
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "r_elbow",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.5,
+                    "Z": 0.5
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "L_elbow",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.5,
+                    "Z": 0.5
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "l_thigh",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "r_thigh",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "r_leg",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "l_leg",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "l_eye",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 2.0,
+                    "Y": 0.75,
+                    "Z": 1.5
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "r_eye",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 2.0,
+                    "Y": 0.75,
+                    "Z": 1.5
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "r_cheek",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "l_cheek",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                }
+              ],
+              "GlobalFatRemap": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            }
+          ],
+          "WildRandomScaleRangeWeights": [],
+          "WildRandomScaleRanges": []
+        },
+        {
+          "DinoNameTag": "EVO_Tarbo",
+          "BabyBoneModifierRanges": [
+            {
+              "bAffectsLegLength": false,
+              "bUseExtraMax": false,
+              "MinLegLengthMultiplier": 1.0,
+              "MaxLegLengthMultiplier": 1.0,
+              "BoneArray": [
+                {
+                  "BoneName": "C_back_001",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 0.8,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "C_back_002",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 0.8,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "C_back_003",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 0.8,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "C_back_004",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 0.8,
+                    "Y": 1.0,
+                    "Z": 0.75
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "C_back_005",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 0.9,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tail_001",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.8,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tail_002",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.8,
+                    "Z": 0.75
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tail_003",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.8,
+                    "Z": 0.75
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tail_004",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.8,
+                    "Z": 0.75
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tail_005",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.8,
+                    "Z": 0.75
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tail_006",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.8,
+                    "Z": 0.75
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tail_007",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.8,
+                    "Z": 0.75
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tail_008",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.8,
+                    "Z": 0.75
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tail_009",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.8,
+                    "Z": 0.75
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "l_thigh",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.75
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "r_thigh",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.75
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "l_leg",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.75
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "r_leg",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.75
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "l_upperarm",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.25,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "l_lowerarm",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.25,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "r_lowerarm",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.25,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_neck_001",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_neck_002",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_neck_003",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_neck_004",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tail_010",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.8,
+                    "Z": 0.75
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tail_011",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.8,
+                    "Z": 0.75
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_tail_012",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.8,
+                    "Z": 0.75
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_head",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.9
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "c_jaw",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 0.8
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "R_eye",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 0.9,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "L_eye",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 0.9,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "None",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "None",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "None",
+                  "MinScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxScale": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                }
+              ],
+              "GlobalFatRemap": {
+                "X": 0.0,
+                "Y": 0.0
+              }
+            }
+          ],
+          "WildRandomScaleRangeWeights": [],
+          "WildRandomScaleRanges": []
+        }
+      ],
+      "ServerExtraWorldSingletonActorClasses": [
+        {
+          "ObjectName": "BlueprintGeneratedClass'LootDrops_PA_EVO_Pack_01_C'",
+          "ObjectPath": "/PA_EVO_Pack_01/LootDrops_PA_EVO_Pack_01.0"
+        },
+        {
+          "ObjectName": "BlueprintGeneratedClass'PA_SpawnControl_AP_CCA_C'",
+          "ObjectPath": "/PA_EVO_Pack_01/SharedBPs/SpawnBlueprints/PA_SpawnControl_AP_CCA.0"
+        }
+      ],
+      "AdditionalDefaultBuffs": [
+        {
+          "ForClass": {
+            "AssetPathName": "/Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP_C",
+            "SubPathString": ""
+          },
+          "BuffAdditions": [
+            {
+              "ObjectName": "BlueprintGeneratedClass'Buff_Convert_To_EVO_Rex_C'",
+              "ObjectPath": "/PA_EVO_Pack_01/ConversionBuffs/Buff_Convert_To_EVO_Rex.1"
+            }
+          ]
+        },
+        {
+          "ForClass": {
+            "AssetPathName": "/Game/PrimalEarth/Dinos/Giganotosaurus/Gigant_Character_BP.Gigant_Character_BP_C",
+            "SubPathString": ""
+          },
+          "BuffAdditions": [
+            {
+              "ObjectName": "BlueprintGeneratedClass'Buff_Convert_To_EVO_Giga_C'",
+              "ObjectPath": "/PA_EVO_Pack_01/ConversionBuffs/Buff_Convert_To_EVO_Giga.1"
+            }
+          ]
+        },
+        {
+          "ForClass": {
+            "AssetPathName": "/Game/PrimalEarth/Dinos/Rex/BionicRex_Character_BP.BionicRex_Character_BP_C",
+            "SubPathString": ""
+          },
+          "BuffAdditions": [
+            {
+              "ObjectName": "BlueprintGeneratedClass'Buff_Convert_To_EVO_Tek_Rex_C'",
+              "ObjectPath": "/PA_EVO_Pack_01/ConversionBuffs/Bionic/Buff_Convert_To_EVO_Tek_Rex.1"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,62 @@
+Engram Entries: 
+   EngramEntry_Saddle_PA_Cryptoclidus_C
+
+Dino Entries: 
+   PA_Cryptoclidus_C
+   PA_ObeliskSquid_C
+   PA_Bungartius_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: rypto 1 Squid (8-13)
+      Main BP: PA_Cryptoclidus_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 1.0
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-0.7-0.7-0.7-0.7-0.7
+Container Name: null
+   Entry Name: rypto 1 Squid (8-13)
+      Main BP: PA_Aberrant_Cryptoclidus_Character_BP_C
+      Entry Weight: 0.06
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-0.7-0.7-0.7-0.7-0.7
+Container Name: null
+   Entry Name: Bungartius Shoal
+      Main BP: PA_Bungartius_character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0-0.3-0.3
+Container Name: null
+   Entry Name: Bungartius Shoal
+      Main BP: PA_Bungartius_character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0-0.3-0.3
+Container Name: null
+   Entry Name: Bungartius Shoal
+      Main BP: PA_Bungartius_character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0-0.3-0.3
+
+MultiParams Summary: 
+   Main BP: PA_Aberrant_Cryptoclidus_Character_BP_C
+      Entry Weight:                   0.06
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-0.7-0.7-0.7-0.7-0.7
+
+   Main BP: PA_Bungartius_character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               1.0-0.3-0.3
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               1.0-0.3-0.3
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               1.0-0.3-0.3
+
+   Main BP: PA_Cryptoclidus_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             1.0
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-0.7-0.7-0.7-0.7-0.7
+

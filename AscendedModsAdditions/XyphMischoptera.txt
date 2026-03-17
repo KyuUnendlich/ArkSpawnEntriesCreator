@@ -1,0 +1,58 @@
+Engram Entries: 
+   EngramEntry_CrushedBlackPearl_C
+   EngramEntry_InfusedCrushedBlackPearl_C
+   EngramEntry_MischopteraSaddle_C
+
+Dino Entries: 
+   Mischoptera_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Mischoptera
+      Main BP: Mischoptera_Character_BP_C
+      Entry Weight: 0.4
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.7-0.6-0.5
+Container Name: null
+   Entry Name: Mischoptera
+      Main BP: Mischoptera_Character_BP_C
+      Entry Weight: 0.4
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.7-0.6-0.5
+Container Name: null
+   Entry Name: Mischoptera
+      Main BP: Mischoptera_Character_BP_C
+      Entry Weight: 0.01
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.7-0.6-0.5
+Container Name: null
+   Entry Name: Mischoptera
+      Main BP: Mischoptera_Character_BP_C
+      Entry Weight: 5.0
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.7-0.6-0.5
+Container Name: null
+   Entry Name: Mischoptera
+      Main BP: Mischoptera_Character_BP_C
+      Entry Weight: 0.6
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.7-0.6-0.5
+
+MultiParams Summary: 
+   Main BP: Mischoptera_Character_BP_C
+      Entry Weight:                   0.4
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.7-0.6-0.5
+      Entry Weight:                   0.4
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.7-0.6-0.5
+      Entry Weight:                   0.01
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.7-0.6-0.5
+      Entry Weight:                   5.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.7-0.6-0.5
+      Entry Weight:                   0.6
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.7-0.6-0.5
+
