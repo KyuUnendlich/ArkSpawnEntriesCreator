@@ -1,0 +1,226 @@
+Engram Entries: 
+   EngramEntry_CureGreater_C
+   EngramEntry_Saddle_Ada_C
+   EngramEntry_ChibiAda_C
+
+Dino Entries: 
+   Ada_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Ada Jungle
+      Main BP: Adasaurus_Character_BP_C
+      Entry Weight: 0.055
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Ada Jungle
+      Main BP: Adasaurus_Character_BP_C
+      Entry Weight: 0.055
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Ada Jungle
+      Main BP: Adasaurus_Character_BP_C
+      Entry Weight: 0.055
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Ada Jungle
+      Main BP: Adasaurus_Character_BP_C
+      Entry Weight: 0.055
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Ada WasteBuffer 1
+      Main BP: Adasaurus_Character_BP_C
+      Entry Weight: 0.055
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Ada WasteBuffer 2
+      Main BP: Adasaurus_Character_BP_C
+      Entry Weight: 0.055
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Ada Wasteland Easy
+      Main BP: Adasaurus_Character_BP_C
+      Entry Weight: 0.055
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Ada Ext Desert
+      Main BP: Adasaurus_Character_BP_Scorched_C
+      Entry Weight: 0.055
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Ada Canyons
+      Main BP: Adasaurus_Character_BP_Scorched_C
+      Entry Weight: 0.055
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Ada Badlands
+      Main BP: Adasaurus_Character_BP_Scorched_C
+      Entry Weight: 0.055
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Ada Dunes
+      Main BP: Adasaurus_Character_BP_Scorched_C
+      Entry Weight: 0.055
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Ada FertileZone
+      Main BP: Adasaurus_Character_BP_Aberrant_C
+      Entry Weight: 0.055
+      Spawn Limit: 0.07
+      Multi Spawn Chance: 0.5
+Container Name: null
+   Entry Name: Ada BioCave
+      Main BP: Adasaurus_Character_BP_Aberrant_C
+      Entry Weight: 0.055
+      Spawn Limit: 0.07
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Ada Val AbCave
+      Main BP: Adasaurus_Character_BP_Aberrant_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.07
+      Multi Spawn Chance: 0.7
+Container Name: null
+   Entry Name: Ada LC DarkForest 2
+      Main BP: Adasaurus_Character_BP_Polar_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.7
+Container Name: null
+   Entry Name: Ada LC DarkForest 2
+      Main BP: Adasaurus_Character_BP_Polar_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.7
+Container Name: null
+   Entry Name: Ada LC Tundra
+      Main BP: Adasaurus_Character_BP_Polar_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.7
+Container Name: null
+   Entry Name: Ada LC Tundra
+      Main BP: Adasaurus_Character_BP_Polar_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.7
+Container Name: null
+   Entry Name: Ada LC Tundra
+      Main BP: Adasaurus_Character_BP_Polar_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.7-0.2
+Container Name: null
+   Entry Name: Polar Ada
+      Main BP: Adasaurus_Character_BP_Polar_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.7-0.2
+Container Name: null
+   Entry Name: Polar Ada - Val Tundra
+      Main BP: Adasaurus_Character_BP_Polar_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.7-0.2
+Container Name: null
+   Entry Name: Polar Ada - Snow Gen
+      Main BP: Adasaurus_Character_BP_Polar_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.7-0.2
+Container Name: null
+   Entry Name: Polar Ada - Snow Ext
+      Main BP: Adasaurus_Character_BP_Polar_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.7-0.2
+
+MultiParams Summary: 
+   Main BP: Adasaurus_Character_BP_Aberrant_C
+      Entry Weight:                   0.055
+      Spawn Limit:                             0.07
+      Multi Spawn Chance:                               0.5
+      Entry Weight:                   0.055
+      Spawn Limit:                             0.07
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.07
+      Multi Spawn Chance:                               0.7
+
+   Main BP: Adasaurus_Character_BP_C
+      Entry Weight:                   0.055
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.055
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.055
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.055
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.055
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.055
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.055
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+
+   Main BP: Adasaurus_Character_BP_Polar_C
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.7
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.7
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.7
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.7
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.7-0.2
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.7-0.2
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.7-0.2
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.7-0.2
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.7-0.2
+
+   Main BP: Adasaurus_Character_BP_Scorched_C
+      Entry Weight:                   0.055
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.055
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.055
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.055
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+

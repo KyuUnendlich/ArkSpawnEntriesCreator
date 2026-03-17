@@ -408,6 +408,7 @@ namespace ArkSpawnEntriesCreator
                 {
                     File.AppendAllText(Path, "ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT SpawnReplacements");
                     File.AppendAllText(Path, "\r\n");
+                    File.AppendAllText(Path, "\r\n");
                 }
             }
 
@@ -490,6 +491,7 @@ namespace ArkSpawnEntriesCreator
                 if (text.Contains("SpawnReplacements"))
                 {
                     File.AppendAllText(Path, "ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT SpawnReplacements");
+                    File.AppendAllText(Path, "\r\n");
                     File.AppendAllText(Path, "\r\n");
                 }
             }
@@ -676,6 +678,11 @@ namespace ArkSpawnEntriesCreator
             Edmontonia,
             Anomalocaris, //AA_Anomalo
             Cricosaurus, //AA_Crico
+            Draconyx, //ATDraconyx
+            Scotoharpes, //ATScoto
+            BombardierBeetle, //ATBombardier
+            Lycosuchus,
+            Adasaurus //PPR-Ada
 
 
         }
@@ -684,7 +691,7 @@ namespace ArkSpawnEntriesCreator
 
         //const string Path = "C:/Users/matth/Desktop/Ascended/AtlasFish.txt";
         const bool replaceFile = true;
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/AtlasFish.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/Adasaurus.txt";
     }
 
 

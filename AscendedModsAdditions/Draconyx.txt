@@ -1,0 +1,121 @@
+Engram Entries: 
+   EngramEntry_DraconyxSaddle_C
+
+Dino Entries: 
+   Draconyx_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Draconyx (1-3)
+      Main BP: Draconyx_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.6-0.3
+Container Name: null
+   Entry Name: Draconyx (1-3)
+      Main BP: Draconyx_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.6-0.3
+Container Name: null
+   Entry Name: Draconyx (1-3)
+      Main BP: Draconyx_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.6-0.3
+Container Name: null
+   Entry Name: Draconyx (1-3)
+      Main BP: Draconyx_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.6-0.3
+Container Name: null
+   Entry Name: Draconyx (1-3)
+      Main BP: Draconyx_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.6-0.3
+Container Name: null
+   Entry Name: Draconyx (1-3)
+      Main BP: Draconyx_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.6-0.3
+Container Name: null
+   Entry Name: Draconyx (1-3)
+      Main BP: Draconyx_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.6-0.3
+Container Name: null
+   Entry Name: Draconyx (1-3)
+      Main BP: Draconyx_Character_BP_C
+      Entry Weight: 0.25
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.6-0.3
+Container Name: null
+   Entry Name: Draconyx (1-3)
+      Main BP: Draconyx_Character_BP_Aberrant_C
+      Entry Weight: 0.25
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.6-0.3
+Container Name: null
+   Entry Name: Draconyx (1-3)
+      Main BP: Draconyx_Character_BP_Aberrant_C
+      Entry Weight: 0.25
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.6-0.3
+Container Name: null
+   Entry Name: Draconyx (1-3)
+      Main BP: Draconyx_Character_BP_C
+      Entry Weight: 0.25
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.6-0.3
+Container Name: null
+   Entry Name: Draconyx (1-3)
+      Main BP: Draconyx_Character_BP_C
+      Entry Weight: 0.25
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.6-0.3
+
+MultiParams Summary: 
+   Main BP: Draconyx_Character_BP_Aberrant_C
+      Entry Weight:                   0.25
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.6-0.3
+      Entry Weight:                   0.25
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.6-0.3
+
+   Main BP: Draconyx_Character_BP_C
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.6-0.3
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.6-0.3
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.6-0.3
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.6-0.3
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.6-0.3
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.6-0.3
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.6-0.3
+      Entry Weight:                   0.25
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.6-0.3
+      Entry Weight:                   0.25
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.6-0.3
+      Entry Weight:                   0.25
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.6-0.3
+
