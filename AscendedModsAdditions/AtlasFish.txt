@@ -5,6 +5,7 @@ Dino Entries:
    Thunnus_C
    Anguilla_C
 
+ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT SpawnReplacements
 Dino Additions: 
 Container Name: null
    Entry Name: Marlin

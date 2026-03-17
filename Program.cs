@@ -402,6 +402,13 @@ namespace ArkSpawnEntriesCreator
                     globalSpawnWeights = true;
                     break;
                 }
+
+                //SpawnReplacementsFound
+                if (text.Contains("SpawnReplacements"))
+                {
+                    File.AppendAllText(Path, "ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT SpawnReplacements");
+                    File.AppendAllText(Path, "\r\n");
+                }
             }
 
             bool searchForMainBP = false;
@@ -477,6 +484,13 @@ namespace ArkSpawnEntriesCreator
                 if (text.Contains("ServerExtraWorldSingletonActorClasses"))
                 {
                     break;
+                }
+
+                //SpawnReplacementsFound
+                if (text.Contains("SpawnReplacements"))
+                {
+                    File.AppendAllText(Path, "ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT SpawnReplacements");
+                    File.AppendAllText(Path, "\r\n");
                 }
             }
 
@@ -670,7 +684,7 @@ namespace ArkSpawnEntriesCreator
 
         //const string Path = "C:/Users/matth/Desktop/Ascended/AtlasFish.txt";
         const bool replaceFile = true;
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/Hatze.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/AtlasFish.txt";
     }
 
 
