@@ -1,15 +1,15 @@
 Engram Entries: 
-   MorosGigantophis_BasicSaddle_C
-   Gigantophis_Flute_C
-   Gigantophis_PulseGun_C
-   Gigantophis_PulseGun_Ammo_C
-   Gigantophis_WesternSnakeHat_C
-   Gigantophis_GatlingGun_C
-   Gigantophis_GatlingGun_Ammo_C
-   Gigantophis_SantaHat_C
-   MorosGigantophis_AmmoBelt_C
-   Gigantophis_Dossier_C
-   Gigantophis_ChibiPet_C
+   EngramEntry_MorosGigantophis_BasicSaddle_C
+   EngramEntry_Gigantophis_Flute_C
+   EngramEntry_Gigantophis_PulseGun_C
+   EngramEntry_Gigantophis_PulseGun_Ammo_C
+   EngramEntry_Gigantophis_WesternSnakeHat_C
+   EngramEntry_Gigantophis_GatlingGun_C
+   EngramEntry_Gigantophis_GatlingGun_Ammo_C
+   EngramEntry_Gigantophis_SantaHat_C
+   EngramEntry_MorosGigantophis_AmmoBelt_C
+   EngramEntry_Gigantophis_Dossier_C
+   EngramEntry_Gigantophis_ChibiPet_C
 
 Dino Entries: 
    MorosGigantophis_C

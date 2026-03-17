@@ -1,0 +1,218 @@
+Engram Entries: 
+   EngramEntry_Saddle_Lyco_C
+   EngramEntry_Saddle_Lyco_ExtraArmor_C
+   EngramEntry_Saddle_Lyco_Bag_C
+   EngramEntry_Saddle_Lyco_Ghillie_C
+   EngramEntry_Saddle_Lyco_DMG_C
+
+Dino Entries: 
+   Lyco_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Lyco Jungle (1-2)
+      Main BP: Lyco_Character_BP_C
+      Entry Weight: 0.055
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.3
+         SubBP: Lyco_Character_BP_C 1.0
+         SubBP: MegaLyco_Character_BP_C 0.005
+Container Name: null
+   Entry Name: Lyco Beach (1)
+      Main BP: Lyco_Character_BP_C
+      Entry Weight: 0.06
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+         SubBP: MegaLyco_Character_BP_C 0.005
+Container Name: null
+   Entry Name: Lyco Redwood (1-2)
+      Main BP: Lyco_Character_BP_C
+      Entry Weight: 0.075
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.3
+         SubBP: Lyco_Character_BP_C 1.0
+         SubBP: MegaLyco_Character_BP_C 0.005
+Container Name: null
+   Entry Name: SEOasisLyco
+      Main BP: Lyco_Character_BP_Scorched_C
+      Entry Weight: 0.07
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.8
+Container Name: null
+   Entry Name: Lyco SEGreenDesert (1)
+      Main BP: Lyco_Character_BP_Scorched_C
+      Entry Weight: 0.07
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.8
+         SubBP: MegaLyco_Character_BP_C 0.005
+Container Name: null
+   Entry Name: Lyco SEBadlands (1-2)
+      Main BP: Lyco_Character_BP_Scorched_C
+      Entry Weight: 0.07
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.8-0.2
+         SubBP: Lyco_Character_BP_Scorched_C 1.0
+         SubBP: MegaLyco_Character_BP_C 0.005
+Container Name: null
+   Entry Name: Lyco ABFertile (1-2)
+      Main BP: Lyco_Character_BP_Aberrant_C
+      Entry Weight: 0.07
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.5-0.3
+         SubBP: Lyco_Character_BP_Aberrant_C 1.0
+         SubBP: MegaLyco_Character_BP_C 0.005
+Container Name: null
+   Entry Name: ABFertileLyco
+      Main BP: Lyco_Character_BP_Aberrant_C
+      Entry Weight: 0.07
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.5
+Container Name: null
+   Entry Name: Lyco EXTDesert (1-2)
+      Main BP: Lyco_Character_BP_Scorched_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.8-0.3
+         SubBP: Lyco_Character_BP_Scorched_C 1.0
+         SubBP: MegaLyco_Character_BP_C 0.005
+Container Name: null
+   Entry Name: EXTCityLyco1
+      Main BP: Lyco_Character_BP_C
+      Entry Weight: 0.07
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: EXTCityLyco2
+      Main BP: Lyco_Character_BP_C
+      Entry Weight: 0.07
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5
+         SubBP: Lyco_Character_BP_C 1.0
+         SubBP: MegaLyco_Character_BP_C 0.005
+Container Name: null
+   Entry Name: EXTForestLyco
+      Main BP: Lyco_Character_BP_Aberrant_C
+      Entry Weight: 0.07
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.8
+Container Name: null
+   Entry Name: Lyco RagScotland (1-2)
+      Main BP: Lyco_Character_BP_C
+      Entry Weight: 0.055
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.8-0.3
+         SubBP: Lyco_Character_BP_C 1.0
+         SubBP: MegaLyco_Character_BP_C 0.005
+Container Name: null
+   Entry Name: Lyco RagJungle (1-2)
+      Main BP: Lyco_Character_BP_C
+      Entry Weight: 0.055
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.3
+         SubBP: Lyco_Character_BP_C 1.0
+         SubBP: MegaLyco_Character_BP_C 0.005
+Container Name: null
+   Entry Name: Lyco RagCenter (1-2)
+      Main BP: Lyco_Character_BP_C
+      Entry Weight: 0.055
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.3
+         SubBP: Lyco_Character_BP_C 1.0
+         SubBP: MegaLyco_Character_BP_C 0.005
+Container Name: null
+   Entry Name: Lyco BeachGeneric (1-2)
+      Main BP: Lyco_Character_BP_C
+      Entry Weight: 0.055
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.8-0.3
+Container Name: null
+   Entry Name: Lyco JungleGeneric (1-2)
+      Main BP: Lyco_Character_BP_C
+      Entry Weight: 0.055
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.8-0.3
+         SubBP: Lyco_Character_BP_C 1.0
+         SubBP: MegaLyco_Character_BP_C 0.005
+Container Name: null
+   Entry Name: Lyco RedwoodsGeneric (1-2)
+      Main BP: Lyco_Character_BP_C
+      Entry Weight: 0.055
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.8-0.3
+         SubBP: Lyco_Character_BP_C 1.0
+         SubBP: MegaLyco_Character_BP_C 0.005
+
+MultiParams Summary: 
+   Main BP: Lyco_Character_BP_Aberrant_C
+      Entry Weight:                   0.07
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.5-0.3
+      Entry Weight:                   0.07
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.5
+      Entry Weight:                   0.07
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.8
+SubBPList: Lyco_Character_BP_Aberrant_C: 1.0, MegaLyco_Character_BP_C: 0.005
+
+   Main BP: Lyco_Character_BP_C
+      Entry Weight:                   0.055
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.3
+      Entry Weight:                   0.06
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.075
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.3
+      Entry Weight:                   0.07
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.07
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.055
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.8-0.3
+      Entry Weight:                   0.055
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.3
+      Entry Weight:                   0.055
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.3
+      Entry Weight:                   0.055
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.8-0.3
+      Entry Weight:                   0.055
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.8-0.3
+      Entry Weight:                   0.055
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.8-0.3
+SubBPList: Lyco_Character_BP_C: 1.0, MegaLyco_Character_BP_C: 0.005
+SubBPList: MegaLyco_Character_BP_C: 0.005
+SubBPList: Lyco_Character_BP_C: 1.0, MegaLyco_Character_BP_C: 0.005
+SubBPList: Lyco_Character_BP_C: 1.0, MegaLyco_Character_BP_C: 0.005
+SubBPList: Lyco_Character_BP_C: 1.0, MegaLyco_Character_BP_C: 0.005
+SubBPList: Lyco_Character_BP_C: 1.0, MegaLyco_Character_BP_C: 0.005
+SubBPList: Lyco_Character_BP_C: 1.0, MegaLyco_Character_BP_C: 0.005
+SubBPList: Lyco_Character_BP_C: 1.0, MegaLyco_Character_BP_C: 0.005
+SubBPList: Lyco_Character_BP_C: 1.0, MegaLyco_Character_BP_C: 0.005
+
+   Main BP: Lyco_Character_BP_Scorched_C
+      Entry Weight:                   0.07
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.8
+      Entry Weight:                   0.07
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.8
+      Entry Weight:                   0.07
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.8-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.8-0.3
+SubBPList: MegaLyco_Character_BP_C: 0.005
+SubBPList: Lyco_Character_BP_Scorched_C: 1.0, MegaLyco_Character_BP_C: 0.005
+SubBPList: Lyco_Character_BP_Scorched_C: 1.0, MegaLyco_Character_BP_C: 0.005
+

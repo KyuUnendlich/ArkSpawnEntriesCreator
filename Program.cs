@@ -42,6 +42,10 @@ namespace ArkSpawnEntriesCreator
         {
             //Input text is extracted TheNPCSpawnEntriesContainerAdditions from ModDataAsset / PrimalGameData
 
+            if (replaceFile) {
+                File.Delete(Path);
+            }
+
             const string path = "C:/Users/matth/Desktop/strings.txt";
             // Open the text file using a stream reader.
             using StreamReader reader = new(path);
@@ -94,7 +98,7 @@ namespace ArkSpawnEntriesCreator
                 //Write Engram Entries
                 if (text.Contains("BlueprintGeneratedClass'EngramEntry"))
                 {
-                    int first_index = text.LastIndexOf(":") + 39;
+                    int first_index = text.LastIndexOf(":") + 27;
                     int last_index = text.LastIndexOf(",") - 2;
                     string engramEntry = text.Substring(first_index, last_index - first_index);
 
@@ -404,6 +408,14 @@ namespace ArkSpawnEntriesCreator
                     globalSpawnWeights = true;
                     break;
                 }
+
+                //SpawnReplacementsFound
+                if (text.Contains("SpawnReplacements"))
+                {
+                    File.AppendAllText(Path, "ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT SpawnReplacements");
+                    File.AppendAllText(Path, "\r\n");
+                    File.AppendAllText(Path, "\r\n");
+                }
             }
 
             bool searchForMainBP = false;
@@ -479,6 +491,14 @@ namespace ArkSpawnEntriesCreator
                 if (text.Contains("ServerExtraWorldSingletonActorClasses"))
                 {
                     break;
+                }
+
+                //SpawnReplacementsFound
+                if (text.Contains("SpawnReplacements"))
+                {
+                    File.AppendAllText(Path, "ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT SpawnReplacements");
+                    File.AppendAllText(Path, "\r\n");
+                    File.AppendAllText(Path, "\r\n");
                 }
             }
 
@@ -674,7 +694,7 @@ namespace ArkSpawnEntriesCreator
 
         enum Mod
         {
-            Prehistoric1,
+            Prehistoric1, //Beasts
             Prehistoric2,
             Prehistoric3,
             Prehistoric4,
@@ -682,18 +702,23 @@ namespace ArkSpawnEntriesCreator
             CyrusDrakonis,
             WakSpino,
             Hatze,
-            ElementalRaptors,
-            Hydrovanta,
+            ElementalRaptors, //TAC_FireAndIce
+            MoroHydrovanta, //Hydrovanta
             ShadAtlas,
             PortsOfAtlas,
             AtlasReborn,
             AtlasFish,
             MoroLivy,
             MoroGigantophis,
-            SulfurTitan,
+            SulfurTitan, //TitanSulfur
             Edmontonia,
-            Anomalocaris,
-            Cricosaurus,
+            Anomalocaris, //AA_Anomalo
+            Cricosaurus, //AA_Crico
+            Draconyx, //ATDraconyx
+            Scotoharpes, //ATScoto
+            BombardierBeetle, //ATBombardier
+            Lycosuchus,
+            Adasaurus //PPR-Ada
 
 
         }
@@ -701,7 +726,8 @@ namespace ArkSpawnEntriesCreator
         //There is now a branch (multi-main-bp) for Mods that have one addition per container with multiple different dinos
 
         //const string Path = "C:/Users/matth/Desktop/Ascended/AtlasFish.txt";
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/PortsOfAtlas.txt";
+        const bool replaceFile = true;
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/Adasaurus.txt";
     }
 
 

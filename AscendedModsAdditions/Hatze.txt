@@ -1,6 +1,6 @@
 Engram Entries: 
-   HatzSaddle_C
-   HatzSaddle_Battle_C
+   EngramEntry_HatzSaddle_C
+   EngramEntry_HatzSaddle_Battle_C
 
 Dino Entries: 
    Hatzeg_C

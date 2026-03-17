@@ -1,11 +1,11 @@
 Engram Entries: 
-   Hydrovanta_Saddle_C
-   Hydrovanta_HealingBrew_Tier1_C
-   Hydrovanta_HealingBrew_Tier2_C
-   Hydrovanta_HealingBrew_Tier3_C
-   Hydrovanta_Dossier_C
-   Hydrovanta_ChibiPet_C
-   Hydrovanta_AquariumTank_C
+   EngramEntry_Hydrovanta_Saddle_C
+   EngramEntry_Hydrovanta_HealingBrew_Tier1_C
+   EngramEntry_Hydrovanta_HealingBrew_Tier2_C
+   EngramEntry_Hydrovanta_HealingBrew_Tier3_C
+   EngramEntry_Hydrovanta_Dossier_C
+   EngramEntry_Hydrovanta_ChibiPet_C
+   EngramEntry_Hydrovanta_AquariumTank_C
 
 Dino Entries: 
    Hydrovanta_C
@@ -53,12 +53,6 @@ Container Name: null
       Entry Weight: 1.0
       Spawn Limit: 0.1
       Multi Spawn Chance: 0.5
-Container Name: null
-   Entry Name: MorosHydrovanta
-      Main BP: Hydrovanta_Character_BP_C_C
-      Entry Weight: 1.0
-      Spawn Limit: 0.1
-      Multi Spawn Chance: 0.5
 
 MultiParams Summary: 
    Main BP: Hydrovanta_Character_BP_C_C
@@ -79,9 +73,6 @@ MultiParams Summary:
       Multi Spawn Chance:                               0.5
       Entry Weight:                   1.0
       Spawn Limit:                             0.01
-      Multi Spawn Chance:                               0.5
-      Entry Weight:                   1.0
-      Spawn Limit:                             0.1
       Multi Spawn Chance:                               0.5
       Entry Weight:                   1.0
       Spawn Limit:                             0.1

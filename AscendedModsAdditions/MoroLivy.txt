@@ -1,20 +1,20 @@
 Engram Entries: 
-   LivyatanCommunicationPad_Moro_C
-   SaddleLivyatanMoro_C
-   BoneSaddleLivyatan_C
-   LivyHideDryingRack_C
-   CraftingBench_Livy_C
-   SaddleLivyatanDefault_C
-   BackPlates_Siege_C
-   Cockpit_Siege_C
-   DriedLivyatanHide_C
-   FishingNets_BoneSaddle_C
-   HeadPlates_Siege_C
-   LeatherPads_LivySaddle_C
-   MetalHelmet_Siege_C
-   MetalPads_Siege_C
-   StomachPlates_Siege_C
-   AlphaLivyHuntingHorn_C
+   EngramEntry_LivyatanCommunicationPad_Moro_C
+   EngramEntry_SaddleLivyatanMoro_C
+   EngramEntry_BoneSaddleLivyatan_C
+   EngramEntry_LivyHideDryingRack_C
+   EngramEntry_CraftingBench_Livy_C
+   EngramEntry_SaddleLivyatanDefault_C
+   EngramEntry_BackPlates_Siege_C
+   EngramEntry_Cockpit_Siege_C
+   EngramEntry_DriedLivyatanHide_C
+   EngramEntry_FishingNets_BoneSaddle_C
+   EngramEntry_HeadPlates_Siege_C
+   EngramEntry_LeatherPads_LivySaddle_C
+   EngramEntry_MetalHelmet_Siege_C
+   EngramEntry_MetalPads_Siege_C
+   EngramEntry_StomachPlates_Siege_C
+   EngramEntry_AlphaLivyHuntingHorn_C
 
 Dino Entries: 
    Livyatan_C

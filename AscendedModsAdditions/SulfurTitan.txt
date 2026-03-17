@@ -1,11 +1,11 @@
 Engram Entries: 
-   SulfurCapsule_C
-   SulfurGrenade_C
-   TitanTerminal_C
-   SulfurJetpack_C
-   SulfurTitanSaddle_C
-   SulfurWrench_C
-   AlphaSulfurSummoner_C
+   EngramEntry_SulfurCapsule_C
+   EngramEntry_SulfurGrenade_C
+   EngramEntry_TitanTerminal_C
+   EngramEntry_SulfurJetpack_C
+   EngramEntry_SulfurTitanSaddle_C
+   EngramEntry_SulfurWrench_C
+   EngramEntry_AlphaSulfurSummoner_C
 
 Dino Entries: 
    SulfurTitan_C

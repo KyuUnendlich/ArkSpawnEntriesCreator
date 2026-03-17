@@ -1,8 +1,8 @@
 Engram Entries: 
-   AtlasReborn_Box_C
-   MeanWhale_Platform_C
-   MeanWhale_TekArmor_C
-   Saddle_HorseReborn_C
+   EngramEntry_AtlasReborn_Box_C
+   EngramEntry_MeanWhale_Platform_C
+   EngramEntry_MeanWhale_TekArmor_C
+   EngramEntry_Saddle_HorseReborn_C
 
 Dino Entries: 
    Dragon_Reborn_C

@@ -1,6 +1,6 @@
 Engram Entries: 
-   AnomalocarisSaddle_C
-   AnomaloCocktail_C
+   EngramEntry_AnomalocarisSaddle_C
+   EngramEntry_AnomaloCocktail_C
 
 Dino Entries: 
    AnomaloAA_C

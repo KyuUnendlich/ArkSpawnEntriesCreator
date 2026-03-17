@@ -1,15 +1,15 @@
 Engram Entries: 
-   Saddle_AHammer_C
-   Saddle_Kodiak_C
-   Saddle_NormCyclops_C
-   Saddle_ArmoredCyclops_C
-   Saddle_Croc_C
-   Saddle_Abat_C
-   CreateBoneBrute_C
-   Saddle_AIBoneBrute_C
-   Weapon_CyclopsBoneMace_C
-   Weapon_CyclopsChitinGA_C
-   Weapon_CyclopsChitinGS_C
+   EngramEntry_Saddle_AHammer_C
+   EngramEntry_Saddle_Kodiak_C
+   EngramEntry_Saddle_NormCyclops_C
+   EngramEntry_Saddle_ArmoredCyclops_C
+   EngramEntry_Saddle_Croc_C
+   EngramEntry_Saddle_Abat_C
+   EngramEntry_CreateBoneBrute_C
+   EngramEntry_Saddle_AIBoneBrute_C
+   EngramEntry_Weapon_CyclopsBoneMace_C
+   EngramEntry_Weapon_CyclopsChitinGA_C
+   EngramEntry_Weapon_CyclopsChitinGS_C
 
 Dino Entries: 
    AICyclops_C

@@ -1,18 +1,18 @@
 Engram Entries: 
-   ElementalDart_C
-   FA-VAL_C
-   VAL-Tranq_C
-   Pyroraptor_Saddle_C
-   PyroraptorSickle_C
-   ElementalDust_C
-   Weapon_Cryo_ClimbPick_C
-   Cryoraptor_Saddle_C
-   Weapon_VR-BR_C
-   Venoraptor_Saddle_C
-   ElementalArrow_C
-   ElementalDustF_C
-   ElementalDustI_C
-   ElementalDustP_C
+   EngramEntry_ElementalDart_C
+   EngramEntry_FA-VAL_C
+   EngramEntry_VAL-Tranq_C
+   EngramEntry_Pyroraptor_Saddle_C
+   EngramEntry_PyroraptorSickle_C
+   EngramEntry_ElementalDust_C
+   EngramEntry_Weapon_Cryo_ClimbPick_C
+   EngramEntry_Cryoraptor_Saddle_C
+   EngramEntry_Weapon_VR-BR_C
+   EngramEntry_Venoraptor_Saddle_C
+   EngramEntry_ElementalArrow_C
+   EngramEntry_ElementalDustF_C
+   EngramEntry_ElementalDustI_C
+   EngramEntry_ElementalDustP_C
 
 Dino Entries: 
    TAC-Cryoraptor_C
