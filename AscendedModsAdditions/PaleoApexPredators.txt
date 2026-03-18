@@ -1,0 +1,126 @@
+Engram Entries: 
+   EngramEntry_Saddle_EVO_Giga_C
+   EngramEntry_Saddle_EVO_Rex_C
+   EngramEntry_Saddle_EVO_Tarbo_C
+   EngramEntry_Saddle_Tek_EVO_Rex_C
+
+Dino Entries: 
+   EVO_Giga_C
+   EVO_Rex_C
+   EVO_Tarbo_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Tarbosaurus
+      Main BP: EVO_Tarbo_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Tarbosaurus
+      Main BP: EVO_Tarbo_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.35
+Container Name: null
+   Entry Name: Tarbo (1)
+      Main BP: EVO_Tarbo_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+
+MultiParams Summary: 
+   Main BP: EVO_Tarbo_Character_BP_C
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.35
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+
+      
+From Class: 
+      Gigant_Character_BP_C
+To Class: 
+      EVO_Giga_Character_BP_C
+      
+From Class: 
+      Rex_Character_BP_C
+To Class: 
+      EVO_Rex_Character_BP_C
+      
+From Class: 
+      Rex_Character_BP_C
+To Class: 
+      EVO_Tarbo_Character_BP_C
+      
+From Class: 
+      Rex_Character_BP_C
+To Class: 
+      EVO_Tarbo_Character_BP_C
+      
+From Class: 
+      MegaRex_Character_BP_C
+To Class: 
+      EVO_Alpha_Rex_Character_BP_C
+      
+From Class: 
+      Gigant_Character_BP_Corrupt_C
+To Class: 
+      EVO_Corrupt_Giga_Character_BP_C
+      
+From Class: 
+      Rex_Character_BP_Corrupt_C
+To Class: 
+      EVO_Corrupt_Rex_Character_BP_C
+      
+From Class: 
+      BionicRex_Character_BP_C
+To Class: 
+      EVO_Tek_Rex_Character_BP_C
+      
+From Class: 
+      MegaRex_Character_BP_Corrupt_C
+To Class: 
+      EVO_Alpha_Corrupt_Tek_Rex_Character_BP_C
+      
+From Class: 
+      Rex_Character_BP_Corrupt_Zombie_C
+To Class: 
+      EVO_Rex_Character_BP_Corrupted_Zombie_C
+      
+From Class: 
+      EVO_Rex_Character_BP_C
+To Class: 
+      EVO_Legacy_Rex_Character_BP_C
+      EVO_Alpha_Rex_Character_BP_C
+      EVO_Rex_Character_BP_C
+      EVO_Alpha_Legacy_Rex_Character_BP_C
+      5.0, 4.75, 90.0, 0.25
+      
+From Class: 
+      EVO_Tarbo_Character_BP_C
+To Class: 
+      EVO_Alpha_Tarbo_Character_BP_C
+      EVO_Tarbo_Character_BP_C
+      5.0, 95.0
+      
+From Class: 
+      EVO_Giga_Character_BP_C
+To Class: 
+      EVO_Giga_Character_BP_C
+      EVO_Wasteland_Giga_Character_BP_C
+      90.0, 10.0
+      
+From Class: 
+      EVO_Rex_Character_BP_C
+To Class: 
+      EVO_Legacy_Rex_Character_BP_C
+      EVO_Alpha_Rex_Character_BP_C
+      EVO_Rex_Character_BP_C
+      EVO_Alpha_Legacy_Rex_Character_BP_C
+      EVO_Tek_Rex_Character_BP_C
+      5.0, 4.75, 80.0, 0.25, 10.0

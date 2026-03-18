@@ -1,0 +1,34 @@
+Dino Entries: 
+   EVO_Mosa_C
+
+ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT Remaps: 
+      
+FromClass: 
+      Mosa_Character_BP_C
+ToClass: 
+      EVO_Mosa_Character_BP_C
+      
+FromClass: 
+      Mosa_Character_BP_Mega_C
+ToClass: 
+      EVO_Alpha_Mosa_Character_BP_C
+      
+FromClass: 
+      Mosa_Character_BP_Cave_C
+ToClass: 
+      EVO_Cave_Mosa_Character_BP_C
+      
+FromClass: 
+      Mosa_Character_BP_Mega_Cave_C
+ToClass: 
+      EVO_Cave_Alpha_Mosa_Character_BP_C
+      
+FromClass: 
+      EngramEntry_Saddle_Mosa_C
+ToClass: 
+      EngramEntry_Saddle_EVO_Mosa_C
+      Mosa_Character_BP_C
+      Shastasaurus_Character_BP_C
+      Tusoteuthis_Character_BP_C
+      Plesiosaur_Character_BP_C
+

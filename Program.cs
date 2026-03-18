@@ -8,6 +8,7 @@ using System.Text;
 using System.Xml;
 using System.Linq.Expressions;
 using System.Diagnostics.Tracing;
+using System.Xml.Linq;
 
 
 namespace ArkSpawnEntriesCreator
@@ -46,7 +47,8 @@ namespace ArkSpawnEntriesCreator
                 File.Delete(Path);
             }
 
-            const string path = "C:/Users/matth/Desktop/strings.txt";
+            const string path = "E:/ARK Saves/ArkSpawnEntriesCreator/strings.txt";
+            //const string path = "C:/Users/matth/Desktop/strings.txt";
             // Open the text file using a stream reader.
             using StreamReader reader = new(path);
 
@@ -181,19 +183,60 @@ namespace ArkSpawnEntriesCreator
             StringBuilder sb_remaps = new StringBuilder();
             bool foundRemaps = false;
 
+            bool fromPart = false;
+            bool toPart = false;
+            bool weights = false;
+            string weightsTemp = "";
+
             while (!reader.EndOfStream && readingRemaps)
             {
                 foundRemaps = true;
+
                 string text = reader.ReadLine();
 
-                //Write Remaps
-                if (text.Contains("AssetPathName"))
+                if (text.Contains("FromClass"))
                 {
-                    int first_index = 30;
-                    int last_index = text.LastIndexOf(",") - 1;
-                    string remapBP = text.Substring(first_index, last_index - first_index);
+                    sb_remaps.AppendLine("      ");
+                    fromPart = true;
+                    toPart = false;
+                    sb_remaps.AppendLine("FromClass: ");
+                }
 
-                    sb_remaps.AppendLine("   " + remapBP);
+                if (text.Contains("ToClass"))
+                {
+                    fromPart = false;
+                    toPart = true;
+                    sb_remaps.AppendLine("ToClass: ");
+                }
+
+                if (weights)
+                {
+                    weightsTemp += text.Replace(" ", "") + " ";
+                }
+
+                if (!weights && text.Contains("\"Weights\": ["))
+                {
+                    weights = true;
+                }
+
+                if (weights && text.Contains("],"))
+                {
+                    string weightsToPrint = weightsTemp.Substring(0, weightsTemp.Length - 4);
+                    sb_remaps.AppendLine("      " + weightsToPrint);
+                    weights = false;
+                    weightsTemp = "";
+                }
+
+                if (fromPart || toPart)
+                {
+                    if (text.Contains("AssetPathName"))
+                    {
+                        int first_index = text.LastIndexOf(".") + 1;
+                        int last_index = text.LastIndexOf(",") - 1;
+                        string mainBP_ = text.Substring(first_index, last_index - first_index);
+
+                        sb_remaps.AppendLine("      " + mainBP_);
+                    }
                 }
 
                 //Searching for beginning of additions
@@ -571,7 +614,7 @@ namespace ArkSpawnEntriesCreator
                 Dictionary<string, List<string>> perBP_MultiParams = new Dictionary<string, List<string>>();
                 Dictionary<string, List<string>> perBP_EntryWeights = new Dictionary<string, List<string>>();
                 Dictionary<string, List<string>> perBP_SpawnLimits = new Dictionary<string, List<string>>();
-                Dictionary<string, List<List<string>>> perBP_SubBPs = new Dictionary<string, List<List<string>>> ();
+                Dictionary<string, List<List<string>>> perBP_SubBPs = new Dictionary<string, List<List<string>>>();
                 Dictionary<string, List<List<string>>> perBP_SubBPsWeights = new Dictionary<string, List<List<string>>>();
 
                 foreach (SpawnContainer cont in spawnContainers)
@@ -690,6 +733,70 @@ namespace ArkSpawnEntriesCreator
                 }
                 File.AppendAllText(Path, sb.ToString());
             }
+            if (secondString2)
+            {
+                //ExtraFileRemaps
+                string path2 = "E:/ARK Saves/ArkSpawnEntriesCreator/strings2.txt";
+                using StreamReader reader_remaps = new(path2);
+                StringBuilder sb_remapsAdditional = new StringBuilder();
+
+                fromPart = false;
+                toPart = false;
+                fromPart = false;
+                weightsTemp = "";
+
+                while (!reader_remaps.EndOfStream)
+                {
+
+                    string text_remaps = reader_remaps.ReadLine();
+                    if (text_remaps.Contains("FromClass"))
+                    {
+                        sb_remapsAdditional.AppendLine("      ");
+                        fromPart = true;
+                        toPart = false;
+                        sb_remapsAdditional.AppendLine("From Class: ");
+                    }
+
+                    if (text_remaps.Contains("ToClass"))
+                    {
+                        fromPart = false;
+                        toPart = true;
+                        sb_remapsAdditional.AppendLine("To Class: ");
+                    }
+
+                    if (weights)
+                    {
+                        weightsTemp += text_remaps.Replace(" ", "") + " ";
+                    }
+
+                    if (!weights && text_remaps.Contains("\"Weights\": ["))
+                    {
+                        weights = true;
+                    }
+
+                    if (weights && text_remaps.Contains("],"))
+                    {
+                        string weightsToPrint = weightsTemp.Substring(0, weightsTemp.Length - 4);
+                        sb_remapsAdditional.AppendLine("      " + weightsToPrint);
+                        weights = false;
+                        weightsTemp = "";
+                    }
+
+                    if (fromPart || toPart)
+                    {
+                        if (text_remaps.Contains("AssetPathName"))
+                        {
+                            int first_index = text_remaps.LastIndexOf(".") + 1;
+                            int last_index = text_remaps.LastIndexOf(",") - 1;
+                            string mainBP_ = text_remaps.Substring(first_index, last_index - first_index);
+
+                            sb_remapsAdditional.AppendLine("      " + mainBP_);
+                        }
+                    }
+                }
+                File.AppendAllText(Path, sb_remapsAdditional.ToString());
+              
+            }
         }
 
         enum Mod
@@ -718,7 +825,34 @@ namespace ArkSpawnEntriesCreator
             Scotoharpes, //ATScoto
             BombardierBeetle, //ATBombardier
             Lycosuchus,
-            Adasaurus //PPR-Ada
+            Adasaurus, //PPR-Ada
+            PaleoApexPredators, //PA_EVO_01
+            PaleoDangerousDepths, //PA_EVO_02
+            PaleoHardHittingHerbivores, //PA_EVO_03
+            PaleoNativeAquatics, //PA_PLUS_01
+            PaleoRulersWastelands,  //PA_PLUS_02
+            XyphCharnia,
+            XyphDick,
+            XyphEnantiophoenix,
+            XyphMegistotherium,
+            XyphMeiolania,
+            XyphMischoptera,
+            XyphVetuli,
+            KamiFeral,
+            TheSunkenWorld,
+            NeoEuropa,
+            FeralDinocroc,
+            FeralSmilo,
+            FeralFoxes,
+            CuriousCryptids,
+            AstraeosMythCreatures,
+            MyrmDracoteuthis,
+            MyrmDraconisGlaucus,
+            IsleSkyshroud,
+            IsleOxalaia,
+
+
+
 
 
         }
@@ -727,7 +861,8 @@ namespace ArkSpawnEntriesCreator
 
         //const string Path = "C:/Users/matth/Desktop/Ascended/AtlasFish.txt";
         const bool replaceFile = true;
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/Adasaurus.txt";
+        const bool secondString2 = false;
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/IsleSkyshroud.txt";
     }
 
 

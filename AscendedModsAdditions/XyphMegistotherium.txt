@@ -1,0 +1,656 @@
+Engram Entries: 
+   EngramEntry_MegistotheriumSaddle_C
+
+Dino Entries: 
+   Megistotherium_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.33
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.33
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.33
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.33
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.33
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.33
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.33
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.33
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.33
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.33
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.33
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.33
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.33
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.33
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.33
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.33
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.33
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.33
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: MegistotheriumNoStripes
+      Main BP: MegistotheriumNoStripes_CharacterBP_C
+      Entry Weight: 0.0005
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: MegistotheriumNoStripes
+      Main BP: MegistotheriumNoStripes_CharacterBP_C
+      Entry Weight: 0.0005
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.03
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: MegistotheriumNoStripes
+      Main BP: MegistotheriumNoStripes_CharacterBP_C
+      Entry Weight: 0.0003
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.03
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: MegistotheriumNoStripes
+      Main BP: MegistotheriumNoStripes_CharacterBP_C
+      Entry Weight: 0.0003
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.04
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: MegistotheriumNoStripes
+      Main BP: MegistotheriumNoStripes_CharacterBP_C
+      Entry Weight: 0.0004
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.04
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: MegistotheriumNoStripes
+      Main BP: MegistotheriumNoStripes_CharacterBP_C
+      Entry Weight: 0.0004
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.03
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: MegistotheriumNoStripes
+      Main BP: MegistotheriumNoStripes_CharacterBP_C
+      Entry Weight: 0.0003
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.03
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: MegistotheriumNoStripes
+      Main BP: MegistotheriumNoStripes_CharacterBP_C
+      Entry Weight: 0.0003
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.025
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.025
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.03
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: MegistotheriumSE_CharacterBP_C
+      Entry Weight: 0.03
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: MegistotheriumExt_CharacterBP_C
+      Entry Weight: 0.03
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: MegistotheriumExt_CharacterBP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: MegistotheriumExt_CharacterBP_C
+      Entry Weight: 0.02
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: MegistotheriumExt_CharacterBP_C
+      Entry Weight: 0.03
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: MegistotheriumExt_CharacterBP_C
+      Entry Weight: 0.03
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: MegistotheriumExt_CharacterBP_C
+      Entry Weight: 0.06
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: MegistotheriumExt_CharacterBP_C
+      Entry Weight: 0.03
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: MegistotheriumExt_CharacterBP_C
+      Entry Weight: 0.0125
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Aberrant Megistotherium
+      Main BP: MegistotheriumAberrant_CharacterBP_C
+      Entry Weight: 0.025
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Aberrant Megistotherium
+      Main BP: MegistotheriumAberrant_CharacterBP_C
+      Entry Weight: 0.025
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.03
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: MegistotheriumNoStripes
+      Main BP: MegistotheriumNoStripes_CharacterBP_C
+      Entry Weight: 0.0003
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.01
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: MegistotheriumNoStripes
+      Main BP: MegistotheriumNoStripes_CharacterBP_C
+      Entry Weight: 0.0003
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.02
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: MegistotheriumNoStripes
+      Main BP: MegistotheriumNoStripes_CharacterBP_C
+      Entry Weight: 0.0003
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.008
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: MegistotheriumNoStripes
+      Main BP: MegistotheriumNoStripes_CharacterBP_C
+      Entry Weight: 0.0003
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: MegistotheriumNoStripes
+      Main BP: MegistotheriumNoStripes_CharacterBP_C
+      Entry Weight: 0.03
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.03
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: MegistotheriumNoStripes
+      Main BP: MegistotheriumNoStripes_CharacterBP_C
+      Entry Weight: 0.01
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.5
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: MegistotheriumNoStripes
+      Main BP: MegistotheriumNoStripes_CharacterBP_C
+      Entry Weight: 0.2
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.5
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: MegistotheriumNoStripes
+      Main BP: MegistotheriumNoStripes_CharacterBP_C
+      Entry Weight: 0.2
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: MegistotheriumNoStripes
+      Main BP: MegistotheriumNoStripes_CharacterBP_C
+      Entry Weight: 0.01
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: MegistotheriumNoStripes
+      Main BP: MegistotheriumNoStripes_CharacterBP_C
+      Entry Weight: 0.01
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.03
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: MegistotheriumNoStripes
+      Main BP: MegistotheriumNoStripes_CharacterBP_C
+      Entry Weight: 0.001
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: Megistotherium_CharacterBP_C
+      Entry Weight: 0.03
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: MegistotheriumNoStripes
+      Main BP: MegistotheriumNoStripes_CharacterBP_C
+      Entry Weight: 0.001
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+
+MultiParams Summary: 
+   Main BP: Megistotherium_CharacterBP_C
+      Entry Weight:                   0.33
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.33
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.33
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.33
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.33
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.33
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.33
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.33
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.33
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.33
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.33
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.33
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.33
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.33
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.33
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.33
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.33
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.33
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.04
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.04
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.025
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.025
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.01
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.008
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.5
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.5
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+
+   Main BP: MegistotheriumAberrant_CharacterBP_C
+      Entry Weight:                   0.025
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.025
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+
+   Main BP: MegistotheriumExt_CharacterBP_C
+      Entry Weight:                   0.03
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.06
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.0125
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+
+   Main BP: MegistotheriumNoStripes_CharacterBP_C
+      Entry Weight:                   0.0005
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.0005
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.0003
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.0003
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.0004
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.0004
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.0003
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.0003
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.0003
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.0003
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.0003
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.0003
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.01
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.2
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.2
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.01
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.01
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.001
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.001
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+
+   Main BP: MegistotheriumSE_CharacterBP_C
+      Entry Weight:                   0.03
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+

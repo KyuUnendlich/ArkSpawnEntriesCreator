@@ -1,0 +1,21 @@
+Engram Entries: 
+   EngramEntry_Saddle_EVO_Therizino_C
+
+Dino Entries: 
+   EVO_Therizino_C
+
+ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT Remaps: 
+      
+FromClass: 
+      Therizino_Character_BP_C
+ToClass: 
+      EVO_Therizino_Character_BP_C
+      
+FromClass: 
+      EVO_Therizino_Character_BP_C
+ToClass: 
+      EVO_Alpha_Therizino_Character_BP_C
+      EVO_Therizino_Character_BP_C
+      0.02, 0.98
+      Therizino_Character_BP_C
+

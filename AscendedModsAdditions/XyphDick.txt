@@ -1,0 +1,186 @@
+Dino Entries: 
+   Dickinsonia_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Dickinsonia
+      Main BP: Dickinsonia_Character_BP_C
+      Entry Weight: 0.005
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Dickinsonia
+      Main BP: Dickinsonia_Character_BP_C
+      Entry Weight: 0.005
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Dickinsonia
+      Main BP: Dickinsonia_Character_BP_C
+      Entry Weight: 0.005
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Dickinsonia
+      Main BP: Dickinsonia_Character_BP_C
+      Entry Weight: 0.005
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Dickinsonia
+      Main BP: Dickinsonia_Character_BP_C
+      Entry Weight: 0.005
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Dickinsonia
+      Main BP: Dickinsonia_Character_BP_C
+      Entry Weight: 0.005
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Aberrant Dickinsonia
+      Main BP: DickinsoniaAberrant_Character_BP_C
+      Entry Weight: 0.0005
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Aberrant Dickinsonia
+      Main BP: DickinsoniaAberrant_Character_BP_C
+      Entry Weight: 0.0005
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Aberrant Dickinsonia
+      Main BP: DickinsoniaAberrant_Character_BP_C
+      Entry Weight: 0.0005
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Aberrant Dickinsonia
+      Main BP: DickinsoniaAberrant_Character_BP_C
+      Entry Weight: 0.0005
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Dickinsonia
+      Main BP: Dickinsonia_Character_BP_C
+      Entry Weight: 0.005
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Dickinsonia
+      Main BP: Dickinsonia_Character_BP_C
+      Entry Weight: 0.005
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Dickinsonia
+      Main BP: Dickinsonia_Character_BP_C
+      Entry Weight: 0.005
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Dickinsonia
+      Main BP: Dickinsonia_Character_BP_C
+      Entry Weight: 0.005
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Dickinsonia
+      Main BP: Dickinsonia_Character_BP_C
+      Entry Weight: 0.005
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Dickinsonia
+      Main BP: Dickinsonia_Character_BP_C
+      Entry Weight: 0.005
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Dickinsonia
+      Main BP: Dickinsonia_Character_BP_C
+      Entry Weight: 0.005
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Dickinsonia
+      Main BP: Dickinsonia_Character_BP_C
+      Entry Weight: 0.005
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Dickinsonia
+      Main BP: Dickinsonia_Character_BP_C
+      Entry Weight: 0.005
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+
+Global Entry Weights: 
+   Main BP: Euryp_Character_C
+      SubBP: Dickinsonia_Character_BP_C 0.1
+      SubBP: Euryp_Character_C 99.9
+
+MultiParams Summary: 
+   Main BP: Dickinsonia_Character_BP_C
+      Entry Weight:                   0.005
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.005
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.005
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.005
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.005
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.005
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.005
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.005
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.005
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.005
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.005
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.005
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.005
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.005
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.005
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+
+   Main BP: DickinsoniaAberrant_Character_BP_C
+      Entry Weight:                   0.0005
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.0005
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.0005
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.0005
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+
