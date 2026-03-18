@@ -56,6 +56,7 @@ namespace ArkSpawnEntriesCreator
             bool readingDinoEntries = false;
             bool readingRemaps = false;
             bool readingDinoAdditions = false;
+            bool globalSpawnWeights = false;
 
             //Whats the first thing to find, EngramEntries, DinoEntries, DinoAdditions
             while (!reader.EndOfStream && !readingEngramEntries && !readingDinoEntries && !readingDinoAdditions)
@@ -86,6 +87,15 @@ namespace ArkSpawnEntriesCreator
                     readingDinoEntries = false;
                     readingRemaps = false;
                     readingDinoAdditions = true;
+                }
+
+                if (text.Contains("GlobalNPCRandomSpawnClassWeights"))
+                {
+                    readingEngramEntries = false;
+                    readingDinoEntries = false;
+                    readingRemaps = false;
+                    readingDinoAdditions = false;
+                    globalSpawnWeights = true;
                 }
             }
 
@@ -124,6 +134,12 @@ namespace ArkSpawnEntriesCreator
                 if (text.Contains("TheNPCSpawnEntriesContainerAdditions"))
                 {
                     readingDinoAdditions = true;
+                    readingEngramEntries = false;
+                }
+
+                if (text.Contains("GlobalNPCRandomSpawnClassWeights"))
+                {
+                    globalSpawnWeights = true;
                     readingEngramEntries = false;
                 }
             }
@@ -167,6 +183,12 @@ namespace ArkSpawnEntriesCreator
                 if (text.Contains("TheNPCSpawnEntriesContainerAdditions"))
                 {
                     readingDinoAdditions = true;
+                    readingDinoEntries = false;
+                }
+
+                if (text.Contains("GlobalNPCRandomSpawnClassWeights"))
+                {
+                    globalSpawnWeights = true;
                     readingDinoEntries = false;
                 }
 
@@ -242,8 +264,14 @@ namespace ArkSpawnEntriesCreator
                 //Searching for beginning of additions
                 if (text.Contains("TheNPCSpawnEntriesContainerAdditions"))
                 {
-                    readingRemaps = false;
                     readingDinoAdditions = true;
+                    readingRemaps = false;
+                }
+
+                if (text.Contains("GlobalNPCRandomSpawnClassWeights"))
+                {
+                    globalSpawnWeights = true;
+                    readingRemaps = false;
                 }
             }
 
@@ -260,7 +288,6 @@ namespace ArkSpawnEntriesCreator
             bool subBPs = false;
             bool subBPWeights = false;
             bool NPCsPercentage = false;
-            bool globalSpawnWeights = false;
 
             List<SpawnContainer> spawnContainers = new List<SpawnContainer>();
             int spawnContainerIndex = -1;
@@ -813,7 +840,12 @@ namespace ArkSpawnEntriesCreator
             MyrmDracoteuthis, //Dracoteuthis
             MyrmDraconisGlaucus, //Glaucus
             IsleSkyshroud, //skyshroud
-            IsleOxalaia,
+            IsleOxalaia, //IoMSpino
+            IsleSpearcrest, //BSSpearcrest
+            IsleSuchomimus, //IsleOfMythsSucho
+            HorizonSuchomimus, //Horizons
+            MoroTylo,
+            MoroNotho,
 
 
 
@@ -826,7 +858,7 @@ namespace ArkSpawnEntriesCreator
         //const string Path = "C:/Users/matth/Desktop/Ascended/AtlasFish.txt";
         const bool replaceFile = true;
         const bool secondString2 = false;
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/FerasFoxes.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/HorizonSuchomimus.txt";
     }
 
 
