@@ -804,14 +804,14 @@ namespace ArkSpawnEntriesCreator
             XyphVetuli,
             KamiFeral,
             TheSunkenWorld,
-            NeoEuropa,
-            FeralDinocroc,
-            FeralSmilo,
-            FeralFoxes,
-            CuriousCryptids,
+            NeoEuropa, //Europa
+            FerasDinocroc,
+            FerasSmilo, //GreaterSaber
+            FerasFoxes,
+            CuriousCryptids, //TutorialDino
             AstraeosMythCreatures,
             MyrmDracoteuthis,
-            MyrmDraconisGlaucus,
+            MyrmDraconisGlaucus, //Glaucus
             IsleSkyshroud,
             IsleOxalaia,
 
@@ -826,7 +826,7 @@ namespace ArkSpawnEntriesCreator
         //const string Path = "C:/Users/matth/Desktop/Ascended/AtlasFish.txt";
         const bool replaceFile = true;
         const bool secondString2 = false;
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/IsleSkyshroud.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/NeoEuropa.txt";
     }
 
 

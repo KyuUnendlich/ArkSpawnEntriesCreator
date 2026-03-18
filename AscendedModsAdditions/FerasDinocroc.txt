@@ -1,0 +1,52 @@
+Engram Entries: 
+   EngramEntry_DinocrocutaSaddle_C
+
+Dino Entries: 
+   Dinocrocuta_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: 
+      Main BP: Dinocrocuta_Character_BP_C
+      Entry Weight: 0.6
+      Spawn Limit: 1.0
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: 
+      Main BP: Dinocrocuta_Character_BP_C
+      Entry Weight: 0.3
+      Spawn Limit: 1.0
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: 
+      Main BP: Dinocrocuta_Character_BP_C
+      Entry Weight: 0.6
+      Spawn Limit: 1.0
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: 
+      Main BP: Dinocrocuta_Character_BP_C
+      Entry Weight: 0.3
+      Spawn Limit: 1.0
+      Multi Spawn Chance: 
+
+Global Entry Weights: 
+   Main BP: Dinocrocuta_Character_BP_C
+      SubBP: Dinocrocuta_Character_BP_C 98.0
+      SubBP: Meocrocuta_Character_BP_C 2.0
+
+MultiParams Summary: 
+   Main BP: Dinocrocuta_Character_BP_C
+      Entry Weight:                   0.6
+      Spawn Limit:                             1.0
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.3
+      Spawn Limit:                             1.0
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.6
+      Spawn Limit:                             1.0
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.3
+      Spawn Limit:                             1.0
+      Multi Spawn Chance:                               
+

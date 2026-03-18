@@ -1,0 +1,91 @@
+Engram Entries: 
+   EngramEntry_TatzelwurmSaddle_C
+
+Dino Entries: 
+   Globster_C
+   Tatzelwurm_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: 
+      Main BP: Globster_Character_BP_C
+      Entry Weight: 0.045
+      Spawn Limit: 
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: 
+      Main BP: Globster_Character_BP_C
+      Entry Weight: 0.045
+      Spawn Limit: 
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: 
+      Main BP: Globster_Character_BP_C
+      Entry Weight: 0.045
+      Spawn Limit: 
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: 
+      Main BP: Tatzelwurm_Character_BP_C
+      Entry Weight: 0.045
+      Spawn Limit: 
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: 
+      Main BP: Tatzelwurm_Character_BP_C
+      Entry Weight: 0.045
+      Spawn Limit: 
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: 
+      Main BP: Tatzelwurm_Character_BP_C
+      Entry Weight: 0.045
+      Spawn Limit: 
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: 
+      Main BP: Tatzelwurm_Character_BP_C
+      Entry Weight: 0.045
+      Spawn Limit: 
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: 
+      Main BP: Tatzelwurm_Character_BP_C
+      Entry Weight: 0.045
+      Spawn Limit: 
+      Multi Spawn Chance: 
+
+Global Entry Weights: 
+   Main BP: Globster_Character_BP_C
+      SubBP: Globster_Character_BP_C 0.97
+      SubBP: MegaGlobster_Character_BP_C 0.03
+
+MultiParams Summary: 
+   Main BP: Globster_Character_BP_C
+      Entry Weight:                   0.045
+      Spawn Limit:                             
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.045
+      Spawn Limit:                             
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.045
+      Spawn Limit:                             
+      Multi Spawn Chance:                               
+
+   Main BP: Tatzelwurm_Character_BP_C
+      Entry Weight:                   0.045
+      Spawn Limit:                             
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.045
+      Spawn Limit:                             
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.045
+      Spawn Limit:                             
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.045
+      Spawn Limit:                             
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.045
+      Spawn Limit:                             
+      Multi Spawn Chance:                               
+
