@@ -1,75 +1,22 @@
 [
   {
     "Type": "ModDataAsset",
-    "Name": "ModDataAsset_Skyshroud",
+    "Name": "ModDataAsset_Dracoteuthis",
     "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
     "Class": "UScriptClass'ModDataAsset'",
     "Properties": {
-      "ModName": "Isle of Myths: Drakara",
+      "ModName": "Dracoteuthis",
+      "ModDescription": "Adds the Dracoteuthis, a custom creature",
       "AdditionalEngramBlueprintClasses": [
         {
-          "ObjectName": "BlueprintGeneratedClass'EngramEntry_InstinctNullifier_C'",
-          "ObjectPath": "/skyshroud_drakara/Dinos/Drakara/Blueprints/Item/EngramEntry_InstinctNullifier.0"
-        },
-        {
-          "ObjectName": "BlueprintGeneratedClass'EngramEntry_DrakaraKibble_C'",
-          "ObjectPath": "/skyshroud_drakara/Dinos/Drakara/Blueprints/Item/EngramEntry_DrakaraKibble.0"
-        }
-      ],
-      "AdditionalStructureEngrams": [
-        {
-          "ForClass": {
-            "AssetPathName": "/Game/PrimalEarth/Structures/MortarAndPestle.MortarAndPestle_C",
-            "SubPathString": ""
-          },
-          "ClassAdditions": [
-            {
-              "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Blueprints/Item/PrimalItemConsumable_InstinctNullifier.PrimalItemConsumable_InstinctNullifier_C",
-              "SubPathString": ""
-            }
-          ]
-        },
-        {
-          "ForClass": {
-            "AssetPathName": "/Game/PrimalEarth/Structures/StorageBox_ChemBench.StorageBox_ChemBench_C",
-            "SubPathString": ""
-          },
-          "ClassAdditions": [
-            {
-              "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Blueprints/Item/PrimalItemConsumable_InstinctNullifier.PrimalItemConsumable_InstinctNullifier_C",
-              "SubPathString": ""
-            }
-          ]
-        },
-        {
-          "ForClass": {
-            "AssetPathName": "/Game/PrimalEarth/Structures/IndustrialCookingPot.IndustrialCookingPot_C",
-            "SubPathString": ""
-          },
-          "ClassAdditions": [
-            {
-              "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Blueprints/Item/PrimalItemConsumable_DrakaraKibble.PrimalItemConsumable_DrakaraKibble_C",
-              "SubPathString": ""
-            }
-          ]
+          "ObjectName": "BlueprintGeneratedClass'EngramEntry_BatteryCharger_C'",
+          "ObjectPath": "/Dracoteuthis/Content/Items/BatteryCharger/EngramEntry_BatteryCharger.0"
         }
       ],
       "AdditionalDinoEntries": [
         {
-          "ObjectName": "BlueprintGeneratedClass'DinoEntry_IoMDrakara_C'",
-          "ObjectPath": "/skyshroud_drakara/Dinos/Drakara/Blueprints/DinoEntry_IoMDrakara.0"
-        },
-        {
-          "ObjectName": "BlueprintGeneratedClass'DinoEntry_IoMDrakara_C'",
-          "ObjectPath": "/skyshroud_drakara/Dinos/Drakara/Blueprints/DinoEntry_IoMDrakara.0"
-        },
-        {
-          "ObjectName": "BlueprintGeneratedClass'DinoEntry_IoMDrakara_C'",
-          "ObjectPath": "/skyshroud_drakara/Dinos/Drakara/Blueprints/DinoEntry_IoMDrakara.0"
-        },
-        {
-          "ObjectName": "BlueprintGeneratedClass'DinoEntry_IoMDrakara_C'",
-          "ObjectPath": "/skyshroud_drakara/Dinos/Drakara/Blueprints/DinoEntry_IoMDrakara.0"
+          "ObjectName": "BlueprintGeneratedClass'DinoEntry_Dracoteuthis_C'",
+          "ObjectPath": "/Dracoteuthis/Content/DinoEntry_Dracoteuthis.0"
         }
       ],
       "TheNPCSpawnEntriesContainerAdditions": [
@@ -79,586 +26,124 @@
           "bSpawnEntriesContainerClassStringUseExactString": false,
           "AdditionalNPCSpawnEntries": [
             {
-              "AnEntryName": "",
+              "AnEntryName": "Dracoteuthis",
               "NPCsToSpawn": [
                 {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
+                  "AssetPathName": "/Dracoteuthis/Content/Dracoteuthis_Character_BP.Dracoteuthis_Character_BP_C",
                   "SubPathString": ""
                 },
                 {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Aberrant.Drakara_Character_BP_Aberrant_C",
+                  "AssetPathName": "/Game/Aberration/Dinos/Pteroteuthis/Pteroteuthis_Char_BP.Pteroteuthis_Char_BP_C",
                   "SubPathString": ""
                 },
                 {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pyro.Drakara_Character_BP_Pyro_C",
+                  "AssetPathName": "/Game/Aberration/Dinos/Pteroteuthis/Pteroteuthis_Char_BP.Pteroteuthis_Char_BP_C",
                   "SubPathString": ""
                 },
                 {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Bloodfang.Drakara_Character_BP_Bloodfang_C",
+                  "AssetPathName": "/Game/Aberration/Dinos/Pteroteuthis/Pteroteuthis_Char_BP.Pteroteuthis_Char_BP_C",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/Aberration/Dinos/Pteroteuthis/Pteroteuthis_Char_BP.Pteroteuthis_Char_BP_C",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/Aberration/Dinos/Pteroteuthis/Pteroteuthis_Char_BP.Pteroteuthis_Char_BP_C",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/Aberration/Dinos/Pteroteuthis/Pteroteuthis_Char_BP.Pteroteuthis_Char_BP_C",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/Aberration/Dinos/Pteroteuthis/Pteroteuthis_Char_BP.Pteroteuthis_Char_BP_C",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/Aberration/Dinos/Pteroteuthis/Pteroteuthis_Char_BP.Pteroteuthis_Char_BP_C",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/Aberration/Dinos/Pteroteuthis/Pteroteuthis_Char_BP.Pteroteuthis_Char_BP_C",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/Aberration/Dinos/Pteroteuthis/Pteroteuthis_Char_BP.Pteroteuthis_Char_BP_C",
                   "SubPathString": ""
                 }
               ],
               "NPCsToSpawnStrings": [],
-              "NPCRandomSpawnClassWeights": [
-                {
-                  "FromClass": {
-                    "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                    "SubPathString": ""
-                  },
-                  "ToClasses": [
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                      "SubPathString": ""
-                    },
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Alpha.Drakara_Character_BP_Alpha_C",
-                      "SubPathString": ""
-                    },
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pyro.Drakara_Character_BP_Pyro_C",
-                      "SubPathString": ""
-                    },
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Aberrant.Drakara_Character_BP_Aberrant_C",
-                      "SubPathString": ""
-                    },
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Bloodfang.Drakara_Character_BP_Bloodfang_C",
-                      "SubPathString": ""
-                    }
-                  ],
-                  "Weights": [
-                    1.0,
-                    0.05,
-                    0.1,
-                    0.2,
-                    0.2
-                  ],
-                  "ActiveEvent": "None",
-                  "bExactMatch": false
-                }
-              ],
+              "NPCRandomSpawnClassWeights": [],
               "NPCsSpawnOffsets": [
                 {
                   "X": 0.0,
                   "Y": 0.0,
-                  "Z": 0.0
+                  "Z": 1000.0
                 },
                 {
-                  "X": 240.0,
-                  "Y": 0.0,
+                  "X": 0.0,
+                  "Y": 500.0,
                   "Z": 0.0
                 },
                 {
                   "X": 0.0,
-                  "Y": 150.0,
-                  "Z": 0.0
-                }
-              ],
-              "NPCsToSpawnPercentageChance": [
-                0.5,
-                0.5,
-                0.25,
-                0.5
-              ],
-              "NPCMinLevelOffset": [],
-              "NPCMaxLevelOffset": [],
-              "NPCMinLevelMultiplier": [],
-              "NPCMaxLevelMultiplier": [],
-              "bAddLevelOffsetBeforeMultiplier": false,
-              "NPCOverrideLevel": [],
-              "ExtentCheck": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "GroupSpawnOffset": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 35.0
-              },
-              "EntryWeight": 0.025,
-              "ManualSpawnPointSpreadRadius": 650.0,
-              "WaterOnlySpawnMinimumWaterHeight": 140.0,
-              "MaximumWaterHeight": 0.0,
-              "ColorSets": null,
-              "NPCDifficultyLevelRanges": [],
-              "LevelDifficultyTestOverride": -1.0,
-              "SpawnMinDistanceFromStructuresMultiplier": 0.0,
-              "SpawnMinDistanceFromPlayersMultiplier": 0.0,
-              "SpawnMinDistanceFromTamedDinosMultiplier": 0.0,
-              "RandGroupSpawnOffsetZMin": 0.0,
-              "RandGroupSpawnOffsetZMax": 0.0
-            }
-          ],
-          "AdditionalNPCSpawnLimits": [
-            {
-              "NPCClass": {
-                "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                "SubPathString": ""
-              },
-              "NPCClassString": "",
-              "MaxPercentageOfDesiredNumToAllow": 0.1
-            },
-            {
-              "NPCClass": {
-                "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pyro.Drakara_Character_BP_Pyro_C",
-                "SubPathString": ""
-              },
-              "NPCClassString": "",
-              "MaxPercentageOfDesiredNumToAllow": 0.05
-            },
-            {
-              "NPCClass": {
-                "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Aberrant.Drakara_Character_BP_Aberrant_C",
-                "SubPathString": ""
-              },
-              "NPCClassString": "",
-              "MaxPercentageOfDesiredNumToAllow": 0.02
-            },
-            {
-              "NPCClass": {
-                "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Bloodfang.Drakara_Character_BP_Bloodfang_C",
-                "SubPathString": ""
-              },
-              "NPCClassString": "",
-              "MaxPercentageOfDesiredNumToAllow": 0.06
-            }
-          ]
-        },
-        {
-          "SpawnEntriesContainerClass": null,
-          "SpawnEntriesContainerClassString": "",
-          "bSpawnEntriesContainerClassStringUseExactString": false,
-          "AdditionalNPCSpawnEntries": [
-            {
-              "AnEntryName": "",
-              "NPCsToSpawn": [
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Bloodfang.Drakara_Character_BP_Bloodfang_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Bloodfang.Drakara_Character_BP_Bloodfang_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pyro.Drakara_Character_BP_Pyro_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pyro.Drakara_Character_BP_Pyro_C",
-                  "SubPathString": ""
-                }
-              ],
-              "NPCsToSpawnStrings": [],
-              "NPCRandomSpawnClassWeights": [
-                {
-                  "FromClass": {
-                    "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                    "SubPathString": ""
-                  },
-                  "ToClasses": [
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                      "SubPathString": ""
-                    },
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Alpha.Drakara_Character_BP_Alpha_C",
-                      "SubPathString": ""
-                    },
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pyro.Drakara_Character_BP_Pyro_C",
-                      "SubPathString": ""
-                    }
-                  ],
-                  "Weights": [
-                    0.3,
-                    0.05
-                  ],
-                  "ActiveEvent": "None",
-                  "bExactMatch": false
-                }
-              ],
-              "NPCsSpawnOffsets": [
-                {
-                  "X": 0.0,
-                  "Y": 0.0,
+                  "Y": -500.0,
                   "Z": 0.0
                 },
                 {
-                  "X": 240.0,
-                  "Y": 0.0,
+                  "X": 250.0,
+                  "Y": 500.0,
                   "Z": 0.0
                 },
                 {
-                  "X": 0.0,
-                  "Y": 150.0,
-                  "Z": 0.0
-                }
-              ],
-              "NPCsToSpawnPercentageChance": [
-                0.2,
-                0.2,
-                0.1
-              ],
-              "NPCMinLevelOffset": [],
-              "NPCMaxLevelOffset": [],
-              "NPCMinLevelMultiplier": [],
-              "NPCMaxLevelMultiplier": [],
-              "bAddLevelOffsetBeforeMultiplier": false,
-              "NPCOverrideLevel": [],
-              "ExtentCheck": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "GroupSpawnOffset": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 35.0
-              },
-              "EntryWeight": 0.025,
-              "ManualSpawnPointSpreadRadius": 650.0,
-              "WaterOnlySpawnMinimumWaterHeight": 140.0,
-              "MaximumWaterHeight": 0.0,
-              "ColorSets": null,
-              "NPCDifficultyLevelRanges": [],
-              "LevelDifficultyTestOverride": -1.0,
-              "SpawnMinDistanceFromStructuresMultiplier": 0.0,
-              "SpawnMinDistanceFromPlayersMultiplier": 0.0,
-              "SpawnMinDistanceFromTamedDinosMultiplier": 0.0,
-              "RandGroupSpawnOffsetZMin": 0.0,
-              "RandGroupSpawnOffsetZMax": 0.0
-            }
-          ],
-          "AdditionalNPCSpawnLimits": [
-            {
-              "NPCClass": {
-                "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                "SubPathString": ""
-              },
-              "NPCClassString": "",
-              "MaxPercentageOfDesiredNumToAllow": 0.04
-            }
-          ]
-        },
-        {
-          "SpawnEntriesContainerClass": null,
-          "SpawnEntriesContainerClassString": "",
-          "bSpawnEntriesContainerClassStringUseExactString": false,
-          "AdditionalNPCSpawnEntries": [
-            {
-              "AnEntryName": "",
-              "NPCsToSpawn": [
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Aberrant.Drakara_Character_BP_Aberrant_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Aberrant.Drakara_Character_BP_Aberrant_C",
-                  "SubPathString": ""
-                }
-              ],
-              "NPCsToSpawnStrings": [],
-              "NPCRandomSpawnClassWeights": [
-                {
-                  "FromClass": {
-                    "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Aberrant.Drakara_Character_BP_Aberrant_C",
-                    "SubPathString": ""
-                  },
-                  "ToClasses": [
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Aberrant.Drakara_Character_BP_Aberrant_C",
-                      "SubPathString": ""
-                    },
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Alpha.Drakara_Character_BP_Alpha_C",
-                      "SubPathString": ""
-                    },
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Aberrant.Drakara_Character_BP_Aberrant_C",
-                      "SubPathString": ""
-                    }
-                  ],
-                  "Weights": [
-                    0.3,
-                    0.05
-                  ],
-                  "ActiveEvent": "None",
-                  "bExactMatch": false
-                }
-              ],
-              "NPCsSpawnOffsets": [
-                {
-                  "X": 0.0,
-                  "Y": 0.0,
+                  "X": 250.0,
+                  "Y": -500.0,
                   "Z": 0.0
                 },
                 {
-                  "X": 240.0,
-                  "Y": 0.0,
+                  "X": -250.0,
+                  "Y": 500.0,
                   "Z": 0.0
                 },
                 {
-                  "X": 0.0,
-                  "Y": 150.0,
-                  "Z": 0.0
-                }
-              ],
-              "NPCsToSpawnPercentageChance": [
-                0.4,
-                0.02
-              ],
-              "NPCMinLevelOffset": [],
-              "NPCMaxLevelOffset": [],
-              "NPCMinLevelMultiplier": [],
-              "NPCMaxLevelMultiplier": [],
-              "bAddLevelOffsetBeforeMultiplier": false,
-              "NPCOverrideLevel": [],
-              "ExtentCheck": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "GroupSpawnOffset": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 35.0
-              },
-              "EntryWeight": 0.025,
-              "ManualSpawnPointSpreadRadius": 650.0,
-              "WaterOnlySpawnMinimumWaterHeight": 140.0,
-              "MaximumWaterHeight": 0.0,
-              "ColorSets": null,
-              "NPCDifficultyLevelRanges": [],
-              "LevelDifficultyTestOverride": -1.0,
-              "SpawnMinDistanceFromStructuresMultiplier": 0.0,
-              "SpawnMinDistanceFromPlayersMultiplier": 0.0,
-              "SpawnMinDistanceFromTamedDinosMultiplier": 0.0,
-              "RandGroupSpawnOffsetZMin": 0.0,
-              "RandGroupSpawnOffsetZMax": 0.0
-            }
-          ],
-          "AdditionalNPCSpawnLimits": [
-            {
-              "NPCClass": {
-                "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Aberrant.Drakara_Character_BP_Aberrant_C",
-                "SubPathString": ""
-              },
-              "NPCClassString": "",
-              "MaxPercentageOfDesiredNumToAllow": 0.04
-            },
-            {
-              "NPCClass": {
-                "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Aberrant.Drakara_Character_BP_Aberrant_C",
-                "SubPathString": ""
-              },
-              "NPCClassString": "",
-              "MaxPercentageOfDesiredNumToAllow": 0.05
-            }
-          ]
-        },
-        {
-          "SpawnEntriesContainerClass": null,
-          "SpawnEntriesContainerClassString": "",
-          "bSpawnEntriesContainerClassStringUseExactString": false,
-          "AdditionalNPCSpawnEntries": [
-            {
-              "AnEntryName": "",
-              "NPCsToSpawn": [
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Bloodfang.Drakara_Character_BP_Bloodfang_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pyro.Drakara_Character_BP_Pyro_C",
-                  "SubPathString": ""
-                }
-              ],
-              "NPCsToSpawnStrings": [],
-              "NPCRandomSpawnClassWeights": [
-                {
-                  "FromClass": {
-                    "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                    "SubPathString": ""
-                  },
-                  "ToClasses": [
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                      "SubPathString": ""
-                    },
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Alpha.Drakara_Character_BP_Alpha_C",
-                      "SubPathString": ""
-                    },
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pyro.Drakara_Character_BP_Pyro_C",
-                      "SubPathString": ""
-                    }
-                  ],
-                  "Weights": [
-                    0.3,
-                    0.05
-                  ],
-                  "ActiveEvent": "None",
-                  "bExactMatch": false
-                }
-              ],
-              "NPCsSpawnOffsets": [
-                {
-                  "X": 0.0,
-                  "Y": 0.0,
+                  "X": -250.0,
+                  "Y": -500.0,
                   "Z": 0.0
                 },
                 {
-                  "X": 240.0,
-                  "Y": 0.0,
+                  "X": -500.0,
+                  "Y": -500.0,
                   "Z": 0.0
                 },
                 {
-                  "X": 0.0,
-                  "Y": 150.0,
-                  "Z": 0.0
-                }
-              ],
-              "NPCsToSpawnPercentageChance": [
-                0.8,
-                0.5,
-                0.25
-              ],
-              "NPCMinLevelOffset": [],
-              "NPCMaxLevelOffset": [],
-              "NPCMinLevelMultiplier": [],
-              "NPCMaxLevelMultiplier": [],
-              "bAddLevelOffsetBeforeMultiplier": false,
-              "NPCOverrideLevel": [],
-              "ExtentCheck": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "GroupSpawnOffset": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 35.0
-              },
-              "EntryWeight": 0.025,
-              "ManualSpawnPointSpreadRadius": 650.0,
-              "WaterOnlySpawnMinimumWaterHeight": 140.0,
-              "MaximumWaterHeight": 0.0,
-              "ColorSets": null,
-              "NPCDifficultyLevelRanges": [],
-              "LevelDifficultyTestOverride": -1.0,
-              "SpawnMinDistanceFromStructuresMultiplier": 0.0,
-              "SpawnMinDistanceFromPlayersMultiplier": 0.0,
-              "SpawnMinDistanceFromTamedDinosMultiplier": 0.0,
-              "RandGroupSpawnOffsetZMin": 0.0,
-              "RandGroupSpawnOffsetZMax": 0.0
-            }
-          ],
-          "AdditionalNPCSpawnLimits": [
-            {
-              "NPCClass": {
-                "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                "SubPathString": ""
-              },
-              "NPCClassString": "",
-              "MaxPercentageOfDesiredNumToAllow": 0.04
-            },
-            {
-              "NPCClass": {
-                "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pyro.Drakara_Character_BP_Pyro_C",
-                "SubPathString": ""
-              },
-              "NPCClassString": "",
-              "MaxPercentageOfDesiredNumToAllow": 0.05
-            }
-          ]
-        },
-        {
-          "SpawnEntriesContainerClass": null,
-          "SpawnEntriesContainerClassString": "",
-          "bSpawnEntriesContainerClassStringUseExactString": false,
-          "AdditionalNPCSpawnEntries": [
-            {
-              "AnEntryName": "",
-              "NPCsToSpawn": [
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                  "SubPathString": ""
-                }
-              ],
-              "NPCsToSpawnStrings": [],
-              "NPCRandomSpawnClassWeights": [
-                {
-                  "FromClass": {
-                    "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                    "SubPathString": ""
-                  },
-                  "ToClasses": [
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                      "SubPathString": ""
-                    },
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Alpha.Drakara_Character_BP_Alpha_C",
-                      "SubPathString": ""
-                    },
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pyro.Drakara_Character_BP_Pyro_C",
-                      "SubPathString": ""
-                    }
-                  ],
-                  "Weights": [
-                    0.3,
-                    0.05
-                  ],
-                  "ActiveEvent": "None",
-                  "bExactMatch": false
-                }
-              ],
-              "NPCsSpawnOffsets": [
-                {
-                  "X": 0.0,
-                  "Y": 0.0,
+                  "X": -500.0,
+                  "Y": -250.0,
                   "Z": 0.0
                 },
                 {
-                  "X": 240.0,
-                  "Y": 0.0,
+                  "X": 500.0,
+                  "Y": 500.0,
                   "Z": 0.0
                 },
                 {
-                  "X": 0.0,
-                  "Y": 150.0,
+                  "X": 500.0,
+                  "Y": -250.0,
                   "Z": 0.0
                 }
               ],
               "NPCsToSpawnPercentageChance": [
                 1.0,
-                0.5,
-                0.25
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
               ],
               "NPCMinLevelOffset": [],
               "NPCMaxLevelOffset": [],
@@ -676,7 +161,7 @@
                 "Y": 0.0,
                 "Z": 35.0
               },
-              "EntryWeight": 0.025,
+              "EntryWeight": 0.01,
               "ManualSpawnPointSpreadRadius": 650.0,
               "WaterOnlySpawnMinimumWaterHeight": 140.0,
               "MaximumWaterHeight": 0.0,
@@ -693,15 +178,73 @@
           "AdditionalNPCSpawnLimits": [
             {
               "NPCClass": {
-                "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
+                "AssetPathName": "/Dracoteuthis/Content/Dracoteuthis_Character_BP.Dracoteuthis_Character_BP_C",
                 "SubPathString": ""
               },
               "NPCClassString": "",
-              "MaxPercentageOfDesiredNumToAllow": 0.04
-            },
+              "MaxPercentageOfDesiredNumToAllow": 0.01
+            }
+          ]
+        },
+        {
+          "SpawnEntriesContainerClass": null,
+          "SpawnEntriesContainerClassString": "",
+          "bSpawnEntriesContainerClassStringUseExactString": false,
+          "AdditionalNPCSpawnEntries": [
+            {
+              "AnEntryName": "Squiddo",
+              "NPCsToSpawn": [
+                {
+                  "AssetPathName": "/Dracoteuthis/Content/Dracoteuthis_Character_BP.Dracoteuthis_Character_BP_C",
+                  "SubPathString": ""
+                }
+              ],
+              "NPCsToSpawnStrings": [],
+              "NPCRandomSpawnClassWeights": [],
+              "NPCsSpawnOffsets": [
+                {
+                  "X": 0.0,
+                  "Y": 0.0,
+                  "Z": 1000.0
+                }
+              ],
+              "NPCsToSpawnPercentageChance": [
+                1.0
+              ],
+              "NPCMinLevelOffset": [],
+              "NPCMaxLevelOffset": [],
+              "NPCMinLevelMultiplier": [],
+              "NPCMaxLevelMultiplier": [],
+              "bAddLevelOffsetBeforeMultiplier": false,
+              "NPCOverrideLevel": [],
+              "ExtentCheck": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 0.0
+              },
+              "GroupSpawnOffset": {
+                "X": 0.0,
+                "Y": 0.0,
+                "Z": 35.0
+              },
+              "EntryWeight": 0.05,
+              "ManualSpawnPointSpreadRadius": 650.0,
+              "WaterOnlySpawnMinimumWaterHeight": 140.0,
+              "MaximumWaterHeight": 0.0,
+              "ColorSets": null,
+              "NPCDifficultyLevelRanges": [],
+              "LevelDifficultyTestOverride": -1.0,
+              "SpawnMinDistanceFromStructuresMultiplier": 0.0,
+              "SpawnMinDistanceFromPlayersMultiplier": 0.0,
+              "SpawnMinDistanceFromTamedDinosMultiplier": 0.0,
+              "RandGroupSpawnOffsetZMin": 0.0,
+              "RandGroupSpawnOffsetZMax": 0.0
+            }
+          ],
+          "AdditionalNPCSpawnLimits": [
             {
               "NPCClass": {
-                "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pyro.Drakara_Character_BP_Pyro_C",
+                "AssetPathName": "/Dracoteuthis/Content/Dracoteuthis_Character_BP.Dracoteuthis_Character_BP_C",
                 "SubPathString": ""
               },
               "NPCClassString": "",
@@ -711,298 +254,128 @@
         },
         {
           "SpawnEntriesContainerClass": null,
-          "SpawnEntriesContainerClassString": "",
-          "bSpawnEntriesContainerClassStringUseExactString": false,
+          "SpawnEntriesContainerClassString": "Val_DinoSpawnEntries_DrakeTrench",
+          "bSpawnEntriesContainerClassStringUseExactString": true,
           "AdditionalNPCSpawnEntries": [
             {
-              "AnEntryName": "",
+              "AnEntryName": "Dracoteuthis (Valg)",
               "NPCsToSpawn": [
                 {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Aberrant.Drakara_Character_BP_Aberrant_C",
+                  "AssetPathName": "/Dracoteuthis/Content/Dracoteuthis_Character_BP.Dracoteuthis_Character_BP_C",
                   "SubPathString": ""
                 },
                 {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Aberrant.Drakara_Character_BP_Aberrant_C",
+                  "AssetPathName": "/Game/Aberration/Dinos/Pteroteuthis/Pteroteuthis_Char_BP.Pteroteuthis_Char_BP_C",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/Aberration/Dinos/Pteroteuthis/Pteroteuthis_Char_BP.Pteroteuthis_Char_BP_C",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/Aberration/Dinos/Pteroteuthis/Pteroteuthis_Char_BP.Pteroteuthis_Char_BP_C",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/Aberration/Dinos/Pteroteuthis/Pteroteuthis_Char_BP.Pteroteuthis_Char_BP_C",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/Aberration/Dinos/Pteroteuthis/Pteroteuthis_Char_BP.Pteroteuthis_Char_BP_C",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/Aberration/Dinos/Pteroteuthis/Pteroteuthis_Char_BP.Pteroteuthis_Char_BP_C",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/Aberration/Dinos/Pteroteuthis/Pteroteuthis_Char_BP.Pteroteuthis_Char_BP_C",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/Aberration/Dinos/Pteroteuthis/Pteroteuthis_Char_BP.Pteroteuthis_Char_BP_C",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/Aberration/Dinos/Pteroteuthis/Pteroteuthis_Char_BP.Pteroteuthis_Char_BP_C",
+                  "SubPathString": ""
+                },
+                {
+                  "AssetPathName": "/Game/Aberration/Dinos/Pteroteuthis/Pteroteuthis_Char_BP.Pteroteuthis_Char_BP_C",
                   "SubPathString": ""
                 }
               ],
               "NPCsToSpawnStrings": [],
-              "NPCRandomSpawnClassWeights": [
-                {
-                  "FromClass": {
-                    "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Aberrant.Drakara_Character_BP_Aberrant_C",
-                    "SubPathString": ""
-                  },
-                  "ToClasses": [
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Aberrant.Drakara_Character_BP_Aberrant_C",
-                      "SubPathString": ""
-                    },
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Alpha.Drakara_Character_BP_Alpha_C",
-                      "SubPathString": ""
-                    },
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Aberrant.Drakara_Character_BP_Aberrant_C",
-                      "SubPathString": ""
-                    }
-                  ],
-                  "Weights": [
-                    0.3,
-                    0.05
-                  ],
-                  "ActiveEvent": "None",
-                  "bExactMatch": false
-                }
-              ],
+              "NPCRandomSpawnClassWeights": [],
               "NPCsSpawnOffsets": [
                 {
                   "X": 0.0,
                   "Y": 0.0,
-                  "Z": 0.0
+                  "Z": 1000.0
                 },
                 {
-                  "X": 240.0,
-                  "Y": 0.0,
+                  "X": 0.0,
+                  "Y": 500.0,
                   "Z": 0.0
                 },
                 {
                   "X": 0.0,
-                  "Y": 150.0,
-                  "Z": 0.0
-                }
-              ],
-              "NPCsToSpawnPercentageChance": [
-                0.8,
-                0.5,
-                0.25
-              ],
-              "NPCMinLevelOffset": [],
-              "NPCMaxLevelOffset": [],
-              "NPCMinLevelMultiplier": [],
-              "NPCMaxLevelMultiplier": [],
-              "bAddLevelOffsetBeforeMultiplier": false,
-              "NPCOverrideLevel": [],
-              "ExtentCheck": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "GroupSpawnOffset": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 35.0
-              },
-              "EntryWeight": 0.025,
-              "ManualSpawnPointSpreadRadius": 650.0,
-              "WaterOnlySpawnMinimumWaterHeight": 140.0,
-              "MaximumWaterHeight": 0.0,
-              "ColorSets": null,
-              "NPCDifficultyLevelRanges": [],
-              "LevelDifficultyTestOverride": -1.0,
-              "SpawnMinDistanceFromStructuresMultiplier": 0.0,
-              "SpawnMinDistanceFromPlayersMultiplier": 0.0,
-              "SpawnMinDistanceFromTamedDinosMultiplier": 0.0,
-              "RandGroupSpawnOffsetZMin": 0.0,
-              "RandGroupSpawnOffsetZMax": 0.0
-            }
-          ],
-          "AdditionalNPCSpawnLimits": [
-            {
-              "NPCClass": {
-                "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Aberrant.Drakara_Character_BP_Aberrant_C",
-                "SubPathString": ""
-              },
-              "NPCClassString": "",
-              "MaxPercentageOfDesiredNumToAllow": 0.04
-            },
-            {
-              "NPCClass": {
-                "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Aberrant.Drakara_Character_BP_Aberrant_C",
-                "SubPathString": ""
-              },
-              "NPCClassString": "",
-              "MaxPercentageOfDesiredNumToAllow": 0.05
-            }
-          ]
-        },
-        {
-          "SpawnEntriesContainerClass": null,
-          "SpawnEntriesContainerClassString": "",
-          "bSpawnEntriesContainerClassStringUseExactString": false,
-          "AdditionalNPCSpawnEntries": [
-            {
-              "AnEntryName": "",
-              "NPCsToSpawn": [
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Arctic.Drakara_Character_BP_Arctic_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Arctic.Drakara_Character_BP_Arctic_C",
-                  "SubPathString": ""
-                }
-              ],
-              "NPCsToSpawnStrings": [],
-              "NPCRandomSpawnClassWeights": [
-                {
-                  "FromClass": {
-                    "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Arctic.Drakara_Character_BP_Arctic_C",
-                    "SubPathString": ""
-                  },
-                  "ToClasses": [
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Arctic.Drakara_Character_BP_Arctic_C",
-                      "SubPathString": ""
-                    }
-                  ],
-                  "Weights": [
-                    0.3,
-                    0.05
-                  ],
-                  "ActiveEvent": "None",
-                  "bExactMatch": false
-                }
-              ],
-              "NPCsSpawnOffsets": [
-                {
-                  "X": 0.0,
-                  "Y": 0.0,
+                  "Y": -500.0,
                   "Z": 0.0
                 },
                 {
-                  "X": 240.0,
-                  "Y": 0.0,
+                  "X": 250.0,
+                  "Y": 500.0,
                   "Z": 0.0
                 },
                 {
-                  "X": 0.0,
-                  "Y": 150.0,
-                  "Z": 0.0
-                }
-              ],
-              "NPCsToSpawnPercentageChance": [
-                0.7,
-                0.5,
-                0.25
-              ],
-              "NPCMinLevelOffset": [],
-              "NPCMaxLevelOffset": [],
-              "NPCMinLevelMultiplier": [],
-              "NPCMaxLevelMultiplier": [],
-              "bAddLevelOffsetBeforeMultiplier": false,
-              "NPCOverrideLevel": [],
-              "ExtentCheck": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "GroupSpawnOffset": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 35.0
-              },
-              "EntryWeight": 0.025,
-              "ManualSpawnPointSpreadRadius": 650.0,
-              "WaterOnlySpawnMinimumWaterHeight": 140.0,
-              "MaximumWaterHeight": 0.0,
-              "ColorSets": null,
-              "NPCDifficultyLevelRanges": [],
-              "LevelDifficultyTestOverride": -1.0,
-              "SpawnMinDistanceFromStructuresMultiplier": 0.0,
-              "SpawnMinDistanceFromPlayersMultiplier": 0.0,
-              "SpawnMinDistanceFromTamedDinosMultiplier": 0.0,
-              "RandGroupSpawnOffsetZMin": 0.0,
-              "RandGroupSpawnOffsetZMax": 0.0
-            }
-          ],
-          "AdditionalNPCSpawnLimits": [
-            {
-              "NPCClass": {
-                "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                "SubPathString": ""
-              },
-              "NPCClassString": "",
-              "MaxPercentageOfDesiredNumToAllow": 0.04
-            }
-          ]
-        },
-        {
-          "SpawnEntriesContainerClass": null,
-          "SpawnEntriesContainerClassString": "",
-          "bSpawnEntriesContainerClassStringUseExactString": false,
-          "AdditionalNPCSpawnEntries": [
-            {
-              "AnEntryName": "",
-              "NPCsToSpawn": [
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pyro.Drakara_Character_BP_Pyro_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Bloodfang.Drakara_Character_BP_Bloodfang_C",
-                  "SubPathString": ""
-                }
-              ],
-              "NPCsToSpawnStrings": [],
-              "NPCRandomSpawnClassWeights": [
-                {
-                  "FromClass": {
-                    "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                    "SubPathString": ""
-                  },
-                  "ToClasses": [
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                      "SubPathString": ""
-                    },
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Alpha.Drakara_Character_BP_Alpha_C",
-                      "SubPathString": ""
-                    },
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pyro.Drakara_Character_BP_Pyro_C",
-                      "SubPathString": ""
-                    },
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Bloodfang.Drakara_Character_BP_Bloodfang_C",
-                      "SubPathString": ""
-                    }
-                  ],
-                  "Weights": [
-                    0.3,
-                    0.05
-                  ],
-                  "ActiveEvent": "None",
-                  "bExactMatch": false
-                }
-              ],
-              "NPCsSpawnOffsets": [
-                {
-                  "X": 0.0,
-                  "Y": 0.0,
+                  "X": 250.0,
+                  "Y": -500.0,
                   "Z": 0.0
                 },
                 {
-                  "X": 240.0,
-                  "Y": 0.0,
+                  "X": -250.0,
+                  "Y": 500.0,
                   "Z": 0.0
                 },
                 {
-                  "X": 0.0,
-                  "Y": 150.0,
+                  "X": -250.0,
+                  "Y": -500.0,
+                  "Z": 0.0
+                },
+                {
+                  "X": -500.0,
+                  "Y": -500.0,
+                  "Z": 0.0
+                },
+                {
+                  "X": -500.0,
+                  "Y": -250.0,
+                  "Z": 0.0
+                },
+                {
+                  "X": 500.0,
+                  "Y": 500.0,
+                  "Z": 0.0
+                },
+                {
+                  "X": 500.0,
+                  "Y": -250.0,
                   "Z": 0.0
                 }
               ],
               "NPCsToSpawnPercentageChance": [
                 1.0,
-                0.5,
-                0.25,
-                0.3
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0,
+                1.0
               ],
               "NPCMinLevelOffset": [],
               "NPCMaxLevelOffset": [],
@@ -1020,7 +393,7 @@
                 "Y": 0.0,
                 "Z": 35.0
               },
-              "EntryWeight": 0.025,
+              "EntryWeight": 0.04,
               "ManualSpawnPointSpreadRadius": 650.0,
               "WaterOnlySpawnMinimumWaterHeight": 140.0,
               "MaximumWaterHeight": 0.0,
@@ -1037,1441 +410,832 @@
           "AdditionalNPCSpawnLimits": [
             {
               "NPCClass": {
-                "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
+                "AssetPathName": "/Dracoteuthis/Content/Dracoteuthis_Character_BP.Dracoteuthis_Character_BP_C",
                 "SubPathString": ""
               },
               "NPCClassString": "",
-              "MaxPercentageOfDesiredNumToAllow": 0.04
-            }
-          ]
-        },
-        {
-          "SpawnEntriesContainerClass": null,
-          "SpawnEntriesContainerClassString": "",
-          "bSpawnEntriesContainerClassStringUseExactString": false,
-          "AdditionalNPCSpawnEntries": [
-            {
-              "AnEntryName": "",
-              "NPCsToSpawn": [
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pyro.Drakara_Character_BP_Pyro_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Bloodfang.Drakara_Character_BP_Bloodfang_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Alpha.Drakara_Character_BP_Alpha_C",
-                  "SubPathString": ""
-                }
-              ],
-              "NPCsToSpawnStrings": [],
-              "NPCRandomSpawnClassWeights": [
-                {
-                  "FromClass": {
-                    "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                    "SubPathString": ""
-                  },
-                  "ToClasses": [
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                      "SubPathString": ""
-                    },
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Alpha.Drakara_Character_BP_Alpha_C",
-                      "SubPathString": ""
-                    },
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pyro.Drakara_Character_BP_Pyro_C",
-                      "SubPathString": ""
-                    },
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Bloodfang.Drakara_Character_BP_Bloodfang_C",
-                      "SubPathString": ""
-                    }
-                  ],
-                  "Weights": [
-                    0.3,
-                    0.05
-                  ],
-                  "ActiveEvent": "None",
-                  "bExactMatch": false
-                }
-              ],
-              "NPCsSpawnOffsets": [
-                {
-                  "X": 0.0,
-                  "Y": 0.0,
-                  "Z": 0.0
-                },
-                {
-                  "X": 240.0,
-                  "Y": 0.0,
-                  "Z": 0.0
-                },
-                {
-                  "X": 0.0,
-                  "Y": 150.0,
-                  "Z": 0.0
-                }
-              ],
-              "NPCsToSpawnPercentageChance": [
-                0.5,
-                0.5,
-                0.25,
-                0.2
-              ],
-              "NPCMinLevelOffset": [],
-              "NPCMaxLevelOffset": [],
-              "NPCMinLevelMultiplier": [],
-              "NPCMaxLevelMultiplier": [],
-              "bAddLevelOffsetBeforeMultiplier": false,
-              "NPCOverrideLevel": [],
-              "ExtentCheck": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "GroupSpawnOffset": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 35.0
-              },
-              "EntryWeight": 0.025,
-              "ManualSpawnPointSpreadRadius": 650.0,
-              "WaterOnlySpawnMinimumWaterHeight": 140.0,
-              "MaximumWaterHeight": 0.0,
-              "ColorSets": null,
-              "NPCDifficultyLevelRanges": [],
-              "LevelDifficultyTestOverride": -1.0,
-              "SpawnMinDistanceFromStructuresMultiplier": 0.0,
-              "SpawnMinDistanceFromPlayersMultiplier": 0.0,
-              "SpawnMinDistanceFromTamedDinosMultiplier": 0.0,
-              "RandGroupSpawnOffsetZMin": 0.0,
-              "RandGroupSpawnOffsetZMax": 0.0
-            }
-          ],
-          "AdditionalNPCSpawnLimits": [
-            {
-              "NPCClass": {
-                "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                "SubPathString": ""
-              },
-              "NPCClassString": "",
-              "MaxPercentageOfDesiredNumToAllow": 0.04
-            }
-          ]
-        },
-        {
-          "SpawnEntriesContainerClass": null,
-          "SpawnEntriesContainerClassString": "",
-          "bSpawnEntriesContainerClassStringUseExactString": false,
-          "AdditionalNPCSpawnEntries": [
-            {
-              "AnEntryName": "",
-              "NPCsToSpawn": [
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Arctic.Drakara_Character_BP_Arctic_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Arctic.Drakara_Character_BP_Arctic_C",
-                  "SubPathString": ""
-                }
-              ],
-              "NPCsToSpawnStrings": [],
-              "NPCRandomSpawnClassWeights": [
-                {
-                  "FromClass": {
-                    "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Arctic.Drakara_Character_BP_Arctic_C",
-                    "SubPathString": ""
-                  },
-                  "ToClasses": [
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Arctic.Drakara_Character_BP_Arctic_C",
-                      "SubPathString": ""
-                    }
-                  ],
-                  "Weights": [
-                    0.3,
-                    0.05
-                  ],
-                  "ActiveEvent": "None",
-                  "bExactMatch": false
-                }
-              ],
-              "NPCsSpawnOffsets": [
-                {
-                  "X": 0.0,
-                  "Y": 0.0,
-                  "Z": 0.0
-                },
-                {
-                  "X": 240.0,
-                  "Y": 0.0,
-                  "Z": 0.0
-                },
-                {
-                  "X": 0.0,
-                  "Y": 150.0,
-                  "Z": 0.0
-                }
-              ],
-              "NPCsToSpawnPercentageChance": [
-                0.5,
-                0.5
-              ],
-              "NPCMinLevelOffset": [],
-              "NPCMaxLevelOffset": [],
-              "NPCMinLevelMultiplier": [],
-              "NPCMaxLevelMultiplier": [],
-              "bAddLevelOffsetBeforeMultiplier": false,
-              "NPCOverrideLevel": [],
-              "ExtentCheck": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "GroupSpawnOffset": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 35.0
-              },
-              "EntryWeight": 0.025,
-              "ManualSpawnPointSpreadRadius": 650.0,
-              "WaterOnlySpawnMinimumWaterHeight": 140.0,
-              "MaximumWaterHeight": 0.0,
-              "ColorSets": null,
-              "NPCDifficultyLevelRanges": [],
-              "LevelDifficultyTestOverride": -1.0,
-              "SpawnMinDistanceFromStructuresMultiplier": 0.0,
-              "SpawnMinDistanceFromPlayersMultiplier": 0.0,
-              "SpawnMinDistanceFromTamedDinosMultiplier": 0.0,
-              "RandGroupSpawnOffsetZMin": 0.0,
-              "RandGroupSpawnOffsetZMax": 0.0
-            }
-          ],
-          "AdditionalNPCSpawnLimits": [
-            {
-              "NPCClass": {
-                "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                "SubPathString": ""
-              },
-              "NPCClassString": "",
-              "MaxPercentageOfDesiredNumToAllow": 0.04
-            }
-          ]
-        },
-        {
-          "SpawnEntriesContainerClass": null,
-          "SpawnEntriesContainerClassString": "",
-          "bSpawnEntriesContainerClassStringUseExactString": false,
-          "AdditionalNPCSpawnEntries": [
-            {
-              "AnEntryName": "",
-              "NPCsToSpawn": [
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Bloodfang.Drakara_Character_BP_Bloodfang_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Bloodfang.Drakara_Character_BP_Bloodfang_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pyro.Drakara_Character_BP_Pyro_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pyro.Drakara_Character_BP_Pyro_C",
-                  "SubPathString": ""
-                }
-              ],
-              "NPCsToSpawnStrings": [],
-              "NPCRandomSpawnClassWeights": [
-                {
-                  "FromClass": {
-                    "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                    "SubPathString": ""
-                  },
-                  "ToClasses": [
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                      "SubPathString": ""
-                    },
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Alpha.Drakara_Character_BP_Alpha_C",
-                      "SubPathString": ""
-                    },
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pyro.Drakara_Character_BP_Pyro_C",
-                      "SubPathString": ""
-                    }
-                  ],
-                  "Weights": [
-                    0.3,
-                    0.05
-                  ],
-                  "ActiveEvent": "None",
-                  "bExactMatch": false
-                }
-              ],
-              "NPCsSpawnOffsets": [
-                {
-                  "X": 0.0,
-                  "Y": 0.0,
-                  "Z": 0.0
-                },
-                {
-                  "X": 240.0,
-                  "Y": 0.0,
-                  "Z": 0.0
-                },
-                {
-                  "X": 0.0,
-                  "Y": 150.0,
-                  "Z": 0.0
-                }
-              ],
-              "NPCsToSpawnPercentageChance": [
-                0.5,
-                0.5,
-                0.5
-              ],
-              "NPCMinLevelOffset": [],
-              "NPCMaxLevelOffset": [],
-              "NPCMinLevelMultiplier": [],
-              "NPCMaxLevelMultiplier": [],
-              "bAddLevelOffsetBeforeMultiplier": false,
-              "NPCOverrideLevel": [],
-              "ExtentCheck": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "GroupSpawnOffset": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 35.0
-              },
-              "EntryWeight": 0.025,
-              "ManualSpawnPointSpreadRadius": 650.0,
-              "WaterOnlySpawnMinimumWaterHeight": 140.0,
-              "MaximumWaterHeight": 0.0,
-              "ColorSets": null,
-              "NPCDifficultyLevelRanges": [],
-              "LevelDifficultyTestOverride": -1.0,
-              "SpawnMinDistanceFromStructuresMultiplier": 0.0,
-              "SpawnMinDistanceFromPlayersMultiplier": 0.0,
-              "SpawnMinDistanceFromTamedDinosMultiplier": 0.0,
-              "RandGroupSpawnOffsetZMin": 0.0,
-              "RandGroupSpawnOffsetZMax": 0.0
-            }
-          ],
-          "AdditionalNPCSpawnLimits": [
-            {
-              "NPCClass": {
-                "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                "SubPathString": ""
-              },
-              "NPCClassString": "",
-              "MaxPercentageOfDesiredNumToAllow": 0.04
-            }
-          ]
-        },
-        {
-          "SpawnEntriesContainerClass": null,
-          "SpawnEntriesContainerClassString": "",
-          "bSpawnEntriesContainerClassStringUseExactString": false,
-          "AdditionalNPCSpawnEntries": [
-            {
-              "AnEntryName": "",
-              "NPCsToSpawn": [
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Bloodfang.Drakara_Character_BP_Bloodfang_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Bloodfang.Drakara_Character_BP_Bloodfang_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pyro.Drakara_Character_BP_Pyro_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pyro.Drakara_Character_BP_Pyro_C",
-                  "SubPathString": ""
-                }
-              ],
-              "NPCsToSpawnStrings": [],
-              "NPCRandomSpawnClassWeights": [
-                {
-                  "FromClass": {
-                    "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                    "SubPathString": ""
-                  },
-                  "ToClasses": [
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                      "SubPathString": ""
-                    },
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Alpha.Drakara_Character_BP_Alpha_C",
-                      "SubPathString": ""
-                    },
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pyro.Drakara_Character_BP_Pyro_C",
-                      "SubPathString": ""
-                    }
-                  ],
-                  "Weights": [
-                    0.3,
-                    0.05
-                  ],
-                  "ActiveEvent": "None",
-                  "bExactMatch": false
-                }
-              ],
-              "NPCsSpawnOffsets": [
-                {
-                  "X": 0.0,
-                  "Y": 0.0,
-                  "Z": 0.0
-                },
-                {
-                  "X": 240.0,
-                  "Y": 0.0,
-                  "Z": 0.0
-                },
-                {
-                  "X": 0.0,
-                  "Y": 150.0,
-                  "Z": 0.0
-                }
-              ],
-              "NPCsToSpawnPercentageChance": [
-                0.5,
-                0.5,
-                0.5
-              ],
-              "NPCMinLevelOffset": [],
-              "NPCMaxLevelOffset": [],
-              "NPCMinLevelMultiplier": [],
-              "NPCMaxLevelMultiplier": [],
-              "bAddLevelOffsetBeforeMultiplier": false,
-              "NPCOverrideLevel": [],
-              "ExtentCheck": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "GroupSpawnOffset": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 35.0
-              },
-              "EntryWeight": 0.025,
-              "ManualSpawnPointSpreadRadius": 650.0,
-              "WaterOnlySpawnMinimumWaterHeight": 140.0,
-              "MaximumWaterHeight": 0.0,
-              "ColorSets": null,
-              "NPCDifficultyLevelRanges": [],
-              "LevelDifficultyTestOverride": -1.0,
-              "SpawnMinDistanceFromStructuresMultiplier": 0.0,
-              "SpawnMinDistanceFromPlayersMultiplier": 0.0,
-              "SpawnMinDistanceFromTamedDinosMultiplier": 0.0,
-              "RandGroupSpawnOffsetZMin": 0.0,
-              "RandGroupSpawnOffsetZMax": 0.0
-            }
-          ],
-          "AdditionalNPCSpawnLimits": [
-            {
-              "NPCClass": {
-                "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                "SubPathString": ""
-              },
-              "NPCClassString": "",
-              "MaxPercentageOfDesiredNumToAllow": 0.04
-            }
-          ]
-        },
-        {
-          "SpawnEntriesContainerClass": null,
-          "SpawnEntriesContainerClassString": "",
-          "bSpawnEntriesContainerClassStringUseExactString": false,
-          "AdditionalNPCSpawnEntries": [
-            {
-              "AnEntryName": "",
-              "NPCsToSpawn": [
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pigmy.Drakara_Character_BP_Pigmy_C",
-                  "SubPathString": ""
-                }
-              ],
-              "NPCsToSpawnStrings": [],
-              "NPCRandomSpawnClassWeights": [
-                {
-                  "FromClass": {
-                    "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pigmy.Drakara_Character_BP_Pigmy_C",
-                    "SubPathString": ""
-                  },
-                  "ToClasses": [
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pigmy.Drakara_Character_BP_Pigmy_C",
-                      "SubPathString": ""
-                    }
-                  ],
-                  "Weights": [
-                    0.3,
-                    0.05
-                  ],
-                  "ActiveEvent": "None",
-                  "bExactMatch": false
-                }
-              ],
-              "NPCsSpawnOffsets": [
-                {
-                  "X": 0.0,
-                  "Y": 0.0,
-                  "Z": 0.0
-                },
-                {
-                  "X": 240.0,
-                  "Y": 0.0,
-                  "Z": 0.0
-                },
-                {
-                  "X": 0.0,
-                  "Y": 150.0,
-                  "Z": 0.0
-                }
-              ],
-              "NPCsToSpawnPercentageChance": [
-                0.3
-              ],
-              "NPCMinLevelOffset": [],
-              "NPCMaxLevelOffset": [],
-              "NPCMinLevelMultiplier": [],
-              "NPCMaxLevelMultiplier": [],
-              "bAddLevelOffsetBeforeMultiplier": false,
-              "NPCOverrideLevel": [],
-              "ExtentCheck": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "GroupSpawnOffset": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 35.0
-              },
-              "EntryWeight": 0.025,
-              "ManualSpawnPointSpreadRadius": 650.0,
-              "WaterOnlySpawnMinimumWaterHeight": 140.0,
-              "MaximumWaterHeight": 0.0,
-              "ColorSets": null,
-              "NPCDifficultyLevelRanges": [],
-              "LevelDifficultyTestOverride": -1.0,
-              "SpawnMinDistanceFromStructuresMultiplier": 0.0,
-              "SpawnMinDistanceFromPlayersMultiplier": 0.0,
-              "SpawnMinDistanceFromTamedDinosMultiplier": 0.0,
-              "RandGroupSpawnOffsetZMin": 0.0,
-              "RandGroupSpawnOffsetZMax": 0.0
-            }
-          ],
-          "AdditionalNPCSpawnLimits": [
-            {
-              "NPCClass": {
-                "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                "SubPathString": ""
-              },
-              "NPCClassString": "",
-              "MaxPercentageOfDesiredNumToAllow": 0.04
-            }
-          ]
-        },
-        {
-          "SpawnEntriesContainerClass": null,
-          "SpawnEntriesContainerClassString": "",
-          "bSpawnEntriesContainerClassStringUseExactString": false,
-          "AdditionalNPCSpawnEntries": [
-            {
-              "AnEntryName": "",
-              "NPCsToSpawn": [
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pigmy.Drakara_Character_BP_Pigmy_C",
-                  "SubPathString": ""
-                }
-              ],
-              "NPCsToSpawnStrings": [],
-              "NPCRandomSpawnClassWeights": [
-                {
-                  "FromClass": {
-                    "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pigmy.Drakara_Character_BP_Pigmy_C",
-                    "SubPathString": ""
-                  },
-                  "ToClasses": [
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pigmy.Drakara_Character_BP_Pigmy_C",
-                      "SubPathString": ""
-                    }
-                  ],
-                  "Weights": [
-                    0.3,
-                    0.05
-                  ],
-                  "ActiveEvent": "None",
-                  "bExactMatch": false
-                }
-              ],
-              "NPCsSpawnOffsets": [
-                {
-                  "X": 0.0,
-                  "Y": 0.0,
-                  "Z": 0.0
-                },
-                {
-                  "X": 240.0,
-                  "Y": 0.0,
-                  "Z": 0.0
-                },
-                {
-                  "X": 0.0,
-                  "Y": 150.0,
-                  "Z": 0.0
-                }
-              ],
-              "NPCsToSpawnPercentageChance": [
-                0.3
-              ],
-              "NPCMinLevelOffset": [],
-              "NPCMaxLevelOffset": [],
-              "NPCMinLevelMultiplier": [],
-              "NPCMaxLevelMultiplier": [],
-              "bAddLevelOffsetBeforeMultiplier": false,
-              "NPCOverrideLevel": [],
-              "ExtentCheck": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "GroupSpawnOffset": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 35.0
-              },
-              "EntryWeight": 0.025,
-              "ManualSpawnPointSpreadRadius": 650.0,
-              "WaterOnlySpawnMinimumWaterHeight": 140.0,
-              "MaximumWaterHeight": 0.0,
-              "ColorSets": null,
-              "NPCDifficultyLevelRanges": [],
-              "LevelDifficultyTestOverride": -1.0,
-              "SpawnMinDistanceFromStructuresMultiplier": 0.0,
-              "SpawnMinDistanceFromPlayersMultiplier": 0.0,
-              "SpawnMinDistanceFromTamedDinosMultiplier": 0.0,
-              "RandGroupSpawnOffsetZMin": 0.0,
-              "RandGroupSpawnOffsetZMax": 0.0
-            }
-          ],
-          "AdditionalNPCSpawnLimits": [
-            {
-              "NPCClass": {
-                "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                "SubPathString": ""
-              },
-              "NPCClassString": "",
-              "MaxPercentageOfDesiredNumToAllow": 0.04
-            }
-          ]
-        },
-        {
-          "SpawnEntriesContainerClass": null,
-          "SpawnEntriesContainerClassString": "",
-          "bSpawnEntriesContainerClassStringUseExactString": false,
-          "AdditionalNPCSpawnEntries": [
-            {
-              "AnEntryName": "",
-              "NPCsToSpawn": [
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Bloodfang.Drakara_Character_BP_Bloodfang_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Bloodfang.Drakara_Character_BP_Bloodfang_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pyro.Drakara_Character_BP_Pyro_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pyro.Drakara_Character_BP_Pyro_C",
-                  "SubPathString": ""
-                }
-              ],
-              "NPCsToSpawnStrings": [],
-              "NPCRandomSpawnClassWeights": [
-                {
-                  "FromClass": {
-                    "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                    "SubPathString": ""
-                  },
-                  "ToClasses": [
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                      "SubPathString": ""
-                    },
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Alpha.Drakara_Character_BP_Alpha_C",
-                      "SubPathString": ""
-                    },
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pyro.Drakara_Character_BP_Pyro_C",
-                      "SubPathString": ""
-                    }
-                  ],
-                  "Weights": [
-                    1.0,
-                    0.05
-                  ],
-                  "ActiveEvent": "None",
-                  "bExactMatch": false
-                }
-              ],
-              "NPCsSpawnOffsets": [
-                {
-                  "X": 0.0,
-                  "Y": 0.0,
-                  "Z": 0.0
-                },
-                {
-                  "X": 240.0,
-                  "Y": 0.0,
-                  "Z": 0.0
-                },
-                {
-                  "X": 0.0,
-                  "Y": 150.0,
-                  "Z": 0.0
-                }
-              ],
-              "NPCsToSpawnPercentageChance": [
-                0.5,
-                0.5,
-                0.5
-              ],
-              "NPCMinLevelOffset": [],
-              "NPCMaxLevelOffset": [],
-              "NPCMinLevelMultiplier": [],
-              "NPCMaxLevelMultiplier": [],
-              "bAddLevelOffsetBeforeMultiplier": false,
-              "NPCOverrideLevel": [],
-              "ExtentCheck": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "GroupSpawnOffset": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 35.0
-              },
-              "EntryWeight": 0.025,
-              "ManualSpawnPointSpreadRadius": 650.0,
-              "WaterOnlySpawnMinimumWaterHeight": 140.0,
-              "MaximumWaterHeight": 0.0,
-              "ColorSets": null,
-              "NPCDifficultyLevelRanges": [],
-              "LevelDifficultyTestOverride": -1.0,
-              "SpawnMinDistanceFromStructuresMultiplier": 0.0,
-              "SpawnMinDistanceFromPlayersMultiplier": 0.0,
-              "SpawnMinDistanceFromTamedDinosMultiplier": 0.0,
-              "RandGroupSpawnOffsetZMin": 0.0,
-              "RandGroupSpawnOffsetZMax": 0.0
-            }
-          ],
-          "AdditionalNPCSpawnLimits": [
-            {
-              "NPCClass": {
-                "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                "SubPathString": ""
-              },
-              "NPCClassString": "",
-              "MaxPercentageOfDesiredNumToAllow": 0.04
-            }
-          ]
-        },
-        {
-          "SpawnEntriesContainerClass": null,
-          "SpawnEntriesContainerClassString": "",
-          "bSpawnEntriesContainerClassStringUseExactString": false,
-          "AdditionalNPCSpawnEntries": [
-            {
-              "AnEntryName": "",
-              "NPCsToSpawn": [
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Bloodfang.Drakara_Character_BP_Bloodfang_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Bloodfang.Drakara_Character_BP_Bloodfang_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pyro.Drakara_Character_BP_Pyro_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pyro.Drakara_Character_BP_Pyro_C",
-                  "SubPathString": ""
-                }
-              ],
-              "NPCsToSpawnStrings": [],
-              "NPCRandomSpawnClassWeights": [
-                {
-                  "FromClass": {
-                    "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                    "SubPathString": ""
-                  },
-                  "ToClasses": [
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                      "SubPathString": ""
-                    },
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Alpha.Drakara_Character_BP_Alpha_C",
-                      "SubPathString": ""
-                    },
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pyro.Drakara_Character_BP_Pyro_C",
-                      "SubPathString": ""
-                    }
-                  ],
-                  "Weights": [
-                    0.3,
-                    0.05
-                  ],
-                  "ActiveEvent": "None",
-                  "bExactMatch": false
-                }
-              ],
-              "NPCsSpawnOffsets": [
-                {
-                  "X": 0.0,
-                  "Y": 0.0,
-                  "Z": 0.0
-                },
-                {
-                  "X": 240.0,
-                  "Y": 0.0,
-                  "Z": 0.0
-                },
-                {
-                  "X": 0.0,
-                  "Y": 150.0,
-                  "Z": 0.0
-                }
-              ],
-              "NPCsToSpawnPercentageChance": [
-                0.2,
-                0.2,
-                0.1
-              ],
-              "NPCMinLevelOffset": [],
-              "NPCMaxLevelOffset": [],
-              "NPCMinLevelMultiplier": [],
-              "NPCMaxLevelMultiplier": [],
-              "bAddLevelOffsetBeforeMultiplier": false,
-              "NPCOverrideLevel": [],
-              "ExtentCheck": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "GroupSpawnOffset": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 35.0
-              },
-              "EntryWeight": 0.025,
-              "ManualSpawnPointSpreadRadius": 650.0,
-              "WaterOnlySpawnMinimumWaterHeight": 140.0,
-              "MaximumWaterHeight": 0.0,
-              "ColorSets": null,
-              "NPCDifficultyLevelRanges": [],
-              "LevelDifficultyTestOverride": -1.0,
-              "SpawnMinDistanceFromStructuresMultiplier": 0.0,
-              "SpawnMinDistanceFromPlayersMultiplier": 0.0,
-              "SpawnMinDistanceFromTamedDinosMultiplier": 0.0,
-              "RandGroupSpawnOffsetZMin": 0.0,
-              "RandGroupSpawnOffsetZMax": 0.0
-            }
-          ],
-          "AdditionalNPCSpawnLimits": [
-            {
-              "NPCClass": {
-                "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                "SubPathString": ""
-              },
-              "NPCClassString": "",
-              "MaxPercentageOfDesiredNumToAllow": 0.04
-            }
-          ]
-        },
-        {
-          "SpawnEntriesContainerClass": null,
-          "SpawnEntriesContainerClassString": "",
-          "bSpawnEntriesContainerClassStringUseExactString": false,
-          "AdditionalNPCSpawnEntries": [
-            {
-              "AnEntryName": "",
-              "NPCsToSpawn": [
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Bloodfang.Drakara_Character_BP_Bloodfang_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Bloodfang.Drakara_Character_BP_Bloodfang_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pyro.Drakara_Character_BP_Pyro_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pyro.Drakara_Character_BP_Pyro_C",
-                  "SubPathString": ""
-                }
-              ],
-              "NPCsToSpawnStrings": [],
-              "NPCRandomSpawnClassWeights": [
-                {
-                  "FromClass": {
-                    "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                    "SubPathString": ""
-                  },
-                  "ToClasses": [
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                      "SubPathString": ""
-                    },
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Alpha.Drakara_Character_BP_Alpha_C",
-                      "SubPathString": ""
-                    },
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pyro.Drakara_Character_BP_Pyro_C",
-                      "SubPathString": ""
-                    }
-                  ],
-                  "Weights": [
-                    0.3,
-                    0.05
-                  ],
-                  "ActiveEvent": "None",
-                  "bExactMatch": false
-                }
-              ],
-              "NPCsSpawnOffsets": [
-                {
-                  "X": 0.0,
-                  "Y": 0.0,
-                  "Z": 0.0
-                },
-                {
-                  "X": 240.0,
-                  "Y": 0.0,
-                  "Z": 0.0
-                },
-                {
-                  "X": 0.0,
-                  "Y": 150.0,
-                  "Z": 0.0
-                }
-              ],
-              "NPCsToSpawnPercentageChance": [
-                0.2,
-                0.2,
-                0.1
-              ],
-              "NPCMinLevelOffset": [],
-              "NPCMaxLevelOffset": [],
-              "NPCMinLevelMultiplier": [],
-              "NPCMaxLevelMultiplier": [],
-              "bAddLevelOffsetBeforeMultiplier": false,
-              "NPCOverrideLevel": [],
-              "ExtentCheck": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "GroupSpawnOffset": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 35.0
-              },
-              "EntryWeight": 0.025,
-              "ManualSpawnPointSpreadRadius": 650.0,
-              "WaterOnlySpawnMinimumWaterHeight": 140.0,
-              "MaximumWaterHeight": 0.0,
-              "ColorSets": null,
-              "NPCDifficultyLevelRanges": [],
-              "LevelDifficultyTestOverride": -1.0,
-              "SpawnMinDistanceFromStructuresMultiplier": 0.0,
-              "SpawnMinDistanceFromPlayersMultiplier": 0.0,
-              "SpawnMinDistanceFromTamedDinosMultiplier": 0.0,
-              "RandGroupSpawnOffsetZMin": 0.0,
-              "RandGroupSpawnOffsetZMax": 0.0
-            }
-          ],
-          "AdditionalNPCSpawnLimits": [
-            {
-              "NPCClass": {
-                "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                "SubPathString": ""
-              },
-              "NPCClassString": "",
-              "MaxPercentageOfDesiredNumToAllow": 0.04
-            }
-          ]
-        },
-        {
-          "SpawnEntriesContainerClass": null,
-          "SpawnEntriesContainerClassString": "",
-          "bSpawnEntriesContainerClassStringUseExactString": false,
-          "AdditionalNPCSpawnEntries": [
-            {
-              "AnEntryName": "",
-              "NPCsToSpawn": [
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pyro.Drakara_Character_BP_Pyro_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Bloodfang.Drakara_Character_BP_Bloodfang_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Alpha.Drakara_Character_BP_Alpha_C",
-                  "SubPathString": ""
-                }
-              ],
-              "NPCsToSpawnStrings": [],
-              "NPCRandomSpawnClassWeights": [
-                {
-                  "FromClass": {
-                    "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                    "SubPathString": ""
-                  },
-                  "ToClasses": [
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                      "SubPathString": ""
-                    },
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Alpha.Drakara_Character_BP_Alpha_C",
-                      "SubPathString": ""
-                    },
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Pyro.Drakara_Character_BP_Pyro_C",
-                      "SubPathString": ""
-                    },
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Bloodfang.Drakara_Character_BP_Bloodfang_C",
-                      "SubPathString": ""
-                    }
-                  ],
-                  "Weights": [
-                    0.3,
-                    0.05
-                  ],
-                  "ActiveEvent": "None",
-                  "bExactMatch": false
-                }
-              ],
-              "NPCsSpawnOffsets": [
-                {
-                  "X": 0.0,
-                  "Y": 0.0,
-                  "Z": 0.0
-                },
-                {
-                  "X": 240.0,
-                  "Y": 0.0,
-                  "Z": 0.0
-                },
-                {
-                  "X": 0.0,
-                  "Y": 150.0,
-                  "Z": 0.0
-                }
-              ],
-              "NPCsToSpawnPercentageChance": [
-                0.5,
-                0.5,
-                0.25,
-                0.2
-              ],
-              "NPCMinLevelOffset": [],
-              "NPCMaxLevelOffset": [],
-              "NPCMinLevelMultiplier": [],
-              "NPCMaxLevelMultiplier": [],
-              "bAddLevelOffsetBeforeMultiplier": false,
-              "NPCOverrideLevel": [],
-              "ExtentCheck": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "GroupSpawnOffset": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 35.0
-              },
-              "EntryWeight": 0.025,
-              "ManualSpawnPointSpreadRadius": 650.0,
-              "WaterOnlySpawnMinimumWaterHeight": 140.0,
-              "MaximumWaterHeight": 0.0,
-              "ColorSets": null,
-              "NPCDifficultyLevelRanges": [],
-              "LevelDifficultyTestOverride": -1.0,
-              "SpawnMinDistanceFromStructuresMultiplier": 0.0,
-              "SpawnMinDistanceFromPlayersMultiplier": 0.0,
-              "SpawnMinDistanceFromTamedDinosMultiplier": 0.0,
-              "RandGroupSpawnOffsetZMin": 0.0,
-              "RandGroupSpawnOffsetZMax": 0.0
-            }
-          ],
-          "AdditionalNPCSpawnLimits": [
-            {
-              "NPCClass": {
-                "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                "SubPathString": ""
-              },
-              "NPCClassString": "",
-              "MaxPercentageOfDesiredNumToAllow": 0.04
-            }
-          ]
-        },
-        {
-          "SpawnEntriesContainerClass": null,
-          "SpawnEntriesContainerClassString": "",
-          "bSpawnEntriesContainerClassStringUseExactString": false,
-          "AdditionalNPCSpawnEntries": [
-            {
-              "AnEntryName": "",
-              "NPCsToSpawn": [
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Arctic.Drakara_Character_BP_Arctic_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                  "SubPathString": ""
-                }
-              ],
-              "NPCsToSpawnStrings": [],
-              "NPCRandomSpawnClassWeights": [
-                {
-                  "FromClass": {
-                    "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Arctic.Drakara_Character_BP_Arctic_C",
-                    "SubPathString": ""
-                  },
-                  "ToClasses": [
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Arctic.Drakara_Character_BP_Arctic_C",
-                      "SubPathString": ""
-                    }
-                  ],
-                  "Weights": [
-                    0.3,
-                    0.05
-                  ],
-                  "ActiveEvent": "None",
-                  "bExactMatch": false
-                }
-              ],
-              "NPCsSpawnOffsets": [
-                {
-                  "X": 0.0,
-                  "Y": 0.0,
-                  "Z": 0.0
-                },
-                {
-                  "X": 240.0,
-                  "Y": 0.0,
-                  "Z": 0.0
-                },
-                {
-                  "X": 0.0,
-                  "Y": 150.0,
-                  "Z": 0.0
-                }
-              ],
-              "NPCsToSpawnPercentageChance": [
-                0.5,
-                0.5
-              ],
-              "NPCMinLevelOffset": [],
-              "NPCMaxLevelOffset": [],
-              "NPCMinLevelMultiplier": [],
-              "NPCMaxLevelMultiplier": [],
-              "bAddLevelOffsetBeforeMultiplier": false,
-              "NPCOverrideLevel": [],
-              "ExtentCheck": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "GroupSpawnOffset": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 35.0
-              },
-              "EntryWeight": 0.025,
-              "ManualSpawnPointSpreadRadius": 650.0,
-              "WaterOnlySpawnMinimumWaterHeight": 140.0,
-              "MaximumWaterHeight": 0.0,
-              "ColorSets": null,
-              "NPCDifficultyLevelRanges": [],
-              "LevelDifficultyTestOverride": -1.0,
-              "SpawnMinDistanceFromStructuresMultiplier": 0.0,
-              "SpawnMinDistanceFromPlayersMultiplier": 0.0,
-              "SpawnMinDistanceFromTamedDinosMultiplier": 0.0,
-              "RandGroupSpawnOffsetZMin": 0.0,
-              "RandGroupSpawnOffsetZMax": 0.0
-            }
-          ],
-          "AdditionalNPCSpawnLimits": [
-            {
-              "NPCClass": {
-                "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                "SubPathString": ""
-              },
-              "NPCClassString": "",
-              "MaxPercentageOfDesiredNumToAllow": 0.04
-            }
-          ]
-        },
-        {
-          "SpawnEntriesContainerClass": null,
-          "SpawnEntriesContainerClassString": "",
-          "bSpawnEntriesContainerClassStringUseExactString": false,
-          "AdditionalNPCSpawnEntries": [
-            {
-              "AnEntryName": "",
-              "NPCsToSpawn": [
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Aberrant.Drakara_Character_BP_Aberrant_C",
-                  "SubPathString": ""
-                },
-                {
-                  "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Aberrant.Drakara_Character_BP_Aberrant_C",
-                  "SubPathString": ""
-                }
-              ],
-              "NPCsToSpawnStrings": [],
-              "NPCRandomSpawnClassWeights": [
-                {
-                  "FromClass": {
-                    "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Aberrant.Drakara_Character_BP_Aberrant_C",
-                    "SubPathString": ""
-                  },
-                  "ToClasses": [
-                    {
-                      "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP_Aberrant.Drakara_Character_BP_Aberrant_C",
-                      "SubPathString": ""
-                    }
-                  ],
-                  "Weights": [
-                    0.3,
-                    0.05
-                  ],
-                  "ActiveEvent": "None",
-                  "bExactMatch": false
-                }
-              ],
-              "NPCsSpawnOffsets": [
-                {
-                  "X": 0.0,
-                  "Y": 0.0,
-                  "Z": 0.0
-                },
-                {
-                  "X": 240.0,
-                  "Y": 0.0,
-                  "Z": 0.0
-                },
-                {
-                  "X": 0.0,
-                  "Y": 150.0,
-                  "Z": 0.0
-                }
-              ],
-              "NPCsToSpawnPercentageChance": [
-                0.7,
-                0.5,
-                0.25
-              ],
-              "NPCMinLevelOffset": [],
-              "NPCMaxLevelOffset": [],
-              "NPCMinLevelMultiplier": [],
-              "NPCMaxLevelMultiplier": [],
-              "bAddLevelOffsetBeforeMultiplier": false,
-              "NPCOverrideLevel": [],
-              "ExtentCheck": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 0.0
-              },
-              "GroupSpawnOffset": {
-                "X": 0.0,
-                "Y": 0.0,
-                "Z": 35.0
-              },
-              "EntryWeight": 0.025,
-              "ManualSpawnPointSpreadRadius": 650.0,
-              "WaterOnlySpawnMinimumWaterHeight": 140.0,
-              "MaximumWaterHeight": 0.0,
-              "ColorSets": null,
-              "NPCDifficultyLevelRanges": [],
-              "LevelDifficultyTestOverride": -1.0,
-              "SpawnMinDistanceFromStructuresMultiplier": 0.0,
-              "SpawnMinDistanceFromPlayersMultiplier": 0.0,
-              "SpawnMinDistanceFromTamedDinosMultiplier": 0.0,
-              "RandGroupSpawnOffsetZMin": 0.0,
-              "RandGroupSpawnOffsetZMax": 0.0
-            }
-          ],
-          "AdditionalNPCSpawnLimits": [
-            {
-              "NPCClass": {
-                "AssetPathName": "/skyshroud_drakara/Dinos/Drakara/Drakara_Character_BP.Drakara_Character_BP_C",
-                "SubPathString": ""
-              },
-              "NPCClassString": "",
-              "MaxPercentageOfDesiredNumToAllow": 0.04
+              "MaxPercentageOfDesiredNumToAllow": 0.05
             }
           ]
         }
       ],
-      "GlobalNPCRandomSpawnClassWeights": [
+      "DinoBabySetups": [
         {
-          "FromClass": {
-            "AssetPathName": "/Game/PrimalEarth/Dinos/Salmon/Salmon_Character_BP.Salmon_Character_BP_C",
-            "SubPathString": ""
-          },
-          "ToClasses": [
+          "DinoNameTag": "Dracoteuthis",
+          "BabyBoneModifierRanges": [
             {
-              "AssetPathName": "/Game/PrimalEarth/Dinos/Salmon/Salmon_Character_BP.Salmon_Character_BP_C",
-              "SubPathString": ""
-            },
-            {
-              "AssetPathName": "/skyshroud_drakara/Dinos/Mudshieldfish/Mudshieldfish_Character.Mudshieldfish_Character_C",
-              "SubPathString": ""
+              "bAffectsLegLength": false,
+              "bUseExtraMax": false,
+              "MinLegLengthMultiplier": 1.0,
+              "MaxLegLengthMultiplier": 1.0,
+              "BoneArray": [
+                {
+                  "BoneName": "Head",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.25,
+                    "Y": 1.25,
+                    "Z": 1.5
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": true
+                },
+                {
+                  "BoneName": "Head_A_T1_L",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.5,
+                    "Z": 1.0
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": true
+                },
+                {
+                  "BoneName": "Head_A_T1_R",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.5,
+                    "Z": 1.0
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": true
+                },
+                {
+                  "BoneName": "Head_B_T1_L",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.5,
+                    "Z": 1.0
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": true
+                },
+                {
+                  "BoneName": "Head_B_T1_R",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.5,
+                    "Z": 1.0
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": true
+                },
+                {
+                  "BoneName": "Head_C_T1_L",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.5,
+                    "Z": 1.0
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": true
+                },
+                {
+                  "BoneName": "Head_C_T1_R",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.5,
+                    "Z": 1.0
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": true
+                },
+                {
+                  "BoneName": "Head_E_T1_L",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.5,
+                    "Z": 1.0
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": true
+                },
+                {
+                  "BoneName": "Head_E_T1_R",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.5,
+                    "Z": 1.0
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": true
+                },
+                {
+                  "BoneName": "Jaw",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 2.0,
+                    "Y": 0.5,
+                    "Z": 1.5
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": true
+                },
+                {
+                  "BoneName": "Neck3",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.75,
+                    "Z": 1.0
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "Neck4",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.75,
+                    "Z": 1.0
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "Neck5",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.75,
+                    "Z": 1.0
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "Neck6",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.75,
+                    "Z": 1.0
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                },
+                {
+                  "BoneName": "MLeg_MiddleLeg_L",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.5,
+                    "Y": 1.0,
+                    "Z": 1.25
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": true
+                },
+                {
+                  "BoneName": "MLeg_MiddleLeg_R",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.5,
+                    "Y": 1.0,
+                    "Z": 1.25
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": true
+                },
+                {
+                  "BoneName": "MLeg_Foot_L",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.25,
+                    "Y": 1.25,
+                    "Z": 1.25
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": true
+                },
+                {
+                  "BoneName": "MLeg_Foot_R",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.25,
+                    "Y": 1.25,
+                    "Z": 1.25
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": true
+                },
+                {
+                  "BoneName": "TopLeg_Middle_L",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.5,
+                    "Y": 1.0,
+                    "Z": 1.25
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": true
+                },
+                {
+                  "BoneName": "TopLeg_Middle_R",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.5,
+                    "Y": 1.0,
+                    "Z": 1.25
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": true
+                },
+                {
+                  "BoneName": "TopLeg_Foot_L",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.25,
+                    "Y": 1.25,
+                    "Z": 1.25
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": true
+                },
+                {
+                  "BoneName": "TopLeg_Foot_R",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.25,
+                    "Y": 1.25,
+                    "Z": 1.25
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": true
+                },
+                {
+                  "BoneName": "UpperLeg_L",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.5,
+                    "Y": 1.0,
+                    "Z": 1.5
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": true
+                },
+                {
+                  "BoneName": "UpperLeg_R",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.5,
+                    "Y": 1.0,
+                    "Z": 1.5
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": true
+                },
+                {
+                  "BoneName": "Foot_L",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.25,
+                    "Y": 1.25,
+                    "Z": 1.25
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": true
+                },
+                {
+                  "BoneName": "Foot_R",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.25,
+                    "Y": 1.25,
+                    "Z": 1.25
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": true
+                },
+                {
+                  "BoneName": "LowerArm_L",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.5,
+                    "Z": 0.75
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": true
+                },
+                {
+                  "BoneName": "LowerArm_R",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.5,
+                    "Z": 0.75
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": true
+                },
+                {
+                  "BoneName": "SpineWingStretchC_L",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.25,
+                    "Z": 1.0
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": true
+                },
+                {
+                  "BoneName": "SpineWingStretchC_R",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.25,
+                    "Z": 1.0
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": true
+                },
+                {
+                  "BoneName": "Tail1",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.5,
+                    "Z": 1.0
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": true
+                },
+                {
+                  "BoneName": "Tail3",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.25,
+                    "Y": 1.0,
+                    "Z": 1.25
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": true
+                },
+                {
+                  "BoneName": "Spine1",
+                  "MinScale": {
+                    "X": 1.0,
+                    "Y": 1.0,
+                    "Z": 1.0
+                  },
+                  "MaxScale": {
+                    "X": 1.0,
+                    "Y": 0.5,
+                    "Z": 1.0
+                  },
+                  "MinTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "MaxTranslation": {
+                    "X": 0.0,
+                    "Y": 0.0,
+                    "Z": 0.0
+                  },
+                  "Recursive": false
+                }
+              ],
+              "GlobalFatRemap": {
+                "X": 0.0,
+                "Y": 0.0
+              }
             }
           ],
-          "Weights": [
-            80.0,
-            20.0
-          ],
-          "ActiveEvent": "None",
-          "bExactMatch": true
-        },
+          "WildRandomScaleRangeWeights": [],
+          "WildRandomScaleRanges": []
+        }
+      ],
+      "ServerExtraWorldSingletonActorClasses": [
         {
-          "FromClass": {
-            "AssetPathName": "/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP.Dodo_Character_BP_C",
-            "SubPathString": ""
-          },
-          "ToClasses": [
-            {
-              "AssetPathName": "/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP.Dodo_Character_BP_C",
-              "SubPathString": ""
-            },
-            {
-              "AssetPathName": "/skyshroud_drakara/Dinos/Atokirina/Atokirina_Character_BP.Atokirina_Character_BP_C",
-              "SubPathString": ""
-            }
-          ],
-          "Weights": [
-            70.0,
-            30.0
-          ],
-          "ActiveEvent": "None",
-          "bExactMatch": true
-        },
-        {
-          "FromClass": {
-            "AssetPathName": "/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP.Dodo_Character_BP_C",
-            "SubPathString": ""
-          },
-          "ToClasses": [
-            {
-              "AssetPathName": "/Game/PrimalEarth/Dinos/Dodo/Dodo_Character_BP.Dodo_Character_BP_C",
-              "SubPathString": ""
-            },
-            {
-              "AssetPathName": "/skyshroud_drakara/Dinos/Atokirina/Atokirina_Character_BP.Atokirina_Character_BP_C",
-              "SubPathString": ""
-            }
-          ],
-          "Weights": [
-            90.0,
-            10.0
-          ],
-          "ActiveEvent": "None",
-          "bExactMatch": true
+          "ObjectName": "BlueprintGeneratedClass'Dracoteuthis_CCA_C'",
+          "ObjectPath": "/Dracoteuthis/Dracoteuthis_CCA.0"
         }
       ]
     }
