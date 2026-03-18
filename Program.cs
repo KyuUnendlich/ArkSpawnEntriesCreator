@@ -574,9 +574,14 @@ namespace ArkSpawnEntriesCreator
                             }
                             sb.AppendLine("      Multi Spawn Chance: " + entry.amountToSpawnChance);
                             int lengthOfSubBPs = entry.subBPs.Count;
+                            int lengthOfSubBPWeights = entry.subBPWeights.Count;
                             for (int currentSubBP = 0; currentSubBP < lengthOfSubBPs; currentSubBP++)
                             {
-                                sb.AppendLine("         SubBP: " + entry.subBPs[currentSubBP] + " " + entry.subBPWeights[currentSubBP]);
+                                string subBPWeighttemp = "doesnt exist";
+                                if (currentSubBP < lengthOfSubBPWeights) {
+                                    subBPWeighttemp = entry.subBPWeights[currentSubBP];
+                                }
+                                sb.AppendLine("         SubBP: " + entry.subBPs[currentSubBP] + " " + subBPWeighttemp);
                             }
                         }
                     }
@@ -713,6 +718,7 @@ namespace ArkSpawnEntriesCreator
 
                         List<string> currentSubBPList = subBPList[i];
                         List<string> currentSubBPWeightList = subBPWeightList[i];
+                        int lengthOfSubBPWeights = currentSubBPWeightList.Count;
 
                         for (int j = 0; j < currentSubBPList.Count; j++)
                         {
@@ -721,7 +727,13 @@ namespace ArkSpawnEntriesCreator
                                 subBPString += ", ";
                             }
                             subBPString += currentSubBPList[j] + ": ";
-                            subBPString += currentSubBPWeightList[j];
+
+                            string subBPWeighttemp = "doesnt exist";
+                            if (j < lengthOfSubBPWeights)
+                            {
+                                subBPWeighttemp = currentSubBPWeightList[j];
+                            }
+                            subBPString += subBPWeighttemp;
                         }
 
                         if (!subBPString.Equals(""))
