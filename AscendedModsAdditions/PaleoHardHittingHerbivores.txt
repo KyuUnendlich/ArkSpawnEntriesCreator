@@ -5,10 +5,17 @@ Dino Entries:
    EVO_Therizino_C
 
 ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT Remaps: 
-   /Game/PrimalEarth/Dinos/Therizinosaurus/Therizino_Character_BP.Therizino_Character_BP_C
-   /PA_EVO_Pack_03/Dinos/EVO_Therizino/EVO_Therizino_Character_BP.EVO_Therizino_Character_BP_C
-   /PA_EVO_Pack_03/Dinos/EVO_Therizino/EVO_Therizino_Character_BP.EVO_Therizino_Character_BP_C
-    "/PA_EVO_Pack_03/Dinos/EVO_Therizino/Alpha/EVO_Alpha_Therizino_Character_BP.EVO_Alpha_Therizino_Character_BP_C
-    "/PA_EVO_Pack_03/Dinos/EVO_Therizino/EVO_Therizino_Character_BP.EVO_Therizino_Character_BP_C
-   /Game/PrimalEarth/Dinos/Therizinosaurus/Therizino_Character_BP.Therizino_Character_BP_C
+      
+FromClass: 
+      Therizino_Character_BP_C
+ToClass: 
+      EVO_Therizino_Character_BP_C
+      
+FromClass: 
+      EVO_Therizino_Character_BP_C
+ToClass: 
+      EVO_Alpha_Therizino_Character_BP_C
+      EVO_Therizino_Character_BP_C
+      0.02, 0.98
+      Therizino_Character_BP_C
 
