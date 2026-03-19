@@ -1,0 +1,132 @@
+Engram Entries: 
+   EngramEntry_Allosaurus-Brain_C
+   EngramEntry_Antro-Saddle_T0_C
+   EngramEntry_Scorched-Skin_C
+   EngramEntry_Aberrant-Skin_C
+   EngramEntry_Antro-Arms_C
+   EngramEntry_Antro-Body_C
+   EngramEntry_Antro-Helm_C
+   EngramEntry_Antro-Pants_C
+   EngramEntry_Antro-Pestal_C
+   EngramEntry_Antro-Storage_C
+
+Dino Entries: 
+   TAC_Antrodemus_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Grass-Antro
+      Main BP: TAC_Antrodemus_Character_Bp_C_C
+      Entry Weight: 0.075
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: SE-Antro
+      Main BP: TAC_SE_Antrodemus_Character_Bp_C_C
+      Entry Weight: 0.045
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Ab-Antro
+      Main BP: TAC_AB_Antrodemus_Character_Bp_C_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Ab-Antro
+      Main BP: TAC_AB_Antrodemus_Character_Bp_C_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Ab-Antro
+      Main BP: TAC_AB_Antrodemus_Character_Bp_C_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Ab-Antro
+      Main BP: TAC_Antrodemus_Character_Bp_C_C
+      Entry Weight: 0.075
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Antro-SE
+      Main BP: TAC_SE_Antrodemus_Character_Bp_C_C
+      Entry Weight: 0.075
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Antro-Sunken
+      Main BP: TAC_AB_Antrodemus_Character_Bp_C_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Antro-Waste
+      Main BP: TAC_Antrodemus_Character_Bp_C_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Grass-Antro
+      Main BP: TAC_Antrodemus_Character_Bp_C_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Grass-Antro
+      Main BP: TAC_Antrodemus_Character_Bp_C_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Ab-Antro
+      Main BP: TAC_Antrodemus_Character_Bp_C_C
+      Entry Weight: 0.075
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+
+MultiParams Summary: 
+   Main BP: TAC_AB_Antrodemus_Character_Bp_C_C
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+
+   Main BP: TAC_Antrodemus_Character_Bp_C_C
+      Entry Weight:                   0.075
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.075
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.075
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+
+   Main BP: TAC_SE_Antrodemus_Character_Bp_C_C
+      Entry Weight:                   0.045
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.075
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+

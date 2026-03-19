@@ -1,0 +1,150 @@
+Engram Entries: 
+   EngramEntry_RubidgeaOCSaddle_C
+
+Dino Entries: 
+   RubidgeaOC_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Rubidgea
+      Main BP: ScorchedRubidgeaOC_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Rubidgea
+      Main BP: RubidgeaOC_Character_BP_C
+      Entry Weight: 0.004
+      Spawn Limit: 0.002
+      Multi Spawn Chance: 1.0-0.4
+Container Name: null
+   Entry Name: Rubidgea
+      Main BP: RubidgeaOC_Character_BP_C
+      Entry Weight: 0.07
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Rubidgea
+      Main BP: ScorchedRubidgeaOC_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.6
+Container Name: null
+   Entry Name: Rubidgea
+      Main BP: RubidgeaOC_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Rubidgea
+      Main BP: RubidgeaOC_Character_BP_C
+      Entry Weight: 0.07
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Rubidgea
+      Main BP: RubidgeaOC_Character_BP_C
+      Entry Weight: 0.002
+      Spawn Limit: 0.002
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Rubidgea (2-3)
+      Main BP: RubidgeaOC_Character_BP_Ext_C
+      Entry Weight: 0.045
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 0.7-0.7-0.4
+Container Name: null
+   Entry Name: Rubidgea (2-3)
+      Main BP: RubidgeaOC_Character_BP_Ext_C
+      Entry Weight: 0.045
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 0.7-0.7-0.4
+Container Name: null
+   Entry Name: Rubidgea (1-2)
+      Main BP: ScorchedRubidgeaOC_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.6
+Container Name: null
+   Entry Name: Rubidgea (1-2)
+      Main BP: RubidgeaOC_Character_BP_Aberrant_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.75
+Container Name: null
+   Entry Name: Rubidgea (1-2)
+      Main BP: RubidgeaOC_Character_BP_Aberrant_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Rubidgea
+      Main BP: RubidgeaOC_Character_BP_C
+      Entry Weight: 0.45
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.4
+Container Name: null
+   Entry Name: rubidgea corrupt
+      Main BP: RubidgeaOC_Character_BP_Corrupt_C
+      Entry Weight: 0.045
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.7
+
+Global Entry Weights: 
+   Main BP: RubidgeaOC_Character_BP_C
+      SubBP: RubidgeaOC_Character_BP_C 1.0
+      SubBP: MegaRubidgeaOC_Character_BP_C 0.025
+
+MultiParams Summary: 
+   Main BP: RubidgeaOC_Character_BP_Aberrant_C
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.75
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5
+
+   Main BP: RubidgeaOC_Character_BP_C
+      Entry Weight:                   0.004
+      Spawn Limit:                             0.002
+      Multi Spawn Chance:                               1.0-0.4
+      Entry Weight:                   0.07
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.07
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.002
+      Spawn Limit:                             0.002
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.45
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.4
+
+   Main BP: RubidgeaOC_Character_BP_Corrupt_C
+      Entry Weight:                   0.045
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.7
+
+   Main BP: RubidgeaOC_Character_BP_Ext_C
+      Entry Weight:                   0.045
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               0.7-0.7-0.4
+      Entry Weight:                   0.045
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               0.7-0.7-0.4
+
+   Main BP: ScorchedRubidgeaOC_Character_BP_C
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.04
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.6
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.6
+

@@ -1,0 +1,120 @@
+Engram Entries: 
+   EngramEntry_Vecti-1-Saddle_C
+   EngramEntry_Vecti-3-Saddle_C
+   EngramEntry_Vecti-Artillery_Shell_C
+   EngramEntry_Vecti-EnergyCell_C
+   EngramEntry_Vecti-RailGun_C
+   EngramEntry_Vecti-TranqRocketLauncher_C
+   EngramEntry_Vecti-TranqRockets_C
+
+Dino Entries: 
+   TA-Vectispinus_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Vectispinus
+      Main BP: TAC_Vecti_Character_Bp_C_C
+      Entry Weight: 0.075
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Vectispinus
+      Main BP: TAC_Vecti_Character_Bp_C_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Vectispinus
+      Main BP: TAC_AB_Vecti_Character_Bp_C_Child_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.0075
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Vectispinus
+      Main BP: TAC_Arkology_Vecti_Character_Bp_C_Child_C
+      Entry Weight: 0.075
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Vectispinus
+      Main BP: TAC_Vecti_Character_Bp_C_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Vectispinus
+      Main BP: TAC_AB_Vecti_Character_Bp_C_Child_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Vectispinus
+      Main BP: TAC_Vecti_Character_Bp_C_C
+      Entry Weight: 0.075
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Vectispinus
+      Main BP: TAC_Vecti_Character_Bp_C_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Vectispinus
+      Main BP: TAC_Vecti_Character_Bp_C_C
+      Entry Weight: 0.075
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Vectispinus
+      Main BP: TAC_Vecti_Character_Bp_C_C
+      Entry Weight: 0.075
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Vectispinus
+      Main BP: TAC_Vecti_Character_Bp_C_C
+      Entry Weight: 0.00025
+      Spawn Limit: 0.005
+      Multi Spawn Chance: 1.0
+
+MultiParams Summary: 
+   Main BP: TAC_AB_Vecti_Character_Bp_C_Child_C
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.0075
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+
+   Main BP: TAC_Arkology_Vecti_Character_Bp_C_Child_C
+      Entry Weight:                   0.075
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+
+   Main BP: TAC_Vecti_Character_Bp_C_C
+      Entry Weight:                   0.075
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.075
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.075
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.075
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.00025
+      Spawn Limit:                             0.005
+      Multi Spawn Chance:                               1.0
+

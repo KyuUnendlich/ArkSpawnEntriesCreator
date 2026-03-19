@@ -1,0 +1,65 @@
+Engram Entries: 
+   EngramEntry_PrimalSummoner_C
+   EngramEntry_Saddle_Desolatitan_C
+   EngramEntry_PrimalSummoner_Beta_C
+   EngramEntry_PrimalSummoner_Gamma_C
+   EngramEntry_PrimalSummoner_Legendary_C
+   EngramEntry_PrimalSummoner_Beta_NonIsland_C
+   EngramEntry_PrimalSummoner_Gamma_NonIsland_C
+   EngramEntry_PrimalSummoner_Legendary_NonIsland_C
+   EngramEntry_PrimalSummoner_NonIsland_C
+
+Dino Entries: 
+   Desolatitan_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Desolatitan (1)
+      Main BP: Desolatitan_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 1.0
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Desolatitan (1)
+      Main BP: Scorched_Desolatitan_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 0.05
+Container Name: null
+   Entry Name: Desolatitan (1)
+      Main BP: Desolatitan_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Desolatitan (1)
+      Main BP: Scorched_Desolatitan_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+
+Global Entry Weights: 
+   Main BP: Desolatitan_Character_BP_C
+      SubBP: ARKOLOGY_Desolatitan_Character_BP_C 0.05
+      SubBP: Desolatitan_Character_BP_C 0.95
+   Main BP: Scorched_Desolatitan_Character_BP_C
+      SubBP: ARKOLOGY_Desolatitan_Character_BP_C 0.05
+      SubBP: Scorched_Desolatitan_Character_BP_C 0.95
+
+MultiParams Summary: 
+   Main BP: Desolatitan_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             1.0
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+
+   Main BP: Scorched_Desolatitan_Character_BP_C
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               0.05
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+

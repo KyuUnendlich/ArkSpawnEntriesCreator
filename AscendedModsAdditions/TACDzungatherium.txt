@@ -1,0 +1,254 @@
+Engram Entries: 
+   EngramEntry_Dzung-Standard-Saddle_C
+   EngramEntry_Dzung-Armor_C
+   EngramEntry_Dzung-Platform_C
+
+Dino Entries: 
+   T-A-C-DETV-Dzung_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Grasslands
+      Main BP: Dzung_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Redwoods
+      Main BP: Dzung_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Swamp
+      Main BP: Dzung_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Grasslands Alpha
+      Main BP: Alpha-Dzung_Character_BP_Child_C
+      Entry Weight: 0.005
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Redwoods Alpha
+      Main BP: Alpha-Dzung_Character_BP_Child_C
+      Entry Weight: 0.005
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Swamp Alpha
+      Main BP: Alpha-Dzung_Character_BP_Child_C
+      Entry Weight: 0.005
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Canyon
+      Main BP: SE-Dzung_Character_BP_Child_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Badlands
+      Main BP: SE-Dzung_Character_BP_Child_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Canyon
+      Main BP: SE-Dzung_Character_BP_Child_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Canyon
+      Main BP: Alpha-Dzung_Character_BP_Child_C
+      Entry Weight: 0.005
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Greenzone
+      Main BP: AB-Dzung_Character_BP_Child_C
+      Entry Weight: 0.075
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: BlueZone
+      Main BP: AB-Dzung_Character_BP_Child_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Greenzone
+      Main BP: Alpha-Dzung_Character_BP_Child_C
+      Entry Weight: 0.005
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Greenzone
+      Main BP: Alpha-Dzung_Character_BP_Child_C
+      Entry Weight: 0.0025
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: EX Oasis
+      Main BP: SE-Dzung_Character_BP_Child_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Greenzone
+      Main BP: AB-Dzung_Character_BP_Child_C
+      Entry Weight: 0.075
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Grasslands Alpha
+      Main BP: Alpha-Dzung_Character_BP_Child_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Grasslands Alpha
+      Main BP: Alpha-Dzung_Character_BP_Child_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Grasslands Alpha
+      Main BP: Alpha-Dzung_Character_BP_Child_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Grasslands Alpha
+      Main BP: Alpha-Dzung_Character_BP_Child_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Grasslands
+      Main BP: Dzung_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Grasslands
+      Main BP: Dzung_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Grasslands
+      Main BP: Dzung_Character_BP_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Grasslands
+      Main BP: Dzung_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+Container Name: null
+Container Name: null
+   Entry Name: Grasslands
+      Main BP: Dzung_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Grasslands
+      Main BP: Dzung_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+
+MultiParams Summary: 
+   Main BP: AB-Dzung_Character_BP_Child_C
+      Entry Weight:                   0.075
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.075
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+
+   Main BP: Alpha-Dzung_Character_BP_Child_C
+      Entry Weight:                   0.005
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.005
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.005
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.005
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.005
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.0025
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+
+   Main BP: Dzung_Character_BP_C
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+
+   Main BP: SE-Dzung_Character_BP_Child_C
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+

@@ -800,7 +800,7 @@ namespace ArkSpawnEntriesCreator
             CyrusDrakonis,
             WakSpino,
             Hatze,
-            ElementalRaptors, //TAC_FireAndIce
+            TACElementalRaptors, //TAC_FireAndIce
             MoroHydrovanta, //Hydrovanta
             ShadAtlas,
             PortsOfAtlas,
@@ -846,6 +846,41 @@ namespace ArkSpawnEntriesCreator
             HorizonSuchomimus, //Horizons
             MoroTylo,
             MoroNotho,
+            Rubidgea, //OCRubidgea
+            Birdwatcher,
+            TACVectispinus,
+            TACAntrodemus,
+            TACEocarcharia, //Eocarcharia
+            TACDaemonis, //Daemonis
+            TACDzungatherium,
+            Tyrannodominator,
+            ARKOSanguivern,
+            ARKOHapipalus,
+            ARKODesolatitan,
+            MoreWyverns,
+            Monolopho, //Forogotten
+            Noxcalva, //BlazingNoxcalva
+            Orthros, //StandaloneOrthros
+            RoyalArchaeopteryx,
+            ACEndemics,
+            ACAquaria,
+            AC2WildArk,
+            TACBastionBeetle,
+            FayeMenagerie,
+            AussieDiamantina,
+            AussieMuttaburra,
+            AussieMinmi,
+            AbiArgentino,
+            FeralMajunga,
+            FeralWalliserops,
+            Barsboldia,
+            Sivatherium,
+            Cockatrice,
+            Brachiosaurus,
+            Meraxes,
+            Taenia,
+
+
 
 
 
@@ -858,7 +893,7 @@ namespace ArkSpawnEntriesCreator
         //const string Path = "C:/Users/matth/Desktop/Ascended/AtlasFish.txt";
         const bool replaceFile = true;
         const bool secondString2 = false;
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/HorizonSuchomimus.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/Noxcalva.txt";
     }
 
 

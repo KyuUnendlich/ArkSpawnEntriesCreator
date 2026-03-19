@@ -1,0 +1,16 @@
+Engram Entries: 
+   EngramEntry_Saddle_Sanguivern_C
+   EngramEntry_BloodstarvedSummoner_C
+   EngramEntry_BloodstarvedSummoner_Beta_C
+   EngramEntry_BloodstarvedSummoner_Gamma_C
+   EngramEntry_BloodstarvedSummoner_Legendary_C
+   EngramEntry_Cocktail_Sanguivern_C
+
+Dino Entries: 
+   Sanguivern_C
+
+
+Global Entry Weights: 
+   Main BP: Desmodus_Character_BP_C
+      SubBP: Desmodus_Character_BP_C 0.95
+      SubBP: Sanguivern_Character_BP_C 0.05
