@@ -1,0 +1,155 @@
+Engram Entries: 
+   EngramEntry_Saddle_Cockatrice_C
+
+Dino Entries: 
+   Cockatrice_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Cockatrice (1)
+      Main BP: Cockatrice_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Cockatrice (1)
+      Main BP: Cockatrice_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Cockatrice (1)
+      Main BP: Cockatrice_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Cockatrice (1)
+      Main BP: Cockatrice_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Cockatrice (1)
+      Main BP: Cockatrice_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Cockatrice (1)
+      Main BP: Cockatrice_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Cockatrice (1)
+      Main BP: Cockatrice_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Cockatrice (1)
+      Main BP: Cockatrice_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Cockatrice (1)
+      Main BP: Cockatrice_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Cockatrice (1)
+      Main BP: Cockatrice_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Cockatrice (1)
+      Main BP: Cockatrice_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Cockatrice (1)
+      Main BP: Cockatrice_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Cockatrice (1)
+      Main BP: Cockatrice_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Cockatrice (1)
+      Main BP: Cockatrice_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Cockatrice (1)
+      Main BP: Cockatrice_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Cockatrice (1)
+      Main BP: Cockatrice_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+
+MultiParams Summary: 
+   Main BP: Cockatrice_Character_BP_C
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+

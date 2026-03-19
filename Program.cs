@@ -862,23 +862,26 @@ namespace ArkSpawnEntriesCreator
             Noxcalva, //BlazingNoxcalva
             Orthros, //StandaloneOrthros
             RoyalArchaeopteryx,
-            ACEndemics,
-            ACAquaria,
-            AC2WildArk,
+            ACEndemics, //Endemics
+            ACAquaria, //Aquaria
+            AC2WildArk, //AdditionalCreatures
             TACBastionBeetle,
-            FayeMenagerie,
-            AussieDiamantina,
-            AussieMuttaburra,
+            FayeMenagerie, //Menagerie
+            AussieDiamantina, //NickDiamant
+            AussieMuttaburra, //NickMutta
             AussieMinmi, //AussieAdditions
-            AbiArgentino,
-            FeralMajunga,
-            FeralWalliserops,
+            AbiArgentino, //Argentino
+            FeralMajunga, //Majunga
+            FeralWalliserops, //Walliserops
             Barsboldia,
             Sivatherium,
             Cockatrice,
             Brachiosaurus,
             Meraxes,
             Taenia,
+            RunicWyverns,
+            NeoAurochs, //Aurochs
+            NeoStygi, //Stygimoloch
 
 
 
@@ -893,7 +896,7 @@ namespace ArkSpawnEntriesCreator
         //const string Path = "C:/Users/matth/Desktop/Ascended/AtlasFish.txt";
         const bool replaceFile = true;
         const bool secondString2 = false;
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/AC2WildArk.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/FeralWalliserops.txt";
     }
 
 

@@ -1,0 +1,146 @@
+Engram Entries: 
+   EngramEntry_Saddle_Diamantino_C
+   EngramEntry_Saddle_DiamantinoChest_C
+   EngramEntry_Saddle_DiamantinoLegs_C
+   EngramEntry_Saddle_DiamantinoNeck_C
+
+Dino Entries: 
+   NDiamantinasaurus_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Diamantino Jungle
+      Main BP: NDiamantinasaurus_Character_BP_C
+      Entry Weight: 0.055
+      Spawn Limit: 0.045
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Diamantino Redwoods
+      Main BP: NDiamantinasaurus_Character_BP_C
+      Entry Weight: 0.055
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: DIamantino GreenDesert
+      Main BP: ScorchedNDiamantinasaurus_Character_BP_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: DIamantino Oasis
+      Main BP:                     "AssetPathName": "
+      Entry Weight: 0.015
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Ab Diamantino Green
+      Main BP: AberrantNDiamantinasaurus_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Extinction Obelisk
+      Main BP: NDiamantinasaurus_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Extinction Center
+      Main BP: NDiamantinasaurus_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: 
+      Main BP: ScorchedNDiamantinasaurus_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0-0.35
+Container Name: null
+   Entry Name: 
+      Main BP: AberrantNDiamantinasaurus_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Diamantino Redwoods
+      Main BP: NDiamantinasaurus_Character_BP_C
+      Entry Weight: 0.055
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Diamantino Jungle Generic
+      Main BP: NDiamantinasaurus_Character_BP_C
+      Entry Weight: 0.055
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Diamantino Redwoods
+      Main BP: NDiamantinasaurus_Character_BP_C
+      Entry Weight: 0.055
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Ab Diamantino Green
+      Main BP: AberrantNDiamantinasaurus_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: LC Abberant Diaman
+      Main BP: AberrantNDiamantinasaurus_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+
+MultiParams Summary: 
+   Main BP:                     "AssetPathName": "
+      Entry Weight:                   0.015
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+
+   Main BP: AberrantNDiamantinasaurus_Character_BP_C
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+
+   Main BP: NDiamantinasaurus_Character_BP_C
+      Entry Weight:                   0.055
+      Spawn Limit:                             0.045
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.055
+      Spawn Limit:                             0.06
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.055
+      Spawn Limit:                             0.06
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.055
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.055
+      Spawn Limit:                             0.06
+      Multi Spawn Chance:                               1.0
+
+   Main BP: ScorchedNDiamantinasaurus_Character_BP_C
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.06
+      Multi Spawn Chance:                               1.0-0.35
+

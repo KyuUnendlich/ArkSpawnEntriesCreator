@@ -1,0 +1,511 @@
+Dino Entries: 
+   RunicFlameWyvern_C
+   RunicSparkWyvern_C
+   RunicVenomWyvern_C
+   RunicGlacialWyvern_C
+   RunicGhostWyvern_C
+   RunicGhostWyvernBoss_C
+   RunicQuartzWyv_C
+   RunicRubyWyv_C
+   RunicEmeraldWyv_C
+   RunicSapphireWyv_C
+   RunicHaloLanternWyvern_C
+   RunicHaloWyvern_C
+   RunicCrystalQueenBoss_C
+   RunicCrystalQueen_C
+   RunicGlitchWyv_C
+   RunicVoidWyv_C
+   RunicMatrixWyv_Tame_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: RunicFlameWyvern (1)
+      Main BP: Runic_Wyvern_Character_BP_Flame-V2_C
+      Entry Weight: 0.06
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicSparkWyvern (1)
+      Main BP: Runic_Wyvern_Character_BP_Spark-V2_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicWyvernVenom(1)
+      Main BP: Runic_Wyvern_Character_BP_Venom-V2_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicGlacialWyvern (1)
+      Main BP: Runic_Wyvern_Character_BP_Glacial-V2_C
+      Entry Weight: 0.032
+      Spawn Limit: 0.07
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicFlameWyvern (1)
+      Main BP: Runic_Wyvern_Character_BP_Flame-V2_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicSparkWyvern (1)
+      Main BP: Runic_Wyvern_Character_BP_Spark-V2_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 1.0-0.98
+Container Name: null
+   Entry Name: RunicWyvernVenom(1)
+      Main BP: Runic_Wyvern_Character_BP_Venom-V2_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 0.8
+Container Name: null
+   Entry Name: RunicGlacialWyvern (1)
+      Main BP: Runic_Wyvern_Character_BP_Glacial-V2_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicFlameWyvern (1)
+      Main BP: Runic_Wyvern_Character_BP_Flame-V2_C
+      Entry Weight: 0.038
+      Spawn Limit: 0.07
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicSparkWyvern
+      Main BP: Runic_Wyvern_Character_BP_Spark-V2_C
+      Entry Weight: 0.045
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicGlacialWyvern
+      Main BP: Runic_Wyvern_Character_BP_Glacial-V2_C
+      Entry Weight: 0.09
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicFlameWyvern (1)
+      Main BP: Runic_Wyvern_Character_BP_Flame-V2_C
+      Entry Weight: 0.068
+      Spawn Limit: 0.045
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicSparkWyvern (1)
+      Main BP: Runic_Wyvern_Character_BP_Spark-V2_C
+      Entry Weight: 0.085
+      Spawn Limit: 0.065
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicWyvernVenom(1)
+      Main BP: Runic_Wyvern_Character_BP_Venom-V2_C
+      Entry Weight: 0.07
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 1.0-0.98
+Container Name: null
+   Entry Name: RunicGlacialWyvern (1)
+      Main BP: Runic_Wyvern_Character_BP_Glacial-V2_C
+      Entry Weight: 0.075
+      Spawn Limit: 0.16
+      Multi Spawn Chance: 1.0-0.95
+Container Name: null
+   Entry Name: RunicQuartzWyvern
+      Main BP: RW_Character_BP_Quartz_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.6
+Container Name: null
+   Entry Name: RunicQuartzWyvern
+      Main BP: RW_Character_BP_Quartz_C
+      Entry Weight: 0.06
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0-0.7
+Container Name: null
+   Entry Name: RunicQuartzWyvern
+      Main BP: RW_Character_BP_Quartz_C
+      Entry Weight: 0.07
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0-0.7
+Container Name: null
+   Entry Name: RunicQuartzWyvern
+      Main BP: RW_Character_BP_Quartz_C
+      Entry Weight: 0.07
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicHaloWyvern (1)
+      Main BP: RW_Charater_BP_HaloWyvern_Lantern_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicHaloVenom(1)
+      Main BP: RW_Charater_BP_HaloWyvern_Lantern_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: SE_GreenDesert_RunicHaloWyvern
+      Main BP: RW_Charater_BP_HaloWyvern_Lantern_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicHaloWyvern
+      Main BP: RW_Charater_BP_HaloWyvern_Lantern_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicHaloWyvern (1)
+      Main BP: RW_Charater_BP_HaloWyvern_Lantern_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicHaloWyvern (1)
+      Main BP: RW_Charater_BP_HaloWyvern_Lantern_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicHaloWyvern (1)
+      Main BP: RW_Charater_BP_HaloWyvern_Lantern_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicHaloWyvern (1)
+      Main BP: RW_Charater_BP_HaloWyvern_Lantern_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicHaloWyvern (1)
+      Main BP: RW_Charater_BP_HaloWyvern_Lantern_C
+      Entry Weight: 0.06
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicHaloWyvern (1)
+      Main BP: RW_Charater_BP_HaloWyvern_Lantern_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 0.9
+Container Name: null
+   Entry Name: RunicGlacialWyvern (1)
+      Main BP: Runic_Wyvern_Character_BP_Glacial-V2_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicVenomWyvern
+      Main BP: Runic_Wyvern_Character_BP_Venom-V2_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicWyvernVenom(1)
+      Main BP: Runic_Wyvern_Character_BP_Venom-V2_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicWyvernSpark(1)
+      Main BP: Runic_Wyvern_Character_BP_Spark-V2_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0-0.8
+Container Name: null
+   Entry Name: RunicWyvernGlacial(1)
+      Main BP: Runic_Wyvern_Character_BP_Glacial-V2_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicWyvernFlame(1)
+      Main BP: Runic_Wyvern_Character_BP_Flame-V2_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.95
+Container Name: null
+   Entry Name: RunicSparkWyvern (1)
+      Main BP: Runic_Wyvern_Character_BP_Spark-V2_C
+      Entry Weight: 0.06
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicGlacialWyvern
+      Main BP: Runic_Wyvern_Character_BP_Glacial-V2_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicWyvernSpark(1)
+      Main BP: Runic_Wyvern_Character_BP_Spark-V2_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.9
+Container Name: null
+   Entry Name: RunicWyvernGlacial(1)
+      Main BP: Runic_Wyvern_Character_BP_Glacial-V2_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicWyvernSpark(1)
+      Main BP: Runic_Wyvern_Character_BP_Spark-V2_C
+      Entry Weight: 0.045
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicWyvernVenom(1)
+      Main BP: Runic_Wyvern_Character_BP_Venom-V2_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicWyvernHalo(1)
+      Main BP: RW_Charater_BP_HaloWyvern_Lantern_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicWyvernVenom(1)
+      Main BP: Runic_Wyvern_Character_BP_Venom-V2_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicWyvernFlame(1)
+      Main BP: Runic_Wyvern_Character_BP_Flame-V2_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.95
+Container Name: null
+   Entry Name: RunicQuartzWyvern
+      Main BP: RW_Character_BP_Quartz_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0-0.9
+Container Name: null
+   Entry Name: RunicQuartzWyvern_Grasslands
+      Main BP: RW_Character_BP_Quartz_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicWyvernHalo(1)
+      Main BP: RW_Charater_BP_HaloWyvern_Lantern_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicFlameWyvern (1)
+      Main BP: Runic_Wyvern_Character_BP_Flame-V2_C
+      Entry Weight: 0.06
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicSparkWyvern (1)
+      Main BP: Runic_Wyvern_Character_BP_Spark-V2_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicWyvernVenom(1)
+      Main BP: Runic_Wyvern_Character_BP_Venom-V2_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicGlacialWyvern (1)
+      Main BP: Runic_Wyvern_Character_BP_Glacial-V2_C
+      Entry Weight: 0.032
+      Spawn Limit: 0.07
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: RunicQuartzWyvern
+      Main BP: RW_Character_BP_Quartz_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.6
+Container Name: null
+   Entry Name: RunicWyvernHalo(1)
+      Main BP: RW_Charater_BP_HaloWyvern_Lantern_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0
+
+MultiParams Summary: 
+   Main BP: Runic_Wyvern_Character_BP_Flame-V2_C
+      Entry Weight:                   0.06
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.06
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.038
+      Spawn Limit:                             0.07
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.068
+      Spawn Limit:                             0.045
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.95
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.95
+      Entry Weight:                   0.06
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+
+   Main BP: Runic_Wyvern_Character_BP_Glacial-V2_C
+      Entry Weight:                   0.032
+      Spawn Limit:                             0.07
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.06
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.09
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.075
+      Spawn Limit:                             0.16
+      Multi Spawn Chance:                               1.0-0.95
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.032
+      Spawn Limit:                             0.07
+      Multi Spawn Chance:                               1.0
+
+   Main BP: Runic_Wyvern_Character_BP_Spark-V2_C
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               1.0-0.98
+      Entry Weight:                   0.045
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.085
+      Spawn Limit:                             0.065
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0-0.8
+      Entry Weight:                   0.06
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-0.9
+      Entry Weight:                   0.045
+      Spawn Limit:                             0.06
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               1.0
+
+   Main BP: Runic_Wyvern_Character_BP_Venom-V2_C
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               0.8
+      Entry Weight:                   0.07
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               1.0-0.98
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0
+
+   Main BP: RW_Character_BP_Quartz_C
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.6
+      Entry Weight:                   0.06
+      Spawn Limit:                             0.06
+      Multi Spawn Chance:                               1.0-0.7
+      Entry Weight:                   0.07
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0-0.7
+      Entry Weight:                   0.07
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.06
+      Multi Spawn Chance:                               1.0-0.9
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.6
+
+   Main BP: RW_Charater_BP_HaloWyvern_Lantern_C
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.06
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               0.9
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0
+
