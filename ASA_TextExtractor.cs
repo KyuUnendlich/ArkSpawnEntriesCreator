@@ -9,14 +9,14 @@ namespace ArkSpawnEntriesCreator
 {
     class ASA_TextExtractor
     {
-        public static void ExtractEngrams(string path)
+        public static void ExtractEngrams(string path_strings, string Path)
         {
-            using StreamReader reader = new(path);
+            using StreamReader reader = new(path_strings);
 
             bool readingEngramEntries = false;
 
             //Whats the first thing to find, EngramEntries, DinoEntries, DinoAdditions
-            while (!reader.EndOfStream)
+            while (!reader.EndOfStream && !readingEngramEntries)
             {
                 string text = reader.ReadLine();
 
@@ -53,21 +53,21 @@ namespace ArkSpawnEntriesCreator
 
             if (foundEngramEntry)
             {
-                File.AppendAllText(path, "Engram Entries: ");
-                File.AppendAllText(path, "\r\n");
-                File.AppendAllText(path, sb_engramEntries.ToString());
-                File.AppendAllText(path, "\r\n");
+                File.AppendAllText(Path, "Engram Entries: ");
+                File.AppendAllText(Path, "\r\n");
+                File.AppendAllText(Path, sb_engramEntries.ToString());
+                File.AppendAllText(Path, "\r\n");
             }
         }
 
-        public static void ExtractDino(string path)
+        public static void ExtractDino(string path_strings, string Path)
         {
-            using StreamReader reader = new(path);
+            using StreamReader reader = new(path_strings);
 
             bool readingDinoEntries = false;
 
             //Whats the first thing to find, EngramEntries, DinoEntries, DinoAdditions
-            while (!reader.EndOfStream)
+            while (!reader.EndOfStream && !readingDinoEntries)
             {
                 string text = reader.ReadLine();
 
@@ -104,21 +104,21 @@ namespace ArkSpawnEntriesCreator
 
             if (foundDinoEntry)
             {
-                File.AppendAllText(path, "Dino Entries: ");
-                File.AppendAllText(path, "\r\n");
-                File.AppendAllText(path, sb_dinoEntries.ToString());
-                File.AppendAllText(path, "\r\n");
+                File.AppendAllText(Path, "Dino Entries: ");
+                File.AppendAllText(Path, "\r\n");
+                File.AppendAllText(Path, sb_dinoEntries.ToString());
+                File.AppendAllText(Path, "\r\n");
             }
         }
 
-        public static void ExtractRemaps(string path)
+        public static void ExtractRemaps(string path_strings, string Path)
         {
 
-            using StreamReader reader = new(path);
+            using StreamReader reader = new(path_strings);
 
             bool readingRemaps = false;
 
-            while (!reader.EndOfStream)
+            while (!reader.EndOfStream && !readingRemaps)
             {
                 string text = reader.ReadLine();
 
@@ -196,17 +196,17 @@ namespace ArkSpawnEntriesCreator
 
             if (foundRemaps)
             {
-                File.AppendAllText(path, "ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT Remaps: ");
-                File.AppendAllText(path, "\r\n");
-                File.AppendAllText(path, sb_remaps.ToString());
-                File.AppendAllText(path, "\r\n");
+                File.AppendAllText(Path, "ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT Remaps: ");
+                File.AppendAllText(Path, "\r\n");
+                File.AppendAllText(Path, sb_remaps.ToString());
+                File.AppendAllText(Path, "\r\n");
             }
         }
 
-        public static List<SpawnContainer> ExtractDinoAdditions(string path)
+        public static List<SpawnContainer> ExtractDinoAdditions(string path_strings, string Path)
         {
 
-            using StreamReader reader = new(path);
+            using StreamReader reader = new(path_strings);
             bool readingDinoAdditions = false;
 
             bool foundLimitLine = false;
@@ -215,7 +215,7 @@ namespace ArkSpawnEntriesCreator
             bool subBPWeights = false;
             bool NPCsPercentage = false;
 
-            while (!reader.EndOfStream)
+            while (!reader.EndOfStream && !readingDinoAdditions)
             {
                 string text = reader.ReadLine();
 
@@ -397,35 +397,24 @@ namespace ArkSpawnEntriesCreator
                                     }
                                 }
                             }
-
                         }
-
                     }
-
                 }
-                /*
-                //Cancel out, end reached
-                if (text.Contains("GlobalNPCRandomSpawnClassWeights"))
-                {
-                    readingDinoAdditions = false;
-                    break;
-                }
-                */
             }
 
             return spawnContainers;
         }
 
-        public static List<SpawnEntry> ExtractGlobalReplacement(string path) {
+        public static List<SpawnEntry> ExtractGlobalReplacement(string path_strings, string Path) {
             bool searchForMainBP = false;
             bool searchForSubBPs = false;
             bool searchForSubBPWeights = false;
             int currentGlobalSpawnEntry = -1;
 
-            using StreamReader reader = new(path);
+            using StreamReader reader = new(path_strings);
             bool globalSpawnWeights = false;
 
-            while (!reader.EndOfStream)
+            while (!reader.EndOfStream && !globalSpawnWeights)
             {
                 string text = reader.ReadLine();
                 if (text.Contains("GlobalNPCRandomSpawnClassWeights"))
@@ -508,21 +497,21 @@ namespace ArkSpawnEntriesCreator
                 //SpawnReplacementsFound
                 if (text.Contains("SpawnReplacements"))
                 {
-                    File.AppendAllText(path, "ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT SpawnReplacements");
-                    File.AppendAllText(path, "\r\n");
-                    File.AppendAllText(path, "\r\n");
+                    File.AppendAllText(Path, "ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT SpawnReplacements");
+                    File.AppendAllText(Path, "\r\n");
+                    File.AppendAllText(Path, "\r\n");
                 }
             }
 
             return globalEntries;
         }
 
-        public static void CreateDinoAdditionsSB (List<SpawnContainer> spawnContainers, string path) {
+        public static void CreateDinoAdditionsSB (List<SpawnContainer> spawnContainers, string Path) {
             //DinoAdditionsPrint
             if (spawnContainers.Count != 0)
             {
-                File.AppendAllText(path, "Dino Additions: ");
-                File.AppendAllText(path, "\r\n");
+                File.AppendAllText(Path, "Dino Additions: ");
+                File.AppendAllText(Path, "\r\n");
                 StringBuilder sb = new StringBuilder();
 
                 foreach (SpawnContainer cont in spawnContainers)
@@ -542,17 +531,17 @@ namespace ArkSpawnEntriesCreator
                         }
                     }
                 }
-                File.AppendAllText(path, sb.ToString());
+                File.AppendAllText(Path, sb.ToString());
             }
         }
 
-        public static void CreateGlobalAdditionsSB(List<SpawnEntry> globalEntries, string path) {
+        public static void CreateGlobalAdditionsSB(List<SpawnEntry> globalEntries, string Path) {
             //GlobalEntryWeights
             if (globalEntries.Count != 0)
             {
-                File.AppendAllText(path, "\r\n");
-                File.AppendAllText(path, "Global Entry Weights: ");
-                File.AppendAllText(path, "\r\n");
+                File.AppendAllText(Path, "\r\n");
+                File.AppendAllText(Path, "Global Entry Weights: ");
+                File.AppendAllText(Path, "\r\n");
                 StringBuilder sb = new StringBuilder();
                 foreach (SpawnEntry entry in globalEntries)
                 {
@@ -563,17 +552,17 @@ namespace ArkSpawnEntriesCreator
                         sb.AppendLine("      SubBP: " + entry.subBPs[i] + " " + entry.subBPWeights[i]);
                     }
                 }
-                File.AppendAllText(path, sb.ToString());
+                File.AppendAllText(Path, sb.ToString());
             }
         }
 
-        public static void CreateMultiParamSummary(List<SpawnContainer> spawnContainers, string path) {
+        public static void CreateMultiParamSummary(List<SpawnContainer> spawnContainers, string Path) {
             //MultiParamsSummary
             if (spawnContainers.Count != 0)
             {
-                File.AppendAllText(path, "\r\n");
-                File.AppendAllText(path, "MultiParams Summary: ");
-                File.AppendAllText(path, "\r\n");
+                File.AppendAllText(Path, "\r\n");
+                File.AppendAllText(Path, "MultiParams Summary: ");
+                File.AppendAllText(Path, "\r\n");
                 StringBuilder sb = new StringBuilder();
 
                 Dictionary<string, List<string>> perBP_MultiParams = new Dictionary<string, List<string>>();
@@ -678,7 +667,7 @@ namespace ArkSpawnEntriesCreator
                     }
                     sb.AppendLine("");
                 }
-                File.AppendAllText(path, sb.ToString());
+                File.AppendAllText(Path, sb.ToString());
             }
         }
     }

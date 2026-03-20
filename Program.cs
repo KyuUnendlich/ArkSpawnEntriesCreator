@@ -36,7 +36,7 @@ namespace ArkSpawnEntriesCreator
             //ASE_Things.CompareCSVFileEntries();
             //ASE_Things.CompareCSVFileEntriesAllValues();
 
-            ExtractAdditionalNPCSpawnValues();
+            //ExtractAdditionalNPCSpawnValues();
 
             ASAExtractor();
         }
@@ -933,16 +933,16 @@ namespace ArkSpawnEntriesCreator
             {
                 File.Delete(Path);
             }
-            const string path = "E:/ARK Saves/ArkSpawnEntriesCreator/strings.txt";
+            const string path_strings = "E:/ARK Saves/ArkSpawnEntriesCreator/strings.txt";
 
-            ASA_TextExtractor.ExtractEngrams(path);
-            ASA_TextExtractor.ExtractDino(path);
-            ASA_TextExtractor.ExtractRemaps(path);
-            List<SpawnContainer> spawnContainers = ASA_TextExtractor.ExtractDinoAdditions(path);
-            List<SpawnEntry> globalEntries = ASA_TextExtractor.ExtractGlobalReplacement(path);
-            ASA_TextExtractor.CreateDinoAdditionsSB(spawnContainers, path);
-            ASA_TextExtractor.CreateGlobalAdditionsSB(globalEntries, path);
-            ASA_TextExtractor.CreateMultiParamSummary(spawnContainers, path);
+            ASA_TextExtractor.ExtractEngrams(path_strings, Path);
+            ASA_TextExtractor.ExtractDino(path_strings, Path);
+            ASA_TextExtractor.ExtractRemaps(path_strings, Path);
+            List<SpawnContainer> spawnContainers = ASA_TextExtractor.ExtractDinoAdditions(path_strings, Path);
+            List<SpawnEntry> globalEntries = ASA_TextExtractor.ExtractGlobalReplacement(path_strings, Path);
+            ASA_TextExtractor.CreateDinoAdditionsSB(spawnContainers, Path);
+            ASA_TextExtractor.CreateGlobalAdditionsSB(globalEntries, Path);
+            ASA_TextExtractor.CreateMultiParamSummary(spawnContainers, Path);
         }
     }
 
