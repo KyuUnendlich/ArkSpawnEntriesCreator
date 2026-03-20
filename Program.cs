@@ -974,7 +974,7 @@ namespace ArkSpawnEntriesCreator
         //const string Path = "C:/Users/matth/Desktop/Ascended/AtlasFish.txt";
         const bool replaceFile = true;
         const bool secondString2 = false;
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/DeimosShantungo.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/StarFarmAnimals.txt";
     }
 
 
