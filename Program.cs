@@ -433,8 +433,8 @@ namespace ArkSpawnEntriesCreator
                         int last_index = text.LastIndexOf(",") - 1;
                         string maxPercBP = text.Substring(first_index, last_index - first_index);
 
-                        //Find correct BP
-                        foreach (SpawnEntry spawnEntry in spawnContainers[spawnContainerIndex].spawnEntries)
+                    //Find correct BP
+                    foreach (SpawnEntry spawnEntry in spawnContainers[spawnContainerIndex].spawnEntries)
                         {
                             List<string> mainBPList = spawnEntry.mainBPs;
                             List<string> maxPercentagesList = spawnEntry.maxPercentages;
@@ -457,8 +457,10 @@ namespace ArkSpawnEntriesCreator
                                             }
 
                                             //End of MaxPercentages
-                                            if (text2.Contains("]")) {
+                                            if (text2.Contains("]"))
+                                            {
                                                 maxPercFound = true;
+                                                goto searchloop;
                                             }
                                         }
                                         else
@@ -467,9 +469,15 @@ namespace ArkSpawnEntriesCreator
                                         }
                                     }
                                 }
+                                //End of MaxPercentages
+                                if (text.Contains("]"))
+                                {
+                                    break;
+                                }
                             }
                         }
                     }
+                searchloop: string a;
                 }
 
                 //Cancel out, end reached
@@ -944,7 +952,7 @@ namespace ArkSpawnEntriesCreator
         //const string Path = "C:/Users/matth/Desktop/Ascended/AtlasFish.txt";
         const bool replaceFile = true;
         const bool secondString2 = false;
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/FeralWalliserops.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/TACBastionBeetle.txt";
     }
 
 

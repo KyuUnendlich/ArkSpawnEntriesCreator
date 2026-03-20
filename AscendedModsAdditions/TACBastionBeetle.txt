@@ -23,67 +23,397 @@ Container Name: null
    Entry Name: 
       Main BP: BB_Female_Character_BP_C
       Entry Weight: 0.025
-      Spawn Limit: 
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Male_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
       Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
 Container Name: null
    Entry Name: 
       Main BP: BB_Female_Character_BP_C
       Entry Weight: 0.025
-      Spawn Limit: 
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Male_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
       Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
 Container Name: null
    Entry Name: 
       Main BP: BB_Female_Character_BP_C
       Entry Weight: 0.025
-      Spawn Limit: 
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Male_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
       Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
 Container Name: null
    Entry Name: 
       Main BP: BB_Female_Character_BP_C
       Entry Weight: 0.025
-      Spawn Limit: 
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Male_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
       Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
 Container Name: null
    Entry Name: 
       Main BP: BB_Female_Character_BP_C
       Entry Weight: 0.025
-      Spawn Limit: 
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Male_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
       Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
 Container Name: null
    Entry Name: 
       Main BP: BB_Female_Character_BP_C
       Entry Weight: 0.025
-      Spawn Limit: 
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Male_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
       Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
 Container Name: null
    Entry Name: 
       Main BP: BB_Female_Character_BP_C
       Entry Weight: 0.025
-      Spawn Limit: 
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Male_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
       Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
 Container Name: null
    Entry Name: 
       Main BP: BB_Female_Character_BP_C
       Entry Weight: 0.025
-      Spawn Limit: 
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Male_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
       Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
 Container Name: null
    Entry Name: 
       Main BP: BB_Female_Character_BP_C
       Entry Weight: 0.025
-      Spawn Limit: 
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Male_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
       Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
 Container Name: null
    Entry Name: 
       Main BP: SE_BB_Female_Character_BP_Child_C
       Entry Weight: 0.025
-      Spawn Limit: 
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: SE_BB_Male_Character_BP_Child_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
       Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
 Container Name: null
    Entry Name: 
       Main BP: BB_Female_Character_BP_C
       Entry Weight: 0.025
-      Spawn Limit: 
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Male_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
       Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
 Container Name: null
    Entry Name: 
@@ -91,11 +421,35 @@ Container Name: null
       Entry Weight: 0.025
       Spawn Limit: 0.025
       Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
-Container Name: null
    Entry Name: 
-      Main BP: SE_BB_Female_Character_BP_Child_C
+      Main BP: SE_BB_Male_Character_BP_Child_C
       Entry Weight: 0.025
       Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
       Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
 Container Name: null
    Entry Name: 
@@ -103,11 +457,107 @@ Container Name: null
       Entry Weight: 0.025
       Spawn Limit: 0.025
       Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: SE_BB_Male_Character_BP_Child_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
 Container Name: null
    Entry Name: 
       Main BP: SE_BB_Female_Character_BP_Child_C
       Entry Weight: 0.025
       Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: SE_BB_Male_Character_BP_Child_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+Container Name: null
+   Entry Name: 
+      Main BP: SE_BB_Female_Character_BP_Child_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: SE_BB_Male_Character_BP_Child_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.025
+      Spawn Limit: Error, wrong BP or couldnt be found
       Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
 Container Name: null
    Entry Name: 
@@ -115,11 +565,71 @@ Container Name: null
       Entry Weight: 0.015
       Spawn Limit: 0.025
       Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: AB_BB_Male_Character_BP_Child_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.015
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.015
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.015
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.015
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
 Container Name: null
    Entry Name: 
       Main BP: AB_BB_Female_Character_BP_Child_C
       Entry Weight: 0.015
       Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: AB_BB_Male_Character_BP_Child_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.015
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.015
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.015
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
+   Entry Name: 
+      Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight: 0.015
+      Spawn Limit: Error, wrong BP or couldnt be found
       Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.5-0.25-0.1
 
 Global Entry Weights: 
@@ -151,41 +661,355 @@ MultiParams Summary:
       Spawn Limit:                             0.025
       Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
 
+   Main BP: AB_BB_Male_Character_BP_Child_C
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+
    Main BP: BB_Female_Character_BP_C
       Entry Weight:                   0.025
-      Spawn Limit:                             
+      Spawn Limit:              Error, wrong BP or couldnt be found
       Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
       Entry Weight:                   0.025
-      Spawn Limit:                             
+      Spawn Limit:              Error, wrong BP or couldnt be found
       Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
       Entry Weight:                   0.025
-      Spawn Limit:                             
+      Spawn Limit:              Error, wrong BP or couldnt be found
       Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
       Entry Weight:                   0.025
-      Spawn Limit:                             
+      Spawn Limit:              Error, wrong BP or couldnt be found
       Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
       Entry Weight:                   0.025
-      Spawn Limit:                             
+      Spawn Limit:              Error, wrong BP or couldnt be found
       Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
       Entry Weight:                   0.025
-      Spawn Limit:                             
+      Spawn Limit:              Error, wrong BP or couldnt be found
       Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
       Entry Weight:                   0.025
-      Spawn Limit:                             
+      Spawn Limit:              Error, wrong BP or couldnt be found
       Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
       Entry Weight:                   0.025
-      Spawn Limit:                             
+      Spawn Limit:              Error, wrong BP or couldnt be found
       Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
       Entry Weight:                   0.025
-      Spawn Limit:                             
+      Spawn Limit:              Error, wrong BP or couldnt be found
       Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
       Entry Weight:                   0.025
-      Spawn Limit:                             
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+
+   Main BP: BB_Larvae_Character_Bp_C
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.015
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.015
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.015
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.015
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.015
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.015
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.015
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.015
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+
+   Main BP: BB_Male_Character_BP_C
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
       Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
 
    Main BP: SE_BB_Female_Character_BP_Child_C
       Entry Weight:                   0.025
-      Spawn Limit:                             
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
+
+   Main BP: SE_BB_Male_Character_BP_Child_C
+      Entry Weight:                   0.025
+      Spawn Limit:              Error, wrong BP or couldnt be found
       Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.5-0.25-0.1
       Entry Weight:                   0.025
       Spawn Limit:                             0.025
