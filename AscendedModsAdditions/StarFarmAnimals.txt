@@ -1,0 +1,112 @@
+Engram Entries: 
+   EngramEntry_RR_Saddle_StarCowBull_C
+   EngramEntry_RR_Saddle_StarHorse_C
+   EngramEntry_RR_Saddle_Pig_C
+   PrimalItemConsumable_Egg_RainbowStarChicken_C
+   PrimalItemConsumable_Egg_StarChicken_C
+   PrimalItemConsumable_Egg_RainbowStarChicken_Fertilized_C
+   PrimalItemConsumable_Egg_StarChicken_Fertilized_C
+
+Dino Entries: 
+   RR_RainbowStarChicken_C
+   RR_StarChicken_C
+   RR_StarCat_C
+   RR_RainbowStarCat_C
+   RR_StarCowBull_C
+   RR_RainbowStarCowBull_C
+   RR_StarHorse_C
+   RR_RainbowStarHorse_C
+   RR_RainbowStarPony_C
+   RR_StarPony_C
+   RR_StarPig_C
+   RR_RainbowStarPig_C
+   RR_StarRabbit_C
+   RR_RainbowStarRabbit_C
+   RR_StarSheep_C
+   RR_RainbowStarSheep_C
+   RR_RainbowStarCrow_C
+   RR_StarCrow_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: 
+      Main BP: RR_StarChicken_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1
+Container Name: null
+   Entry Name: 
+      Main BP: RR_StarChicken_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1
+Container Name: null
+   Entry Name: 
+      Main BP: RR_RainbowStarCrow_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1
+Container Name: null
+   Entry Name: 
+      Main BP: RR_RainbowStarCrow_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1
+Container Name: null
+   Entry Name: 
+      Main BP: RR_RainbowStarPig_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1-0.1-0.1-0.1
+Container Name: null
+   Entry Name: 
+      Main BP: RR_RainbowStarPig_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1-0.1-0.1-0.1
+Container Name: null
+   Entry Name: 
+      Main BP: RR_RainbowStarHorse_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1-0.1
+Container Name: null
+   Entry Name: 
+      Main BP: RR_RainbowStarHorse_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1-0.1
+
+MultiParams Summary: 
+   Main BP: RR_RainbowStarCrow_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1
+
+   Main BP: RR_RainbowStarHorse_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1-0.1
+
+   Main BP: RR_RainbowStarPig_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1-0.1-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1-0.1-0.1-0.1
+
+   Main BP: RR_StarChicken_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1
+

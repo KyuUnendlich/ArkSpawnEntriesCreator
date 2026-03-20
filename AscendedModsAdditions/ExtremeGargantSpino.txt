@@ -1,0 +1,55 @@
+Engram Entries: 
+   EngramEntry_SaddleEX_EXSpino_C
+   EngramEntry_Saddle_EXSpino_C
+
+Dino Entries: 
+   GargantSpino_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Gargant_Spino
+      Main BP: GargantSpino_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 0.3
+         SubBP: GargantSpino_Character_BP_C 1.0
+         SubBP: MegaGargantSpino_Character_BP_C 0.05
+Container Name: null
+   Entry Name: Gargant_Spino_AB
+      Main BP: GargantSpino_Character_BP_AB_C
+      Entry Weight: 0.5
+      Spawn Limit: 0.0
+      Multi Spawn Chance: 0.5
+         SubBP: GargantSpino_Character_BP_AB_C 1.0
+         SubBP: MegaGargantSpino_Character_BP_C 0.05
+Container Name: null
+   Entry Name: Gargant_Spino
+      Main BP: GargantSpino_Character_BP_C
+      Entry Weight: 0.5
+      Spawn Limit: 0.004
+      Multi Spawn Chance: 0.6
+         SubBP: GargantSpino_Character_BP_C 1.0
+         SubBP: MegaGargantSpino_Character_BP_C 0.05
+
+Global Entry Weights: 
+   Main BP: Griffin_Character_BP_C
+      SubBP: Griffin_Character_BP_C 0.75
+      SubBP: GargantSpino_Character_BP_C 0.25
+
+MultiParams Summary: 
+   Main BP: GargantSpino_Character_BP_AB_C
+      Entry Weight:                   0.5
+      Spawn Limit:                             0.0
+      Multi Spawn Chance:                               0.5
+SubBPList: GargantSpino_Character_BP_AB_C: 1.0, MegaGargantSpino_Character_BP_C: 0.05
+
+   Main BP: GargantSpino_Character_BP_C
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               0.3
+      Entry Weight:                   0.5
+      Spawn Limit:                             0.004
+      Multi Spawn Chance:                               0.6
+SubBPList: GargantSpino_Character_BP_C: 1.0, MegaGargantSpino_Character_BP_C: 0.05
+SubBPList: GargantSpino_Character_BP_C: 1.0, MegaGargantSpino_Character_BP_C: 0.05
+

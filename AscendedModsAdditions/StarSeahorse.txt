@@ -1,0 +1,30 @@
+Engram Entries: 
+   EngramEntry_RR_Saddle_Seahorse_C
+
+Dino Entries: 
+   RR_RainbowStarSeaHorse_C
+   RR_StarSeaHorse_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: 
+      Main BP: RR_RainbowStarSeaHorse_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 0.08-0.08-0.08
+Container Name: null
+   Entry Name: 
+      Main BP: RR_RainbowStarSeaHorse_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 0.08-0.08-0.08
+
+MultiParams Summary: 
+   Main BP: RR_RainbowStarSeaHorse_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               0.08-0.08-0.08
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               0.08-0.08-0.08
+

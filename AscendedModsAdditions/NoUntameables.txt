@@ -1,0 +1,97 @@
+Engram Entries: 
+   EngramEntry_Saddle_Leedsichthys_C
+   EngramEntry_Saddle_Deathworm_C
+   EngramEntry_DeathwormTrap_C
+
+ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT Remaps: 
+      
+FromClass: 
+      Leedsichthys_Character_BP_C
+ToClass: 
+      Leedsichthys_Character_BP_Tameable_C
+      
+FromClass: 
+      Alpha_Leedsichthys_Character_BP_C
+ToClass: 
+      Alpha_Leedsichthys_Character_BP_T_C
+      
+FromClass: 
+      Ant_Character_BP_C
+ToClass: 
+      QueenAnt_Character_BP_Tameable_C
+      
+FromClass: 
+      FlyingAnt_Character_BP_C
+ToClass: 
+      QueenAnt_Character_BP_Tameable_C
+      
+FromClass: 
+      Euryp_Character_C
+ToClass: 
+      Euryp_Character_Tameable_C
+      
+FromClass: 
+      Cnidaria_Character_BP_C
+ToClass: 
+      Cnidaria_Character_BP_Tameable_C
+      
+FromClass: 
+      Dragonfly_Character_BP_C
+ToClass: 
+      Dragonfly_Character_BP_Tameable_C
+      
+FromClass: 
+      Ammonite_Character_C
+ToClass: 
+      Ammonite_Character_Tameable_C
+      
+FromClass: 
+      Jugbug_Water_Character_BP_C
+ToClass: 
+      Jugbug_Water_Character_BP_Tameable_C
+      
+FromClass: 
+      Jugbug_Oil_Character_BP_C
+ToClass: 
+      Jugbug_Oil_Character_BP_Tameable_C
+      
+FromClass: 
+      Deathworm_Character_BP_C
+ToClass: 
+      Deathworm_Character_BP_Tameable_C
+      
+FromClass: 
+      MegaDeathworm_Character_BP_C
+ToClass: 
+      MegaDeathworm_Character_BP_T_C
+      
+FromClass: 
+      Cnidaria_Character_BP_Aberrant_C
+ToClass: 
+      Cnidaria_Character_BP_Aberrant_Tameable_C
+      
+FromClass: 
+      Dragonfly_Character_BP_Aberrant_C
+ToClass: 
+      Dragonfly_Character_BP_Aberrant_Tameable_C
+      
+FromClass: 
+      Lightbug_Character_BaseBP_C
+ToClass: 
+      Lightbug_Character_BP_Tameable_C
+      
+FromClass: 
+      Pteroteuthis_Char_BP_C
+ToClass: 
+      Pteroteuthis_Char_BP_Tameable_C
+      
+FromClass: 
+      Pteroteuthis_Char_BP_Surface_C
+ToClass: 
+      Pteroteuthis_Char_BP_Tameable_Surface_C
+      
+FromClass: 
+      Xenomorph_Character_BP_Female_C
+ToClass: 
+      Xenomorph_Character_BP_Female_Wild_C
+

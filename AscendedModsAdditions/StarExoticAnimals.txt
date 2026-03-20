@@ -1,0 +1,201 @@
+Engram Entries: 
+   EngramEntry_RR_FeedingBasket_C
+   EngramEntry_RR_Elephant_Saddle_C
+   EngramEntry_RR_Giraffe_Saddle_C
+   EngramEntry_RR_StarLion_Saddle_C
+   EngramEntry_RR_Olfend_Saddle_C
+   EngramEntry_RR_Rhino_Saddle_C
+   EngramEntry_RR_StarTiger_Saddle_C
+
+Dino Entries: 
+   RR_StarElephant_C
+   RR_RainbowStarElephant_C
+   RR_StarGiraffe_C
+   RR_RainbowStarGiraffe_C
+   RR_StarLion_C
+   RR_RainbowStarLion_C
+   RR_StarOlfend_C
+   RR_RainbowStarOlfend_C
+   RR_StarParrot_C
+   RR_RainbowStarStarParrot_C
+   RR_StarRhino_C
+   RR_RainbowStarRhino_C
+   RR_RainbowStarGeko_C
+   RR_StarGeko_C
+   RR_RainbowStarMonkey_C
+   RR_StarMonkey_C
+   RR_RainbowStarTiger_C
+   RR_StarTiger_C
+   RR_StarPenguin_C
+   RR_RainbowStarPenguin_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: 
+      Main BP: RR_RainbowStarGiraffe_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 0.25-0.25-0.25-0.25-0.25-0.25
+Container Name: null
+   Entry Name: 
+      Main BP: RR_RainbowStarGiraffe_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 0.25-0.25-0.25-0.25-0.25-0.25
+Container Name: null
+   Entry Name: 
+      Main BP: RR_RainbowStarOlfend_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 0.25-0.25-0.25-0.25-0.25-0.25-0.25-0.25
+Container Name: null
+   Entry Name: 
+      Main BP: RR_RainbowStarOlfend_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 0.25-0.25-0.25-0.25-0.25-0.25-0.25-0.25
+Container Name: null
+   Entry Name: 
+      Main BP: RR_RainbowStarLion_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 0.25-0.25-0.25-0.25
+Container Name: null
+   Entry Name: 
+      Main BP: RR_RainbowStarLion_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 0.25-0.25-0.25-0.25
+Container Name: null
+   Entry Name: 
+      Main BP: RR_RainbowStarGeko_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 0.25-0.25-0.25-0.25-0.25-0.25-0.25-0.25
+Container Name: null
+   Entry Name: 
+      Main BP: RR_RainbowStarGeko_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 0.25-0.25-0.25-0.25-0.25-0.25-0.25-0.25
+Container Name: null
+   Entry Name: 
+      Main BP: RR_RainbowStarElephant_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 0.25-0.25-0.25-0.25-0.25-0.25
+Container Name: null
+   Entry Name: 
+      Main BP: RR_RainbowStarElephant_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 0.25-0.25-0.25-0.25-0.25-0.25
+Container Name: null
+   Entry Name: 
+      Main BP: RR_RainbowStarOlfend_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 0.25-0.25-0.25-0.25-0.25-0.25
+Container Name: null
+   Entry Name: 
+      Main BP: RR_RainbowStarOlfend_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 0.25-0.25-0.25-0.25-0.25-0.25
+Container Name: null
+   Entry Name: 
+      Main BP: RR_RainbowStarGiraffe_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 0.25-0.25-0.25-0.25-0.25-0.25
+Container Name: null
+   Entry Name: 
+      Main BP: RR_RainbowStarGiraffe_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 0.25-0.25-0.25-0.25-0.25-0.25
+Container Name: null
+   Entry Name: 
+      Main BP: RR_RainbowStarRhino_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 0.25-0.25-0.25-0.25-0.25-0.25
+Container Name: null
+   Entry Name: 
+      Main BP: RR_RainbowStarRhino_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 0.25-0.25-0.25-0.25-0.25-0.25
+Container Name: null
+   Entry Name: 
+      Main BP: RR_StarPenguin_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 0.25-0.25-0.25-0.25-0.25-0.25
+
+MultiParams Summary: 
+   Main BP: RR_RainbowStarElephant_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               0.25-0.25-0.25-0.25-0.25-0.25
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               0.25-0.25-0.25-0.25-0.25-0.25
+
+   Main BP: RR_RainbowStarGeko_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               0.25-0.25-0.25-0.25-0.25-0.25-0.25-0.25
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               0.25-0.25-0.25-0.25-0.25-0.25-0.25-0.25
+
+   Main BP: RR_RainbowStarGiraffe_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               0.25-0.25-0.25-0.25-0.25-0.25
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               0.25-0.25-0.25-0.25-0.25-0.25
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               0.25-0.25-0.25-0.25-0.25-0.25
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               0.25-0.25-0.25-0.25-0.25-0.25
+
+   Main BP: RR_RainbowStarLion_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               0.25-0.25-0.25-0.25
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               0.25-0.25-0.25-0.25
+
+   Main BP: RR_RainbowStarOlfend_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               0.25-0.25-0.25-0.25-0.25-0.25-0.25-0.25
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               0.25-0.25-0.25-0.25-0.25-0.25-0.25-0.25
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               0.25-0.25-0.25-0.25-0.25-0.25
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               0.25-0.25-0.25-0.25-0.25-0.25
+
+   Main BP: RR_RainbowStarRhino_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               0.25-0.25-0.25-0.25-0.25-0.25
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               0.25-0.25-0.25-0.25-0.25-0.25
+
+   Main BP: RR_StarPenguin_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               0.25-0.25-0.25-0.25-0.25-0.25
+

@@ -1,0 +1,57 @@
+Engram Entries: 
+   EngramEntry_TetraSaddle_C
+   EngramEntry_Trebuchet_C
+   EngramEntry_Macuahuitl_C
+   EngramEntry_TetraSaddleDwarf_C
+   EngramEntry_TetraSaddle2_C
+   EngramEntry_TetraSaddle3_C
+   EngramEntry_Hwacha_C
+
+Dino Entries: 
+   Steg_C
+   Steg1_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: StegSpawnDune
+      Main BP: Steg_Character_BP_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: StegSpawnTundra
+      Main BP: Steg_Character_BP_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: StegSpawnScot
+      Main BP: Steg_Character_BP_C
+      Entry Weight: 0.007
+      Spawn Limit: 0.005
+      Multi Spawn Chance: 
+
+Global Entry Weights: 
+   Main BP: Paracer_Character_BP_C
+      SubBP: Paracer_Character_BP_C 0.8
+      SubBP: Steg_Character_BP_Dwarf_C 0.2
+   Main BP: Steg_Character_BP_C
+      SubBP: Steg_Character_BP_C 0.95
+      SubBP: Steg_Character_BP_Tek_C 0.05
+   Main BP: Steg_Character_BP_Tek_C
+      SubBP: Steg_Character_BP_Tek_C 0.33
+      SubBP: Steg_Character_BP_Perfect_C 0.33
+      SubBP: Steg_Character_BP_Extinction_C 0.33
+
+MultiParams Summary: 
+   Main BP: Steg_Character_BP_C
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.007
+      Spawn Limit:                             0.005
+      Multi Spawn Chance:                               
+

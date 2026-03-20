@@ -1,0 +1,630 @@
+Engram Entries: 
+   EngramEntry_Saddle_Krono_C
+   EngramEntry_Saddle_Archelon_AEM_C
+   EngramEntry_Saddle_Dugong_C
+   EngramEntry_CoralWaterBed_C
+   EngramEntry_CoralFoundation_C
+   EngramEntry_CoralWall_C
+   EngramEntry_CoralCeiling_C
+   EngramEntry_CoralStairs_C
+   EngramEntry_PreservingBarrel_C
+   EngramEntry_CoralDoor_C
+   EngramEntry_CoralCampfire_C
+   EngramEntry_SlopedCoralWall_C
+   EngramEntry_CoralNode_C
+   EngramEntry_CoralPillar_C
+   EngramEntry_Saddle_TurretBallistaBrachyura_C
+   EngramEntry_Saddle_TurretCannonBrachyura_C
+   EngramEntry_Saddle_TurretCatapultBrachyura_C
+   EngramEntry_Saddle_TurretMinigunBrachyura_C
+   EngramEntry_Saddle_TurretRocketBrachyura_C
+
+Dino Entries: 
+   Orkrono_C
+   Medichelon_AEM_C
+   Dugong_C
+   Baculite_C
+   Bubble_C
+   Brachyura_AEM_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Kronos
+      Main BP: Krono_C
+      Entry Weight: 0.09
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.8-0.5-0.3
+   Entry Name: Medichelon
+      Main BP: Archelon_C
+      Entry Weight: 0.18
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 1.0-1.0
+   Entry Name: Baculite
+      Main BP: Baculite_C
+      Entry Weight: 0.25
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: Brachyura
+      Main BP: Brachyura_C
+      Entry Weight: 0.0
+      Spawn Limit: 0.0
+      Multi Spawn Chance: 0.0001
+   Entry Name: Bubblefish
+      Main BP: Bubblefish_C
+      Entry Weight: 0.4
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 1.0-0.6
+   Entry Name: Dugong
+      Main BP: Dugong_C
+      Entry Weight: 0.12
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 1.0-0.9-0.8
+   Entry Name: AbKrono
+      Main BP: Ab_Krono_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 0.5
+Container Name: null
+   Entry Name: Kronos
+      Main BP: Krono_C
+      Entry Weight: 0.09
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.8-0.5-0.3
+   Entry Name: Medichelon
+      Main BP: Archelon_C
+      Entry Weight: 0.18
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 1.0-1.0
+   Entry Name: Baculite
+      Main BP: Baculite_C
+      Entry Weight: 0.25
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: Brachyura
+      Main BP: Brachyura_C
+      Entry Weight: 0.0
+      Spawn Limit: 0.0
+      Multi Spawn Chance: 0.0001
+   Entry Name: Bubblefish
+      Main BP: Bubblefish_C
+      Entry Weight: 0.4
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 1.0-0.6
+   Entry Name: Dugong
+      Main BP: Dugong_C
+      Entry Weight: 0.12
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 1.0-0.9-0.8
+   Entry Name: AbKrono
+      Main BP: Ab_Krono_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 0.5
+Container Name: null
+   Entry Name: Kronos
+      Main BP: Krono_C
+      Entry Weight: 0.045
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.8-0.5-0.3
+   Entry Name: Baculite
+      Main BP: Baculite_C
+      Entry Weight: 0.15
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: Bubblefish
+      Main BP: Bubblefish_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 1.0-0.6
+Container Name: null
+   Entry Name: Kronos
+      Main BP: Krono_C
+      Entry Weight: 0.09
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.8-0.5-0.3
+   Entry Name: Medichelon
+      Main BP: Archelon_C
+      Entry Weight: 0.18
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-1.0
+   Entry Name: Baculite
+      Main BP: Baculite_C
+      Entry Weight: 0.25
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: Brachyura
+      Main BP: Brachyura_C
+      Entry Weight: 0.0
+      Spawn Limit: 0.0
+      Multi Spawn Chance: 0.0001
+   Entry Name: Bubblefish
+      Main BP: Bubblefish_C
+      Entry Weight: 0.45
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 1.0-0.6
+   Entry Name: Dugong
+      Main BP: Dugong_C
+      Entry Weight: 0.12
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 1.0-0.9-0.8
+   Entry Name: AbKronos
+      Main BP: Ab_Krono_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 0.5
+Container Name: null
+   Entry Name: Kronos
+      Main BP: Krono_C
+      Entry Weight: 0.09
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.8-0.5-0.3
+   Entry Name: Medichelon
+      Main BP: Archelon_C
+      Entry Weight: 0.18
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-1.0
+   Entry Name: Baculite
+      Main BP: Baculite_C
+      Entry Weight: 0.25
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: Brachyura
+      Main BP: Brachyura_C
+      Entry Weight: 0.0
+      Spawn Limit: 0.0
+      Multi Spawn Chance: 0.0001
+   Entry Name: Bubblefish
+      Main BP: Bubblefish_C
+      Entry Weight: 0.45
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 1.0-0.6
+   Entry Name: Dugong
+      Main BP: Dugong_C
+      Entry Weight: 0.12
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 1.0-0.9-0.8
+   Entry Name: AbKronos
+      Main BP: Ab_Krono_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 0.5
+Container Name: null
+   Entry Name: ABKronos
+      Main BP: Ab_Krono_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.3
+      Multi Spawn Chance: 1.0-1.0-0.7-0.4
+   Entry Name: Baculite
+      Main BP: Baculite_C
+      Entry Weight: 0.25
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: Bubblefish
+      Main BP: Bubblefish_C
+      Entry Weight: 0.225
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 1.0-0.6
+Container Name: null
+   Entry Name: ABKronos
+      Main BP: Ab_Krono_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0-1.0-0.7-0.4
+   Entry Name: Baculite
+      Main BP: Baculite_C
+      Entry Weight: 0.25
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: Bubblefish
+      Main BP: Bubblefish_C
+      Entry Weight: 0.225
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 1.0-0.6
+Container Name: null
+   Entry Name: Medichelon
+      Main BP: Archelon_C
+      Entry Weight: 0.18
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 1.0-1.0
+   Entry Name: Baculite
+      Main BP: Baculite_C
+      Entry Weight: 0.2
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: Brachyura
+      Main BP: Brachyura_C
+      Entry Weight: 0.0
+      Spawn Limit: 0.0
+      Multi Spawn Chance: 0.0001
+   Entry Name: Bubblefish
+      Main BP: Bubblefish_C
+      Entry Weight: 0.85
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 1.0-0.6
+Container Name: null
+   Entry Name: Medichelon
+      Main BP: Archelon_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 1.0-1.0
+   Entry Name: Baculite
+      Main BP: Baculite_C
+      Entry Weight: 0.2
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: Brachyura
+      Main BP: Brachyura_C
+      Entry Weight: 0.0
+      Spawn Limit: 0.0
+      Multi Spawn Chance: 0.0001
+   Entry Name: Bubblefish
+      Main BP: Bubblefish_C
+      Entry Weight: 0.55
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 1.0-0.6
+Container Name: null
+   Entry Name: Medichelon
+      Main BP: Archelon_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0-1.0
+   Entry Name: Bubblefish
+      Main BP: Bubblefish_C
+      Entry Weight: 0.5
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 1.0-0.6
+Container Name: null
+   Entry Name: Medichelon
+      Main BP: Archelon_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0
+   Entry Name: Bubblefish
+      Main BP: Bubblefish_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 1.0-0.6
+Container Name: null
+   Entry Name: Ab Kronos
+      Main BP: Ab_Krono_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.4-0.1-0.1
+   Entry Name: Medichelon
+      Main BP: Archelon_C
+      Entry Weight: 0.13
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 1.0-0.4
+   Entry Name: Baculite
+      Main BP: Baculite_C
+      Entry Weight: 0.2
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: Brachyura
+      Main BP: Brachyura_C
+      Entry Weight: 0.0
+      Spawn Limit: 0.0
+      Multi Spawn Chance: 0.0001
+   Entry Name: Bubblefish
+      Main BP: Bubblefish_C
+      Entry Weight: 0.25
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 1.0-0.3
+Container Name: null
+   Entry Name: Medichelon
+      Main BP: Archelon_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.4
+   Entry Name: Baculite
+      Main BP: Baculite_C
+      Entry Weight: 0.2
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: Bubblefish
+      Main BP: Bubblefish_C
+      Entry Weight: 0.3
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 1.0-0.4
+Container Name: null
+   Entry Name: Medichelon
+      Main BP: Archelon_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.4
+   Entry Name: Baculite
+      Main BP: Baculite_C
+      Entry Weight: 0.2
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: Bubblefish
+      Main BP: Bubblefish_C
+      Entry Weight: 0.22
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 1.0-0.4
+Container Name: null
+   Entry Name: Baculite
+      Main BP: Baculite_C
+      Entry Weight: 0.2
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Medichelon
+      Main BP: Archelon_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.4
+   Entry Name: Baculite
+      Main BP: Baculite_C
+      Entry Weight: 0.2
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: Bubblefish
+      Main BP: Bubblefish_C
+      Entry Weight: 0.25
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 1.0-0.4
+Container Name: null
+   Entry Name: Medichelon
+      Main BP: Archelon_C
+      Entry Weight: 0.09
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0-0.4
+   Entry Name: Bubblefish
+      Main BP: Bubblefish_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 1.0-0.4
+Container Name: null
+   Entry Name: Medichelon
+      Main BP: Archelon_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0-0.4
+   Entry Name: Bubblefish
+      Main BP: Bubblefish_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 1.0-0.4
+Container Name: null
+   Entry Name: Medichelon
+      Main BP: Archelon_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0-0.4
+   Entry Name: Bubblefish
+      Main BP: Bubblefish_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 1.0-0.4
+
+Global Entry Weights: 
+   Main BP: Krono_C
+      SubBP: Krono_C 0.95
+      SubBP: Alpha_Orkrono_C 0.05
+
+MultiParams Summary: 
+   Main BP: Ab_Krono_C
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               0.5
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               0.5
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               0.5
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               0.5
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.3
+      Multi Spawn Chance:                               1.0-1.0-0.7-0.4
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               1.0-1.0-0.7-0.4
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.4-0.1-0.1
+
+   Main BP: Archelon_C
+      Entry Weight:                   0.18
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               1.0-1.0
+      Entry Weight:                   0.18
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               1.0-1.0
+      Entry Weight:                   0.18
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-1.0
+      Entry Weight:                   0.18
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-1.0
+      Entry Weight:                   0.18
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               1.0-1.0
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               1.0-1.0
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.06
+      Multi Spawn Chance:                               1.0-1.0
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0
+      Entry Weight:                   0.13
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               1.0-0.4
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.4
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.4
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.4
+      Entry Weight:                   0.09
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0-0.4
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0-0.4
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0-0.4
+
+   Main BP: Baculite_C
+      Entry Weight:                   0.25
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.25
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.15
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.25
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.25
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.25
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.25
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.2
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.2
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.2
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.2
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.2
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.2
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.2
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+
+   Main BP: Brachyura_C
+      Entry Weight:                   0.0
+      Spawn Limit:                             0.0
+      Multi Spawn Chance:                               0.0001
+      Entry Weight:                   0.0
+      Spawn Limit:                             0.0
+      Multi Spawn Chance:                               0.0001
+      Entry Weight:                   0.0
+      Spawn Limit:                             0.0
+      Multi Spawn Chance:                               0.0001
+      Entry Weight:                   0.0
+      Spawn Limit:                             0.0
+      Multi Spawn Chance:                               0.0001
+      Entry Weight:                   0.0
+      Spawn Limit:                             0.0
+      Multi Spawn Chance:                               0.0001
+      Entry Weight:                   0.0
+      Spawn Limit:                             0.0
+      Multi Spawn Chance:                               0.0001
+      Entry Weight:                   0.0
+      Spawn Limit:                             0.0
+      Multi Spawn Chance:                               0.0001
+
+   Main BP: Bubblefish_C
+      Entry Weight:                   0.4
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               1.0-0.6
+      Entry Weight:                   0.4
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               1.0-0.6
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               1.0-0.6
+      Entry Weight:                   0.45
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               1.0-0.6
+      Entry Weight:                   0.45
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               1.0-0.6
+      Entry Weight:                   0.225
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               1.0-0.6
+      Entry Weight:                   0.225
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               1.0-0.6
+      Entry Weight:                   0.85
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               1.0-0.6
+      Entry Weight:                   0.55
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               1.0-0.6
+      Entry Weight:                   0.5
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               1.0-0.6
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               1.0-0.6
+      Entry Weight:                   0.25
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               1.0-0.3
+      Entry Weight:                   0.3
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               1.0-0.4
+      Entry Weight:                   0.22
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               1.0-0.4
+      Entry Weight:                   0.25
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               1.0-0.4
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               1.0-0.4
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               1.0-0.4
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               1.0-0.4
+
+   Main BP: Dugong_C
+      Entry Weight:                   0.12
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               1.0-0.9-0.8
+      Entry Weight:                   0.12
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               1.0-0.9-0.8
+      Entry Weight:                   0.12
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               1.0-0.9-0.8
+      Entry Weight:                   0.12
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               1.0-0.9-0.8
+
+   Main BP: Krono_C
+      Entry Weight:                   0.09
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.8-0.5-0.3
+      Entry Weight:                   0.09
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.8-0.5-0.3
+      Entry Weight:                   0.045
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.8-0.5-0.3
+      Entry Weight:                   0.09
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.8-0.5-0.3
+      Entry Weight:                   0.09
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.8-0.5-0.3
+

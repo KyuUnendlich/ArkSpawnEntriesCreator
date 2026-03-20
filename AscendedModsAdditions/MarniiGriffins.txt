@@ -1,0 +1,24 @@
+Engram Entries: 
+   EngramEntry_Saddle_MM_Owlgriffin_C
+
+Dino Entries: 
+   MM_OwlGriffin_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: 
+      Main BP: OwlGriffin_MM_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 
+
+Global Entry Weights: 
+   Main BP:             "AssetPathName": "
+      SubBP:               "AssetPathName": " 1.0
+
+MultiParams Summary: 
+   Main BP: OwlGriffin_MM_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               
+

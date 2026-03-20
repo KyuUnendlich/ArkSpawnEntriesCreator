@@ -1,0 +1,64 @@
+Engram Entries: 
+   EngramEntry_Saddle_Galva_C
+   EngramEntry_Transmutator_Galvarex_C
+   PrimalItemConsumable_Egg_Galvarex_C
+   PrimalItemConsumable_Egg_Galvarex_Fertilized_C
+
+Dino Entries: 
+   Galvarex_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Galvarex
+      Main BP: Galvarex_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Galvarex
+      Main BP: Galvarex_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Galvarex
+      Main BP: Galvarex_Character_BP_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Galvarex
+      Main BP: Galvarex_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Galvarex
+      Main BP: Galvarex_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+
+Global Entry Weights: 
+   Main BP: Galvarex_Character_BP_C
+      SubBP: Galvarex_Character_BP_C 96.0
+      SubBP: Galvarex_Character_BP_Alpha_C 4.0
+
+MultiParams Summary: 
+   Main BP: Galvarex_Character_BP_C
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+

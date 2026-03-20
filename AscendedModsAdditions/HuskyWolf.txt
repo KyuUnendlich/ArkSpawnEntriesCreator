@@ -1,0 +1,193 @@
+Engram Entries: 
+   EngramEntry_Saddle_HuskyWolf_C
+
+Dino Entries: 
+   Huskywolf_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Huskywolf
+      Main BP: HuskyWolf_Character_BP_C
+      Entry Weight: 0.25
+      Spawn Limit: 
+      Multi Spawn Chance: 0.25
+Container Name: null
+   Entry Name: Huskywolf
+      Main BP: HuskyWolf_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 
+      Multi Spawn Chance: 0.5
+Container Name: null
+   Entry Name: Huskywolf
+      Main BP: HuskyWolf_Character_BP_C
+      Entry Weight: 0.6
+      Spawn Limit: 
+      Multi Spawn Chance: 0.6
+Container Name: null
+   Entry Name: Huskywolf
+      Main BP: HuskyWolf_Character_BP_C
+      Entry Weight: 0.5
+      Spawn Limit: 
+      Multi Spawn Chance: 0.5
+Container Name: null
+   Entry Name: Aberrant HuskyWolf
+      Main BP: AberrantHuskyWolf_Character_BP_C
+      Entry Weight: 0.25
+      Spawn Limit: 
+      Multi Spawn Chance: 0.25
+Container Name: null
+   Entry Name: Aberrant HuskyWolf
+      Main BP: AberrantHuskyWolf_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 
+      Multi Spawn Chance: 0.15
+Container Name: null
+   Entry Name: Huskywolf
+      Main BP: HuskyWolf_Character_BP_C
+      Entry Weight: 0.25
+      Spawn Limit: 
+      Multi Spawn Chance: 0.25
+Container Name: null
+   Entry Name: Huskywolf
+      Main BP: HuskyWolf_Character_BP_C
+      Entry Weight: 0.3
+      Spawn Limit: 
+      Multi Spawn Chance: 0.35
+Container Name: null
+   Entry Name: Huskywolf
+      Main BP: HuskyWolf_Character_BP_C
+      Entry Weight: 0.25
+      Spawn Limit: 
+      Multi Spawn Chance: 0.25
+Container Name: null
+   Entry Name: Aberrant HuskyWolf
+      Main BP: AberrantHuskyWolf_Character_BP_C
+      Entry Weight: 0.25
+      Spawn Limit: 
+      Multi Spawn Chance: 0.25
+Container Name: null
+   Entry Name: Aberrant HuskyWolf
+      Main BP: AberrantHuskyWolf_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 
+      Multi Spawn Chance: 0.15
+Container Name: null
+   Entry Name: Aberrant HuskyWolf
+      Main BP: AberrantHuskyWolf_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 
+      Multi Spawn Chance: 0.2
+Container Name: null
+   Entry Name: Huskywolf
+      Main BP: HuskyWolf_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 
+      Multi Spawn Chance: 0.2
+Container Name: null
+   Entry Name: Huskywolf
+      Main BP: HuskyWolf_Character_BP_C
+      Entry Weight: 0.3
+      Spawn Limit: 
+      Multi Spawn Chance: 0.3
+Container Name: null
+   Entry Name: Huskywolf
+      Main BP: HuskyWolf_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 
+      Multi Spawn Chance: 0.7
+Container Name: null
+   Entry Name: Huskywolf
+      Main BP: HuskyWolf_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 
+      Multi Spawn Chance: 0.8
+Container Name: null
+   Entry Name: Huskywolf
+      Main BP: HuskyWolf_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Huskywolf
+      Main BP: HuskyWolf_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 
+      Multi Spawn Chance: 0.8
+Container Name: null
+   Entry Name: Aberrant HuskyWolf
+      Main BP: AberrantHuskyWolf_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Huskywolf
+      Main BP: HuskyWolf_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+
+MultiParams Summary: 
+   Main BP: AberrantHuskyWolf_Character_BP_C
+      Entry Weight:                   0.25
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.25
+      Entry Weight:                   0.15
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.15
+      Entry Weight:                   0.25
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.25
+      Entry Weight:                   0.15
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.15
+      Entry Weight:                   0.2
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.2
+      Entry Weight:                   0.2
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+
+   Main BP: HuskyWolf_Character_BP_C
+      Entry Weight:                   0.25
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.25
+      Entry Weight:                   0.1
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.5
+      Entry Weight:                   0.6
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.6
+      Entry Weight:                   0.5
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.5
+      Entry Weight:                   0.25
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.25
+      Entry Weight:                   0.3
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.35
+      Entry Weight:                   0.25
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.25
+      Entry Weight:                   0.2
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.2
+      Entry Weight:                   0.3
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.3
+      Entry Weight:                   0.2
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.7
+      Entry Weight:                   0.04
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.8
+      Entry Weight:                   0.15
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.2
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.8
+      Entry Weight:                   0.1
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+

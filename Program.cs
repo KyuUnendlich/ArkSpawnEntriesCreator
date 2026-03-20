@@ -882,44 +882,43 @@ namespace ArkSpawnEntriesCreator
             Taenia,
             RunicWyverns,
             NeoAurochs, //Aurochs
-            NeoStygi, //Stygimoloch
-            Skjaldastordr,
+            NeoStygi, //Stygi
+            NeoStyraco, //Styra
+            Skjaldastordr, //MSVV_Skjaldastordr
             PygmyHippo,
-            GargantSpino,
-            RedPanda,
-            ThoraxSpider,
-            MagnaGecko,
-            CliffanCritter,
+            ExtremeGargantSpino, //t5ege
+            CyrusRedPanda,
+            CyrusThoraxSpider, //CyrusJumping
+            CyrusMagnaGecko, //CyrusGecko
+            CliffansCritters,
             HuskyWolf,
-            Stegotetrabelodon,
-            StarSeahorse,
-            StarExoticAnimals,
-            StarAnimals,
-            StarFarmAnimals,
+            Stegotetrabelodon, //Steg
+            StarSeahorse, //RR_Mod_StarSeahorse
+            StarExoticAnimals, //RR_Mod_ExoticAnimals
+            StarAnimals, //RR_Mod_StarAnimals
+            StarFarmAnimals, //RR_Mod_StarFarmAnimals
             ReclamationFulgur,
             ReclamationLuxpred,
-            OceaniaContent,
-            Anomaly,
-            MarniiGriffin,
+            OceaniaContent, //AEM_Content
+            AnomalyGalvarex, 
+            MarniiGriffins, //MarniiModsOwl
             IslaNycta,
-            Paddletail,
+            PaddletailSpino, //PSpino
             AsharavelBestiary,
             DeimosShantungo,
-            MegaBits,
+            MegaBitsAndBobs,
             KalugaAppalachian,
+            ArborealAdditions,
 
             ShadCritterReworks,
             NoUntameables,
 
-
         }
-
         //There is now a branch (multi-main-bp) for Mods that have one addition per container with multiple different dinos
-
         //const string Path = "C:/Users/matth/Desktop/Ascended/AtlasFish.txt";
         const bool replaceFile = true;
         const bool secondString2 = false;
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/RunicWyverns.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/DeimosShantungo.txt";
     }
 
 

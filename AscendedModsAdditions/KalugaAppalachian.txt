@@ -1,0 +1,108 @@
+Engram Entries: 
+   EngramEntry_Saddle_AppalachianIguanodon_C
+   EngramEntry_Saddle_AppalachianPara_C
+   EngramEntry_Saddle_Megaloceros_C
+   EngramEntry_Saddle_AppalachianRhinoPlatform_C
+   EngramEntry_Saddle_AppalachianMammoth_C
+   EngramEntry_Saddle_DireWolf_Basic_C
+   EngramEntry_Saddle_DireWolf_Storage_C
+   EngramEntry_Saddle_DireWolf_Armored_C
+   EngramEntry_Saddle_AppalachianCarno_C
+   EngramEntry_Saddle_AppalachianGigantoraptor_C
+   EngramEntry_Saddle_AppalachianChalico_C
+   EngramEntry_AppalachianCeratosaurusSaddle_ASA_C
+   EngramEntry_Saddle_AppalachianPara_Chitin_C
+   EngramEntry_Saddle_AppalachianDirebear_C
+   EngramEntry_Saddle_AppalachianRhino_C
+   EngramEntry_Saddle_AppalachianEquus_C
+   EngramEntry_Saddle_AppalachianSauro_C
+   EngramEntry_Saddle_AppalachianSauro_Platform_C
+   EngramEntry_Saddle_AppalachianStego_C
+   EngramEntry_Saddle_AppalachianTrike_C
+   EngramEntry_Saddle_Hyaenodon_Basic_C
+   EngramEntry_Saddle_AppalachianCarnoChitin_C
+
+Dino Entries: 
+   AppalachianIguanodon_C
+   AppalachianPara_C
+   AppalachianDireBear_C
+   AppalachianMegaloceros_C
+   AppalachianRhino_C
+   AppalachianMammoth_C
+   AppalachianDirewolf_C
+   AppalachianCarno_C
+   AppalachianGigantoraptor_C
+   AppalachianChalico_C
+   AppalachianCerato_C
+   AppalachianEquus_C
+   AppalachianBronto_C
+   AppalachianStego_C
+   AppalachianTrike_C
+   AppalachianHyaenodon_C
+
+
+Global Entry Weights: 
+   Main BP: Iguanodon_Character_BP_C
+      SubBP: AppalachianIguanodon_Character_BP_C 0.5
+      SubBP: Iguanodon_Character_BP_C 0.5
+   Main BP: Para_Character_BP_C
+      SubBP: AppalachianPara_Character_BP_C 0.5
+      SubBP: Para_Character_BP_C 0.5
+   Main BP: Salmon_Character_BP_C
+      SubBP: BlueCatfish_Character_BP_C 0.1
+      SubBP: ChannelCatfish_Character_BP_C 0.1
+      SubBP: FlatheadCatfish_Character_BP_C 0.1
+      SubBP: Bluegill_Character_BP_C 0.1
+      SubBP: LargemouthBass_Character_BP_C 0.1
+      SubBP: SmallmouthBass_Character_BP_C 0.1
+      SubBP: Muskellunge_Character_BP_C 0.1
+      SubBP: NorthernPike_Character_BP_C 0.1
+      SubBP: BrownTrout_Character_BP_C 0.1
+      SubBP: Salmon_Character_BP_C 0.1
+   Main BP: Direbear_Character_BP_C
+      SubBP: AppalachianDirebear_Character_BP_C 0.4
+      SubBP: Direbear_Character_BP_C 0.6
+   Main BP: Stag_Character_BP_C
+      SubBP: AppalachianMegaloceros_Character_BP_C 0.25
+      SubBP: Stag_Character_BP_C 0.5
+      SubBP: Caribou_Character_BP_C 0.25
+   Main BP: Rhino_Character_BP_C
+      SubBP: AppalachianRhino_Character_BP_C 0.25
+      SubBP: Elasmotherium_Character_BP_C 0.25
+      SubBP: Rhino_Character_BP_C 0.5
+   Main BP: Mammoth_Character_BP_C
+      SubBP: AppalachianMammoth_Character_BP_C 0.4
+      SubBP: Mammoth_Character_BP_C 0.6
+   Main BP: Direwolf_Character_BP_C
+      SubBP: AppalachianDirewolf_Character_BP_C 0.4
+      SubBP: Direwolf_Character_BP_C 0.6
+   Main BP: Equus_Character_BP_C
+      SubBP: Equus_Character_BP_C 0.5
+      SubBP: AppalachianEquus_Character_BP_C 0.5
+   Main BP: Carno_Character_BP_C
+      SubBP: Carno_Character_BP_C 0.5
+      SubBP: AppalachianCarno_Character_BP_C 0.5
+   Main BP: Gigantoraptor_Character_BP_C
+      SubBP: AppalachianGigantoraptor_Character_BP_C 0.5
+      SubBP: Gigantoraptor_Character_BP_C 0.5
+   Main BP: Chalico_Character_BP_C
+      SubBP: AppalachianChalico_Character_BP_C 0.3
+      SubBP: Chalico_Character_BP_C 0.7
+   Main BP: Bison_Character_BP_C
+      SubBP: Bison_Character_BP_C 0.3
+      SubBP: AppalachianBison_Character_BP_C 0.7
+   Main BP: Sauropod_Character_BP_C
+      SubBP: Sauropod_Character_BP_C 0.2
+      SubBP: ASauropod_Character_BP_C 0.8
+   Main BP: Ceratosaurus_Character_BP_ASA_C
+      SubBP: AppalachianCeratosaurus_Character_BP_C 0.7
+      SubBP: Ceratosaurus_Character_BP_ASA_C 0.5
+   Main BP: Stego_Character_BP_C
+      SubBP: Stego_Character_BP_C 0.5
+      SubBP: AppalachianStego_Character_BP_C 0.5
+   Main BP: Trike_Character_BP_C
+      SubBP: AppalachianTrike_Character_BP_C 0.5
+      SubBP: Trike_Character_BP_C 0.5
+   Main BP: Hyaenodon_Character_BP_C
+      SubBP: Hyaenodon_Character_BP_C 0.5
+      SubBP: AppalachianHyaenodon_BP_C 0.5

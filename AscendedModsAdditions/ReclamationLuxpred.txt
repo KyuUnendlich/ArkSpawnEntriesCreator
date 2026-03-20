@@ -1,0 +1,14 @@
+Dino Entries: 
+   Luxpred_C
+
+
+Global Entry Weights: 
+   Main BP: Ichthyornis_Character_BP_C
+      SubBP: Ichthyornis_Character_BP_C 0.9
+      SubBP: Luxpred_Character_BP_Reclamation_C 0.1
+   Main BP: Cnidaria_Character_BP_C
+      SubBP: Cnidaria_Character_BP_C 0.75
+      SubBP: Luxpred_Character_BP_Reclamation_C 0.25
+   Main BP: Cnidaria_Character_BP_Aberrant_C
+      SubBP: Cnidaria_Character_BP_Aberrant_C 0.75
+      SubBP: Luxpred_Character_BP_Reclamation_C 0.25

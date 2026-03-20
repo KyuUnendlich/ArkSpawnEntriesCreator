@@ -1,0 +1,65 @@
+Engram Entries: 
+   EngramEntry_Saddle_DShantungosaurus_C
+
+Dino Entries: 
+   DShantungosaurus_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Shanty 1-3
+      Main BP: DShantungosaurus_Character_BP_C
+      Entry Weight: 0.075
+      Spawn Limit: 0.7
+      Multi Spawn Chance: 0.4-0.28-0.1
+Container Name: null
+   Entry Name: Shanty (1-2)
+      Main BP: DShantungosaurus_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.85
+Container Name: null
+   Entry Name: Shanty 1-3
+      Main BP: DShantungosaurus_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 0.5-0.15-0.1
+Container Name: null
+   Entry Name: Shanty 1-3
+      Main BP: DShantungosaurus_Character_BP_C
+      Entry Weight: 0.075
+      Spawn Limit: 0.7
+      Multi Spawn Chance: 0.4-0.28-0.1
+Container Name: null
+   Entry Name: Shanty 1-3
+      Main BP: DShantungosaurus_Character_BP_C
+      Entry Weight: 0.075
+      Spawn Limit: 0.7
+      Multi Spawn Chance: 0.4-0.28-0.1
+Container Name: null
+   Entry Name: Shanty 1-3
+      Main BP: DShantungosaurus_Character_BP_C
+      Entry Weight: 0.075
+      Spawn Limit: 0.7
+      Multi Spawn Chance: 0.4-0.28-0.1
+
+MultiParams Summary: 
+   Main BP: DShantungosaurus_Character_BP_C
+      Entry Weight:                   0.075
+      Spawn Limit:                             0.7
+      Multi Spawn Chance:                               0.4-0.28-0.1
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.85
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               0.5-0.15-0.1
+      Entry Weight:                   0.075
+      Spawn Limit:                             0.7
+      Multi Spawn Chance:                               0.4-0.28-0.1
+      Entry Weight:                   0.075
+      Spawn Limit:                             0.7
+      Multi Spawn Chance:                               0.4-0.28-0.1
+      Entry Weight:                   0.075
+      Spawn Limit:                             0.7
+      Multi Spawn Chance:                               0.4-0.28-0.1
+

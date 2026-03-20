@@ -1,0 +1,155 @@
+Engram Entries: 
+   EngramEntry_ChitinShield_C
+   EngramEntry_SpiderFood_C
+   EngramEntry_ThoraxSaddle_C
+   PrimalItemConsumable_Egg_Thorax_Fertilized_C
+
+Dino Entries: 
+   Thorax_C
+   ThoraxAbb_C
+   ThoraxEdden_C
+   ThoraxSnow_C
+   Magnus_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: SpiderSpawnDune
+      Main BP: ThoraxSpider_Character_BP_C
+      Entry Weight: 0.07
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: SpiderSpawnRed
+      Main BP: ThoraxSpider_Character_BP_C
+      Entry Weight: 0.07
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: SpiderSpawnGrass
+      Main BP: ThoraxSpider_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: SpiderSpawnMega
+      Main BP: ThoraxSpider_Character_BP_C
+      Entry Weight: 0.07
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: SpiderSpawnDrake
+      Main BP: AbThoraxSpider_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: SpiderSpawnEleCave
+      Main BP: AbThoraxSpider_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: SpiderSpawnYILING
+      Main BP: AbThoraxSpider_Character_BP_C
+      Entry Weight: 0.07
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: SpiderSpawnBioLand
+      Main BP: AbThoraxSpider_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.07
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: SpiderSpawnBioCave
+      Main BP: AbThoraxSpider_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: SpiderSpawnSnow
+      Main BP: SnowThoraxSpider_Character_BP_C
+      Entry Weight: 0.07
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: SpiderSpawnJungle2
+      Main BP: JungleThoraxSpider_Character_BP_C
+      Entry Weight: 0.07
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: SpiderSpawnCity
+      Main BP: ThoraxSpider_Character_BP_C
+      Entry Weight: 0.07
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: SpiderSpawnCity
+      Main BP: ThoraxSpider_Character_BP_C
+      Entry Weight: 0.07
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: SpiderSpawnCity
+      Main BP: ThoraxSpider_Character_BP_C
+      Entry Weight: 0.07
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 
+
+Global Entry Weights: 
+   Main BP: ThoraxSpider_Character_BP_C
+      SubBP: ThoraxSpider_Character_BP_C 0.7
+      SubBP: CuteThoraxSpider_Character_BP_C 0.3
+
+MultiParams Summary: 
+   Main BP: AbThoraxSpider_Character_BP_C
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.07
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.07
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+
+   Main BP: JungleThoraxSpider_Character_BP_C
+      Entry Weight:                   0.07
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               
+
+   Main BP: SnowThoraxSpider_Character_BP_C
+      Entry Weight:                   0.07
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               
+
+   Main BP: ThoraxSpider_Character_BP_C
+      Entry Weight:                   0.07
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.07
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.07
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.07
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.07
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.07
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               
+
