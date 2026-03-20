@@ -1,0 +1,68 @@
+Engram Entries: 
+   EngramEntry_ChibiGecko_C
+   EngramEntry_GeckoDossier_C
+   EngramEntry_GeckoFood_C
+
+Dino Entries: 
+   Gecko_C
+   GeckoAb_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: GeckoSpawnBeach
+      Main BP: Gecko_Character_BP_C
+      Entry Weight: 0.25
+      Spawn Limit: 0.3
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: GeckoDunes
+      Main BP: Gecko_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.3
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: GeckoGrassland
+      Main BP: Gecko_Character_BP_C
+      Entry Weight: 0.27
+      Spawn Limit: 0.3
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: GeckoSpawnJungle
+      Main BP: Gecko_Character_BP_C
+      Entry Weight: 0.28
+      Spawn Limit: 0.3
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: GeckoSpawnCanyon
+      Main BP: Gecko_Character_BP_C
+      Entry Weight: 0.25
+      Spawn Limit: 0.3
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: GeckoSpawnBeach
+      Main BP: Gecko_Character_BP_C
+      Entry Weight: 0.25
+      Spawn Limit: 0.3
+      Multi Spawn Chance: 
+
+MultiParams Summary: 
+   Main BP: Gecko_Character_BP_C
+      Entry Weight:                   0.25
+      Spawn Limit:                             0.3
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.3
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.27
+      Spawn Limit:                             0.3
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.28
+      Spawn Limit:                             0.3
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.25
+      Spawn Limit:                             0.3
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.25
+      Spawn Limit:                             0.3
+      Multi Spawn Chance:                               
+

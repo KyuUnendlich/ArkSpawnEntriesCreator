@@ -1,0 +1,99 @@
+Engram Entries: 
+   EngramEntry_Redpandafood_C
+   EngramEntry_RedpandaChibi_C
+
+Dino Entries: 
+   Redpanda_C
+   RedpandaJungle_C
+   RedpandaSnow_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: RedpandaRedwoods
+      Main BP: RedPanda_Character_BP_C
+      Entry Weight: 0.003
+      Spawn Limit: 0.003
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: RedpandaSnow
+      Main BP: SnowRedPanda_Character_BP_C
+      Entry Weight: 0.003
+      Spawn Limit: 0.003
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: RedpandaJungle
+      Main BP: JungleRedPanda_Character_BP_C
+      Entry Weight: 0.003
+      Spawn Limit: 0.003
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: RedpandaJungleRed
+      Main BP: RedPanda_Character_BP_C
+      Entry Weight: 0.003
+      Spawn Limit: 0.003
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: RedpandaJungleRag
+      Main BP: JungleRedPanda_Character_BP_C
+      Entry Weight: 0.003
+      Spawn Limit: 0.003
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: NormalRedpangaRag
+      Main BP: RedPanda_Character_BP_C
+      Entry Weight: 0.003
+      Spawn Limit: 0.003
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Redpandasnowrag
+      Main BP: SnowRedPanda_Character_BP_C
+      Entry Weight: 0.003
+      Spawn Limit: 0.003
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: RedpandaVal
+      Main BP: RedPanda_Character_BP_C
+      Entry Weight: 0.003
+      Spawn Limit: 0.003
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: RedpandaRag
+      Main BP: RedPanda_Character_BP_C
+      Entry Weight: 0.003
+      Spawn Limit: 0.003
+      Multi Spawn Chance: 
+
+MultiParams Summary: 
+   Main BP: JungleRedPanda_Character_BP_C
+      Entry Weight:                   0.003
+      Spawn Limit:                             0.003
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.003
+      Spawn Limit:                             0.003
+      Multi Spawn Chance:                               
+
+   Main BP: RedPanda_Character_BP_C
+      Entry Weight:                   0.003
+      Spawn Limit:                             0.003
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.003
+      Spawn Limit:                             0.003
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.003
+      Spawn Limit:                             0.003
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.003
+      Spawn Limit:                             0.003
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.003
+      Spawn Limit:                             0.003
+      Multi Spawn Chance:                               
+
+   Main BP: SnowRedPanda_Character_BP_C
+      Entry Weight:                   0.003
+      Spawn Limit:                             0.003
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.003
+      Spawn Limit:                             0.003
+      Multi Spawn Chance:                               
+

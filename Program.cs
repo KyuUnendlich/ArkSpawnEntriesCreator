@@ -108,7 +108,7 @@ namespace ArkSpawnEntriesCreator
                 string text = reader.ReadLine();
 
                 //Write Engram Entries
-                if (text.Contains("BlueprintGeneratedClass'EngramEntry"))
+                if (text.Contains("BlueprintGeneratedClass"))
                 {
                     int first_index = text.LastIndexOf(":") + 27;
                     int last_index = text.LastIndexOf(",") - 2;
@@ -932,27 +932,49 @@ namespace ArkSpawnEntriesCreator
             Barsboldia,
             Sivatherium,
             Cockatrice,
-            Brachiosaurus,
+            Brachiosaurus, //AABrachio
+            Acrocantho, //AAAcro
             Meraxes,
             Taenia,
             RunicWyverns,
             NeoAurochs, //Aurochs
-            NeoStygi, //Stygimoloch
+            NeoStygi, //Stygi
+            NeoStyraco, //Styra
+            Skjaldastordr, //MSVV_Skjaldastordr
+            PygmyHippo,
+            ExtremeGargantSpino, //t5ege
+            CyrusRedPanda,
+            CyrusThoraxSpider, //CyrusJumping
+            CyrusMagnaGecko, //CyrusGecko
+            CliffansCritters,
+            HuskyWolf,
+            Stegotetrabelodon, //Steg
+            StarSeahorse, //RR_Mod_StarSeahorse
+            StarExoticAnimals, //RR_Mod_ExoticAnimals
+            StarAnimals, //RR_Mod_StarAnimals
+            StarFarmAnimals, //RR_Mod_StarFarmAnimals
+            ReclamationFulgur,
+            ReclamationLuxpred,
+            OceaniaContent, //AEM_Content
+            AnomalyGalvarex, 
+            MarniiGriffins, //MarniiModsOwl
+            IslaNycta,
+            PaddletailSpino, //PSpino
+            AsharavelBestiary,
+            DeimosShantungo,
+            MegaBitsAndBobs,
+            KalugaAppalachian,
+            ArborealAdditions,
 
-
-
-
-
-
+            ShadCritterReworks,
+            NoUntameables,
 
         }
-
         //There is now a branch (multi-main-bp) for Mods that have one addition per container with multiple different dinos
-
         //const string Path = "C:/Users/matth/Desktop/Ascended/AtlasFish.txt";
         const bool replaceFile = true;
         const bool secondString2 = false;
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/TACBastionBeetle.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/DeimosShantungo.txt";
     }
 
 

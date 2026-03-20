@@ -1,0 +1,266 @@
+Engram Entries: 
+   EngramEntry_Saddle_Nycta_C
+   PrimalItemConsumable_Egg_Nycta_C
+   PrimalItemConsumable_Egg_Nycta_Echidne_Fertilized_C
+   PrimalItemConsumable_Egg_Nycta_Imperator_Fertilized_C
+   PrimalItemConsumable_Egg_Nycta_Rex_Fertilized_C
+
+Dino Entries: 
+   Nycta_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Nycta Rex
+      Main BP: Nycta_Character_BP_Rex_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Nycta Imperator
+      Main BP: Nycta_Character_BP_Imperator_C
+      Entry Weight: 0.25
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Nycta Imperator
+      Main BP: Nycta_Character_BP_Imperator_C
+      Entry Weight: 0.21
+      Spawn Limit: 0.22
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Nycta Echidne
+      Main BP: Nycta_Character_BP_Echidne_C
+      Entry Weight: 0.039
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Nycta Echidne
+      Main BP: Nycta_Character_BP_Echidne_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Nycta Rex
+      Main BP: Nycta_Character_BP_Rex_C
+      Entry Weight: 0.045
+      Spawn Limit: 0.045
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Nycta Rex
+      Main BP: Nycta_Character_BP_Rex_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+   Entry Name: Nycta Imperator
+      Main BP: Nycta_Character_BP_Imperator_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+   Entry Name: Nycta Echidne
+      Main BP: Nycta_Character_BP_Echidne_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Nycta Rex
+      Main BP: Nycta_Character_BP_Rex_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+   Entry Name: Nycta Imperator
+      Main BP: Nycta_Character_BP_Imperator_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+   Entry Name: Nycta Echidne
+      Main BP: Nycta_Character_BP_Echidne_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Nycta Imperator
+      Main BP: Nycta_Character_BP_Imperator_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Nycta Echidne
+      Main BP: Nycta_Character_BP_Echidne_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+   Entry Name: Nycta Rex
+      Main BP: Nycta_Character_BP_Echidne_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Nycta Echidne
+      Main BP: Nycta_Character_BP_Echidne_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Nycta Rex
+      Main BP: Nycta_Character_BP_Rex_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+   Entry Name: Nycta Imperator
+      Main BP: Nycta_Character_BP_Imperator_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+   Entry Name: Nycta Echidne
+      Main BP: Nycta_Character_BP_Echidne_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Nycta Rex
+      Main BP: Nycta_Character_BP_Rex_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Nycta Imperator
+      Main BP: Nycta_Character_BP_Imperator_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Nycta Echidne
+      Main BP: Nycta_Character_BP_Echidne_C
+      Entry Weight: 0.06
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Nycta Rex
+      Main BP: Nycta_Character_BP_Rex_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Nycta Echdine
+      Main BP: Nycta_Character_BP_Echidne_C
+      Entry Weight: 0.014
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Nycta Echdine
+      Main BP: Nycta_Character_BP_Echidne_C
+      Entry Weight: 0.0025
+      Spawn Limit: 0.005
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Nycta Imperator
+      Main BP: Nycta_Character_BP_Imperator_C
+      Entry Weight: 0.03
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Nycta Imperator
+      Main BP: Nycta_Character_BP_Imperator_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
+
+Global Entry Weights: 
+   Main BP: Nycta_Character_BP_Rex_C
+      SubBP: Nycta_Character_BP_Rex_C 97.5
+      SubBP: Nycta_Character_BP_Alpha_C 2.5
+   Main BP: Nycta_Character_BP_Imperator_C
+      SubBP: Nycta_Character_BP_Imperator_C 97.5
+      SubBP: Nycta_Character_BP_Alpha_C 2.5
+   Main BP: Nycta_Character_BP_Echidne_C
+      SubBP: Nycta_Character_BP_Echidne_C 97.5
+      SubBP: Nycta_Character_BP_Alpha_C 2.5
+
+MultiParams Summary: 
+   Main BP: Nycta_Character_BP_Echidne_C
+      Entry Weight:                   0.039
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.06
+      Spawn Limit:                             0.06
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.014
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.0025
+      Spawn Limit:                             0.005
+      Multi Spawn Chance:                               1.0
+
+   Main BP: Nycta_Character_BP_Imperator_C
+      Entry Weight:                   0.25
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.21
+      Spawn Limit:                             0.22
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.03
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0
+
+   Main BP: Nycta_Character_BP_Rex_C
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.045
+      Spawn Limit:                             0.045
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0
+

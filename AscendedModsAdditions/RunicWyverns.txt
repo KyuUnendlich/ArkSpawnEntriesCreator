@@ -1,3 +1,22 @@
+Engram Entries: 
+   RW_EngramEntry_ArmorChip_C
+   RW_EngramEntry_Shrine_C
+   RW_EngramEntry_GhostBoss_v2_C
+   RW_EngramEntry_RubyCrystal_C
+   RW_EngramEntry_SapphireCrystal_C
+   RW_EngramEntry_EmeraldCrystal_C
+   RW_EngramEntry_ChromaticCrystal_C
+   RW_EngramEntry_Saddle_C
+   RW_EngramEntry_TalonBundle_C
+   RW_EngramEntry_CrystalQueen_C
+   RW_EngramEntry_RunicVoidOverrideChip_C
+   RW_EngramEntry_Aug_Flame_C
+   RW_EngramEntry_Aug_Glacial_C
+   RW_EngramEntry_Aug_HideAntlers_C
+   RW_EngramEntry_Aug_HideHalo_C
+   RW_EngramEntry_Aug_Spark_C
+   RW_EngramEntry_Aug_Venom_C
+
 Dino Entries: 
    RunicFlameWyvern_C
    RunicSparkWyvern_C

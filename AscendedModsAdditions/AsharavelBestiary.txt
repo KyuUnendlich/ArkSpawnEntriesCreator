@@ -1,0 +1,560 @@
+Engram Entries: 
+   EngramEntry_Saddle_Elk_C
+   EngramEntry_BestiaryAltar_C
+   EngramEntry_OrcBanner_C
+   EngramEntry_GoblinBanner_C
+   EngramEntry_UndeadBanner_C
+
+Dino Entries: 
+   Orc_C
+   Human_C
+   Boar_C
+   Undead_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Orcs
+      Main BP: Sword_Orc_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 0.8-0.8-0.2-0.4-0.6
+Container Name: null
+   Entry Name: Orcs
+      Main BP: Sword_Orc_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 0.8-0.8-0.2-0.4-0.6
+Container Name: null
+   Entry Name: Orcs
+      Main BP: Sword_Orc_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 0.8-0.8-0.2-0.4-0.6
+   Entry Name: Necrophage
+      Main BP: Necrophage_Character_BP_C
+      Entry Weight: 0.002
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 0.8-0.8-0.2-0.4-0.6
+Container Name: null
+   Entry Name: Trolls
+      Main BP: Troll_Character_BP_C
+      Entry Weight: 0.07
+      Spawn Limit: 0.003
+      Multi Spawn Chance: 0.8-0.1-0.1
+Container Name: null
+   Entry Name: Trolls
+      Main BP: Troll_Character_BP_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.003
+      Multi Spawn Chance: 0.8-0.1-0.1
+Container Name: null
+   Entry Name: Goblins
+      Main BP: Sword_Goblin_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0-0.8-0.2-0.7-0.7-0.2
+Container Name: null
+   Entry Name: Goblins
+      Main BP: Sword_Goblin_Character_BP_C
+      Entry Weight: 0.12
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0-0.8-0.2-0.7-0.7-0.2
+Container Name: null
+   Entry Name: Elk
+      Main BP: ElvenElk_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0-0.8-0.3
+Container Name: null
+   Entry Name: Elk
+      Main BP: ElvenElk_Character_BP_C
+      Entry Weight: 0.06
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0-0.8-0.3
+Container Name: null
+   Entry Name: Human
+      Main BP: Human_Bandit_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 0.8-0.8-0.4-0.4-0.6-0.4
+Container Name: null
+   Entry Name: Human
+      Main BP: Human_Bandit_Character_BP_C
+      Entry Weight: 0.09
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 0.8-0.8-0.4-0.4-0.6-0.4
+Container Name: null
+   Entry Name: Goblins
+      Main BP: Sword_Goblin_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0-0.8-0.2-0.7-0.7-0.2
+Container Name: null
+   Entry Name: Werewolf
+      Main BP: Werewolf_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.002
+      Multi Spawn Chance: 1.0-0.1
+Container Name: null
+   Entry Name: Werewolf
+      Main BP: Werewolf_Character_BP_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.002
+      Multi Spawn Chance: 1.0-0.1
+Container Name: null
+   Entry Name: Werewolf
+      Main BP: Werewolf_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.002
+      Multi Spawn Chance: 1.0-0.1
+Container Name: null
+   Entry Name: Boar
+      Main BP: Boar_Character_BP_C
+      Entry Weight: 0.06
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0-0.8-0.3
+Container Name: null
+   Entry Name: Boar
+      Main BP: Boar_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0-0.8-0.3
+Container Name: null
+   Entry Name: Boar
+      Main BP: Boar_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0-0.8-0.3
+Container Name: null
+   Entry Name: Warg
+      Main BP: Warg_Character_BP_C
+      Entry Weight: 0.045
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0-0.8-0.3
+Container Name: null
+   Entry Name: Warg
+      Main BP: Warg_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0-0.8-0.3
+Container Name: null
+   Entry Name: Spider
+      Main BP: PraetorianSpider_Character_BP_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 0.9-0.1-0.2
+Container Name: null
+   Entry Name: Spider
+      Main BP: PraetorianSpider_Character_BP_C
+      Entry Weight: 0.06
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 0.9-0.1-0.2
+Container Name: null
+   Entry Name: Jellyray
+      Main BP: Jellyray_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0-0.3-0.3
+Container Name: null
+   Entry Name: Orcs
+      Main BP: Sword_Orc_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 
+      Multi Spawn Chance: 0.8-0.8-0.2-0.4-0.6
+   Entry Name: Trolls
+      Main BP: Troll_Character_BP_C
+      Entry Weight: 0.01
+      Spawn Limit: 
+      Multi Spawn Chance: 0.8-0.1-0.1
+   Entry Name: Human
+      Main BP: Human_Bandit_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 
+      Multi Spawn Chance: 0.8-0.8-0.4-0.4-0.6-0.4
+   Entry Name: Werewolf
+      Main BP: Werewolf_Character_BP_C
+      Entry Weight: 0.008
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.1
+Container Name: null
+   Entry Name: Goblins
+      Main BP: Sword_Goblin_Character_BP_C
+      Entry Weight: 0.12
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.2-0.7-0.7-0.2
+   Entry Name: Werewolf
+      Main BP: Werewolf_Character_BP_C
+      Entry Weight: 0.005
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.1
+   Entry Name: Warg
+      Main BP: Warg_Character_BP_C
+      Entry Weight: 0.01
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.3
+   Entry Name: Boar
+      Main BP: Boar_Character_BP_C
+      Entry Weight: 0.06
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.3
+Container Name: null
+   Entry Name: Elk
+      Main BP: ElvenElk_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.3
+Container Name: null
+   Entry Name: Warg
+      Main BP: Warg_Character_BP_C
+      Entry Weight: 0.015
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.3
+   Entry Name: Spider
+      Main BP: PraetorianSpider_Character_BP_C
+      Entry Weight: 0.06
+      Spawn Limit: 
+      Multi Spawn Chance: 0.9-0.1-0.2
+   Entry Name: Werewolf
+      Main BP: Werewolf_Character_BP_C
+      Entry Weight: 0.001
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.1
+Container Name: null
+   Entry Name: Spider
+      Main BP: PraetorianSpider_Character_BP_C
+      Entry Weight: 0.06
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 0.9-0.1-0.2
+Container Name: null
+   Entry Name: Orcs
+      Main BP: Sword_Orc_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 
+      Multi Spawn Chance: 0.8-0.8-0.2-0.4-0.6
+   Entry Name: Trolls
+      Main BP: Troll_Character_BP_C
+      Entry Weight: 0.01
+      Spawn Limit: 
+      Multi Spawn Chance: 0.8-0.1-0.1
+   Entry Name: Human
+      Main BP: Human_Bandit_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 
+      Multi Spawn Chance: 0.8-0.8-0.4-0.4-0.6-0.4
+   Entry Name: Werewolf
+      Main BP: Werewolf_Character_BP_C
+      Entry Weight: 0.008
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.1
+Container Name: null
+   Entry Name: Orcs
+      Main BP: Sword_Orc_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 
+      Multi Spawn Chance: 0.8-0.8-0.2-0.4-0.6
+   Entry Name: Trolls
+      Main BP: Troll_Character_BP_C
+      Entry Weight: 0.002
+      Spawn Limit: 
+      Multi Spawn Chance: 0.8-0.1-0.1
+   Entry Name: Human
+      Main BP: Human_Bandit_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 
+      Multi Spawn Chance: 0.8-0.8-0.4-0.4-0.6-0.4
+   Entry Name: Werewolf
+      Main BP: Werewolf_Character_BP_C
+      Entry Weight: 0.002
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.1
+Container Name: null
+   Entry Name: Orcs
+      Main BP: Sword_Orc_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 
+      Multi Spawn Chance: 0.8-0.8-0.2-0.4-0.6
+   Entry Name: Trolls
+      Main BP: Troll_Character_BP_C
+      Entry Weight: 0.002
+      Spawn Limit: 
+      Multi Spawn Chance: 0.8-0.1-0.1
+   Entry Name: Human
+      Main BP: Human_Bandit_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 
+      Multi Spawn Chance: 0.8-0.8-0.4-0.4-0.6-0.4
+   Entry Name: Werewolf
+      Main BP: Werewolf_Character_BP_C
+      Entry Weight: 0.002
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.1
+Container Name: null
+   Entry Name: Orcs
+      Main BP: Sword_Orc_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 
+      Multi Spawn Chance: 0.8-0.8-0.2-0.4-0.6
+   Entry Name: Trolls
+      Main BP: Troll_Character_BP_C
+      Entry Weight: 0.01
+      Spawn Limit: 
+      Multi Spawn Chance: 0.8-0.1-0.1
+   Entry Name: Human
+      Main BP: Human_Bandit_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 
+      Multi Spawn Chance: 0.8-0.8-0.4-0.4-0.6-0.4
+   Entry Name: Werewolf
+      Main BP: Werewolf_Character_BP_C
+      Entry Weight: 0.008
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.1
+Container Name: null
+   Entry Name: Orcs
+      Main BP: Sword_Orc_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 0.8-0.8-0.2-0.4-0.6
+   Entry Name: Trolls
+      Main BP: Troll_Character_BP_C
+      Entry Weight: 0.005
+      Spawn Limit: 
+      Multi Spawn Chance: 0.8-0.1-0.1
+   Entry Name: Human
+      Main BP: Human_Bandit_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 
+      Multi Spawn Chance: 0.8-0.8-0.4-0.4-0.6-0.4
+   Entry Name: Werewolf
+      Main BP: Werewolf_Character_BP_C
+      Entry Weight: 0.001
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.1
+Container Name: null
+   Entry Name: Orcs
+      Main BP: Sword_Orc_Character_BP_C
+      Entry Weight: 0.008
+      Spawn Limit: 
+      Multi Spawn Chance: 0.8-0.8-0.2-0.4-0.6
+   Entry Name: Trolls
+      Main BP: Troll_Character_BP_C
+      Entry Weight: 0.005
+      Spawn Limit: 
+      Multi Spawn Chance: 0.8-0.1-0.1
+   Entry Name: Human
+      Main BP: Human_Bandit_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 
+      Multi Spawn Chance: 0.8-0.8-0.4-0.4-0.6-0.4
+   Entry Name: Werewolf
+      Main BP: Werewolf_Character_BP_C
+      Entry Weight: 0.001
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.1
+
+MultiParams Summary: 
+   Main BP: Boar_Character_BP_C
+      Entry Weight:                   0.06
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0-0.8-0.3
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0-0.8-0.3
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0-0.8-0.3
+      Entry Weight:                   0.06
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.3
+
+   Main BP: ElvenElk_Character_BP_C
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0-0.8-0.3
+      Entry Weight:                   0.06
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0-0.8-0.3
+      Entry Weight:                   0.02
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.3
+
+   Main BP: Human_Bandit_Character_BP_C
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               0.8-0.8-0.4-0.4-0.6-0.4
+      Entry Weight:                   0.09
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               0.8-0.8-0.4-0.4-0.6-0.4
+      Entry Weight:                   0.04
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.8-0.8-0.4-0.4-0.6-0.4
+      Entry Weight:                   0.04
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.8-0.8-0.4-0.4-0.6-0.4
+      Entry Weight:                   0.04
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.8-0.8-0.4-0.4-0.6-0.4
+      Entry Weight:                   0.04
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.8-0.8-0.4-0.4-0.6-0.4
+      Entry Weight:                   0.04
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.8-0.8-0.4-0.4-0.6-0.4
+      Entry Weight:                   0.03
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.8-0.8-0.4-0.4-0.6-0.4
+      Entry Weight:                   0.03
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.8-0.8-0.4-0.4-0.6-0.4
+
+   Main BP: Jellyray_Character_BP_C
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0-0.3-0.3
+
+   Main BP: Necrophage_Character_BP_C
+      Entry Weight:                   0.002
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               0.8-0.8-0.2-0.4-0.6
+
+   Main BP: PraetorianSpider_Character_BP_C
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               0.9-0.1-0.2
+      Entry Weight:                   0.06
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               0.9-0.1-0.2
+      Entry Weight:                   0.06
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.9-0.1-0.2
+      Entry Weight:                   0.06
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               0.9-0.1-0.2
+
+   Main BP: Sword_Goblin_Character_BP_C
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0-0.8-0.2-0.7-0.7-0.2
+      Entry Weight:                   0.12
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0-0.8-0.2-0.7-0.7-0.2
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0-0.8-0.2-0.7-0.7-0.2
+      Entry Weight:                   0.12
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.2-0.7-0.7-0.2
+
+   Main BP: Sword_Orc_Character_BP_C
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               0.8-0.8-0.2-0.4-0.6
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               0.8-0.8-0.2-0.4-0.6
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               0.8-0.8-0.2-0.4-0.6
+      Entry Weight:                   0.08
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.8-0.8-0.2-0.4-0.6
+      Entry Weight:                   0.08
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.8-0.8-0.2-0.4-0.6
+      Entry Weight:                   0.04
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.8-0.8-0.2-0.4-0.6
+      Entry Weight:                   0.04
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.8-0.8-0.2-0.4-0.6
+      Entry Weight:                   0.08
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.8-0.8-0.2-0.4-0.6
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.8-0.8-0.2-0.4-0.6
+      Entry Weight:                   0.008
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.8-0.8-0.2-0.4-0.6
+
+   Main BP: Troll_Character_BP_C
+      Entry Weight:                   0.07
+      Spawn Limit:                             0.003
+      Multi Spawn Chance:                               0.8-0.1-0.1
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.003
+      Multi Spawn Chance:                               0.8-0.1-0.1
+      Entry Weight:                   0.01
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.8-0.1-0.1
+      Entry Weight:                   0.01
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.8-0.1-0.1
+      Entry Weight:                   0.002
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.8-0.1-0.1
+      Entry Weight:                   0.002
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.8-0.1-0.1
+      Entry Weight:                   0.01
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.8-0.1-0.1
+      Entry Weight:                   0.005
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.8-0.1-0.1
+      Entry Weight:                   0.005
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.8-0.1-0.1
+
+   Main BP: Warg_Character_BP_C
+      Entry Weight:                   0.045
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0-0.8-0.3
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0-0.8-0.3
+      Entry Weight:                   0.01
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.3
+      Entry Weight:                   0.015
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.3
+
+   Main BP: Werewolf_Character_BP_C
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.002
+      Multi Spawn Chance:                               1.0-0.1
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.002
+      Multi Spawn Chance:                               1.0-0.1
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.002
+      Multi Spawn Chance:                               1.0-0.1
+      Entry Weight:                   0.008
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.1
+      Entry Weight:                   0.005
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.1
+      Entry Weight:                   0.001
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.1
+      Entry Weight:                   0.008
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.1
+      Entry Weight:                   0.002
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.1
+      Entry Weight:                   0.002
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.1
+      Entry Weight:                   0.008
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.1
+      Entry Weight:                   0.001
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.1
+      Entry Weight:                   0.001
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.1
+

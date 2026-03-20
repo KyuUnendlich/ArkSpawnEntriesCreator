@@ -1,0 +1,754 @@
+Engram Entries: 
+   EngramEntry_Saddle_Leopard_C
+   EngramEntry_Saddle_LeopardFaceplate_C
+   EngramEntry_Saddle_RatCheese_C
+   EngramEntry_Saddle_RatLantern_C
+   EngramEntry_Saddle_RatPouch_C
+   EngramEntry_Saddle_RacoonBackpackMedium_C
+
+Dino Entries: 
+   Rat_C
+   Raccoon_C
+   Rabbit_C
+   DartFrog_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Leopard (3)
+      Main BP: Leopard_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.5-0.2
+   Entry Name: Raccoons (4)
+      Main BP: Raccoon_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Rats (4)
+      Main BP: Rat_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Mutant Rat (4)
+      Main BP: MutantRat_Character_BP_C
+      Entry Weight: 0.008
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-1.0-0.8-0.6
+   Entry Name: Rabbit (4)
+      Main BP: CRabbit_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Frog (4)
+      Main BP: PoisonDartFrog_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+Container Name: null
+   Entry Name: Leopard (3)
+      Main BP: Leopard_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.5-0.2
+   Entry Name: Raccoons (4)
+      Main BP: Raccoon_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Rats (4)
+      Main BP: Rat_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Mutant Rat (4)
+      Main BP: MutantRat_Character_BP_C
+      Entry Weight: 0.008
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-1.0-0.8-0.6
+   Entry Name: Hyaena Gigas (3)
+      Main BP: HyaenodonGigas_Character_BP_C
+      Entry Weight: 0.01
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.5-0.2
+   Entry Name: Rabbit (4)
+      Main BP: CRabbit_Character_BP_C
+      Entry Weight: 0.006
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+Container Name: null
+   Entry Name: Raccoons (4)
+      Main BP: Raccoon_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Rats (4)
+      Main BP: Rat_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Rabbit (4)
+      Main BP: CRabbit_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Mutant Rat (4)
+      Main BP: MutantRat_Character_BP_C
+      Entry Weight: 0.008
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-1.0-0.8-0.6
+   Entry Name: Hyaena Gigas (3)
+      Main BP: HyaenodonGigas_Character_BP_C
+      Entry Weight: 0.005
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.5-0.2
+Container Name: null
+   Entry Name: Leopard (3)
+      Main BP: Leopard_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.5-0.2
+   Entry Name: Raccoons (4)
+      Main BP: Raccoon_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Rats (4)
+      Main BP: Rat_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Rabbit (4)
+      Main BP: CRabbit_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Hyaena Gigas (3)
+      Main BP: HyaenodonGigas_Character_BP_C
+      Entry Weight: 0.005
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.5-0.2
+Container Name: null
+   Entry Name: Leopard (3)
+      Main BP: Leopard_Character_BP_C
+      Entry Weight: 0.002
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.5-0.2
+   Entry Name: Rats (4)
+      Main BP: Rat_Character_BP_C
+      Entry Weight: 0.01
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Hyaena Gigas (3)
+      Main BP: HyaenodonGigas_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.5-0.2
+   Entry Name: Mutant Rat (4)
+      Main BP: MutantRat_Character_BP_C
+      Entry Weight: 0.008
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-1.0-0.8-0.6
+Container Name: null
+   Entry Name: Leopard (3)
+      Main BP: Leopard_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.2-0.1
+Container Name: null
+   Entry Name: Raccoons (4)
+      Main BP: Raccoon_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Rats (4)
+      Main BP: Rat_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Rabbit (4)
+      Main BP: CRabbit_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Frog (4)
+      Main BP: PoisonDartFrog_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+Container Name: null
+   Entry Name: Mutant Rat (4)
+      Main BP: MutantRat_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+Container Name: null
+   Entry Name: Leopard (3)
+      Main BP: Leopard_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.5-0.2
+   Entry Name: Raccoons (4)
+      Main BP: Raccoon_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Rats (4)
+      Main BP: Rat_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Mutant Rat (4)
+      Main BP: MutantRat_Character_BP_C
+      Entry Weight: 0.008
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-1.0-0.8-0.6
+   Entry Name: Hyaena Gigas (3)
+      Main BP: HyaenodonGigas_Character_BP_C
+      Entry Weight: 0.01
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.5-0.2
+   Entry Name: Frog (4)
+      Main BP: PoisonDartFrog_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+Container Name: null
+   Entry Name: Raccoons (4)
+      Main BP: Raccoon_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Rats (4)
+      Main BP: Rat_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Rabbit (4)
+      Main BP: CRabbit_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Mutant Rat (4)
+      Main BP: MutantRat_Character_BP_C
+      Entry Weight: 0.001
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-1.0-0.8-0.6
+   Entry Name: Frog (4)
+      Main BP: PoisonDartFrog_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+Container Name: null
+   Entry Name: Leopard (3)
+      Main BP: Leopard_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.5-0.2
+   Entry Name: Raccoons (4)
+      Main BP: Raccoon_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Rats (4)
+      Main BP: Rat_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Mutant Rat (4)
+      Main BP: MutantRat_Character_BP_C
+      Entry Weight: 0.008
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-1.0-0.8-0.6
+   Entry Name: Mutant Rat (4)
+      Main BP: MutantRat_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-1.0-0.8-0.6
+Container Name: null
+   Entry Name: Leopard (3)
+      Main BP: Leopard_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.5-0.2
+   Entry Name: Raccoons (4)
+      Main BP: Raccoon_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Rats (4)
+      Main BP: Rat_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Mutant Rat (4)
+      Main BP: MutantRat_Character_BP_C
+      Entry Weight: 0.008
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-1.0-0.8-0.6
+   Entry Name: Hyaena Gigas (3)
+      Main BP: HyaenodonGigas_Character_BP_C
+      Entry Weight: 0.01
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.5-0.2
+   Entry Name: Rabbit (4)
+      Main BP: CRabbit_Character_BP_C
+      Entry Weight: 0.006
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+Container Name: null
+   Entry Name: Leopard (3)
+      Main BP: Leopard_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.5-0.2
+   Entry Name: Raccoons (4)
+      Main BP: Raccoon_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Rats (4)
+      Main BP: Rat_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Rabbit (4)
+      Main BP: CRabbit_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Hyaena Gigas (3)
+      Main BP: HyaenodonGigas_Character_BP_C
+      Entry Weight: 0.005
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.5-0.2
+Container Name: null
+   Entry Name: Raccoons (4)
+      Main BP: Raccoon_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Rats (4)
+      Main BP: Rat_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Mutant Rat (4)
+      Main BP: MutantRat_Character_BP_C
+      Entry Weight: 0.004
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-1.0-0.8-0.6
+   Entry Name: Hyaena Gigas (3)
+      Main BP: HyaenodonGigas_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.5-0.2
+Container Name: null
+   Entry Name: Leopard (3)
+      Main BP: Leopard_Character_BP_C
+      Entry Weight: 0.002
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.5-0.2
+   Entry Name: Rats (4)
+      Main BP: Rat_Character_BP_C
+      Entry Weight: 0.01
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Hyaena Gigas (3)
+      Main BP: HyaenodonGigas_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.5-0.2
+   Entry Name: Mutant Rat (4)
+      Main BP: MutantRat_Character_BP_C
+      Entry Weight: 0.008
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-1.0-0.8-0.6
+Container Name: null
+   Entry Name: Raccoons (4)
+      Main BP: Raccoon_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Rats (4)
+      Main BP: Rat_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Mutant Rat (4)
+      Main BP: MutantRat_Character_BP_C
+      Entry Weight: 0.004
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-1.0-0.8-0.6
+   Entry Name: Hyaena Gigas (3)
+      Main BP: HyaenodonGigas_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.5-0.2
+   Entry Name: Rabbit (4)
+      Main BP: CRabbit_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+Container Name: null
+   Entry Name: Raccoons (4)
+      Main BP: Raccoon_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Rats (4)
+      Main BP: Rat_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Mutant Rat (4)
+      Main BP: MutantRat_Character_BP_C
+      Entry Weight: 0.004
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-1.0-0.8-0.6
+   Entry Name: Hyaena Gigas (3)
+      Main BP: HyaenodonGigas_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.5-0.2
+   Entry Name: Rabbit (4)
+      Main BP: CRabbit_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+Container Name: null
+   Entry Name: Raccoons (4)
+      Main BP: Raccoon_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Rats (4)
+      Main BP: Rat_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Mutant Rat (4)
+      Main BP: MutantRat_Character_BP_C
+      Entry Weight: 0.004
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-1.0-0.8-0.6
+   Entry Name: Hyaena Gigas (3)
+      Main BP: HyaenodonGigas_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.5-0.2
+   Entry Name: Rabbit (4)
+      Main BP: CRabbit_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+Container Name: null
+   Entry Name: Leopard (3)
+      Main BP: Leopard_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.5-0.2
+   Entry Name: Raccoons (4)
+      Main BP: Raccoon_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Rats (4)
+      Main BP: Rat_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+   Entry Name: Mutant Rat (4)
+      Main BP: MutantRat_Character_BP_C
+      Entry Weight: 0.008
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-1.0-0.8-0.6
+   Entry Name: Hyaena Gigas (3)
+      Main BP: HyaenodonGigas_Character_BP_C
+      Entry Weight: 0.01
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.5-0.2
+   Entry Name: Rabbit (4)
+      Main BP: CRabbit_Character_BP_C
+      Entry Weight: 0.006
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.8-0.7-0.2
+
+MultiParams Summary: 
+   Main BP: CRabbit_Character_BP_C
+      Entry Weight:                   0.02
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.006
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.006
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.006
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+
+   Main BP: HyaenodonGigas_Character_BP_C
+      Entry Weight:                   0.01
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.5-0.2
+      Entry Weight:                   0.005
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.5-0.2
+      Entry Weight:                   0.005
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.5-0.2
+      Entry Weight:                   0.08
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.5-0.2
+      Entry Weight:                   0.01
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.5-0.2
+      Entry Weight:                   0.01
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.5-0.2
+      Entry Weight:                   0.005
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.5-0.2
+      Entry Weight:                   0.08
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.5-0.2
+      Entry Weight:                   0.08
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.5-0.2
+      Entry Weight:                   0.08
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.5-0.2
+      Entry Weight:                   0.08
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.5-0.2
+      Entry Weight:                   0.08
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.5-0.2
+      Entry Weight:                   0.01
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.5-0.2
+
+   Main BP: Leopard_Character_BP_C
+      Entry Weight:                   0.02
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.5-0.2
+      Entry Weight:                   0.02
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.5-0.2
+      Entry Weight:                   0.02
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.5-0.2
+      Entry Weight:                   0.002
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.5-0.2
+      Entry Weight:                   0.1
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.2-0.1
+      Entry Weight:                   0.02
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.5-0.2
+      Entry Weight:                   0.02
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.5-0.2
+      Entry Weight:                   0.02
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.5-0.2
+      Entry Weight:                   0.02
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.5-0.2
+      Entry Weight:                   0.002
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.5-0.2
+      Entry Weight:                   0.02
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.5-0.2
+
+   Main BP: MutantRat_Character_BP_C
+      Entry Weight:                   0.008
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-1.0-0.8-0.6
+      Entry Weight:                   0.008
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-1.0-0.8-0.6
+      Entry Weight:                   0.008
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-1.0-0.8-0.6
+      Entry Weight:                   0.008
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-1.0-0.8-0.6
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.008
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-1.0-0.8-0.6
+      Entry Weight:                   0.001
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-1.0-0.8-0.6
+      Entry Weight:                   0.008
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-1.0-0.8-0.6
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-1.0-0.8-0.6
+      Entry Weight:                   0.008
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-1.0-0.8-0.6
+      Entry Weight:                   0.004
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-1.0-0.8-0.6
+      Entry Weight:                   0.008
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-1.0-0.8-0.6
+      Entry Weight:                   0.004
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-1.0-0.8-0.6
+      Entry Weight:                   0.004
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-1.0-0.8-0.6
+      Entry Weight:                   0.004
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-1.0-0.8-0.6
+      Entry Weight:                   0.008
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-1.0-0.8-0.6
+
+   Main BP: PoisonDartFrog_Character_BP_C
+      Entry Weight:                   0.04
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.04
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.04
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.02
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+
+   Main BP: Raccoon_Character_BP_C
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+
+   Main BP: Rat_Character_BP_C
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.01
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.01
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.8-0.7-0.2
+

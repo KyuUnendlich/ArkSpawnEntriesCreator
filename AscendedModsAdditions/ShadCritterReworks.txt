@@ -1,0 +1,1762 @@
+Engram Entries: 
+   EngramEntry_BatImplant_C
+   EngramEntry_SCRRapImprinter_C
+   EngramEntry_SCRBreederToken_C
+   EngramEntry_PyroLionImplant_C
+   EngramEntry_FuriousBlows_C
+   EngramEntry_StoredFert_C
+   EngramEntry_GigantopithGauntlets_C
+   EngramEntry_SCRAbLizardSaddle_C
+   EngramEntry_GasCollectorShad_C
+   EngramEntry_AssignReaperHP_C
+   EngramEntry_AssignReaperMelee_C
+   EngramEntry_AssignReaperStam_C
+   EngramEntry_Saddle_ShadReaper_C
+   EngramEntry_AssignReaperWeight_C
+   EngramEntry_SCRMegalaniaSaddle_C
+   EngramEntry_DreadmareImplant_C
+   EngramEntry_SCRRobotImplant_C
+   EngramEntry_DreadmareSCRCraft_C
+   EngramEntry_Saddle_ShadCart_C
+   EngramEntry_GriffinImplantSCR_C
+   EngramEntry_WyvernImplantSCR_C
+   EngramEntry_Saddle_Bullcrap_C
+   EngramEntry_SCRRepairStation_C
+   EngramEntry_SCRLostOssiSaddle_C
+
+ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT Remaps: 
+      
+FromClass: 
+      Allo_Character_BP_C
+ToClass: 
+      Allo_Character_BP_Shad_C
+      
+FromClass: 
+      Argent_Character_BP_C
+ToClass: 
+      Argent_Character_BP_Shad_C
+      
+FromClass: 
+      Baryonyx_Character_BP_C
+ToClass: 
+      Baryonyx_Character_BP_Shad_C
+      
+FromClass: 
+      Bat_Character_BP_C
+ToClass: 
+      Bat_Character_BP_Shad_C
+      
+FromClass: 
+      Direwolf_Character_BP_C
+ToClass: 
+      Direwolf_Character_BP_Shad_C
+      
+FromClass: 
+      Dunkle_Character_BP_C
+ToClass: 
+      Dunkle_Character_BP_Shad_C
+      
+FromClass: 
+      Megatherium_Character_BP_C
+ToClass: 
+      Megatherium_Character_BP_Shad_C
+      
+FromClass: 
+      Pela_Character_BP_C
+ToClass: 
+      Pela_Character_BP_Shad_C
+      
+FromClass: 
+      Piranha_Character_BP_C
+ToClass: 
+      Piranha_Character_BP_Shad_C
+      
+FromClass: 
+      Ptero_Character_BP_C
+ToClass: 
+      Ptero_Character_BP_Shad_C
+      
+FromClass: 
+      Quetz_Character_BP_C
+ToClass: 
+      Quetz_Character_BP_Shad_C
+      
+FromClass: 
+      Rhynio_Character_BP_C
+ToClass: 
+      Rhynio_Character_BP_Shad_C
+      
+FromClass: 
+      Saber_Character_BP_C
+ToClass: 
+      Saber_Character_BP_Shad_C
+      
+FromClass: 
+      Stego_Character_BP_C
+ToClass: 
+      Stego_Character_BP_Shad_C
+      
+FromClass: 
+      Tapejara_Character_BP_C
+ToClass: 
+      Tapejara_Character_BP_Shad_C
+      
+FromClass: 
+      Therizino_Character_BP_C
+ToClass: 
+      Therizino_Character_BP_Shad_C
+      
+FromClass: 
+      Thylacoleo_Character_BP_C
+ToClass: 
+      Thylacoleo_Character_BP_Shad_C
+      
+FromClass: 
+      Trike_Character_BP_C
+ToClass: 
+      Trike_Character_BP_Shad_C
+      
+FromClass: 
+      Yutyrannus_Character_BP_C
+ToClass: 
+      Yutyrannus_Character_BP_Shad_C
+      
+FromClass: 
+      Plesiosaur_Character_BP_C
+ToClass: 
+      Plesiosaur_Character_BP_Shad_C
+      
+FromClass: 
+      Ankylo_Character_BP_C
+ToClass: 
+      Ankylo_Character_BP_Shad_C
+      
+FromClass: 
+      Pachy_Character_BP_C
+ToClass: 
+      Pachy_Character_BP_Shad_C
+      
+FromClass: 
+      Diplodocus_Character_BP_C
+ToClass: 
+      Diplodocus_Character_BP_Shad_C
+      
+FromClass: 
+      Doed_Character_BP_C
+ToClass: 
+      Doed_Character_BP_Shad_C
+      
+FromClass: 
+      Gigant_Character_BP_C
+ToClass: 
+      Gigant_Character_BP_Shad_C
+      
+FromClass: 
+      DungBeetle_Character_BP_C
+ToClass: 
+      DungBeetle_Character_BP_Shad_C
+      
+FromClass: 
+      Paracer_Character_BP_C
+ToClass: 
+      Paracer_Character_BP_Shad_C
+      
+FromClass: 
+      Mammoth_Character_BP_C
+ToClass: 
+      Mammoth_Character_BP_Shad_C
+      
+FromClass: 
+      Basilosaurus_Character_BP_C
+ToClass: 
+      Basilosaurus_Character_BP_Shad_C
+      
+FromClass: 
+      Manta_Character_BP_C
+ToClass: 
+      Manta_Character_BP_Shad_C
+      
+FromClass: 
+      Moth_Character_BP_C
+ToClass: 
+      Moth_Character_BP_Shad_C
+      
+FromClass: 
+      Mantis_Character_BP_C
+ToClass: 
+      Mantis_Character_BP_Shad_C
+      
+FromClass: 
+      SpineyLizard_Character_BP_C
+ToClass: 
+      SpineyLizard_Character_BP_Shad_C
+      
+FromClass: 
+      Wyvern_Character_BP_Fire_C
+ToClass: 
+      Wyvern_Character_BP_Fire_Shad_C
+      
+FromClass: 
+      Wyvern_Character_BP_Poison_C
+ToClass: 
+      Wyvern_Character_BP_Poison_Shad_C
+      
+FromClass: 
+      Wyvern_Character_BP_Lightning_C
+ToClass: 
+      Wyvern_Character_BP_Lightning_Shad_C
+      
+FromClass: 
+      Fasola_Character_BP_C
+ToClass: 
+      Fasola_Character_BP_Shad_C
+      
+FromClass: 
+      Kaprosuchus_Character_BP_C
+ToClass: 
+      Kaprosuchus_Character_BP_Shad_C
+      
+FromClass: 
+      TerrorBird_Character_BP_C
+ToClass: 
+      TerrorBird_Character_BP_Shad_C
+      
+FromClass: 
+      Gigantoraptor_Character_BP_C
+ToClass: 
+      Gigantoraptor_Character_BP_Shad_C
+      
+FromClass: 
+      Xiphactinus_Character_BP_ASA_C
+ToClass: 
+      Xiphactinus_Character_BP_ASA_Shad_C
+      
+FromClass: 
+      Ceratosaurus_Character_BP_ASA_C
+ToClass: 
+      Ceratosaurus_Character_BP_ASA_Shad_C
+      
+FromClass: 
+      FireLion_Character_BP_C
+ToClass: 
+      FireLion_Character_BP_Shad_C
+      
+FromClass: 
+      DeinosuchusASA_Character_BP_C
+ToClass: 
+      DeinosuchusASA_Character_BP_Shad_C
+      
+FromClass: 
+      Bigfoot_Character_BP_C
+ToClass: 
+      Bigfoot_Character_BP_Shad_C
+      
+FromClass: 
+      Yeti_Character_BP_C
+ToClass: 
+      Yeti_Character_BP_Shad_C
+      
+FromClass: 
+      Sauropod_Character_BP_C
+ToClass: 
+      Sauropod_Character_BP_Shad_C
+      
+FromClass: 
+      Oviraptor_Character_BP_C
+ToClass: 
+      Oviraptor_Character_BP_Shad_C
+      
+FromClass: 
+      RockDrake_Character_BP_C
+ToClass: 
+      RockDrake_Character_BP_Shad_C
+      
+FromClass: 
+      CaveWolf_Character_BP_C
+ToClass: 
+      CaveWolf_Character_BP_Shad_C
+      
+FromClass: 
+      YiLing_Character_BP_C
+ToClass: 
+      YiLing_Character_BP_Shad_C
+      
+FromClass: 
+      Ankylo_Character_BP_Aberrant_C
+ToClass: 
+      Ankylo_Character_BP_Aberrant_Shad_C
+      
+FromClass: 
+      Baryonyx_Character_BP_Aberrant_C
+ToClass: 
+      Baryonyx_Character_BP_Aberrant_Shad_C
+      
+FromClass: 
+      Bigfoot_Character_BP_Aberrant_C
+ToClass: 
+      Bigfoot_Character_BP_Aberrant_Shad_C
+      
+FromClass: 
+      Carno_Character_BP_Aberrant_C
+ToClass: 
+      Carno_Character_BP_Aberrant_Shad_C
+      
+FromClass: 
+      Diplodocus_Character_BP_Aberrant_C
+ToClass: 
+      Diplodocus_Character_BP_Aberrant_Shad_C
+      
+FromClass: 
+      Doed_Character_BP_Aberrant_C
+ToClass: 
+      Doed_Character_BP_Aberrant_Shad_C
+      
+FromClass: 
+      DungBeetle_Character_BP_Aberrant_C
+ToClass: 
+      DungBeetle_Character_BP_Aberrant_Shad_C
+      
+FromClass: 
+      Fasola_Character_BP_Aberrant_C
+ToClass: 
+      Fasola_Character_BP_Aberrant_Shad_C
+      
+FromClass: 
+      Gigantoraptor_Character_BP_Aberrant_C
+ToClass: 
+      Gigantoraptor_Character_BP_Aberrant_Shad_C
+      
+FromClass: 
+      Oviraptor_Character_BP_Aberrant_C
+ToClass: 
+      Oviraptor_Character_BP_Aberrant_Shad_C
+      
+FromClass: 
+      Paracer_Character_BP_Aberrant_C
+ToClass: 
+      Paracer_Character_BP_Aberrant_Shad_C
+      
+FromClass: 
+      Piranha_Character_BP_Aberrant_C
+ToClass: 
+      Piranha_Character_BP_Aberrant_Shad_C
+      
+FromClass: 
+      Sarco_Character_BP_Aberrant_C
+ToClass: 
+      Sarco_Character_BP_Aberrant_Shad_C
+      
+FromClass: 
+      Spino_Character_BP_Aberrant_C
+ToClass: 
+      Spino_Character_BP_Aberrant_Shad_C
+      
+FromClass: 
+      Stego_Character_BP_Aberrant_C
+ToClass: 
+      Stego_Character_BP_Aberrant_Shad_C
+      
+FromClass: 
+      Trike_Character_BP_Aberrant_C
+ToClass: 
+      Trike_Character_BP_Aberrant_Shad_C
+      
+FromClass: 
+      Megalosaurus_Character_BP_C
+ToClass: 
+      Megalosaurus_Character_BP_Shad_C
+      
+FromClass: 
+      Megalosaurus_Character_BP_Aberrant_C
+ToClass: 
+      Megalosaurus_Character_BP_Aberrant_Shad_C
+      
+FromClass: 
+      Daeodon_Character_BP_C
+ToClass: 
+      Daeodon_Character_BP_Shad_C
+      
+FromClass: 
+      Megalania_Character_BP_C
+ToClass: 
+      Megalania_Character_BP_Shad_C
+      
+FromClass: 
+      Megalania_Character_BP_Aberrant_C
+ToClass: 
+      Megalania_Character_BP_Aberrant_Shad_C
+      
+FromClass: 
+      Defender_Character_BP_C
+ToClass: 
+      ShadDefenseUnit_Character_bp_C
+      
+FromClass: 
+      Enforcer_Character_BP_C
+ToClass: 
+      Enforcer_Character_BP_Shad_C
+      
+FromClass: 
+      Dreadnoughtus_Character_BP_C
+ToClass: 
+      Dreadnoughtus_Character_BP_Shad_C
+      
+FromClass: 
+      IceJumper_Character_BP_C
+ToClass: 
+      IceJumper_Character_BP_Shad_C
+      
+FromClass: 
+      Spindles_Character_BP_C
+ToClass: 
+      Spindles_Character_BP_Shad_C
+      
+FromClass: 
+      Owl_Character_BP_C
+ToClass: 
+      Owl_Character_BP_Shad_C
+      
+FromClass: 
+      Doggo_Character_BP_C
+ToClass: 
+      Doggo_Character_BP_Shad_C
+      
+FromClass: 
+      Maelizard_Character_BP_C
+ToClass: 
+      Maelizard_Character_BP_Shad_C
+      
+FromClass: 
+      Manta_Character_BP_Aberrant_C
+ToClass: 
+      Manta_Character_BP_Aberrant_Shad_C
+      
+FromClass: 
+      Arthro_Character_BP_C
+ToClass: 
+      Arthro_Character_BP_Shad_C
+      
+FromClass: 
+      Arthro_Character_BP_Aberrant_C
+ToClass: 
+      Arthro_Character_BP_Aberrant_Shad_C
+      
+FromClass: 
+      Chalico_Character_BP_C
+ToClass: 
+      Chalico_Character_BP_Shad_C
+      
+FromClass: 
+      DeinotheriumASA_Character_BP_C
+ToClass: 
+      DeinotheriumASA_Character_BP_Shad_C
+      
+FromClass: 
+      Dimorph_Character_BP_C
+ToClass: 
+      Dimorph_Character_BP_Shad_C
+      
+FromClass: 
+      Dimorph_Character_BP_Aberrant_C
+ToClass: 
+      Dimorph_Character_BP_Aberrant_Shad_C
+      
+FromClass: 
+      RockGolem_Character_BP_C
+ToClass: 
+      RockGolem_Character_BP_Shad_C
+      
+FromClass: 
+      Wyvern_Character_BP_Ice_C
+ToClass: 
+      Wyvern_Character_BP_Ice_Shad_C
+      
+FromClass: 
+      Griffin_Character_BP_C
+ToClass: 
+      Griffin_Character_BP_Shad_C
+      
+FromClass: 
+      Bison_Character_BP_C
+ToClass: 
+      Bison_Character_BP_Shad_C
+      
+FromClass: 
+      Rex_Character_BP_C
+ToClass: 
+      Rex_Character_BP_Shad_C
+      
+FromClass: 
+      ValMegaraptor_Character_BP_C
+ToClass: 
+      ValMegaraptor_Character_BP_Shad_C
+      
+FromClass: 
+      Deinonychus_Character_BP_C
+ToClass: 
+      Deinonychus_Character_BP_Shad_C
+      
+FromClass: 
+      SpiritBear_Character_BP_C
+ToClass: 
+      SpiritBear_Character_BP_Shad_C
+      
+FromClass: 
+      ChalkGolem_Character_BP_C
+ToClass: 
+      ChalkGolem_Character_BP_Shad_C
+      
+FromClass: 
+      IceGolem_Character_BP_C
+ToClass: 
+      IceGolem_Character_BP_Shad_C
+      
+FromClass: 
+      Helicoprion_Character_BP_C
+ToClass: 
+      Helicoprion_Character_BP_Shad_C
+      
+FromClass: 
+      SpiderL_VAL_Character_BP_C
+ToClass: 
+      SpiderL_VAL_Character_BP_Shad_C
+      
+FromClass: 
+      Troodon_Character_BP_C
+ToClass: 
+      Troodon_Character_BP_Shad_C
+      
+FromClass: 
+      Direbear_Character_Polar_C
+ToClass: 
+      Direbear_Character_BP_Polar_Shad_C
+      
+FromClass: 
+      Pachyrhino_Character_BP_C
+ToClass: 
+      Pachyrhino_Character_BP_Shad_C
+      
+FromClass: 
+      YoungIceFox_DinoCompanion_Character_BP_C
+ToClass: 
+      YoungIceFox_DinoCompanion_Character_BP_Shad_C
+      
+FromClass: 
+      AngelFox_Character_BP_C
+ToClass: 
+      AngelFox_Character_BP_Shad_C
+      
+FromClass: 
+      DevilFox_Character_BP_C
+ToClass: 
+      DevilFox_Character_BP_Shad_C
+      
+FromClass: 
+      SnowMonster_Character_BP_C
+ToClass: 
+      SnowMonster_Character_BP_Shad_C
+      
+FromClass: 
+      SnowDragon_Character_BP_C
+ToClass: 
+      SnowDragon_Character_BP_Shad_C
+      
+FromClass: 
+      Cryolophosaurus_Character_BP_C
+ToClass: 
+      Cryolophosaurus_Character_BP_Shad_C
+      
+FromClass: 
+      Desmodus_Character_BP_C
+ToClass: 
+      Desmodus_Character_BP_Shad_C
+      StorageBox_Fabricator_C
+      PrimalItemStructure_GasCollector_Shad_C
+      PrimalItemStructure_SCRRepairStation_C
+      StorageBox_AnvilBench_C
+      PrimalItemArmor_SaddleCart_Shad_C
+      BP_Bloodforge_Base_C
+      PrimalItemArmor_SCRLostSnowMonsterSaddle_C
+      GasCollecter_ASA_Shad_C
+      StorageBox_SCRRepairStation_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: 
+      Main BP: SCRStygi_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.5
+   Entry Name: 
+      Main BP: Bison_Character_BP_Shad_C
+      Entry Weight: 0.024
+      Spawn Limit: 0.024
+      Multi Spawn Chance: 1.0-0.8-0.6-0.4
+Container Name: null
+   Entry Name: 
+      Main BP: SCRStygi_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.5
+   Entry Name: 
+      Main BP: Bison_Character_BP_Shad_C
+      Entry Weight: 0.024
+      Spawn Limit: 0.024
+      Multi Spawn Chance: 1.0-0.8-0.6-0.4
+Container Name: null
+   Entry Name: 
+      Main BP: SCRStygi_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.5
+   Entry Name: 
+      Main BP: Bison_Character_BP_Shad_C
+      Entry Weight: 0.024
+      Spawn Limit: 0.024
+      Multi Spawn Chance: 1.0-0.8-0.6-0.4
+Container Name: null
+   Entry Name: 
+      Main BP: SCRStygi_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.5
+   Entry Name: 
+      Main BP: Bison_Character_BP_Shad_C
+      Entry Weight: 0.024
+      Spawn Limit: 0.024
+      Multi Spawn Chance: 1.0-0.8-0.6-0.4
+Container Name: null
+   Entry Name: 
+      Main BP: SCRStygi_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.5
+   Entry Name: 
+      Main BP: Bison_Character_BP_Shad_C
+      Entry Weight: 0.024
+      Spawn Limit: 0.024
+      Multi Spawn Chance: 1.0-0.8-0.6-0.4
+Container Name: null
+   Entry Name: 
+      Main BP: Bison_Character_BP_Shad_C
+      Entry Weight: 0.024
+      Spawn Limit: 0.024
+      Multi Spawn Chance: 1.0-0.8-0.6-0.4
+   Entry Name: 
+      Main BP: Griffin_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Yeti_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: 
+      Main BP: Bison_Character_BP_Shad_C
+      Entry Weight: 0.024
+      Spawn Limit: 0.024
+      Multi Spawn Chance: 1.0-0.8-0.6-0.4
+   Entry Name: 
+      Main BP: Griffin_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Yeti_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: 
+      Main BP: Bison_Character_BP_Shad_C
+      Entry Weight: 0.024
+      Spawn Limit: 0.024
+      Multi Spawn Chance: 1.0-0.8-0.6-0.4
+   Entry Name: 
+      Main BP: Griffin_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: Bison_Character_BP_Shad_C
+      Entry Weight: 0.024
+      Spawn Limit: 0.024
+      Multi Spawn Chance: 1.0-0.8-0.6-0.4
+   Entry Name: 
+      Main BP: Griffin_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Yeti_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: 
+      Main BP: Bison_Character_BP_Shad_C
+      Entry Weight: 0.024
+      Spawn Limit: 0.024
+      Multi Spawn Chance: 1.0-0.8-0.6-0.4
+   Entry Name: 
+      Main BP: Griffin_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Yeti_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: 
+      Main BP: Bison_Character_BP_Shad_C
+      Entry Weight: 0.024
+      Spawn Limit: 0.024
+      Multi Spawn Chance: 1.0-0.8-0.6-0.4
+   Entry Name: 
+      Main BP: Griffin_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Yeti_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: 
+      Main BP: Bison_Character_BP_Shad_C
+      Entry Weight: 0.024
+      Spawn Limit: 0.024
+      Multi Spawn Chance: 1.0-0.8-0.6-0.4
+   Entry Name: 
+      Main BP: Griffin_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Yeti_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: 
+      Main BP: Bison_Character_BP_Shad_C
+      Entry Weight: 0.024
+      Spawn Limit: 0.024
+      Multi Spawn Chance: 1.0-0.8-0.6-0.4
+   Entry Name: 
+      Main BP: Griffin_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Yeti_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: 
+      Main BP: SCRStygi_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.5
+   Entry Name: 
+      Main BP: Stego_Character_BP_Shad_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0-0.75-0.5
+   Entry Name: 
+      Main BP: Gigantoraptor_Character_BP_Shad_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Oviraptor_Character_BP_Shad_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Chalico_Character_BP_Shad_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-0.8-0.6
+Container Name: null
+   Entry Name: 
+      Main BP: SCRStygi_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.5
+   Entry Name: 
+      Main BP: Griffin_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Allo_Character_BP_Shad_Scorched_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0
+Container Name: null
+   Entry Name: 
+      Main BP: SCRStygi_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.5
+   Entry Name: 
+      Main BP: Allo_Character_BP_Shad_Scorched_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0
+   Entry Name: 
+      Main BP: ValMegaraptor_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: SCRStygi_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: 
+      Main BP: SCRStygi_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: 
+      Main BP: SCRStygi_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: 
+      Main BP: SCRStygi_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: 
+      Main BP: SCRStygi_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.5
+   Entry Name: 
+      Main BP: Gigant_Character_BP_Shad_C
+      Entry Weight: 0.002
+      Spawn Limit: 0.002
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Griffin_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: SCRStygi_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.5
+   Entry Name: 
+      Main BP: Gigant_Character_BP_Shad_C
+      Entry Weight: 0.002
+      Spawn Limit: 0.002
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Griffin_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: SCRStygi_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: 
+      Main BP: Gigant_Character_BP_Shad_C
+      Entry Weight: 0.002
+      Spawn Limit: 0.002
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Bison_Character_BP_Shad_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-0.8-0.6-0.4
+   Entry Name: 
+      Main BP: Yeti_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: 
+      Main BP: Gigant_Character_BP_Shad_C
+      Entry Weight: 0.002
+      Spawn Limit: 0.002
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Bison_Character_BP_Shad_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-0.8-0.6-0.4
+   Entry Name: 
+      Main BP: Yeti_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: 
+      Main BP: Gigant_Character_BP_Shad_C
+      Entry Weight: 0.002
+      Spawn Limit: 0.002
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Griffin_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: Gigant_Character_BP_Shad_C
+      Entry Weight: 0.002
+      Spawn Limit: 0.002
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Griffin_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: Gigantoraptor_Character_BP_Shad_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Spino_Character_BP_Shad_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Oviraptor_Character_BP_Shad_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: Spino_Character_BP_Shad_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: DeinosuchusASA_Character_BP_Shad_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: DeinosuchusASA_Character_BP_Shad_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: DeinosuchusASA_Character_BP_Shad_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: DeinosuchusASA_Character_BP_Shad_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: SpineyLizard_Character_BP_Shad_Aberrant_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0-0.6
+   Entry Name: 
+      Main BP: Megatherium_Character_BP_Shad_Aberrant_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Megalania_Character_BP_Aberrant_Shad_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Daeodon_Character_BP_Shad_Aberrant_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: SpineyLizard_Character_BP_Shad_Aberrant_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0-0.6
+   Entry Name: 
+      Main BP: Megatherium_Character_BP_Shad_Aberrant_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Megalania_Character_BP_Aberrant_Shad_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Daeodon_Character_BP_Shad_Aberrant_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: Megalania_Character_BP_Aberrant_Shad_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: Allo_Character_BP_Shad_Aberrant_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-1.0-1.0
+Container Name: null
+   Entry Name: 
+      Main BP: BionicStego_Character_BP_Shad_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.76-0.5
+   Entry Name: 
+      Main BP: BionicTrike_Character_BP_Shad_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.76-0.5
+   Entry Name: 
+      Main BP: BionicRaptor_Character_BP_Shad_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-0.76-0.5
+   Entry Name: 
+      Main BP: BionicRex_Character_BP_Shad_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0-0.4
+Container Name: null
+   Entry Name: 
+      Main BP: BionicStego_Character_BP_Shad_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.76-0.5
+   Entry Name: 
+      Main BP: BionicTrike_Character_BP_Shad_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.76-0.5
+   Entry Name: 
+      Main BP: BionicRaptor_Character_BP_Shad_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-0.76-0.5
+   Entry Name: 
+      Main BP: BionicRex_Character_BP_Shad_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0-0.4
+Container Name: null
+   Entry Name: 
+      Main BP: BionicStego_Character_BP_Shad_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.76-0.5
+   Entry Name: 
+      Main BP: BionicTrike_Character_BP_Shad_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.76-0.5
+   Entry Name: 
+      Main BP: BionicRaptor_Character_BP_Shad_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-0.76-0.5
+   Entry Name: 
+      Main BP: BionicRex_Character_BP_Shad_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0-0.4
+   Entry Name: 
+      Main BP: Gigant_Character_BP_Shad_Tek_C
+      Entry Weight: 0.008
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: BionicStego_Character_BP_Shad_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.76-0.5
+   Entry Name: 
+      Main BP: BionicTrike_Character_BP_Shad_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.76-0.5
+   Entry Name: 
+      Main BP: BionicRaptor_Character_BP_Shad_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-0.76-0.5
+   Entry Name: 
+      Main BP: BionicRex_Character_BP_Shad_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0-0.4
+   Entry Name: 
+      Main BP: Gigant_Character_BP_Shad_Tek_C
+      Entry Weight: 0.008
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: BionicStego_Character_BP_Shad_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.76-0.5
+   Entry Name: 
+      Main BP: BionicTrike_Character_BP_Shad_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.76-0.5
+   Entry Name: 
+      Main BP: BionicRaptor_Character_BP_Shad_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-0.76-0.5
+   Entry Name: 
+      Main BP: BionicRex_Character_BP_Shad_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0-0.4
+   Entry Name: 
+      Main BP: Gigant_Character_BP_Shad_Tek_C
+      Entry Weight: 0.008
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: BionicStego_Character_BP_Shad_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.76-0.5
+   Entry Name: 
+      Main BP: BionicTrike_Character_BP_Shad_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.76-0.5
+   Entry Name: 
+      Main BP: BionicRaptor_Character_BP_Shad_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-0.76-0.5
+   Entry Name: 
+      Main BP: BionicRex_Character_BP_Shad_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0-0.4
+   Entry Name: 
+      Main BP: Gigant_Character_BP_Shad_Tek_C
+      Entry Weight: 0.008
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: FireLion_Character_BP_Shad_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.5-0.25
+Container Name: null
+   Entry Name: 
+      Main BP: SCRStygi_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.8-0.6
+   Entry Name: 
+      Main BP: Ceratosaurus_Character_BP_ASA_Shad_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0-0.25
+Container Name: null
+   Entry Name: 
+      Main BP: Wyvern_Character_BP_ShadForest_C
+      Entry Weight: 0.06
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: 
+      Main BP: Shastasaurus_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: Shastasaurus_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: Shastasaurus_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: Shastasaurus_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: Shastasaurus_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: Shastasaurus_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: ValMegaraptor_Character_BP_Shad_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: Baryonyx_Character_BP_Shad_Arcane_C
+      Entry Weight: 0.0
+      Spawn Limit: 0.0
+      Multi Spawn Chance: 0.0-0.0-0.0-0.0-0.0
+Container Name: null
+   Entry Name: 
+      Main BP: Yeti_Character_BP_Shad_C
+      Entry Weight: 0.045
+      Spawn Limit: 0.045
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: 
+      Main BP: Yeti_Character_BP_Shad_C
+      Entry Weight: 0.045
+      Spawn Limit: 0.045
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: 
+      Main BP: Yeti_Character_BP_Shad_C
+      Entry Weight: 0.045
+      Spawn Limit: 0.045
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: 
+      Main BP: Yeti_Character_BP_Shad_C
+      Entry Weight: 0.045
+      Spawn Limit: 0.045
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: 
+      Main BP: Yeti_Character_BP_Shad_C
+      Entry Weight: 0.045
+      Spawn Limit: 0.045
+      Multi Spawn Chance: 1.0-0.5
+
+Global Entry Weights: 
+   Main BP: Rex_Character_BP_C
+      SubBP: Rex_Character_BP_Shad_C 1.0
+   Main BP: Carno_Character_BP_C
+      SubBP: Carno_Character_BP_Shad_C 1.0
+   Main BP: Megalodon_Character_BP_C
+      SubBP: Megalodon_Character_BP_Shad_C 1.0
+   Main BP: Sarco_Character_BP_C
+      SubBP: Sarco_Character_BP_Shad_C 1.0
+   Main BP: Spino_Character_BP_C
+      SubBP: Spino_Character_BP_Shad_C 1.0
+   Main BP: MegaRaptor_Character_BP_C
+      SubBP: MegaRaptor_Character_BP_Shad_C 1.0
+   Main BP: SpineyLizard_Character_C
+      SubBP: SpineyLizard_Character_Shad_C 1.0
+   Main BP: Basilisk_Character_BP_C
+      SubBP: Basilisk_Character_BP_Shad_C 1.0
+   Main BP: Crab_Character_BP_C
+      SubBP: Crab_Character_BP_Shad_C 1.0
+   Main BP: Mosa_Character_BP_C
+      SubBP: Mosa_Character_BP_Shad_C 1.0
+   Main BP: BionicGigant_Character_BP_C
+      SubBP: Gigant_Character_BP_Shad_Tek_C 1.0
+   Main BP: BionicQuetz_Character_BP_C
+      SubBP: BionicQuetz_Character_BP_Shad_C 1.0
+   Main BP: BionicRaptor_Character_BP_C
+      SubBP: BionicRaptor_Character_BP_Shad_C 1.0
+   Main BP: BionicRex_Character_BP_C
+      SubBP: BionicRex_Character_BP_Shad_C 1.0
+   Main BP: BionicStego_Character_BP_C
+      SubBP: BionicRex_Character_BP_Shad_C 1.0
+   Main BP: BionicTrike_Character_BP_C
+      SubBP: BionicTrike_Character_BP_Shad_C 1.0
+   Main BP: SpiderL_VAL_Character_BP_C
+      SubBP: SpiderL_VAL_Character_BP_Shad_C 1.0
+   Main BP: Carno_Character_BP_Aberrant_C
+      SubBP: Carno_Character_BP_Aberrant_Shad_C 1.0
+
+MultiParams Summary: 
+   Main BP: Allo_Character_BP_Shad_Aberrant_C
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-1.0-1.0
+
+   Main BP: Allo_Character_BP_Shad_Scorched_C
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0
+
+   Main BP: Baryonyx_Character_BP_Shad_Arcane_C
+      Entry Weight:                   0.0
+      Spawn Limit:                             0.0
+      Multi Spawn Chance:                               0.0-0.0-0.0-0.0-0.0
+
+   Main BP: BionicRaptor_Character_BP_Shad_C
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-0.76-0.5
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-0.76-0.5
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-0.76-0.5
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-0.76-0.5
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-0.76-0.5
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-0.76-0.5
+
+   Main BP: BionicRex_Character_BP_Shad_C
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0-0.4
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0-0.4
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0-0.4
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0-0.4
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0-0.4
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0-0.4
+
+   Main BP: BionicStego_Character_BP_Shad_C
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-0.76-0.5
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-0.76-0.5
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-0.76-0.5
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-0.76-0.5
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-0.76-0.5
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-0.76-0.5
+
+   Main BP: BionicTrike_Character_BP_Shad_C
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-0.76-0.5
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-0.76-0.5
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-0.76-0.5
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-0.76-0.5
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-0.76-0.5
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-0.76-0.5
+
+   Main BP: Bison_Character_BP_Shad_C
+      Entry Weight:                   0.024
+      Spawn Limit:                             0.024
+      Multi Spawn Chance:                               1.0-0.8-0.6-0.4
+      Entry Weight:                   0.024
+      Spawn Limit:                             0.024
+      Multi Spawn Chance:                               1.0-0.8-0.6-0.4
+      Entry Weight:                   0.024
+      Spawn Limit:                             0.024
+      Multi Spawn Chance:                               1.0-0.8-0.6-0.4
+      Entry Weight:                   0.024
+      Spawn Limit:                             0.024
+      Multi Spawn Chance:                               1.0-0.8-0.6-0.4
+      Entry Weight:                   0.024
+      Spawn Limit:                             0.024
+      Multi Spawn Chance:                               1.0-0.8-0.6-0.4
+      Entry Weight:                   0.024
+      Spawn Limit:                             0.024
+      Multi Spawn Chance:                               1.0-0.8-0.6-0.4
+      Entry Weight:                   0.024
+      Spawn Limit:                             0.024
+      Multi Spawn Chance:                               1.0-0.8-0.6-0.4
+      Entry Weight:                   0.024
+      Spawn Limit:                             0.024
+      Multi Spawn Chance:                               1.0-0.8-0.6-0.4
+      Entry Weight:                   0.024
+      Spawn Limit:                             0.024
+      Multi Spawn Chance:                               1.0-0.8-0.6-0.4
+      Entry Weight:                   0.024
+      Spawn Limit:                             0.024
+      Multi Spawn Chance:                               1.0-0.8-0.6-0.4
+      Entry Weight:                   0.024
+      Spawn Limit:                             0.024
+      Multi Spawn Chance:                               1.0-0.8-0.6-0.4
+      Entry Weight:                   0.024
+      Spawn Limit:                             0.024
+      Multi Spawn Chance:                               1.0-0.8-0.6-0.4
+      Entry Weight:                   0.024
+      Spawn Limit:                             0.024
+      Multi Spawn Chance:                               1.0-0.8-0.6-0.4
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-0.8-0.6-0.4
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-0.8-0.6-0.4
+
+   Main BP: Ceratosaurus_Character_BP_ASA_Shad_C
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0-0.25
+
+   Main BP: Chalico_Character_BP_Shad_C
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-0.8-0.6
+
+   Main BP: Daeodon_Character_BP_Shad_Aberrant_C
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0
+
+   Main BP: DeinosuchusASA_Character_BP_Shad_C
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0
+
+   Main BP: FireLion_Character_BP_Shad_C
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.5-0.25
+
+   Main BP: Gigant_Character_BP_Shad_C
+      Entry Weight:                   0.002
+      Spawn Limit:                             0.002
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.002
+      Spawn Limit:                             0.002
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.002
+      Spawn Limit:                             0.002
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.002
+      Spawn Limit:                             0.002
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.002
+      Spawn Limit:                             0.002
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.002
+      Spawn Limit:                             0.002
+      Multi Spawn Chance:                               1.0
+
+   Main BP: Gigant_Character_BP_Shad_Tek_C
+      Entry Weight:                   0.008
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.008
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.008
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.008
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0
+
+   Main BP: Gigantoraptor_Character_BP_Shad_C
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0
+
+   Main BP: Griffin_Character_BP_Shad_C
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0
+
+   Main BP: Megalania_Character_BP_Aberrant_Shad_C
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0
+
+   Main BP: Megatherium_Character_BP_Shad_Aberrant_C
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0
+
+   Main BP: Oviraptor_Character_BP_Shad_C
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0
+
+   Main BP: SCRStygi_Character_BP_C
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.8-0.6
+
+   Main BP: Shastasaurus_Character_BP_C
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0
+
+   Main BP: SpineyLizard_Character_BP_Shad_Aberrant_C
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0-0.6
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0-0.6
+
+   Main BP: Spino_Character_BP_Shad_C
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0
+
+   Main BP: Stego_Character_BP_Shad_C
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0-0.75-0.5
+
+   Main BP: ValMegaraptor_Character_BP_Shad_C
+      Entry Weight:                   0.015
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0
+
+   Main BP: Wyvern_Character_BP_ShadForest_C
+      Entry Weight:                   0.06
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0-0.5
+
+   Main BP: Yeti_Character_BP_Shad_C
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.045
+      Spawn Limit:                             0.045
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.045
+      Spawn Limit:                             0.045
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.045
+      Spawn Limit:                             0.045
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.045
+      Spawn Limit:                             0.045
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.045
+      Spawn Limit:                             0.045
+      Multi Spawn Chance:                               1.0-0.5
+

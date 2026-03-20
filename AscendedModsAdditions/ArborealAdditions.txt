@@ -1,0 +1,365 @@
+Engram Entries: 
+   EngramEntry_AA_DreadRunes_C
+   EngramEntry_AA_AndrewsarchusSaddle_C
+   EngramEntry_AA_MaewingSaddle_C
+   EngramEntry_AA_MagmasaurSaddle_C
+   EngramEntry_AA_MegachelonSaddle_C
+   EngramEntry_AA_AmargasaurusSaddle_C
+   EngramEntry_AA_ExoMek_C
+   EngramEntry_AA_TropeognathusSaddle_C
+   EngramEntry_AA_TekStriderHarvester_C
+   EngramEntry_AA_TekStryder_C
+   EngramEntry_AA_TekStriderMachinegun_C
+   EngramEntry_AA_TekStriderRadar_C
+   EngramEntry_AA_TekStriderSilenceCannon_C
+   EngramEntry_AA_TekStriderLargeCannon_C
+   EngramEntry_AA_TekStriderOnesidedShield_C
+   EngramEntry_AA_TekStriderShield_C
+   EngramEntry_AA_TekStriderSaddlebags_C
+   EngramEntry_AA_RubbleGolemSpawner_C
+   EngramEntry_AA_Canoe_C
+   EngramEntry_AA_MegaraptorSaddle_C
+   EngramEntry_AA_LionSaddle_C
+   EngramEntry_AA_TigerSaddle_C
+   EngramEntry_AA_LargeCrabSaddle_C
+   EngramEntry_AA_ElephantSaddle_C
+   EngramEntry_AA_PigSaddle_C
+   EngramEntry_AA_ManticoreArmor_C
+   EngramEntry_AA_HorseSaddle_C
+   EngramEntry_AA_WolfSaddle_C
+   EngramEntry_AA_ArmoredRhinoSaddle_C
+   EngramEntry_AA_PhoenixSaddle_C
+
+Dino Entries: 
+   AA_Horse_C
+   AA_Tiger_C
+   AA_Elephant_C
+   AA_Lion_C
+   AA_Chicken_C
+
+
+Global Entry Weights: 
+   Main BP: Allo_Character_BP_C
+      SubBP: Allo_Character_BP_C 1.0
+      SubBP: AA_RAllosaurus_Character_BP_C 0.1
+   Main BP: Sauropod_Character_BP_C
+      SubBP: Sauropod_Character_BP_C 1.0
+      SubBP: AA_RBrontosaurus_Character_BP_C 0.1
+   Main BP: Turtle_Character_BP_C
+      SubBP: Turtle_Character_BP_C 1.0
+      SubBP: AA_RCarbonemys_Character_BP_C 0.1
+   Main BP: Carno_Character_BP_C
+      SubBP: Carno_Character_BP_C 1.0
+      SubBP: AA_RCarnotaurus_Character_BP_C 0.1
+   Main BP: Daeodon_Character_BP_C
+      SubBP: Daeodon_Character_BP_C 1.0
+      SubBP: AA_RDaeodon_Character_BP_C 0.1
+   Main BP: Dilo_Character_BP_C
+      SubBP: Dilo_Character_BP_C 1.0
+      SubBP: AA_RDilophosaur_Character_BP_C 0.1
+   Main BP: Direbear_Character_BP_C
+      SubBP: Direbear_Character_BP_C 1.0
+      SubBP: AA_RDirebear_Character_BP_C 0.1
+   Main BP: Direwolf_Character_BP_C
+      SubBP: Direwolf_Character_BP_C 1.0
+      SubBP: AA_RDirewolf_Character_BP_C 0.1
+   Main BP: Equus_Character_BP_C
+      SubBP: Equus_Character_BP_C 1.0
+      SubBP: AA_REquus_Character_BP_C 0.1
+   Main BP: GasBags_Character_BP_C
+      SubBP: GasBags_Character_BP_C 1.0
+      SubBP: AA_RGasbag_Character_BP_C 0.1
+   Main BP: Gigant_Character_BP_C
+      SubBP: Gigant_Character_BP_C 1.0
+      SubBP: AA_RGiganotosaurus_Character_BP_C 0.1
+   Main BP: Megatherium_Character_BP_C
+      SubBP: Megatherium_Character_BP_C 1.0
+      SubBP: AA_RMegatherium_Character_BP_C 0.1
+   Main BP: Para_Character_BP_C
+      SubBP: Para_Character_BP_C 1.0
+      SubBP: AA_RParasaur_Character_BP_C 0.1
+   Main BP: Procoptodon_Character_BP_C
+      SubBP: Procoptodon_Character_BP_C 1.0
+      SubBP: AA_RProcoptodon_Character_BP_C 0.1
+   Main BP: Quetz_Character_BP_C
+      SubBP: Quetz_Character_BP_C 1.0
+      SubBP: AA_RQuetzal_Character_BP_C 0.1
+   Main BP: Xenomorph_Character_BP_Male_C
+      SubBP: Xenomorph_Character_BP_Male_C 1.0
+      SubBP: AA_RReaperKing_Character_BP_C 0.1
+   Main BP: Xenomorph_Character_BP_Female_C
+      SubBP: Xenomorph_Character_BP_Female_C 1.0
+      SubBP: AA_RReaperQueen_Character_BP_C 0.1
+   Main BP: Owl_Character_BP_C
+      SubBP: Owl_Character_BP_C 1.0
+      SubBP: AA_RSnowOwl_Character_BP_C 0.1
+   Main BP: Thylacoleo_Character_BP_C
+      SubBP: Thylacoleo_Character_BP_C 1.0
+      SubBP: AA_RThylacoleo_Character_BP_C 0.1
+   Main BP: Spindles_Character_BP_C
+      SubBP: Spindles_Character_BP_C 1.0
+      SubBP: AA_RVelonasaur_Character_BP_C 0.1
+   Main BP: Argent_Character_BP_C
+      SubBP: Argent_Character_BP_C 1.0
+      SubBP: AA_XArgentavis_Character_BP_C 0.1
+   Main BP: Basilosaurus_Character_BP_C
+      SubBP: Basilosaurus_Character_BP_C 1.0
+      SubBP: AA_XBasilosaurus_Character_BP_C 0.1
+   Main BP: Dunkle_Character_BP_C
+      SubBP: Dunkle_Character_BP_C 1.0
+      SubBP: AA_XDunkleosteus_Character_BP_C 0.1
+   Main BP: Dolphin_Character_BP_C
+      SubBP: Dolphin_Character_BP_C 1.0
+      SubBP: AA_XIchthyosaurus_Character_BP_C 0.1
+   Main BP: Megalodon_Character_BP_C
+      SubBP: Megalodon_Character_BP_C 1.0
+      SubBP: AA_XMegalodon_Character_BP_C 0.1
+   Main BP: Mosa_Character_BP_C
+      SubBP: Mosa_Character_BP_C 1.0
+      SubBP: AA_XMosasaur_Character_BP_C 0.1
+   Main BP: Otter_Character_BP_C
+      SubBP: Otter_Character_BP_C 1.0
+      SubBP: AA_XOtter_Character_BP_C 0.1
+   Main BP: Paracer_Character_BP_C
+      SubBP: Paracer_Character_BP_C 1.0
+      SubBP: AA_XParaceratherium_Character_BP_C 0.1
+   Main BP: Raptor_Character_BP_C
+      SubBP: Raptor_Character_BP_C 1.0
+      SubBP: AA_XRaptor_Character_BP_C 0.1
+   Main BP: Saber_Character_BP_C
+      SubBP: Saber_Character_BP_C 1.0
+      SubBP: AA_XSabertooth_Character_BP_C 0.1
+   Main BP: Salmon_Character_BP_C
+      SubBP: Salmon_Character_BP_C 1.0
+      SubBP: AA_XSabertoothSalmon_Character_BP_C 0.1
+   Main BP: Spino_Character_BP_C
+      SubBP: Spino_Character_BP_C 1.0
+      SubBP: AA_XSpino_Character_BP_C 0.1
+   Main BP: Rhino_Character_BP_C
+      SubBP: Rhino_Character_BP_C 1.0
+      SubBP: AA_XWoollyRhino_Character_BP_C 0.1
+   Main BP: Yutyrannus_Character_BP_C
+      SubBP: Yutyrannus_Character_BP_C 1.0
+      SubBP: AA_XYutyrannus_Character_BP_C 0.1
+   Main BP: Bison_Character_BP_C
+      SubBP: Bison_Character_BP_C 1.0
+      SubBP: AA_AberrantBison_Character_BP_C 0.05
+   Main BP: Ceratosaurus_Character_BP_ASA_C
+      SubBP: Ceratosaurus_Character_BP_ASA_C 1.0
+      SubBP: AA_AberrantCeratosaurus_Character_BP_C 0.05
+   Main BP: DeinosuchusASA_Character_BP_C
+      SubBP: DeinosuchusASA_Character_BP_C 1.0
+      SubBP: AA_AberrantDeinosuchus_Character_BP_C 0.05
+   Main BP: DeinotheriumASA_Character_BP_C
+      SubBP: DeinotheriumASA_Character_BP_C 1.0
+      SubBP: AA_AberrantDeinotherium_Character_BP_C 0.05
+   Main BP: Griffin_Character_BP_C
+      SubBP: Griffin_Character_BP_C 1.0
+      SubBP: AA_AberrantGriffin_Character_BP_C 0.05
+   Main BP: Maelizard_Character_BP_C
+      SubBP: Maelizard_Character_BP_C 1.0
+      SubBP: AA_AberrantMaeguana_Character_BP_C 0.05
+   Main BP: Rhynio_Character_BP_C
+      SubBP: Rhynio_Character_BP_C 1.0
+      SubBP: AA_AberrantRhyniognatha_Character_BP_C 0.05
+   Main BP: Shastasaurus_Character_BP_C
+      SubBP: Shastasaurus_Character_BP_C 1.0
+      SubBP: AA_AberrantShastasaurus_Character_BP_C 0.05
+   Main BP: Xiphactinus_Character_BP_ASA_C
+      SubBP: Xiphactinus_Character_BP_ASA_C 1.0
+      SubBP: AA_AberrantXiphactinus_Character_BP_C 0.05
+   Main BP: AA_Dreadmare_Character_BP_C
+      SubBP: AA_Dreadmare_Character_BP_C 1.0
+      SubBP: AA_AberrantDreadmare_Character_BP_C 0.05
+   Main BP: AA_AutumnDrakeling_Character_BP_C
+      SubBP: AA_AutumnDrakeling_Character_BP_C 1.0
+      SubBP: AA_AberrantAutumnDrakeling_Character_BP_C 0.05
+   Main BP: AA_SpringDrakeling_Character_BP_C
+      SubBP: AA_SpringDrakeling_Character_BP_C 1.0
+      SubBP: AA_AberrantSpringDrakeling_Character_BP_C 0.05
+   Main BP: AA_SummerDrakeling_Character_BP_C
+      SubBP: AA_SummerDrakeling_Character_BP_C 1.0
+      SubBP: AA_AberrantSummerDrakeling_Character_BP_C 0.05
+   Main BP: AA_WinterDrakeling_Character_BP_C
+      SubBP: AA_WinterDrakeling_Character_BP_C 1.0
+      SubBP: AA_AberrantWinterDrakeling_Character_BP_C 0.05
+   Main BP: AA_Dreadnoughtus_Character_BP_C
+      SubBP: AA_Dreadnoughtus_Character_BP_C 1.0
+      SubBP: AA_AberrantDreadnoughtus_Character_BP_C 0.05
+   Main BP: AA_Maewing_Character_BP_C
+      SubBP: AA_Maewing_Character_BP_C 1.0
+      SubBP: AA_AberrantMaewing_Character_BP_C 0.05
+   Main BP: AA_Amargasaurus_Character_BP_C
+      SubBP: AA_Amargasaurus_Character_BP_C 1.0
+      SubBP: AA_AberrantAmargasaurus_Character_BP_C 0.05
+   Main BP: AA_Andrewsarchus_Character_BP_C
+      SubBP: AA_Andrewsarchus_Character_BP_C 1.0
+      SubBP: AA_AberrantAndrewsarchus_Character_BP_C 0.05
+   Main BP: AA_Sinomacrops_Character_BP_C
+      SubBP: AA_Sinomacrops_Character_BP_C 1.0
+      SubBP: AA_AberrantSinomacrops_Character_BP_C 0.05
+   Main BP: Moth_Character_BP_C
+      SubBP: Moth_Character_BP_C 1.0
+      SubBP: AA_Mothling_Character_BP_C 0.15
+   Main BP: Diplodocus_Character_BP_C
+      SubBP: Diplodocus_Character_BP_C 1.0
+      SubBP: AA_Amargasaurus_Character_BP_C 0.15
+   Main BP: Equus_Character_BP_C
+      SubBP: Equus_Character_BP_C 1.0
+      SubBP: AA_Andrewsarchus_Character_BP_C 0.15
+   Main BP: Wyvern_Character_BP_Fire_C
+      SubBP: Wyvern_Character_BP_Fire_C 1.0
+      SubBP: AA_Ember_CrystalWyvern_Character_BP_C 0.2
+   Main BP: Wyvern_Character_BP_Lightning_C
+      SubBP: Wyvern_Character_BP_Lightning_C 1.0
+      SubBP: AA_Tropical_CrystalWyvern_Character_BP_C 0.2
+   Main BP: Wyvern_Character_BP_Poison_C
+      SubBP: Wyvern_Character_BP_Poison_C 1.0
+      SubBP: AA_Blood_CrystalWyvern_Character_BP_C 0.2
+   Main BP: Dimorph_Character_BP_C
+      SubBP: Dimorph_Character_BP_C 1.0
+      SubBP: AA_Sinomacrops_Character_BP_C 0.15
+   Main BP: Ptero_Character_BP_C
+      SubBP: Ptero_Character_BP_C 1.0
+      SubBP: AA_Tropeognathus_Character_BP_C 0.15
+   Main BP: Deinonychus_Character_BP_C
+      SubBP: Deinonychus_Character_BP_C 1.0
+      SubBP: AA_AberrantDeinonychus_Character_BP_C 0.05
+   Main BP: Helicoprion_Character_BP_C
+      SubBP: Helicoprion_Character_BP_C 1.0
+      SubBP: AA_AberrantHelicoprion_Character_BP_C 0.05
+   Main BP: ValMegaraptor_Character_BP_C
+      SubBP: ValMegaraptor_Character_BP_C 1.0
+      SubBP: AA_AberrantMegaraptor_Character_BP_C 0.05
+   Main BP: Bigfoot_Character_BP_C
+      SubBP: Bigfoot_Character_BP_C 1.0
+      SubBP: AA_Dinopithecus_Character_BP_C 0.15
+   Main BP: Allo_Character_BP_C
+      SubBP: Allo_Character_BP_C 1.0
+      SubBP: AA_XAllosaurus_Character_BP_C 0.1
+   Main BP: Ankylo_Character_BP_C
+      SubBP: Ankylo_Character_BP_C 1.0
+      SubBP: AA_XAnkylosaurus_Character_BP_C 0.1
+   Main BP: Trike_Character_BP_C
+      SubBP: Trike_Character_BP_C 1.0
+      SubBP: AA_XTrike_Character_BP_C 0.1
+   Main BP: Angler_Character_BP_C
+      SubBP: Angler_Character_BP_C 1.0
+      SubBP: AA_Angler_Character_BP_C 0.1
+   Main BP: Rhino_Character_BP_C
+      SubBP: Rhino_Character_BP_C 1.0
+      SubBP: AA_ArmoredRhino_Character_BP_C 0.1
+   Main BP: Bat_Character_BP_C
+      SubBP: Bat_Character_BP_C 1.0
+      SubBP: AA_Bat_Character_BP_C 0.1
+   Main BP: Salmon_Character_BP_C
+      SubBP: Salmon_Character_BP_C 1.0
+      SubBP: AA_Catfish_Character_BP_C 0.1
+   Main BP: Dodo_Character_BP_C
+      SubBP: Dodo_Character_BP_C 1.0
+      SubBP: AA_Chicken_Character_BP_C 0.1
+   Main BP: Mammoth_Character_BP_C
+      SubBP: Mammoth_Character_BP_C 1.0
+      SubBP: AA_Elephant_Character_BP_C 0.1
+   Main BP: Turtle_Character_BP_C
+      SubBP: Turtle_Character_BP_C 1.0
+      SubBP: AA_GiantTurtle_Character_BP_C 0.1
+   Main BP: Megalodon_Character_BP_C
+      SubBP: Megalodon_Character_BP_C 1.0
+      SubBP: AA_Hammerhead_Character_BP_C 0.1
+   Main BP: Equus_Character_BP_C
+      SubBP: Equus_Character_BP_C 1.0
+      SubBP: AA_Horse_Character_BP_C 0.25
+   Main BP: AA_Horse_Character_BP_C
+      SubBP: AA_Horse_Character_BP_C 1.0
+      SubBP: AA_ConcreteHorse_Character_BP_C 0.1
+   Main BP: AA_Horse_Character_BP_C
+      SubBP: AA_Horse_Character_BP_C 1.0
+      SubBP: AA_SpottedHorse_Character_BP_C 0.1
+   Main BP: AA_Horse_Character_BP_C
+      SubBP: AA_Horse_Character_BP_C 1.0
+      SubBP: AA_SnowflakeHorse_Character_BP_C 0.1
+   Main BP: AA_Horse_Character_BP_C
+      SubBP: AA_Horse_Character_BP_C 1.0
+      SubBP: AA_FloralHorse_Character_BP_C 0.1
+   Main BP: AA_Horse_Character_BP_C
+      SubBP: AA_Horse_Character_BP_C 1.0
+      SubBP: AA_GalaxyHorse_Character_BP_C 0.01
+   Main BP: AA_Horse_Character_BP_C
+      SubBP: AA_Horse_Character_BP_C 1.0
+      SubBP: AA_LightningHorse_Character_BP_C 0.01
+   Main BP: AA_Horse_Character_BP_C
+      SubBP: AA_Horse_Character_BP_C 1.0
+      SubBP: AA_RunicHorse_Character_BP_C 0.01
+   Main BP: Cnidaria_Character_BP_C
+      SubBP: Cnidaria_Character_BP_C 1.0
+      SubBP: AA_Jellyfish_Character_BP_C 0.1
+   Main BP: Crab_Character_BP_C
+      SubBP: Crab_Character_BP_C 1.0
+      SubBP: AA_LargeCrab_Character_BP_C 0.1
+   Main BP: AA_LargeCrab_Character_BP_C
+      SubBP: AA_LargeCrab_Character_BP_C 1.0
+      SubBP: AA_LargeCrystalCrab_Character_BP_C 0.05
+   Main BP: Saber_Character_BP_C
+      SubBP: Saber_Character_BP_C 1.0
+      SubBP: AA_Lion_Character_BP_C 0.1
+   Main BP: Manta_Character_BP_C
+      SubBP: Manta_Character_BP_C 1.0
+      SubBP: AA_MantaRay_Character_BP_C 0.1
+   Main BP: Salmon_Character_BP_C
+      SubBP: Salmon_Character_BP_C 1.0
+      SubBP: AA_Marlin_Character_BP_C 0.1
+   Main BP: Monkey_Character_BP_C
+      SubBP: Monkey_Character_BP_C 1.0
+      SubBP: AA_Monkey_Character_BP_C 0.1
+   Main BP: Kairuku_Character_BP_C
+      SubBP: Kairuku_Character_BP_C 1.0
+      SubBP: AA_Penguin_Character_BP_C 0.1
+   Main BP: Daeodon_Character_BP_C
+      SubBP: Daeodon_Character_BP_C 1.0
+      SubBP: AA_Pig_Character_BP_C 0.1
+   Main BP: BoaFrill_Character_BP_C
+      SubBP: BoaFrill_Character_BP_C 1.0
+      SubBP: AA_Rattlesnake_Character_BP_C 0.1
+   Main BP: Yutyrannus_Character_BP_C
+      SubBP: Yutyrannus_Character_BP_C 1.0
+      SubBP: AA_Razortooth_Character_BP_C 0.1
+   Main BP: RockGolem_Character_BP_C
+      SubBP: RockGolem_Character_BP_C 1.0
+      SubBP: AA_RockElemental_Character_BP_C 0.1
+   Main BP: Scorpion_Character_BP_C
+      SubBP: Scorpion_Character_BP_C 1.0
+      SubBP: AA_Scorpion_Character_BP_C 0.1
+   Main BP: Sheep_Character_BP_C
+      SubBP: Sheep_Character_BP_C 1.0
+      SubBP: AA_Sheep_Character_BP_C 0.1
+   Main BP: Trike_Character_BP_C
+      SubBP: Trike_Character_BP_C 1.0
+      SubBP: AA_Shieldhorn_Character_BP_C 0.1
+   Main BP: SpiderS_Character_BP_C
+      SubBP: SpiderS_Character_BP_C 1.0
+      SubBP: AA_Spider_Character_BP_C 0.1
+   Main BP: Tusoteuthis_Character_BP_C
+      SubBP: Tusoteuthis_Character_BP_C 1.0
+      SubBP: AA_Squid_Character_BP_C 0.1
+   Main BP: Thylacoleo_Character_BP_C
+      SubBP: Thylacoleo_Character_BP_C 1.0
+      SubBP: AA_Tiger_Character_BP_C 0.1
+   Main BP: Vulture_Character_BP_C
+      SubBP: Vulture_Character_BP_C 1.0
+      SubBP: AA_Vulture_Character_BP_C 0.1
+   Main BP: Direwolf_Character_BP_C
+      SubBP: Direwolf_Character_BP_C 1.0
+      SubBP: AA_Wolf_Character_BP_C 0.1
+   Main BP: Salmon_Character_BP_C
+      SubBP: Salmon_Character_BP_C 1.0
+      SubBP: AA_Cod_Character_BP_C 0.1
+   Main BP: Sarco_Character_BP_C
+      SubBP: Sarco_Character_BP_C 1.0
+      SubBP: AA_Crocodile_Character_BP_C 0.1
+   Main BP: Archa_Character_BP_C
+      SubBP: Archa_Character_BP_C 1.0
+      SubBP: AA_Crow_Character_BP_C 0.1
+   Main BP: Bigfoot_Character_BP_C
+      SubBP: Bigfoot_Character_BP_C 1.0
+      SubBP: AA_Yeti_Character_BP_C 0.1
