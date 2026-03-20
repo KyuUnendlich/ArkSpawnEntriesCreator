@@ -34,21 +34,61 @@ Container Name: null
       Entry Weight: 1.0
       Spawn Limit: 0.1
       Multi Spawn Chance: 0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_RainbowStarChicken_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_StarCat_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1
 Container Name: null
    Entry Name: 
       Main BP: RR_StarChicken_Character_BP_C
       Entry Weight: 1.0
       Spawn Limit: 0.1
       Multi Spawn Chance: 0.1-0.1-0.1
-Container Name: null
    Entry Name: 
-      Main BP: RR_RainbowStarCrow_Character_BP_C
+      Main BP: RR_RainbowStarChicken_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_StarCat_Character_BP_C
       Entry Weight: 1.0
       Spawn Limit: 0.1
       Multi Spawn Chance: 0.1-0.1-0.1
 Container Name: null
    Entry Name: 
       Main BP: RR_RainbowStarCrow_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_RainbowStarRabbit_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_RainbowStarCat_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1
+Container Name: null
+   Entry Name: 
+      Main BP: RR_RainbowStarCrow_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_RainbowStarRabbit_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_RainbowStarCat_Character_BP_C
       Entry Weight: 1.0
       Spawn Limit: 0.1
       Multi Spawn Chance: 0.1-0.1-0.1
@@ -58,11 +98,71 @@ Container Name: null
       Entry Weight: 1.0
       Spawn Limit: 0.1
       Multi Spawn Chance: 0.1-0.1-0.1-0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_StarPig_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_StarRabbit_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_RainbowStarPony_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_StarPony_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_RainbowStarCowBull_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_StarCrow_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1-0.1-0.1-0.1
 Container Name: null
    Entry Name: 
       Main BP: RR_RainbowStarPig_Character_BP_C
       Entry Weight: 1.0
       Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_StarPig_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_StarRabbit_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_RainbowStarPony_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_StarPony_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_RainbowStarCowBull_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_StarCrow_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: Error, wrong BP or couldnt be found
       Multi Spawn Chance: 0.1-0.1-0.1-0.1-0.1-0.1-0.1
 Container Name: null
    Entry Name: 
@@ -70,14 +170,78 @@ Container Name: null
       Entry Weight: 1.0
       Spawn Limit: 0.1
       Multi Spawn Chance: 0.1-0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_StarHorse_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_RainbowStarSheep_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_StarSheep_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_StarCowBull_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1-0.1
 Container Name: null
    Entry Name: 
       Main BP: RR_RainbowStarHorse_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_StarHorse_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_RainbowStarSheep_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_StarSheep_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_StarCowBull_Character_BP_C
       Entry Weight: 1.0
       Spawn Limit: 0.1
       Multi Spawn Chance: 0.1-0.1-0.1-0.1-0.1
 
 MultiParams Summary: 
+   Main BP: RR_RainbowStarCat_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1
+
+   Main BP: RR_RainbowStarChicken_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1
+
+   Main BP: RR_RainbowStarCowBull_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1-0.1-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1-0.1-0.1-0.1
+
    Main BP: RR_RainbowStarCrow_Character_BP_C
       Entry Weight:                   1.0
       Spawn Limit:                             0.1
@@ -102,6 +266,38 @@ MultiParams Summary:
       Spawn Limit:                             0.1
       Multi Spawn Chance:                               0.1-0.1-0.1-0.1-0.1-0.1-0.1
 
+   Main BP: RR_RainbowStarPony_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1-0.1-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1-0.1-0.1-0.1
+
+   Main BP: RR_RainbowStarRabbit_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1
+
+   Main BP: RR_RainbowStarSheep_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1-0.1
+
+   Main BP: RR_StarCat_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1
+
    Main BP: RR_StarChicken_Character_BP_C
       Entry Weight:                   1.0
       Spawn Limit:                             0.1
@@ -109,4 +305,60 @@ MultiParams Summary:
       Entry Weight:                   1.0
       Spawn Limit:                             0.1
       Multi Spawn Chance:                               0.1-0.1-0.1
+
+   Main BP: RR_StarCowBull_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1-0.1
+
+   Main BP: RR_StarCrow_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1-0.1-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1-0.1-0.1-0.1
+
+   Main BP: RR_StarHorse_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1-0.1
+
+   Main BP: RR_StarPig_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1-0.1-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1-0.1-0.1-0.1
+
+   Main BP: RR_StarPony_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1-0.1-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1-0.1-0.1-0.1
+
+   Main BP: RR_StarRabbit_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1-0.1-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1-0.1-0.1-0.1
+
+   Main BP: RR_StarSheep_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1-0.1
 

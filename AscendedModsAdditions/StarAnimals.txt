@@ -33,11 +33,15 @@ Container Name: null
       Entry Weight: 1.0
       Spawn Limit: 0.05
       Multi Spawn Chance: 0.05-0.1-0.1
-Container Name: null
    Entry Name: 
-      Main BP: RR_AlphaStarHammerheadShark_Character_BP_C
+      Main BP: RR_RainbowStarHammerheadShark_Character_BP_C
       Entry Weight: 1.0
-      Spawn Limit: 0.05
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.05-0.1-0.1
+   Entry Name: 
+      Main BP: RR_StarHammerheadShark_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
       Multi Spawn Chance: 0.05-0.1-0.1
 Container Name: null
    Entry Name: 
@@ -45,21 +49,71 @@ Container Name: null
       Entry Weight: 1.0
       Spawn Limit: 0.05
       Multi Spawn Chance: 0.05-0.1-0.1
+   Entry Name: 
+      Main BP: RR_RainbowStarHammerheadShark_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.05-0.1-0.1
+   Entry Name: 
+      Main BP: RR_StarHammerheadShark_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.05-0.1-0.1
+Container Name: null
+   Entry Name: 
+      Main BP: RR_AlphaStarHammerheadShark_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 0.05-0.1-0.1
+   Entry Name: 
+      Main BP: RR_RainbowStarHammerheadShark_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.05-0.1-0.1
+   Entry Name: 
+      Main BP: RR_StarHammerheadShark_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.05-0.1-0.1
 Container Name: null
    Entry Name: 
       Main BP: RR_RainbowStarLeatherwing_Character_BP_C
       Entry Weight: 1.0
       Spawn Limit: 0.1
       Multi Spawn Chance: 0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_StarLeatherwing_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_RainbowStarCarrierTurtle_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_StarCarrierTurtle_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1
 Container Name: null
    Entry Name: 
       Main BP: RR_RainbowStarLeatherwing_Character_BP_C
       Entry Weight: 1.0
       Spawn Limit: 0.1
       Multi Spawn Chance: 0.1-0.1-0.1-0.1
-Container Name: null
    Entry Name: 
-      Main BP: RR_RainbowStarShieldhorn_Character_BP_C
+      Main BP: RR_StarLeatherwing_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_RainbowStarCarrierTurtle_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_StarCarrierTurtle_Character_BP_C
       Entry Weight: 1.0
       Spawn Limit: 0.1
       Multi Spawn Chance: 0.1-0.1-0.1-0.1
@@ -69,9 +123,60 @@ Container Name: null
       Entry Weight: 1.0
       Spawn Limit: 0.1
       Multi Spawn Chance: 0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_StarShieldhorn_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_RainbowStarOstrich_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_StarOstrich_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1
 Container Name: null
    Entry Name: 
       Main BP: RR_RainbowStarShieldhorn_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_StarShieldhorn_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_RainbowStarOstrich_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_StarOstrich_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1
+Container Name: null
+   Entry Name: 
+      Main BP: RR_RainbowStarShieldhorn_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_StarShieldhorn_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_RainbowStarOstrich_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_StarOstrich_Character_BP_C
       Entry Weight: 1.0
       Spawn Limit: 0.1
       Multi Spawn Chance: 0.1-0.1-0.1-0.1
@@ -81,21 +186,61 @@ Container Name: null
       Entry Weight: 1.0
       Spawn Limit: 0.1
       Multi Spawn Chance: 0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_StarTrikehorn_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_RainbowStarVelociraptor_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_StarVelociraptor_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1
 Container Name: null
    Entry Name: 
       Main BP: RR_RainbowStarTrikehorn_Character_BP_C
       Entry Weight: 1.0
       Spawn Limit: 0.1
       Multi Spawn Chance: 0.1-0.1-0.1-0.1
-Container Name: null
    Entry Name: 
-      Main BP: RR_RainbowStarRazortooth_Character_BP_C
+      Main BP: RR_StarTrikehorn_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_RainbowStarVelociraptor_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_StarVelociraptor_Character_BP_C
       Entry Weight: 1.0
       Spawn Limit: 0.1
       Multi Spawn Chance: 0.1-0.1-0.1-0.1
 Container Name: null
    Entry Name: 
       Main BP: RR_RainbowStarRazortooth_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_StarRazortooth_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1
+Container Name: null
+   Entry Name: 
+      Main BP: RR_RainbowStarRazortooth_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1
+   Entry Name: 
+      Main BP: RR_StarRazortooth_Character_BP_C
       Entry Weight: 1.0
       Spawn Limit: 0.1
       Multi Spawn Chance: 0.1-0.1-0.1-0.1
@@ -112,7 +257,37 @@ MultiParams Summary:
       Spawn Limit:                             0.05
       Multi Spawn Chance:                               0.05-0.1-0.1
 
+   Main BP: RR_RainbowStarCarrierTurtle_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1
+
+   Main BP: RR_RainbowStarHammerheadShark_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.05-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.05-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.05-0.1-0.1
+
    Main BP: RR_RainbowStarLeatherwing_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1
+
+   Main BP: RR_RainbowStarOstrich_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1
       Entry Weight:                   1.0
       Spawn Limit:                             0.1
       Multi Spawn Chance:                               0.1-0.1-0.1-0.1
@@ -140,6 +315,87 @@ MultiParams Summary:
       Multi Spawn Chance:                               0.1-0.1-0.1-0.1
 
    Main BP: RR_RainbowStarTrikehorn_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1
+
+   Main BP: RR_RainbowStarVelociraptor_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1
+
+   Main BP: RR_StarCarrierTurtle_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1
+
+   Main BP: RR_StarHammerheadShark_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.05-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.05-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.05-0.1-0.1
+
+   Main BP: RR_StarLeatherwing_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1
+
+   Main BP: RR_StarOstrich_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1
+
+   Main BP: RR_StarRazortooth_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1
+
+   Main BP: RR_StarShieldhorn_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1
+
+   Main BP: RR_StarTrikehorn_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1
+
+   Main BP: RR_StarVelociraptor_Character_BP_C
       Entry Weight:                   1.0
       Spawn Limit:                             0.1
       Multi Spawn Chance:                               0.1-0.1-0.1-0.1
