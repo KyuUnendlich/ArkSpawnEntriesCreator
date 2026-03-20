@@ -6,19 +6,91 @@ Dino Entries:
 
 Dino Additions: 
 Container Name: null
-   Entry Name: 
+   Entry Name: Carcha (1)
       Main BP: OwlGriffin_MM_Character_BP_C
       Entry Weight: 1.0
       Spawn Limit: 
-      Multi Spawn Chance: 
-
-Global Entry Weights: 
-   Main BP:             "AssetPathName": "
-      SubBP:               "AssetPathName": " 1.0
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Owl Griffin
+      Main BP: OwlGriffin_MM_Character_BP_C
+      Entry Weight: 0.0125
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Royal Owl Griffin
+      Main BP: RoyalOwlGriffin_MM_Character_BP_C
+      Entry Weight: 0.0125
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Owl Griffin
+      Main BP: OwlGriffin_MM_Character_BP_C
+      Entry Weight: 0.0125
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Royal Owl Griffin
+      Main BP: RoyalOwlGriffin_MM_Character_BP_C
+      Entry Weight: 0.0125
+      Spawn Limit: 0.3
+      Multi Spawn Chance: 1.0-0.8
+Container Name: null
+   Entry Name: Owl Griffin
+      Main BP: OwlGriffin_MM_Character_BP_C
+      Entry Weight: 0.0125
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Royal Owl Griffin
+      Main BP: RoyalOwlGriffin_MM_Character_BP_C
+      Entry Weight: 0.0125
+      Spawn Limit: 0.15
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Owl Griffin
+      Main BP: OwlGriffin_MM_Character_BP_C
+      Entry Weight: 0.0125
+      Spawn Limit: 0.3
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Royal Owl Griffin Glowing
+      Main BP: RadiantOwlGriffin_MM_Character_BP_C
+      Entry Weight: 0.0125
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
 
 MultiParams Summary: 
    Main BP: OwlGriffin_MM_Character_BP_C
       Entry Weight:                   1.0
       Spawn Limit:                             
-      Multi Spawn Chance:                               
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.0125
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.0125
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.0125
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.0125
+      Spawn Limit:                             0.3
+      Multi Spawn Chance:                               1.0
+
+   Main BP: RadiantOwlGriffin_MM_Character_BP_C
+      Entry Weight:                   0.0125
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+
+   Main BP: RoyalOwlGriffin_MM_Character_BP_C
+      Entry Weight:                   0.0125
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.0125
+      Spawn Limit:                             0.3
+      Multi Spawn Chance:                               1.0-0.8
+      Entry Weight:                   0.0125
+      Spawn Limit:                             0.15
+      Multi Spawn Chance:                               1.0
 

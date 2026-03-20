@@ -37,6 +37,8 @@ namespace ArkSpawnEntriesCreator
             //ASE_Things.CompareCSVFileEntriesAllValues();
 
             ExtractAdditionalNPCSpawnValues();
+
+            ASAExtractor();
         }
 
         private static void ExtractAdditionalNPCSpawnValues()
@@ -110,12 +112,15 @@ namespace ArkSpawnEntriesCreator
                 //Write Engram Entries
                 if (text.Contains("BlueprintGeneratedClass"))
                 {
-                    int first_index = text.LastIndexOf(":") + 27;
-                    int last_index = text.LastIndexOf(",") - 2;
-                    string engramEntry = text.Substring(first_index, last_index - first_index);
+                    if (!text.Contains("PrimalItem"))
+                    {
+                        int first_index = text.LastIndexOf(":") + 27;
+                        int last_index = text.LastIndexOf(",") - 2;
+                        string engramEntry = text.Substring(first_index, last_index - first_index);
 
-                    sb_engramEntries.AppendLine("   "+ engramEntry);
-                    foundEngramEntry = true;
+                        sb_engramEntries.AppendLine("   " + engramEntry);
+                        foundEngramEntry = true;
+                    }
                 }
 
                 if (text.Contains("AdditionalDinoEntries")) {
@@ -790,6 +795,7 @@ namespace ArkSpawnEntriesCreator
             }
         }
 
+
         enum Mod
         {
             Prehistoric1, //Beasts
@@ -914,12 +920,32 @@ namespace ArkSpawnEntriesCreator
             NoUntameables,
 
         }
+
         //There is now a branch (multi-main-bp) for Mods that have one addition per container with multiple different dinos
         //const string Path = "C:/Users/matth/Desktop/Ascended/AtlasFish.txt";
         const bool replaceFile = true;
         const bool secondString2 = false;
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/DeimosShantungo.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/Prehistoric3.txt";
+
+        public static void ASAExtractor()
+        {
+            if (replaceFile)
+            {
+                File.Delete(Path);
+            }
+            const string path = "E:/ARK Saves/ArkSpawnEntriesCreator/strings.txt";
+
+            ASA_TextExtractor.ExtractEngrams(path);
+            ASA_TextExtractor.ExtractDino(path);
+            ASA_TextExtractor.ExtractRemaps(path);
+            List<SpawnContainer> spawnContainers = ASA_TextExtractor.ExtractDinoAdditions(path);
+            List<SpawnEntry> globalEntries = ASA_TextExtractor.ExtractGlobalReplacement(path);
+            ASA_TextExtractor.CreateDinoAdditionsSB(spawnContainers, path);
+            ASA_TextExtractor.CreateGlobalAdditionsSB(globalEntries, path);
+            ASA_TextExtractor.CreateMultiParamSummary(spawnContainers, path);
+        }
     }
+
 
 
     public struct SpawnContainer
