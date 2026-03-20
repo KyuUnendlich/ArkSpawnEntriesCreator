@@ -1,0 +1,47 @@
+Engram Entries: 
+   EngramEntry_Saddle_Stygi_C
+
+Dino Entries: 
+   Stygi_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Stygi
+      Main BP: Stygi_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Stygi (1)
+      Main BP: Stygi_Character_BP_C
+      Entry Weight: 0.125
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Stygi (1)
+      Main BP: Stygi_Character_BP_C
+      Entry Weight: 0.125
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Stygi
+      Main BP: Stygi_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+
+MultiParams Summary: 
+   Main BP: Stygi_Character_BP_C
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.125
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.125
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+

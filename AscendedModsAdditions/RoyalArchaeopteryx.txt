@@ -1,0 +1,53 @@
+Engram Entries: 
+   EngramEntry_RoyalArchaeImplant_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: 
+      Main BP: RoyalArchaeopteryx_Character_BP_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: 
+      Main BP: RoyalArchaeopteryx_Character_BP_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: 
+      Main BP: RoyalArchaeopteryx_Character_BP_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: 
+      Main BP: RoyalArchaeopteryx_Character_BP_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: 
+      Main BP: RoyalArchaeopteryx_Character_BP_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.5
+
+MultiParams Summary: 
+   Main BP: RoyalArchaeopteryx_Character_BP_C
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-0.5
+

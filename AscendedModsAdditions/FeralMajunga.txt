@@ -1,0 +1,152 @@
+Engram Entries: 
+   EngramEntry_TrackingDart_C
+   EngramEntry_Saddle_Majunga_C
+   EngramEntry_Saddle_Majunga_Industrial_C
+   EngramEntry_PurifiedParasites_C
+
+Dino Entries: 
+   Majungasaurus_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: 
+      Main BP: Majunga_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: 
+      Main BP: Majunga_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: 
+      Main BP: Majunga_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: 
+      Main BP: Majunga_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: 
+      Main BP: Majunga_Character_BP_Aberrant_C
+      Entry Weight: 0.015
+      Spawn Limit: 
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: 
+      Main BP: Majunga_Character_BP_Blighted_C
+      Entry Weight: 0.03
+      Spawn Limit: 
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: 
+      Main BP: Majunga_Character_BP_Blighted_C
+      Entry Weight: 0.03
+      Spawn Limit: 
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: 
+      Main BP: Majunga_Character_BP_C
+      Entry Weight: 0.06
+      Spawn Limit: 
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: 
+      Main BP: Majunga_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: 
+      Main BP: Majunga_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: 
+      Main BP: Majunga_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: 
+      Main BP: Majunga_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: 
+      Main BP: Majunga_Character_BP_Aberrant_C
+      Entry Weight: 0.02
+      Spawn Limit: 
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: 
+      Main BP: Majunga_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 
+      Multi Spawn Chance: 
+
+Global Entry Weights: 
+   Main BP: Majunga_Character_BP_C
+      SubBP: Majunga_Character_BP_C 0.99
+      SubBP: Majungacorn_Character_BP_C 0.01
+   Main BP: Majunga_Character_BP_Aberrant_C
+      SubBP: Majunga_Character_BP_Aberrant_C 0.99
+      SubBP: Majungacorn_Character_BP_C 0.01
+
+MultiParams Summary: 
+   Main BP: Majunga_Character_BP_Aberrant_C
+      Entry Weight:                   0.015
+      Spawn Limit:                             
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.02
+      Spawn Limit:                             
+      Multi Spawn Chance:                               
+
+   Main BP: Majunga_Character_BP_Blighted_C
+      Entry Weight:                   0.03
+      Spawn Limit:                             
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.03
+      Spawn Limit:                             
+      Multi Spawn Chance:                               
+
+   Main BP: Majunga_Character_BP_C
+      Entry Weight:                   0.04
+      Spawn Limit:                             
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.04
+      Spawn Limit:                             
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.025
+      Spawn Limit:                             
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.06
+      Spawn Limit:                             
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.04
+      Spawn Limit:                             
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.04
+      Spawn Limit:                             
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.04
+      Spawn Limit:                             
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.04
+      Spawn Limit:                             
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.04
+      Spawn Limit:                             
+      Multi Spawn Chance:                               
+

@@ -1,0 +1,148 @@
+Engram Entries: 
+   EngramEntry_Saddle_Mutta_C
+
+Dino Entries: 
+   NMuttaburrasaurus_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Mutaburra Jungle
+      Main BP: NMuttaburrasaurus_Character_BP_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.055
+      Multi Spawn Chance: 1.0-1.0-1.0-0.45-0.2
+   Entry Name: 
+      Main BP: 
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Mutta Grassland
+      Main BP: NMuttaburrasaurus_Character_BP_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.85-0.75-0.65-0.55-0.45-0.35
+Container Name: null
+   Entry Name: Mutta CityCenter
+      Main BP: NMuttaburrasaurus_Character_BP_C
+      Entry Weight: 0.005
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.85-0.75-0.65-0.55-0.45-0.35
+Container Name: null
+   Entry Name: Mutta green desert
+      Main BP: ScorchedNMuttaburrasaurus_Character_BP_C
+      Entry Weight: 0.005
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.85-0.75-0.6-0.4-0.3-0.25
+Container Name: null
+   Entry Name: Mutaburra Oasis
+      Main BP: ScorchedNMuttaburrasaurus_Character_BP_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.045
+      Multi Spawn Chance: 1.0-1.0-1.0-0.45-0.2
+Container Name: null
+   Entry Name: Mutaburra Canyons
+      Main BP: ScorchedNMuttaburrasaurus_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-1.0-1.0-0.45-0.2
+Container Name: null
+   Entry Name: Mutaburra Desert Oasis
+      Main BP: ScorchedNMuttaburrasaurus_Character_BP_C
+      Entry Weight: 0.045
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-1.0-1.0-0.45-0.2
+Container Name: null
+   Entry Name: Mutta Grassland
+      Main BP: NMuttaburrasaurus_Character_BP_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.85-0.75-0.65-0.55-0.45-0.35
+Container Name: null
+   Entry Name: Mutaburra Jungle
+      Main BP: NMuttaburrasaurus_Character_BP_C
+      Entry Weight: 0.0225
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-1.0-1.0-0.45-0.2
+Container Name: null
+   Entry Name: Mutaburra Jungle Generic
+      Main BP: NMuttaburrasaurus_Character_BP_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.045
+      Multi Spawn Chance: 1.0-1.0-1.0-0.45-0.2
+   Entry Name: 
+      Main BP: 
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Mutaburra Jungle
+      Main BP: NMuttaburrasaurus_Character_BP_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.055
+      Multi Spawn Chance: 1.0-1.0-1.0-0.45-0.2
+Container Name: null
+   Entry Name: Mutta Grassland
+      Main BP: NMuttaburrasaurus_Character_BP_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-0.85-0.75-0.65-0.55-0.45-0.35
+Container Name: null
+   Entry Name: Mutta LC Valley Easy
+      Main BP: NMuttaburrasaurus_Character_BP_C
+      Entry Weight: 0.125
+      Spawn Limit: 0.15
+      Multi Spawn Chance: 1.0-1.0-0.5
+
+MultiParams Summary: 
+   Main BP: 
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               
+
+   Main BP: NMuttaburrasaurus_Character_BP_C
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.055
+      Multi Spawn Chance:                               1.0-1.0-1.0-0.45-0.2
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.85-0.75-0.65-0.55-0.45-0.35
+      Entry Weight:                   0.005
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.85-0.75-0.65-0.55-0.45-0.35
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.85-0.75-0.65-0.55-0.45-0.35
+      Entry Weight:                   0.0225
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-1.0-1.0-0.45-0.2
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.045
+      Multi Spawn Chance:                               1.0-1.0-1.0-0.45-0.2
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.055
+      Multi Spawn Chance:                               1.0-1.0-1.0-0.45-0.2
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.85-0.75-0.65-0.55-0.45-0.35
+      Entry Weight:                   0.125
+      Spawn Limit:                             0.15
+      Multi Spawn Chance:                               1.0-1.0-0.5
+
+   Main BP: ScorchedNMuttaburrasaurus_Character_BP_C
+      Entry Weight:                   0.005
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-0.85-0.75-0.6-0.4-0.3-0.25
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.045
+      Multi Spawn Chance:                               1.0-1.0-1.0-0.45-0.2
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-1.0-1.0-0.45-0.2
+      Entry Weight:                   0.045
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-1.0-1.0-0.45-0.2
+

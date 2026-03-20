@@ -1,0 +1,303 @@
+Engram Entries: 
+   EngramEntry_Saddle_Daemonis_C
+   EngramEntry_Coagulated-Kibble_C
+   EngramEntry_Coagulated-Spread_Consumable_C
+   EngramEntry_Daemonis_Boss_C
+
+Dino Entries: 
+   T-A-C-Daemonis_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Grasslands
+      Main BP: TAC_Daemonis_Character_BP_C_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Mountains
+      Main BP: TAC_Daemonis_Character_BP_C_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Snow
+      Main BP: TAC_Daemonis_Character_BP_C_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Badlands
+      Main BP: TAC_SE-Daemonis_Character_BP_C_Child_C
+      Entry Weight: 0.075
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Badlands
+      Main BP: TAC_SE-Daemonis_Character_BP_C_Child_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Badlands
+      Main BP: TAC_SE-Daemonis_Character_BP_C_Child_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Greenzone
+      Main BP: TAC_AB-Daemonis_Character_BP_C_Child_C
+      Entry Weight: 0.075
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Greenzone
+      Main BP: AB_Tyranno_Character_BP_Child_C
+      Entry Weight: 0.06
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Waste
+      Main BP: TAC_EX-Daemonis_Character_BP_C_Child_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Waste
+      Main BP: TAC_EX-Daemonis_Character_BP_C_Child_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Waste
+      Main BP: TAC_EX-Daemonis_Character_BP_C_Child_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Waste
+      Main BP: TAC_EX-Daemonis_Character_BP_C_Child_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Waste
+      Main BP: TAC_SE-Daemonis_Character_BP_C_Child_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Waste
+      Main BP: TAC_AB-Daemonis_Character_BP_C_Child_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Grasslands
+      Main BP: TAC_Alpha_Daemonis_Character_BP_C_Child_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Grasslands
+      Main BP: TAC_Alpha_Daemonis_Character_BP_C_Child_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Grasslands
+      Main BP: TAC_Alpha_Daemonis_Character_BP_C_Child_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Grasslands
+      Main BP: TAC_Alpha_Daemonis_Character_BP_C_Child_C
+      Entry Weight: 0.005
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Grasslands
+      Main BP: TAC_Alpha_Daemonis_Character_BP_C_Child_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Greenzone
+      Main BP: TAC_Alpha_Daemonis_Character_BP_C_Child_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Waste
+      Main BP: TAC_Alpha_Daemonis_Character_BP_C_Child_C
+      Entry Weight: 0.01
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Grasslands
+      Main BP: TAC_Alpha_Daemonis_Character_BP_C_Child_C
+      Entry Weight: 0.005
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Grasslands
+      Main BP: TAC_Daemonis_Character_BP_C_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Grasslands
+      Main BP: TAC_Daemonis_Character_BP_C_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Grasslands
+      Main BP: TAC_Daemonis_Character_BP_C_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Grasslands
+      Main BP: TAC_Daemonis_Character_BP_C_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Grasslands
+      Main BP: TAC_Daemonis_Character_BP_C_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Grasslands
+      Main BP: TAC_Daemonis_Character_BP_C_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Snow
+      Main BP: TAC_Daemonis_Character_BP_C_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Snow
+      Main BP: TAC_Daemonis_Character_BP_C_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Snow
+      Main BP: TAC_Daemonis_Character_BP_C_C
+      Entry Weight: 0.07
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+
+MultiParams Summary: 
+   Main BP: AB_Tyranno_Character_BP_Child_C
+      Entry Weight:                   0.06
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+
+   Main BP: TAC_AB-Daemonis_Character_BP_C_Child_C
+      Entry Weight:                   0.075
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+
+   Main BP: TAC_Alpha_Daemonis_Character_BP_C_Child_C
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.005
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.01
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.005
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+
+   Main BP: TAC_Daemonis_Character_BP_C_C
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.07
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+
+   Main BP: TAC_EX-Daemonis_Character_BP_C_Child_C
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+
+   Main BP: TAC_SE-Daemonis_Character_BP_C_Child_C
+      Entry Weight:                   0.075
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+

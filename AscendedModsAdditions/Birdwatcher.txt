@@ -1,0 +1,158 @@
+Engram Entries: 
+   EngramEntry_Saddle_Torvosaurus_BC_C
+   EngramEntry_Saddle_GiantSpino_BC_C
+   EngramEntry_AlphaGiantSpinoSummoner_C
+   EngramEntry_BCKibble_Super_C
+   EngramEntry_BCKibble_Small_C
+   EngramEntry_BCKibble_Medium_C
+   EngramEntry_BCKibble_Large_C
+   EngramEntry_Saddle_Shoni_Platform_BC_C
+
+Dino Entries: 
+   Torvosaurus_BC_C
+   GiantSpino_BC_C
+   Shonisaurus_BC_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Torvosaurus
+      Main BP: Torvosaurus_Character_BP_BC_C
+      Entry Weight: 0.0125
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+         SubBP: Torvosaurus_Character_BP_BC_C 0.95
+         SubBP: Torvosaurus_Character_BP_BC_Alpha_C 0.05
+Container Name: null
+   Entry Name: GiantSpino
+      Main BP: GiantSpino_Character_BP_BC_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
+         SubBP: GiantSpino_Character_BP_BC_C 0.97
+         SubBP: GiantSpino_Character_BP_BC_Alpha_C 0.03
+Container Name: null
+   Entry Name: Torvo
+      Main BP: Torvosaurus_Character_BP_BC_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+         SubBP: Torvosaurus_Character_BP_BC_C 0.95
+         SubBP: Torvosaurus_Character_BP_BC_Alpha_C 0.05
+Container Name: null
+   Entry Name: GiantSpino
+      Main BP: GiantSpino_Character_BP_BC_C
+      Entry Weight: 0.005
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
+         SubBP: GiantSpino_Character_BP_BC_C 0.97
+         SubBP: GiantSpino_Character_BP_BC_Alpha_C 0.03
+Container Name: null
+   Entry Name: AB GiantSpino
+      Main BP: GiantSpino_Character_BP_BC_Aberrant_C
+      Entry Weight: 0.002
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
+         SubBP: GiantSpino_Character_BP_BC_Aberrant_C 0.97
+         SubBP: GiantSpino_Character_BP_BC_Alpha_C 0.03
+Container Name: null
+   Entry Name: Torvo
+      Main BP: Torvosaurus_Character_BP_BC_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+         SubBP: Torvosaurus_Character_BP_BC_C 0.95
+         SubBP: Torvosaurus_Character_BP_BC_Alpha_C 0.05
+Container Name: null
+   Entry Name: Torvo
+      Main BP: Torvosaurus_Character_BP_BC_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+         SubBP: Torvosaurus_Character_BP_BC_C 0.95
+         SubBP: Torvosaurus_Character_BP_BC_Alpha_C 0.05
+Container Name: null
+   Entry Name: Giant Spino
+      Main BP: GiantSpino_Character_BP_BC_C
+      Entry Weight: 0.006
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
+         SubBP: GiantSpino_Character_BP_BC_C 0.97
+         SubBP: GiantSpino_Character_BP_BC_Alpha_C 0.03
+Container Name: null
+   Entry Name: Giant Spino
+      Main BP: GiantSpino_Character_BP_BC_C
+      Entry Weight: 0.005
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
+         SubBP: GiantSpino_Character_BP_BC_C 0.97
+         SubBP: GiantSpino_Character_BP_BC_Alpha_C 0.03
+Container Name: null
+   Entry Name: Torvosaurus
+      Main BP: Torvosaurus_Character_BP_BC_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+         SubBP: Torvosaurus_Character_BP_BC_C 0.95
+         SubBP: Torvosaurus_Character_BP_BC_Alpha_C 0.05
+Container Name: null
+   Entry Name: Shoni
+      Main BP: Shonisaurus_Character_BP_BC_C
+      Entry Weight: 0.5
+      Spawn Limit: 0.5
+      Multi Spawn Chance: 1.0
+         SubBP: Shonisaurus_Character_BP_BC_C 0.97
+         SubBP: Shonisaurus_Character_BP_BC_Alpha_C 0.03
+
+MultiParams Summary: 
+   Main BP: GiantSpino_Character_BP_BC_Aberrant_C
+      Entry Weight:                   0.002
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0
+SubBPList: GiantSpino_Character_BP_BC_Aberrant_C: 0.97, GiantSpino_Character_BP_BC_Alpha_C: 0.03
+
+   Main BP: GiantSpino_Character_BP_BC_C
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.005
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.006
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.005
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0
+SubBPList: GiantSpino_Character_BP_BC_C: 0.97, GiantSpino_Character_BP_BC_Alpha_C: 0.03
+SubBPList: GiantSpino_Character_BP_BC_C: 0.97, GiantSpino_Character_BP_BC_Alpha_C: 0.03
+SubBPList: GiantSpino_Character_BP_BC_C: 0.97, GiantSpino_Character_BP_BC_Alpha_C: 0.03
+SubBPList: GiantSpino_Character_BP_BC_C: 0.97, GiantSpino_Character_BP_BC_Alpha_C: 0.03
+
+   Main BP: Shonisaurus_Character_BP_BC_C
+      Entry Weight:                   0.5
+      Spawn Limit:                             0.5
+      Multi Spawn Chance:                               1.0
+SubBPList: Shonisaurus_Character_BP_BC_C: 0.97, Shonisaurus_Character_BP_BC_Alpha_C: 0.03
+
+   Main BP: Torvosaurus_Character_BP_BC_C
+      Entry Weight:                   0.0125
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+SubBPList: Torvosaurus_Character_BP_BC_C: 0.95, Torvosaurus_Character_BP_BC_Alpha_C: 0.05
+SubBPList: Torvosaurus_Character_BP_BC_C: 0.95, Torvosaurus_Character_BP_BC_Alpha_C: 0.05
+SubBPList: Torvosaurus_Character_BP_BC_C: 0.95, Torvosaurus_Character_BP_BC_Alpha_C: 0.05
+SubBPList: Torvosaurus_Character_BP_BC_C: 0.95, Torvosaurus_Character_BP_BC_Alpha_C: 0.05
+SubBPList: Torvosaurus_Character_BP_BC_C: 0.95, Torvosaurus_Character_BP_BC_Alpha_C: 0.05
+

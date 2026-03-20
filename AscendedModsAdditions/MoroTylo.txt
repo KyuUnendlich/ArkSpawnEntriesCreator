@@ -1,0 +1,38 @@
+Engram Entries: 
+   EngramEntry_SaddleTylosaurus_C
+
+Dino Entries: 
+   MorosTylosaur_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: MoroTylosaurus
+      Main BP: MoroTylosaurus_character_bp_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.12
+      Multi Spawn Chance: 0.7
+Container Name: null
+   Entry Name: MoroTylosaurus
+      Main BP: MoroTylosaurus_character_bp_C
+      Entry Weight: 0.2
+      Spawn Limit: 5E-05
+      Multi Spawn Chance: 0.2
+Container Name: null
+   Entry Name: MoroTylosaurus
+      Main BP: MoroTylosaurus_character_bp_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.012
+      Multi Spawn Chance: 0.7
+
+MultiParams Summary: 
+   Main BP: MoroTylosaurus_character_bp_C
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.12
+      Multi Spawn Chance:                               0.7
+      Entry Weight:                   0.2
+      Spawn Limit:                             5E-05
+      Multi Spawn Chance:                               0.2
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.012
+      Multi Spawn Chance:                               0.7
+

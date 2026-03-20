@@ -1,0 +1,223 @@
+Engram Entries: 
+   EngramEntry_EocarchSaddle0_C
+   EngramEntry_EocarchSaddleClown_C
+   EngramEntry_EocarchSaddle7_C
+   EngramEntry_EocarchSaddle3_C
+   EngramEntry_EocarchSaddle1_C
+   EngramEntry_EocarchSaddle2_C
+   EngramEntry_EocarchSaddle4_C
+   EngramEntry_Shroom_C
+
+Dino Entries: 
+   Eocarcharia_TA_C
+   Eocarcharia_TA_Alpha_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Eocarch
+      Main BP: Eocarcharia_TA_Chartacter_BP_C_C
+      Entry Weight: 0.0175
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0-1.0-0.85-0.5-0.4
+Container Name: null
+   Entry Name: Eocarch
+      Main BP: SE_Eocarcharia_TA_Chartacter_BP_C_Child_C
+      Entry Weight: 0.005
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-1.0-0.85-0.5-0.4
+Container Name: null
+   Entry Name: Alpha Eocarch
+      Main BP: Eocarcharia_TA_Alpha_Character_BP_C_C
+      Entry Weight: 0.0075
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Alpha Eocarch
+      Main BP: Eocarcharia_TA_Alpha_Character_BP_C_C
+      Entry Weight: 0.002
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Eocarch
+      Main BP: Eocarcharia_TA_Chartacter_BP_C_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0-1.0-0.85-0.5-0.4
+Container Name: null
+   Entry Name: Eocarch
+      Main BP: Eocarcharia_TA_Chartacter_BP_C_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0-1.0-0.85-0.5-0.4
+Container Name: null
+   Entry Name: Eocarch
+      Main BP: AB_Eocarcharia_TA_Chartacter_BP_C_Child_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0-0.7-0.6-0.5-0.4
+Container Name: null
+   Entry Name: Eocarch
+      Main BP: AB_Eocarcharia_TA_Chartacter_BP_C_Child_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0-0.7-0.6-0.5-0.4
+Container Name: null
+   Entry Name: Eocarch
+      Main BP: AB_Eocarcharia_TA_Chartacter_BP_C_Child_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0-0.7-0.6-0.5-0.4
+Container Name: null
+   Entry Name: Eocarch
+      Main BP: AB_Eocarcharia_TA_Chartacter_BP_C_Child_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0-0.7-0.6-0.5-0.4
+Container Name: null
+   Entry Name: Eocarch
+      Main BP: SE_Eocarcharia_TA_Chartacter_BP_C_Child_C
+      Entry Weight: 0.0175
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0-1.0-0.85-0.5-0.4
+Container Name: null
+   Entry Name: Eocarch
+      Main BP: AB_Eocarcharia_TA_Chartacter_BP_C_Child_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0-0.7-0.6-0.5-0.4
+Container Name: null
+   Entry Name: Eocarch
+      Main BP: Eocarcharia_TA_Chartacter_BP_C_C
+      Entry Weight: 0.0175
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0-1.0-0.85-0.5-0.4
+Container Name: null
+   Entry Name: Eocarch
+      Main BP: Eocarcharia_TA_Chartacter_BP_C_C
+      Entry Weight: 0.0175
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0-1.0-0.85-0.5-0.4
+Container Name: null
+   Entry Name: Eocarch
+      Main BP: Eocarcharia_TA_Chartacter_BP_C_C
+      Entry Weight: 0.0175
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0-1.0-0.85-0.5-0.4
+Container Name: null
+   Entry Name: Eocarch
+      Main BP: Eocarcharia_TA_Chartacter_BP_C_C
+      Entry Weight: 0.0175
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0-1.0-0.85-0.5-0.4
+Container Name: null
+   Entry Name: Eocarch
+      Main BP: Eocarcharia_TA_Chartacter_BP_C_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0-1.0-0.85-0.5-0.4
+Container Name: null
+   Entry Name: Eocarch
+      Main BP: Eocarcharia_TA_Chartacter_BP_C_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0-1.0-0.85-0.5-0.4
+Container Name: null
+   Entry Name: Eocarch
+      Main BP: Eocarcharia_TA_Chartacter_BP_C_C
+      Entry Weight: 0.0175
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0-1.0-0.85-0.5-0.4
+Container Name: null
+   Entry Name: Alpha Eocarch
+      Main BP: Eocarcharia_TA_Alpha_Character_BP_C_C
+      Entry Weight: 0.0075
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Eocarch
+      Main BP: Eocarcharia_TA_Chartacter_BP_C_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0-1.0-0.85-0.5-0.4
+Container Name: null
+   Entry Name: Eocarch
+      Main BP: Eocarcharia_TA_Chartacter_BP_C_C
+      Entry Weight: 0.07
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0-1.0-0.85-0.5-0.4
+
+MultiParams Summary: 
+   Main BP: AB_Eocarcharia_TA_Chartacter_BP_C_Child_C
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.06
+      Multi Spawn Chance:                               1.0-0.7-0.6-0.5-0.4
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.06
+      Multi Spawn Chance:                               1.0-0.7-0.6-0.5-0.4
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.06
+      Multi Spawn Chance:                               1.0-0.7-0.6-0.5-0.4
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.06
+      Multi Spawn Chance:                               1.0-0.7-0.6-0.5-0.4
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.06
+      Multi Spawn Chance:                               1.0-0.7-0.6-0.5-0.4
+
+   Main BP: Eocarcharia_TA_Alpha_Character_BP_C_C
+      Entry Weight:                   0.0075
+      Spawn Limit:                             0.06
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.002
+      Spawn Limit:                             0.06
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.0075
+      Spawn Limit:                             0.06
+      Multi Spawn Chance:                               1.0-0.5
+
+   Main BP: Eocarcharia_TA_Chartacter_BP_C_C
+      Entry Weight:                   0.0175
+      Spawn Limit:                             0.06
+      Multi Spawn Chance:                               1.0-1.0-0.85-0.5-0.4
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.06
+      Multi Spawn Chance:                               1.0-1.0-0.85-0.5-0.4
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.06
+      Multi Spawn Chance:                               1.0-1.0-0.85-0.5-0.4
+      Entry Weight:                   0.0175
+      Spawn Limit:                             0.06
+      Multi Spawn Chance:                               1.0-1.0-0.85-0.5-0.4
+      Entry Weight:                   0.0175
+      Spawn Limit:                             0.06
+      Multi Spawn Chance:                               1.0-1.0-0.85-0.5-0.4
+      Entry Weight:                   0.0175
+      Spawn Limit:                             0.06
+      Multi Spawn Chance:                               1.0-1.0-0.85-0.5-0.4
+      Entry Weight:                   0.0175
+      Spawn Limit:                             0.06
+      Multi Spawn Chance:                               1.0-1.0-0.85-0.5-0.4
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.06
+      Multi Spawn Chance:                               1.0-1.0-0.85-0.5-0.4
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.06
+      Multi Spawn Chance:                               1.0-1.0-0.85-0.5-0.4
+      Entry Weight:                   0.0175
+      Spawn Limit:                             0.06
+      Multi Spawn Chance:                               1.0-1.0-0.85-0.5-0.4
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.06
+      Multi Spawn Chance:                               1.0-1.0-0.85-0.5-0.4
+      Entry Weight:                   0.07
+      Spawn Limit:                             0.06
+      Multi Spawn Chance:                               1.0-1.0-0.85-0.5-0.4
+
+   Main BP: SE_Eocarcharia_TA_Chartacter_BP_C_Child_C
+      Entry Weight:                   0.005
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-1.0-0.85-0.5-0.4
+      Entry Weight:                   0.0175
+      Spawn Limit:                             0.06
+      Multi Spawn Chance:                               1.0-1.0-0.85-0.5-0.4
+

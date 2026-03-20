@@ -1,0 +1,45 @@
+Engram Entries: 
+   EngramEntry_Saddle_Argentino_Platform_C
+   EngramEntry_Food_Argentino_Snack_C
+   EngramEntry_Food_Argentino_Snack_EXT_C
+   EngramEntry_ArgentinoSpawner_C
+
+Dino Entries: 
+   Argentino_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Argentinosaurus
+      Main BP: Argentino_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.5
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Argentinosaurus
+      Main BP: Ext_Argentino_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.15
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Argentinosaurus
+      Main BP: Argentino_Character_BP_Boss_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.0
+      Multi Spawn Chance: 1.0
+
+MultiParams Summary: 
+   Main BP: Argentino_Character_BP_Boss_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.0
+      Multi Spawn Chance:                               1.0
+
+   Main BP: Argentino_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.5
+      Multi Spawn Chance:                               1.0
+
+   Main BP: Ext_Argentino_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.15
+      Multi Spawn Chance:                               1.0
+
