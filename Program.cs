@@ -36,7 +36,7 @@ namespace ArkSpawnEntriesCreator
             //ASE_Things.CompareCSVFileEntries();
             //ASE_Things.CompareCSVFileEntriesAllValues();
 
-            //OldASAMethods.ExtractAdditionalNPCSpawnValues(replaceFile, secondString2, Path);
+            //OldASAMethods.ExtractAdditionalNPCSpawnValues(replaceFile, false, Path);
 
             ASAExtractor();
         }
@@ -44,57 +44,46 @@ namespace ArkSpawnEntriesCreator
 
         enum Mod
         {
-            Prehistoric1, /*Beasts*/                CuriousCryptids, /*TutorialDino*/   RunicWyverns,
-            Prehistoric2,                           AstraeosCreatures,                  NeoAurochs, /*Aurochs*/
-            Prehistoric3,                           MyrmDracoteuthis, /*Dracoteuthis*/  NeoStygi, //Stygi*/
-            Prehistoric4,                           MyrmDraconisGlaucus, /*Glaucus*/    NeoStyraco, /*Styra*/
-            Prehistoric5,                           IsleSkyshroud, /*skyshroud*/        Skjaldastordr, /*MSVV_Skjaldastordr*/
-            CyrusDrakonis,                          IsleOxalaia, /*IoMSpino*/           PygmyHippo,
-            WakSpino,                               IsleSpearcrest, /*BSSpearcrest*/    ExtremeGargantSpino, /*t5ege*/
-            Hatze,                                  IsleSuchomimus, /*IsleOfMythsSucho*/CyrusRedPanda,
-            TACElementalRaptors, /*TAC_FireAndIce*/ HorizonSuchomimus, /*Horizons*/     CyrusThoraxSpider, /*CyrusJumping*/
-            MoroHydrovanta, /*Hydrovanta*/          MoroTylo,                           CyrusMagnaGecko, /*CyrusGecko*/
-            ShadAtlas,                              MoroNotho,                          CliffansCritters,
-            PortsOfAtlas,                           Rubidgea, /*OCRubidgea*/            HuskyWolf,
-            AtlasReborn,                            Birdwatcher,                        Stegotetrabelodon, /*Steg*/
-            AtlasFish,                              TACVectispinus,                     StarSeahorse, /*RR_Mod_StarSeahorse*/
-            MoroLivy,                               TACAntrodemus,                      StarExoticAnimals, /*RR_Mod_ExoticAnimals*/
-            MoroGigantophis,                        TACEocarcharia, /*Eocarcharia*/     StarAnimals, /*RR_Mod_StarAnimals*/
-            SulfurTitan, /*TitanSulfur*/            TACDaemonis, /*Daemonis*/           StarFarmAnimals, /*RR_Mod_StarFarmAnimals*/
-            Edmontonia,                             TACDzungatherium,                   OceaniaContent, /*AEM_Content*/
-            Anomalocaris, /*AA_Anomalo*/            Tyrannodominator,                   AnomalyGalvarex,
-            Cricosaurus, /*AA_Crico*/               ARKOSanguivern,                     MarniiGriffins, /*MarniiModsOwl*/
-            Draconyx, /*ATDraconyx*/                ARKOHapipalus,                      IslaNycta,
-            Scotoharpes, /*ATScoto*/                ARKODesolatitan,                    PaddletailSpino, /*PSpino*/
-            BombardierBeetle, /*ATBombardier*/      MoreWyverns,                        AsharavelBestiary,
-            Lycosuchus,                             Monolopho, /*Forogotten*/           DeimosShantungo,
-            Adasaurus, /*PPR-Ada*/                  Noxcalva, /*BlazingNoxcalva*/       MegaBitsAndBobs,
-            PaleoApexPredators, /*PA_EVO_01*/       RoyalArchaeopteryx,                 KalugaAppalachian,
-            PaleoDangerousDepths, /*PA_EVO_02*/     ACEndemics, /*Endemics*/            ArborealAdditions,
-            PaleoHardHittingHerbivores,/*PA_EVO_03*/ACAquaria, /*Aquaria*/
-            PaleoNativeAquatics, /*PA_PLUS_01*/     AC2WildArk, /*AdditionalCreatures*/ ShadCritterReworks,
-            PaleoRulersWastelands,  /*PA_PLUS_02*/  TACBastionBeetle,                   NoUntameables,
-            XyphCharnia,                            FayeMenagerie, /*Menagerie*/
-            XyphDick,                               AussieDiamantina, /*NickDiamant*/
-            XyphEnantiophoenix,                     AussieMuttaburra, /*NickMutta*/
-            XyphMegistotherium,                     AussieMinmi, /*AussieAdditions*/
-            XyphMeiolania,                          AbiArgentino, /*Argentino*/
-            XyphMischoptera,                        FeralMajunga, /*Majunga*/
-            XyphVetuli,                             FeralWalliserops, /*Walliserops*/
-            KamiFeral,                              Barsboldia,
-            TheSunkenWorld,                         Sivatherium,
-            NeoEuropa, /*Europa*/                   Cockatrice,
-            FerasDinocroc,                          Brachiosaurus, /*AABrachio*/
-            FerasSmilo, /*GreaterSaber*/            Acrocantho, /*AAAcro*/
-            FerasFoxes, /*Arcticfox*/               Meraxes,
+            Prehistoric1, /*Beasts*/                XyphMischoptera,                    ACAquaria, /*Aquaria*/              MarniiGriffins, /*MarniiModsOwl*/
+            Prehistoric2,                           XyphVetuli,                         AC2WildArk, /*AdditionalCreat*/     IslaNycta,
+            Prehistoric3,                           KamiFeral,                          TACBastionBeetle,                   PaddletailSpino, /*PSpino*/
+            Prehistoric4,                           TheSunkenWorld,                     FayeMenagerie, /*Menagerie*/        AsharavelBestiary,
+            Prehistoric5,                           NeoEuropa, /*Europa*/               AussieDiamantina, /*NickDiamant*/   DeimosShantungo,
+            CyrusDrakonis,                          FerasDinocroc,                      AussieMuttaburra, /*NickMutta*/     MegaBitsAndBobs,
+            WakSpino,                               FerasSmilo, /*GreaterSaber*/        AussieMinmi, /*AussieAdditions*/    KalugaAppalachian,
+            Hatze,                                  FerasFoxes, /*Arcticfox*/           AbiArgentino, /*Argentino*/         ArborealAdditions,
+            TACElementalRaptors, /*TAC_FireAnd*/    CuriousCryptids, /*TutorialDino*/   FeralMajunga, /*Majunga*/
+            MoroHydrovanta, /*Hydrovanta*/          AstraeosCreatures,                  FeralWalliserops, /*Walliserops*/   ShadCritterReworks,
+            ShadAtlas,                              MyrmDracoteuthis, /*Dracoteuthis*/  Barsboldia,                         NoUntameables,
+            PortsOfAtlas,                           MyrmDraconisGlaucus, /*Glaucus*/    Sivatherium,
+            AtlasReborn,                            IsleSkyshroud, /*skyshroud*/        Cockatrice,
+            AtlasFish,                              IsleOxalaia, /*IoMSpino*/           Brachiosaurus, /*AABrachio*/
+            MoroLivy,                               IsleSpearcrest, /*BSSpearcrest*/    Acrocantho, /*AAAcro*/
+            MoroGigantophis,                        IsleSuchomimus, /*IsleOfMythsSucho*/Meraxes,
+            SulfurTitan, /*TitanSulfur*/            HorizonSuchomimus, /*Horizons*/     RunicWyverns,
+            Edmontonia,                             MoroTylo,                           NeoAurochs, /*Aurochs*/
+            Anomalocaris, /*AA_Anomalo*/            MoroNotho,                          NeoStygi, /*Stygi*/
+            Cricosaurus, /*AA_Crico*/               Rubidgea, /*OCRubidgea*/            NeoStyraco, /*Styra*/
+            Draconyx, /*ATDraconyx*/                Birdwatcher,                        Skjaldastordr, /*MSVV_Skjaldastor*/
+            Scotoharpes, /*ATScoto*/                TACVectispinus,                     PygmyHippo,
+            BombardierBeetle, /*ATBombardier*/      TACAntrodemus,                      ExtremeGargantSpino, /*t5ege*/
+            Lycosuchus,                             TACEocarcharia, /*Eocarcharia*/     CyrusRedPanda,
+            Adasaurus, /*PPR-Ada*/                  TACDaemonis, /*Daemonis*/           CyrusThoraxSpider, /*CyrusJumping*/
+            PaleoApexPredators, /*PA_EVO_01*/       TACDzungatherium,                   CyrusMagnaGecko, /*CyrusGecko*/
+            PaleoDangerousDepths, /*PA_EVO_02*/     Tyrannodominator,                   CliffansCritters,
+            PaleoHardHittingHerbivores,/*PA_EVO_03*/ARKOSanguivern,                     HuskyWolf,
+            PaleoNativeAquatics, /*PA_PLUS_01*/     ARKOHapipalus,                      Stegotetrabelodon, /*Steg*/
+            PaleoRulersWastelands,  /*PA_PLUS_02*/  ARKODesolatitan,                    StarSeahorse, /*RR_Mod_StarSeahorse*/
+            XyphCharnia,                            MoreWyverns,                        StarExoticAnimals, /*RR_Mod_Exotic*/
+            XyphDick,                               Monolopho, /*Forogotten*/           StarAnimals, /*RR_Mod_StarAnimals*/
+            XyphEnantiophoenix,                     Noxcalva, /*BlazingNoxcalva*/       StarFarmAnimals, /*RR_Mod_StarFarm*/
+            XyphMegistotherium,                     RoyalArchaeopteryx,                 OceaniaContent, /*AEM_Content*/
+            XyphMeiolania,                          ACEndemics, /*Endemics*/            AnomalyGalvarex,
         }
 
-        //There is now a branch (multi-main-bp) for Mods that have one addition per container with multiple different dinos
-        //const string Path = "C:/Users/matth/Desktop/Ascended/AtlasFish.txt";
-        const bool replaceFile = true;
-        const bool secondString2 = false;
-        const bool multimain = false;
         const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/Prehistoric3.txt";
+        const bool replaceFile = true;
+        const bool multimain = false;
 
         public static void ASAExtractor()
         {
