@@ -108,7 +108,7 @@ namespace ArkSpawnEntriesCreator
                 string text = reader.ReadLine();
 
                 //Write Engram Entries
-                if (text.Contains("BlueprintGeneratedClass'EngramEntry"))
+                if (text.Contains("BlueprintGeneratedClass"))
                 {
                     int first_index = text.LastIndexOf(":") + 27;
                     int last_index = text.LastIndexOf(",") - 2;
@@ -876,17 +876,40 @@ namespace ArkSpawnEntriesCreator
             Barsboldia,
             Sivatherium,
             Cockatrice,
-            Brachiosaurus,
+            Brachiosaurus, //AABrachio
+            Acrocantho, //AAAcro
             Meraxes,
             Taenia,
             RunicWyverns,
             NeoAurochs, //Aurochs
             NeoStygi, //Stygimoloch
+            Skjaldastordr,
+            PygmyHippo,
+            GargantSpino,
+            RedPanda,
+            ThoraxSpider,
+            MagnaGecko,
+            CliffanCritter,
+            HuskyWolf,
+            Stegotetrabelodon,
+            StarSeahorse,
+            StarExoticAnimals,
+            StarAnimals,
+            StarFarmAnimals,
+            ReclamationFulgur,
+            ReclamationLuxpred,
+            OceaniaContent,
+            Anomaly,
+            MarniiGriffin,
+            IslaNycta,
+            Paddletail,
+            AsharavelBestiary,
+            DeimosShantungo,
+            MegaBits,
+            KalugaAppalachian,
 
-
-
-
-
+            ShadCritterReworks,
+            NoUntameables,
 
 
         }
@@ -896,7 +919,7 @@ namespace ArkSpawnEntriesCreator
         //const string Path = "C:/Users/matth/Desktop/Ascended/AtlasFish.txt";
         const bool replaceFile = true;
         const bool secondString2 = false;
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/FeralWalliserops.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/RunicWyverns.txt";
     }
 
 

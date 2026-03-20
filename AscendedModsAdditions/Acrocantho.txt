@@ -1,0 +1,117 @@
+Engram Entries: 
+   EngramEntry_SaddleAcro_C
+
+Dino Entries: 
+   Acrocanthosaurus_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Acro (1-2)
+      Main BP: AcrocanthosaurusAA_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Acro (1-2)
+      Main BP: AcrocanthosaurusAA_Character_BP_C
+      Entry Weight: 0.014
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.25
+Container Name: null
+   Entry Name: Acro (1-2)
+      Main BP: AcrocanthosaurusAA_Character_BP_C
+      Entry Weight: 0.013
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.25
+Container Name: null
+   Entry Name: Acro (1)
+      Main BP: AcrocanthosaurusAA_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.12
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Acro (1-2)
+      Main BP: SE_AcrocanthosaurusAA_Character_BP_C
+      Entry Weight: 0.0375
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.25
+Container Name: null
+   Entry Name: Acro (1-2)
+      Main BP: SE_AcrocanthosaurusAA_Character_BP_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.25
+Container Name: null
+   Entry Name: Acro (2)
+      Main BP: AcrocanthosaurusAA_Character_BP_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.0035
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Acro (1-2)
+      Main BP: AcrocanthosaurusAA_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Acro (1)
+      Main BP: AcrocanthosaurusAA_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.12
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Acro (1-2)
+      Main BP: AcrocanthosaurusAA_Character_BP_C
+      Entry Weight: 0.014
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.25
+Container Name: null
+   Entry Name: Acro (1)
+      Main BP: AcrocanthosaurusAA_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.12
+      Multi Spawn Chance: 1.0
+
+Global Entry Weights: 
+   Main BP: AcrocanthosaurusAA_Character_BP_C
+      SubBP: AcrocanthosaurusAA_Character_BP_C 0.8
+      SubBP: Asc_AcrocanthosaurusAA_Character_BP_C 0.2
+
+MultiParams Summary: 
+   Main BP: AcrocanthosaurusAA_Character_BP_C
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.014
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.25
+      Entry Weight:                   0.013
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.25
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.12
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.0035
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.12
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.014
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.25
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.12
+      Multi Spawn Chance:                               1.0
+
+   Main BP: SE_AcrocanthosaurusAA_Character_BP_C
+      Entry Weight:                   0.0375
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-0.25
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0-0.25
+
