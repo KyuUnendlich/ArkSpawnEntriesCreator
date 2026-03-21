@@ -44,20 +44,20 @@ namespace ArkSpawnEntriesCreator
 
         enum Mod
         {
-            Prehistoric1, /*Beasts*/                XyphMischoptera,                    ACAquaria, /*Aquaria*/              MarniiGriffins, /*MarniiModsOwl*/
-            Prehistoric2,                           XyphVetuli,                         AC2WildArk, /*AdditionalCreat*/     IslaNycta,
+            Prehistoric1, /*Beasts*/                XyphMischoptera,                    ACAquaria, /*Aquaria*/              MarniiGriffins, /*Marnii   MULTIMAIN*/
+            Prehistoric2,                           XyphVetuli,                         AC2WildArk, /*Addititio   2 Files*/ IslaNycta,
             Prehistoric3,                           KamiFeral,                          TACBastionBeetle,                   PaddletailSpino, /*PSpino*/
             Prehistoric4,                           TheSunkenWorld,                     FayeMenagerie, /*Menagerie*/        AsharavelBestiary,
             Prehistoric5,                           NeoEuropa, /*Europa*/               AussieDiamantina, /*NickDiamant*/   DeimosShantungo,
             CyrusDrakonis,                          FerasDinocroc,                      AussieMuttaburra, /*NickMutta*/     MegaBitsAndBobs,
             WakSpino,                               FerasSmilo, /*GreaterSaber*/        AussieMinmi, /*AussieAdditions*/    KalugaAppalachian,
-            Hatze,                                  FerasFoxes, /*Arcticfox*/           AbiArgentino, /*Argentino*/         ArborealAdditions,
+            Hatze,                                  FerasFoxes, /*Arcticfox*/           AbiArgentino, /*Argentino*/         
             TACElementalRaptors, /*TAC_FireAnd*/    CuriousCryptids, /*TutorialDino*/   FeralMajunga, /*Majunga*/
             MoroHydrovanta, /*Hydrovanta*/          AstraeosCreatures,                  FeralWalliserops, /*Walliserops*/   ShadCritterReworks,
             ShadAtlas,                              MyrmDracoteuthis, /*Dracoteuthis*/  Barsboldia,                         NoUntameables,
-            PortsOfAtlas,                           MyrmDraconisGlaucus, /*Glaucus*/    Sivatherium,
-            AtlasReborn,                            IsleSkyshroud, /*skyshroud*/        Cockatrice,
-            AtlasFish,                              IsleOxalaia, /*IoMSpino*/           Brachiosaurus, /*AABrachio*/
+            PortsOfAtlas,                           MyrmDraconisGlaucus, /*Glaucus*/    Sivatherium,                        ShinsPortedCreatures,
+            AtlasReborn,       /*MULTIMAIN*/        IsleSkyshroud, /*skysh  MULTIMAIN*/ Cockatrice,                         ArborealAdditions,
+            AtlasFish,         /*2 Files*/          IsleOxalaia, /*IoMSpino*/           Brachiosaurus, /*AABrachio*/
             MoroLivy,                               IsleSpearcrest, /*BSSpearcrest*/    Acrocantho, /*AAAcro*/
             MoroGigantophis,                        IsleSuchomimus, /*IsleOfMythsSucho*/Meraxes,
             SulfurTitan, /*TitanSulfur*/            HorizonSuchomimus, /*Horizons*/     RunicWyverns,
@@ -66,22 +66,22 @@ namespace ArkSpawnEntriesCreator
             Cricosaurus, /*AA_Crico*/               Rubidgea, /*OCRubidgea*/            NeoStyraco, /*Styra*/
             Draconyx, /*ATDraconyx*/                Birdwatcher,                        Skjaldastordr, /*MSVV_Skjaldastor*/
             Scotoharpes, /*ATScoto*/                TACVectispinus,                     PygmyHippo,
-            BombardierBeetle, /*ATBombardier*/      TACAntrodemus,                      ExtremeGargantSpino, /*t5ege*/
+            BombardierBeetle, /*ATBomb  MULTIMAIN*/ TACAntrodemus,                      ExtremeGargantSpino, /*t5ege*/
             Lycosuchus,                             TACEocarcharia, /*Eocarcharia*/     CyrusRedPanda,
             Adasaurus, /*PPR-Ada*/                  TACDaemonis, /*Daemonis*/           CyrusThoraxSpider, /*CyrusJumping*/
             PaleoApexPredators, /*PA_EVO_01*/       TACDzungatherium,                   CyrusMagnaGecko, /*CyrusGecko*/
             PaleoDangerousDepths, /*PA_EVO_02*/     Tyrannodominator,                   CliffansCritters,
             PaleoHardHittingHerbivores,/*PA_EVO_03*/ARKOSanguivern,                     HuskyWolf,
             PaleoNativeAquatics, /*PA_PLUS_01*/     ARKOHapipalus,                      Stegotetrabelodon, /*Steg*/
-            PaleoRulersWastelands, /*PA_PLUS_02*/   ARKODesolatitan,                    StarSeahorse, /*RR_Mod_StarSeahorse*/
-            XyphCharnia,                            MoreWyverns,                        StarExoticAnimals, /*RR_Mod_Exotic*/
-            XyphDick,                               Monolopho, /*Forogotten*/           StarAnimals, /*RR_Mod_StarAnimals*/
-            XyphEnantiophoenix,                     Noxcalva, /*BlazingNoxcalva*/       StarFarmAnimals, /*RR_Mod_StarFarm*/
+            PaleoRulersWastelands, /*PA_PLUS_02*/   ARKODesolatitan,                    StarSeahorse, /*RR_Seah   MULTIMAIN*/
+            XyphCharnia,                            MoreWyverns,                        StarExoticAnimals, /*RR_Exo   MULTIMAIN*/
+            XyphDick,                               Monolopho, /*Forogotten*/           StarAnimals, /*RR_StarAnim   MULTIMAIN*/
+            XyphEnantiophoenix,                     Noxcalva, /*BlazingNoxcalva*/       StarFarmAnimals, /*RR_Farm   MULTIMAIN*/
             XyphMegistotherium,                     RoyalArchaeopteryx,                 OceaniaContent, /*AEM_Content*/
             XyphMeiolania,                          ACEndemics, /*Endemics*/            AnomalyGalvarex,
         }
 
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/Prehistoric3.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/ShinsPortedCreatures.txt";
         const bool replaceFile = true;
         const bool multimain = false;
 
