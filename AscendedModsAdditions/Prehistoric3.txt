@@ -1,3 +1,16 @@
+All Entry Names: 
+   Axel  x 3
+   Cryo  x 6
+   Doli  x 2
+   Hainosaurus  x 2
+   Koola  x 8
+   Lythronax (1-2)  x 9
+   Pinacosaurus (1-2)  x 11
+   Priono  x 4
+   Salta (1-2)  x 1
+   Saltasaurus  x 5
+   Slug  x 2
+
 Engram Entries: 
    EngramEntry_Saddle_Axel_C
    EngramEntry_FishCakes_C

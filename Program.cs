@@ -73,7 +73,7 @@ namespace ArkSpawnEntriesCreator
             PaleoDangerousDepths, /*PA_EVO_02*/     Tyrannodominator,                   CliffansCritters,
             PaleoHardHittingHerbivores,/*PA_EVO_03*/ARKOSanguivern,                     HuskyWolf,
             PaleoNativeAquatics, /*PA_PLUS_01*/     ARKOHapipalus,                      Stegotetrabelodon, /*Steg*/
-            PaleoRulersWastelands,  /*PA_PLUS_02*/  ARKODesolatitan,                    StarSeahorse, /*RR_Mod_StarSeahorse*/
+            PaleoRulersWastelands, /*PA_PLUS_02*/   ARKODesolatitan,                    StarSeahorse, /*RR_Mod_StarSeahorse*/
             XyphCharnia,                            MoreWyverns,                        StarExoticAnimals, /*RR_Mod_Exotic*/
             XyphDick,                               Monolopho, /*Forogotten*/           StarAnimals, /*RR_Mod_StarAnimals*/
             XyphEnantiophoenix,                     Noxcalva, /*BlazingNoxcalva*/       StarFarmAnimals, /*RR_Mod_StarFarm*/
@@ -93,6 +93,7 @@ namespace ArkSpawnEntriesCreator
             }
             const string path_strings = "E:/ARK Saves/ArkSpawnEntriesCreator/strings.txt";
 
+            ASA_TextExtractor.ExtractEntryNames(path_strings, Path);
             ASA_TextExtractor.ExtractEngrams(path_strings, Path);
             ASA_TextExtractor.ExtractDino(path_strings, Path);
             ASA_TextExtractor.ExtractRemaps(path_strings, Path);

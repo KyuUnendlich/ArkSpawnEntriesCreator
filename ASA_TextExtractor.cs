@@ -9,6 +9,65 @@ namespace ArkSpawnEntriesCreator
 {
     class ASA_TextExtractor
     {
+        public static void ExtractEntryNames(string path_strings, string Path)
+        {
+            using StreamReader reader = new(path_strings);
+
+            List<string> entryNames = new List<string>();
+
+            while (!reader.EndOfStream)
+            {
+                string text = reader.ReadLine();
+
+                //Looking for entry names
+                if (text.Contains("\"AnEntryName\":"))
+                {
+                    int first_index = text.LastIndexOf(":") + 1;
+                    int last_index = text.LastIndexOf(",") - 3;
+                    string entryName = text.Substring(first_index + 2, last_index - first_index);
+
+                    entryNames.Add(entryName);
+                }
+            }
+
+            string[] entryNameArray = entryNames.ToArray();
+            HelperFunctions.selectionSort(entryNameArray);
+
+            Dictionary<string, int> engramNameCount = new Dictionary<string, int>();
+
+            List<string> entryNameListEveryoneOnce = new List<string>();
+
+            foreach (string entryName in entryNameArray)
+            {
+                engramNameCount.TryAdd(entryName, 0);
+                if (engramNameCount[entryName].Equals(0))
+                {
+                    entryNameListEveryoneOnce.Add(entryName);
+                }
+                engramNameCount[entryName]++;
+            }
+
+            StringBuilder sb_entryNames = new StringBuilder();
+
+            foreach (string entryName in entryNameListEveryoneOnce) {
+                string entryNameIt = entryName;
+                if (entryName.Equals("")) {
+                    entryNameIt = "NULL";
+                }
+                sb_entryNames.AppendLine("   " + entryNameIt + "  x " + engramNameCount[entryName]);
+            }
+
+
+
+            if (entryNames.Count > 0)
+            {
+                File.AppendAllText(Path, "All Entry Names: ");
+                File.AppendAllText(Path, "\r\n");
+                File.AppendAllText(Path, sb_entryNames.ToString());
+                File.AppendAllText(Path, "\r\n");
+            }
+        }
+
         public static void ExtractEngrams(string path_strings, string Path)
         {
             using StreamReader reader = new(path_strings);
