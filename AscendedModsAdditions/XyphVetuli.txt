@@ -1,3 +1,17 @@
+All Entry Names: 
+   Banffia  x 22
+   Banffia Aberrant  x 7
+   Nesonektris  x 22
+   Nesonektris Aberrant  x 7
+   Shenzianyuloma  x 22
+   Shenzianyuloma Aberrant  x 7
+   Skeemella  x 22
+   Skeemella Aberrant  x 7
+   Vetulicola  x 22
+   Vetulicola Aberrant  x 7
+   Yuyuanozoon  x 22
+   Yuyuanozoon Aberrant  x 7
+
 Engram Entries: 
    EngramEntry_VetulicolianFood_C
 

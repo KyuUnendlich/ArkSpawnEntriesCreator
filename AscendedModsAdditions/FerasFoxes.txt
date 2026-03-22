@@ -1,3 +1,6 @@
+All Entry Names: 
+   NULL  x 20
+
 Dino Entries: 
    GreatArcticFox_C
    ArcticFox_C

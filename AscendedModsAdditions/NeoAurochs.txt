@@ -1,3 +1,7 @@
+All Entry Names: 
+   Auroch (1)  x 3
+   Auroch (1-3) / Bison (1-3)  x 1
+
 Engram Entries: 
    EngramEntry_Saddle_Auroch_C
 

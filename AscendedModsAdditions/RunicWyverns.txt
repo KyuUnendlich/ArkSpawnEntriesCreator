@@ -1,3 +1,22 @@
+All Entry Names: 
+   RunicFlameWyvern (1)  x 5
+   RunicGlacialWyvern  x 2
+   RunicGlacialWyvern (1)  x 5
+   RunicHaloVenom(1)  x 1
+   RunicHaloWyvern  x 1
+   RunicHaloWyvern (1)  x 7
+   RunicQuartzWyvern  x 6
+   RunicQuartzWyvern_Grasslands  x 1
+   RunicSparkWyvern  x 1
+   RunicSparkWyvern (1)  x 5
+   RunicVenomWyvern  x 1
+   RunicWyvernFlame(1)  x 2
+   RunicWyvernGlacial(1)  x 2
+   RunicWyvernHalo(1)  x 3
+   RunicWyvernSpark(1)  x 3
+   RunicWyvernVenom(1)  x 7
+   SE_GreenDesert_RunicHaloWyvern  x 1
+
 Engram Entries: 
    RW_EngramEntry_ArmorChip_C
    RW_EngramEntry_Shrine_C

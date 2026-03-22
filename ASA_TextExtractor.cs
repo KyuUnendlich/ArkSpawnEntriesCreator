@@ -181,7 +181,7 @@ namespace ArkSpawnEntriesCreator
             {
                 string text = reader.ReadLine();
 
-                if (text.Contains("Remap_NPC"))
+                if (text.Contains("Remap_NPC") || text.Contains("RemapAdditions\":"))
                 {
                     readingRemaps = true;
                 }
@@ -258,6 +258,78 @@ namespace ArkSpawnEntriesCreator
                 File.AppendAllText(Path, "ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT Remaps: ");
                 File.AppendAllText(Path, "\r\n");
                 File.AppendAllText(Path, sb_remaps.ToString());
+                File.AppendAllText(Path, "\r\n");
+            }
+        }
+
+        public static void ExtractRemappedEngrams(string path_strings, string Path)
+        {
+
+            using StreamReader reader = new(path_strings);
+
+            bool readingRemappedEngrams = false;
+
+            while (!reader.EndOfStream && !readingRemappedEngrams)
+            {
+                string text = reader.ReadLine();
+
+                if (text.Contains("Remap_Engrams"))
+                {
+                    readingRemappedEngrams = true;
+                }
+            }
+
+            StringBuilder sb_remappedEngrams = new StringBuilder();
+            bool foundRemaps = false;
+
+            bool fromPart = false;
+            bool toPart = false;
+
+            while (!reader.EndOfStream && readingRemappedEngrams)
+            {
+                foundRemaps = true;
+
+                string text = reader.ReadLine();
+
+                if (text.Contains("FromClass"))
+                {
+                    sb_remappedEngrams.AppendLine("      ");
+                    fromPart = true;
+                    toPart = false;
+                    sb_remappedEngrams.AppendLine("FromClass: ");
+                }
+
+                if (text.Contains("ToClass"))
+                {
+                    fromPart = false;
+                    toPart = true;
+                    sb_remappedEngrams.AppendLine("ToClass: ");
+                }
+
+                if (fromPart || toPart)
+                {
+                    if (text.Contains("AssetPathName"))
+                    {
+                        int first_index = text.LastIndexOf(":") + 3;
+                        int last_index = text.LastIndexOf(",") - 1;
+                        string mainBP_ = text.Substring(first_index, last_index - first_index);
+
+                        sb_remappedEngrams.AppendLine("      " + mainBP_);
+                    }
+                }
+
+                //Searching for beginning of additions
+                if (text.Contains("TheNPCSpawnEntriesContainerAdditions") || text.Contains("GlobalNPCRandomSpawnClassWeights") || text.Contains("],"))
+                {
+                    readingRemappedEngrams = false;
+                }
+            }
+
+            if (foundRemaps)
+            {
+                File.AppendAllText(Path, "ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT Remapped Engrams: ");
+                File.AppendAllText(Path, "\r\n");
+                File.AppendAllText(Path, sb_remappedEngrams.ToString());
                 File.AppendAllText(Path, "\r\n");
             }
         }

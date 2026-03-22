@@ -61,14 +61,14 @@ namespace ArkSpawnEntriesCreator
             MoroLivy,                               IsleSpearcrest, /*BSSpearcrest*/    AA_Acrocantho, /*AAAcro*/
             MoroGigantophis,                        IsleSuchomimus, /*IsleOfMythsSucho*/Meraxes,
             SulfurTitan, /*TitanSulfur*/            HorizonSuchomimus, /*Horizons*/     RunicWyverns,
-            AA_Edmontonia,                             MoroTylo,                           NeoAurochs, /*Aurochs*/
-            AA_Anomalocaris, /*AA_Anomalo*/            MoroNotho,                          NeoStygi, /*Stygi*/
+            AA_Edmontonia,                          MoroTylo,                           NeoAurochs, /*Aurochs*/
+            AA_Anomalocaris, /*AA_Anomalo*/         MoroNotho,                          NeoStygi, /*Stygi*/
             Cricosaurus, /*AA_Crico*/               Rubidgea, /*OCRubidgea*/            NeoStyraco, /*Styra*/
             ArketyDraconyx, /*ATDraconyx*/          Birdwatcher,                        Skjaldastordr, /*MSVV_Skjaldastor*/
             ArketyScotoharpes, /*ATScoto*/          TACVectispinus,                     PygmyHippo,
             ArketyBombardier, /*ATBomb  MULTIMAIN*/ TACAntrodemus,                      ExtremeGargantSpino, /*t5ege*/
-            PiggleLycosuchus,                             TACEocarcharia, /*Eocarcharia*/     CyrusRedPanda,
-            PiggleAdasaurus, /*PPR-Ada*/                  TACDaemonis, /*Daemonis*/           CyrusThoraxSpider, /*CyrusJumping*/
+            PiggleLycosuchus,                       TACEocarcharia, /*Eocarcharia*/     CyrusRedPanda,
+            PiggleAdasaurus, /*PPR-Ada*/            TACDaemonis, /*Daemonis*/           CyrusThoraxSpider, /*CyrusJumping*/
             PaleoApexPredators, /*PA_EVO_01*/       TACDzungatherium,                   CyrusMagnaGecko, /*CyrusGecko*/
             PaleoDangerousDepths, /*PA_EVO_02*/     Tyrannodominator,                   CliffansCritters,
             PaleoHardHittingHerbivores,/*PA_EVO_03*/ARKOSanguivern,                     HuskyWolf,
@@ -81,7 +81,7 @@ namespace ArkSpawnEntriesCreator
             XyphMeiolania,                          ACEndemics, /*Endemics*/            AnomalyGalvarex,
         }
 
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/Hatze.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/PaleoHardHittingHerbivores.txt";
         const bool replaceFile = true;
         const bool multimain = false;
 
@@ -97,6 +97,7 @@ namespace ArkSpawnEntriesCreator
             ASA_TextExtractor.ExtractEngrams(path_strings, Path);
             ASA_TextExtractor.ExtractDino(path_strings, Path);
             ASA_TextExtractor.ExtractRemaps(path_strings, Path);
+            ASA_TextExtractor.ExtractRemappedEngrams(path_strings, Path);
             ASA_TextExtractor.DetectSpawnReplacements(path_strings, Path);
             if (multimain)
             {

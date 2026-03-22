@@ -1,5 +1,5 @@
 All Entry Names: 
-   Hapipalus (1)  x 8
+   Hapipalus (1)  x 7
 
 Engram Entries: 
    EngramEntry_Saddle_Hapipalus_C
@@ -43,12 +43,6 @@ Container Name: null
 Container Name: null
    Entry Name: Hapipalus (1)
       Main BP: Hapipalus_Character_BP_C
-      Entry Weight: 0.035
-      Spawn Limit: 0.1
-      Multi Spawn Chance: 1.0
-Container Name: null
-   Entry Name: Hapipalus (1)
-      Main BP: Hapipalus_Character_BP_C
       Entry Weight: 0.015
       Spawn Limit: 0.015
       Multi Spawn Chance: 1.0
@@ -83,9 +77,6 @@ MultiParams Summary:
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.045
       Spawn Limit:                             0.045
-      Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.035
-      Spawn Limit:                             0.1
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.015
       Spawn Limit:                             0.015

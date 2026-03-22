@@ -1,3 +1,11 @@
+All Entry Names: 
+   Empiro  x 7
+   Empiro (1)  x 1
+   Ledu  x 7
+   Val Ledu  x 1
+   Valgueran Ledu  x 1
+   Zombie Empiro  x 1
+
 Engram Entries: 
    EngramEntry_Saddle_PA_Empiro_C
    EngramEntry_Saddle_PA_Ledu_C

@@ -1,3 +1,14 @@
+All Entry Names: 
+   Camarilla  x 7
+   Camarillasaurus  x 2
+   Kurupi  x 13
+   Polar Camarilla  x 7
+   Polar Kurupi  x 7
+   Polar Titanophoneus  x 7
+   Taniwhasaurus  x 3
+   Titanoph  x 1
+   Titanophoneus  x 10
+
 Engram Entries: 
    EngramEntry_Saddle_Titanophoneus_C
    EngramEntry_Saddle_Kurupi_C

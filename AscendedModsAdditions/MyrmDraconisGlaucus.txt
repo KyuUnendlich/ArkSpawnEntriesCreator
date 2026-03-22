@@ -1,3 +1,7 @@
+All Entry Names: 
+   Glaucus  x 1
+   Glaucus (1)  x 3
+
 Engram Entries: 
    EngramEntry_Saddle_Glaucus_C
 

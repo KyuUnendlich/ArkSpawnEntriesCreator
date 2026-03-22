@@ -1,3 +1,7 @@
+All Entry Names: 
+   Tarbo (1)  x 1
+   Tarbosaurus  x 2
+
 Engram Entries: 
    EngramEntry_Saddle_EVO_Giga_C
    EngramEntry_Saddle_EVO_Rex_C
@@ -8,6 +12,91 @@ Dino Entries:
    EVO_Giga_C
    EVO_Rex_C
    EVO_Tarbo_C
+
+ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT Remaps: 
+      
+FromClass: 
+      /Game/PrimalEarth/Dinos/Giganotosaurus/Gigant_Character_BP.Gigant_Character_BP_C
+ToClass: 
+      /PA_EVO_Pack_01/Dinos/EVO_Giga/EVO_Giga_Character_BP.EVO_Giga_Character_BP_C
+      
+FromClass: 
+      /Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP_C
+ToClass: 
+      /PA_EVO_Pack_01/Dinos/EVO_Rex/EVO_Rex_Character_BP.EVO_Rex_Character_BP_C
+      
+FromClass: 
+      /Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP_C
+ToClass: 
+      /PA_EVO_Pack_01/Dinos/EVO_Rex/Tarbo/EVO_Tarbo_Character_BP.EVO_Tarbo_Character_BP_C
+      
+FromClass: 
+      /Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP_C
+ToClass: 
+      /PA_EVO_Pack_01/Dinos/EVO_Rex/Tarbo/EVO_Tarbo_Character_BP.EVO_Tarbo_Character_BP_C
+      
+FromClass: 
+      /Game/PrimalEarth/Dinos/Rex/MegaRex_Character_BP.MegaRex_Character_BP_C
+ToClass: 
+      /PA_EVO_Pack_01/Dinos/EVO_Rex/Alpha/EVO_Alpha_Rex_Character_BP.EVO_Alpha_Rex_Character_BP_C
+      
+FromClass: 
+      /Game/Extinction/Dinos/Corrupt/Giganotosaurus/Gigant_Character_BP_Corrupt.Gigant_Character_BP_Corrupt_C
+ToClass: 
+      /PA_EVO_Pack_01/Dinos/EVO_Giga/Extinction/EVO_Corrupt_Giga_Character_BP.EVO_Corrupt_Giga_Character_BP_C
+      
+FromClass: 
+      /Game/Extinction/Dinos/Corrupt/Rex/Rex_Character_BP_Corrupt.Rex_Character_BP_Corrupt_C
+ToClass: 
+      /PA_EVO_Pack_01/Dinos/EVO_Rex/Extinction/EVO_Corrupt_Rex_Character_BP.EVO_Corrupt_Rex_Character_BP_C
+      
+FromClass: 
+      /Game/PrimalEarth/Dinos/Rex/BionicRex_Character_BP.BionicRex_Character_BP_C
+ToClass: 
+      /PA_EVO_Pack_01/Dinos/EVO_Rex/Bionic/EVO_Tek_Rex_Character_BP.EVO_Tek_Rex_Character_BP_C
+      
+FromClass: 
+      /Game/Extinction/Dinos/Corrupt/Rex/MegaRex_Character_BP_Corrupt.MegaRex_Character_BP_Corrupt_C
+ToClass: 
+      /PA_EVO_Pack_01/Dinos/EVO_Rex/Extinction/EVO_Alpha_Corrupt_Tek_Rex_Character_BP.EVO_Alpha_Corrupt_Tek_Rex_Character_BP_C
+      
+FromClass: 
+      /Game/LostColony/Dinos/ZombieDino/Rex/Rex_Character_BP_Corrupt_Zombie.Rex_Character_BP_Corrupt_Zombie_C
+ToClass: 
+      /PA_EVO_Pack_01/Dinos/EVO_Rex/Zombie/EVO_Rex_Character_BP_Corrupted_Zombie.EVO_Rex_Character_BP_Corrupted_Zombie_C
+      
+FromClass: 
+      /PA_EVO_Pack_01/Dinos/EVO_Rex/EVO_Rex_Character_BP.EVO_Rex_Character_BP_C
+ToClass: 
+      /PA_EVO_Pack_01/Dinos/EVO_Rex/Legacy/EVO_Legacy_Rex_Character_BP.EVO_Legacy_Rex_Character_BP_C
+      /PA_EVO_Pack_01/Dinos/EVO_Rex/Alpha/EVO_Alpha_Rex_Character_BP.EVO_Alpha_Rex_Character_BP_C
+      /PA_EVO_Pack_01/Dinos/EVO_Rex/EVO_Rex_Character_BP.EVO_Rex_Character_BP_C
+      /PA_EVO_Pack_01/Dinos/EVO_Rex/Alpha/EVO_Alpha_Legacy_Rex_Character_BP.EVO_Alpha_Legacy_Rex_Character_BP_C
+      5.0, 4.75, 90.0, 0.25
+      
+FromClass: 
+      /PA_EVO_Pack_01/Dinos/EVO_Rex/Tarbo/EVO_Tarbo_Character_BP.EVO_Tarbo_Character_BP_C
+ToClass: 
+      /PA_EVO_Pack_01/Dinos/EVO_Rex/Tarbo/EVO_Alpha_Tarbo_Character_BP.EVO_Alpha_Tarbo_Character_BP_C
+      /PA_EVO_Pack_01/Dinos/EVO_Rex/Tarbo/EVO_Tarbo_Character_BP.EVO_Tarbo_Character_BP_C
+      5.0, 95.0
+      
+FromClass: 
+      /PA_EVO_Pack_01/Dinos/EVO_Giga/EVO_Giga_Character_BP.EVO_Giga_Character_BP_C
+ToClass: 
+      /PA_EVO_Pack_01/Dinos/EVO_Giga/EVO_Giga_Character_BP.EVO_Giga_Character_BP_C
+      /PA_EVO_Pack_01/Dinos/EVO_Giga/Extinction/EVO_Wasteland_Giga_Character_BP.EVO_Wasteland_Giga_Character_BP_C
+      90.0, 10.0
+      
+FromClass: 
+      /PA_EVO_Pack_01/Dinos/EVO_Rex/EVO_Rex_Character_BP.EVO_Rex_Character_BP_C
+ToClass: 
+      /PA_EVO_Pack_01/Dinos/EVO_Rex/Legacy/EVO_Legacy_Rex_Character_BP.EVO_Legacy_Rex_Character_BP_C
+      /PA_EVO_Pack_01/Dinos/EVO_Rex/Alpha/EVO_Alpha_Rex_Character_BP.EVO_Alpha_Rex_Character_BP_C
+      /PA_EVO_Pack_01/Dinos/EVO_Rex/EVO_Rex_Character_BP.EVO_Rex_Character_BP_C
+      /PA_EVO_Pack_01/Dinos/EVO_Rex/Alpha/EVO_Alpha_Legacy_Rex_Character_BP.EVO_Alpha_Legacy_Rex_Character_BP_C
+      /PA_EVO_Pack_01/Dinos/EVO_Rex/Bionic/EVO_Tek_Rex_Character_BP.EVO_Tek_Rex_Character_BP_C
+      5.0, 4.75, 80.0, 0.25, 10.0
 
 Dino Additions: 
 Container Name: null
@@ -41,86 +130,3 @@ MultiParams Summary:
       Spawn Limit:                             0.05
       Multi Spawn Chance:                               1.0
 
-      
-From Class: 
-      Gigant_Character_BP_C
-To Class: 
-      EVO_Giga_Character_BP_C
-      
-From Class: 
-      Rex_Character_BP_C
-To Class: 
-      EVO_Rex_Character_BP_C
-      
-From Class: 
-      Rex_Character_BP_C
-To Class: 
-      EVO_Tarbo_Character_BP_C
-      
-From Class: 
-      Rex_Character_BP_C
-To Class: 
-      EVO_Tarbo_Character_BP_C
-      
-From Class: 
-      MegaRex_Character_BP_C
-To Class: 
-      EVO_Alpha_Rex_Character_BP_C
-      
-From Class: 
-      Gigant_Character_BP_Corrupt_C
-To Class: 
-      EVO_Corrupt_Giga_Character_BP_C
-      
-From Class: 
-      Rex_Character_BP_Corrupt_C
-To Class: 
-      EVO_Corrupt_Rex_Character_BP_C
-      
-From Class: 
-      BionicRex_Character_BP_C
-To Class: 
-      EVO_Tek_Rex_Character_BP_C
-      
-From Class: 
-      MegaRex_Character_BP_Corrupt_C
-To Class: 
-      EVO_Alpha_Corrupt_Tek_Rex_Character_BP_C
-      
-From Class: 
-      Rex_Character_BP_Corrupt_Zombie_C
-To Class: 
-      EVO_Rex_Character_BP_Corrupted_Zombie_C
-      
-From Class: 
-      EVO_Rex_Character_BP_C
-To Class: 
-      EVO_Legacy_Rex_Character_BP_C
-      EVO_Alpha_Rex_Character_BP_C
-      EVO_Rex_Character_BP_C
-      EVO_Alpha_Legacy_Rex_Character_BP_C
-      5.0, 4.75, 90.0, 0.25
-      
-From Class: 
-      EVO_Tarbo_Character_BP_C
-To Class: 
-      EVO_Alpha_Tarbo_Character_BP_C
-      EVO_Tarbo_Character_BP_C
-      5.0, 95.0
-      
-From Class: 
-      EVO_Giga_Character_BP_C
-To Class: 
-      EVO_Giga_Character_BP_C
-      EVO_Wasteland_Giga_Character_BP_C
-      90.0, 10.0
-      
-From Class: 
-      EVO_Rex_Character_BP_C
-To Class: 
-      EVO_Legacy_Rex_Character_BP_C
-      EVO_Alpha_Rex_Character_BP_C
-      EVO_Rex_Character_BP_C
-      EVO_Alpha_Legacy_Rex_Character_BP_C
-      EVO_Tek_Rex_Character_BP_C
-      5.0, 4.75, 80.0, 0.25, 10.0

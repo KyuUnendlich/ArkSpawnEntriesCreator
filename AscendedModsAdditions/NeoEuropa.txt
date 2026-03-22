@@ -1,3 +1,8 @@
+All Entry Names: 
+   Europa  x 1
+   Europa (1-2)  x 1
+   Europa (1-3)  x 2
+
 Engram Entries: 
    EngramEntry_Saddle_Europa_C
 

@@ -4,17 +4,11 @@ Engram Entries:
 Dino Entries: 
    Smilodon_C
 
-      
-From Class: 
-      Saber_Character_BP_C
-To Class: 
-      Smilodon_Character_BP_C
-      Saber_Character_BP_C
-      20.0, 80.0
-      
-From Class: 
-      Smilodon_Character_BP_C
-To Class: 
-      Smilodon_Character_BP_C
-      MegaSmilodon_Character_BP_C
-      98.0, 2.0
+
+Global Entry Weights: 
+   Main BP: Saber_Character_BP_C
+      SubBP: Smilodon_Character_BP_C 20.0
+      SubBP: Saber_Character_BP_C 80.0
+   Main BP: Smilodon_Character_BP_C
+      SubBP: Smilodon_Character_BP_C 98.0
+      SubBP: MegaSmilodon_Character_BP_C 2.0

@@ -7,15 +7,12 @@ Dino Entries:
 ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT Remaps: 
       
 FromClass: 
-      Therizino_Character_BP_C
+      /Game/PrimalEarth/Dinos/Therizinosaurus/Therizino_Character_BP.Therizino_Character_BP_C
 ToClass: 
-      EVO_Therizino_Character_BP_C
-      
-FromClass: 
-      EVO_Therizino_Character_BP_C
-ToClass: 
-      EVO_Alpha_Therizino_Character_BP_C
-      EVO_Therizino_Character_BP_C
-      0.02, 0.98
-      Therizino_Character_BP_C
+      /PA_EVO_Pack_03/Dinos/EVO_Therizino/EVO_Therizino_Character_BP.EVO_Therizino_Character_BP_C
 
+
+Global Entry Weights: 
+   Main BP: EVO_Therizino_Character_BP_C
+      SubBP: EVO_Alpha_Therizino_Character_BP_C 0.02
+      SubBP: EVO_Therizino_Character_BP_C 0.98
