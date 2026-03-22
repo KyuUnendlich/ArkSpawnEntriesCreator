@@ -1,3 +1,16 @@
+All Entry Names: 
+   Alpha Atlasuchus  x 6
+   Atlas Parrot (1-2)  x 2
+   Atlasuchus (1-5)  x 6
+   Grand Tortugar  x 9
+   Jackrabbit (2-3)  x 19
+   Olfend (1-2)  x 5
+   Olfend (2-3)  x 7
+   Ostrich (1-2)  x 2
+   Ostrich (2-3)  x 9
+   Parrot (1-2)  x 10
+   Seahorses  x 5
+
 Engram Entries: 
    EngramEntry_Saddle_Atlasuchus_C
    EngramEntry_Saddle_GrandTortugar_C
@@ -19,8 +32,11 @@ Dino Entries:
    Seahorse_C
 
 ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT Remaps: 
-   /Game/ASA/Dinos/GrandTortugar/GrandTortugar_Character_BP.GrandTortugar_Character_BP_C
-   /PortsOfAtlas/Creatures/GrandTortugar/GrandTortugar_Character_BP.GrandTortugar_Character_BP_C
+      
+FromClass: 
+      /Game/ASA/Dinos/GrandTortugar/GrandTortugar_Character_BP.GrandTortugar_Character_BP_C
+ToClass: 
+      /PortsOfAtlas/Creatures/GrandTortugar/GrandTortugar_Character_BP.GrandTortugar_Character_BP_C
 
 Dino Additions: 
 Container Name: null

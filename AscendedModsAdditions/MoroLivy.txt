@@ -1,3 +1,6 @@
+All Entry Names: 
+   MorosLivyatan  x 3
+
 Engram Entries: 
    EngramEntry_LivyatanCommunicationPad_Moro_C
    EngramEntry_SaddleLivyatanMoro_C

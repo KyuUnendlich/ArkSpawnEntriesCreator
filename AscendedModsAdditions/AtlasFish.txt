@@ -1,3 +1,7 @@
+All Entry Names: 
+   Eel  x 1
+   Marlin  x 2
+
 Dino Entries: 
    Silurus_C
    Centropristis_C

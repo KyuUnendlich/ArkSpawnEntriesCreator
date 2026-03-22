@@ -238,7 +238,7 @@ namespace ArkSpawnEntriesCreator
                 {
                     if (text.Contains("AssetPathName"))
                     {
-                        int first_index = text.LastIndexOf(".") + 1;
+                        int first_index = text.LastIndexOf(":") + 3;
                         int last_index = text.LastIndexOf(",") - 1;
                         string mainBP_ = text.Substring(first_index, last_index - first_index);
 
@@ -281,7 +281,7 @@ namespace ArkSpawnEntriesCreator
                 string text = reader.ReadLine();
 
                 //Searching for beginning of additions
-                if (text.Contains("TheNPCSpawnEntriesContainerAdditions"))
+                if (text.Contains("TheNPCSpawnEntriesContainerAdditions") || text.Contains("AdditionalSpawns")) //Second one is just for Atlas Fish lol.
                 {
                     readingDinoAdditions = true;
                 }
@@ -575,22 +575,34 @@ namespace ArkSpawnEntriesCreator
                     }
                 }
 
+                /*
                 //We Out
                 if (text.Contains("ServerExtraWorldSingletonActorClasses"))
                 {
                     break;
-                }
+                }*/
 
                 //SpawnReplacementsFound
-                if (text.Contains("SpawnReplacements"))
-                {
-                    File.AppendAllText(Path, "ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT SpawnReplacements");
-                    File.AppendAllText(Path, "\r\n");
-                    File.AppendAllText(Path, "\r\n");
-                }
             }
 
             return globalEntries;
+        }
+
+        public static void DetectSpawnReplacements(string path_strings, string Path) {
+
+            using StreamReader reader = new(path_strings);
+            while (!reader.EndOfStream)
+            {
+                string text = reader.ReadLine();
+                //SpawnReplacementsFound
+                if (text.Contains("SpawnReplacements"))
+                {
+                    File.AppendAllText(Path, "ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT SpawnReplacements found, check original log");
+                    File.AppendAllText(Path, "\r\n");
+                    File.AppendAllText(Path, "\r\n");
+                    break;
+                }
+            }
         }
 
         public static void CreateDinoAdditionsSB(List<SpawnContainer> spawnContainers, string Path) {

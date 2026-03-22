@@ -1,3 +1,6 @@
+All Entry Names: 
+   Desolatitan (1)  x 4
+
 Engram Entries: 
    EngramEntry_PrimalSummoner_C
    EngramEntry_Saddle_Desolatitan_C

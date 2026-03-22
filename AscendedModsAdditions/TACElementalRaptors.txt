@@ -1,3 +1,9 @@
+All Entry Names: 
+   Container just so it all works  x 1
+   MonsterIsland  x 18
+   Snow  x 13
+   Swamp  x 19
+
 Engram Entries: 
    EngramEntry_ElementalDart_C
    EngramEntry_FA-VAL_C

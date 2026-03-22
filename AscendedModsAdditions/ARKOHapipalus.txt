@@ -1,3 +1,6 @@
+All Entry Names: 
+   Hapipalus (1)  x 8
+
 Engram Entries: 
    EngramEntry_Saddle_Hapipalus_C
    EngramEntry_QueenSummoner_Gamma_C

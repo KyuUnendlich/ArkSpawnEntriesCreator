@@ -1,3 +1,28 @@
+All Entry Names: 
+   NULL  x 1
+   ARebornABFertile  x 1
+   ARebornBeach  x 1
+   ARebornBeachG  x 1
+   ARebornBearR  x 1
+   ARebornBison  x 1
+   ARebornDeepWater  x 1
+   ARebornDeepWaterR  x 1
+   ARebornForestEXT  x 1
+   ARebornGrass  x 1
+   ARebornGrassG  x 1
+   ARebornMonster  x 1
+   ARebornMountain  x 1
+   ARebornMountainG  x 1
+   ARebornMountainSE  x 1
+   ARebornOcean  x 1
+   ARebornSwamp  x 1
+   ARebornSwampG  x 1
+   ARebornTrenchV  x 1
+   ARebornTundraV  x 1
+   CrowArcha  x 1
+   RebornOceanR  x 1
+   SnakesBasilisk  x 1
+
 Engram Entries: 
    EngramEntry_AtlasReborn_Box_C
    EngramEntry_MeanWhale_Platform_C

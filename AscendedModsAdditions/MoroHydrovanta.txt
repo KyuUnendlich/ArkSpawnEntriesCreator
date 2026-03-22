@@ -1,3 +1,6 @@
+All Entry Names: 
+   MorosHydrovanta  x 7
+
 Engram Entries: 
    EngramEntry_Hydrovanta_Saddle_C
    EngramEntry_Hydrovanta_HealingBrew_Tier1_C
