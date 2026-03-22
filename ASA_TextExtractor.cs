@@ -270,7 +270,9 @@ namespace ArkSpawnEntriesCreator
 
             bool foundLimitLine = false;
             bool mainBP = false;
-            bool subBPs = false;
+            bool subBPFrom = false;
+            bool subBPTo = false;
+            bool subBPsameAsMainBP = false;
             bool subBPWeights = false;
             bool NPCsPercentage = false;
 
@@ -298,6 +300,7 @@ namespace ArkSpawnEntriesCreator
                 if (text.Contains("\"SpawnEntriesContainerClass\":"))
                 {
                     foundLimitLine = false;
+                    subBPsameAsMainBP = false;
                     spawnContainerIndex++;
                     currentSpawnEntryinContainer = -1;
 
@@ -324,7 +327,7 @@ namespace ArkSpawnEntriesCreator
                     }
 
                     //Looking for Main BP
-                    if (text.Contains("NPCsToSpawn"))
+                    if (text.Contains("NPCsToSpawn\":"))
                     {
                         mainBP = true;
                     }
@@ -345,13 +348,38 @@ namespace ArkSpawnEntriesCreator
                     }
 
                     //If there are subclasses for this entry
-                    if (text.Contains("ToClass"))
+                    if (text.Contains("FromClass"))
                     {
-                        subBPs = true;
+                        subBPFrom = true;
+                        continue;
+                    }
+
+                    //If there are subclasses for this entry
+                    if (subBPFrom)
+                    {
+                        if (text.Contains("AssetPathName"))
+                        {
+                            int first_index = text.LastIndexOf(".") + 1;
+                            int last_index = text.LastIndexOf(",") - 1;
+                            string subBP = text.Substring(first_index, last_index - first_index);
+
+                            if (spawnContainers[spawnContainerIndex].spawnEntries[currentSpawnEntryinContainer].mainBP.Equals(subBP))
+                            {
+                                subBPsameAsMainBP = true;
+                            }
+                        }
+
+                        if (text.Contains("ToClasses\":"))
+                        {
+                            subBPFrom = false;
+                            subBPTo = true;
+                            continue;
+                        }
+                        
                     }
 
                     //SubBP Logic
-                    if (subBPs)
+                    if (subBPTo)
                     {
                         if (text.Contains("AssetPathName"))
                         {
@@ -371,7 +399,7 @@ namespace ArkSpawnEntriesCreator
                         {
                             if (text.Contains("]"))
                             {
-                                subBPs = false;
+                                subBPTo = false;
                                 subBPWeights = false;
                             }
                             else
