@@ -1,0 +1,24 @@
+All Entry Names: 
+   Oryctero  x 1
+
+Engram Entries: 
+   Engram_OrycKibble_C
+   Engram_OrycterocetusTotem_C
+
+Dino Entries: 
+   Oryc_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Oryctero
+      Main BP: Oryc_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.5
+
+MultiParams Summary: 
+   Main BP: Oryc_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.5
+

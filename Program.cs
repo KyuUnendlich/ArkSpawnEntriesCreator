@@ -38,7 +38,8 @@ namespace ArkSpawnEntriesCreator
 
             //OldASAMethods.ExtractAdditionalNPCSpawnValues(replaceFile, false, Path);
 
-            ASAExtractor();
+            //ASAExtractor();
+            ASASpawnContainer();
         }
 
 
@@ -47,17 +48,17 @@ namespace ArkSpawnEntriesCreator
             Prehistoric1, /*Beasts*/                XyphMischoptera,                    ACAquaria, /*Aquaria*/              MarniiGriffins, /*Marnii   MULTIMAIN*/
             Prehistoric2,                           XyphVetuli,                         AC2WildArk, /*Addititio   2 Files*/ IslaNycta,
             Prehistoric3,                           KamiFeral,                          TACBastionBeetle,                   PaddletailSpino, /*PSpino*/
-            Prehistoric4,                           TheSunkenWorld,                     FayeMenagerie, /*Menagerie*/        AsharavelBestiary,
+            Prehistoric4,                           TheSunkenWorld,                     FayeMenagerie, /*Menagerie*/        PolyOrycterocetus,
             Prehistoric5,                           NeoEuropa, /*Europa*/               AussieDiamantina, /*NickDiamant*/   DeimosShantungo,
-            CyrusDrakonis,                          FerasDinocroc,                      AussieMuttaburra, /*NickMutta*/     MegaBitsAndBobs,
-            WakSpino,                               FerasSmilo, /*GreaterSaber*/        AussieMinmi, /*AussieAdditions*/    KalugaAppalachian,
-            Hatze,                                  FerasFoxes, /*Arcticfox*/           AbiArgentino, /*Argentino*/         
+            CyrusDrakonis,                          FerasDinocroc,                      AussieMuttaburra, /*NickMutta*/     AsharavelBestiary,
+            WakSpino,                               FerasSmilo, /*GreaterSaber*/        AussieMinmi, /*AussieAdditions*/    MegaBitsAndBobs,
+            Hatze,                                  FerasFoxes, /*Arcticfox*/           AbiArgentino, /*Argentino*/         KalugaAppalachian,
             TACElementalRaptors, /*TAC_FireAnd*/    CuriousCryptids, /*TutorialDino*/   FeralMajunga, /*Majunga*/
             MoroHydrovanta, /*Hydrovanta*/          AstraeosCreatures,                  FeralWalliserops, /*Walliserops*/   ShadCritterReworks,
             ShadAtlas,                              MyrmDracoteuthis, /*Dracoteuthis*/  Barsboldia,                         NoUntameables,
             PortsOfAtlas,                           MyrmDraconisGlaucus, /*Glaucus*/    Sivatherium,                        ShinsPortedCreatures,
             AtlasReborn,       /*MULTIMAIN*/        IsleSkyshroud, /*skysh  MULTIMAIN*/ Cockatrice,                         ArborealAdditions,
-            AtlasFish,         /*2 Files*/          IsleOxalaia, /*IoMSpino*/           AA_Brachiosaurus, /*AABrachio*/
+            AtlasFish,         /*2 Files*/          IsleOxalaia, /*IoMSpino*/           AA_Brachiosaurus, /*AABrachio*/     CrystalWyvernPort,
             MoroLivy,                               IsleSpearcrest, /*BSSpearcrest*/    AA_Acrocantho, /*AAAcro*/
             MoroGigantophis,                        IsleSuchomimus, /*IsleOfMythsSucho*/Meraxes,
             SulfurTitan, /*TitanSulfur*/            HorizonSuchomimus, /*Horizons*/     RunicWyverns,
@@ -81,9 +82,23 @@ namespace ArkSpawnEntriesCreator
             XyphMeiolania,                          ACEndemics, /*Endemics*/            AnomalyGalvarex,
         }
 
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/PaleoHardHittingHerbivores.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/AnomalyGalvarex.txt";
         const bool replaceFile = true;
         const bool multimain = false;
+
+        public static void ASASpawnContainer() 
+        {
+            const string Path_test = "E:/ARK Saves/ArkSpawnEntriesCreator/testing.txt";
+
+            if (replaceFile)
+            {
+                File.Delete(Path_test);
+            }
+
+            const string path_spawn = "E:/ARK Saves/ArkSpawnEntriesCreator/ASASpawnEntries.csv";
+
+            ASA_SpawnContainers.CheckForBP_C(path_spawn, Path_test);
+        }
 
         public static void ASAExtractor()
         {
@@ -91,6 +106,7 @@ namespace ArkSpawnEntriesCreator
             {
                 File.Delete(Path);
             }
+
             const string path_strings = "E:/ARK Saves/ArkSpawnEntriesCreator/strings.txt";
 
             ASA_TextExtractor.ExtractEntryNames(path_strings, Path);
