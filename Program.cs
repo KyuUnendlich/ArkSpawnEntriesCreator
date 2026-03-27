@@ -38,8 +38,8 @@ namespace ArkSpawnEntriesCreator
 
             //OldASAMethods.ExtractAdditionalNPCSpawnValues(replaceFile, false, Path);
 
-            //ASAExtractor();
-            ASASpawnContainer();
+            ASAExtractor();
+            //ASASpawnContainer();
         }
 
 
@@ -59,7 +59,7 @@ namespace ArkSpawnEntriesCreator
             PortsOfAtlas,                           MyrmDraconisGlaucus, /*Glaucus*/    Sivatherium,                        ShinsPortedCreatures,
             AtlasReborn,       /*MULTIMAIN*/        IsleSkyshroud, /*skysh  MULTIMAIN*/ Cockatrice,                         ArborealAdditions,
             AtlasFish,         /*2 Files*/          IsleOxalaia, /*IoMSpino*/           AA_Brachiosaurus, /*AABrachio*/     CrystalWyvernPort,
-            MoroLivy,                               IsleSpearcrest, /*BSSpearcrest*/    AA_Acrocantho, /*AAAcro*/
+            MoroLivy,                               IsleSpearcrest, /*BSSpearcrest*/    AA_Acrocantho, /*AAAcro*/           MoroIndomitable,
             MoroGigantophis,                        IsleSuchomimus, /*IsleOfMythsSucho*/Meraxes,
             SulfurTitan, /*TitanSulfur*/            HorizonSuchomimus, /*Horizons*/     RunicWyverns,
             AA_Edmontonia,                          MoroTylo,                           NeoAurochs, /*Aurochs*/
@@ -82,7 +82,7 @@ namespace ArkSpawnEntriesCreator
             XyphMeiolania,                          ACEndemics, /*Endemics*/            AnomalyGalvarex,
         }
 
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/AnomalyGalvarex.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/MoroIndomitable.txt";
         const bool replaceFile = true;
         const bool multimain = false;
 

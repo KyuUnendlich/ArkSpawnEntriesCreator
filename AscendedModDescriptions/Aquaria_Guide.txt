@@ -1,0 +1,265 @@
+
+Acrophyseter
+Habitat: Ocean, Ocean Deep (Genesis)
+Tameable: Passive
+
+Smaller, docile whales related to the larger Zygophyseter and Livyatan. Acrophyseter are friendly and docile cetaceans, and this often draws them to the earlier survivors who are trying to explore the ocean. They are friendly enough to be handfed and easily domesticated, making the ideal step-up from Ichthyosaurus, and able to fend themselves off in battle more easily. With various increased damage output from deap-sea-critters, these whales make ideal counterparts for diving into the deep at your own risk early on- with some helpful advantages to watch out for your survival.
+
+-Essentially "Combat Ichthyosaurus", with more damage and health.
+-Has Opthalmosaurus's damage multipliers and immunities, However, unlike them, it has less damage, cannot jump, and does not get gang bonus.
+- Also grants a "Squid Protection" buff that grants a bit of temperature insulation!
+-Left click bite. Has the same damage multipliers as Ophthalmosaurus and deals decent damage.
+-Right click vocalize, for aesthetic.
+Arganodus
+Habtat: Freshwater
+Tameable: Passive
+
+A simple prehistoric freshwater fish species. Sometimes farmed for their meat, or kept in aquaria. Their visual appeal does help add to their appeal in domestication for aquaria.
+
+-Can be fished
+Cryptoclidus
+Habitat: Ocean, Shallow Water
+Tameable: Tranq or Passive
+
+A smaller, extremely fluid and athletic relative of Plesiosaur and Hydrotherosaurus. Cryptoclidus is a friendly and agile predator which darts through the water after its favorite prey: smaller fish. If befriended by being fed fish, Cryptoclidus proves one of the ocean's best early game and agile mounts. It is decently fast, has great stamina, is able to deal with Jellyfish, and can undertake quick maneuvers to strike a foe while mitigating damage to itself. Quick, decently powerful, agile, and able to help harvest resources: Cryptoclidus is a great mount for any survivor wanting to get their feet wet.
+
+-Immune to electrical attacks
+-tames much faster passively
+-will defend itself if attacked
+- Grants its rider a "Squid protection buff", protecting against attacks from squids, squid ink, and ammonite rage pheromones
+-Left click bite. Deals highly multiplied damage against most small fish, anglers, eels, and manta.
+-Right click Dash. For a high cost of stamina, Cryptoclidus will rush forward a set distance to strike the target (similar to the pteranodon's barrel roll). This cannot be done with insufficient stamina and cryptoclidus WILL NOT boost if you try to dash and turn at the same time (turning while dashing will also stop your dash). However, for a brief window when it starts dodging, Cryptoclidus will only take 75% of incoming damage if it takes damage while dashing.
+-C key Thrash. Harvests scilica pearls. Cryptoclidus will either strike with its left or right fins, or do a tail swing. This is a good AoE attack but is mainly there to be used for pearl harvesting.
+-X key roar, for aesthetic.
+Chinlea
+Habtat: Freshwater
+Tameable: Passive
+
+A simple prehistoric freshwater fish species. Sometimes farmed for their meat, or kept in aquaria. Their visual appeal does help add to their appeal in domestication for aquaria.
+
+-Can be fished
+Edestus
+Spawning: Deep Ocean, Gen1 Ocean Deep
+Tameable: Passive (unique)
+
+A larger relative of Helicoprion, Edestus is another strange deep-sea ratfish with a preference for fish and soft-bodied prey. While it is not as adept at dealing with them as its relative, Edestus's slightly larger size grants it more strength for general performance, though its jaws hide a nasty secret. When defending itself or hunting large prey, these jaws are capable of slicing the target in such a way copious blood fills the water. This incites immediate hostility and interest in nearby sharks, which quickly rush in to assist, tearing the prey apart alive! Docile, able to be handfed and versatile, Survivors tame Edestus in order to benefit their other sharks, or for a decent ocean travel companion who can always suddenly summon in help when needed!
+
+- Immune to jellyfish and eel electrocution
+- Grants immunity towards Humboldt Squid attacks of its rider.
+- Like Helicoprion, deals increased damage to various "Soft bodied" targets. Though instead of a 7x multiplier, it is a 2.5x damage multiplier on its bite.
+- Can harvest prime fish meat from fishes with its bite.
+- To tame: Edestus can be ridden when wild. Kill specific creatures in order to gain affinity. Salmon, Coel, Piranha, Anglers, Mantas, Eels are the worst affinity. Humboldts and Ammonites are second best, granting much more. Tusos - if you're brave enough - grant 25% instantly upon kill.
+- Left click bite, mediocre damage and inflicts Sharkbait. Sharkbait is a bleed-type debuff that only drains -2.5 HP per sec (same as mega rabies) and only lasts 5 seconds. However, each successive bite extends the length of the debuff, from 5 seconds to a maximum of 300. As soon as a target is bitten, all un-allied sharks will immediately become aggro to the target if they are not on the same team (hostile sharks like Megalodon will generally respond more immediately). Once Sharks get within a set radius of a target with Sharkbait, they get a buff that grants them +25% movement speed. Sharkbait targets also take 25% more damage from sharks, and every time they're attacked by one, there's a 10% chance the victim will take a sudden burst of damage that is base 60 damage multiplied by the attacker's melee stat. This burst ignores saddle and armor values to the effectiveness of manta/theri. Sharkbait can be inflicted on bosses.
+- Right click dash. Deals no damage but so long as you aren't turning, provides a surge of speed in a direction you're swimming, at a stamina cost.
+- C key tail slap. Has a cooldown and is good for hitting things behind you.
+- Spacebar to rotate nearly 180 degrees in place, allowing you to change direction quickly.
+- Left control aesthetic roar.
+Goliath Tigerfish
+Habitat: Freshwater, Swamp Water, Fertile Chamber Water, L
+Tameable: Tranq
+
+One of the largest and most aggressive fish from our modern world, the Goliath Tigerfish is a ferocious predator of the island's freshwater river systems. More commonly found in hot, humid environments, this aggressive predator is something not to be trifled with. It has immensely powerful jaws lined with huge, sharp teeth. Packed behind all of it is a torpedo-like, muscular body enabling explosive speed. All of this, wrapped up in an armored package by thick, reflective scales capable of shrugging off various forms of damage. Be warned in swimming in certain waterways, survivors...as this extremely deadly predator can make quick work of prey regardless of size. Its double-hinged jaws allow it for biting at nearly unrivaled speeds, causing profuse bleeding and rending body parts with ease. Its agility further allowing it to do so by darting in and out of windows of opportunity as needed... tamed, a Tigerfish is a deceptively powerful mount. If one could bring its strength from the riverways to the oceans, one would have a speedy mount capable of rending larger targets to pieces for hit-and-run tactics!
+
+- Goliath Tigerfish cannot be made to force flee, AI or otherwise! It doesn't torpor run either, so either use it to your advantage taming it or in combat!
+- The Goliath Tigerfish is very armored, ignoring 25% of incoming damage. Despite its size, however, it only has base 325 HP and reduced HP per level when tamed (not as bad as giga, so no worries there). Beware fish-harvesting foes like Spinosaurus and Baryonyx: their damagetype deals 2.5x damage to you!
+- Immune to Bleeding and Broken Bones
+- Left Click: Bite. Base 40 damage. This attack pierces armor to the effectiveness of Manta/Theri. When used, there's a chance the animation will play a variant of the usual bite attack that is either 25%, or 50% faster than normal. This attack also procs a bleed that slows the target and drains 5% of their health over 10 seconds, to a max of 5000 HP. When Tigerfish bites a bleeding target, it gains a HP regen buff of +3.25 HP, +5 stam -5 torpor over 5 seconds.
+- Right Click: Dash charge. Suddenly lunge forward for base 50 damage at a cost of 150 stamina and a 5 second cooldown. This triggers Assault, so use it as your opening engagement move! Cannot be turning to benefit from the lunge. Assault lasts 11 seconds before going on a cooldown for a time. During the first 10 seconds of the buff, melee damage to the target is recorded. 100% of damage from Assault-inflicting creatures is recorded, meanwhile only 10% is on other critters. At the 10 second mark, 100% of recorded damage, multiplied by 15%, is instantly dealt to the victim.
+- C key: Retreating Dash. Base stamina cost of 200. Immediately U-turn and dash backwards to gain distance before turning back around. In the first few frames of dashing backwards, grant yourself the Dodge buff, taking only half damage if you're hit during the duration
+- Left ctrl: Aesthetic roar.
+Goonch Catfish
+Habtiat: Freshwater, Redwoods Water, Luminous Marshlands Water,
+Tameable: Passive
+
+An absolutely massive catfish from modern times. On the ARK network, however, the Goonch Catfish has evolved into a true river monster. A large, lethargic predator; the Goonch prefers colder freshwater regions. Known as a gluttonous scavenger, the Goonch keeps its reputation while also taking a hint from its smaller relatives. This species is adorned with countless venomous thorns. these thorns and spurs riddle the entire catfish- predominantly on the fins- and offer protection from other predators. The Goonch will often wield these in self-defense, or towards predators whose kill it is trying to steal. This venom stacks the more the target is invenomated, dealing more damage. Goonch make for tanky defensive mounts: bringing them to the attention of several survivors who value defense over offense. They are fairly laid back as well and safe to approach, meaning they can be handfed...so long as they dont smell a corpse, which further incites their gluttonous hunger!
+
+- Naturally passive, but becomes aggressive if attacked or if corpses are nearby. Goonch can sense corpses from a considerable distance away!
+- Naturally immune to venom and being frozen!
+- Goonch drains food rather quickly: keep eating!
+- Passive tame, but tames horribly/long off of anything that isn't Extraordinary Kibble. Bring only the best for these river-gluttons!
+- Whenever physically attacked, Goonch returns 20% of incoming damage back to the attacker and inflicts them with Goonch Venom. Goonch Venom naturally lasts 2.5 seconds, but can be stacked up to a maximum of 300 seconds. This debuff drains -18 HP per second from the target (might buff to be equal to Wild Ark's unused High-tier venom of -26 later, but we'll see how balance plays out), but provides a secondary effect. Much like the venom of SCR Ceratosaurus, carnivores that attack targets suffering from Goonch Venom gain an HP regen buff of +25HP, -5 Torpor, +5 Food per sec, lasting 5 sec!
+- Left click: Bite. Base 40 damage. Instakills fish and harvests organic polymer well. When used on a corpse, grants Goonch a potent regen buff of +30HP, +5 Stamina, +15 Food per sec over 25 sec, while halving food drain while active!
+- Right Click: Grab Bite. Base 40 damage. Grab targets up to 150 Drag weight!
+- C key: Tail Spin. Base 32 damage. Same damagetype as Goonch's spine reflect damage. While this cannot grant Goonch the HP regen from attacking an envenomed target, attacking an envenomed target (includes venoms from any of my mods) will cause the tail whip to deal 2x damage to it! Prioritize whether the situation calls for damage or survivability by choosing which attack to use!
+- X key: Aesthetic Roar.
+Helicoprion
+Habitat: Deep Ocean
+Tameable: Passive (Unique)
+
+A deep-sea "SuperChimera" that, despite its massive size and intimidating tooth whorl, is not a hostile predator of survivors. Sleek and intimidating, these dark-water predators mean no harm to survivors unless disturbed. Their tooth whorl, while intimidating and painful to be bitten by, is not the deadliest pair of jaws in the deep. Far from it actually. While the opening and closing of the jaws mimics saw rotation, this creature is far from an armor-shredding maniac or bleed-inducing assassin of the deep. Rather, it is an extremely specialized predator which preys mostly on soft-bodied organisms such as smaller fish and invertibrates (mainly cephalopods). While painful on normal creatures, the jaws are EXCRUCIATING on these target organisms, inflicting incredible amounts of pain as the natural saw-structure pulls and rips flesh from bone and shell alike. When domesticated, these fish-eating predators are viable specialized mounts. Their damage is mediocre in combat and they can even be taught to use their long tails to defend against rear assailants. However, most crucially is their evolved hyper-predation into specific targets. While damage is mediocre against normal targets, the excruciating damage inflicted towards specified organisms makes Helicoprion a solid counter towards some of the deep's more boneless residents! On the more passive side, their unique jaw and whorl mechanics and design can be used to natural effectiveness to harvest larger amounts of prime fish meat as well!
+-Not aggressive unless attacked.
+-Reduces the weight of Raw Prime Fish and Tuso Tentacles in its inventory, drastically.
+-Harvests increased amounts of raw prime fish
+- To tame: Helicoprion can be ridden when wild. Kill specific creatures in order to gain affinity. Salmon, Coel, Piranha, Anglers, Mantas, Eels are the worst affinity. Humboldts and Ammonites are second best, granting much more. Tusos - if you're brave enough - grant 25% instantly upon kill.
+- Grants immunity towards Humboldt Squid attacks of its rider.
+-Towards any "Soft-Bodied" creature, Helicoprion inflicts a staggering 7x damage multiplier on them with its jaws! "Soft Bodied" Creatures currently include: Salmon, Piranha, Angler, Eels, Jellyfish, Coelocanth, Ammonites, Tusoteuthis, Manta, Humboldt Squid.
+-Left click bite. Good DPS, but mediocre/sub-par damage towards normal creatures, with a base damage of 25. With the 7x multiplier however, this causes them to deal 175 base damage towards their specified targets!
+-Right click tail thrash. Slight stamina cost and cooldown. Swipes tail twice behind itself to hit rear attackers.
+Humboldt Squid
+-Spawning: Ocean
+-Tameable: Passive (unique)
+
+An aggressive, intelligent terror of the ocean. The Humboldt Squid is a schooling, hyper-aggressive predator that is to the ocean what Microraptors are to the land. Without warning, they will often suddenly swarm targets from the abyss, taking them by surprise with extreme speed and aggression. Intelligent as any cephalopod, they have the the cunning to recognize survivors atop their mounts, and will often suddenly charge Survivors at high speed. Slamming into and grabbing survivors off their mounts, only to tear them to pieces in a frenzied horde soon after. The only thing one can do to protect themselves against humboldt squid is to keep an eye open, and prey you can take out these relatively fragile squids before they can get to you, which is a tall order without titanic ocean leviathans as your mount. If grabbed, flail with whatever melee weapon you have in an attempt to kill them. Though in this, it was found Humboldt Squid are particularly vulnerable to a specific weapon: wooden clubs. If bashed with one, the squids seem to become stunned far longer than most creatures. Intelligent survivors have found that this is the best opportunity to tame them, feeding them in this state and bashing them upside the head any time they try to lash out, until conditioned. Once tamed, provided one doesn't mind their innate savage tendencies, they are one of the ocean's deadliest schooling predators, ripping enemies off their mounts and swarming targets in a flurry of barbed suction cups and razor-sharp beaks. It's even been discovered the larger individuals can be ridden, and they make for unique mounts with a surprising bit of speed and versatility!
+
+-Extremely aggressive, beware them charging from range!
+-Has a gang bonus of up to +9 (10 total individuals). For each gang member, they gain 5% melee and 2.5% resistance.
+-Extremely aggressive: Humboldts always commit friendly fire, even in pve, and even with friendly fire disabled. Same with wild humboldt.
+-Will target and focus riders on the back of their mounts, snagging them and ripping them to pieces.
+-To tame, simply hit one with a wooden club. Quality does not matter. They will become stunned for five minutes, and during that timeframe, can be passive tamed! taking damage does not reset or lower affinity. You need to be at least lvl 25 to tame them!
+-When tamed, tamed humboldt squids only take 25% of incoming damage from other humboldt squids, be they allied, same tribe, or wild.
+-When killed, Humboldts can have Raw Squid Meat harvested from them. Raw Squid Meat is a form of Raw Prime Fish with the taming effectiveness of mutton. This means it's better than mutton for taming Spinosaurus, and is a mutton equivalent for taming strict piscivores like Baryonyx and Pelagornis. Certain creatures throughout my mods also greatly prefer Raw Squid to even their preferred kibble! The list of creatures in Aquaria are: Acrophyseter, Edestus, Hammerhead Shark, Helicoprion, Hydrotherosaurus, Ophthalmosaurus, Titan Sailfish, Shonisaurus, Walrus and Zygophyseter. In Additional Creatures 2: Wild Ark, Narwhal also prefers Raw Squid. Harbinger in Shad's Atlas Imports mod also prefers it.
+-Left click is a grab attack, deals 10 damage. If the target is grabbed, they are quickly bitten three times for base 5 damage before being let go. Attacking anything will proc a weak HP regen buff equal to Tigerfish's
+-Right click is a sudden backwards dash for ridden individuals. While this has a stamina cost, it can be spammed without cooldown, making it a great way for evasive action.
+-Humboldts can swim backwards at full speed they can when swimming forwards. This includes sprinting speed!
+Hydrotherosaurus
+Habitat: Ocean
+Tameable: Tranq or Passive
+
+An Elasmosaur, Hydrotherosaurus is a peaceful reptile of the ocean, sometimes found swimming in small groups. With a long, craning neck, Hydrotherosaurus uses it to deliver precise strikes into fish schools, snapping up an easy meal. While less aggressive, powerful, and durable than ark's plesiosaur, the Hydrotherosaurus has its own uses when tamed. It is intelligent enough to notice a survivor riding on a creature's back and will target the rider before the creature- using its craning neck to attack the rider directly. Tamed, this makes Hydrotherosaurus a great combat mount. it can use its long neck to reach a far distance and attack enemy riders directly- removing them and making the critter much more easy to deal with. Aside from that though, Hydrotherosaurus is a poor fighter. Its durability and power are low compared to other ocean heavyweights, and it's long neck is pitiful in combat. once a target comes into close quarters combat, Hydrotherosaurus becomes inable to hit successfully, making combat with Hydrarchos all about keeping one's distance. On the more passive side, they have great stamina- making them excellent for the oceanic long-haul.
+
+-Immune to electrocution
+-neutral in the wild
+-Left click directional craning bite. Hydrarchos will swing its head and bite in the direction you look. Look and bite for massive coverage in a direction, great for getting enemies off your flanks and striking from a distance. This attack hits riders directly, and is a pelagornis damage type.
+-Right click forward craning bite. Same as the left click, but hits directly forward instead of swinging to the left or right. A little faster and better for striking something in front of you. Once again, pelagornis damagetype.
+-C key roar, for aesthetic.
+
+Hydrothero_Character_BP_C
+Leopard Seal
+Habitat: Polar Coast
+Tameable: Tranq or Passive
+
+This species of Leopard Seal is several times larger than any modern species. However, as the name implies, it is far more leopard than seal in temperament. It is an extremely aggressive predator, the bane of Kairuku out on the ice floes and a surprising threat to walruses. For those that tame leopard seals, they will find them an adept amphibious mount for the ocean, with affinity for killing kairuku and storing their polymer.
+
+-Gives insulation to rider
+-immune to electric shocks
+-Can be told to lay down via radial wheel. Helps recover health when low.
+-Stores Organic Polymer for a very long time, and also reduces organic poly's weight in its inventory.
+-Left click bite. Drains stamina and deals increased damage to kairuku, harvests increased amounts of organic polymer.
+-Right click grab bite. Grabs small-to-medium creatures in its jaws
+-C key roar, for aesthetic.
+
+
+LeopardSeal_Character_BP_C
+Lungfish
+Habtat: Freshwater
+Tameable: Passive
+
+A simple prehistoric freshwater fish species. Sometimes farmed for their meat, or kept in aquaria. Their visual appeal does help add to their appeal in domestication for aquaria.
+
+-Can be fished
+Mawsonia
+Spawning: Freshwater, Swampwater
+Tameable: KO (unique)
+
+Mawsonia is... an *interesting* fish that is a glutton with a strict no-chewing policy: swallow first, digest later. While on the slower side of things, do not underestimate this large relative of coelocanths... lest you be swallowed whole! Mawsonia prefer to try and swallow small prey instantly, promptly digesting them as soon as inhaled for maximum metabolic return, helping them recover food easily. To tame them, survivors often simply do as the fish wants: feed them! By forcing the fish to overfeed, Mawsonia will enter a food coma and knock itself unconscious! Tamed, they make for deadly defense, lurking in dark waters for unsuspecting prey before suddenly gulping them down!
+
+- Left click bite, same damagetype as pelagornis, instakilling small fish.
+- Right click vore bite. Mawsonia will instantly grab any targets 130 drag weight or less and run a brief check. If the target is a creature, it will check to see if its HP is 25% or less. If it's a player, it'll check to see if the player's HP is 100 or less. If either is correct, Mawsonia will instantly devour the target for massive damage and grant itself an HP regen buff while adding to its food debt. Targets grabbed by Mawsonia can damage it repeatedly for an attempt to escape!
+- Mawsonia by default has an overfed limit of 375, which cannot be raised. Any time they devour a target, the creature's drag weight is added to the food debt. Every 10 seconds, Mawsonia will drain 25 debt from its current amount. When accumulated food debt is greater than 375, Mawsonia will become sluggish and enter the Food Coma state, gaining 100 torpor per sec.
+Ophthalmosaurus
+Spawning: Ocean
+Tameable: Passive Tame
+
+A large, open-ocean swimming ichthyosaur. A deep diver, it spends its time hunting in the abyss in the safety of its companions. Adapted for life in the deep, its large eyes make it an incredibly efficient deep-sea hunter as it hunts soft-bodied prey primarily. Comparable to modern orcas, they have a similar bond with each other as a pod and will fiercely protect each other and attack anything that threatens them or they think they can eat. Tamed, they prove effective deep-sea mounts and decent fighters, their strength growing in groups
+-Immune to tusotuethis ink and electrocution
+
+-Has a 3x gather rate for: Angler Gel, Black Pearls, Ammonite Bile, and Jellyfish Biotoxin
+-These same resources only weigh 40% of its weight in the Opthalmosaurus's inventory weight.
+-Sexually dimorphic: Males boast a black-and-white pattern while females have a duller blue-and-green pattern.
+-While it can come on land, it cannot stay on land indefinitely like. Shortly after coming on land it will gain the “Beached” debuff- and it will begin to loose health, suffocating under its own weight. The buff will wear off when in water. Don't spend long times on land!
+-They will not attack players, but will hunt certain water predators or wild animals that get into the water.
+-Grants its rider a "Squid protection buff", protecting against attacks from squids, squid ink, and ammonite rage pheromones, this version also grants insulation!
+-Left click bite. Special damagetype that gathers organic polymer and insta-kills fish like Pelagornis. However, it has a unique ability of dealing 5x damage to: Angler, Ammonite, Trilobite, Sea Scorpions, and Cnidaria!
+-Right click squawk. For aesthetic.
+-X key to toggle Predator vision
+-Spacebar to jump. Only in water and at the water's surface!
+
+Ophthal_Character_BP_C
+Orca
+Spawning: Ocean
+Tameable: Passive (Unique)
+
+The "Wolves of the Sea", Orcas are the dominant predators here on the ARK. Aside from size, they are largely unchanged, and are a force to be reckoned with in the wild. Rarely preyed upon by other predators, they use intelligence and pod mentality to overwhelm more powerful aggressors. When combat is not on their side, they will readily flee. While they won't accept food like a normal passive tame, they do allow survivors to ride them, which can be used as a bonding experience. When tamed, they are loyal mounts that while not the most powerful alone, can be terrifying in large pods. Combined with their unique habit of eating livers of sharks and other animals, they can harvest a unique resource that can give them, and similar animals, a unique leg-up on competition!
+
+    Rider insulation, like Basilosaurus
+    Immune to jellyfish, eels and such
+    Gang bonus of up to +9 (10 orcas). Orcas gain 6% melee & 5% defense per ally, making them *strong* pack hunters.
+    Left click: bite. Base 35 damage (same as Carno). No special Effect.
+    Right click when at surface: Breach. Grants a buff that, for a time, grants +25% speed, +35% exp rate, and a flat 25 xp per application. This buff lasts 12 seconds. Must be moving to use ability.
+    AltFire: Toggle Auto-Breaching. Allows Orcas, when AI or ridden, to breach in approximately 4.5 second intervals automatically. A great way to gain passive xp and travel faster.
+
+
+Orcas steal livers.
+When killing a Megalodon, Edestus, Forgotten Fauna Edestus, Aquaria Helicoprion (AA/Official will be added when its in kit), or Manta, Orcas will gain one Shark Liver for the kill. Shark Livers are useful healing items that grant a buff for 300sec:
++25 HP regeneration per sec
++5 stamina regen per sec
+-5 topor per sec
++5% attack/defense
+-Immunity to bleeding, certain venoms and other negative buffs.
+-This item can only be used on: Orcas, Acrophyseter, Baryonyx, Suchomimus (Wild Ark), Vallibonaventrix (Wild Ark)
+
+Taming
+Simply find a wild Orca, go up to it, and ride it! From there, bring it to the surface and enable Auto-Breaching with AltFire. You cannot command wild orcas to breach. Simply spend some time with your orca: every jump, it'll gain a random amount of affinity per breach. Bond with your Orca until 100%!
+Piraiba Catfish
+Habitat: Freshwater, Swamp Water
+Tameable: Tranq (Unique)
+
+A large catfish that favors warmer freshwater on the arks. A jungle predator, the Piraiba is unique from other catfish such as the Wells or Goonch. It doesnt live a sedimentary lifestyle on the bottom. Rather, much like a shark, the Piraiba (also called Lau-Lau) actively patrols the open water column and is a dangerous pursuit predator. Like many large fish, the opening of its massive mouth creates a vaccum effect that it uses to grab prey. However, the Piraiba has a much more terrifying tactic it has evolved on the arks. It is capable of inhaling massive amounts of water and funneling them through its gills, creating a vortex effect to grab and pull in distant targets. It cannot do this while moving quickly however, as the process seems to require all its energy and concentration. Once in the predator's mouth, prey is grabbed by sandpaper-like gripper pads which are used to abrasively scrape away at the skin and cause bleeding as the fish thrashes its prey in its mouth. if needed, prey can be sput out forcibly for large amounts of blunt force trauma damage. Naturally, there is desire for Piraiba over Goonch for its more aggressive lifestyle. It is faster, and although it has less health, it can run for longer and its bites and aggressive predatory style has severe advantages in combat. Combined with immunities to venoms, Piraiba is a viable mount option for the riverways- and ocean if one can bring it to the sea. However, Piraiba seems resistant to narcotic-inducing ammunition. It would likely not be possible to domesticate Piraiba unless eagle-eyed survivors didn't notice how much wild Piraiba actively avoid Beelzebufo, despite their gluttonous tendencies. If a Beelzebufo is grabbed by a Piraiba, the frog's narcotic slime begins to quickly take effect. The fish however notices this, and will begin to thrash violently in in attempt to kill or dislodge its harmful meal!
+
+- Piraiba is immune to torpidity unless it is tamed in its unique mechanic. One must bait a PIraiba to grab a Beelzebufo- tamed or wild. Normally a Piraiba would simply shake prey in its mouth, but the Piraiba will actually break into a PANIC when it realizes its grabbed a Beelzebufo. As soon as the frog is in its mouth, the Piraiba will rapidly gain torpidity. No need for ammunition of any kind: so long as your frog has sufficient health and/or a good armored saddle, you wont need to waste a dime on narcotic ammunition. The Piraiba will knock itself out. Be careful however, as the Piraiba's panic is exceptionally violent. This thrash variant does over twice the default damage as the normal thrash, and has much faster DPS: let that warn you just how much this catfish hates the taste of toads!
+- Immune to venom debuffs
+- Naturally immune to torpidity unless grabbing a beelzebufo
+- Aggressive predator, be careful drawing close!
+- Can grab anything up to 150 drag weight, like Megalosaurus.
+- Piraiba reduces the weight of berries, seeds and fiber to 1% in inventory. Pearls, thatch, and sand are 5%, and wood/stone is 50%!
+-Left click is a bite. Harvests fish and prime fish well.
+-right click Lunging Bite. This pairs well with running and is a root-motion attack. Same damage as the bite, simply grabs targets. Wild Piraiba use this as an engaging/interception attack, so this is the attack you want to bait the Piraiba you wish to tame into using on your frog.
+-C key Vortex. Piraiba will open its mouth and begin to inhale water at a high stamina cost. It cannot be used with insufficent stam and will auto-cancel when you lack stamina. It can be toggled off with C again, and can be untoggled almost immediately. However the initiation for the vortex has a 5 second cooldown, so it cannot be spam-toggled. Using the vacuum also prevents you from sprinting, while only marginally reducing your cruising speed. Can also be used as a vacuum to rapidly gather hand-harvestable resources!
+-If Piraiba holds any target in its jaws, it will cancel the vortex automatically (after a moment of internal coding maintenance for flow) and begin violently thrashing the target in its jaws. This has high DPS and inflicts Rend. It will automatically stop if the target is dead.
+-C when shaking a target to spit them out. This has 100 base damage and inflicts trike-styled stun on the target.
+-If Piraiba grabs a Beelzebufo, it will use its Panic Thrash attack instead of the normal thrash. This has higher DPS and base damage (Thrash is 35, Panic Thrash is 60). This also applies Assault. While wild/AI ones will simply thrash until the target is killed or they become unconscious, ridden ones can safely spit frogs back out with C. While inflicted with this Panic debuff, it gains +150 torpor per second and looses 10 stamina per second (NOTE: This means wild Piraiba will actually drain their food for you, a bit!)
+Protostega
+Habitat: Ocean, Shallow Water
+Tameable: Passive
+
+A very large, docile sea turtle. Protostega is a common sight both in the open ocean and coastal shallows. A carnivore, its diet consists of largely jellyfish and small fish. As such, it is a completely friendly animal and one can approach without much concern. As one would expect, its large shell makes it extremely defensive. While having strong jaws with a sharp beak, Protostega is not exactly lacking in the defense department either. When in water, it is capable of giving a powerful headbutt which can knock out potential threats, giving the turtle time to escape. If tamed, Protostega is a tanky ocean traveler. Most predators don't bother the turtle due to its natural armor, and it is effective at harvesting biotoxin. So while safe, and it can defend itself if needed...be careful with more dangerous threats around!
+
+-Natural armor makes it take only 50% of incoming damage along its shell
+-Lays eggs on land, can freely come onto land
+-Has a 5x multiplier for Jellyfish Venom and reduces the weight of it in its inventory.
+-Eats only fish meat
+-Likes fish meat, jelly venom, and kibble for taming.
+-Left click bite. Pierces armor to the effectiveness of manta, harvests corpses and underwater bushes
+-Right click (water only). Headbutt. Has a cooldown and high stamina cost. Inflicts high amounts of torpor into the target.
+-C key "roar" emote, for aesthetic.
+-X key (water only) roll emote. For aesthetic.
+Tylosaurus
+Habitat: Ocean, Shallow Water
+Tameable: Tranq
+
+A somewhat smaller cousin of the deep-water-dwelling Mosasaurus; Tylosaurus is a ferocious predator who stalks all manner of water depth, from the coasts to the benthic deep. Like a massive nurse shark, Tylosaurus can be seen lethargically and lazily resting and traversing along the seafloor. However, this is a ruse for the patient predator. It will do this while remaining as still as possible or slowly closing the distance onto a target before suddenly bursting up towards them at rapid speed, striking while the target is still in shock. Once the prey is consumed, it will once again return to the seafloor to continue its lazy life. As strange as it sounds, Tylosaurus is best equivalated to an "Underwater flier". Unlike practically all other marine life, it cannot maintain itself in the water column indefinately and must eventually land on the seafloor to rest. Those that can tolerate this about Tylosaurus will note however that the predator can largely take care of itself. Tylosaurus when resting on the seafloor heightens its metabolic rate to heal wounds, allowing itself to recover from damage rapidly when resting. The downside however is this causes its muscles to relax, massively decreasing output damage. Tamed, Tylosaurus makes for a unique mount and an interesting experience of a tame. Powerful, and able to recover from wounds in the long haul.
+
+- NOTE: Tylosaurus can only be properly tranq tamed when it is free swimming in the water column! Bait it off the seafloor and pelt it with tranqs while its swimming!
+- While immune to the electrocution debuff, it is NOT immune to electrical attacks.
+- Tylosaurus is essentially an underwater flier. It cannot sprint when on the seafloor, and must "take off" from it with Spacebar. When free swimming, it will loose stamina and is incapable of regenerating it until it lands again. pressing spacebar again however will not cause it to land. Instead, press X to cause Tylosaurus to descend to the seafloor. Be warned though: no rapid descents for you. Tylosaurus will take fall damage and you can kill your tylosaurus with a rapid descent like that!
+- When resting on the seafloor, Tylosaurus gains a buff that causes it to heal by 135 health points per second. However, when resting, Tylosaurus only inflicts 20% of damage by default.
+- Left click bite. Inflicts a venom that drains 18 HP per second, and stacks up to 300 seconds.
+- Right click roar. Simply for aesthetic.
+- Spacebar to take off from the water column.
+- X to land/descend rapidly
+Walrus
+Spawning: Polar Coasts
+Tameable: Passive
+
+A larger species of Walrus found along the cold coasts of the island, these social animals are friendly until provoked. Their powerful tusks are capable of delivering powerful blows to enemies, and their large bodies allow them to take a fair amount of punishment. Their size however undermines their profound water speed, and their blubbery bodies which help keep their rider warm!
+
+-Sexually Dimorphic. Males have much larger tusks and are larger in general.
+-Walrus, when mounted, gives an insulation buff similar to the Basilosaurus!
+-Walrus use a form of pack mechanic (are childed from Dino-Character-bP-Pack-c) but instead of using true Pack Alpha like Allosaurus, they use something called Beachmaster. Beachmaster can only be granted to the highest level male of the group.It grants an additional 35 percent melee and 15 percent resistance compared to Allos 50 percent attack 25 percent res (due to the Beachmaster already having the bonuses of being a Male walrus). Walrus do NOT gain gang bonus. The maximum amount of Walrus in a group is 25.
+-If a walrus is Male, Male walrus have 35 percent more damage than females, and ignore 10 percent of incoming damage altogether.
+-Left click is the Walrus's Tusk Stab attack. Gather from clams to collect silica pearls, like the Angler.
+-Right click is the Walrus's Heavy Tusk Jab. Immobile on land. this attack inflicts heavy damage and cannot be used while moving. Inflicts bleed, but does not slow down the target. This drains 5% of HP. It however has a cap, being unable to drain more than 3200 HP in a single proc.
+-C key bellow, for aesthetic.
+
+
+Walrus_Character_BP_C

@@ -1,0 +1,216 @@
+
+Atlas Flying Fox
+Spawning: Jungles
+Diet: Carnivore
+Temperament: Neutral
+Tameable: Tranq (kinda)
+
+A very large species of bat commonly found soaring in and around jungles. Despite its impressive size and powerful jaws, the bat is an herbivore, preferring to eat fruits and nuts. Much like other modern-day fruit bats, these colossal bats are actually diurnal: active during the day and asleep at night. During the day they are faster, stronger, and recover wounds and torpidity much more quickly. At night, however, they quickly fall asleep and rest wherever they can, releasing a pheromone that reduces their ability to be detected by predators. When tamed, they make for an interesting flying mount that packs a deceptive amount of power!
+
+- During the day, gains +25% melee damage, +25% movement speed, drains 750 torpor per sec, and regenerates 15 HP per sec.
+- During the Night, Looses 25% movement speed, 10% melee damage, and rapidly gains 175 torpor per sec.
+- Once unconscious, gains a buff that increases it's food drain 3-5x and massively reduces its detection range by enemies.
+- Due to all of the above, it's practically impossible to KO one during the day. Find one you want to tame, wait until night, and let it KO itself.
+- Left click bite, deals base 45 damage and harvests bushes.
+- Right click screech, for aesthetic.
+- Spacebar to toggle flight.
+
+Spawning
+
+Abat_Character_BP_C
+
+cheat gmsummon "Abat_Character_BP_C" 180
+
+Saddle
+Cheat gfi Abat 1 0 0
+Atlas Kodiak
+Spawning: Redwoods, Tundra
+Diet: Omnivore
+Temperament: Aggressive
+Tameable: Tranq
+
+
+Extremely aggressive bears larger and more powerful than Direbears, and far more predatory. These bears will even charge down larger creatures such as Tyrannosaurus or even Brontosaurus. They certainly have the power to back it up: their strength and bulk can prevent them from being pushed around, and they can deal impressive amounts of damage very quickly. Combined with their ability to stand on their back legs, these "Kodiaks"- so named due to their size and aggression- are everything positive about a Direbear turned up to eleven. For those who enjoy the standard Direbear, or having mammals instead of dinosaurs, these brutes are a must-have!
+
+
+-Immune to knockback when on all fours.
+-Slightly faster swimmer and runner than direbear, with better health and overall damage.
+-Left click bite. Harvests corpses and fiber.
+-Right click claw slash. High damage and knockback, but a cooldown. Harvests honey and also deals bonus damage to fish.
+- C key aesthetic roar.
+- Spacebar when not falling or swimming to enter Biped stance. You will not be able to move when Bipedal, and become vulnerable to knockback. Spacebar again to leave.
+- In biped stance, left click becomes a powerful, quick directional claw attack with the same effects as the normal claw slash but with a stamina cost. Rear up to not also reach certain hives easier, but drastically increase your DPS at the cost of mobility and becoming vulnerable to knockback!
+- Inventory works as a smithy, and also a combination of the inventories of Argent and Beaver, drastically reducing the weight of many resources!
+
+AKodiak_Character_BP_C
+
+cheat summon AKodiak_Character_BP_C
+
+cheat gmsummon "AKodiak_character_BP_C" 180
+
+cheat spawndino "Blueprint'/ShadsAtlasImports/Critters/Kodiak/AKodiak_Character_BP.AKodiak_Character_BP'" 1 1 1 180
+Mongrel Cyclops
+Spawning: Mountains, Monster Island, Scorched Mountains (SE)
+Diet: Carnivore
+Temperament: Aggressive
+Tameable: Passive
+
+
+Large, genderless, humanoid-like creatures built for brute force. Unable to breed, these creatures seem to gain strength quicker than others. Despite their size, they can grow to be exceedingly dangerous to larger foes, especially when combined with their rudimentary intelligence. Tribes that tame these rare monsters have also been able to convince them to put down their uprooted primitive club-weapons and use over-sized survivor tools! Combined with their ability to carry extensive heavy loads, it increases the creature's usefulness and adaptability, allowing it to be a brutal attacker or even a potent resource harvester!
+
+
+    Immune to knockback
+    To tame, ensnare it within a Chain Bola, similar to Tropeognathus
+    Can equip melee weapons in the "gloves" slot of its inventory, like a mantis. However, it does NOT use durability and Weapon Damage will NOT increase its damage. Rather, you can equip weapons to change the Cyclops's damagetype with its attacks. Get creative with the various tools and weapons in game, as well as mods, to bring out the most of your cyclops! As Cyclops takes damage, however, do be aware weapons will loose durability
+    You can toggle on or off the ability to inherit the weapon's damagetype with altfire (left control). By default, this is enabled. Useful if you want to use a weapon aesthetically, but dont want the reduced damage (most player tools and weapons are hard-coded to deal reduced damage to creatures).
+    Cannot breed. Instead, has higher stat scaling when tamed to normal creatures.
+    Has "Frenzy", which increases damage by 25% when above 75% HP
+    Standard Saddle increases weight by 25%
+    Armored Saddle which offers several combat bonuses. Double the armor of the normal saddle. Returns 15% of melee damage taken back to the attacker, to a max amount. Protects against bleeding buffs, grants 5% more melee, and changes the effects of the punch attack.
+    Has the "Bloodforged" ability. When Cyclops' weapon swings hit a bleeding target, or when it kills a target, this buff activates. Bloodforged restores 2 durability per second, lasting 5 seconds, to the creature's equipped weapon.
+    Inventory reduces the weight of almost anything in it to half!
+    Left click (When not moving): Weapon strikes. Stationary attacks of base 85 damage, inflicting knockback.
+    Left click (Moving and running): Charging Slam. Has a cooldown and stamina cost, cannot be used when swimming or with insufficient stamina. The first half or so of the animation allows movement while the second half restrains it for a time. Useful as a powerful gap closer, base 115 damage.
+    Right click: Punch. Base 55 damage. Faster attack speed than the normal weapon swings. If equipped with the Armored saddle, the free hand gets a metal-and-chitin gauntlet that alters the effects of this attack. The weapon will deal a second hit of damage that is equal to half its original damage, in the same damagetype as Razortooth's bleeding bite. This will pierce armor and inflict a DoT bleed.
+    C key club swing. 360 attack with a stamina cost and cooldown, base 85 damage and hits twice.
+    X key: Aesthetic roar.
+
+ACyclops_Character_BP_C
+
+cheat summon ACyclops_Character_BP_C
+
+cheat gmsummon "ACyclops_character_BP_C" 180
+
+cheat spawndino "Blueprint'/ShadsAtlasImports/Critters/Cyclops/ACyclops_Character_BP.ACyclops_Character_BP'" 1 1 1 180
+
+Unique Weapons
+Mongrel Cyclops has a few unique weapons intended to be used by it, that grant it certain special effects. Players cannot use these weapons. Other creatures like mantis can, but it is not recommended due to their weight. Said weapons also lack any damage modifiers, meaning Mantis only gets the damagetype change from them.
+
+    Chitin Greatsword: Causes weapon attacks to no longer be considered "melee damage", preventing recoil effects.
+    Chitin Greataxe: Causes weapon attacks to inherit Theri's damagetype.
+    Bone Mace: Causes weapon attacks to inherit Rock Golem's damagetype, and grant a 15% chance to inflict Broken Bones.
+
+Razortooth
+Spawning: Jungles, Redwoods
+Diet: Carnivore
+Temperament: Aggressive
+Tameable: Tranq
+
+
+Large bipedal theropod dinosaurs coated in wild feathers. Commonly found in dense cover- especially the tropics- they utilize their impressive speed in combo with the sharp teeth in their jaws, which are their namesake. While not as effective as creatures such as manta and therizinosaurus, these teeth can still pierce armor effectively. Much like Yutyrannus, they seem able to emit roars that can both cause fear or inspire. Yet these creatures do not hunt in packs like the polar yutyrannus, utilizing their roars in tandem with their speed, dense cover, and sharp teeth to wear down prey in quick bursts.
+
+While not as durable as Yutyrannus, Razortooth can perform the same job but defend themselves easier. Their sharp teeth can penetrate enemy armor, and when enough force is packed behind their jaws, they can even penetrate with greater efficiency and cause the foe to bleed. When escape is needed, their heightened speed and stamina will also help ensure a clean getaway if the foe is too tough!
+
+- Less health than Yutyrannus, as well as less damage, but better stamina, movement speed, and combat power.
+
+- Left click is a bite that deals 48 base damage and has armor penetration, but not to the effectiveness of Manta or Theri.
+- Right click: Fear roar. Same as Yuty
+- C key: Fear roar. Same as yuty
+- AltFire: Gnashing bite. Cooldown and stamina cost, base 55 damage. Penetrates armor to the same effectiveness as Manta, and deals a bleed debuff. The bleed deals 25 base damage per sec, partially ignoring armor but scaling with the Razortooth's melee stat (does not consider buffs), to a capped amount.
+- Uses Yutyrannus Saddle.
+
+Razortooth_Character_BP_C
+
+cheat summon razortooth_Character_BP_C
+
+cheat gmsummon "Razortooth_character_BP_C" 180
+
+cheat spawndino "Blueprint'/ShadsAtlasImports/Critters/Razortooth/Razortooth_Character_BP.Razortooth_Character_BP'" 1 1 1 180
+Savage Hammerhead
+Spawning: Ocean
+Diet: Carnivore
+Temperament: Aggressive
+Tameable: Tranq
+
+
+Large, vaguely armored sharks resembling Hammerheads, nearly the size of the Megalodon species of the ARKs. While not as durable or powerful, these sharks are far more vicious, which is what earns them their namesake. Their jaws cause their target to bleed, and they even seem to begin feeding on prey before they even expire, feeding off the gore from bleeding targets. Combined with their speed and their habit to maul smaller targets into submission, and these sharks make for potent aggressive combat mounts! While the osteoderm-like protrusions on their back don't provide much in the way of armor, it seems to make them robust enough to ignore the electrical shocks of various ocean critters!
+
+
+-Immune to electrocution debuff
+-Will sense corpses in the water and rush to feed
+-Left click inflicts a bleed that deals 25 base damage per sec, scaling with your melee stat (ignoring buffs), to a max amount. If you bite a bleeding target (any bleed works, not just your own), gain a potent buff that heals you by 15 HP per sec, 25 stamina per sec, and drains torpor while slowing your food intake to 0.25x.
+-Right click is a grab-and-maul. Grab targets of up to 150 drag weight, then shake them in your mouth to damage them 3 times for 35 base damage, bleeding them and then letting them go.
+
+AHammerhead_Character_BP_C
+
+cheat summon Ahammerhead_Character_BP_C
+
+cheat gmsummon "Ahammerhead_character_BP_C" 180
+
+cheat spawndino "Blueprint'/ShadsAtlasImports/Critters/Hammerhead/Ahammerhead_Character_BP.Ahammerhead_Character_BP'" 1 1 1 180
+Shieldhorn
+Spawning: Jungles, Redwoods, Green Desert (SE)
+Diet: Herbivore
+Temperament: Aggressive
+Tameable: Tranq
+
+
+Large, aggressive herbivores known for their speed and aggressive temper. Relatively powerful, they are capable of providing an aggressive offensive in battle, and their speed and stamina make them great at traversal. Tamed, they prove a useful jack-of-all-trades mount.
+
+- Mid-to-late game ceratopsian that can provide a wide variety of roles.
+- Uses Trike saddle, tame one early if you can!
+- Left click is a headbutt that harvests corpses, berries, and fiber.
+- Right click: Stomp. Cannot be done while moving, high knockback.
+- C key: Taunt, for aesthetic.
+
+
+
+shieldhorn_Character_BP_C
+
+cheat gmsummon "Shieldhorn_Character_BP_C" 180
+
+cheat summon shieldhorn_Character_BP_C
+
+cheat spawndino "Blueprint'/ShadsAtlasImports/Critters/Shieldhorn/Shieldhorn_Character_BP.Shieldhorn_Character_BP'" 1 1 1 180
+Pelagic Crocodile
+-Spawning: Oceans, Beaches
+-Tameable: Tranq
+
+The Pelagic Crocodile is the name given to a large crocodile that lives on the arks, bearing a similar appearance and behavior to the modern Saltwater Crocodile, only much, much larger. One thing worth note, however, is its teeth. They are incredibly sharp and hard, and combined with its powerful jaws, it allows the Pelagic Crocodile to bite into stone and become an effective amphibious harvester. Its also nowhere of a pushover, as it has the power to easily protect itself and its owner in a fight! Tribes can use that strength of the Pelagic Crocodile to quite literally drill their way in through enemy stone structures!
+
+-immune to bleeding
+-Reduces the weight of heavy/mineral resources in inventory
+-Left click bite. Harvests mineral resources like an Ankylosaurus and deals some piercing damage. Harvests meat and corpses too.
+-Right click Deathroll Drill. Same damagetype as tamed Giga, this attack turns the Deathroll ability into a drill- with high damage and dps, but at a heavy stamina cost (cannot do with no stamina). Damages stone structures.
+-C key lunge. Grabs medium sized targets and deals damage (up to 150)
+-AltFire: roar. For aesthetic, also drops grabbed targets
+
+Spawning
+
+cheat summon ACroc_Character_BP_C
+
+Cheat gmsummon "Acroc_Character_BP_C" 180
+
+cheat spawndino "Blueprint'/ShadsAtlasImports/Critters/PelagicCroc/ACroc_Character_BP.Acroc_Character_BP'" 1 1 1 180
+
+Saddle
+Cheat gfi ACrocSaddle 1 0 0
+Bloodshriek Gorgon
+Spawning: Swamps, Monster Island, Badlands, Sunken Forest
+Diet: Carnivore
+Temperament: Aggressive
+Tameable: Passive
+
+
+Large, genderless, humanoid-like creatures resembling beasts of your. Unable to breed, these creatures seem to gain strength quicker than others. Cunning and cruel, they utilize a variety of ranged attacks to whittle down prey before going into the kill. When tamed, their intelligence seems to increase, as they no longer rush into the fray themselves, preferring to stay back and utilize their ranged attacks for devastating supportive fire. While able to be ridden, it's best to set a Gorgon on turret mode and enable special attacks, letting it do its thing.
+
+
+    Immune to knockback
+    To tame, ensnare it within a Chain Bola, similar to Tropeognathus
+    Immune to venom, knockback.
+    Cannot breed. Instead, has higher stat scaling when tamed to normal creatures.
+    No saddle, can be ridden.
+    Standard Saddle increases weight by 25%
+    Left Click: Claw Attacks. Stationary, base 45 damage. Inflicts a Venom that increases in duration with every successful proc, draining health.
+    Right click: Bloodshriek. A very long range, fast-moving projectile attack. Base 120 damage, 60 explosive damage, with explosion radius comparable to a grenade. Being hit by either the explosion or the direct projectile inflicts mammoth's intimidation debuff. However, taking a direct shot is far deadlier. The damagetype of the direct impact pierces armor to the effectiveness of manta/theri, as well as inflicting the same effects as Dreadmare's Dark Wind projectiles: negating mate boost, certain positive buffs and abilities, and reducing HP regeneration rate while increasing the Gorgon's own. Both damagetypes are capable of harvesting corpses, meaning your Gorgon is capable of decintigrating targets and cleaning up after itself.
+    C key: Snake Shot. Unable to be aimed by the player (ai seems to be more accurate with this at least), throws several snakes from its own head out in a mid-range projectile attack. Each snake deals base 25 damage and also inflicts Venom. Snakes are also capable of harvesting corpses, but not as well as the Bloodshriek.
+    Spacebar/Jump: Screech. A close-range AoE with a radius of 1350 units, with a high cooldown. 35 seconds for players and 60 for AI. Base 100 damage, pierces armor to the effectiveness of manta while also stunning targets 250 drag weight or less. The Gorgon's primary defense in close range.
+
+
+AGorgon_Character_BP_C
+
+cheat summon AGorgon_Character_BP_C
+
+cheat gmsummon "AGorgon_character_BP_C" 180
+
+cheat spawndino "Blueprint'/ShadsAtlasImports/Critters/Gorgon/AGorgon_Character_BP.AGorgon_Character_BP'" 1 1 1 180 

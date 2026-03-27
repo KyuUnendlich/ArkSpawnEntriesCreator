@@ -1,3 +1,22 @@
+All Entry Names: 
+   Ada Badlands  x 1
+   Ada BioCave  x 1
+   Ada Canyons  x 1
+   Ada Dunes  x 1
+   Ada Ext Desert  x 1
+   Ada FertileZone  x 1
+   Ada Jungle  x 4
+   Ada LC DarkForest 2  x 2
+   Ada LC Tundra  x 3
+   Ada Val AbCave  x 1
+   Ada WasteBuffer 1  x 1
+   Ada WasteBuffer 2  x 1
+   Ada Wasteland Easy  x 1
+   Polar Ada  x 1
+   Polar Ada - Snow Ext  x 1
+   Polar Ada - Snow Gen  x 1
+   Polar Ada - Val Tundra  x 1
+
 Engram Entries: 
    EngramEntry_CureGreater_C
    EngramEntry_Saddle_Ada_C

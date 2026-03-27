@@ -1,3 +1,19 @@
+All Entry Names: 
+   Anzu (1-2)  x 9
+   Anzu (1-3)  x 3
+   Baculites (1)  x 5
+   Geny  x 1
+   Genyodectes  x 8
+   Jiang  x 6
+   Lualabaea  x 3
+   Mapu  x 1
+   Mapusaurus  x 6
+   Ornithocheirus  x 3
+   Ouranosaurus  x 10
+   Paraxenisaurus (1-2)  x 12
+   Zuni (1-3)  x 1
+   Zuniceratops (1-3)  x 7
+
 Engram Entries: 
    EngramEntry_Saddle_Mapu_C
    EngramEntry_Saddle_Genyodectes_C

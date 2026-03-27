@@ -1,0 +1,1172 @@
+
+Aerosteon
+Spawning: Redwoods, Jungle, Badlands
+Tameable: Tranq
+Recommended Food: Raw Mutton, Extraordinary Kibble
+
+One of the largest species of Megaraptoran, Aerosteon is a dangerous predator with sharp claws that it uses to flay into prey, causing profuse bleeding and ignoring many types of armor. Aerosteon almost seems to enjoy making its prey bleed a little too much, and as such, seems to become further and further excited. The entire creature is rather exciteable: despite its size, it is capable of doing backflips and will often do as such when in combat to dodge around attacks, as the creature itself is surprisingly lite for its build. As such, Aerosteon tends to inhabit areas with plenty of cover, allowing it to suddenly burst from the foliage into a bloodbath of its own design. While extended conflict will allow Aerosteon to refresh itself, it comes into its own during the night. When its bloodlust-driven excitement reaches a fever pitch during the night, it almost seems to go mad with excitement and bloodlust, turning into a frenzied attacker practically unparalleled. Many attempt to tame Aerosteon due to this, but find the creature uncapable and lacking compared to other large theropods on its own. Only with a skilled rider can Aerosteon truly enter its most murderous state, becoming a fast, agile, tactical predator capable of flaying even the deadliest of targets.
+
+Base Stats
+Health: 575
+Stamina: 300
+Torpidity: 800
+Weight: 500
+
+    Can be told to sit via the radial wheel.
+    Immune to bleeding
+    Cannot utilize most of its mechanics as AI: only when ridden by the player.
+    +50% harvest yield for Hide
+    Inventory reduces weight of Hide to 15%, Raw Meats to 25%
+    Left click: Bite. Base 35 damage. When biting a bleeding target, grants itself Feeding Regeneration (+3.5 HP, +5 Stamina, -5 Torpor per sec over 12 seconds). When under Bloodlust, this changes to Frenzied Feasting Regeneration (+45 HP, +15 Stamina, -50 Torpor per sec over 12 seconds).
+    Right Click: Claw Attack. Base 42 damage twice in two rapid strikes, with the armor piercing effectiveness of Manta and Therizinosaurus. Costs 25 stamina per use and cannot be used with insufficient stamina. This inflicts a strong bleed, dealing 45 base damage x Melee stat (ignoring buffs and to a max damage amount) and partially ignoring saddle armor. Landing this attack on bleeding targets slowly builds up Bloodlust.
+    C Key: Aesthetic Roar.
+    Spacebar: Jump. 100 stamina cost.
+    S+Spacebar: Evasive Maneuver. Base 35 damage, 100 stamina to use and cannot be used with insufficient stam. 5 second cooldown. Dodge backwards, gaining distance and striking with your tail, before leaping back forward. If timed right, during a parry window, you will take zero damage from physical attacks, and instead be granted a buff for your appropriately-timed attack. This is the Successful Dodge buff (+45 Stam -100 torpor per sec over 4 sec), allowing you to effectively recover the stamina cost (and then some) of your dodge if timed appropriately.
+    Left Control: Redeem Meter. Once at 100% (Indicated by a buff), press this key to redeem your meter. If during the daytime, remove your buff and taunt the opponent, granting yourself the Refresh buff (+8 HP, +25 Stamina, -50 Torpor per sec over 120 seconds). If during the night, properly grant yourself Bloodlust and enter a frenzy (+115% damage, -25% incoming damage, +20% speed, +65 stam per sec, -500 torpor per sec for 240 sec). Bloodlust will grant new abilities when activated! Upon entering Bloodlust, deliver a knockback shockwave to push nearby targets away from you!
+    S+Spacebar (Bloodlust): Savage Evasive Strike. Base 90 damage, 100 stamina to use and cannot be used with insufficient stam. 5 second cooldown, same effects as standard claw attacks. Almost the same animation with the same effects: dodge backwards and try to time an enemy melee hit at the right time; but do a dashing attack forwards afterwards. This attack helps gain Bloodlust on successful hit. If you time your dodge correctly, gain the Successful Counterattack Buff (+75 stamina per sec, -100 torpor per sec for approx 2.5 seconds. Increases damage output of counterattack by 50%!).
+    X (Bloodlust): Impaling Stab. A quick stab forward, base 105. 60 second cooldown, 125 stamina cost and cannot be used with insufficient stamina. Completely ignores the armor value of the target. Inflicts Gouged, which lasts 45 seconds and drains -18 HP per sec.
+
+
+Spawn Commands
+Creature
+BloodyAeros_CharacterBP_C
+Cheat spawndino "Blueprint'/AdditionalCreaturesWildArk/Content/Dino/Aerosteon/BloodyAeros_Character_BP.BloodyAeros_Character_BP'" 1 1 1 180
+
+Items
+cheat gfi BloodyAerosSaddle 1 0 0
+Albertosaurus
+Habitat: Redwoods, Tundra Biome
+Tameable: Tranq
+Preferred Food: Regular Kibble
+
+A medium-sized carnivore intended to be bulkier and heavier-hitting than Carno and Bary, Albertosaurus can be found in Grasslands, Redwoods, and Tundra biomes, usually preferring colder, cooler climates. Albertosaurus is a creature with decent stat spread and damage, but its main feature comes from its abilities to learn, much like you! Albert's a creature that only gets better in the long haul thanks to its __**Hunt Point System**__. Invest in the long run, and you'll get a partner who can keep up with you for quite some time!
+
+Albertosaurus gains a unique resource called Hunt Points when it kills certain targets that meet specific criteria. Hunt Points cannot be transferred between Alberts, nor taken out of their inventory. If a killed target is at least 250 drag weight, you will gain 1 hunt point for it. If it's at least 500 drag weight, you'll gain 3 instead. Additionally, if the target was an Alpha, it'll gain an additional +15 hunt points for the kill! Redeem Hunt Points via the engrams in its inventory for unique rewards and abilities.
+
+Base stats
+Health: 475
+Stamina: 300
+Weight: 420
+
+- Can be told to sit via radial wheel
+- Left click: Bite. Base 42 damage
+- Right click: Aesthetic roar.
+
+Swift Swim (HP: 25)
+Increases Swimming speed by 25%.
+
+Crushing Bite (HP: 50)
+Unlocks Crushing Bite for AI & mounted Alberts, done on C key (third attack). Base 52 damage, 5 sec cooldown. Ignores bone damage multipliers and inflicts the WA variation of Deinosuchus's Bone Break.
+
+Shoulderbash (HP: 50)
+A delayed attack with an 8 second cooldown and stamina cost of 25. Base 62 damage, can only be used on land. While this attack also inflicts knockback, it has a parry window similar to Magnapaulia. Time taking melee damage during the shove of the attack to take 0 damage and reflect the attack back to the attacker. Damage Calculation: (1/4th Damage you would've taken) x Melee Stat, to a max of 2250.
+
+Dense Muscles (HP: 500)
+A Skin Ability for Albertosaurus. This cannot stack with other Skin abilities, so choose carefully. Permanently reduce resistance by 50% for +25% Melee damage and +25% speed.
+
+Thick Skin (HP: 500)
+A Skin Ability for Albertosaurus. This cannot stack with other Skin abilities, so choose carefully. Permanently reduce speed by 50% for +25% Resistance and +25% carry weight.
+
+Thin Skin (HP: 500)
+A Skin Ability for Albertosaurus. This cannot stack with other Skin abilities, so choose carefully. Permanently reduce Weight and Resistance by 25% each for +50% speed.
+
+"I Recognize This" (HP: 800)
+An easter egg ability that changes the roar of Albertosaurus to something only the most based would recognize. Toggle it on and off with O Key.
+
+Albertosaurus can also disable gaining Hunt Points with AltFire/Left Ctrl.
+
+Spawn Codes
+Alberta_Character_BP_C
+
+Cheat summon Alberta_Character_BP_C
+cheat gmsummon "Alberta_Character_BP_C" 180
+Cheat spawndino "Blueprint'/AdditionalCreaturesWildArk/Content/Dino/Albert/Alberta_Character_BP.Alberta_Character_BP'" 1 1 1 180
+
+cheat gfi HuntPoint_Admin 1 0 0
+cheat gfi AlbertSaddle 1 0 0
+Angaturama
+Habitat: Jungle, Beach, Grassland, Mountains, Redwoods, Freshwater, Green Desert, Scorched Mountains, Badlands, SE Canyon, Oasis, Sanctuary City, Sunken Forest, Desert Biodome Upper, Desert Biodome Lower, Fertile Chamber, Bioluminescent Region
+Tameable: Tranq/Passive
+Preferred Food: Regular Kibble
+
+A medium-sized theropod who's a valuable partner, Angaturama don't generally live by waterways like most spinosaurids. Intelligent and opportunistic, they're nomadic animals that take whatever niche they can in various environments, never staying for long. Found almost anywhere, they seem to avoid areas with extreme temperatures. With their intelligence comes a unique aspect: each Angaturama is known for generally adopting three different Temperaments in regards to their survival and outlook on life, giving them unique abilities, advantages, and weaknesses. Knowing the Temperament of your Angaturama is crucial to getting the most out of it!
+
+Base stats
+Health: 475
+Stamina: 300
+Weight: 400
+
+    Temperaments are assigned on spawn/birth and cannot be altered or changed.
+    Sitting for faster healing
+    Respectable speed on land or when swimming, with low stamina drain, making them great for travel.
+    Left click: Bite. Base 30 damage. Good attack speed, not much else.
+    Right click: Claw Attack. Base 35 damage, hits twice on land and once while swimming. Has a stamina cost, cannot be used with insufficient stam. When used in water, this attack deals double damage.
+    C Key: Hiss. An Aesthetic animation
+    X/Crouch: Temperament Ability.
+    LeftCtrl/AltFire: Roar.
+
+
+Neutral Angaturama
+
+    Chosen if Frenzied and Carefree checks fail
+    No Stat changes
+    Standard medium carnivore aggression radius
+    No passive abilities
+    Temperament Ability: Assault Bite. Base 45 damage. Pierces armor like Manta/Theri, trigger Assault on the target. All types of Angaturama can benefit from Assault! Has a stamina cost, cannot be used with insufficient stam.
+    Roar is aesthetic
+
+
+Carefree Angaturama
+
+    20% chance to have Temperament
+    +10% Health and Movement Speed, -20% Melee
+    Neutral to players and their tames unless attacked.
+    Immune to most Intimidation buffs, but not Yutyrannus
+    Immune to Sandstorms
+    Has the "Rowdy" passive ability, granting increased stamina per second above 75% HP.
+    Can be passive tamed, with increased affinity per feed, meaning less resources used for taming.
+    Temperament Ability: Tail Slap. Base 25 damage. Hits behind when used on land, and to the front/left flank when in water. Same damage as Xuan's kick: dealing Equus levels of torpor without armor pierce and slowing targets up to a certain size. Has a stamina cost, cannot be used with insufficient stam. Has a 16 sec cooldown.
+    Roar is aesthetic
+
+
+Frenzied Angaturama
+
+    15% chance to have Temperament
+    +10% Melee Damage and Stamina, -20% Health
+    Double the aggression radius of normal
+    Immune to most Intimidation buffs, but not Yutyrannus
+    Immune to stuns and electrocution
+    Has the "Frenzy" passive ability, increasing damage by 25% above 75% HP.
+    Temperament Ability: Maul. Pick up a target for base 5 damage, valid targets are anything 150 drag weight or less. Violently maul them in quick succession for base 45 damage 5 times - and inflicting a proc of Rend on every hit - before violently throwing them off to your right, and inflicting Trike's slowing stun on them when you do. Has a stamina cost and cannot be used with insufficient stam.
+    Roar is *not* aesthetic. The animation played and sfx is different than usual, and has Toro's intimidation AoE, inflicting Mammoth Intimidation on nearby targets!
+
+
+Spawn Codes
+Anga_Character_BP_C
+Anga_Character_BP_Aberrant_C
+
+Cheat summon Anga_Character_BP_C
+cheat gmsummon "Anga_Character_BP_C" 180
+Cheat spawndino "Blueprint'/AdditionalCreaturesWildArk/Content/Dino/Angaturama/Anga_Character_BP.Anga_Character_BP'" 1 1 1 180
+
+cheat gfi AngaSaddle 1 0 0
+Anteosaurus
+Habitat: Tundra, Scorched Mountain, Badlands
+Tameable: Tranq
+Recommended Food: Extraordinary Kibble
+
+Anteosaurus is a species of mammal-like reptile from a time before the dinosaurs, and it was the largest predator of its time. On the ARKs, it has made a drastic environment change from humid swamps to frigid tundra, being one of the tundra's apex predators. Anteosaurus is not much of a pursuit hunter but a predator adapted at hunting prey that fights back. Its large body makes it immune to being pushed back when it has firm footing, and the creature excels at fighting stationary as opposed to chasing moving targets. However, Anteosaurus has a strange adaptation- it is very warm blooded, moreso than traditional warm-blooded mammals. A strange chemical seems to be the source of this body temperature, granting the creature a strong metabolism, healing factor, and a strange defense. Not also is the creature warm to the touch, but...it's also extremely volatile to physical contact as well! Wounds by foes cause its blood to spill out, and that strange chemical quickly reacts to being exposed to air- rapidly bursting into flame! Yet, this doesn't seem to phase Anteosaurus at all as its hide is extremely fire-resistant in the first place. This chemical acts in two ways- first, the sudden wound bursting into flame lights the attacker on fire, causing damage and dealing damage over time due to the flames burning the victim. Secondly, the flame also helps to rapidly cauterize and heal the wound, allowing Anteosaurus to completely heal from even the most grave of wounds. The only downside is that this gives the creature a vast metabolism, constantly consuming food in order to fuel this incredible defensive mechanism. Survivors, despite Anteosaurus's slow speed, find it a must-have for exploring harsh environments and surviving the cold- as Anteosaurus's warmth can mean the difference between life for freezing solid! With its heat properties, it also makes an excellent middle-sized tanky brawler of a mount.
+
+Base Stats
+Health: 800
+Stamina: 400
+Torpidity: 2800
+Weight: 850
+
+    Naturally immune to fire attacks and is immune to fire buffs, it is also immune to being frozen, as well.
+    Anteosaurus is immune to its own insulation buffs
+    When riding Anteosaurus, the rider becomes insulated and becomes protected from being frozen solid.
+    Immune to fire damage
+    Increase fire recoil damage by leveling fortitude! Damage calculation is 1.5x (fortitude stat), with a minimum damage of (Value) x 1 and a maximum of (Value) x 3.5 per tick! Fortitude cannot be mutated.
+    Inventory reduces the weight of all raw meats by 95%
+    +50% harvest yield for mutton/raw prime meat
+    Can be told to sit via radial wheel
+    Obscenely fast natural healing rate, but will consume food more often than most creatures.
+    Left click bite. (Base 45 damage)
+    Right click Double Bite. Heavy hitting and hits twice, cannot be done while moving and causes bleed. Minor cooldown. Bleed scales with melee. (Base 45 damage)
+    C key Headbutt parry. Deals mediocre damage, but time right as an opponent attacks to parry them, stunning them and reflecting some of their damage back at them. If you miss the attack, the cooldown is far longer than if you land a parry. (Base 25 damage)
+    X key Saliva Spray. Coats nearby allies in an insulation buff that also helps against freezing.
+    Left control roar: for aesthetic
+
+
+Commands
+Creature
+Anteo_Character_BP_C
+Anteo_Character_BP_Scorched_C
+Cheat spawndino "Blueprint'/AdditionalCreaturesWildArk/Content/Dino/Anteo/Anteo_Character_BP.Anteo_Character_BP'" 1 1 1 180
+
+Saddle
+cheat gfi VeronicaSaddle 1 0 0
+Apatosaurus
+Spawning: Grassland, Green Desert
+Tameable: Passive or Tranq
+Preferred Food: Regular
+
+Found in large, open expanses, Apatosaurus is a large sauropod that while shorter than Brontosaurus, is longer than it. Due to its build, for its size, it is a fairly light sauropod: allowing it to move faster than normal. This allows it to be quite an aggressive and persistent fighter, much like its smaller cousins Amargasaurus and Cedarosaurus. Survivors who tame Apatosaurus value it for not also its ability to move long distances quickly, but also its ability for aggressive combat!
+
+Base Stats
+Health: 1600
+Stamina: 300
+Weight: 900
+
+    Can be told to sit via radial wheel for faster healing
+    Apatosaurus' *neck* is armored. Take only 85% damage from attacks hitting the top of the neck. Attacks hitting underneath - where those spines are - only deal 60% Damage! (Apato's head has no multipliers, positive or negative)
+    Left click: Bite. Base 30 damage. Can be done while moving. Useful for chasing down targets. Harvests fiber and corpses.
+    Right Click: Rearing Stomp. Stationary attack of base 100 damage, and a 150 stamina cost. Deals *Double* damage to things 250 drag weight and less. Executes fast, but has a bit of end-lag.
+    C key: Rear stomp. A quick stomp that deals base 45 damage. Like Tyrannomimus, deals 50% more damage to targets 150 drag weight or less.
+    Spacebar/Jump: Directional tail swing. Swing your tail for base 62 damage, hitting three times due to its lash-like nature. This attack has a slight armor penetration value weaker than Manta/Theri, and each hit of the attack has a 25% chance to inflict a stack of Rend.
+    - Left Ctrl: Aesthetic Roar.
+
+
+Spawn Commands
+
+Apatosaurus_Character_BP_C
+
+Cheat summon Apatosaurus_Character_BP_C
+Cheat gmsummon "Apatosaurus_Character_BP_C" 180
+Cheat summontamed Apatosaurus_Character_BP_C
+Cheat spawndino "Blueprint'/AdditionalCreaturesWildArk/Content/Dino/Apato/Apatosaurus_Character_BP.Apatosaurus_Character_BP'" 1 1 1 180
+
+cheat gfi ApatoSaddle 1 0 0
+Austroraptor
+Spawning: Beaches
+Tameable: Passive
+Preferred Food: Simple Kibble, Raw Prime Fish
+
+Despite being taller in appearance than both Deinonychus and Utahraptor, Austoraptor is much less dangerous unless provoked. Found almost exclusively on beaches, Austroraptor is a piscivorous dromaeosaur which prefers to stride along the beach for scraps, or dive into the water below to catch fish. Despite being a dromaeosaur, it is a very powerful and capable swimmer, chasing after fast-moving prey with ease. When tamed, while not as effective in combat as a pack of raptors, Autroraptor often offers more utility and makes oceanic/aquatic life a breeze. It's a fast swimmer, able to harvest fish meat with ease, and can help harvest - and carry - many useful early-game resources.
+
+Base Stats
+Health: 225
+Stamina: 300
+Weight: 350
+
+    Passive tame: eats exclusively fish. Elsewise, tames the same as a raptor
+    Inventory reduces the weight of Silica & Black pearls considerably. Wood, Thatch, fiber are slightly reduced. Fish meat of any type is sharply reduced in weight. Aussie doesn't have the best weight stat.
+    Left click: Bite. Rapid attack dealing base 15 damage. Same effects as Sucho's bite: harvesting certain fish will grant a healing buff, as well as the ability to harvest raw prime fish meat.
+    Right click: Claw attack. Base 12 damage, hits twice. Gathers fiber, corpses, and hand-harvestable resources.
+    C key: Aesthetic bark.
+    Spacebar: Jump. Austroraptor can jump from water.
+    Altfire (Swimming only): Dart. Base 60 damage, same effects as bite. Provided you aren't moving, launch yourself forward at a high burst of speed for a stamina cost, dealing damage as well at the start of the anim.
+
+Brachauchenius
+Spawning: Oceans
+Tameable: Tranq
+Recommended Food: Raw Mutton, Superior Kibble
+
+A colossal marine predator, Brachauchenius is a large pliosaur that tends to patrol the open oceans, deeper waters, and coasts of the ARK. This predator is known for its surprising mobility, and razor-sharp teeth. When on the attack, this creature can deliver a lot of damage to armored and high health targets alike!
+
+Base Stats
+Health: 2800
+Stamina: 300
+Torpidity: 3000
+Weight: 1000
+
+    Ability to rotate in place
+    Can swim backwards slowly
+    Left click bite. Deals base 85 damage and has slight armor pierce.
+    Right click Lunging Bite. Base 105 damage, 150 stamina cost, cannot be used with insufficient stamina, has a cooldown. This attack pierces armor to the effectiveness of manta, and inflicts a bleed that lasts 5 seconds, dealing base 45 damage per sec, multiplied by melee stat. When this attack is used, Brachau will launch itself forward a short distance, so feel free to use it as a gap closer, entry attack, or even a dodge!
+    C key aesthetic roar
+
+
+Spawn Commands
+Creature
+Brachau_Character_BP_C
+Cheat spawndino "Blueprint'/AdditionalCreaturesWildArk/Content/Dino/Brachau/Brachau_Character_Bp.Brachau_Character_BP'" 1 1 1 180
+
+Items
+cheat gfi brachausaddle 1 0 0
+Cedarosaurus
+Habitat: Redwoods
+Tameable: Tranq
+Preferred Food: Superior Kibble
+
+A large sauropod on the smaller scale (among the many on the island, anyway), Cedarosaurus is a lesser-known cousin of the much larger Brachiosaurus. Roaming the redwoods in herds, many tribes often try to hunt them the same as other similar smaller sauropods... only to be taken aback by just how aggressive they are when provoked! Cedarosaurus are one of the faster sauropods for their size, running down survivors with surprising speed. While they are prone to delivering powerful footstomps, they are also prone to *aggressively* using their necks like clubs, slamming them into a target again and again to attack them while moving: showing surprising dexterity and agility for a sauropod!
+
+Cedarosaurus offers a large amount of advantages when tamed. They have a very large pool of stamina and a very high weight carrying capacity, making them excellent in a long-distance sprint and as a resource harvester. On top of that, their powerful stomps are capable of shattering stone as well as knocking down trees, making them great at harvesting resources! Of course, their mobility and size give them both great bulk and advantage in combat, with herds even able to fight off Rexes at times!
+
+Base Stats
+Health: 1150
+Stamina: 650
+Weight: 1200
+
+- Can rotate in place.
+- Inventory the same as Iguanacolossus, flatly reducing the weight of anything inside it
+- Decently fast for its size, with a low stamina drain while running
+- Left click: Neck Swing. Base 40 damage, has a slight cooldown. Deals knockback and can be used while moving.
+- Right click: Stomp. Base 55 damage. Mines resources similar to Ankylosaurus, without harvesting berries. Deals knockback. Cannot be used while moving.
+- C key: Rearing Stomp. Base 75 damage, 150 stamina cost, cannot be used with insufficient stamina. Rear up, then deliver a kicking stomp. This hits twice: once on kick and once on landing. Dunkle's damagetype, harvesting wood, stone, metal, and destroying up to stone structures. Cannot be used while moving.
+- X/Prone: Aesthetic roar.
+
+
+Spawn Codes
+Cedarosaurus_Character_BP_C
+
+Cheat summon Cedarosaurus_Character_BP_C
+Cheat gmsummon "Cedarosaurus_Character_BP_C" 180
+Cheat spawndino "Blueprint'/AdditionalCreaturesWildArk/Content/Dino/Cedar/Cedarosaurus_Character_BP.Cedarosaurus_Character_BP'" 1 1 1 180
+
+Cheat gfi CedaroSaddle 1 0 0
+Chungkingosaurus
+Habitat: Swamps
+Tameable: Passive
+Preferred Food: Rare Mushroom
+
+A large stegosaur similar in size to Stegosaurus, found within the island's swamps. The herbivore is already impressively equipped to survive here: osteoderms to protect itself, as well as sharp spines and one hell of a dangerous thagomizer, the sharp spines of it able to pierce deep into even some of the toughest hides. Combined with its surprising agility, one would think it'd need no other adaptation: but Chungkingosaurus's deadliest aspect is that it is venomous. The stegosaur integrates the toxins of its diet into its body, synthesizing them into two different toxins of varying lethality. Its spines are hollow, dealing damage on physical contact and injecting venom into the attacker. Yet, its more potent venom is tied into its thagomizers: powerful venom delivered with every strike. For those willing to put up with Chungkingosaurus's unique diet, they'll gain a powerful herbivore capable of steadily killing even the most armored targets!
+
+
+Base Stats
+Health: 800
+Stamina: 400
+Weight: 700
+
+    Chungkingosaurus ONLY eats: Rare Mushrooms, Rare Flowers, Plant X/Y/Z seeds. Nothing else.
+    2.15x multiplier for harvesting Rare Flowers and Mushrooms
+    Rare Flowers and Mushrooms weigh 25% in inventory
+    Can be told to sit via radial wheel for faster healing
+    Ignores 15% of incoming damage.
+    Immune to Torpidity
+    Rider gains a "Venom Shield" buff. Protects the rider from physical damage and being grabbed, but the rider remains vulnerable to ranged damage. Any time the rider would've taken physical damage, take no damage and reflect 20% the damage you would've taken in a damagetype that inflicts Tier 1 Venom.
+    Chungkingosaurus returns 20% of damage taken in an armor-piercing damagetype that inflicts Tier 1 Venom. This drains 3 HP per sec, scaling to a maximum length of 300 sec.
+    Left click: Tail attacks. Swing tail the direction you look, base 45 damage. Pierces armor to the effectiveness of manta. Inflicts T2 Venom, draining 6.5 HP per sec, scaling to a maximum length of 300 sec.
+    Right click: Tail slam. Base 60 damage, has a stamina cost, cooldown, cannot be used with insufficient stamina. Same effects as other tail attacks. Deals 2.25x damage to targets under 150 drag weight.
+    C Key: Bite. base 25 damage, can be used while moving. Harvests fiber, corpses, etc.
+    Altfire: Aesthetic Roar.
+    Spacebar/Jump: Halberd Strike. Base 80 damage, has a cooldown and stamina cost. Leaping attack with wide forward arc that brings yourself forward, a good gap closer/initiation attack. Same effects as other tail attacks.
+
+Deinocheirus
+Spawning: Swamp, SE Canyon, SE Oasis, Fertile Chamber (Aberrant)
+Tameable: Baby Steal
+Recommended Food: N/A
+
+Large, aggressive, omnivorous theropods. Despite having a diet of fish and plants, these creatures are exceedingly aggressive towards predators and survivors alike; charging them on sight and whaling into them with large, blunt, maul-like claws! Backed by their immense muscles, these angry birdlike predators can easily break bone or send smaller targets flying! Far too aggressive to be tamed, one must obtain a young Deinocheirus and rear it up in a safe environment to tame!
+
+Base Stats
+Health: 1450
+Stamina: 300
+Torpidity: 9600
+Weight: 750
+
+    Can be told to sit via radial wheel for faster healing
+    Decent swimmer
+    All of Deinocheirus's arm-based attacks deal 2x damage to what tiers of structure it can damage (Thatch, Adobe, Wood)
+    All of Deinocheirus's arm-based attacks ignore bone scaling damage multipliers. While this means they can't get headshots, they ignore things like armored heads, shells, etc!
+    If any of Deinocheirus's arm-based attacks hit a target that is inflicted with "Bone Break" (AC's Tarchia, SCR's Reworked, Vanilla Deinosuchus, AC's Reworked), the attack will randomly have its damage increased by 5%-50%
+    If Deinocheirus takes damage from Carnivores (anything with the "is Carnivore" Boolean triggered), it gains the "Angy Goose" buff. This buff by default lasts 1.5 seconds, restoring 12 stamina per sec, as well as increasing Deinocheirus's damage by 5% and its terrestrial movement speed by 10%. This buff however can extend in duration, with each attack by a carnivore extending the buff's duration to a maximum of 65 seconds.
+    Left click: Arm Swipes. Base 55 damage, hitting twice in quick succession. No special effect
+    Right click: Brutal Uppercut. Can be done to turn yourself in place, depending on the direction you're looking when initiating the attack. Base 250 stamina cost, 30 second cooldown (a buff appears to help you tell the time). Base 225 damage. Deliver a ferocious uppercut dealing powerful knockback and launching targets 250 drag weight and less into the air!
+    C Key: Double Slash. A cross-slash with both arms, stamina cost of 150 and a cooldown of 20 sec (up from 10 in ASA). Base 110 damage. Inflicts Deinosuchus's Bone Break, but unchilded from Bleed, allowing you to bone-break bleed-immune critters.
+    X key (Prone): Bite. Base 35 damage. Harvests corpses. If used on fish (mantas, anglers and eels are considered "fish"), grants a potent HP Regeneration buff for 35 seconds (Same as Sucho's).
+    Left ctrl: Aesthetic Roar.
+
+
+Spawn Commands
+Creature
+deinocheirus_Character_BP_C
+Cheat spawndino "Blueprint'/AdditionalCreaturesWildArk/Content/Dino/AC2Goose/Deinocheirus_Character_BP.Deinocheirus_Character_BP'" 1 1 1 180
+
+Items
+Cheat gfi DeinochSaddle 1 0 0
+Deltadromeus
+Spawning: Beaches, SE Canyon, SE Oasis
+Tameable: Passive
+Recommended Food: Raw Mutton, Superior Kibble
+
+Deltadromeus is likely the first large theropod survivors will find as they scavenge the beaches. Deltadromeus is much the same, but don't worry: He's not predatory. An omnivore, Delta is intelligent enough to leave survivors alone unless provoked. Its main diet consists of small prey, carrion, honey, and fruits. An extremely odd theropod similar in size to Allosaurus, Delta's around the same strength as a Carno, but is considerably fast and has very, very good stamina. When attacked, Deltadromeus' main method is to deliver powerful stomp-kicks. When attacking smaller critters, these kicks are devastating!
+
+Delta's most odd feature is what happens to it during night. Deltadromeus is active at all hours of the day, and during the night, its eyes glow. However, this isn't usual reflection of many creatures, but rather, true glow... and Delta's eyes emit enough light they produce an intimidating spotlight-like effect, which terrifies most smaller creatures. Due to all of this, Delta makes a fantastic early game companion to survivors who can get them, being available at lvl 25. A passive tame, Deltadromeus can only be fed at night! A reliable mount for helping you travel, harvest resources, and fend off early-game threats, Delta can prove its worth to you from the beginning of your adventure to the mid-game!
+
+Base Stats
+Health: 465
+Stamina: 300
+Torpidity: 1650
+Weight: 400
+
+    Can be told to sit via radial wheel
+    At night, Deltadromeus's eyes will glow with a spotlight-like effect. They are tameable in this state. Nighttime will not reset taming and neither will them getting into a fight.
+    During the night, Delta will constantly emit a mid-range AoE. To wild creatures 150 drag weight or less, they will be constantly scared away like a Parasaur and also receive mammoth's intimidation debuff, lowering their attack. Tamed creatures 150 drag weight or less are only given Mammoth's intimidation buff. As such, if any smaller-tier creatures are giving you an issue at night and there's deltas nearby, it'd be a smart idea to run towards these literal beacons of hope!
+    Left click bite, base 25 damage. Same damagetype as Ino's claws, harvesting corpses, bushes, fiber, and picking hand-harvestible resources off the ground.
+    Right click roar, for aesthetic.
+    C key stomp. cannot be used with insufficient stam. Base 40 damage. Deals 2.25x damage to anything 150 drag weight or less.
+    Spacebar to jump!
+
+
+Spawn Commands
+Creature
+Deltadromeus_Character_BP_C
+Cheat spawndino "Blueprint'/AdditionalCreaturesWildArk/Content/Dino/Delta/Deltadromeus_Character_BP.Deltadromeus_Character_BP'" 1 1 180
+
+Items
+cheat gfi deltasaddle 1 0 0
+Diabloceratops
+Spawning: Mountains, Grasslands, Badlands, Scorched Mountains
+Tameable: Tranq Tame
+Recommended Taming Foods: Vegetables, Extraordinary Kibble
+
+Diabloceratops is an exceedingly angry ceratopsian. Despite being known by such affectionate nicknames as "Dibble" and "Potato", these territorial ceratopsians are quick to fly into a violent rage when provoked, which usually happens through extensive damage in combat. Once provoked to wrath, its speed and damage spike, while its resistance also increases. Most interestingly, however, is Diabloceratops's response to heat and fire. When in contact with sulfur or flame, Diabloceratops - who already has immense fire resistance- has a spike in general resistance, endurance, and an increased healing factor. This is potent enough that it can turn being set on fire into a boon. Combined with Diabloceratops' anger, this makes Diabloceratops an extremely potent adversary to any fire-wielding foes a survivor may face!
+
+Base Stats
+Health: 800
+Stamina: 300
+Torpidity: 800
+Weight: 500
+
+    Territorial, beware approaching
+    Builds rage similar to Giganotosaurus, from taking damage. Once enraged, Diabloceratops for a time gains +15% resistance, +50% melee, and +25% movement speed. You are not dismounted when it rages.
+    If Diabloceratops takes damage from fire or sulfuric sources (it already has extreme resistance towards these), it will gain "Flame Response". Flame Response increases Diabloceratops's resistance by 25%, -50 torpor per sec, +15 stamina per sec, and +45 HP per sec for 10 seconds. When in Flame Response, it also reflects physical damage back to the attacker, setting them on fire if applicable.
+    Has compatibility with Good Foods, Good Items and Pyria: Mythos Evolved. Certain crops provided by those mods add bonus taming affinity!
+    Left click headbutt. Omnivore damagetype, harvesting berries and corpses. Great dps. (Base 52 damage)
+    Right click stomp attack, cannot be done while moving, good for clearing ground around you. (Base 60 damage).
+    C key taunt for aesthetic.
+
+
+Spawn Commands
+Creature
+AC2Dibble_Character_BP_C
+Cheat spawndino "Blueprint'/AdditionalCreaturesWildArk/Content/Dino/Diabloceratops/AC2Dibble_Character_BP.AC2Dibble_Character_BP'" 1 1 1 180
+
+Saddle
+cheat gfi DibbleSaddle 1 0 0
+Edmontosaurus
+Edmontosaurus
+
+Spawning: Redwoods, Grasslands, Tundra, Tundra Grasslands (Center)
+Tameable: Tranq
+Preferred Food: Regular Kibble
+
+When most hear of a dino called the "Rival to Trex", they may initially think of Spinosaurus, or Giganotosaurus: perhaps some other large theropod. If you clarify to mean creatures it lived with in its original time, they may say Ankylosaurus, Triceratops, or even Dakotaraptor. One of Tyrannosaurus's most common prey items was the large, unassuming Edmontosaurus. However, make no mistake. These creatures were larger than the original tyrannosaurus and could easily kill them just the same as a Triceratops could. Here on the arks, these large, generally cold-weather hadrosaurs are far from defenseless. they are large herbivores adept at throwing their weight around to attack their aggressors. While capable of inflicting damage equal to that of Tyrannosaurus, they cannot keep up such a fight as long, and may need to resort to weaker attacks or fleeing if they cannot defend themselves properly. Tamed, Edmontosaurus is an interesting mount. It's of a similar weight class as its infamous predator, but offers a lot of the same, and different, advantages in a more versatile package. Due to its habit of running on its hind legs, it is more agile than one would think for its size. It offers a lot of flexibility and power that most would only expect in large, aggressive animals, though at a bit of a cost of general strength. It makes a wonderful jack-of-all-trades for any survivor.
+
+Base Stats
+Health: 1100
+Stamina: 300
+Weight: 600
+
+    Can be told to sit with radial wheel, or with r when mounted.
+    left click bite. Ok-ish damage, harvests bushes for berries and fiber, as well as corpses (base 35)
+    Right click stomp. Cant be done while moving. High damage with a stamina cost, cant be used with insufficient stam. (base 69 damage, 40 stamina cost)
+    C key rear kick. Cant be done while moving or with insufficient stam. Same base damage and stamina cost as stomp, but with drastically higher knockback. Use to defend your rear and flanks from those trying to outmaneuver or ambush you!
+    X key roar, for aesthetic.
+
+
+Spawn Commands
+
+DIno
+Edmontosaurus_Character_BP_C
+Cheat spawndino "Blueprint'/AdditionalCreaturesWildArk/Content/Dino/ACEdmonto/Edmontosaurus_Character_BP.Edmonotosaurus_Character_BP.'" 1 1 1 180
+
+Saddle
+cheat gfi edmontosad 1 0 0
+Epanterias
+Habitat: Grasslands, Monster Island, Desert Biodome Upper, Sunken Forest, Green Desert, Dunes
+Tameable: Tranq
+Preferred Food: Extraordinary Kibble
+
+An Allosaurid that has been named Epanterias due to not resembling too many known species within the family. Generally solitary, they are hit-and-run predators that prefer to engage in prey that will flee from them. This is due to their unique type of bleed, which becomes exponentially worse when the target begins strenuous movement. For those who wish to run down targets or help pin down problem targets for their allies, Epanterias is a must have!
+
+Base Stats
+Health: 550
+Stamina: 300
+Weight: 450
+
+- Can be told to sit via radial wheel
+- Has the **Peak Performance** passive ability: when above 75% HP, Epanterias gains +25% movement speed!
+- Epanterias itself is immune to only its unique type of bleeding.
+- A jump for increased maneuverability, said jump cannot be spammed.
+- Sandstorm immunity: let not even a raging wall of sand and lightning stop your hunt!
+- **Flesh Sacrifice**. Using C (tertiary) key, Epanterias can make use of its natural Fortitude stat for a unique buff. Deal 60 base damage to yourself, ignoring much of your saddle armor and scaling with your melee, to grant yourself Flesh Sacrifice for 55 seconds. By default, Flesh Sacrifice increases your movement speed by 60%, and your melee damage by the same amount. Afterwards, become Weakened, taking increased damage, becoming slower, and having a reduced damage output. When using Flesh Sacrifice, 1% of your fortitude stat is converted into a bonus. IE, if you had 1,200 Fortitude, you will increase your base melee bonus in Flesh Sacrifice by 12% (becoming 72% bonus melee) in exchange to *also* increasing the base damage of Flesh Sacrifice by the same amount (IE, your damage penalty becomes [72 x Melee stat]). While either Flesh Sacrifice or Exhaustion is active, Peak Performance deactivates, so keep that in mind. Use for a burst of speed for better hit-and-runs, to chase down your target better, or a quick escape!
+
+
+Spawn Codes
+Epanterias_Character_BP_C
+
+Cheat summon Epanterias_Character_BP_C
+
+Cheat gmsummon "Epanterias_Character_BP_C" 180
+
+Cheat spawndino "Blueprint'/AdditionalCreaturesWildArk/Content/Dino/Epanterias/Epanterias_Character_BP.Epanterias_Character_BP'" 1 1 1 180
+
+Cheat gfi EpanteriasSaddle 1 0 0
+Erythrosuchus
+Spawning: Grasslands, Jungles, Redwoods, Green Desert, Monster Island, Badlands, Desert Biodome Upper.
+Tameable: Egg Steal
+Favorite Food: N/A
+
+Pound-for-pound, Erythrosuchus is one of the most powerful animals for its size: mostly due to its massive skull and extreme musculature. A durable animal, this creature can give and take tremendous punishment for its size: likely how it survives in its ecosystems. Its large skull can give devastating bites, parry blows... and even its muscular frame can crush small foes or create tremors that send smaller targets flying! For this very reason, many seek to tame Erythrosuchus, but there is no such ability to do so: the aggressive creatures refuse all form of traditional taming. If one could find one of their nests, however, one could rear an Erythrosuchus from hatchling: the only way to imprint upon these creatures and gain their profound strength.
+
+    Naturally ignores 10% of incoming damage
+    Has two saddles. Standard saddle seats two additional passengers. Combat saddle supports only the rider, and grants 10 more base armor. When equipped with the Combat saddle, Erythrosuchus gains the Adrenaline ability. Adrenaline: When taking damage, 15% chance to proc a buff that increases movement speed and damage by 10% while draining -25 torpor and regenerating +25 stamina per sec for 20 seconds.
+    Can be told to sit via radial wheel for faster healing
+    Very slow stamina drain when running
+    Immune to sandstorms and stuns
+    Left click: Bite. Fairly quick attack dealing base 72 damage. If harvesting a corpse, grants a unique HP regen. Recovers 5HP/Stamina per sec and drains -15 torpor, but buff stacks to a maximum of 60 seconds. This buff cures many bleeds and venoms, and protects against them during its uptime.
+    Right click: Headbutt. Base 50 damage. Cannot be used while moving. This attack has a parry window, same as Albertosaurus.
+    C Key: Stomp. Base 62 damage, cannot be used with insufficient stamina, has a minor cooldown. Your main attack for crowd control and area denial. This attack deals 2.25x damage towards targets 150 drag weight or less. When feet touch the ground, launch an additional AoE shockwave that hits anything on the ground (meaning this attack can be jumped over), dealing 32 base damage. If this AoE hits anything 250 drag weight or less, fling them into the air and launch them backwards.
+    Spacebar: Jump.
+    Altfire: Aesthetic roar.
+
+Eryops
+Spawning: Swamp, Freshwater, Scorched Canyons, Oasis
+Tameable: Tranq Tame
+Preferred Food: Extraordinary Kibble
+
+Eryops is arguably the largest amphibian on the ARK Network, with a stocky body and a pair of extremely large jaws backed by powerful muscles. While not the fastest creature, its bite and jaw strength is incredible for its size. It utilizes this by burying into soft soil, then facing upwards and unhinging its jaws, before waiting patiently. In this state it hibernates, waiting for vibrations from any unfortunate creature that steps into its mouth. When prey does, Eryops immediately slams shut its jaws like an organic bear trap, and slowly gnawing on prey as they hold it in place. For both its strength and beartrap-like utility, Eryops is valued as a decent all-rounder amphibious mount. yet, when underground, they are highly resistant to narcotic poisons. A clever- or maybe sadistic- survivor found the fastest way to unearth an Eryops without draining it of its stamina or greatly wounding it is to throw a grenade into the poor, unsuspecting creature's mouth! After a moment of panic, the creature will explode to the surface, becoming vulnerable for taming. When tamed, while a good amphibious combat mount with good health, damage, and stamina; they can also be deployed as organic bear traps. If told to chew prey when grabbing, Eryops can work as effective landmines, similar to Purlovia. If told not to inflict damage, they make wonderful taming assistants, immobilizing creatures while their masters deliver narcotic tranqs.
+
+Base Stats
+Health: 500
+Stamina: 300
+Torpidity: 900
+Weight: 500
+
+    Eryops cannot be tranq tamed when underground in bear trap mode. Lob a grenade into its mouth to force it to the surface!
+    Eryops will surface if it runs out of stamina, drops below 45% HP, or has a grenade thrown into its mouth.
+    From the radial wheel, you can tell Eryops to dig into the ground so long as it is not on a structure. When in this state, it will grab targets that step onto it, if they're below a certain mass limit! (in between small bear traps and large)
+    Eryops can be told via radial wheel to damage victims it grabs, or just hold them. Holding grab is less stamina costly than the normal damage grab!
+    Can only breed underwater
+    Immune to venom (anything childed from dilo poison)
+    Left click bite, deals base 50 damage, no special effect.
+    Right click roar, for aesthetic.
+
+
+Spawn Codes
+Creature
+Eryops_Character_BP_C
+Cheat spawndino "Blueprint'/AdditionalCreaturesWildArk/Content/Dino/Eryops/Eryops_Character_Bp.Eryops_Character_Bp'" 1 1 1 180
+
+Saddle
+EryopsSaddle
+Fasolasuchus loricatus
+NOTE: Fasolasuchus was a fan-favorite addition from the basegame Additional Creatures 2: Wild ARK back in ASE. It has been ported largely 1:1 by request/for fans, as it is so loved. It has been dubbed Fasolasuchus loricatus - its mod-canonical species name - in this ASA version to avoid confusion with the official Fasolasuchus. It will not be renamed.
+
+Habitat: Mountains, Scorched Mountains, Badlands, Biolumenescent Region (Aberrant), Element Chamber (Aberrant)
+Tameable: Tranq
+Preferred Taming Food: Extraordinary
+
+Fasolasuchus seems to come in more than one variation. While some are familiar with the sand-swimming psuedo-crocodilian. Yet those know that also dwelling on desert arks within the mountains and badlands - as well as the mountains of more normal arks - dwells a subspecies, or variation, of the animal far more accurate in appearance and behavior to its ancient roots. A proper rauisuchian, this Fasolasuchus - dubbed Fasolasuchus loricatus due to its armor and behavior - is far more like an oversized crocodile trying to be an apex predatory dinosaur: ironic, being that Fasolasuchus was the largest triassic predator of its time! That attitude carries over into how this tanky reptile hunts and fights: being somewhat slow, Fasolasuchus prefers to get into a brawl with its target, using its heavy armor to cushion blows combined with its powerful jaws to inflict dangerous bleeding. When in combat, Fasolasuchus can also use its heavy, armored skull as a battering ram. When swung at the right moment, Fasolasuchus can properly "parry" the melee attack of the foe, taking further reduced damage and opening up an opportunity to properly attack and let loose!
+
+Base Stats
+Health: 900
+Stamina: 520
+Torpidity: 1600
+Weight: 520
+
+    Can be told to sit via the radial wheel. Pressing R will also dismount and tell it to sit.
+    Immune to bleeding, sandstorms, fire attacks, being set on fire, stunning and electrocution.
+    Fasolasuchus takes 10% less damage overall when attacked anywhere on its body.
+    Fasolasuchus takes heavily reduced damage along its neck, back/spine, and tail: only 15% of incoming damage (of the 90% from globally reduced damage, which this bone damage multiplier is equal to that of trike) will be taken. This makes Fasolasuchus fantastic for taking attacks from above: such as when fighting larger targets. It also makes it vulnerable to swarms of smaller creatures, which would attack its belly or legs.
+    Left click: Bite. 52 base damage. Inflicts a potent bleed of 45 base damage x melee stat, partially ignoring armor but respecting resistances. If biting a target that is stunned, inflicts a slowing debuff as well to keep it locked in place.
+    Right click: headbutt. 62 base damage, has a cooldown and cannot be used with insufficient stam. Time at the right moment you take melee damage to stun your melee attacker: taking reduced damage and reflecting back 50% of the damage you would've taken in their own attacking damagetype, while stunning targets up to 600 drag weight! If you land a parry, the cooldown is shorter.
+    C key roar, for aesthetic.
+
+
+Spawn Codes
+Creature
+AC2Fasola_Character_BP_C
+
+Cheat summon AC2Fasola_Character_BP_C
+Cheat gmsummon "AC2Fasola_Character_BP_C" 180
+cheat spawndino "Blueprint'/AdditionalCreaturesWildArk/Content/Dino/AC2Faso/AC2Fasola_Character_BP.AC2Fasola_Character_BP'" 1 1 1 180
+
+Saddle
+AC2FasolaSaddle
+Gargoyleosaurus
+Spawning: Grasslands, Badlands, Green Desert, Mountains.
+Tameable: Tranq
+Recommended Food: Crop Blend
+
+For an Ankylosaurian, Gargoyleosaurus is surprisingly quick and aggressive when provoked. This may be due to how this species's armor is distributed and how much lighter it is, but it plays into the creature's fighting style. Rather than bulky armor and a vicious clubbed tail, Gargoyleosaurus has lighter armor and a long tail with blade-like bone protrusions. This causes its tail to act in a similar manner as a chain whip, causing death by many cuts to its enemy. However, what makes Gargoyleosaurus terrifying is the fact that it is far more deadly to smaller targets. The blades of Gargoyleosaurus tear open a target deeper on each hit...until finally they cause massive blood loss in a surge of expelled blood. What's worse, is that the amount of hits needed to cause such damage varies drastically based on the size of the creature Goyle swings its tail against, as even a single strike from Gargoyleosaurus's tail is more than enough to easily kill a survivor in the most defensive flak, riot, or tek armors! When tamed, this ability to eviscerate a target and be rewarded with burst damage makes Gargoyleosaurus a unique tame that is powerful in the right situations, and easily overpowered in others. That bladed tail can also be utilized in the same manner as a natural chainsaw, tearing through structures and harvesting certain resources as needed!
+
+Base Stats
+Health: 425
+Stamina: 300
+Torpidity: 900
+Weight: 600
+
+    Can be told to sit via radial wheel.
+    All tail attacks of Gargoyleosaurus have the same damage type and harvesting functionality
+    Naturally armored, only taking 85% of incoming damage
+    For taming, it only eats the following foods, in order from most effective to least: Crop Blend, Honey-Glazed Strawberry, Strawberry
+    Wood and Cactus sap weigh 70% in inventory. Pelt and Hide weigh 25%,
+    The tail attacks of Gargoyleosaurus inflict a new debuff, Blood Loss. Anything immune to bleeding is immune to this debuff. Here's how it works:
+    When Gargoyleosaurus strikes with its tail, each hit counts towards 100% of buildup. The first hit is 0, the second is 1, 2, etc. That's what is so powerful about goyle. All his tail attacks hit multiple times with low damage. Blood Loss itself drains no health. Once 100% is reached, Goyle inflicts Blood Burst on the target. Blood Burst deals 150 damage instantly. This damage cannot be lowered in any way, even with the highest tier of armor. If Blood Burst is triggered, the counter resets. You can slightly scale the damage Blood Burst does by increasing your melee stat
+    Currently, Blood Loss is 30 seconds long. For every 10 seconds you're inflicted with the buff, your counter goes down by 5. If the buff wears out, your timer is completely cleared.
+    If the target is more than 100 drag weight but less than 550, some math is done instead. 550 is divided by the target's drag weight, +1, for buildup per hit. So for a carno- whos drag weight is 250- the math is: (550/250)+1= 3.2% per hit.
+    Left click is a directional tail whip. Done in place, it swings the tail in the direction you look. This inflicts Blood Loss and hits four times. (Base 15 per hit)
+    Right click is a bite, which doesnt inflict blood loss, but can be done while moving. (Base 18 damage per hit)
+    C key is a taunt for aesthetic
+    X key when walking or stationary is a tail spin, striking many times around yourself in close proximity. Inflicts Blood Loss (Base 18 damage per hit)
+    X key when running is the Sliding Tail Spin, which brings you forward a far distance as you spin and strike with your tail! Hits the most times out of all the attacks that inflicts Blood Loss. (Base 18 damage per hit)
+
+
+
+Spawn Commands
+Creature
+Goyle_Character_BP_C
+Cheat spawndino "Blueprint'/AdditionalCreaturesWildArk/Content/Dino/Goyle/Goyle_Character_BP.Goyle_Character_BP'" 1 1 1 180
+
+Saddle
+cheat gfi GoyleSaddle 1 0 0
+Gigatitan
+Spawning: Jungle
+Taming: Tranq
+Preferred Food: Extraordinary Kibble, Mutton
+
+A massive mantis-like creature, Gigatitan is one of the network's largest arthropods. A creature both beautiful and terrifying; Gigatitan takes the intelligence of the standardized ark Mantis on another level. it is an aggressive, intelligent, and patient ambush predator of dense, forested environments. Calmly, it waits in an ambush posture before violently ambushing its target with intelligent, cruel strikes. When attacked by a Gigatitan, one faces a severe adversary. Its armored elytra gives it increased resistance, and it can scatter the hair on its thorax like a tarantula. These hook-like hairs dig into attackers and cause severe irritation, and leave the target open to another one of gigatitan's cunning tactics. Tamed, Gigatitan is a surprising mount. It is surprisingly agile, and its various athletic abilities make it great for a tactical fighter, able to adapt to situations freely on the fly. That, and its intelligence makes it quite the comical character to its newfound family!
+
+Base Stats
+Health: 400
+Stamina: 400
+Torpidity: 1150
+Weight: 400
+
+    When on land, Gigatitan has a buff which grants it 25% resistance, without a saddle. When flying however, this protective elytra opens and reveals a soft abdomen, making Gigatitan take full damage once more.
+    Can enable special attacks (enables retreating fur scatter, player grab, and tame grab) via radial wheel
+    Cannot level movement speed, but gains imprint. However, it is immune to genesis flier restrictions.
+    Both Gigatitan's Cross Slash and Leaping Slash now inflict a new debuff called Assault. Assault, when inflicted, lasts for 11 seconds and then grants a 60 second cooldown afterwards. Assault cannot be re-applied while active. Assault will record all physical/melee data the victim takes during that timeframe. Anything that inflicts Assault, like Gigatitan, will have 100% of its melee damage recorded. Anything else that does not will only have 10% of its damage recorded. Once ten seconds have passed, the target will instantly take a single hit that is equal to all damage from physical hits that was recorded, +15%. For Gigatitan, I recommend inflicting maximum Assault by engaging using the Leaping Slash and trying to get at least one Cross Slash off.
+    Left click for an arm slash. quick damage, shreds armor like manta. Only attack that can be used while airborne. (base 40 damage)
+    Right click Leaping Slash. Base 80 damage. Pierces armor to the effectiveness of Manta. 6 Second Cooldown, 150 stamina cost. Inflicts Assault.
+    C key Cross Slash. Base 130 Damage. Pierces armor to the effectiveness of Manta. 30 Second Cooldown, 200 stamina cost. Inflicts Assault.
+    Altfire: Retreat. Dash backwards and clear parasites and webbing.
+    Spacebar to toggle flight
+
+
+Spawn Codes
+Creature
+Gigatitan_Character_BP_C
+Cheat spawndino "Blueprint'/AdditionalCreaturesWildArk/Content/Dino/Gigatitan/Gigatitan_Character_BP.Gigatitan_Character_BP'" 1 1 1 180
+
+Saddle
+Cheat gfi LorgeMantisSaddle 1 0 0
+Hadal Dragonfish
+Spawning: Deep Ocean
+Tameable: Tranq Tame
+Preferred Food: Mutton, Extraordinary Kibble
+
+In the dark depths of the Abyss, paranoia can set in. In those dark environments, there are tells of laughter in the deep, as if one mocks their misfortune. However, these are no myth: they are accounts of an Abyssal predator known as the Hadal Dragonfish. This oversized viperfish is an apex predator of the abyss, luring in prey only to snatch them up when they get too close to its lure. Further aiding its abyssal mastery is the ability to turn invisible, as if in preparation for survivors who'd bring light into the abyss. A bite from a Hadal Dragonfish is deadly: not also does it pierce armor effectively, but it seems to contain a strange neurotoxin that clouds vision and blinds the attacker temporarily: plunging prey into true darkness, where the Hadal Dragonfish can take its time in hunting them. When tamed, Hadal Dragonfish are excellent ambush and support mounts for combat: though more durable than their lithe frame lets on, they do often require assistance when hunting the monsters of the abyss. However, the abyss is where Hadal thrives: its attacks, speed, and resilience drop when too close to the surface during daylight hours.
+
+    Immune to electrocution
+    Often found invisible in the wild: beware red glows in the abyss.
+    Hadal Dragonfish is best considered an "Inverse Basilosaurus": if in too shallow of water, its movement speed, defense, and attack power will sharply decrease. It'll also become unable to inflict Darkness. These limits are removed during nighttime.
+    When Hadal Dragonfish takes damage from a target inflicted with Darkness, it'll roll for a 10% chance. If it fails said 10%, it'll only take half damage. If it succeeds, it will take *no* damage. There is no cooldown to this.
+    Left click: Bite. High damage, slow dps. Pierces armor to the effectiveness of manta. Hadal deals scaling damage to the target the lower the target's HP is. Provided Hadal is in the "Depth Terror" state, its bite will also inflict Darkness. Darkness blinds the target, and makes them take increased damage from Hadal Dragonfish while also having a chance to inflict them with Mammoth Intimdation when Hadal Dragonfish attacks them, helping keep them under control for more durable allies.
+    Right click: Grab. Grab targets 150 drag weight or less.
+    C key: Devour. Swallow whole a grabbed target, one-shotting them and gaining an HP regeneration buff.
+    Spacebar/Jump: Invisibility Toggle.
+    AltFire: Thermal Vision toggle
+
+
+Note: Hadal Dragonfish uses a "deep water depth start position" that Basilosaurus uses to detect its depth, with a bit of additional math added onto it. This position is built into maps themselves. Hadal Dragonfish does not work properly on Valguero due to Valguero not having a spot where "deep water" is defined. This means Hadal Dragonfish will only work properly on Valguero at night. Be mindful of similar for other modded maps.
+Horned Nurse Shark
+Spawning: Shallow Water, Oceans
+Tameable: Passive
+Recommended Food: Mutton, Simple Kibble
+
+A relatively docile shark often found in shallow water, sifting through the sand and swimming along the seafloor. Very fitting for its name, it's able to releasing a healing pulse to allies around it, similar to Daeodon! For those in need of an Aquatic healer, it's a must-have!
+
+Base Stats
+Health: 800
+Stamina: 400
+Torpidity: 1000
+Weight: 500
+
+    Reduces the weight of Pearls and Black Pearls in inventory to 30%
+    has a 3x harvest multiplier for said pearls as well
+    Will actively attack wild Ammonites, Trilobites, and Sea Scorpions in the wild
+    Is an "Underwater Flier", swimming along the seafloor unless you press spacebar for free swimming. X (prone) to land.
+    Left click bite, base 25 damage. Harvests silica pearls.
+    Right click heal AoE. A short burst toggle that gives off a buff to allied targets (and self) within 6500 units. This is a health recovery buff intended for aquatic creatures with their high health pools: it restores 52 HP per sec and 5 stamina per sec to allies for 30 seconds! The ability cannot be used with insufficient stam and costs 150 stamina to use.
+
+
+Spawn Commands
+Creature
+HornedNurse_Character_BP_C
+Cheat spawndino "Blueprint'/AdditionalCreaturesWildArk/Content/Dino/HornedNurse/HornedNurse_Character_BP.HornedNurse_Character_BP'" 1 1 1 180
+
+Items
+cheat gfi HornedNurseSaddle 1 0 0
+Iguanacolossus
+Habitat: Grasslands, Jungles, Redwoods, Green Desert (Scorched)
+Tameable: Passive
+Preferred Food: Exceptional Kibble
+
+Much like its name may imply, Iguanacolossus is a very large relative of the smaller Iguanodon species on the arks. Its overall larger and increased physical strength make it a surprisingly powerful and versatile animal for its size. Once tamed, it's used for everything from combat to travel and harvesting, fulfilling whatever niches desired of its survivor!
+
+Base Stats
+Health: 625
+Stamina: 350
+Weight: 525
+
+
+    Can be told to sit via radial wheel
+    Inventory reduces the weight of anything inside to 50%
+    Left click Thumb Attack. Harvests mineral resources without gathering plants like Ankylosaurus, also inflicts Assault (See gigatitan's bio).
+    Right click bite, harvesting corpses, bushes, fiber.
+    C key tail whip. For getting targets off your flank.
+    Left Ctrl Aesthetic Roar.
+
+
+Spawn Codes
+
+BigIggy_Character_BP_C
+
+Cheat summon BigIggy_Character_BP_C
+cheat gmsummon "BigIggy_Character_BP_C" 180
+Cheat spawndino "Blueprint'/AdditionalCreaturesWildArk/Content/Dino/BigIggy/BigIggy_Character_BP.BigIggy_Character_BP'" 1 1 1 180
+
+Cheat gfi BigIggy 1 0 0
+Inostrancevia
+Spawning: Redwoods, Grassland, Green Dessert
+Tameable: Passive (unique)
+Preferred Food: Extraordinary Kibble
+
+Inostrancevia is a large mammal-like reptile that aside from size, has changed little since being on the arks. While most creatures have generally obtained some fort of strange ability, it seems Inostrancevia has survived through cleverness, and capitalizing on what it was already good at. The creature's large fangs are perfect for weakening enemy defenses, and if more pressure is applied, is capable of bleeding targets out for extended periods of time. When tamed, survivors note their Inostrancevia retain this intellect and cunning, often adapting themselves to their owner's preferences for maximum effectiveness and survivability. This comes in handy, as aside from being potent combat mounts, the front paws of Inostrancevia are surprisingly dexterous, allowing it to assist its owner in harvesting various resources!
+
+Taming
+First, restrain an Inostrancevia with either a chain bola or net gun (latter will not work on modded versions until gen 2 is added officially). Then, so long as the Ino is under 75% HP, a single hit with a Wooden Club will stun it for 5 minutes. Once the Net/Chain Bola buff is over, the Ino will be able to be passive tamed so long as it is stunned. Damage will not reduce affinity, so feel free to keep it stunned through repeated bonks when immobilized. When tamed, said stun buff will auto-remove.
+
+BaseStats
+Health: 750
+Stamina: 350
+Torpidity: 1000
+Weight: 500
+
+    Can be told to sit via radial wheel
+    Left click bite. Inflicts Rend, slowly weakening target defense up to a max of 5 stacks (-5% defense per stack).
+    Right click is a claw slash. Harvests corpses, bushes, and fiber like an omnivore. However, this can also gather any hand-harvestable resource such as pearls, clay, black pearls, mutagel, etc.
+    C key is a headbutt, dealing decent knockback.
+    X key is a double bite. Has a cooldown, but inflicts a bleed as it hits twice. This bleed scales with melee to a maximum amount per tick, per second.
+    S+X key is a Thrashing Bite. Effectively the same as the double bite, but good for hitting behind you or your flanks. Also has a cooldown, and also inflicts the same bleed.
+    Left control aesthetic roar.
+
+
+Mindsets
+Inostrancevia can hold Artifacts in its inventory, the main purpose being its Mindset abilities: YOU CAN ONLY HAVE ONE MINDSET PER INOSTRANCEVIA, SO CHOOSE WISELY. These abilites are permanent, not resetting after server restart, soul trap, upload/download, etc.
+
+    Collector Mindset: All resources weigh 30% less in inventory. Grants a 3.5x harvest multiplier towards Element Shards, Element Dust, Mutagel, Silica Pearls, Black Pearls, Gems.
+    Traveler Mindset: Reduces Attack and Defense by 15%, but increases overall movement speed by 25%.
+    Frenzied Mindset: Increases damage by 25% so long as HP is above 75%. Each attack slowly builds up a meter which when full, procs a potent healing effect. Regen is 15 HP per sec, 5 Stam per sec, over 20 seconds.
+    Survivor Mindset: Upon killing any target, grant +25% resistance, and heal for 15 HP per sec. Lasts 40 seconds. During this timeframe, become immune to stuns and electrocution.
+    Estute Mindset: Upon killing any creature above 550 drag weight, grant yourself, your mount, and nearby allies 1.5x XP for 5 minutes. Upon killing an Alpha, the effect is instead 2x XP for 30 minutes. If killing a boss, the effect is 4x XP over an hour.
+    Challenger Mindset: Increase damage dealt to bosses, mission dinos, and alphas by 15%, and take 15% less damage from them. Upon killing one, grant 5HP per sec and 2x XP to yourself and your mount for 120 seconds.
+
+
+Spawn Commands
+Inostran_Character_BP_C
+Cheat spawndino "Blueprint'/AdditionalCreaturesWildArk/Content/Dino/Inostran/Inostran_Character_BP.Inostran_Character_BP'" 1 1 1 180
+Kaikaifilu
+Spawning: Oceans, Polar Coasts, Icebergs, Bioluminescent Region Water (Aberrant)
+Tameable: Passive
+Recommended Food: Organic Polymer
+
+Kaikaifilu is an oceanic mosasaur often found patrolling the coasts, but most prevalent around polar areas: Kaikaifilu generally ignores survivors unless provoked, preferring a diet of Hesperornis and ***especially*** Kairuku. Much like Astralovenator, Kaikaifilu preys upon them for the organic polymer in their bodies, incorporating it into its own biology twofold: to form its own polymer plates under its skin, and to dilute into a cyanide-like toxin it delivers with a venomous bite!
+
+Base Stats
+Health: 750
+Stamina: 300
+Torpidity: 2000
+Weight: 600
+
+    When ridden, grants insulation like Basilosaurus.
+    Can come on land as long as needed, but only breeds underwater
+    Immune to electrocution
+    5x Harvest yield for organic polymer.
+    Organic poly weighs 25% in its inventory and has a 10x preservation multiplier
+    Left click bite. Inflicts Tier2 Venom ("Venom"), base 40 damage.
+    Right click heavy bite, Inflicts Tier 2 Venom, base 50 damage. Cooldown of 15 sec, base stamina cost of 100 and cannot be used with insufficient stam. On land, this attack is effectively useless. When used while swimming, turns into a lunge attack that moves you forward. When lunging, damage is increased by 25% and the attack stuns targets 300 drag weight or less.
+    C key aesthetic roar
+    X key to toggle Polymer Armor. Requires organic poly in its inventory. Drain Organic Polymer at a rate of -1 per sec in exchange for 25% resistance.
+    Left ctrl tail slap, for dealing with targets behind you. Harvests pearls. Base 45 damage.
+
+
+Spawn Commands
+Creature
+Kaikaifilu_Character_BP_C
+Cheat spawndino "Blueprint'/AdditionalCreaturesWildArk/Content/Dino/Kaikaifilu/Kaikaifilu_Character_BP.Kaikaifilu_Character_BP'" 1 1 1 180
+
+Items
+cheat gfi kaikaifilusaddle 1 0 0
+Magnapaulia
+Spawning: Redwoods, Grassland, Green Desert
+Tameable: Unique Passive
+Recommended Taming Food: Crop Blend, Superior Kibble
+
+Among the many types of powerful or dangerous herbivores on the island, the common person may not expect a Hadrosaur to be one of them. Yet Magnapaulia demonstrates the true threat of the colossal hadrosaurs that were its ancestors, and then some! Magnapaulia is an untrusting and violent herbivore that often attacks other carnivores on sight, both out of aggression and a similar desire to hunt for sport like Amargasaurus. Similarly to Amargasaurs, Magnapaulia are very aggressive towards survivors and their carnivorous mounts, charging them from a distance. Herbivorous mounts can get closer, but will still be attacked when too close. When in combat, Magnapaulia prefers to unleash a series of quick jabs into the target, building up momentum and a desire for battle. When that reaches a fever pitch, it unleashes that energy in a potent booming roar, rallying itself and nearby allies considerably, and increasing their health regeneration! As such, Magnapaulia is sought after for many warbands and armies alike, but the creature refuses knockout taming and passive taming. Some survivors, however, have found a way to "prove" themselves to Magnapaulia by defeating it in combat with a choice non-carnivorous mount, and gaining a potent vanguard of a tame to assist their endeavors!
+
+Taming
+Taming is complex. You must first make the "A worthy Challenge" consumable item, costing any 3 artifacts. Once you have this buff, put it in the inventory of the mount you wish to use for the taming process. NOTE: The buff WILL NOT WORK on Carnivores, players or fliers: only herbivores and omnivores. With this buff on your creature, approach a magnapaulia. Once you enter its aggression radius, it'll gain a buff (indicated by rage clouds around its head) notifying you your challenge has been accepted and your mount is now a valid target. DO NOT DISMOUNT, doing as such will prevent your creature from being considered a "Valid Target". When in this "Challenged" State, Magnapaulia will deal 3.5x normal damage and only take 1-5% incoming damage from any source that is not a challenger. Challengers will deal 75% their usual damage to Magnapaulia. Drop the Magnapaulia to 25% HP to land a knockout blow. Once it's KO, protect the Magnapaulia for 300 seconds - it will grant itself a buff similar to ammonite pheromones on KO to lure nearby carnivores! Once 300 seconds are over, Magnapaulia will wake back up. Be sure to be within 2,500 units of Magnapaulia when it gets up - you, your allies, and your mounts will gain a buff that makes Magnapaulia neutral to you. Once the Magnapaulia stands back up, it can be passive tamed normally, and will accept food frequently from you. After getting back up, Magnapaulia will regen 2.5HP per sec and take 25% less damage as it heals, and will heal itself with its roar from time to time if its health is below 95% HP.
+
+Base Stats
+Health: 1425
+Stamina: 300
+Torpidity: 2500
+Weight: 750
+
+    Can be told to sit via radial wheel.
+    Immune to knockback
+    Ignores 5% of incoming damage
+    Left Click: Bite. Basic herbivore damagetype, base 35 damage. Not too impressive.
+    Right click: Hipcheck. This powerful attack has base 80 damage, 100 stamina cost and a 15 sec cooldown. While this attack also deals knockback, its main function is a rewarding parry-like counterattack ability. Time taking physical damage during the actual "shove" of the animation (When it shoves forward to when it stops from the lunge) to activate a successful parry/counter. Upon being damaged in that window, take zero damage for your efforts. The damage you would have taken is dived by a quarter, then multiplied by your own melee stat (ignoring buffs) before being re-applied to the target in the initial damagetype. (IE: You parry an attack that would have done 200 base damage and applied bleed. You take 0 damage on a successful parry. The resulting Formula would be 50 x {Melee Stat} = Parry Damage, which would inflict the attacker with bleed. Maximum possible parry damage is 5350)
+    C Key: Aesthetic Roar.
+    Spacebar: Counting Coop. Hold Spacebar to enter a jabbing state, each jab deals 58 base damage, and pierces armor (but not to the effectiveness of manta/kentro). While jabbing, you cannot run, and your stamina is steadily drained. You can keep jabbing without stamina, but you cannot start jabbing without insufficient stamina. Let go of spacebar to stop jabbing, which will prompt a roughly 2.5 second cooldown before you can begin jabbing again. This is generic large carnivore damagetype, allowing Magnapaulia to harvest corpses. Each jab also does decent knockback. Each jab builds up its meter by 0.02 per valid hit on a live target. Build up your meter to full using this attack. Meter drains by 0.05 per 10 seconds without a valid hit, unless at full.
+    Left Ctrl Key: Healing Boon Roar. Once your meter is full, press Left Ctrl (or Alt Fire) to reset the meter and activate a buffing roar at a cost of 100 stamina. The attack itself has no cooldown, so prioritizing building up your meter as fast as possible to continue your buff's uptime. Upon activating the roar, deal knockback damage to nearby foes, pushing them away while applying a buff to allies (and allied tribes) within 6,150 units of yourself (roughly a Yuty's effect range, but in every direction). This buff recovers 16% of max HP of the target (to a maximum of 10,000 HP healed per application), while also recovering Stamina by 50 per sec and draining torpor by 100 per sec, over a period of 40 sec.
+
+
+Spawn Commands
+Creature
+BigPaul_Character_BP_C
+Cheat spawndino "Blueprint'/AdditionalCreaturesWildArk/Content/Dino/BigPaul/BigPaul_Character_BP.BigPaul_Character_BP'" 1 1 1 180
+
+Items
+cheat gfi MegapauliaSaddle 1 0 0
+cheat gfi ChallengePaul 1 0 0
+Ogre Darner
+Spawning: Jungles, Green Desert
+Tameable: Passive
+Recommended Taming Food: Honey, Rare Flowers
+
+A massive dragonfly-like creature which apparently has ancestry with Tarantula Hawks. Despite its extremely intimidating appearance, one has nothing to worry about with this animal unless provoked. It primarily eats nectar and flowers, and preys upon other arthropods. So much so, usual insectivores like Megatherium are not bothered by them. When tamed by survivors, Ogre Darners are extremely versatile, lightweight mounts with a high amount of flexibility and adaptability. A real tactician's mount and a great addition to any survivor's arsenal.
+
+Base Stats
+Health: 325
+Stamina: 300
+Torpidity: 1200
+Weight: 400
+
+    Deals 1.5x damage to insects
+    Takes only 50% damage from insects
+    Ogre Darner itself does not count as an "insect"
+    2x harvest multiplier for chitin
+    Immune to torpidity
+    takes increased damage from fire, projectiles, and explosions
+    Gains "Insect Killer" upon killing bugs, but gains no additional resistance. Only a 2x damage multiplier.
+    Ogre Darner can move in all directions (back, left, right) at the same speed as walking or running, especially in flight.
+    Left click: Claw Attack. simple two-hit attack of base 25 damage and no special damagetype. Ogre Darner can use its attacks held, like Mantis, allowing it to dish out high damage in a relatively low amount of time.
+    Right Click: Grab. A weak grab that damages the target, and runs a few checks. If the character is an "insect", it runs to the next phase: is the target's HP above 50% or not? If it isn't, rapidly bite them 4 times for 15 base damage, before throwing them forward and slowing them with the Trike Stun debuff. Every time you bite, give yourself a stacking (up to 4x) buff of 15 HP per sec and 5 food per sec over 20 seconds each!. If the target is indeed under 50% HP, instantly one-hit kill them and grant yourself a potent buff of +50 Stamina Per Sec for 30 Seconds, effectively allowing near-infinite stamina for a time!
+    C key taunt, for aesthetic
+    A+Spacebar will dodge left, and D+Spacebar will dodge right, at a very high stamina cost with a long cooldown. This dodge has no I-frames and can fail if you're moving diagonally. Suddenly dodge to the left or right to evade attacks or flank your target! Ogre Darner can also naturally just fly horizontally and reverse, at full speed as flying forward!
+    Spacebar toggles flight.
+
+
+Spawn Commands
+Creature
+OgreDarner_Character_BP_C
+Cheat spawndino "Blueprint'/AdditionalCreaturesWildArk/Content/Dino/OgreDarner/OgreDarner_Character_BP.OgreDarner_Character_BP'" 1 1 1 180
+
+Saddle
+cheat gfi OgreDarnerSaddle 1 0 0
+Phosphatodraco
+Spawning: Beaches, Canyon
+Tameable: Tranq
+Recommended Foods: Raw Mutton, Regular Kibble
+
+Phosphatodraco is a medium-sized Azdharchid pterosaur related to Quetzalcoatlus. Like Quetzalcoatlus, Phosphatodraco is largely docile to humans, unless provoked. It spends its time soaring high on strong winds, searching for food as well as its namesake: Phosphate. For Phosphatodraco, the ARK's variant has evolved to incorporate salt into its biology. Using its hook-like bill, Phosphatodraco pecks at salt deposits and stores the salt inside its body. It is then capable of spraying this salt with considerable force in self-defense: blasting targets with salt from its nose. This generally pushes targets back, blinding them in the process. This makes phosphatodraco useful in self-defense. As a pterosaur, Phosphatodraco is fairly powerful among its kin thanks to its size and large, hooked bill. Its salt ability can help keep targets at bay, and its an adept and somewhat fast flier. While far from the king of the sky, it's a fairly useful pterosaur. Some survivors try to use the fact it can peck away at stone and hard mineral deposits to use Phosphatodraco as a flying ankylosaur: however, this pterosaur has adapted to only carry finely grained resources like Salt and Sulfur easily. They'll find the poor pterosaur has a hard time carrying heavier mineral resources than most other creatures!
+
+Base Stats
+Health: 400
+Stamina: 300
+Torpidity: 500
+Weight: 400
+
+    Immune to salt-based debuffs and sulfur burns
+    In its inventory salt, Coal, Charcoal, Sparkpowder, Gunpowder, Anthracite and sulfur weigh only 15% of their natural weight. However if you try to make them carry heavy mineral resources (Metal, Crystal, Obsidian, Scrap metal) they will weigh 3x more than usual! Phos also cannot harvest these resources.
+    Left click bite. Decent damage and dps. (Base 35 damage)
+    Right click peck. Good dps, ankylo damagetype. Use to harvest things like flint, sulfur, salt. (base 40 damage)
+    C key (when you have ammo) to use your snort ability. This naturally deals no damage but gives knockback to targets hit by the direct spray. Targets near you are inflicted with a debuff. It costs 5 ammo to use the attack, and you cant use the attack without 5 ammo in your inventory. For Normal Phosphatodraco, the ammo is Raw Salt. 5 raw salt to inflict knockback and the Salt Spray debuff. This impares the vision of enemies, like the Dilo spit. On X-Phosphatodraco (Currently unimplemented), it uses Sulfur instead of Salt to shoot a weak torrent of flames at the target. These flames deal no damage, but instead deal knockback while inflicting an AoE debuff on enemies. The AoE debuff in this case is a similar Sulfur Burn debuff to the one on Extinction, dealing minor damage over time.
+    Spacebar to fly
+
+
+Commands
+Creature
+Phosphato_Character_BP_C
+Cheat spawndino "Blueprint'/AdditionalCreaturesWildArk/Content/Dino/Phosphato/Phosphato_Character_BP.Phosphato_Character_BP'" 1 1 1 180
+
+Saddle
+cheat gfi PhosphatoSaddle 1 0 0
+Skorpiovenator
+Habitat: Jungles, Redwoods, Fertile Chamber, Sunken Forest, Sanctuary City
+Tameable: Tranq or Passive
+Recommended Food: Mutton, Regular Kibble
+
+A species of Abelisaur, Skorpiovenator is similar in size to Carnotaurus and despite being a slightly more powerful predator, is much more placid. It appears this dinosaur has adapted to its namesake, being a fellow bug-crusading-hater like Megatherium, with Skorpiovenator flying into a berserk state when in the presence of insects. While they rage both the same, they function differently in their rage, with Megatherium hitting harder and taking more blows like a juggernaut, and Skorpiovenator flying into a rapid frenzy of attacking. Skorpiovenator parallels well with Megatherium, being far more agile and having a much faster attack speed. Furthermore unlike Megatherium which simply slurps out the interior bits from its kill, Skorpiovenator can actually digest keratin and chitin, turning its remains into an easy-to-excrete paste that is extremely similar to Cementing Paste. Tamed, it makes an excellent bug-raiding partner with Megatherium, both having their drawbacks and advantages: with Megatherium being a tanky heavy hitter and Skorpiovenator being a more lightweight berserker of a glass cannon.
+
+Base Stats
+Health: 400
+Stamina: 500
+Torpidity: 6200
+Weight: 400
+
+    Is immune to venom (status often used in my other mods)
+    Gets the Insect Killer buff from killing any type of Insect, like Megatherium.
+    While Megatherium gets a 2.5x damage multiplier and only takes 30% of incoming damage when effected by Insect Killer, Skorpiovenator also gets 2.5x damage but only takes 80% of incoming damage as opposed to 30%
+    Like Megatherium, Skorpiovenator can be told to sit via radial wheel. When it does, it will rapidly heal 2% of health per second until it gets to 15% healed, at which point, it will only heal by 15 units of health per second. When sitting down, Paste crafting speed increases 3x
+    Should be able to fit in the same caves Baryonyx, Carnotaurus, and Megalosaurus can
+    Although it CAN be tranq tamed, it is MUCH more resistant than megatherium- better to passive tame it instead
+    When Chitin or Keratin is in Skorpiovenator's inventory, it will begin to AUTOMATICALLY create cementing paste from chitin or keratin in a 1-1 ratio every 10 seconds or so. You CANNOT disable this feature, as this isSkorpiovenator's natural biology (thus making megatherium the better collector)
+    Slight sexual dimorphism between males and females
+    Chitin, Keratin, and Cementing paste only weigh about 40% in its inventory
+    Left click bite. Good damage and attack rate. Deals x2 damage to non-insect (but insect like) creatures that are not covered: Sea Scorpions, Karkinos, and Broodmother
+    right click Tail Whip. Deals damage behind self, with knockback
+    C key Roar. For aesthetic
+    X key threaten roars, for aesthetic
+    Spacebar to jump
+
+
+Spawn Commands
+Creatures
+Skorpiovenator_Character_BP_C
+Cheat spawndino "Blueprint'/AdditionalCreaturesWildArk/Content/Dino/Skorpio/Skorpiovenator_Character_BP.Skorpiovenator_Character_Bp'" 1 1 1 180
+
+Saddle
+cheat gfi SkorpioSaddle 1 0 0
+Suchomimus
+Spawning: Freshwater, Swamps, Scorched Earth Canyons, Oasis, Bioluminescent Region Water (Aberrant), Fertile Chamber Water (Aberrant)
+Taming: Tranq
+
+The second largest Spinosaur seen prowling around the island's freshwater and brackish-water riverways, Suchomimus is just as much an aggressive and powerful predator as its neighboring relative, Spinosaurus. While content walking through the shallows, Suchomimus is a much more avid swimmer than Spinosaurus, diving after its preferred prey of fish. This is actually all Suchomimus prefers to eat despite its massive size: fish, and small animals. Unlike its relative, it prefers dealing with prey it knows it can easily kill. Its long, thin snout is fairly fragile and far from as powerful of the jaws of similar-weight carnivores. As such, this creature only expands its diet to the smallest of prey: which includes humans. Thankfully, it doesn't take much to discourage a suchomimus attack. Simple mounts like Raptors or Triceratops are all it takes for this aggressive predator to heed you no mind. Though its jaws may be weak, the rest of its body is far from it. Suchomimus is intelligent enough to know this as well, and makes extreme use of its muscular, dense body to inflict surprisingly powerful damage compared to its thin jaws. From muscular slashes to thick-tailed swings, to even using its weight and mass in a full-body shove! With this, Suchomimus is capable of fending itself from other large carnivores and standing its ground, providing itself a wide variety of options in a fight! If this doesn't work, however... it uses its surprising speed and stamina for its size to its advantage, fleeing for its life. Suchomimus is an ideal mount, much like Spinosaurus. However, it is able to be wrangled much easier, making it the more ideal choice for earlier-on survivors. Survivors who also enjoy versatility and wide options will also enjoy suchomimus. Its ability to come up with and execute such a wide variety of attacks can come in handy with many situations, regardless of how weak its jaws are. Those that also live in semi-aquatic environments will enjoy Suchomimus for its ability to easily traverse waterways and its rapid swimming speed! Adding in suchomimus's surprising running speed and endurance, and you have a predator who's an all-terrain-mount!
+
+Base Stats
+Health: 725
+Stamina: 400
+Torpor: 1000
+Weight: 500
+
+    Gains Hydration, much like Spinosaurus. However, two values differ with Suchomimus than with spino. When hydrated, Spino gains +15% attack and +25% healing regen. When hydrated, Suchomimus gains +8% melee and +35% health regen.
+    Amphibious: can sprint in water and is an excellent swimmer. Lacks an oxygen stat.
+    Like Spinosaurus, heals more from fish meat and prefers it when taming.
+    Suchomimus is in the same team class as Dilophosaurus. As such it will attack fish, small animals, and players. However, being on a mount such as a Raptor or Stego will actually deter Suchomimus from attack.
+    All Attacks from Suchomimus harvest Fish meat at an increased rate
+    Suchomimus deals 1.5x damage towards "Fish". This includes vanilla Coel, Salmon, and Piranha. Also includes modded fish childed from them. Includes Eels, Mantas, and Anglers in that listing.
+    Sucho gains
+    Left click bite. Very low damage for its size (base 35 damage) but decent attacking speed. Attack speed increases in water. Great for hitting targets somewhat distant from you and keeping them at a safe distance. Bite attack of Sucho procs a potent healing effect if you harvest the corpse of a fish with it. Valid "fish" are anglers, mantas, electrophorus, coel, salmon, and piranha (as well as any modded fish that are childed from them).
+    Right click arm slash. This has similar DPS to the bite, but hits twice with higher base damage (45 base). however due to its short arms, the reach is to be desired: meaning to inflict more damage you have to get right up in your opponent's face.
+    C key hipcheck. has a stamina cost and cannot be used while moving and only on land. Has a slight cooldown. Suchomimus will turn its body towards the attacker and shove hip-first into the target. this inflicts HIGH knockback and is suchomimus's strongest attack. Use it as a combo finisher or to keep targets away from you. Base 65 damage
+    X key tailspin. Has a stamina cost (less than hipcheck) and cannot be used while moving on land. No movement restriction in water. Second strongest attack with a minor cooldown and cant be used with insufficient stam. The tailspin inflicts AoE damage and knocks back targets, making it a great anti-swarm move. Base 50 damage.
+    Alt+X Tail Swing. Cannot be used while moving, land only. Has a small stamina cost and cannot be used with insufficent stam. Weaker than tailspin, but inflicts the same amount of knockback. However, it can be used without cooldown: making it great for keeping targets off your rear. Base 40 damage.
+    Left control roar. For aesthetic.
+    There's an easter egg when low-leveled Suchomimus look at a player, that has a rare chance to occur.
+
+
+Spawn Commands
+Creature
+AC2Suchomimus_Character_BP_C
+Cheat spawndino "Blueprint'/AdditionalCreaturesWildArk/Content/Dino/Sucho/AC2Suchomimus_Character_BP.AC2Suchomimus_Character_BP'" 1 1 1 180
+
+Saddle
+SuccSaddle
+Tarchia
+Spawning: Mountains, Badlands, Scorched Mountains
+Tameable: Passive (unique)
+Recommended Foods: Crop Blend, Exceptional Kibble
+
+An aggressive herbivore, Tarchia is one of the island's most durable ankylosaurs, possessing a bulky body and plenty of armor. It's one of the faster ankylosaurs, moving at a good pace, but most alarmingly it can loosen up its muscles and body armor to become even faster, but at a cost of attack power and defensive capability. Resistant to narcotics, survivors have found the best way to tame Tarchia is... by bullying them. Once their ego is crushed, they can be tamed by hand-feeding. Tamed, Tarchia can provide a wide variety of uses, such as harvesting, besieging, or being a generally potent combat mount!
+
+Taming
+Any time a wild Tarchia takes explosive damage, they have an 80% chance to flip over onto their back- don't worry too much about killing them, as Tarchia only takes 25% explosive damage (not counting natural herbivore explosive res). As soon as it flips over, run over and start beating it with a wooden club! damage of club/quality/etc does NOT effect chances or taming. Any time Tarchia takes damage from a wooden club when flipped over, there's a 5% chance for it to become depressed, indicated by a blue glow around its head. Once depressed, Tarchia is no longer aggressive and can be passive tamed. It will become angry again after a time, so stay alert! Be wary, however, as tarchia won't attack ANYTHING while depressed- even if it's attacked by a predator- so make sure to defend your tame!
+
+Base Stats
+Health: 800
+Stamina: 400
+Torpidity: 1400
+Weight: 700
+
+    Tarchia comes in two States, Active Mode and Bastion Mode. By default, all Tarchia are in Bastion mode.
+    When in bastion mode, Tarchia looses a staggering 40% movement speed. However, it gains several benefits. When in Bastion Mode, Tarchia gains an additional 25% resistance. As this is buff resistance and not natural armor, it isn't bypassed by certain damagetypes like Giga or Rock Elemental. Tarchia's attacks are also full-body, stationary variations in this state that deal far more damage.
+    When in active mode, Tarchia's speed penalty is negated, but it looses its additional resistance and its attacks become additive, dealing less damage
+    Can be told to sit via radial wheel
+    Tarchia reduces the weight of most heavy and mineral resources in their inventory a significant amount. This means Metal, Crystal, etc is reduced to 30%. Sparkpowder and Gunpowder (Coal and Anthracite) are reduced to 15%.
+    Tarchia is immune to sandstorms, bleeding, stunning/electrocution, and Broken Bones.
+    Left click is a headbutt attack. In Bastion Mode, this attack cannot be done while moving, but deals more damage and more knockback. In Active mode, its damage and knockback is lessened, but can be done while moving. (Base 35 active, 45 Bastion)
+    Right click is a tail attack that swings the direction you look. In Bastion Mode, this is Tarchia's strongest attack and deals the same type of damage as magmasaur and dunkle. This means it destroys up to stone structures and harvests wood, stone, and metal. It also has the bonus feature of inflicting a dangerous Broken Bones debuff on anything it hits. Broken Bones is a debuff that is extremely potent, but only has a 10% chance on impact to apply. By default, Broken Bones lasts 60 seconds and drops target speed to half, while making them also take 15% more damage during the duration. What's more crucial however is the buff becomes more devastating the smaller the target. Divide your Tarchia's drag weight by the victim's drag weight (500/A=B). This result is the multiplier that is applied to the buff's default length of time, with smaller targets having their bones broken for longer. When in Active mode, this attack deals less damage and less knockback, also mostly hitting behind the Tarchia. It no longer inflicts Broken Bones, and the damagetype changes from Magmasaur to Ankylosaurus, meaning it can gather crystal, flint, gems, etc. ( Base 50 Active, 80 Bastion)
+    C key is a roar, for aesthetics.
+
+
+Spawn Commands
+Creatures
+Tarchia_Character_BP_C
+Cheat spawndino "Blueprint'/AdditionalCreaturesWildArk/Content/Dino/Tarchia/Tarchia_Character_BP.Tarchia_Character_BP'" 1 1 1 180
+
+Saddle
+cheat gfi TarchiaSaddle 1 0 0
+Torosaurus
+Spawning: Grasslands, Redwoods, Green Desert
+Tameable: Tranq or Passive tame
+Recommended Taming Food: Crop Blend, Honey, Superior Kibble
+
+Torosaurus is a unique ceratopsian in multiple ways. Firstly, it is an omnivore. While able to digest meat, it is fortunately not predatory like Direbear or Deinocheirus. It orefers to graze on grasses, and is partial to fruits and vegetables. Meat seems to only be when it needs to proteins to help recover from wounds, as they are sometimes seen feasting on predators they kill after intensive battles. More docile than triceratops, while they can be handfed, they are just as aggressive if provoked. Another unique feature of Torosaurus comes out with this aggression: its intimidation factor. Torosaurus's frill actually has a pattern on it in the shape of the face of a predatory carnivore- most familiarly, a tyrannosaur- and it tends to display this frill while emitting deep, carnivore-like rumbling in order to drive off smaller predators. Combined with the fact the frill eye-spots glow in the dark, this is extremely effective. It is an effect similar to the "intimidation roars" many creatures on the arks can do, but due to the intimidating display of Torosaurus, it can effect larger, more medium-sized creatures as well! This makes Torosaurus a viable, flexible mount for survivors who can obtain one.
+
+Base Stats
+Health: 575
+Stamina: 400
+Torpidity: 900
+Weight: 500
+
+    Omnivorous, but not like most other creatures. The meat and berry/veggie taming values on torosaurus are swapped! It prefers veggies and berries for taming, with Meat being overall ineffective for taming. However, it can still be fed meat to recover from injuries.
+    Docile if approached.
+    Can sit to recover health
+    Left click head/horn attack. Good knockback and damage. (Base 42 damage)
+    Right click bite attack. harvests fiber, berries, corpses. (Base 30 Damage)
+    C key back kick. Cant be used while moving. Inflicts knockback on targets, as well as decent damage. (Base 45 Damage)
+    X key Intimidation display. Cannot be used while moving or running. Inflicts Mammoth's intimidation buff
+    Left control roar, for aesthetic.
+
+
+Commands
+Creature
+Torosaur_Character_BP_C
+Cheat spawndino "Blueprint'/AdditionalCreaturesWildArk/Content/Dino/Torosaurus/Torosaur_Character_BP.Torosaur_Character_Bp'" 1 1 1 180
+
+Saddle
+Cheat gfi ToroSaddle 1 0 0
+Tyrannotitan
+Habitat: Grasslands, Monster Island, Mountains, Scorched Mountains, Desert Biodome Upper, Sunken Forest, Green Desert
+Tameable: Tranq
+Preferred Food: Extraordinary Kibble
+
+A large theropod only slightly smaller than rex, and related to other carcharodonts like Giganotosaurus and Carcharodontosaurus. A hunter of big game, it prefers fighting larger targets over smaller ones, and seems adept at doing this. While slightly comparable to Rex by default, survivors will find Tyrannotitan excelling at being an "anti-large" unit. When fighting against large - or even colossal - enemies, Tyrannotitan may be what you need to turn the tide in battle!
+
+Base Stats
+Health: 1025
+Stamina: 500
+Weight: 600
+
+- Can be told to sit via radial wheel
+
+    Inventory reduces the weight of all raw meats by 95%
+    +50% harvest yield for mutton/raw prime meat
+    - Tyrannotitan's own drag weight is 500. Any time it attacks anything larger than itself, it will deal increased damage towards them, their drag weight divided by its own, to max of a 2.5x multiplier.
+    - If attacked by anything larger than 600 drag weight, Tyrannotitan automatically takes -25% less damage from it.
+    - Left click: Bite. Base 50 damage. No special effect.
+    - Right click: Aesthetic Roar.
+
+
+    Spawn Codes
+    ShadTyrannotitan_Character_BP_C
+
+    Cheat summon ShadTyrannotitan_Character_BP_C
+
+    Cheat gmsummon "ShadTyrannotitan_Character_BP_C
+    " 180
+    Cheat spawndino "Blueprint'/AdditionalCreaturesWildArk/Content/Dino/Tyrannotitan/ShadTyrannotitan_Character_BP.ShadTyrannotitan_Character_BP'" 1 1 1 180
+
+    Cheat gfi ShadTyrTitanSaddle 1 0 0
+
+Tyrannomimus
+Habitat: Swamps, Desert Canyons, Oasis
+Tameable: Passive (Unique)
+
+Tyrannomimus is a smaller cousin of the much larger - and much more angry - Deinocheirus, which it shares habitat with. It's not just habitat and diet they share though, as while not as tempermental, Tyrannomimus are also rather angry creatures that don't take their personal space being invaded by other creatures, lashing out with powerful forearms and throwing their weight around. However, it's possible this may all just be a front, as survivors have found it's quite easy to temporarily curb their aggression in the same manner as Tarchia. It has been discovered that shooting a slingshot at the head of a Tyrannomimus while it is roaring stuns it, allowing them to then be soothed after a forced rock down the throat. Tamed, Tyrannomimus is surprisingly versatile, adept at traversing waterways and land, and able to defend itself easily from threats its size and smaller!
+
+Base Stats
+Health: 625
+Stamina: 350
+Weight: 525
+
+    Can be told to sit via the radial wheel
+    Tyrannomimus have a chance to emote from time to time when they don't have a target, and aren't sitting down.
+    To tame Tyrannomimus, you must shoot it in the head with a slingshot while it is roaring at you. Wild Tyrannomimus will roar at dismounted players. Once shot, it'll enter a become depressed. During this time it'll become docile and refuse to attack any aggressors. Passive tame it while it's sad!
+    Left click claw attack. Hits three times, generic medium herbivore damagetype.
+    Right click bite attack. Same effects as the bites of Sucho and Deinocheirus, harvesting prime fish and granting an HP regen buff upon consuming fish.
+    C Key: Stomp. Leap forward at a stamina cost and stomps with its foot, dealing increased damage to targets 150 drag weight and less.
+    Left Ctrl Key: Aesthetic Roar.
+
+
+Spawn Codes
+
+Tyrannomimus_Character_BP_C
+Cheat summon Tyrannomimus_Character_BP_C
+Cheat gmsummon "Tyrannomimus_Character_BP_C" 180
+Cheat spawndino "Blueprint'/AdditionalCreaturesWildArk/Content/Dino/Tyrannomimus/Tyrannomimus_Character_BP.Tyrannomimus_Character_BP'" 1 1 1 180
+
+cheat gfi TyrannomimusSaddle 1 0 0
+Xuanhanosaurus
+Spawning: Mountains, Badlands, Scorched Mountains, Fertile Chamber (Aberrant)
+Tameable: Tranq
+Recommended Food: Raw Mutton, Regular Kibble
+
+Xuanhanosaurus is a mid-sized Allosauroid predator from china, and on the ARKs, it seems fairly standard and unassuming of a predator. However, this creature, for its size, has some of the strongest limbs of any theropod, granting it surprising strength. It's fast, and its arms pack a surprising punch with their thick claws when used as weapons. Yet Xuanhanosaurus's biggest advantage is its ability to "climb" up certain surfaces. More accurately, this theropod can "parkour", using its arms and legs to propel itself up vertical surfaces! Tamed, Xuanhanosaurus makes the perfect mid-tier jack of all trades, able to help in combat, traversal, and more!
+
+Base Stats
+Health: 475
+Stamina: 350
+Torpidity: 600
+Weight: 525
+
+    Can be told to sit via option wheel
+    Immune to fall damage
+    Whenever falling, Xuanhanosaurus will go into "Seeking" state. It will deactivate its own IK and begin to rotate in-place midair, allowing you to change the direction you're facing.
+    Left click bite. Deals decent damage.
+    Right click claw slash. Hits twice, your main source of damage. has a stamina cost. Cannot be used with insufficient stamina.
+    C key is a bucking kick. Deals mid damage and high torpor, as well as high knockback with a slowing stun. Cannot be used with insufficient stamina, can only be used on land, and has a high cooldown.
+    Left ctrl roar, for aesthetic.
+    Spacebar to jump. Cannot jump with insufficient stam.
+    Spacebar when falling and facing a valid surface to parkour. Xuanhanosaurus will launch itself upwards a set distance at a cost of stamina. Cannot use with insufficient stamina. An idea of where you want to make sure you have a "valid surface" is right in front of (and a little underneath) xuan's chest. The base of the neck/top of sternum is also a good place to make sure you've got nearby terrain and surfaces. Xuan can also "parkour" out of water sometimes if you're swimming at the surface and approach a valid surface for parkouring.
+    X (Singleplayer only) to allow your pitch to change while falling, not just rotation. This is a toggle you can enable and disable freely. If you manage to get rather skilled with this, you can execute a lot of complex climbing and parkour, including wall-kicks!
+
+
+Spawn Commands
+Creature
+Xuan_Character_BP_C
+Cheat spawndino "Blueprint'/AdditionalCreaturesWildArk/Content/Dino/Xuan/Xuan_Character_Bp.Xuan_Character_BP'" 1 1 1 80
+
+Items
+cheat gfi XuanSaddle 1 0 0
+Vallibonaventrix
+Spawning: Oceans, Shallow Water, Beaches
+Tameable: Tranq
+Recommended Food: Raw Prime Fish, Raw Mutton, Exceptional Kibble
+
+A medium-sized Spinosaur heavily adapted to marine life, incorporating many of the attributes of its defeated prey into its own biology: with extreme effect! For those looking for an ideal oceanic tame, Vallibonaventrix is a must-have!
+
+Base Stats
+Health: 700
+Stamina: 300
+Torpidity: 1000
+Weight: 500
+
+    Can be told to sit via the radial wheel.
+    Valli's inventory reduces the weight of biotoxin and ammonite bile to 10%, while reducing the weight of basilo blubber & megalodon teeth to 25%.
+    Valli is immune to electrocution & electrical attacks!
+    Valli can make special Megalodon Muzzles & Megalodon Gauntles out of the teeth you harvest, allowing special variants of its bite & claw attacks with enhanced effects!
+    Valli has a 4x harvest multiplier for biotoxin, angler gel, and ammonite bile!
+    Whenever Valli kills a creature with the "Is Water Dino" boolean toggled, that is at least 250 drag weight while wearing at least its muzzle or gauntlets, it'll grant itself the "Ocean Huntress" buff! This will restore 15 durability to its muzzle and gauntlets every second over 30 seconds!
+    Left click (No Muzzle): Bite. Base 35 damage. No special effect.
+    Left click (Muzzle Equipped): Heavy Bite. Base 45 damage. Slightly pierces armor, but not to the effectiveness of Manta/Theri.
+    Right click (No Gauntlets): Claw Attack. Base 32 damage. No special effect.
+    Right Click (Gauntlets Equipped): Heavy Claw attack. Base 42 damage. This attack will hit twice when swimming. Inflicts Rend, progressively lowering target defense!
+    C Key: Charge Shock. Requires 500 biotoxin to use. Valli will stop moving a moment to charge, before unleashing a powerful multi-hit AoE of base 65 damage of an electrical damagetype! Targets hit by it are given the same electrocution debuff as when shocked by tamed eels. NOTE: This is not any normal oceanic electrocution damagetype: Rather, it's Lightning Wyvern's, allowing you to give off a shock most oceanic creatures aren't resistant to! When used, this attack will grant Vallibonaventrix Volt Armor, lasting 300 seconds. When Valli has this buff, it'll return back a percentage of melee damage as lightning wyvern's breath damagetype, and constantly drain torpor from itself. While Volt Armor is up, you cannot generate another powerful shock with this ability. While Volt Armor is active, all melee attacks will deal a second hit of damage equal to half the original melee attack's damage.
+    X Key: Gel Breath. Requires 50 angler gel. Will breathe a torrent of blue flame that works even underwater! While the base damage and projectile spawn rate is the same as Fire Wyvern's, Valli's unique "Enflamed" buff lasts even underwater, and can ignite creatures normally immune to fire damage!
+    Alt+X Key: Bile Coating. Provided you have 50 Ammonite Bile in your inventory, Valli will then vomit it onto itself to apply 60 seconds of rage pheromones to itself.
+    Left Ctrl (Pistol Whip): Snacc Attacc. Provided you have 1 Basilosaurus Blubber in your inventory, consume it for a 30 second buff that restores 55 HP per sec, 15 stamina per sec, and 45 hunger per sec!
+    Spacebar (Not in Volt Armor): Dart. Costs 250 stamina and has a 10 sec cooldown, useable only underwater. Valli will stop before charging forward, dealing damage to whatever it hits. Base 72 damage
+    Spacebar (Volt Armor with Biotoxin): Lightning Dart. Provided you have 500 Biotoxin, Valli will surge forward at the same stamina cost & cooldown as the normal dart, but while giving off a powerful AoE equal in range & damage as its Charge Shock! If you don't have biotoxin, the normal Dart will be used instead.
+    Right Ctrl: Aesthetic Roar.
+
+
+Spawn Commands
+Creature
+Valli_Character_BP_C
+Cheat spawndino "Blueprint'/AdditionalCreaturesWildArk/Content/Dino/Valli/Valli_Character_BP.Valli_Character_BP'" 1 1 1 180
+
+Items
+cheat gfi ValliMuzzle 1 0 0
+cheat gfi ValliGauntlet 1 0 0
+cheat gfi ValliSaddle 1 0 0
+Yangchuanosaurus
+Habitat: Mountains, Scorched Mountains, Badlands, Volcanic Environments
+Tameable: Tranq
+Preferred Food: Extraordinary Kibble
+
+Yangchuanosaurus is a medium-large predator commonly found in mountainous or volcanic environments, often using its bladed crest to chip away at rocks to ingest what it can flake off. Apparently, this is done to ingest specific mineral resources like sparkpowder and sulfur, which the creature ignites via a special organ in its throat to give itself a firey boost... to the point of being able to breath fire! To those who can tame them, they offer a unique combat and harvesting opportunity, being able to spread fire and explosions as needed to damage the foe! On top of this, survivors have found the internal furnaces of Yangchuanosaurus perfect for making wax for candles, providing secondary, useful effects!
+
+Base Stats
+Health: 800
+Stamina: 350
+Weight: 450
+
+
+    Naturally reduces the weight of most heavy mineral resources (oil, metal, crystal, obsidian) to 80% in inventory. Stone is reduced to 40%. Flint, Sand, Sparkpowder, Sulfur, Salt, Preserving Salt, Candlewax, and Charcoal weigh 10% in its inventory.
+    Naturally crafts Sparkpowder automatically in inventory, but can also make Preserving Salt and Gunpowder on command. Can also make Candlewax using Oil and Raw Meat. Candlewax is a new resource used to make two small candles. While these have small AoEs, they provide different effects. One slightly increases HP regen and reduces food & water consumption. The other increases your crafting speed (not skill) by a 4x multiplier. While these are tiny AoEs, creatures can also benefit from them, with the exception of Large Dinos.
+    Main Mechanic: Build up a Heat meter to grant yourself the Overheat buff for 300 seconds. You cannot loose meter while the buff is active, but can refresh the buff so long as you reach 100 points.
+    Left click: Bite. Base 42 damage. No special effect. When under the effects of Overheat, this attack inflicts secondary damage of half the original damage value (so 21), effected by melee stat (not multipliers) in a fire damagetype that sets the target on fire. This effectively raises the bite's base damage to around 63.
+    Right click: Headbutt. Base 35 damage. Stationary attack (on land) with Anky's dmgtype. Your main method of harvesting mineral resources. Deals decent knockback.
+    C key: Tail whip. Base 45 damage, stamina cost of 100 and a 2.25 sec cooldown. Stationary attack dealing good knockback. When used on targets that're on fire, inflicts Detonation. Detonation immediately clears the fire debuff from the target & prevents any more during its 5-second buff duration. Detonation will immediately damage the target victim for (100 x Melee stat) in an explosive damagetype, meaning herbivores will take less. However, each detonation also triggers a radius around the victim of 900 units. This detonation radius checks for all valid targets (excluding your tribemates & allies) and damages them for (60 x Melee Stat) in an explosive damagetype. This explosion radius triggers follow-up Detonations on valid targets (targets aflame) within the radius. After a target has detonated, they gain a 12 second buff that prevents them from detonating again for a time, but does not protect against being set on fire.
+    Jump bind: Explosive Bite. Stationary attack of base 45 damage. This attack hits twice: the jaws themselves closing, and the explosion on trigger. While the jaws themselves have no additional effect, the explosion itself is a small radius at the direct site of impact, approx 800 units. This is fire wyvern's breath damagetype that lights targets on fire, base (60 x melee stat). For every target hit with the jaws (not explosion) of this attack, gain 10 points towards Overheat. Hitting 100 at any time will reset Overheat. This attack costs 10 fuel to activate, be it either sparkpowder or sulfur.
+    Left Ctrl/AltFire: Fire Breath. Slightly stronger than Fire Wyvern's, costing 100 stamina and on a 5 sec cooldown. Costs 100 fuel and drains 25 points from Overheat. Can only be done when in overheat..
+    Right ctrl: Aesthetic roar.
+
+
+Spawn Codes
+
+ACYang_Character_BP_C
+Cheat spawndino "Blueprint'/AdditionalCreaturesWildArk/Content/Dino/Yang/ACYang_Character_BP.ACYang_Character_BP'" 1 1 1 180
+
+Cheat summon ACYang_Character_BP_C
+cheat gmsummon ACYang_Character_BP_C

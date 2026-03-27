@@ -1,0 +1,32 @@
+Engram Entries: 
+   EngramEntry_DNA_Extractor_C
+   EngramEntry_DNA_Genome2_MoroRaptor_C
+   EngramEntry_DNA_Genome2_MoroRex_C
+   EngramEntry_DNA_Genome3_MoroRaptor_C
+   EngramEntry_DNA_Genome_MoroRaptor_C
+   EngramEntry_DNA_Genome_MoroRex_C
+   EngramEntry_DNA_Incubator_C
+   EngramEntry_DNA_Sequencer_C
+   EngramEntry_DNA_Synthesizer_C
+   EngramEntry_DNA_Vial_Carno_C
+   EngramEntry_DNA_Vial_Giga_C
+   EngramEntry_DNA_Vial_MoroRaptor_C
+   EngramEntry_DNA_Vial_MoroRex_C
+   EngramEntry_DNA_Vial_Raptor_C
+   EngramEntry_DNA_Vial_Rex_C
+   EngramEntry_DNA_Vial_Therizino_C
+   EngramEntry_Engineering_Station_C
+   EngramEntry_MoroRaptor_Gen2_GM_Egg_C
+   EngramEntry_MoroRaptor_GM_Egg_C
+   EngramEntry_MoroRex_GM_Egg_C
+   EngramEntry_PowerCells_C
+   EngramEntry_Trike_Monument_C
+   EngramEntry_MoroRexGen2_GM_Egg_C
+   EngramEntry_MoroRexGen2_BoneCostume_C
+
+Dino Entries: 
+   IndoRaptor_C
+   IndoRaptorGen2_C
+   IndomRex_C
+   MoroRexGen2_C
+

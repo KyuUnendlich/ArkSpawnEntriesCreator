@@ -12,38 +12,38 @@ Dino Additions:
 Container Name: null
    Entry Name: Hatzeg (1)
       Main BP: Hatzeg_Character_BP_C
-      Entry Weight: 0.175
-      Spawn Limit: 0.275
+      Entry Weight: 0.035
+      Spawn Limit: 0.08
       Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: Hatzeg (1)
       Main BP: Hatzeg_Character_BP_C
-      Entry Weight: 0.12
-      Spawn Limit: 0.15
+      Entry Weight: 0.035
+      Spawn Limit: 0.08
       Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: Hatzeg (1)
       Main BP: Hatzeg_Character_BP_C
-      Entry Weight: 0.12
-      Spawn Limit: 0.15
+      Entry Weight: 0.035
+      Spawn Limit: 0.08
       Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: Hatzeg (1)
       Main BP: Hatzeg_Character_BP_C
-      Entry Weight: 0.3
-      Spawn Limit: 0.05
+      Entry Weight: 0.02
+      Spawn Limit: 0.04
       Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: Hatzeg (1)
       Main BP: Hatzeg_Character_BP_C
-      Entry Weight: 0.3
-      Spawn Limit: 0.05
+      Entry Weight: 0.02
+      Spawn Limit: 0.04
       Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: Hatzeg (1)
       Main BP: Hatzeg_Character_BP_C
-      Entry Weight: 0.1
-      Spawn Limit: 0.125
+      Entry Weight: 0.05
+      Spawn Limit: 0.08
       Multi Spawn Chance: 1.0
 
 Global Entry Weights: 
@@ -53,22 +53,22 @@ Global Entry Weights:
 
 MultiParams Summary: 
    Main BP: Hatzeg_Character_BP_C
-      Entry Weight:                   0.175
-      Spawn Limit:                             0.275
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.08
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.12
-      Spawn Limit:                             0.15
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.08
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.12
-      Spawn Limit:                             0.15
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.08
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.3
-      Spawn Limit:                             0.05
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.04
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.3
-      Spawn Limit:                             0.05
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.04
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.1
-      Spawn Limit:                             0.125
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.08
       Multi Spawn Chance:                               1.0
 

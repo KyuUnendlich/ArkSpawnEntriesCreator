@@ -1,0 +1,2402 @@
+
+INI Options General
+INI Options - General
+
+Here are all available gameusersettings.ini options for all Prehistoric Beasts Parts.
+Pls make sure, that you use the right Header for every mod part!
+
+
+CAUTION
+if you change anything from this inis, make sure you copy this under all existing Prehistoric Beast Parts you use!
+
+Option Name
+Default
+Description
+CreaturesDropSaddleOnDeath=
+TRUE
+TRUE -> wild creatures have a chance to drop a saddle blueprint when they are killed
+INI Options Part 1 - 2
+[PrehistoricBeasts]
+
+Option Name
+Default
+Description
+ChangeInoToBasicTame=
+FALSE
+TRUE -> Inostrancevia now tames like a Sabertooth.
+MaxWildSpawnsNeimo=
+35
+NUMBER -> Controls the maximum number of wild Neimongos which are allowed to spawn.
+MaxWildSpawnsAlphaNeovenator=
+3
+NUMBER -> Controls the maximum number of Alpha Neovenators which are allowed to spawn.
+MaxWildSpawnsNasuto=
+50
+NUMBER -> Controls the maximum number of wild Nasuceratops which are allowed to spawn.
+DisableNasutoceratopsShieldDamageConsumeElement=
+FALSE
+TRUE -> By default, when Nasutoceratops has its tek shield active and is protecting nearby allies, damage to these creatures causes the power in the tek saddle to drain. Set this option to true disables that feature.
+NasutoceratopsShieldElementDrainMultiplier=
+0.25
+NUMBER -> Controls the rate in which element is consumed from the Nasutoceratops Tek Saddle when the tek shield is activated.
+NasutoceratopsShieldDamageResistance=
+0.30
+NUMBER -> Controls the damage resistance allies receive when the Nasutoceratops Tek Shield is actively protecting them.
+NasutoceratopsShieldDamageElementConsumptionMultiplier=
+0.05
+NUMBER -> Controls the rate in which element is consumed from the Nasutoceratops Tek Saddle when the tek shield is activated. By default, when an ally takes damage the amount of power removed from the saddle is 5% of the damage amount received. This means if your Tek Saddle had 80% power remaining and you took 100 damage, your power would drop to 75%.
+NasutoceratopsShieldPowerMultiplierPerCharacter=
+1.0
+NUMBER -> Multiplies the rate in which element is consumed from the Nasutoceratops Tek Saddle when the Tek Shield is activated. By default, power usage increases for each additional character the Tek Shield is protecting.
+MaxWildSpawnsPostosuchus=
+80
+NUMBER -> Controls the maximum number of wild Postosuchus which are allowed to spawn.
+PostosuchusNestDecayTimeMin=
+7200
+NUMBER -> Controls how long (in seconds) before a Postosuchus Nest will be destroyed. You can use this setting along with the max option to set an exact time or a random interval for them to disappear.
+PostosuchusNestDecayTimeMax=
+7200
+NUMBER -> Controls how long (in seconds) before a Postosuchus Nest will be destroyed.
+PostosuchusNestSpawnChance=
+20
+NUMBER -> Controls the percentage chance EACH Postosuchus has to produce a nest.
+PostosuchusNestSpawnDelayOnFailure=
+1800
+NUMBER -> wild creatures have a chance to drop a saddle blueprint when they are killed
+PostosuchusNestSpawnDelayOnSuccess=
+9000
+NUMBER -> Controls the amount of time (in seconds) before Postosuchus will attempt to make another nest after it has successfully made one.
+AlphaSiamosaurusDropGustaveEggChance=
+0.35
+NUMBER -> Controls the percentage chance an Alpha Siamosaurus has to drop a Gustave Siamosaurus Egg when killed. 1.0 is 100%
+DisableAlphaSiamosaurusDropGustaveEgg=
+FALSE
+TRUE -> Disables Alpha Siamosaurus dropping a Gustave Siamosaurus Egg when killed.
+MaxWildSpawnsAlphaSiamosaurus=
+3
+NUMBER -> Controls the maximum number of Alpha Siamosaurus which are allowed to spawn.
+MaxWildSpawnsYangchuanosaurus=
+15
+NUMBER -> Controls the maximum number of wild Yangchuanosaurus which are allowed to spawn.
+YangHealRoarParticles=
+TRUE
+TRUE-> Default is yes particles. change to false for no particles.
+
+Part 2
+
+[PrehistoricBeasts2]
+
+Option Name
+Default
+Description
+AnzuBabySpeed=
+2
+NUMBER -> Controls the speed at which babies grow within reach.
+AnzuSetAllowImprinting=
+TRUE
+TRUE -> Allows Anzus to imprint tamed babies while in care mode.
+AnzuSetAllowFeeding=
+TRUE
+TRUE -> Allows Anzus to feed tamed Babies while in care mode.
+AnzuNestDecayTimeMin=
+7200
+NUMBER -> Controls how long (in seconds) before a Anzu Nest will be destroyed. You can use this setting along with the max option to set an exact time or a random interval for them to disappear.
+AnzuNestDecayTimeMax=
+7200
+NUMBER -> Controls how long (in seconds) before a Anzu Nest will be destroyed. You can use this setting along with the min option to set an exact time or a random interval for them to disappear.
+AnzuNestSpawnChance=
+20
+NUMBER -> Controls the percentage chance EACH Anzu has to produce a nest.
+AnzuNestSpawnDelayOnFailure=
+1800
+NUMBER -> Controls the amount of time (in seconds) before Anzu will attempt to make another nest after it has attempted and failed to make one.
+AnzuNestSpawnDelayOnSuccess=
+9000
+NUMBER -> Controls the amount of time (in seconds) before Anzu will attempt to make another nest after it has successfully made one.
+MaxWildSpawnsAnzu=
+60
+NUMBER -> Controls the maximum number of wild Anzus which are allowed to spawn.
+MaxWildSpawnsMapusaurus
+12
+NUMBER -> Controls the maximum number of wild Mapusaurus which are allowed to spawn.
+MaxWildSpawnsAlphaOrnithocheirus=
+2
+NUMBER -> Controls the maximum number of Alpha Ornithocheirus which are allowed to spawn.
+MaxWildSpawnsOrnithocheirus=
+25
+NUMBER -> Controls the maximum number of wild Ornithocheirus which are allowed to spawn.
+MaxWildSpawnsAlphaParax=
+3
+NUMBER -> Controls the maximum number of Paraxenisaurus which are allowed to spawn.
+INI Option Part 3 - 4
+Part 3
+
+[PrehistoricBeasts3]
+
+Option Name
+Default
+Description
+MaxWildSpawnsAlphaHainosaurus=
+2
+NUMBER -> Controls the maximum number of Alpha Hainosaurus which are allowed to spawn.
+MaxWildSpawnsHainosaurus=
+8
+NUMBER -> Controls the maximum number of wild Hainosaurus which are allowed to spawn.
+ChangePrionoToBasicTame=
+FALSE
+TRUE -> Change Prionosuchus to a K.O. tame. It still takes Temnospondyl Treat.
+AxelHarvestBlackPearls=
+TRUE
+FALSE-> Disables Axel's ability to harvest black pearls from fish.
+
+
+Part 4
+
+[PrehistoricBeasts4]
+
+
+Option Name
+Default
+Description
+AllowLirainosaurusRiding=
+TRUE
+TRUE -> Enable the ability to ride Lirainosaurus.
+ChangeKelenkenToBasicTame=
+FALSE
+TRUE-> Kelenken takes Regular Kibble.
+DracovenatorBreathAttacksConsumeEssence=
+5
+NUMBER -> Controls the number of breath attacks Dracovenator can perform before consuming a piece of essence.
+DracovenatorBreathAttacksConsumeEssence=
+10
+NUMBER -> Controls the number of breath attacks Dracovenator can perform before consuming a piece of essence.
+MaxWildSpawnsDracovenator=
+40
+NUMBER -> Controls the maximum number of wild Dracovenator which are allowed to spawn.
+AcheroCorruptDamage=
+2.5
+NUMBER-> Alters the damage buff that Acheroraptor adds to your creature to fight corrupt creatures. 5 is max, and 1 essentially disables this ability.
+
+INI Option Part 5
+[PrehistoricBeasts5]
+
+Option Name
+Default
+Description
+LuckyHaastsLoot=
+TRUE
+FALSE-> Haast's Eagle no longer can gain random loot when killing a target.
+Creature - Acheroraptor: Part 4
+
+Other Variants
+
+
+How to pronounce
+Ache-ah-raptor
+
+Controls & Abilities
+Pick up with E. Grants the user immunity from the Extinction Wasteland buff, and if you are riding a creature, they do more damage to corrupted dinosaurs
+
+These small feathery buddies are only found on Extinction. The same element that gave them their abilities also can be seen on their body!
+
+Their corruption damage can be changed with ini, with the default being 2.5x damage!
+
+Spawn Regions
+Acheroraptor can only be found on Extinction
+
+Extinction: City and Sunken Forest
+All other maps: N/A
+
+How to Tame
+To tame an Acheroraptor, you need to passively feed it Element. Learn more here.
+
+Chibi
+Wild Acheroraptor have a 10% chance to drop a chibi when killed.
+Creature - Angulomastacator: Part 5
+
+Other Variants
+Lost
+
+Angulomastacator
+Angulomastacator are mutated parasaurs! They adapted well to Aberration's radiation, and have gotten larger and stronger because of it! Their unique blood is mildly toxic, so would be attackers tend to avoid them!
+
+
+How to pronounce
+Ann-goo-low-mass-tu-kate-or
+
+
+Controls & Abilities
+Left Click: Head Bash
+Right Click: Switch Stance
+C/ Thumbstick Right Button: Tail attack - can gather gems - (directional) or roar - scares creatures under 250 dragweight away- (if bipedal)
+Space/ Jump: Kick
+
+- Weight reduction for gems
+
+- Stance Switching:
+Angulo can switch stances, from Quadrupedal to Bipedal.
+Each stance has different move sets
+Bipedal is slower, but can turn in place
+Quadrupedal moves faster, and drains less stamina, but is less maneuverable
+
+- Special Saddle:
+Angulo's saddle protects the rider from radiation and poison (from mushrooms, Basilisk etc)
+
+
+Spawn Regions
+Aberration: Blue Zone
+All Other Maps: N/A (unless they have an Aberrant Zone)
+
+
+How to Tame
+Angulomastacator are passive tames. Walk up to them and feed them whatever random food they crave! They have 5 preferred foods! You must be level 60 to tame them.
+
+While normally neutral, they sometimes can get upset by being hand fed by a stranger, and can lash out!
+
+Chibi and Saddle
+Wild Angulomastacator have a 10% chance to drop a chibi when killed.
+Wild Angulomastacator have a 5% chance to drop a saddle blueprint when killed.
+Creature - Anzu: Part 2
+
+
+Other Variants
+Scorched
+Aberrant
+Lost
+
+Anzu
+Anzus belong to the Oviraptorosaur genus and are excellent travel mounts. Although they are not particularly strong, they are fast and persistent. Their true strength, however, lies in their weakness for babies, anzus are excellent caregivers!
+
+
+How to pronounce
+Ann-zoo
+
+
+Controls & Abilities
+Left Click: Bite
+Right Click: Cosmetic Roar
+C/Right Thumbstick: Kick
+Left Ctrl/Alt Fire/ Right Thumbstick: If you have the tek saddle on, this will enable the tek ability. Requires Element
+
+- Can be ridden bareback
+
+Baby care:
+Can be enabled in the action wheel.
+- imprints on nearby babies under 600 drag weight (boss arena limit)
+- nearby babies grow up faster
+- can feed nearby babies if food is available in Anzu's inventory
+
+Spawn Regions
+The Island: Grassland
+Scorched Earth: Central Dunes, Canyon
+The Center: Grassland, Forest
+Aberration: Blue Zone
+Extinction: City Outskirts & Scorched Dome
+Ragnarok: Jungle, Forests
+
+
+How to Tame
+Anzu are egg steal tames
+
+Find a nest and grab an egg! But be careful, the parents will protect their nests until death.
+
+
+Chibi and Saddle
+Wild Anzu have a 10% chance to drop a chibi when killed.
+
+Tek Saddle:
+Requires element -> Make Anzu move faster and take no fall dmg
+Creature - Axelrodichthys: Part 3
+
+
+Other Variants
+Scorched
+
+
+Axelrodichthys
+The pearl among all fish!
+Axelrodichthys are fast and have great stamina, making them a great mount in all oceans. They are adapt fish slayers and can even harvest black pearls.
+
+
+How to pronounce
+Axe-L-rod-ich-thee-s
+
+
+Controls & Abilities
+Left-Click: Bite
+
+- Passivly produce silica pearls
+- Can get up to 3 black pearls, after killing a fish.
+- Does x5 damage against Salmons, Piranhas, Coels and Hyneria.
+- Can also harvest prime fish meat!
+
+Spawn Regions
+The Island: Ocean
+Scorched Earth: Oasis
+The Center: Ocean
+
+
+How to Tame
+Much like an Otter, Axelrodithys tames when fed fish corpses. Salmon is the best.
+
+
+Chibi and Saddle
+10% to drop a chibi when killed
+They have a 5% chance to drop a saddle BP when killed.
+
+INI settings
+You can disable Axel's black pearl abilities with INI settings. See INI settings above!
+Creature - Baculites: Part 2
+Other Variants
+
+
+Baculites
+This prehistoric cephalopod is a midsized creature that swims in the oceans and can often be found near the coast. They are neutral, and friendly enough that you can grab onto their shell and ride along with them!
+
+
+How to pronounce
+Back-U-Light-ees
+
+
+Controls & Abilities
+Left-Click: Tentaslap
+Right-Click: Grab prey/ attack held prey (small creatures/players)
+C/D-pad Down: Shell Spin attack (harvests rocks and oil, speed dodge also stuns target)
+Left Control: Enables/Disables cosmetic Glow
+
+- 25% weight reduction to oil, stone and metal
+- passivly produce organic oil in its inventory
+
+
+Spawn Regions
+The Island: Ocean
+The Center: Ocean
+
+
+How to Tame
+You need a Lualabaea to tame one. Using Lualabaea's tame helping ability, you can then passively feed Baculites prime fish meat. This is their preferred food.
+
+
+Chibi and Saddle
+10% to drop a chibi when killed
+They have a 5% chance to drop a saddle BP when killed
+Creature - Cryodrakon: Part 3
+
+
+Other Variants
+Albino
+Lost
+
+Cryodrakon
+The Cryodrakon is a relative of the quetzal. Although it is not strong enough to carry a base on its back, it is much faster than its relative and can even perform diving maneuvers.
+
+
+How to pronounce
+Cry-oh-dray-con
+
+
+Controls & Abilities
+Left Click: Bite / Eat held prey
+Right Click: Grab Prey
+Jump/Space: Jump/Take off
+C/D-pad Down: Wing flap/ blizzard
+X/D-pad Up: Ice bomb
+Z/Left Shoulder: Icicles (hold to spit, let go to stop)
+
+- Cryodrakon need a running start to take off
+- After eating a creature whole, they get a healing buff similar to Argentavis
+- Can dive like Griffins and Snow Owls
+
+
+Ice Meter:
+Crydrakon can consume smaller creatures which fills its "Ice Meter" on the left side of your action bar. By filling this up, Cryodrakon can shoot Snowballs (similar to Rock Elementals rock throw) towards enemies which dealing a high amount of dmg. This attack also has a chance to freeze targets.
+
+Ice Feathers:
+While Cryo build up the Ice meter, it will cover itself in ice, which will protect it from incoming damage.
+
+
+Spawn Regions
+The Island: Snow
+The Center: Snow
+Extinction: Snow Dome
+
+
+How to Tame
+Cryodrakon has a 2 Step taming method.
+
+1. Step
+You need to damage Cryodrakon. Any method works, but be careful not to over hit them, or it might be hard to tranq them. After loosing 25% of its health, a bright light around its head appears. This is how you know they are ready for phase two.
+
+2. Step
+When the light appears, you can tranqshoot Cryo until it falls asleep. They tame with Gem of the Northern King. Which are uncommon drops from killing other Cryo.
+
+
+Chibi and Saddle
+10% to drop a chibi when killed
+They have a 5% chance to drop a saddle BP when killed.
+Creature - Dearc: Part 1
+
+
+Other Variants
+
+
+Dearc
+Like all Rhamphorhynchidae, the Dearc looks dangerous, but is harmless if not provoked.
+
+
+How to pronounce
+Deer-k (or, for the actually correct way, it would be Yah-rk)
+
+
+Controls & Abilities
+Lft Click: Bite (cause bleeding)
+Space: Jump
+Double Jump: Take off
+Run Jump: Take off
+
+- Can glide like Griffins or Snow Owls
+- Can land on water
+- Can walk backwards
+- Regenerates stamina while in the air
+- Can run on the ground, even unmounted
+
+- Can perform a dive bomb if they are steered from a certain height from the air directly on the ground. This makes huge damage and can stun enemies.
+Divebomb dangers: Can cause the debuff "Dearc crashed hard!" which lets the Dearc get 3x more damage. Last 60 seconds. There is also a small chance that they fall asleep after a hard crash.
+
+-Can latch onto walls like Tapejara. Just press space (or whatever key used to land) to latch onto walls! Even if you hop off they will stay attached.
+
+Spawn Regions
+
+The Island: Beach
+The Center: Beach
+Extinction: City
+
+
+How to Tame
+Dearc is a passive tame! You will need to craft a wooden flute and play a song to tame Dearc.
+
+
+Chibi and Saddle
+Dearc has a 10% chance to drop a chibi when killed.
+They have a 5% chance to drop a saddle BP when killed
+Creature - Dilong: Part 4
+
+
+
+Other Variants
+Aberrant
+
+
+Dilong
+Small aggressive carnivores with a taste for support.
+Because Dilong can produce so many unique buffs, having them around your base can be very useful. Some are more useful for explorers, while others are better for surviving and attacking!
+
+
+How to pronounce
+Dee-long
+
+
+Controls & Abilities
+Dilong can buff nearby players. Every Dilong has a random buff out of 10 different ones!
+If you want a reroll, feed a "spirit of the ARK" to your Dilong.
+
+- Cooled Down: Cools your player down; good for hot environments.
+- Fast Crafting: You can craft gear and blueprints faster.
+- Regen: Health is regenerated a bit faster.
+- Resistance: Attacks do less damage to you.
+- Sneaky: Predators and aggressive animals won't notice you as much.
+- Speedy: You run and walk faster.
+- Stam Regen: You regenerate stamina faster.
+- Strength: Attacks do more damage.
+- Warmth: You warm up; good for cold environments.
+- XP: Gain XP faster
+
+They also can carry artifacts!
+
+
+Spawn Regions
+The Island: Mountains
+The Center: Mountains
+Aberration: Red Zone
+Extinction: Snow Dome
+
+
+How to Tame
+Dilong is a KO tame, you can tame with with "spirits of the ARK" or the "Spiked Collar". You can put it in the saddle slot of Dilong which instant tames it.
+
+
+Chibi and Saddle
+Dilong has a 10% chance to drop a chibi when killed.
+Creature - Dolichorhynchops: Part 3
+
+
+Other Variants
+
+
+Dolichorhynchops
+Very fast and with great stamina, Doli are perfect travel mounts in the water.
+They are so friendly and well trained, you can even use weapons while riding them!
+
+
+How to pronounce
+Dolly-core-ryn-chops
+
+
+Controls & Abilities
+Left-Click: Bite
+Right-Click: Surface water leap (like Basilo)
+C/Right Thumbstick: Cosmetic Roar
+
+- Rideable without saddle
+- Turn in place
+- Gang Bonus +6
+- Does more damage against squids
+- They have an additional saddle attachment that allows Doli to do more damage
+
+Spawn Regions
+The Island: Ocean
+The Center: Ocean
+
+
+How to Tame
+Dolichorhynchops are passive tames. Just swim beside their head and feed them regular kibble.
+You can also kill the parents and claim the baby.
+
+
+Chibi and Saddle
+10% to drop a chibi when killed
+They have a 5% chance to drop a saddle BP when killed
+Creature - Dracovenator: Part 4
+
+
+Other Variants
+Alpha
+
+
+Dracovenator
+Dracovenator is an avid wyvern hunter. Found along side them and Magmasaurs, this dinosaur is an apex predator. They kill their victims using stolen draconic essence, and are a great addition to any who want to conquer the arks!
+
+
+How to pronounce
+Dray-co-ven-uh-tor
+
+
+Controls & Abilities
+Left-Click: Bite
+Right-Click: Mega bite / Elemental breath
+C/Right Thumbstick: Claw Swipe
+X/Left Shoulder: Tail Slap (directional)
+Ctrl/D-pad Down: Cosmetic Roar
+R/D-pad Up: Enable/ Disable Essence
+
+Dracovenator can gather 4 different essences from Wyvern, depends on which type of wyvern it is. Use Dracovenator to kill the wyvern to get that essence. Alpha Wyverns give a random mix of essence!
+
+Fire Wyvern - Fire Essence
+- Elemental Breath makes fire dmg and burn enemies
+- Claw attack burn enemies
+
+Lightning Wyvern - Lightning Essence
+- Elemental Breath: makes lightning dmg similar to lightning wyvern
+- Claw attack: makes enemies "Zapped" which deals torpor over time
+
+Poison Wyvern - Life Essence
+- Elemental Breath: Shoots a gas ball similar to poison wyvern
+- Claw Attack: Enemies get the debuff "life cursed" which deals dmg to the target and heal Dracovenator
+
+Ice Wyvern - Ice Essence
+- Elemental Breath: makes frost dmg and can freeze the target
+- Claw attack: Enemies gets the debuff "Chilled" which slows them down
+
+
+- Dracovenator deals 2/3 more dmg against wyverns, drakeling, managamrs and magmasaurs and also take 2/3 less dmg from them!
+Dracos are also immune to wyverns and Manas breath attacks if you activate the specific essence
+
+
+Spawn Regions
+Scorched Earth: Desert
+Extinction: Wastelands
+Ragnarok: Desert
+
+How to Tame
+To tame Dracovenator, you need an alpha Dracovenator head or fertilized eggs. Magmasaur eggs are the best, followed by Ice wyvern, then Poison/Fire/Lightning, then Crystal wyvern eggs. Other then the special food, it is a traditional KO tame. They have a high amount of torpor, and it drains quickly, so make sure to bring narcotics. If they are using the Poision/Life ability, they cannot be tranqed, so you will have to wait until they switch modes (or you can force them to swap by using an elemental mount such as a Fire wyvern, Magmasaur, Lightning wyvern and so on)
+
+
+
+Chibi and Saddle
+They have a 10% chance to drop a chibi when killed.
+Draco has a 5% chance to drop a saddle bp when killed.
+Creature - Edmontosaurus: Part 5
+Other Variants
+Aberrant
+Alpha
+Scorched
+Lost
+
+
+Edmontosaurus
+Edmontosaurus is big and bulky. While they start off slow, once they get going, they are hard to stop! Watch out for their feet or risk getting stepped on!
+
+
+How to pronounce
+Edd-mont-OH-saur-us
+
+
+Controls & Abilities
+Left-Click: Bite/Kick while standing or Headbutt while running
+Right-Click: Stomp
+C/Thumbstick Right Button: Roar
+Jump/Space/D-pad Down: Mega Stomp
+
+-Runs slow at first, but speeds up
+-Max speed does the most damage, and they gain additional positive buffs!
+
+Multiple Saddles
+Edmontosaurus has 2 saddles and a helmet. The main saddle allows for one rider. The group saddle has room for a rider and 8 passengers. The helmet can be used with or without a saddle, and increases Edmontosaurus' damage output.
+
+Charging
+Edmontosaurus doesn't have sharp teeth or claws to deal damage with, so they use their body. When running, they do a lot of trample damage. At max speed, they do even more! When you use your primary attack it'll put many creatures in a world of hurt. Their head attack and trample damage does damage to both creatures, players, and structures!
+
+
+Spawn Regions
+Edmontosaurus can be found in open areas!
+
+The Island: Grassland
+Scorched Earth: Dunes
+The Center: Grassland
+Aberration: Red Zone
+Extinction: Wasteland
+
+How to Tame
+Edmontosaurus has a semi traditional taming method. The tricky part is getting them knocked out! Due to their thick hide and muscles, traditional tranq methods don't work. BUT electrocution does the trick! Grab yourself several electric prods and knock them out! Alternatively, you can use a Lightning Wyvern or Jiangjunosaurus in electric mode, albeit, they are less affective.
+
+Once KOd they prefer the highest tier kibble; Extraordinary!
+
+
+Chibi and Saddle
+Alphas have a 50% chance to drop a Saddle BP or chibi, and a 25% chance to drop the Group Saddle.
+Creature - Eotriceratops: Part 5
+
+
+Other Variants
+
+
+Eotriceratops
+Eotriceratops is the king of deserts herbivores and a helpful tame at your side!
+
+
+How to pronounce
+
+
+Controls & Abilities
+Left Click: Headbutt/back kick (directional)
+Right Click/Left Trigger: Bite (hold to charge the bite, hold longer for more damage!)
+C/Right Thumbstick: Primal bellow
+Space/Jump: Brace
+
+Primal bellow
+Eotriceratops takes less damage from hits, attacks deal 20% less!
+
+Brace
+Similar to Acrocanthosaurus' brace ability, Eotriceratops is immobile, and takes reduced damage. Once enough damage has been delt, Eotriceratops gains a massive buff for 60 seconds that does reduced damage to Eotriceratops, plus, Eotriceratops does 2x more damage. This buff also increases Eotriceratops' exp gaining multiplier!
+
+- Can harvest stone and sand
+- Can turn cactus sap into Tequila (works like beer)
+- Can specialize their abilities on the action wheel, to gain better boosts (like Theri or Moschops)
+- Can consume Tequila to get stronger and move faster. Just don't overdo it, or else Eotrike will get drunk!
+
+Spawn Regions
+Scorched Earth: Easy Desert
+
+
+How to Tame
+You need to have all three Wyvern talons in your inventory, Then you have to get the Eotrike to below 20% HP whilst on foot using weapons, once you see the glow around the Eotrikes head it should become passive at which point it can be fed Deathworm/Rhino horns.
+
+
+Chibi and Saddle
+Has a 10% chance to drop a chibi when killed.
+The Primitive saddle protects you from sandstorms.
+The Advanced saddle can craft whiskey and clay.
+Creature - Gandakasia: Part 5
+
+Other Variants
+Tek
+Aberrant
+
+
+Gandaskasia
+Gandaskasia are a whale relative and love to support them!
+
+
+How to pronounce
+Gand-ah-ka-sky-uh
+
+
+Controls & Abilities
+Left click: Bite
+Right Click: Grab fish
+
+- Has a gang boost that buffs whales and whale relatives (Basilo, other Gand, Livyatan)
+- Gets a hydration buff when it has been in water. Move faster, see better, and get better loot!
+- Can grab fish alive and transport them, even on land!
+
+
+Spawn Regions
+The Island: Rivers
+The Center: Rivers
+Aberration: Green Zone Rivers
+
+
+How to Tame
+Wait until it falls asleep at land, than passive feed it! Or, you can steal their offspring.
+
+
+Chibi and Saddle
+Has a 10% chance to drop a chibi when killed.
+Creature - Genyodectes: Part 2
+
+
+Other Variants
+Scorched
+Eerie
+Aberrant
+
+
+Genyodectes
+Genyodectes are the perfect companion for any survivor who prefers to travel alone!
+
+
+How to pronounce
+Gen-ee-O-deck-teas
+
+
+Controls & Abilities
+Left-Click: Bite
+Right-Click: Headbutt
+C/Right Thumbstick: Cosmetic Roar
+
+Lone Wolf Buff
+Genyodectes, when alone and not near allied dinos, gain the buff "Lone Wolf" which increase their damage output, resistance and movement speed.
+- Geny get stressed around allied dinos which cause damage reduction
+- Baby Geny can consume "Geny's Friend" which makes them relaxed which allied dinos but takes the "Lone Wolf" buff from them!
+
+- Can equip a special helmet for additional dmg
+- Turn in place
+- Wild males are very rare
+- Can told to lay down in action wheel which makes them heal quicker
+
+
+Spawn Regions
+
+The Island: Jungle
+Scorched Earth: Badlands
+The Center: Jungle
+Aberration: Blue Zone
+Extinction: Desert Dome Wasteland
+
+
+How to Tame
+Genyodectes is a simple KO tame, that prefers superior kibble.
+
+
+Chibi and Saddle
+Killing a Genyodectes has a 10% chance to drop a chibi.
+They have a 5% chance to drop a saddle or helmet bp when killed.
+Creature - Gomphotherium: Part 5
+
+Other Variants
+
+
+Gomphoherium
+Gomphoterium is smaller then mammoth and Deinotherium, but offers a wide variaty of utilities!
+
+
+How to pronounce
+Gomp-hoe-thee-ree-um
+
+
+Controls & Abilities
+Left Click: Tusk Bash
+Right Click:
+C/ Thumbstick Right Button: Ally Call
+
+- Special Saddle:
+Gompho has a variety of saddle attachments like saddle bags or med kit to help you survive!
+
+
+Spawn Regions
+The Island: Grassland
+The Center: Grassland
+Ragnarok: Grassland, Green desert
+Scorched Earth: Green desert
+
+
+How to Tame
+Throw it some kibble (it prefers regulare kibble) or vegetables on the ground and gompho will eat it, much like Masso or gachas!
+
+Chibi and Saddle
+Wild Gomphotheriums have a 10% chance to drop a chibi when killed.
+Wild Gomphotheriums have a 5% chance to drop a saddle blueprint when killed.
+Creature - Giant Sea Slug: Part 3
+
+
+Other Variants
+
+
+Giant Sea Slug
+A slimy little pickle <3
+
+
+Controls & Abilities
+While they cannot be ridden, Giant Sea Slugs are useful because they produce different ressources like Squiddige, a valuable resource which happens to be the only food Hainosaurus will eat.
+
+- Wild Giant Sea Slugs, when taking damage, deal torpor to its attacker.
+- They most be on wander to prodice stuff. They can produce the following ressources: Squiddle, Biotoxin, Honey and Leech Blood.
+
+
+Spawn Regions
+The Giant Sea Slug can be found along the shorelines as well as the bottom of the ocean floor.
+
+The Island: Ocean floor, Shallow Water
+Scorched Earth: -
+The Center: Ocean floor, Shallow Water
+
+
+How to Tame
+To tame a Giant Sea Slug, simply approach it and feed it a Fish Cake. No matter what level Giant Sea Slug you find it will only take one Fish Cake to tame.
+
+Post tame, and forever more, they will ONLY eat fish cakes.
+
+
+Chibi and Saddle
+There is no chibi or saddle available for this creature.
+Creature - Haast Eagle: Part 5
+
+
+Other Variants
+Scorched
+Skeletal
+
+
+Haast's Eagle
+Fast and proud! Haast's Eagle is a natural hunter of humans, so keep your eyes to the sky, and don't forget to wear your armor!
+
+How to pronounce
+Hah-sts Ee-gal
+
+
+Controls & Abilities
+Left Click: Bite
+Right Click: Grab
+Space/Jump: Land/Take off
+
+- 2x damage against smaller creatures
+- Can dive while flying
+- Can dive bomb on players and small creatures, pinning them. Press any attack, or jump to clear this attack!
+
+Hunter's Luck:
+If you kill a wild creature you have a chance to get special loot and gain the buff "Hunters Luck"
+If you kill an enemy tame these chances are even higher.
+
+
+Spawn Regions
+You can find this mighty eagle far up on mountains
+
+The Island: Grassland
+Scorched Earth: Mountains
+The Center: Grassland/Jungle
+Extinction: Wasteland & Desert Dome
+
+
+How to Tame
+They are simple KO tames which prefer superior kibble.
+
+
+Chibi and Saddle
+Has a 10% chance to drop a chibi when killed.
+Skeletal Haast's Eagles drop skeletal chibis and a skeletal skin!
+Creature - Hainosaurus: Part 3
+
+
+Other Variants
+Eerie
+Skeletal
+
+
+Hainosaurus
+Hainosaurus is very strong, maneuverable, and fast! Unlike Mosasaurus, they have a keen sense of danger.
+
+
+How to pronounce
+Hane-oh-saur-us
+
+
+Controls & Abilities
+Left-Click: Bite or Tail Attack
+Right-Click: Echolocation (like Parasaurs)
+
+- Immune to stun from Cnidaria and Electrophorus.
+- Tamed ones only eats squiddige (made by Giant Sea Slugs)
+
+After Hainosaurus killed something, it will gain the buff "Killer Instincts" which increase its damage. This buff can stack up to 5 times and you can do up to 3x more damage!
+
+
+Spawn Regions
+The massive Hainosaurus can be found in the deep ocean. There is a 5% chance that when one spawns it will become an Alpha Hainosaurus.
+
+The Island: Deep Ocean
+The Center: Ocean
+
+How to Tame
+Hainosaurus is a traditional knockout tame, but only eats Squiddige.
+
+
+Chibi and Saddle
+Alpha variants have a 50% chance to drop a chibi when killed.
+Alpha variants have a 50% chance to drop a saddle blueprint when killed.
+Skeletal Hainosaurus drops a skeletal skin and chibi!
+Creature - Hyneria: Part 4
+
+
+Other Variants
+
+
+Hyneria
+Hyneria is a deep sea fish who dines and ammonite, and those poisoned by by the ammonites rage rage inducing blood! Be careful if you wish to attack it, as it can use stored up chemicals to poison you. Hyneria is best for those that need to travel alone, as the fish prefers solitude.
+
+They are neutral, but are rather vicious when attacked!
+
+
+How to pronounce
+Hi-near-ee-uh
+
+
+Controls & Abilities
+Left-Click: Bite
+Right-Click: In water: Headbutt that stuns. If this hits a target, then this enables you to do an attack that does a tail spin.
+On land: Grabs targets under 250 dragweight. If too large, this is a mega bite. If carrying a creature, right-click will throw them left or right.
+C/Right Thumbstick: Bellow
+X/D-Pad Down: Toxic Barf
+Left Control: In water: Toxic Projectile On Land: Tail attack
+Space/Jump: Dodge
+
+
+Spawn Regions
+Hyneria spawns at the bottom of the oceans on many maps.
+
+The Island: Deep Ocean
+The Center: Ocean
+
+
+How to Tame
+Hyneria is a passive tame that prefers Sea King Kibble. If you don’t have that, then Ammonite bile will work, just not as well.
+
+
+Chibi and Saddle
+Wild Hyneria have a 10% chance to drop a chibi when killed.
+Wild Hyneria have a 5% chance to drop a saddle blueprint when killed.
+Creature - Inostrancevia: Part 1
+
+Other Variants
+Tek
+Scorched
+
+
+Inostrancevia
+Inostrancevia is a well adapted hunter; specialized in killing alpha creatures. When it is day, you can hear their proud howls far and wide, while at night, you can only catch the glimpses of their glowing eyes.
+
+
+How to pronounce
+In-O-stran-see-vee-uh
+
+
+Controls & Abilities
+Left-Click: Bite (does bleed)
+Right-Click: Enables climbing
+C/Right Thumbstick: Sniff
+X/D-pad Down: Howl
+Left Control/D-pad Right: Night vision; only works at night
+Space/Jump: Jump
+
+Apex Hunter:
+Ino sniffs and will get much stronger if an alpha creature is nearby!
+
+Apex Buffs:
+Carno: Run faster, take 20% less damage
+Raptor: Higher jump, doesn't take fall damage
+Rex: Degrades targets armor, does 30% more damage in general
+Giga: Take 30% less damage, do 50% more damage, but you cannot jump and your stamina drains 50% faster
+Spino: Faster swimmspeed and less oxygen drain
+Cerato: Less stamina drain, immune to torpor, bite deals torpor
+Deathworm Horn: Immune to sandstorms, and faster at night
+
+Howl:
+At day: Ino will run and heal faster
+at night:
+
+
+Spawn Regions
+Inostrancevia spawns in the redwoods and in the desert
+
+The Island: Redwoods
+Scorched Earth: Badlands
+The Center: Redwoods
+Extinction: Desert Dome & Forests Edge Wasteland
+
+
+How to Tame
+Inostrancevia is a sacrifice tame. In the day, babies can be used. The younger the better. They can have up to 30 mutations total. All dinos must be under 550 drag weight (boss fight limit) or they won't work. Higher levels work better. Simply drop a baby near Inostrancevia, and it will kill it. Repeat til tamed.
+
+Night is similar, but the dinosaur must be an unbred adult. Dinosaur can be on passive.
+
+If you want to further entice them to attack your creatures, you can feed the creature a tasty treat that will cause Inostrancevia to target that creature!
+
+There is also a secret method, where you use a pregnant adult. The best is the closest to birth, so time it right! There is some randomness to this method, as the pregnant adult can receive a bonus if there are twins or triplets.
+
+
+Chibi and Saddle
+Wild Inostrancevia have a 10% chance to drop a chibi when killed.
+Wild Inostrancevia do not drop a saddle when killed! Sniff out an APEX for one!
+Creature - Jiangjunosaurus: Part 2
+
+Other Variants
+Scorched
+
+
+Jiangjunosaurus
+Covered in spikes and plates, Jiangjunosaurus is a giant to be wary of. They are much faster than their cousin Stegosaurus and can hit hard!
+
+
+How to pronounce
+Je-ang-ju-no-sore-us
+
+
+Controls & Abilities
+Left-Click: Tail Slam
+Right-Click: Tail Swing (directional)
+C/Right Thumbstick: Bite
+Left-Control/R-pad Down: Activate/Switch Special Damage
+Z/D-pad Right: Disable Special Damage
+
+You can switch between 3 elements:
+- Water
+- Electro
+- Fire
+
+- Turn on place while in elemental mode
+- Can drop "Raw Tender Meat" when killed.
+
+This meat can't be cooked, but can be used to craft Meatloaf; a special healing food for carnivores.
+
+
+Spawn Regions
+Jiangjunosaurus is a rare spawn, but can sometimes be found in these regions:
+
+The Island: Jungle, Carnivore Island
+Scorched Earth: Dunes
+The Center: Jungle
+Extinction: Desert Dome Wasteland
+
+
+How to Tame
+Jiangjunosaurus is a passive tame. You need to be level 75 to feed them Extraordinary kibble to tame them. They have a chance to spawn kentros when you feed them. Because
+they are dangerous and hit hard, it is recommended to have ghillie, med brews, and a strong tame nearby.
+
+
+Chibi and Saddle
+Killing a Jiang has a 10% chance to drop a chibi.
+They have a 5% chance to drop a saddle bp when killed.
+Creature - Kelenken: Part 4
+
+Other Variants
+Scorched
+
+
+Kelenken
+Kelenken is a very aggressive carnivore and is typically found with Terror Birds by its side. The bite attack does decent damage and the land talon stomp is very fast but is ineffective against creatures of larger size as its damage output is based on the victims drag weight. If you jump and use the talon swipe attack you will do bleed damage to your enemies.
+
+
+How to pronounce
+Ku-len-kin
+
+
+Controls & Abilities
+Left-Click: Bite
+Right-Click: Talon Stomp (land only), Talon Swipe (air only)
+C/Crouch: Beak Click
+X/Left Shoulder: Roar (Cosmetic only)
+Space/Jump: Jump, Glide (air only)
+
+Beak Click
+The beak click will give Kelenken the "Looking for Targets" buff for 30 seconds. This vision outlines players and creatures within a specific range similar to how a tek helmet functions. Any nearby tamed or allied Kelenken as well as Terror Bird will also receive this special vision and any tamed creature within their vision range will be given a "You've Been Targeted" buff to let them know they are being tracked. Creatures with this targeted buff receive an additional 20% damage while it is active.
+
+Once tamed, Kelenken can wear special greeves in addition to a saddle. These greeves add a little extra armor, but also increase Kelenken's speed, damage, and reduce their stamina drain!
+
+
+Spawn Regions
+This large terror bird can be found in many regions. They are often found near other Terror Birds!
+
+The Island: Redwoods
+Scorched Earth: Eastern Badlands
+The Center: Redwoods
+Extinction: Sunken Forest & Desert Dome
+
+How to Tame
+
+Kelenken has a 4 Step taming method.
+
+Step 1
+You have to put this creature below 25% health. You will know it has reached this requirement because red particles will glow around its head and it will perform an animation.
+
+Step 2
+Under 25% health you will need to use a bola and hit Kelenken.
+
+Step 3
+Once immobilized, walk up and repeatedly feed it fermented sweet melons until it becomes unconscious.
+
+Step 4
+Once successfully knocked out, simply place food inside its inventory.
+
+(1) Regular Kibble
+(2) Raw Mutton
+(3) Raw Prime Meat
+
+As long as you continue to feed it fermented sweet melons the bola buff will continue to add additional time. If Kelenken gets free from the chain bola or normal bola, as long as it has the red glow around its head you can simply use the bola them again and continue the process. If the red glow is no longer visible, just start the entire process over again by getting it below 25% health.
+
+
+Chibi and Saddle
+10% to drop a chibi when killed
+They have a 5% chance to drop a saddle BP when killed
+Creature - Koolasuchus: Part 3
+
+
+Other Variants
+Aberrant
+Tek
+
+
+Koolasuchus
+Koolasuchus is an amphibian well adapted to cold climates. They spend most of their time in burrows that they dig, awating prey. Careful where you step, or you may become their next victim!
+
+
+How to pronounce
+Cool-ah-soo-chus
+
+
+Controls & Abilities
+Left-Click: Bite
+Right-Click: Grab Bite
+C/Right Thumbstick: Roar
+Space/Jump: Dig (either into ground or to un-dig)
+
+- Wild Koolasuchus have a 50% chance to drop a loot bag (Koolasuchus stomach) which can contain misc saddles, chibis, and other goodies. THIS IS CURRENTLY NOT AVAILIABLE!
+
+- Koolas gives their rider an insulation buff against cold and heat
+- Get a Hydration buff while in water
+
+
+Spawn Regions
+Koolasuchus spawn in cold biomes, usually around Penguins!
+
+The Island: River
+The Center: River
+Aberration: Red Zone
+Extinction: Snow Dome
+
+
+How to Tame
+To tame this hungry beast, you must literally throw yourself to it! Have its preferred food in your 0 hotbar, and let Koolasuchus attack and bite you! Much like Pegomastix, they will tame as they eat/steal the food! Bring along some health potions, as they have a chance to grab and kill you!
+
+(1) Raw Mutton
+(2) Raw Prime Meat
+
+
+Chibi and Saddle
+Wild Koolasuchus have a 50% chance to drop a loot bag (Koolasuchus stomach) which can contain misc saddles, chibis, and other goodies.
+
+Until this feature is reimplemented, Koolas have a 10% chance to drop a saddle BP after killed.
+Creature - Lirainosaurus: Part 4
+Other Variants
+Tek
+Scorched
+
+
+Lirainosaurus
+They are great at protecting you and holding your things or for gathering fiber.
+
+
+How to pronounce
+Lie-r-ain-ee-oh-saurus
+
+
+Controls & Abilities
+Left-Click: Tail Slam (directional)
+Right-Click: Harvest Fiber
+
+- After loosing around 50% health, Liraino gain the buff "Brace for it" which will reduce incoming damage by 20% to every ally around it.
+
+- 50% weight reduction on resources while saddle is equipped
+- 75% weight reduction on fiber and berries, even without saddle
+- Gang bonus up to +6
+
+
+Spawn Regions
+You'll find these little sauropods in easy areas, or around Saltasaurus!
+
+The Island: Beach and Grasslands
+Scorched Earth: Easy Desert
+The Center: Beach and Grasslands
+Extinction: City & Desert Dome
+
+How to Tame
+Lirainosaurus are passive tames. Walk up to them and feed them Berry Jam, crafted from berries.
+
+
+Chibi and Saddle
+Wild Lirainosaurus have a 10% chance to drop a chibi when killed.
+Wild Lirainosaurus have a 5% chance to drop a saddle blueprint when killed.
+Creature - Lualabaea: Part 2
+
+
+Other Variants
+
+
+Lualabaea
+A non rideable fish which is perfect to quickly tame other creatures or swim faster in the ocean!
+
+
+How to pronounce
+Loo-ah-la-bay-uh
+
+
+Controls & Abilities
+Tame helper ability: Drains food of wild water creatures much faster
+Swim helper ability: Let you swim faster
+
+
+Spawn Regions
+Lualabaea spawns in the open oceans
+
+The Island: Ocean
+The Center: Ocean
+
+How to Tame
+They are super basic passive tames, they tame with simple kibble. But they have a lot of uses!
+
+
+Chibi and Saddle
+10% to drop a chibi when killed.
+Creature - Lythronax: Part 3
+
+
+Other Variants
+Lost
+
+Lythronax
+Lythronax shines its best in a pack! One on one, they are slightly above an Allosaur in strength, but get them in a group and they can do some serious damage!
+
+
+How to pronounce
+Lie-throw-n-axe
+
+
+Controls & Abilities
+Left-Click: Bite (facing forward) Tail attack (facing behind)
+Right-Click: Gore Bite (must be pack leader)
+C/Right Thumbstick: Roar (Pack bonus added)
+X/D-pad Down: Head Butt (must be moving)
+Left Ctrl/D-pad Up: Activate Tek Armor (requires Element)
+
+Gore Bite
+- Bleeding debuff called "Hemophila", affected targets take more damage, and loose stamina faster.
+- If you eat a corpse with this bite, Lythronax gain a healing buff similar to Argentavis.
+
+
+Spawn Regions
+Dangerous and rarely alone, you can find Lythronax in these areas:
+
+The Island: Grasslands, Carnivore Island, Mountains
+The Center: Mountains and Grasslands
+Extinction: Snow Dome
+
+
+How to Tame
+Lythronax has a 2 step taming method.
+
+Step 1
+Bring them to below 25% HP. Below 25% life, Lythronax begins to roar, a pink glow appears around his head and he becomes passive.
+
+Step 2
+Feed them a corpse from the list below. wild or tamed.
+
+Daeodon
+Trike
+Phiomia
+Parasaur
+Moschops
+
+
+Chibi and Saddle
+Lythronax have a 10% chance to drop a chibi when killed.
+They have a 5% chance to drop a saddle bp when killed.
+Creature - Mapusaurus: Part 2
+
+
+Other Variants
+Lost
+
+Mapusaurus
+Mapusaurus is a ferocious carnivore. They come with strong jaws, able to tear through flesh and bone of any creature. Be careful, as their prey drive is so strong they can abandon their rider in favor of killing.
+
+
+How to pronounce
+Map-oo-saur-us
+
+
+Controls & Abilities
+Left-Click: Bite
+Right-Click: Charge
+C/Right Thumbstick: Tail Smack
+Left Ctrl/D-pad Down: Roar
+X/D-pad Up: Bleeding Bite (Does a different bleed if in bloodrush!)
+
+- Mapusaurus has a Gang boost up to +4
+- Mapu with a gang bonus of +2 or higher wont rage out
+- If you ram a creature Mapu gain a health reg buff
+
+Charge
+Mapusaurus can build up a charge when they start running. You'll get faster and do more damage. If you are at max speed, and you attack a target, you'll get a healing and damage buff!
+
+Bloodrush
+Successful repeat attacks cause Mapu's attacks to build up damage and speed, and after you reach the peak, Mapu gets the "Bloodrush" buff. The buff stays as long as you keep biting creatures, this also makes Mapu run a faster.
+There is a certain probability that Mapusaurus will throw you off and fall into an attack frenzy. It can hurt and target you and allied creatures while in this mode!
+
+Harvesting Ability
+You can specialize Mapusaurus to be better at harvesting meat! Much like Moschops, you can enable them to harvest tremendous amounts of one particular meat, such as prime, mutton or fish!
+
+
+Spawn Regions
+Mapusaurus loves to hunt sauropods of many kinds, thus, they usually can be found near them! Not many will spawn at once, as they are dangerous!
+
+The Island: Grasslands, Carnivore Island
+The Center: Grasslands
+Extinction: Wasteland
+
+
+How to Tame
+You need explosives to knock them out! Like grenades or explosive wires
+
+Trap them and boom! You've KO'd them. Mapu prefers exceptional kibble or mutton. Due to how dangerous they are, it is recommended to use a trap to tame them!
+
+Chibi and Saddle
+Killing a Mapusaurus has a 10% chance to drop a chibi.
+They have a 5% chance to drop a saddle bp when killed.
+Creature - Massospondylus: Part 4
+
+
+Other Variants
+Eerie
+Skeletal
+
+
+Massospondylus
+Massospondylus are quite efficient at harvesting berries and can harvest wood as well as thatch. With Fermented Sweet Melons inside their inventory, Massospondylus has the ability to use its ranged barf attack which will pierce armor of enemy players and can damage structures.
+
+
+How to pronounce
+Mass-oh-spon-duh-luss
+
+
+Controls & Abilities
+Left-Click: Bite
+Right-Click: Barf
+C/Right Thumbstick: Claw Swipe
+X/D-pad Down: Roar
+Left Ctrl/D-pad Up: Heal. Requires Sweet Melon to heal
+
+
+Spawn Regions
+You will find Massospondylus roaming around any map which has a desert region.
+
+Scorched Earth: Badlands
+Extinction: Desert Dome
+
+How to Tame
+Massospondylus is a passive tame, but you do not walk up to it and feed it. Instead, drop a melon on the ground and it will consume it. Wait a little while longer and it will perform an animation and make a noise to let you know that it is hungry again. Be quick, though!
+
+If Massospondylus goes too long without food (once the taming process is started) it will become angry and turn aggressive towards the player trying to tame it.
+
+(1) Fermented Sweet Melons
+(2) Sweet Melons
+
+
+Chibi and Saddle
+They have a 10% chance to drop a chibi when killed.
+They have a 5% chance to drop a saddle bp when killed.
+Skeletal variants drop a skeletal chibi and skin!
+Creature - Nasutoceratops: Part 1
+
+
+Other Variants
+Eerie
+Aberrant
+
+
+Nasutoceratops
+Nasutoceratops is a large protective herbivore. With several abilities, a high health pool, and strong attacks, Nasutoceratops is a great herbivore for all tribes!
+
+
+How to pronounce
+Nas-oo-toe-cera-tops
+
+
+Controls & Abilities
+Left Click: Head Butt: apply bleed
+Right Click: Stomp
+C/Right Thumbstick: Roar: Things Allo sized and larger take more damage
+X/D-pad Down: Impale
+Left Ctrl/D-pad Up w/ Tek Saddle: Activates Tek Protector Shield
+
+- Destroys trees and stones while running
+- Can harvest corpses
+- Tek shield gives a buff with 30% dmg resistance
+
+
+Charging
+While running Nasuceratops build up a charge. As higher the charge meter as more dmg Nasutoceratops can do against the first target it hits! Up to 3.5x more dmg.
+
+Impale
+Immobilizes the target and slowly bleeds it over time.
+
+- Drains the target's stamina like the impale from the stego and also gives the target a debuff that reduces movement.
+- Consumes stamina and ends when no stamina is left.
+
+Synergy:
+When near a Zuniceratops, Zuniceratops gains a positive buff, allowing them to carry more when harvesting! Makes for a great harvesting duo!
+
+Spawn Regions
+Nasutoceratops can be found on the following maps:
+
+The Island: Mountains, Herbivore island
+The Center: Mountains
+Aberration: Green Zone
+Extinction: Forests Edge Wasteland
+
+
+How to Tame
+To tame your own Nasutoceratops, you simply have to knock it out. However, as they have natural resistance, and a high amount of torpor, they won’t go down without a fight. They will only eat Sego Lilies or Longrass to tame, and once tamed, these are the only 2 foods it will consume.
+
+
+Chibi and Saddle
+Alpha Nasutoceratops have a 10% chance to drop a chibi when killed.
+Alpha Nasutoceratops have a 50% chance to drop a saddle blueprint when killed.
+Creature - Neimongosaurus: Part 1
+
+
+Other Variants
+Scorched
+Aberrant
+
+
+Neimongosaurus
+Neimongosaurus are curious little dinosaurs. Mostly driven by their desire to snack, they tend to seek out survivors and their tames. While alone they aren't very bold, in a group they tend to get aggressive!
+
+
+How to pronounce
+Nie-mon-go-saurus
+
+
+Controls & Abilities
+Tame helper ability: Drain food of wild land creatures much faster.
+
+- When wearing their saddle bags, they also can craft jerky for you, and many consumables spoil slower
+
+
+Spawn Regions
+Neimongosaurus spawns in mid danger areas
+
+The Island: Forests and Grasslands
+Scorched Earth: Easy Desert
+The Center: Forests and Grasslands
+Aberration: Green Zone
+Extinction: City and Desert Dome
+
+How to Tame
+Neimongos are simple K.O. tames and eat giant bee honey. The difficulty lies in the fact that they are aggressive in a group, and they are rarely alone!
+
+
+Chibi and Saddle
+Wild Neimongosaurus have a 10% chance to drop a chibi when killed.
+Wild Neimongosaurus have a 5% chance to drop a saddle BP when killed.
+Creature - Neovenator: Part 1
+
+
+Other Variants
+Eerie
+Skeletal
+Alpha
+
+
+Neovenator
+Neovenator is an all-around great creature to tame. They're as strong as a Rex, but they are much faster and more maneuverable. In the wild you will often find Neovenator holding smaller creatures in its mouth chomping on it. If they are chewing prey and get attacked, they will drop the creature from their mouth and shift its focus to anything attacking it.
+
+
+How to pronounce
+Knee-o-ven-a-tor
+
+
+Controls & Abilities
+Left-Click: Bite / Chomp Prey
+Right-Click: Grab, Stop Chomping Prey, Release Prey
+C/Right Thumbstick: Roar
+X/D-pad Up: Tail Spin
+Alt Fire/D-pad Down: Activate Tek Saddle
+
+Tek Saddle Controls
+Space: "Predator Vision" like Snow Owls
+Tek saddle allows Neo to pick up larger prey
+
+Chomping Prey:
+Chomping prey shreds armor and if you kill a creature with this, you gain the buff "Bloodthirst"
+
+
+Spawn Regions
+The dangerous Neovenator can be found in numerous areas across the ARKs.
+
+There is a 5% chance when Neovenator spawns it will become an Alpha variant.
+
+The Island: Grasslands, Monster Island, Mountains
+The Center: Grasslands, Mountains
+Extinction: Wasteland
+
+
+How to Tame
+You must allow Neovenator to running full speed at you and use a ballista turret with chain bolas to prevent them from using their jaws on you.. Quickly run up to it with Coagulated Kibble in the last slot of your hotbar and press E to ride it. As soon as you mount Neovenator you will be given a prompt in the bottom right corner of your screen (like Equus) to press E again, which will feed it. From this point it will tame exactly like a horse, running wild where the player has no control over where Neovenator will go.
+
+After a period of time it will continue to give you feeding prompts. When it is finished taming you will be dismounted as riding a tamed Neovenator requires a saddle.
+
+Neovenator will only consume Coagulated Kibble during the taming process.
+
+Taming Neovenator is like taming an Equus. If that Equus was trying to rip your face off.
+
+Chibi and Saddle
+Alpha variants have a 50% chance to drop a chibi when killed.
+Alpha variants have a 50% chance to drop a saddle blueprint when killed.
+In order to unlock the ability to craft this saddle you will first need to unlock the Rex Tek Saddle.
+Skeletal Neovenator drop a skeletal skin and chibi!
+Creature - Ornithocheirus: Part 2
+
+
+Other Variants
+
+
+Ornithocheirus
+Ornithocheirus is very aggressive flyer. Its a good allrounder and super maneuverable with an affinity for water.
+
+
+How to pronounce
+Orn-ith-o-ky-rus
+
+
+Controls & Abilities
+Left-Click: Bite
+Space: Take Off/ Land
+
+- Can move in all directions like Tapejara
+- Can glide like Griffin or Snow Owl
+- Can swim and dive
+- Has a small chance to get "Endurance" when falling below 20% stamina. The buff resets its stamina to 50%.
+- When it is over water it can surf the waves, causing it to move faster, and it gives it a better chance to gain its "Endurance" buff!
+
+
+Spawn Regions
+Ornithocheirus can be found above the Ocean waters similar to Pelagornis. Due to them being very aggressive, they will sometimes make their way to land.
+
+There is a 5% chance when Ornithocheirus spawns it will become an Alpha variant.
+
+The Island: Ocean
+The Center: Ocean
+
+How to Tame
+Ornithocheirus is a traditional knockout tame.
+
+(1) Exceptional Kibble
+(2) Raw Mutton
+(3) Raw Prime Meat
+
+
+Chibi and Saddle
+Alpha variants have a 50% chance to drop a chibi when killed.
+Alpha variants have a 50% chance to drop a saddle blueprint when killed.
+Creature - Ouranosaurus: Part 2
+
+Other Variants
+Tek
+Scorched
+Aberrant
+
+
+Ouranosaurus
+Ouranosaurus is a great exploring mount. With lots of stamina, and good speed, they allow you to move where you need to quickly. And, with their ability to protect you or your allies from incoming negative buffs, having an Ouranosaurus by your side is advantageous!
+
+
+How to pronounce
+O-ran-o-saurus
+
+
+Controls & Abilities
+Left-Click: Bite
+Right-Click: Cosmetic Roar
+C/Right Thumbstick: Activate Rider Protection Buff
+
+- Can lay down. While laying down it can incubate eggs
+
+Hatchery Saddle:
+- With this saddle equipped, Ourano can incubate eggs on the go! The saddle will even display some of the eggs in the inventory!
+
+Spawn Regions
+Ouranosaurus can be found on most maps, but prefer swamps and places with water. There is a 5% chance when Ouranosaurus spawns it will become a tek variant.
+
+The Island: Swamp
+Scorched Earth: Oasis, Canyon
+The Center: Swamp
+Aberration: Blue Zone
+Extinction: Sunken Forest & Desert Dome
+
+
+How to Tame
+Ouranosaurus is a passive tame. Walk up and it’ll let you know what it wants. There are lots of foods, but here is an example list:
+
+Honey, Sweet Melons, Berries, Winter Squash, Sego Lilies, and more
+
+
+Chibi and Saddle
+Ouranosaurus has a 10% chance to drop a chibi when killed.
+Ouranosaurus has a 5% chance to drop a saddle bp when killed.
+Creature - Paraxenisaurus: Part 2
+
+Other Variants
+Eerie
+Scorched
+Aberrant
+Lost
+
+Paraxenisaurus
+This fluffy, duck-like dinosaur excels on land and in water! Take good care of them, and they'll take good care of you! They are your best friend if you have to tame a creature with fish corpse.
+
+
+How to pronounce
+Pear-uh-zen-ee-sore-us
+
+
+Controls & Abilities
+Left Click: Bite
+Right Click: Claw Attack
+C / D-pad Down: Fish
+X/D-pad Right: Ally Call: Allies gain protection against Shadowmane venom and take reduced damage
+Left Control: Consume fish
+
+- Can catch fish, and store it alive in their throat. Up to 12 fish and eat them for a health reg buff
+You cannot cryopod or soul trap a Paraxenisaurus that has trapped fish
+
+- Get the buff "Fluffy" while on land, which protects you from bleeding
+
+- Get the "Hydrated" buff while in water and 10 seconds after leaving water. This buff increase you melee damage and movement speed as well as you health generation
+
+
+Spawn Regions
+Paraxenisaurus can be found on the following maps:
+
+The Island: Rivers, Swamp
+Scorched Earth: Canyon Rivers, Oasis
+The Center: Rivers, Swamp
+Aberration: Blue Zone Water
+Extinction: Oil Fields & Desert Dome
+
+
+How to Tame
+Taming a Paraxenisaurus is simple! KO them and feed them Exceptional Kibble or prime fish.
+
+
+Chibi and Saddle
+Alpha Paraxenisaurus have a 10% chance to drop a chibi when killed.
+Alpha Paraxenisaurus have a 50% chance to drop a saddle blueprint when killed
+Creature - Pinacosaurus: Part 3
+
+
+Other Variants
+Eerie
+Scorched
+Aberrant
+Lost
+
+Pinacosaurus
+Pinacosaurus is the flattest Ankylosaur on the ARK! Useful for protecting bases and tames, Pinacosaurus is a survivor’s best friend!
+
+
+How to pronounce
+Pin-a-co-saurus
+
+
+Controls & Abilities
+Left Click: Tail Slam
+Right Click: Bite
+
+- Can set to "Protect" in its action wheel.
+Causes aggressive creatures to attack it instead of you or your tames.
+When protected in this mod, tamed/allied creatures cannot attack. You, however, can attack, but will then be visible to the aggressive attacker!
+
+-Bone Break
+10% chance to occur
+Slows the target down by 40%
+Prevents target for healing
+Does 4x the hit that breaks the bone
+Can be healed with lesser cure, or with a tame that can do healing abilities (Daeodon, Snow Owl, Prionosuchus or Yangchuanosaurus)
+
+Spawn Regions
+Pinacosaurus can be found on the following maps:
+
+The Island: Mountains
+Scorched Earth: Easy Desert, Canyon
+The Center: Mountains
+Aberration: Green Zone
+Extinction: City and Desert Dome
+
+
+How to Tame
+No additional resources are needed to tame a Pinacosaurus, as they are a passive snuggle tame. Similar to how one would tame a Hyaenodon, except no ghillie is required and Pinacosaurus will not run from you. The main challenge lies in the fact that Pinacosaurus get jealous if another nearby Pina is getting tamed, swarming you with a herd of pancakes!
+
+
+Chibi and Saddle
+Wild Pinacosaurus have a 10% chance to drop a chibi when killed
+Wild Pinacosaurus have a 5% chance to drop a saddle blueprint when killed
+Creature - Postosuchus: Part 1
+
+
+Other Variants
+Scorched
+Aberrant
+Skeletal
+
+
+Postosuchus
+Wild Postosuchus are very aggressive and will often be found chasing after prey. However, there is a small chance you will stumble across one resting by laying down in the wild.
+
+
+How to pronounce
+Post-o-suchus
+
+
+Controls & Abilities
+Left-Click: Bite
+Right-Click: Claw (pack leader only)
+C/Right Thumbstick: Roar (pack leader only - gives buff to all pack members)
+
+- Can lay down for faster healing
+- Has a gang boost up to 6 Postosuchus
+
+- Alpha of the pack can roar to initiate a buff called "Bloodthirsty Howl", giving a 10% damage boost and doubling the speed of pack members for a short time.
+
+Stink Breath
+"Stink Breath" protects both wild and tamed Postosuchus from being targeted by the following creatures:
+
+- Arthropleura
+- Insects
+- Leech
+- Microraptor
+- Pegomastax
+- Purlovia
+- Raptor
+- Ravager
+- Seeker
+
+
+Spawn Regions
+Postosuchus are commonly found in the Redwoods, but due to their aggressiveness you will sometimes find them wandering into nearby areas.
+
+The Island: Redwoods
+Scorched Earth: Dunes
+The Center: Redwoods
+Aberration: Green Zone
+Extinction: Forests Edge Wasteland & Desert Dome
+
+
+How to Tame
+Postosuchus cannot be tamed using traditional knockout or passive feeding methods. Instead, you must make your way to where they spawn and steal an egg from their nest. Unlike most egg snatch creatures in ARK, every Postosuchus has an equal chance to produce a nest and they can spawn anywhere a Postosuchus happens to be. Good luck hunting!
+
+
+Chibi and Saddle
+Wild Postosuchus have a 10% chance to drop a chibi when killed.
+Wild Postosuchus have a 5% chance to drop a saddle blueprint when killed.
+Skeletal Poso drop a skeletal skin and chibi!
+Creature - Prionosuchus: Part 3
+
+
+Other Variants
+
+
+Prionosuchus
+Prionosuchus is an aquatic healer! For tribes that like to explore the ocean, this is a wonderful creature to tame. Prionosuchus supports both passive and active healing, allowing for many uses!
+
+
+How to pronounce
+Pry-on-o-suchus
+
+
+Controls & Abilities
+Left-Click: Bite
+Hold Right-Click: Heal. Only works in water
+
+- If in water it gains the "Hydrated" buff, increasing dmg and movement speed.
+- Ridden Priono recieve a buff to and make more dmg. Other amphibians (koola, diplo and other priono) will get this buff to.
+
+Spawn Regions
+Prionosuchus spawns in the open oceans on many maps!
+
+The Island: Ocean
+The Center: Ocean
+
+
+How to Tame
+To tame a Prionosuchus, you will need to fish it out from the ocean using Temnospondyl Treats.
+
+Temnospondyl Treats:
+-Leach Blood (5)
+-Raw Fish Meat (30)
+-Silica Pearls (15)
+-Superior Kibble (1)
+
+
+Chibi and Saddle
+10% to drop a chibi when killed
+They have a 5% chance to drop a saddle BP when killed
+Creature - Purussaurus: Part 5
+
+Other Variants
+Eerie
+
+Purussaurus
+Purussaurus is a large prehistoric caiman! While not very fast on land, they are very deadly in the water! Their ability to actively manage their fat reserves mean they are very powerful!
+
+
+How to pronounce
+Purr-UH-saur-us
+
+
+Controls & Abilities
+Left-Click: Bite
+Right-Click: Grab/Drop (can only grab in the water)
+Space/Jump (on land only): Tail and Bite super combo
+R/Left Ctrl/ Alt Fire: Regurgitate Food
+
+
+Spawn Regions
+Purussaurus can spawn in both the ocean and in the river!
+
+The Island: Rivers, Oceans
+The Center: Rivers, Oceans
+
+
+Regurgitate Ability
+Tamed Purussaurus (and mounted wild ones while taming) have the ability to convert food into stamina. This is helpful to continue sprinting or attacking, even long after you should have run out of stamina. This ability also plays into their unique armor mechanic.
+
+Food is Power
+Depending on your food bar, you can gain different buffs for your Purussaurus. Depending on your playstyle, and how you manage Purussaurus' food, you can enable different positive (or negative) buffs. Below breaks down the food needed, and the buff given:
+
+'Fat Purussaurus': Purussaurus is well fed. This buff is given to Purussaurus with 100-50% food. They move a little bit slower, but take 15% less damage, while dealing 25% more damage
+
+'Skinny Purussaurus': Purussaurus has puked up enough food that they have lost most of their fat reserves. In the water they mode 25% faster, and 15% faster on land. They do not gain armor or melee buffs. This buff is given to Purussaurus who have 49-20% food.
+
+'Malnurished': When Purussaurus' food is below 20% they gain this debuff. They take 25% more damage, and their attacks do 20% less damage. This buff should be avoided!
+
+Note: Only ADULT Purussaurus have these buffs. As babies naturally do not have full food, they cannot gain these buffs. Feeding your Purussaurus will increase their food, changing their hunger state. Regurgitating food is the best way to reduce food, and is a naturally consequence of regurgitation. Managing this is the best way to utilize Purussaurus!
+
+
+How to Tame
+Taming a Purussaurus is very similar to taming a Carcharadontosaurus. They must be tamed in the water, and you will want to make sure you have good armor. Swim up to Purussaurus on a tame, and allow that tame to get grabbed by Purussaurus. The tame must be a drag weight of 500 or less.
+
+After Purussaurus grabs the tame, you need to quick hop on the back of Purussaurus! Once mounted, you need to go around killing creatures. Once enough creatures have been killed, you'll have tamed a Purussaurus! Creatures with a higher drag weight will add more to the taming bar, while smaller ones do less. Either tamed OR wild creatures can be used.
+
+If you don't kill creatures fast enough, you will be bucked off of Purussaurus. This will most likely end in your death. Because Purussaurus are strong, having a good armored creature, or a creature with decent health to be initially grabbed would be helpful. A Turtle might be the best option for a high level Purussaurus.
+
+
+Chibi and Saddle
+10% to drop a chibi when killed
+They have a 5% chance to drop a saddle BP when killed
+Creature - Pyroraptor: Part 1
+
+
+Other Variants
+Phoenix Pyroraptor
+
+
+Pyroraptor
+Pyroraptor is a small dromeasaur. Smaller then Deinonychus and Utahraptor! What they lack in size they make up for in skill set and agility!
+
+
+How to pronounce
+Pie-row-rap-tor
+
+
+Controls & Abilities
+Left-Click: Bite
+Right-Click: Claw Attack
+C/D-pad Down: Phoenix Call
+Z/Left Shoulder: Phoenix Flames
+X/D-pad Up: Kick
+Space: Jump; hold to fall slower and move around more!
+
+
+Spawn Regions
+Pyroraptor spawns in several spots on many maps!
+
+The Island: Mountains
+Scorched Earth: Mountains
+The Center: Mountains, Jungle
+Extinction: City
+
+
+How to Tame
+To tame a Pyroraptor, you will need to KO it, and feed it Flame Feathers. Flame Feathers are obtained by killing a Pyroraptor. They don't always drop.
+
+
+Chibi and Saddle
+Wild Pyroraptor have a 10% chance to drop a chibi or dino glasses skin when killed.
+Wild Pyroraptor have a 5% chance to drop a saddle blueprint when killed.
+
+
+Phoenix Variant
+If a Pyroraptor dies (and is NOT a baby) they have a chance to revive as a Phoenix Pyroraptor. They are stronger, larger, faster, and better versions! Break down of the odds below:
+
+WILD TAMED: 15% chance when killed; Tier 1 (First Transformation into Phoenix)
+15% Tier 2
+20% Tier 3
+25% Tier 4
+30% Tier 5
+
+BRED: 10% chance when killed; Tier 1 (First Transformation into Phoenix)
+15% Tier 2
+20% Tier 3
+25% Tier 4
+30% Tier 5
+
+MUTATED: 3% chance when killed; Tier 1 (5+ mutations) (First Transformation into Phoenix)
+15% Tier 2
+20% Tier 3
+25% Tier 4
+30% Tier 5
+
+A Pyroraptor can only move to the next tier if they are the lower tier. A level 2 Pyroraptor can be killed to change to a level 3, but a level 1 cannot jump to level 4 (and so on)
+Creature - Saltasaurus: Part 3
+
+Other Variants
+Aberrant
+Lost
+
+Saltasaurus
+The Saltasaurus is a cute little Sauropod with multiple uses. It moves much faster than larger than the Brontosaurus and doesn't lose much efficiency in its ability to harvest valuable resources such as berries, wood and thatch. The biggest advantage to a Saltasaurus is its very strong body armor, which provides the rider with peace of mind knowing it can't be killed easily.
+
+
+How to pronounce
+Salt-u-saurus
+
+
+Controls & Abilities
+Left-Click: Directional Front foot stomp
+Right-Click: Directional Tail Swipe
+C/Right Thumbstick: Dust Tail Swipe
+X/D-pad Down: Healing Roar
+
+
+Spawn Regions
+Saltasaurus can be found on every map in a wide variety of regions. Can often be found near Lirainosaurus
+
+The Island: Grassland, Herbi Island
+The Center: Grassland
+Aberration: Green Zone
+Extinction: Sunken Forest
+
+
+How to Tame
+Saltasaurus have an extreme amount of body armor, causing them to be immune to traditional tranquilizer methods. In order to knock this creature out you will need to break this armor. Once broken, any tranq method works. Once the armor repairs, you need to re-break it to tranq it once more.
+
+(1) Superior Kibble
+(2) Citronal, Longrass, Rockarrot, Savoroot
+(3) Mejoberry
+
+
+Chibi and Saddle
+Wild Saltasaurus have a 10% chance to drop a chibi when killed.
+Wild Saltasaurus have a 5% chance to drop a saddle blueprint when killed.
+Creature - Scelidosaurus: Part 4
+
+
+Other Variants
+Eerie
+Scorched
+
+
+Scelidosaurus
+Scelidosaurus are neutral small herbivores with an extremely strong shell.
+
+
+How to pronounce
+See-leed-o-saurus
+
+
+Controls & Abilities
+E to Pick up
+
+Scelidosaurus is an armored shoulder mount.
+Simply pick it up and be protected from damage! Does not scale with any specific stat, but does stack with your armor.
+
+
+Spawn Regions
+Scelidosaurus is a small mostly gentle herbivore, found almost everywhere!
+
+The Island: Beach
+Scorched Earth: Easy Desert
+The Center: Beach
+Extinction: City & Desert Dome
+
+How to Tame
+Scelidosaurus is a KO tame. Knock it out and feed it!
+
+(1) Superior Kibble
+(2) Citronal, Longrass, Rockarrot, Savoroot
+(3) Mejoberry
+
+
+Chibi and Saddle
+Scelidosaurus has a 10% chance to drop a chibi when killed.
+Creature - Siamosaurus: Part 1
+
+
+Other Variants
+Aberrant
+Alpha
+Gustave Siamosaurus
+
+
+Siamosaurus
+Siamosaurus is a fairly complex creature. In the wild they are neutral with the exception of a few select creatures: Anglerfish, Cnidaria, Coelacanth, Piranha and Sabertooth Salmon. They have a devastating bite, a very quick and powerful claw attack along with a tail swipe that deals a good amount of impulse to smaller sized creatures.
+
+
+How to pronounce
+Sigh-am-o-saurus
+
+
+Controls & Abilities
+Left-Click: Bite
+Right-Click: Claw (land only)
+C/Right Thumbstick: Roar, Berzerk Roar
+Alt Fire: Tail Swipe
+Space: Dash Forward (water only)
+
+- Immunity to Cnidaria and Electrophorus
+- Can gather Angler Gel, Bio Toxin, Black Pearls and Silica Pearls
+- 25% weight reduction on both pearls
+
+Flashover
+You can use Angler Gel (0 Slot on your hotbar) to make Siamos stronger and faster. They also can do a far stronger tail attack by holding Alt Fire.
+
+As more Angler Gel you feed it, as stronger it becomes. But as more you feed, as less time you have in this modus! You can feed Siamosaurus a max of 40 times before it will reach 100% strength and at this point it will enter berserk mode.
+
+Berserk mode
+Siamosaurus will deal 150% damage, gain 5 health per second and its speed will be increased to 125%. At this point you will notice you have a very limited amount of time. You can, however, make good use of the additional 10 times you can feed Siamosaurus a piece of Angler Gel in this stage. When you feed it Angler Gel in berzerk mode, the closer the clock is to 0:00 the more additional bonus time you will earn with the buff.
+
+Once your timer has run out you will enter the sizzled out phase. During this time, Siamosaurus has become worn out and will now need to re-energize itself. Once this debuff is given you will notice your stats have now received a significant penalty. Siamosaurus will now only deal 75% damage, its speed will be decreased to 50% and it will lose 10 stamina per second. The amount of time it takes you to re-energize is completely dependent on how many times you fed your Siamosaurus a piece of Angler Gel. There is quite a large difference in the amount of time it takes to re-energize between feeding it a few Angler Gel and feeding it 50 times.
+
+
+Spawn Regions
+Siamosaurus are commonly found on the coastlines, but due to their aggressiveness towards certain creatures they will sometimes wander out into the water on their own. You will find them naturally spawn in the deeper parts of the Ocean as well. Alpha Siamosaurus are limited to only have a chance to spawn in the ocean waters, not along the beach.
+
+There is a 5% chance when Siamosaurus spawns it will become an Alpha variant.
+
+The Island: Beach, Ocean
+Aberration: Blue Zone Water
+Ragnarok: Beach, Ocean
+
+How to Tame
+Siamosaurus can be passively fed one of two foods. Be careful, though, as sometimes this creature will get upset and begin targeting the player for a short period of time.
+
+(1) Bio Toxin
+(2) Angler Gel
+
+Gustave Siamosaurus
+These are rare variants from slain alphas. They are very strong, but raising them requires a lot of fish. Once adults, they are halfway between alphas and normal variants in strength!
+
+Chibi and Saddle
+Alpha variants have a 50% chance to drop a Chibi when killed.
+Alpha variants have a 50% chance to drop a saddle blueprint when killed.
+Alpha variants have a low chance to drop a Gustave egg when killed. The level of the egg is whatever the alpha 'parent' was, plus taming levels.
+Creature - Sinornithoides: Part 5
+Other Variants
+Aberrant
+
+
+Sinornithoides
+Sinornithoides are small and skittish. However, once tamed they can often be the difference in life or death!
+
+
+How to pronounce
+Sign-orn-ith-EE-ds
+
+
+Controls & Abilities
+Pick up with E. Has several settings, but can automatically heal you (player) when you are at or below 50% health.
+
+Personal Healer
+Sinornithoides are personal healers. Once on your shoulder, you can clap to enable/disable auto healing. One heal costs a med brew, but they last longer and weigh less in Sinornithoides' inventory.
+
+Pay attention to your HUD to see how many heals you have left, if you are in auto-heal mode, or if you are unable to heal.
+
+Sinornithoides CANNOT heal you when you are in the water/swimming.
+
+Sinornithoides' heal can also clear some negative buffs, such as rabies, bleeding, or Pinacosaurus' bone break!
+
+
+Spawn Regions
+Sinornithoides prefer to be hidden, and can be found in forests or areas with lots of plant coverage
+
+The Island: Jungle
+Scorched Earth: N/A
+The Center: Jungle
+Aberration: Green Zone
+Extinction: City
+
+How to Tame
+Sinornithoides are very fun to tame! Because they will naturally flee from you, you have to prep ahead of time to tame them. If you are below 50% health and you approach them, they will let you feed them. They will then also heal you! From then on, you can pet and feed them until tamed! During this time, they will follow you around, and if you leave them they will forget about you and the tame will start all over again!
+
+They prefer Simple Kibble. Once tamed, they are omnivores!
+Creature - Thresher Shark: Part 4
+Other Variants
+
+
+Thresher Shark
+Thresher Shark is fast and dangerous. If their bite doesn't get you, then their unusually long tail might!
+
+
+How to pronounce
+Th-re-sh-er Sh-AH-rk
+
+
+Controls & Abilities
+Left-Click: Bite or Tail Attack
+Right-Click: Thresh Target (if successful will give Thresher a Healing buff)
+Left Ctrl/ Right Thumbstick: Enable/Disable Minigun
+Jump/Space: Leap from water
+
+- Fast, with a good turn radius
+- Low health, but can heal its-self
+
+Minigun Saddle
+Thresher Shark's saddle comes equipped with two miniguns. These require advanced bullets to work. These are the same ones that Assault Rifles need.
+
+Once enabled with Left Ctrl or Right Thumbstick, you can shoot to your heart's content (or, at least until you run out of bullets or the durability runs low). You can stop the automatic shooting by pressing Right Click again or Left Trigger. Alternatively, you can also disable it with Left Ctrl or Right Thumbstick again.
+
+
+Spawn Regions
+The speedy Thresher Shark can be found in the ocean.
+
+The Island: Ocean
+The Center: Ocean
+
+How to Tame
+Thresher Shark is a traditional knockout tame. Superior Kibble is what they prefer, but mutton works second
+
+
+Chibi and Saddle
+When killed, Thresher Shark has a 5% chance to drop a saddle BP, and 10% to drop a chibi!
+Creature - Tsintaosaurus: Part 1
+
+
+Other Variants
+Scorched
+Aberrant
+
+
+Tsintaosaurus
+Tsintaosaurus is not a fighter, so do not expect the bite to deal much damage. It does, however, have the ability to harvest berries and crops efficiently.
+
+
+How to pronounce
+Sin-tau-saurus
+
+
+Controls & Abilities
+Left-Click: Bite
+Right-Click: Roar (enabled "Looking for Danger")
+Space: Jump
+
+Looking for Danger
+If Tsintaosaurus gets within range of an enemy player, alpha creature of any level or a high level wild creature that is a carnivore or an aggressive herbivore such as Therizinosaurus, it will receive an additional buff. This buff is called "Danger Detected" which gives Tsintaosaurus a speed boost and a blue screen effect will be displayed on the rider HUD.
+
+
+Spawn Regions
+Tsintaosaurus are intended to be mounts for new players, so of course they naturally spawn in a part of the map where every player begins their journey.
+
+The Island: Beach
+Scorched Earth: Easy Desert
+The Island: Beach
+Aberration: Green Zoone
+
+
+How to Tame
+To tame a Tsintaosaurus, simply walk up and passively feed it.
+
+(1) Basic Kibble
+(2) Mejoberry
+(3) Azulberry, Amarberry, Sweet Veggie Cake or Tintoberry
+
+
+Chibi and Saddle
+Wild Tsintaosaurus have a 10% chance to drop a chibi when killed.
+Wild Tsintaosaurus have a 5% chance to drop a saddle blueprint when killed.
+Creature - Venenosaurus: Part 4
+
+Other Variants
+Aberrant
+
+
+Venenosaurus
+This midsized sauropod can be found wandering around all over! They have a nasty spit attack, so watch out for their business end!
+
+They are great and helping you KO any dinosaurs that require tranqulizing.
+
+
+How to pronounce
+Ven-ee-no-saurus
+
+
+Controls & Abilities
+Left Click: Spit
+Right Click: Directional Tail Attack
+C/Right Thumbstick: Stomp
+
+- Can act as mortal and pestle
+- spoiles meat faster in its inventory
+- Can lay if you open the wheel and tell it to
+When resting, they craft faster!
+
+
+Spawn Regions
+Venenosaurus are found in these areas
+
+The Island: Forested Areas
+The Center: Forested Areas
+Aberration: Blue Zone
+Extinction:
+
+
+How to Tame
+Venenosaurus are passive tames. Walk up to them and feed them whatever random food they crave!
+
+(1) Regular Kibble
+(2) Raw Mutton
+(3) Raw Prime Meat
+
+
+Chibi and Saddle
+10% to drop a chibi when killed
+They have a 5% chance to drop a saddle BP when killed
+Creature - Yangchuanosaurus: Part 1
+
+
+Other Variants
+Aberrant
+Lost
+
+Yangchuanosaurus
+Loud and proud, Yangchuanosaurus lets the world know its power by belting out powerful roars! Heal yourself and allies, scare enemies, or just strut your stuff!
+
+
+How to pronounce
+Yang-chew-on-oh-saur-us
+
+
+Controls & Abilities
+Left-Click: Bite
+Right-Click: Headbutt
+C/Right Thumbstick: Fear Roar
+X/D-pad Down: Heal Roar
+Left Ctrl/D-pad Up: Boost Roar
+
+Sexual Dimorphism:
+Females are rarer then males, larger, and more dangerous. They are more aggressive in the wild, and thus pose more of a challenge. However, they do provide a stronger mate boost!
+
+Spawn Regions
+If its cold, that's where Yangchuanosaurus will be!
+
+The Island: Snow
+The Center: Snow
+Aberration: Red Zone
+Extinction: Snow Dome
+
+
+How to Tame
+To tame one, you'll need a good quality assault rifle, and plenty of ammo. I'd also suggest using a taming pen of some type, as to avoid getting eaten. Taming has 3 steps.
+
+First, you need to damage Yangchuanosaurus enough that it will do a heal roar.
+
+Once it does this, shoot it with the gun. Only shots that hit while its healing will increase torpor. Repeat these two steps over and over, until Yangchuanosaurus passes out.
+
+Then you are free to feed it kibble! They prefer the higest tier kibble; Extraordinary kibble!
+
+
+Chibi and Saddle
+Killing a Yangchuanosaurus has a 10% chance to drop a chibi.
+They have a 5% chance to drop a saddle bp when killed.
+Creature - Zuniceratops: Part 2
+
+
+Other Variants
+Aberrant
+Lost
+
+Zuniceratops
+Zuniceratops is the Island’s smallest ceratopsian. While not the best fighter, its skill lies in its harvesting abilities!
+
+
+How to pronounce
+Zoon-ee-cera-tops
+
+
+Controls & Abilities
+Left Click: Headbutt
+Right Click: Berry Munch
+C/Right Thumbstick: Tail Quill Attack
+Space: Jump
+Left Ctrl/D-pad Up: Enable/Disable Tek Saddle
+
+- It can harvest stuff right from the ground like stones or sticks.
+
+
+Spawn Regions
+Zuni can be found in herds on the following maps:
+
+The Island: Mountains
+The Center: Mountains
+Green Zone
+Extinction: Sunken Forest
+
+
+How to Tame
+To tame a Zuniceratops, you have to kill the parent and claim the baby.
+
+
+Chibi and Saddle
+Wild Zuniceratops have a 10% chance to drop a chibi when killed.
+Zuni has 3 saddles, here are all of them listed:
+
+Advanced Saddle:
+The Advanced saddle has 35 armor, and does 5% more damage
+
+Tek Saddle:
+Requires Tek Tapejara Saddle
+harvests 5x more, and does 20% more damage. When not powered, the harvesting is similar to the Advanced saddle, and only does 5% more damage.
+
+Synergy
+If you also have a Nasutoceratops, then the Zuniceratops will gain a buff that allows it to carry more resources! This works regardless if the Nasuto has a rider, so bring one along on your next mining mission!
+
+Wild Zuni have a 5% chance to drop a saddle blueprint when killed
+Wild Zuni have a 10% chance to drop a chibi when killed 

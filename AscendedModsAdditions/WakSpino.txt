@@ -1,3 +1,7 @@
+All Entry Names: 
+   Wak Spino  x 1
+   Wak Spino One  x 6
+
 Engram Entries: 
    EngramEntry_Saddle_Wak_Spino_C
    EngramEntry_FishSoup_C

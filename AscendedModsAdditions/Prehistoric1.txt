@@ -1,3 +1,21 @@
+All Entry Names: 
+   Dearc  x 4
+   Inostrancevia  x 3
+   Inostrancevia (1-2)  x 3
+   Nasuto (2)  x 8
+   Neimo  x 10
+   Neimongo (1-2)  x 1
+   Neovenator (1)  x 4
+   Postosuchus (1)  x 2
+   Postosuchus (1-2)  x 5
+   Pyro (1-2)  x 1
+   Pyroraptor  x 5
+   Siamo (1)  x 5
+   Siamosaurus  x 2
+   Tsint  x 1
+   Tsintao (1-2)  x 6
+   Yang (1-2)  x 9
+
 Engram Entries: 
    EngramEntry_Saddle_Postosuchus_C
    EngramEntry_Saddle_Neovenator_C

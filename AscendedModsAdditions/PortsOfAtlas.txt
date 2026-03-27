@@ -2,7 +2,7 @@ All Entry Names:
    Alpha Atlasuchus  x 6
    Atlas Parrot (1-2)  x 2
    Atlasuchus (1-5)  x 6
-   Grand Tortugar  x 9
+   Grand Tortugar  x 10
    Jackrabbit (2-3)  x 19
    Olfend (1-2)  x 5
    Olfend (2-3)  x 7
@@ -342,6 +342,11 @@ Container Name: null
       Entry Weight: 0.01
       Spawn Limit: 0.01
       Multi Spawn Chance: 1.0
+   Entry Name: Grand Tortugar
+      Main BP: GrandTortugar_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: Olfend (1-2)
       Main BP: Olfend_Character_BP_Aberrant_C
@@ -532,6 +537,9 @@ MultiParams Summary:
       Multi Spawn Chance:                               1.0-0.9-0.9-0.9-0.9-0.9
 
    Main BP: GrandTortugar_Character_BP_C
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0
       Entry Weight:                   0.03
       Spawn Limit:                             0.03
       Multi Spawn Chance:                               1.0
