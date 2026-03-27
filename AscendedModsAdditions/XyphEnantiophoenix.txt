@@ -1,3 +1,7 @@
+All Entry Names: 
+   Aberrant Enantiophoenix  x 2
+   Enantiophoenix  x 19
+
 Dino Entries: 
    Enantiophoenix_C
 

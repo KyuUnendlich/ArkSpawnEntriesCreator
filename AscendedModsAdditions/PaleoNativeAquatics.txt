@@ -1,3 +1,7 @@
+All Entry Names: 
+   Bungartius Shoal  x 3
+   rypto 1 Squid (8-13)  x 2
+
 Engram Entries: 
    EngramEntry_Saddle_PA_Cryptoclidus_C
 
@@ -8,13 +12,13 @@ Dino Entries:
 
 Dino Additions: 
 Container Name: null
-   Entry Name: rypto 1 Squid (8-13)
+   Entry Name: PA: Crypto 1 Squid (8-13)
       Main BP: PA_Cryptoclidus_Character_BP_C
       Entry Weight: 1.0
       Spawn Limit: 1.0
       Multi Spawn Chance: 1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-0.7-0.7-0.7-0.7-0.7
 Container Name: null
-   Entry Name: rypto 1 Squid (8-13)
+   Entry Name: PA: Crypto 1 Squid (8-13)
       Main BP: PA_Aberrant_Cryptoclidus_Character_BP_C
       Entry Weight: 0.06
       Spawn Limit: 0.03

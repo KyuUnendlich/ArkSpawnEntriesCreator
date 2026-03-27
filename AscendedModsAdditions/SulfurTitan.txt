@@ -1,3 +1,14 @@
+All Entry Names: 
+   DunesSulfur  x 1
+   FasolaSulfur  x 1
+   GigaSulfur  x 1
+   LavaSulfur  x 1
+   MonsterIslandSulfur  x 1
+   MountainSulfur  x 2
+   SulfurFieldsSulfur  x 1
+   TundraSulfur  x 1
+   WastelandSulfur  x 1
+
 Engram Entries: 
    EngramEntry_SulfurCapsule_C
    EngramEntry_SulfurGrenade_C

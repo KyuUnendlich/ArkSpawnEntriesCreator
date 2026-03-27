@@ -1,3 +1,6 @@
+All Entry Names: 
+   Mischoptera  x 5
+
 Engram Entries: 
    EngramEntry_CrushedBlackPearl_C
    EngramEntry_InfusedCrushedBlackPearl_C

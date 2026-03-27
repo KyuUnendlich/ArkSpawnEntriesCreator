@@ -1,3 +1,7 @@
+All Entry Names: 
+   Edmont (1)  x 3
+   Edmont (1-2)  x 8
+
 Engram Entries: 
    EngramEntry_EdmontoniaSaddle_C
    EngramEntry_EdFlamethrowerSaddle_C

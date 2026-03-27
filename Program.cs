@@ -62,13 +62,13 @@ namespace ArkSpawnEntriesCreator
             MoroLivy,                               IsleSpearcrest, /*BSSpearcrest*/    AA_Acrocantho, /*AAAcro*/           MoroIndomitable,
             MoroGigantophis,                        IsleSuchomimus, /*IsleOfMythsSucho*/Meraxes,
             SulfurTitan, /*TitanSulfur*/            HorizonSuchomimus, /*Horizons*/     RunicWyverns,
-            AA_Edmontonia,                          MoroTylo,                           NeoAurochs, /*Aurochs*/
-            AA_Anomalocaris, /*AA_Anomalo*/         MoroNotho,                          NeoStygi, /*Stygi*/
+            AA_Edmontonia, /* Edmontonia */         MoroTylo,                           NeoAurochs, /*Aurochs*/
+            AA_Anomalocaris,                        MoroNotho,                          NeoStygi, /*Stygi*/
             Cricosaurus, /*AA_Crico*/               Rubidgea, /*OCRubidgea*/            NeoStyraco, /*Styra*/
             ArketyDraconyx, /*ATDraconyx*/          Birdwatcher,                        Skjaldastordr, /*MSVV_Skjaldastor*/
             ArketyScotoharpes, /*ATScoto*/          TACVectispinus,                     PygmyHippo,
             ArketyBombardier, /*ATBomb  MULTIMAIN*/ TACAntrodemus,                      ExtremeGargantSpino, /*t5ege*/
-            PiggleLycosuchus,                       TACEocarcharia, /*Eocarcharia*/     CyrusRedPanda,
+            PiggleLycosuchus, /* Lycosuchus */      TACEocarcharia, /*Eocarcharia*/     CyrusRedPanda,
             PiggleAdasaurus, /*PPR-Ada*/            TACDaemonis, /*Daemonis*/           CyrusThoraxSpider, /*CyrusJumping*/
             PaleoApexPredators, /*PA_EVO_01*/       TACDzungatherium,                   CyrusMagnaGecko, /*CyrusGecko*/
             PaleoDangerousDepths, /*PA_EVO_02*/     Tyrannodominator,                   CliffansCritters,
@@ -82,7 +82,7 @@ namespace ArkSpawnEntriesCreator
             XyphMeiolania,                          ACEndemics, /*Endemics*/            AnomalyGalvarex,
         }
 
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/MoroIndomitable.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/XyphMischoptera.txt";
         const bool replaceFile = true;
         const bool multimain = false;
 

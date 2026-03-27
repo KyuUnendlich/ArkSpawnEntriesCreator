@@ -1,3 +1,7 @@
+All Entry Names: 
+   Aberrant Dickinsonia  x 4
+   Dickinsonia  x 15
+
 Dino Entries: 
    Dickinsonia_C
 

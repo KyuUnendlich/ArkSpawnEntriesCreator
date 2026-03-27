@@ -1,3 +1,8 @@
+All Entry Names: 
+   Aberrant Megistotherium  x 2
+   Megistotherium  x 51
+   MegistotheriumNoStripes  x 20
+
 Engram Entries: 
    EngramEntry_MegistotheriumSaddle_C
 

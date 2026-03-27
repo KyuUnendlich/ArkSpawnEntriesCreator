@@ -1,3 +1,23 @@
+All Entry Names: 
+   ABFertileLyco  x 1
+   EXTCityLyco1  x 1
+   EXTCityLyco2  x 1
+   EXTForestLyco  x 1
+   Lyco ABFertile (1-2)  x 1
+   Lyco Beach (1)  x 1
+   Lyco BeachGeneric (1-2)  x 1
+   Lyco EXTDesert (1-2)  x 1
+   Lyco Jungle (1-2)  x 1
+   Lyco JungleGeneric (1-2)  x 1
+   Lyco RagCenter (1-2)  x 1
+   Lyco RagJungle (1-2)  x 1
+   Lyco RagScotland (1-2)  x 1
+   Lyco Redwood (1-2)  x 1
+   Lyco RedwoodsGeneric (1-2)  x 1
+   Lyco SEBadlands (1-2)  x 1
+   Lyco SEGreenDesert (1)  x 1
+   SEOasisLyco  x 1
+
 Engram Entries: 
    EngramEntry_Saddle_Lyco_C
    EngramEntry_Saddle_Lyco_ExtraArmor_C

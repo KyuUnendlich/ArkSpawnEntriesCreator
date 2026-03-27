@@ -391,7 +391,7 @@ namespace ArkSpawnEntriesCreator
                     {
                         currentSpawnEntryinContainer++;
 
-                        int first_index = text.LastIndexOf(":") + 1;
+                        int first_index = text.IndexOf(":") + 1;
                         int last_index = text.LastIndexOf(",") - 3;
                         string entryName = text.Substring(first_index + 2, last_index - first_index);
 
