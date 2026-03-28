@@ -1,3 +1,20 @@
+All Entry Names: 
+   Acrophyseter  x 5
+   Ambulocetus (1-4)  x 2
+   Anom Spawn  x 10
+   Bothri (1-3)  x 1
+   Bothri One To Three  x 6
+   Eddy Spawn  x 2
+   Henodus  x 5
+   Lepi One To Four  x 6
+   Materpiscis  x 7
+   Proto (1-3)  x 7
+   Sauric Spawn  x 7
+   Sphyrna  x 5
+   Steth  x 3
+   Steth Spawn  x 7
+   Urchin  x 5
+
 Engram Entries: 
    EngramEntry_AmbulocetusSaddle_C
    EngramEntry_SphyrnaSaddle_C
@@ -18,6 +35,7 @@ Engram Entries:
    EngramEntry_StoneKnife_C
    EngramEntry_FloatingWeave_C
    EngramEntry_Saddle_Acrophyseter_C
+   Engram_SeagrassBandage_C
 
 Dino Entries: 
    Anom_C
@@ -30,6 +48,7 @@ Dino Entries:
    Saurichthys_C
    Proto_C
    Edestus_C
+   inoEntry_C
    eaurchin_C
    Steth_C
 

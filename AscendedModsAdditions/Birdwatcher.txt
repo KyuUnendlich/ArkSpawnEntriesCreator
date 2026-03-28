@@ -1,3 +1,11 @@
+All Entry Names: 
+   AB GiantSpino  x 1
+   Giant Spino  x 2
+   GiantSpino  x 2
+   Shoni  x 1
+   Torvo  x 3
+   Torvosaurus  x 2
+
 Engram Entries: 
    EngramEntry_Saddle_Torvosaurus_BC_C
    EngramEntry_Saddle_GiantSpino_BC_C

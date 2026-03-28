@@ -1,3 +1,9 @@
+All Entry Names: 
+   Rubidgea  x 8
+   Rubidgea (1-2)  x 3
+   Rubidgea (2-3)  x 2
+   rubidgea corrupt  x 1
+
 Engram Entries: 
    EngramEntry_RubidgeaOCSaddle_C
 

@@ -1,3 +1,7 @@
+All Entry Names: 
+   Alpha Eocarch  x 3
+   Eocarch  x 19
+
 Engram Entries: 
    EngramEntry_EocarchSaddle0_C
    EngramEntry_EocarchSaddleClown_C

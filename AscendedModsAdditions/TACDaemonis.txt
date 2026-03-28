@@ -1,3 +1,11 @@
+All Entry Names: 
+   Badlands  x 3
+   Grasslands  x 13
+   Greenzone  x 3
+   Mountains  x 1
+   Snow  x 4
+   Waste  x 7
+
 Engram Entries: 
    EngramEntry_Saddle_Daemonis_C
    EngramEntry_Coagulated-Kibble_C

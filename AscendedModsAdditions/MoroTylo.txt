@@ -1,3 +1,6 @@
+All Entry Names: 
+   MoroTylosaurus  x 3
+
 Engram Entries: 
    EngramEntry_SaddleTylosaurus_C
 

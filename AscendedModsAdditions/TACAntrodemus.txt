@@ -1,3 +1,11 @@
+All Entry Names: 
+   Ab-Antro  x 5
+   Antro-SE  x 1
+   Antro-Sunken  x 1
+   Antro-Waste  x 1
+   Grass-Antro  x 3
+   SE-Antro  x 1
+
 Engram Entries: 
    EngramEntry_Allosaurus-Brain_C
    EngramEntry_Antro-Saddle_T0_C

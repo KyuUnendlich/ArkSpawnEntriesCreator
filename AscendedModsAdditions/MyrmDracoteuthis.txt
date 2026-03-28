@@ -1,3 +1,8 @@
+All Entry Names: 
+   Dracoteuthis  x 1
+   Dracoteuthis (Valg)  x 1
+   Squiddo  x 1
+
 Engram Entries: 
    EngramEntry_BatteryCharger_C
 

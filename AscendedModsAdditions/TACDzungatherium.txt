@@ -1,3 +1,16 @@
+All Entry Names: 
+   Badlands  x 1
+   BlueZone  x 1
+   Canyon  x 3
+   EX Oasis  x 1
+   Grasslands  x 7
+   Grasslands Alpha  x 5
+   Greenzone  x 4
+   Redwoods  x 1
+   Redwoods Alpha  x 1
+   Swamp  x 1
+   Swamp Alpha  x 1
+
 Engram Entries: 
    EngramEntry_Dzung-Standard-Saddle_C
    EngramEntry_Dzung-Armor_C

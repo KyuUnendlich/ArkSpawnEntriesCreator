@@ -45,9 +45,9 @@ namespace ArkSpawnEntriesCreator
 
         enum Mod
         {
-            Prehistoric1, /*Beasts*/                XyphMischoptera,                    ACAquaria, /*Aquaria*/              MarniiGriffins, /*Marnii   MULTIMAIN*/
-            Prehistoric2,                           XyphVetuli,                         AC2WildArk, /*Addititio   2 Files*/ IslaNycta,
-            Prehistoric3,                           KamiFeral,                          TACBastionBeetle,                   PaddletailSpino, /*PSpino*/
+            Prehistoric1, /*Beasts*/                XyphMischoptera,                    ACEndemics, /*Aquaria*/             MarniiGriffins, /*Marnii   MULTIMAIN*/
+            Prehistoric2,                           XyphVetuli,                         ACAquaria, /*Addititio   2 Files*/  IslaNycta,
+            Prehistoric3,                           KamiFeral,                          AC2WildArk,                         PaddletailSpino, /*PSpino*/
             Prehistoric4,                           TheSunkenWorld,                     FayeMenagerie, /*Menagerie*/        PolyOrycterocetus,
             Prehistoric5,                           NeoEuropa, /*Europa*/               AussieDiamantina, /*NickDiamant*/   DeimosShantungo,
             CyrusDrakonis,                          FerasDinocroc,                      AussieMuttaburra, /*NickMutta*/     AsharavelBestiary,
@@ -71,18 +71,18 @@ namespace ArkSpawnEntriesCreator
             PiggleLycosuchus, /* Lycosuchus */      TACEocarcharia, /*Eocarcharia*/     CyrusRedPanda,
             PiggleAdasaurus, /*PPR-Ada*/            TACDaemonis, /*Daemonis*/           CyrusThoraxSpider, /*CyrusJumping*/
             PaleoApexPredators, /*PA_EVO_01*/       TACDzungatherium,                   CyrusMagnaGecko, /*CyrusGecko*/
-            PaleoDangerousDepths, /*PA_EVO_02*/     Tyrannodominator,                   CliffansCritters,
-            PaleoHardHittingHerbivores,/*PA_EVO_03*/ARKOSanguivern,                     HuskyWolf,
-            PaleoNativeAquatics, /*PA_PLUS_01*/     ARKOHapipalus,                      Stegotetrabelodon, /*Steg*/
-            PaleoRulersWastelands, /*PA_PLUS_02*/   ARKODesolatitan,                    StarSeahorse, /*RR_Seah   MULTIMAIN*/
-            XyphCharnia,                            MoreWyverns,                        StarExoticAnimals, /*RR_Exo   MULTIMAIN*/
-            XyphDick,                               Monolopho, /*Forogotten*/           StarAnimals, /*RR_StarAnim   MULTIMAIN*/
-            XyphEnantiophoenix,                     Noxcalva, /*BlazingNoxcalva*/       StarFarmAnimals, /*RR_Farm   MULTIMAIN*/
-            XyphMegistotherium,                     RoyalArchaeopteryx,                 OceaniaContent, /*AEM_Content*/
-            XyphMeiolania,                          ACEndemics, /*Endemics*/            AnomalyGalvarex,
+            PaleoDangerousDepths, /*PA_EVO_02*/     TACBastionBeetle,                   CliffansCritters,
+            PaleoHardHittingHerbivores,/*PA_EVO_03*/Tyrannodominator,                   HuskyWolf,
+            PaleoNativeAquatics, /*PA_PLUS_01*/     ARKOSanguivern,                     Stegotetrabelodon, /*Steg*/
+            PaleoRulersWastelands, /*PA_PLUS_02*/   ARKOHapipalus,                      StarSeahorse, /*RR_Seah   MULTIMAIN*/
+            XyphCharnia,                            ARKODesolatitan,                    StarExoticAnimals, /*RR_Exo   MULTIMAIN*/
+            XyphDick,                               MoreWyverns, /*Forogotten*/         StarAnimals, /*RR_StarAnim   MULTIMAIN*/
+            XyphEnantiophoenix,                     Monolopho, /*BlazingNoxcalva*/      StarFarmAnimals, /*RR_Farm   MULTIMAIN*/
+            XyphMegistotherium,                     Noxcalva,                           OceaniaContent, /*AEM_Content*/
+            XyphMeiolania,                          RoyalArchaeopteryx, /*Endemics*/    AnomalyGalvarex,
         }
 
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/XyphMischoptera.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/TACDaemonis.txt";
         const bool replaceFile = true;
         const bool multimain = false;
 
