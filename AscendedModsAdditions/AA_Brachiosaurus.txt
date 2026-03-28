@@ -1,3 +1,7 @@
+All Entry Names: 
+   BrachioAA  x 4
+   Brachiosaurus (1)  x 1
+
 Engram Entries: 
    EngramEntry_Saddle_AdditionsBrachio_C
 

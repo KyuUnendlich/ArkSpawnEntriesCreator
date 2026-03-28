@@ -1,3 +1,6 @@
+All Entry Names: 
+   Argentinosaurus  x 3
+
 Engram Entries: 
    EngramEntry_Saddle_Argentino_Platform_C
    EngramEntry_Food_Argentino_Snack_C

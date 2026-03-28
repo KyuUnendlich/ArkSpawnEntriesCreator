@@ -1,3 +1,7 @@
+All Entry Names: 
+   Stygi  x 2
+   Stygi (1)  x 2
+
 Engram Entries: 
    EngramEntry_Saddle_Stygi_C
 

@@ -1,5 +1,11 @@
+All Entry Names: 
+   NULL  x 10
+
 Engram Entries: 
    EngramEntry_Saddle_Noxcalva_C
+
+Dino Entries: 
+   _Noxa_C
 
 Dino Additions: 
 Container Name: null

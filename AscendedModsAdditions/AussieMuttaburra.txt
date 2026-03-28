@@ -1,3 +1,15 @@
+All Entry Names: 
+   NULL  x 2
+   Mutaburra Canyons  x 1
+   Mutaburra Desert Oasis  x 1
+   Mutaburra Jungle  x 3
+   Mutaburra Jungle Generic  x 1
+   Mutaburra Oasis  x 1
+   Mutta CityCenter  x 1
+   Mutta Grassland  x 3
+   Mutta green desert  x 1
+   Mutta LC Valley Easy  x 1
+
 Engram Entries: 
    EngramEntry_Saddle_Mutta_C
 

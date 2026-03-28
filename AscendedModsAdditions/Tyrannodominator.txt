@@ -1,3 +1,11 @@
+All Entry Names: 
+   Badlands  x 3
+   Grasslands  x 6
+   Greenzone  x 3
+   Mountains  x 1
+   Snow  x 1
+   Waste  x 5
+
 Engram Entries: 
    EngramEntry_Saddle_Tyranno_C
    EngramEntry_Saddle_Tyranno_Arm_C

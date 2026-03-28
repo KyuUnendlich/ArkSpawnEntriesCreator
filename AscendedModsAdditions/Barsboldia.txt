@@ -1,3 +1,12 @@
+All Entry Names: 
+   Barsboldia Grassland  x 1
+   Barsboldia GreenDesert  x 2
+   Barsboldia Lava  x 1
+   Barsboldia LavaBeach  x 1
+   Barsboldia Mountain  x 1
+   Barsboldia Oasis  x 1
+   Barsboldia Snowy Mountain  x 1
+
 Engram Entries: 
    EngramEntry_Saddle_Barsboldia_C
    EngramEntry_Saddle_DarkedgeSaddle_C

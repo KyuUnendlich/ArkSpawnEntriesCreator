@@ -1,3 +1,6 @@
+All Entry Names: 
+   Cockatrice (1)  x 16
+
 Engram Entries: 
    EngramEntry_Saddle_Cockatrice_C
 

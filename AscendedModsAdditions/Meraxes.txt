@@ -1,3 +1,8 @@
+All Entry Names: 
+   Meraxes  x 1
+   Meraxes (1)  x 12
+   Meraxes One  x 5
+
 Engram Entries: 
    EngramEntry_CorruptedMeraxesSummoner_C
    EngramEntry_Meraxes_Chibi_C

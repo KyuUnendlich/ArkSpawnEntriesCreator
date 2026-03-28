@@ -1,3 +1,15 @@
+All Entry Names: 
+   NULL  x 2
+   Ab Diamantino Green  x 2
+   DIamantino GreenDesert  x 1
+   Diamantino Jungle  x 1
+   Diamantino Jungle Generic  x 1
+   DIamantino Oasis  x 1
+   Diamantino Redwoods  x 3
+   Extinction Center  x 1
+   Extinction Obelisk  x 1
+   LC Abberant Diaman  x 1
+
 Engram Entries: 
    EngramEntry_Saddle_Diamantino_C
    EngramEntry_Saddle_DiamantinoChest_C
@@ -28,9 +40,9 @@ Container Name: null
       Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: DIamantino Oasis
-      Main BP:                     "AssetPathName": "
+      Main BP: ScorchedNDiamantinasaurus_Character_BP_C
       Entry Weight: 0.015
-      Spawn Limit: 
+      Spawn Limit: 0.05
       Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: Ab Diamantino Green
@@ -94,11 +106,6 @@ Container Name: null
       Multi Spawn Chance: 1.0
 
 MultiParams Summary: 
-   Main BP:                     "AssetPathName": "
-      Entry Weight:                   0.015
-      Spawn Limit:                             
-      Multi Spawn Chance:                               1.0
-
    Main BP: AberrantNDiamantinasaurus_Character_BP_C
       Entry Weight:                   0.02
       Spawn Limit:                             0.025
@@ -137,6 +144,9 @@ MultiParams Summary:
       Multi Spawn Chance:                               1.0
 
    Main BP: ScorchedNDiamantinasaurus_Character_BP_C
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
       Entry Weight:                   0.015
       Spawn Limit:                             0.05
       Multi Spawn Chance:                               1.0

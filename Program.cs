@@ -45,9 +45,9 @@ namespace ArkSpawnEntriesCreator
 
         enum Mod
         {
-            Prehistoric1, /*Beasts*/                XyphMischoptera,                    ACEndemics, /*Aquaria*/             MarniiGriffins, /*Marnii   MULTIMAIN*/
-            Prehistoric2,                           XyphVetuli,                         ACAquaria, /*Addititio   2 Files*/  IslaNycta,
-            Prehistoric3,                           KamiFeral,                          AC2WildArk,                         PaddletailSpino, /*PSpino*/
+            Prehistoric1, /*Beasts*/                XyphMischoptera,                    ACEndemics, /*Endemics*/            MarniiGriffins, /*Marnii   MULTIMAIN*/
+            Prehistoric2,                           XyphVetuli,                         ACAquaria, /*Aquaria*/              IslaNycta,
+            Prehistoric3,                           KamiFeral,                          AC2WildArk, /*Addititio   2 Files*/ PaddletailSpino, /*PSpino*/
             Prehistoric4,                           TheSunkenWorld,                     FayeMenagerie, /*Menagerie*/        PolyOrycterocetus,
             Prehistoric5,                           NeoEuropa, /*Europa*/               AussieDiamantina, /*NickDiamant*/   DeimosShantungo,
             CyrusDrakonis,                          FerasDinocroc,                      AussieMuttaburra, /*NickMutta*/     AsharavelBestiary,
@@ -76,13 +76,13 @@ namespace ArkSpawnEntriesCreator
             PaleoNativeAquatics, /*PA_PLUS_01*/     ARKOSanguivern,                     Stegotetrabelodon, /*Steg*/
             PaleoRulersWastelands, /*PA_PLUS_02*/   ARKOHapipalus,                      StarSeahorse, /*RR_Seah   MULTIMAIN*/
             XyphCharnia,                            ARKODesolatitan,                    StarExoticAnimals, /*RR_Exo   MULTIMAIN*/
-            XyphDick,                               MoreWyverns, /*Forogotten*/         StarAnimals, /*RR_StarAnim   MULTIMAIN*/
-            XyphEnantiophoenix,                     Monolopho, /*BlazingNoxcalva*/      StarFarmAnimals, /*RR_Farm   MULTIMAIN*/
-            XyphMegistotherium,                     Noxcalva,                           OceaniaContent, /*AEM_Content*/
-            XyphMeiolania,                          RoyalArchaeopteryx, /*Endemics*/    AnomalyGalvarex,
+            XyphDick,                               MoreWyverns,                        StarAnimals, /*RR_StarAnim   MULTIMAIN*/
+            XyphEnantiophoenix,                     Monolopho, /*Forogotten*/           StarFarmAnimals, /*RR_Farm   MULTIMAIN*/
+            XyphMegistotherium,                     Noxcalva, /*BlazingNoxcalva*/       OceaniaContent, /*AEM_Content*/
+            XyphMeiolania,                          RoyalArchaeopteryx,                 AnomalyGalvarex,
         }
 
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/TACDaemonis.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/NeoStyraco.txt";
         const bool replaceFile = true;
         const bool multimain = false;
 
