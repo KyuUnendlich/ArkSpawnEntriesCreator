@@ -1,3 +1,6 @@
+All Entry Names: 
+   Skjaldastordr Snow  x 40
+
 Engram Entries: 
    EngramEntry_Saddle_Skjaldastordr_Ankylo_C
 

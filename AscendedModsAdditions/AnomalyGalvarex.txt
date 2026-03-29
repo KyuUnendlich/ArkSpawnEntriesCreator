@@ -1,8 +1,9 @@
+All Entry Names: 
+   Galvarex  x 5
+
 Engram Entries: 
    EngramEntry_Saddle_Galva_C
    EngramEntry_Transmutator_Galvarex_C
-   PrimalItemConsumable_Egg_Galvarex_C
-   PrimalItemConsumable_Egg_Galvarex_Fertilized_C
 
 Dino Entries: 
    Galvarex_C

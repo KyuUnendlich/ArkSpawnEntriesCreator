@@ -36,7 +36,7 @@ Container Name: null
 Global Entry Weights: 
    Main BP: Dinocrocuta_Character_BP_C
       SubBP: Dinocrocuta_Character_BP_C 98.0
-      SubBP: Meocrocuta_Character_BP_C 2.0
+      SubBP: MegaDinocrocuta_Character_BP_C 2.0
 
 MultiParams Summary: 
    Main BP: Dinocrocuta_Character_BP_C

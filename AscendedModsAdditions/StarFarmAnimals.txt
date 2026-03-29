@@ -1,11 +1,10 @@
+All Entry Names: 
+   NULL  x 8
+
 Engram Entries: 
    EngramEntry_RR_Saddle_StarCowBull_C
    EngramEntry_RR_Saddle_StarHorse_C
    EngramEntry_RR_Saddle_Pig_C
-   PrimalItemConsumable_Egg_RainbowStarChicken_C
-   PrimalItemConsumable_Egg_StarChicken_C
-   PrimalItemConsumable_Egg_RainbowStarChicken_Fertilized_C
-   PrimalItemConsumable_Egg_StarChicken_Fertilized_C
 
 Dino Entries: 
    RR_RainbowStarChicken_C

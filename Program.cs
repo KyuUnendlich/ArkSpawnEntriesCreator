@@ -60,7 +60,7 @@ namespace ArkSpawnEntriesCreator
             AtlasReborn,       /*MULTIMAIN*/        IsleSkyshroud, /*skysh  MULTIMAIN*/ Cockatrice,                         ArborealAdditions,
             AtlasFish,         /*2 Files*/          IsleOxalaia, /*IoMSpino*/           AA_Brachiosaurus, /*AABrachio*/     CrystalWyvernPort,
             MoroLivy,                               IsleSpearcrest, /*BSSpearcrest*/    AA_Acrocantho, /*AAAcro*/           MoroIndomitable,
-            MoroGigantophis,                        IsleSuchomimus, /*IsleOfMythsSucho*/Meraxes,
+            MoroGigantophis,                        IsleSuchomimus, /*IsleOfMythsSucho*/Meraxes,                            PaleoAscension,
             SulfurTitan, /*TitanSulfur*/            HorizonSuchomimus, /*Horizons*/     RunicWyverns,
             AA_Edmontonia, /* Edmontonia */         MoroTylo,                           NeoAurochs, /*Aurochs*/
             AA_Anomalocaris,                        MoroNotho,                          NeoStygi, /*Stygi*/
@@ -74,7 +74,7 @@ namespace ArkSpawnEntriesCreator
             PaleoDangerousDepths, /*PA_EVO_02*/     TACBastionBeetle,                   CliffansCritters,
             PaleoHardHittingHerbivores,/*PA_EVO_03*/Tyrannodominator,                   HuskyWolf,
             PaleoNativeAquatics, /*PA_PLUS_01*/     ARKOSanguivern,                     Stegotetrabelodon, /*Steg*/
-            PaleoRulersWastelands, /*PA_PLUS_02*/   ARKOHapipalus,                      StarSeahorse, /*RR_Seah   MULTIMAIN*/
+            PaleoRulersWastelands, /*PA_PLUS_02*/   ARKOHapipalus,                      Gingerpithecus, 
             XyphCharnia,                            ARKODesolatitan,                    StarExoticAnimals, /*RR_Exo   MULTIMAIN*/
             XyphDick,                               MoreWyverns,                        StarAnimals, /*RR_StarAnim   MULTIMAIN*/
             XyphEnantiophoenix,                     Monolopho, /*Forogotten*/           StarFarmAnimals, /*RR_Farm   MULTIMAIN*/
@@ -82,7 +82,7 @@ namespace ArkSpawnEntriesCreator
             XyphMeiolania,                          RoyalArchaeopteryx,                 AnomalyGalvarex,
         }
 
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/NeoStyraco.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/PaleoAscension.txt";
         const bool replaceFile = true;
         const bool multimain = false;
 

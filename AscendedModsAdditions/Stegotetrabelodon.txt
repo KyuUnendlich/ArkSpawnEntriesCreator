@@ -1,3 +1,8 @@
+All Entry Names: 
+   StegSpawnDune  x 1
+   StegSpawnScot  x 1
+   StegSpawnTundra  x 1
+
 Engram Entries: 
    EngramEntry_TetraSaddle_C
    EngramEntry_Trebuchet_C

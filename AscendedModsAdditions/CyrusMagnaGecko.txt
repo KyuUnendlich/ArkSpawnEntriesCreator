@@ -1,3 +1,10 @@
+All Entry Names: 
+   GeckoDunes  x 1
+   GeckoGrassland  x 1
+   GeckoSpawnBeach  x 2
+   GeckoSpawnCanyon  x 1
+   GeckoSpawnJungle  x 1
+
 Engram Entries: 
    EngramEntry_ChibiGecko_C
    EngramEntry_GeckoDossier_C

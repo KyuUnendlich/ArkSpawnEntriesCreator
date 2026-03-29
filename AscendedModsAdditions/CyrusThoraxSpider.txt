@@ -1,8 +1,21 @@
+All Entry Names: 
+   SpiderSpawnBioCave  x 1
+   SpiderSpawnBioLand  x 1
+   SpiderSpawnCity  x 3
+   SpiderSpawnDrake  x 1
+   SpiderSpawnDune  x 1
+   SpiderSpawnEleCave  x 1
+   SpiderSpawnGrass  x 1
+   SpiderSpawnJungle2  x 1
+   SpiderSpawnMega  x 1
+   SpiderSpawnRed  x 1
+   SpiderSpawnSnow  x 1
+   SpiderSpawnYILING  x 1
+
 Engram Entries: 
    EngramEntry_ChitinShield_C
    EngramEntry_SpiderFood_C
    EngramEntry_ThoraxSaddle_C
-   PrimalItemConsumable_Egg_Thorax_Fertilized_C
 
 Dino Entries: 
    Thorax_C

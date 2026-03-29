@@ -1,3 +1,9 @@
+All Entry Names: 
+   Carcha (1)  x 1
+   Owl Griffin  x 4
+   Royal Owl Griffin  x 3
+   Royal Owl Griffin Glowing  x 1
+
 Engram Entries: 
    EngramEntry_Saddle_MM_Owlgriffin_C
 

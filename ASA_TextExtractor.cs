@@ -181,7 +181,7 @@ namespace ArkSpawnEntriesCreator
             {
                 string text = reader.ReadLine();
 
-                if (text.Contains("Remap_NPC") || text.Contains("RemapAdditions\":"))
+                if (text.Contains("Remap_NPC") || text.Contains("RemapAdditions\":") || text.Contains("GlobalNPCRandomPaleoSpawnClassWeights\": ["))
                 {
                     readingRemaps = true;
                 }
@@ -221,7 +221,7 @@ namespace ArkSpawnEntriesCreator
                     weightsTemp += text.Replace(" ", "") + " ";
                 }
 
-                if (!weights && text.Contains("\"Weights\": ["))
+                if (!weights && text.Contains("\"Weights"))
                 {
                     weights = true;
                 }
@@ -247,7 +247,7 @@ namespace ArkSpawnEntriesCreator
                 }
 
                 //Searching for beginning of additions
-                if (text.Contains("TheNPCSpawnEntriesContainerAdditions") || text.Contains("GlobalNPCRandomSpawnClassWeights"))
+                if (text.Contains("TheNPCSpawnEntriesContainerAdditions") || text.Contains("GlobalNPCRandomSpawnClassWeights") || text.Contains("ClassLoadedNPCRandomReplacements\": ["))
                 {
                     readingRemaps = false;
                 }

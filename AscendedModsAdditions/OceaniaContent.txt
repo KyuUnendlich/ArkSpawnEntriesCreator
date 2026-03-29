@@ -1,3 +1,15 @@
+All Entry Names: 
+   Ab Kronos  x 1
+   AbKrono  x 2
+   AbKronos  x 2
+   ABKronos  x 2
+   Baculite  x 14
+   Brachyura  x 7
+   Bubblefish  x 18
+   Dugong  x 4
+   Kronos  x 5
+   Medichelon  x 15
+
 Engram Entries: 
    EngramEntry_Saddle_Krono_C
    EngramEntry_Saddle_Archelon_AEM_C

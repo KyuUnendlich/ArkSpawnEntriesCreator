@@ -1,3 +1,7 @@
+All Entry Names: 
+   Gargant_Spino  x 2
+   Gargant_Spino_AB  x 1
+
 Engram Entries: 
    EngramEntry_SaddleEX_EXSpino_C
    EngramEntry_Saddle_EXSpino_C

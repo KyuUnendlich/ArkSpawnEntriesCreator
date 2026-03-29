@@ -1,0 +1,14 @@
+Dino Entries: 
+   Monkey_C
+
+
+Global Entry Weights: 
+   Main BP: Monkey_Character_BP_C
+      SubBP: Monkey_Character_BP_C 0.9
+      SubBP: Gingerpithecus_Character_BP_C 0.5
+   Main BP: Pegomastax_Character_BP_C
+      SubBP: Pegomastax_Character_BP_C 0.8
+      SubBP: Gingerpithecus_Character_BP_C 0.3
+   Main BP: Ichthyornis_Character_BP_C
+      SubBP: Ichthyornis_Character_BP_C 0.6
+      SubBP: Gingerpithecus_Character_BP_C 0.4

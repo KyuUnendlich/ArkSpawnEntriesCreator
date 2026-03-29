@@ -1,3 +1,14 @@
+All Entry Names: 
+   NormalRedpangaRag  x 1
+   RedpandaJungle  x 1
+   RedpandaJungleRag  x 1
+   RedpandaJungleRed  x 1
+   RedpandaRag  x 1
+   RedpandaRedwoods  x 1
+   RedpandaSnow  x 1
+   Redpandasnowrag  x 1
+   RedpandaVal  x 1
+
 Engram Entries: 
    EngramEntry_Redpandafood_C
    EngramEntry_RedpandaChibi_C

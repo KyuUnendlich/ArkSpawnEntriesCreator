@@ -1,3 +1,6 @@
+All Entry Names: 
+   PaddleSwimmer (1)  x 7
+
 Engram Entries: 
    EngramEntry_Saddle_PSpino_C
 

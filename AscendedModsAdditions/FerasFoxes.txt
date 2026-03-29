@@ -1,5 +1,8 @@
 All Entry Names: 
-   NULL  x 20
+   NULL  x 14
+
+Engram Entries: 
+   EngramEntry_ArcticFoxSaddle_C
 
 Dino Entries: 
    GreatArcticFox_C
@@ -9,67 +12,62 @@ Dino Additions:
 Container Name: null
    Entry Name: 
       Main BP: GreatArcticfox_Character_BP_C
-      Entry Weight: 0.05
-      Spawn Limit: 
-      Multi Spawn Chance: 80.0-20.0
-Container Name: null
-   Entry Name: 
-      Main BP: GreatArcticfox_Character_BP_C
-      Entry Weight: 0.05
+      Entry Weight: 0.08
       Spawn Limit: 
       Multi Spawn Chance: 
+   Entry Name: 
+      Main BP: ArcticFox_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.25
 Container Name: null
    Entry Name: 
       Main BP: GreatArcticfox_Character_BP_C
-      Entry Weight: 0.05
+      Entry Weight: 0.08
       Spawn Limit: 
       Multi Spawn Chance: 
+   Entry Name: 
+      Main BP: ArcticFox_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.25
 Container Name: null
    Entry Name: 
       Main BP: GreatArcticfox_Character_BP_C
-      Entry Weight: 0.05
+      Entry Weight: 0.08
       Spawn Limit: 
       Multi Spawn Chance: 
+   Entry Name: 
+      Main BP: ArcticFox_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.25
 Container Name: null
    Entry Name: 
       Main BP: GreatArcticfox_Character_BP_C
-      Entry Weight: 0.05
+      Entry Weight: 0.08
       Spawn Limit: 
       Multi Spawn Chance: 
+   Entry Name: 
+      Main BP: ArcticFox_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.25
 Container Name: null
    Entry Name: 
       Main BP: GreatArcticfox_Character_BP_C
-      Entry Weight: 0.05
+      Entry Weight: 0.08
       Spawn Limit: 
       Multi Spawn Chance: 
-Container Name: null
    Entry Name: 
-      Main BP: GreatArcticfox_Character_BP_C
-      Entry Weight: 0.05
+      Main BP: ArcticFox_Character_BP_C
+      Entry Weight: 1.0
       Spawn Limit: 
-      Multi Spawn Chance: 
+      Multi Spawn Chance: 1.0-0.25
 Container Name: null
    Entry Name: 
       Main BP: GreatArcticfox_Character_BP_C
-      Entry Weight: 0.05
-      Spawn Limit: 
-      Multi Spawn Chance: 
-Container Name: null
-   Entry Name: 
-      Main BP: GreatArcticfox_Character_BP_C
-      Entry Weight: 0.05
-      Spawn Limit: 
-      Multi Spawn Chance: 
-Container Name: null
-   Entry Name: 
-      Main BP: GreatArcticfox_Character_BP_C
-      Entry Weight: 0.05
-      Spawn Limit: 
-      Multi Spawn Chance: 
-Container Name: null
-   Entry Name: 
-      Main BP: GreatArcticfox_Character_BP_C
-      Entry Weight: 0.05
+      Entry Weight: 0.08
       Spawn Limit: 
       Multi Spawn Chance: 
    Entry Name: 
@@ -89,38 +87,14 @@ Container Name: null
       Spawn Limit: 
       Multi Spawn Chance: 1.0-0.25
 Container Name: null
-   Entry Name: 
-      Main BP: GreatArcticfox_Character_BP_C
-      Entry Weight: 0.05
-      Spawn Limit: 
-      Multi Spawn Chance: 
-   Entry Name: 
-      Main BP: ArcticFox_Character_BP_C
-      Entry Weight: 1.0
-      Spawn Limit: 
-      Multi Spawn Chance: 1.0-0.25
-Container Name: null
-   Entry Name: 
-      Main BP: GreatArcticfox_Character_BP_C
-      Entry Weight: 0.05
-      Spawn Limit: 
-      Multi Spawn Chance: 
-   Entry Name: 
-      Main BP: ArcticFox_Character_BP_C
-      Entry Weight: 1.0
-      Spawn Limit: 
-      Multi Spawn Chance: 1.0-0.25
-Container Name: null
-   Entry Name: 
-      Main BP: GreatArcticfox_Character_BP_C
-      Entry Weight: 0.05
-      Spawn Limit: 
-      Multi Spawn Chance: 
-   Entry Name: 
-      Main BP: ArcticFox_Character_BP_C
-      Entry Weight: 1.0
-      Spawn Limit: 
-      Multi Spawn Chance: 1.0-0.25
+
+Global Entry Weights: 
+   Main BP: ArcticFox_Character_BP_C
+      SubBP: ArcticFox_Character_BP_C 0.99
+      SubBP: MegaGreatArcticfox_Character_BP_C 0.01
+   Main BP: GreatArcticfox_Character_BP_C
+      SubBP: GreatArcticfox_Character_BP_C 0.95
+      SubBP: MegaGreatArcticfox_Character_BP_C 0.05
 
 MultiParams Summary: 
    Main BP: ArcticFox_Character_BP_C
@@ -139,48 +113,30 @@ MultiParams Summary:
       Entry Weight:                   1.0
       Spawn Limit:                             
       Multi Spawn Chance:                               1.0-0.25
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.25
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.25
 
    Main BP: GreatArcticfox_Character_BP_C
-      Entry Weight:                   0.05
-      Spawn Limit:                             
-      Multi Spawn Chance:                               80.0-20.0
-      Entry Weight:                   0.05
+      Entry Weight:                   0.08
       Spawn Limit:                             
       Multi Spawn Chance:                               
-      Entry Weight:                   0.05
+      Entry Weight:                   0.08
       Spawn Limit:                             
       Multi Spawn Chance:                               
-      Entry Weight:                   0.05
+      Entry Weight:                   0.08
       Spawn Limit:                             
       Multi Spawn Chance:                               
-      Entry Weight:                   0.05
+      Entry Weight:                   0.08
       Spawn Limit:                             
       Multi Spawn Chance:                               
-      Entry Weight:                   0.05
+      Entry Weight:                   0.08
       Spawn Limit:                             
       Multi Spawn Chance:                               
-      Entry Weight:                   0.05
-      Spawn Limit:                             
-      Multi Spawn Chance:                               
-      Entry Weight:                   0.05
-      Spawn Limit:                             
-      Multi Spawn Chance:                               
-      Entry Weight:                   0.05
-      Spawn Limit:                             
-      Multi Spawn Chance:                               
-      Entry Weight:                   0.05
-      Spawn Limit:                             
-      Multi Spawn Chance:                               
-      Entry Weight:                   0.05
-      Spawn Limit:                             
-      Multi Spawn Chance:                               
-      Entry Weight:                   0.05
-      Spawn Limit:                             
-      Multi Spawn Chance:                               
-      Entry Weight:                   0.05
-      Spawn Limit:                             
-      Multi Spawn Chance:                               
-      Entry Weight:                   0.05
+      Entry Weight:                   0.08
       Spawn Limit:                             
       Multi Spawn Chance:                               
       Entry Weight:                   0.05

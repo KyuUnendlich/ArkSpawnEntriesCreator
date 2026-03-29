@@ -1,9 +1,11 @@
+All Entry Names: 
+   Nycta Echdine  x 2
+   Nycta Echidne  x 8
+   Nycta Imperator  x 9
+   Nycta Rex  x 8
+
 Engram Entries: 
    EngramEntry_Saddle_Nycta_C
-   PrimalItemConsumable_Egg_Nycta_C
-   PrimalItemConsumable_Egg_Nycta_Echidne_Fertilized_C
-   PrimalItemConsumable_Egg_Nycta_Imperator_Fertilized_C
-   PrimalItemConsumable_Egg_Nycta_Rex_Fertilized_C
 
 Dino Entries: 
    Nycta_C
