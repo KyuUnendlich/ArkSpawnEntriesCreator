@@ -30,558 +30,549 @@ Engram Entries:
 ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT Remaps: 
       
 FromClass: 
-      Allo_Character_BP_C
+      /Game/PrimalEarth/Dinos/Allosaurus/Allo_Character_BP.Allo_Character_BP_C
 ToClass: 
-      Allo_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Allo/Allo_Character_BP_Shad.Allo_Character_BP_Shad_C
       
 FromClass: 
-      Argent_Character_BP_C
+      /Game/PrimalEarth/Dinos/Argentavis/Argent_Character_BP.Argent_Character_BP_C
 ToClass: 
-      Argent_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Argent/Argent_Character_BP_Shad.Argent_Character_BP_Shad_C
       
 FromClass: 
-      Baryonyx_Character_BP_C
+      /Game/PrimalEarth/Dinos/Baryonyx/Baryonyx_Character_BP.Baryonyx_Character_BP_C
 ToClass: 
-      Baryonyx_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Baryonyx/Baryonyx_Character_BP_Shad.Baryonyx_Character_BP_Shad_C
       
 FromClass: 
-      Bat_Character_BP_C
+      /Game/PrimalEarth/Dinos/Bat/Bat_Character_BP.Bat_Character_BP_C
 ToClass: 
-      Bat_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Bat/Bat_Character_BP_Shad.Bat_Character_BP_Shad_C
       
 FromClass: 
-      Direwolf_Character_BP_C
+      /Game/PrimalEarth/Dinos/Direwolf/Direwolf_Character_BP.Direwolf_Character_BP_C
 ToClass: 
-      Direwolf_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Direwolf/Direwolf_Character_BP_Shad.Direwolf_Character_BP_Shad_C
       
 FromClass: 
-      Dunkle_Character_BP_C
+      /Game/PrimalEarth/Dinos/Dunkleosteus/Dunkle_Character_BP.Dunkle_Character_BP_C
 ToClass: 
-      Dunkle_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Dunkle/Dunkle_Character_BP_Shad.Dunkle_Character_BP_Shad_C
       
 FromClass: 
-      Megatherium_Character_BP_C
+      /Game/PrimalEarth/Dinos/Megatherium/Megatherium_Character_BP.Megatherium_Character_BP_C
 ToClass: 
-      Megatherium_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Megatherium/Megatherium_Character_BP_Shad.Megatherium_Character_BP_Shad_C
       
 FromClass: 
-      Pela_Character_BP_C
+      /Game/PrimalEarth/Dinos/Pelagornis/Pela_Character_BP.Pela_Character_BP_C
 ToClass: 
-      Pela_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Pelagornis/Pela_Character_BP_Shad.Pela_Character_BP_Shad_C
       
 FromClass: 
-      Piranha_Character_BP_C
+      /Game/PrimalEarth/Dinos/Piranha/Piranha_Character_BP.Piranha_Character_BP_C
 ToClass: 
-      Piranha_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Piranha/Piranha_Character_BP_Shad.Piranha_Character_BP_Shad_C
       
 FromClass: 
-      Ptero_Character_BP_C
+      /Game/PrimalEarth/Dinos/Ptero/Ptero_Character_BP.Ptero_Character_BP_C
 ToClass: 
-      Ptero_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Ptero/Ptero_Character_BP_Shad.Ptero_Character_BP_Shad_C
       
 FromClass: 
-      Quetz_Character_BP_C
+      /Game/PrimalEarth/Dinos/Quetzalcoatlus/Quetz_Character_BP.Quetz_Character_BP_C
 ToClass: 
-      Quetz_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Quetz/Quetz_Character_BP_Shad.Quetz_Character_BP_Shad_C
       
 FromClass: 
-      Rhynio_Character_BP_C
+      /Game/PrimalEarth/Dinos/Rhyniognatha/Rhynio_Character_BP.Rhynio_Character_BP_C
 ToClass: 
-      Rhynio_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Rhynio/Rhynio_Character_BP_Shad.Rhynio_Character_BP_Shad_C
       
 FromClass: 
-      Saber_Character_BP_C
+      /Game/PrimalEarth/Dinos/Saber/Saber_Character_BP.Saber_Character_BP_C
 ToClass: 
-      Saber_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Saber/Saber_Character_BP_Shad.Saber_Character_BP_Shad_C
       
 FromClass: 
-      Stego_Character_BP_C
+      /Game/PrimalEarth/Dinos/Stego/Stego_Character_BP.Stego_Character_BP_C
 ToClass: 
-      Stego_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Stego/Stego_Character_BP_Shad.Stego_Character_BP_Shad_C
       
 FromClass: 
-      Tapejara_Character_BP_C
+      /Game/PrimalEarth/Dinos/Tapejara/Tapejara_Character_BP.Tapejara_Character_BP_C
 ToClass: 
-      Tapejara_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Tapejara/Tapejara_Character_BP_Shad.Tapejara_Character_BP_Shad_C
       
 FromClass: 
-      Therizino_Character_BP_C
+      /Game/PrimalEarth/Dinos/Therizinosaurus/Therizino_Character_BP.Therizino_Character_BP_C
 ToClass: 
-      Therizino_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Theri/Therizino_Character_BP_Shad.Therizino_Character_BP_Shad_C
       
 FromClass: 
-      Thylacoleo_Character_BP_C
+      /Game/PrimalEarth/Dinos/Thylacoleo/Thylacoleo_Character_BP.Thylacoleo_Character_BP_C
 ToClass: 
-      Thylacoleo_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Thyla/Thylacoleo_Character_BP_Shad.Thylacoleo_Character_BP_Shad_C
       
 FromClass: 
-      Trike_Character_BP_C
+      /Game/PrimalEarth/Dinos/Trike/Trike_Character_BP.Trike_Character_BP_C
 ToClass: 
-      Trike_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Trike/Trike_Character_BP_Shad.Trike_Character_BP_Shad_C
       
 FromClass: 
-      Yutyrannus_Character_BP_C
+      /Game/PrimalEarth/Dinos/Yutyrannus/Yutyrannus_Character_BP.Yutyrannus_Character_BP_C
 ToClass: 
-      Yutyrannus_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Yuty/Yutyrannus_Character_BP_Shad.Yutyrannus_Character_BP_Shad_C
       
 FromClass: 
-      Plesiosaur_Character_BP_C
+      /Game/PrimalEarth/Dinos/Plesiosaur/Plesiosaur_Character_BP.Plesiosaur_Character_BP_C
 ToClass: 
-      Plesiosaur_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Plesiosaur/Plesiosaur_Character_BP_Shad.Plesiosaur_Character_BP_Shad_C
       
 FromClass: 
-      Ankylo_Character_BP_C
+      /Game/PrimalEarth/Dinos/Ankylo/Ankylo_Character_BP.Ankylo_Character_BP_C
 ToClass: 
-      Ankylo_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Ankylo/Ankylo_Character_BP_Shad.Ankylo_Character_BP_Shad_C
       
 FromClass: 
-      Pachy_Character_BP_C
+      /Game/PrimalEarth/Dinos/Pachy/Pachy_Character_BP.Pachy_Character_BP_C
 ToClass: 
-      Pachy_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Pachy/Pachy_Character_BP_Shad.Pachy_Character_BP_Shad_C
       
 FromClass: 
-      Diplodocus_Character_BP_C
+      /Game/PrimalEarth/Dinos/Diplodocus/Diplodocus_Character_BP.Diplodocus_Character_BP_C
 ToClass: 
-      Diplodocus_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Diplo/Diplodocus_Character_BP_Shad.Diplodocus_Character_BP_Shad_C
       
 FromClass: 
-      Doed_Character_BP_C
+      /Game/PrimalEarth/Dinos/Doedicurus/Doed_Character_BP.Doed_Character_BP_C
 ToClass: 
-      Doed_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Doed/Doed_Character_BP_Shad.Doed_Character_BP_Shad_C
       
 FromClass: 
-      Gigant_Character_BP_C
+      /Game/PrimalEarth/Dinos/Giganotosaurus/Gigant_Character_BP.Gigant_Character_BP_C
 ToClass: 
-      Gigant_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Giga/Gigant_Character_BP_Shad.Gigant_Character_BP_Shad_C
       
 FromClass: 
-      DungBeetle_Character_BP_C
+      /Game/PrimalEarth/Dinos/DungBeetle/DungBeetle_Character_BP.DungBeetle_Character_BP_C
 ToClass: 
-      DungBeetle_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/DungBeetle/DungBeetle_Character_BP_Shad.DungBeetle_Character_BP_Shad_C
       
 FromClass: 
-      Paracer_Character_BP_C
+      /Game/PrimalEarth/Dinos/Paraceratherium/Paracer_Character_BP.Paracer_Character_BP_C
 ToClass: 
-      Paracer_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Paracer/Paracer_Character_BP_Shad.Paracer_Character_BP_Shad_C
       
 FromClass: 
-      Mammoth_Character_BP_C
+      /Game/PrimalEarth/Dinos/Mammoth/Mammoth_Character_BP.Mammoth_Character_BP_C
 ToClass: 
-      Mammoth_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Mammoth/Mammoth_Character_BP_Shad.Mammoth_Character_BP_Shad_C
       
 FromClass: 
-      Basilosaurus_Character_BP_C
+      /Game/PrimalEarth/Dinos/Basilosaurus/Basilosaurus_Character_BP.Basilosaurus_Character_BP_C
 ToClass: 
-      Basilosaurus_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Basilo/Basilosaurus_Character_BP_Shad.Basilosaurus_Character_BP_Shad_C
       
 FromClass: 
-      Manta_Character_BP_C
+      /Game/PrimalEarth/Dinos/Manta/Manta_Character_BP.Manta_Character_BP_C
 ToClass: 
-      Manta_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Manta/Manta_Character_BP_Shad.Manta_Character_BP_Shad_C
       
 FromClass: 
-      Moth_Character_BP_C
+      /Game/ScorchedEarth/Dinos/Moth/Moth_Character_BP.Moth_Character_BP_C
 ToClass: 
-      Moth_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Lymantria/Moth_Character_BP_Shad.Moth_Character_BP_Shad_C
       
 FromClass: 
-      Mantis_Character_BP_C
+      /Game/ScorchedEarth/Dinos/Mantis/Mantis_Character_BP.Mantis_Character_BP_C
 ToClass: 
-      Mantis_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Mantis/Mantis_Character_BP_Shad.Mantis_Character_BP_Shad_C
       
 FromClass: 
-      SpineyLizard_Character_BP_C
+      /Game/ScorchedEarth/Dinos/SpineyLizard/SpineyLizard_Character_BP.SpineyLizard_Character_BP_C
 ToClass: 
-      SpineyLizard_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/ThornyDragon/SpineyLizard_Character_BP_Shad.SpineyLizard_Character_BP_Shad_C
       
 FromClass: 
-      Wyvern_Character_BP_Fire_C
+      /Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Fire.Wyvern_Character_BP_Fire_C
 ToClass: 
-      Wyvern_Character_BP_Fire_Shad_C
+      /ShadsCritterReworks/Content/Wyvern/Wyvern_Character_BP_Fire_Shad.Wyvern_Character_BP_Fire_Shad_C
       
 FromClass: 
-      Wyvern_Character_BP_Poison_C
+      /Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Poison.Wyvern_Character_BP_Poison_C
 ToClass: 
-      Wyvern_Character_BP_Poison_Shad_C
+      /ShadsCritterReworks/Content/Wyvern/Wyvern_Character_BP_Poison_Shad.Wyvern_Character_BP_Poison_Shad_C
       
 FromClass: 
-      Wyvern_Character_BP_Lightning_C
+      /Game/ScorchedEarth/Dinos/Wyvern/Wyvern_Character_BP_Lightning.Wyvern_Character_BP_Lightning_C
 ToClass: 
-      Wyvern_Character_BP_Lightning_Shad_C
+      /ShadsCritterReworks/Content/Wyvern/Wyvern_Character_BP_Lightning_Shad.Wyvern_Character_BP_Lightning_Shad_C
       
 FromClass: 
-      Fasola_Character_BP_C
+      /Game/ASA/Dinos/Fasolasuchus/Fasola_Character_BP.Fasola_Character_BP_C
 ToClass: 
-      Fasola_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Fasola/Fasola_Character_BP_Shad.Fasola_Character_BP_Shad_C
       
 FromClass: 
-      Kaprosuchus_Character_BP_C
+      /Game/PrimalEarth/Dinos/Kaprosuchus/Kaprosuchus_Character_BP.Kaprosuchus_Character_BP_C
 ToClass: 
-      Kaprosuchus_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Kaprosuchus/Kaprosuchus_Character_BP_Shad.Kaprosuchus_Character_BP_Shad_C
       
 FromClass: 
-      TerrorBird_Character_BP_C
+      /Game/PrimalEarth/Dinos/TerrorBird/TerrorBird_Character_BP.TerrorBird_Character_BP_C
 ToClass: 
-      TerrorBird_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/TerrorBird/TerrorBird_Character_BP_Shad.TerrorBird_Character_BP_Shad_C
       
 FromClass: 
-      Gigantoraptor_Character_BP_C
+      /Game/ASA/Dinos/Gigantoraptor/Gigantoraptor_Character_BP.Gigantoraptor_Character_BP_C
 ToClass: 
-      Gigantoraptor_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Gigantoraptor/Gigantoraptor_Character_BP_Shad.Gigantoraptor_Character_BP_Shad_C
       
 FromClass: 
-      Xiphactinus_Character_BP_ASA_C
+      /Game/ASA/Dinos/Xiphactinus/Dinos/Xiphactinus_Character_BP_ASA.Xiphactinus_Character_BP_ASA_C
 ToClass: 
-      Xiphactinus_Character_BP_ASA_Shad_C
+      /ShadsCritterReworks/Content/Xiphactinus/Xiphactinus_Character_BP_ASA_Shad.Xiphactinus_Character_BP_ASA_Shad_C
       
 FromClass: 
-      Ceratosaurus_Character_BP_ASA_C
+      /Game/ASA/Dinos/Ceratosaurus/Dinos/Ceratosaurus_Character_BP_ASA.Ceratosaurus_Character_BP_ASA_C
 ToClass: 
-      Ceratosaurus_Character_BP_ASA_Shad_C
+      /ShadsCritterReworks/Content/Cerato/Ceratosaurus_Character_BP_ASA_Shad.Ceratosaurus_Character_BP_ASA_Shad_C
       
 FromClass: 
-      FireLion_Character_BP_C
+      /Game/ASA/Dinos/FireLion/FireLion_Character_BP.FireLion_Character_BP_C
 ToClass: 
-      FireLion_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Pyromane/FireLion_Character_BP_Shad.FireLion_Character_BP_Shad_C
       
 FromClass: 
-      DeinosuchusASA_Character_BP_C
+      /Game/ASA/Dinos/Deinosuchus/DeinosuchusASA_Character_BP.DeinosuchusASA_Character_BP_C
 ToClass: 
-      DeinosuchusASA_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Deinosuchus/DeinosuchusASA_Character_BP_Shad.DeinosuchusASA_Character_BP_Shad_C
       
 FromClass: 
-      Bigfoot_Character_BP_C
+      /Game/PrimalEarth/Dinos/Bigfoot/Bigfoot_Character_BP.Bigfoot_Character_BP_C
 ToClass: 
-      Bigfoot_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Bigfoot/Bigfoot_Character_BP_Shad.Bigfoot_Character_BP_Shad_C
       
 FromClass: 
-      Yeti_Character_BP_C
+      /Game/PrimalEarth/Dinos/Bigfoot/Yeti_Character_BP.Yeti_Character_BP_C
 ToClass: 
-      Yeti_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Bigfoot/Yeti/Yeti_Character_BP_Shad.Yeti_Character_BP_Shad_C
       
 FromClass: 
-      Sauropod_Character_BP_C
+      /Game/PrimalEarth/Dinos/Sauropod/Sauropod_Character_BP.Sauropod_Character_BP_C
 ToClass: 
-      Sauropod_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Bronto/Sauropod_Character_BP_Shad.Sauropod_Character_BP_Shad_C
       
 FromClass: 
-      Oviraptor_Character_BP_C
+      /Game/PrimalEarth/Dinos/Oviraptor/Oviraptor_Character_BP.Oviraptor_Character_BP_C
 ToClass: 
-      Oviraptor_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Oviraptor/Oviraptor_Character_BP_Shad.Oviraptor_Character_BP_Shad_C
       
 FromClass: 
-      RockDrake_Character_BP_C
+      /Game/Aberration/Dinos/RockDrake/RockDrake_Character_BP.RockDrake_Character_BP_C
 ToClass: 
-      RockDrake_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/RockDrake/RockDrake_Character_BP_Shad.RockDrake_Character_BP_Shad_C
       
 FromClass: 
-      CaveWolf_Character_BP_C
+      /Game/Aberration/Dinos/CaveWolf/CaveWolf_Character_BP.CaveWolf_Character_BP_C
 ToClass: 
-      CaveWolf_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Ravager/CaveWolf_Character_BP_Shad.CaveWolf_Character_BP_Shad_C
       
 FromClass: 
-      YiLing_Character_BP_C
+      /Game/ASA/Dinos/YiLing/YiLing_Character_BP.YiLing_Character_BP_C
 ToClass: 
-      YiLing_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/YiLing/YiLing_Character_BP_Shad.YiLing_Character_BP_Shad_C
       
 FromClass: 
-      Ankylo_Character_BP_Aberrant_C
+      /Game/PrimalEarth/Dinos/Ankylo/Ankylo_Character_BP_Aberrant.Ankylo_Character_BP_Aberrant_C
 ToClass: 
-      Ankylo_Character_BP_Aberrant_Shad_C
+      /ShadsCritterReworks/Content/Ankylo/Ankylo_Character_BP_Aberrant_Shad.Ankylo_Character_BP_Aberrant_Shad_C
       
 FromClass: 
-      Baryonyx_Character_BP_Aberrant_C
+      /Game/PrimalEarth/Dinos/Baryonyx/Baryonyx_Character_BP_Aberrant.Baryonyx_Character_BP_Aberrant_C
 ToClass: 
-      Baryonyx_Character_BP_Aberrant_Shad_C
+      /ShadsCritterReworks/Content/Baryonyx/Baryonyx_Character_BP_Aberrant_Shad.Baryonyx_Character_BP_Aberrant_Shad_C
       
 FromClass: 
-      Bigfoot_Character_BP_Aberrant_C
+      /Game/PrimalEarth/Dinos/Bigfoot/Bigfoot_Character_BP_Aberrant.Bigfoot_Character_BP_Aberrant_C
 ToClass: 
-      Bigfoot_Character_BP_Aberrant_Shad_C
+      /ShadsCritterReworks/Content/Bigfoot/Bigfoot_Character_BP_Aberrant_Shad.Bigfoot_Character_BP_Aberrant_Shad_C
       
 FromClass: 
-      Carno_Character_BP_Aberrant_C
+      /Game/PrimalEarth/Dinos/Carno/Carno_Character_BP_Aberrant.Carno_Character_BP_Aberrant_C
 ToClass: 
-      Carno_Character_BP_Aberrant_Shad_C
+      /ShadsCritterReworks/Content/Carno/Carno_Character_BP_Aberrant_Shad.Carno_Character_BP_Aberrant_Shad_C
       
 FromClass: 
-      Diplodocus_Character_BP_Aberrant_C
+      /Game/PrimalEarth/Dinos/Diplodocus/Diplodocus_Character_BP_Aberrant.Diplodocus_Character_BP_Aberrant_C
 ToClass: 
-      Diplodocus_Character_BP_Aberrant_Shad_C
+      /ShadsCritterReworks/Content/Diplo/Diplodocus_Character_BP_Aberrant_Shad.Diplodocus_Character_BP_Aberrant_Shad_C
       
 FromClass: 
-      Doed_Character_BP_Aberrant_C
+      /Game/PrimalEarth/Dinos/Doedicurus/Doed_Character_BP_Aberrant.Doed_Character_BP_Aberrant_C
 ToClass: 
-      Doed_Character_BP_Aberrant_Shad_C
+      /ShadsCritterReworks/Content/Doed/Doed_Character_BP_Aberrant_Shad.Doed_Character_BP_Aberrant_Shad_C
       
 FromClass: 
-      DungBeetle_Character_BP_Aberrant_C
+      /Game/PrimalEarth/Dinos/DungBeetle/DungBeetle_Character_BP_Aberrant.DungBeetle_Character_BP_Aberrant_C
 ToClass: 
-      DungBeetle_Character_BP_Aberrant_Shad_C
+      /ShadsCritterReworks/Content/DungBeetle/DungBeetle_Character_BP_Aberrant_Shad.DungBeetle_Character_BP_Aberrant_Shad_C
       
 FromClass: 
-      Fasola_Character_BP_Aberrant_C
+      /Game/ASA/Dinos/Fasolasuchus/Fasola_Character_BP_Aberrant.Fasola_Character_BP_Aberrant_C
 ToClass: 
-      Fasola_Character_BP_Aberrant_Shad_C
+      /ShadsCritterReworks/Content/Fasola/Fasola_Character_BP_Aberrant_Shad.Fasola_Character_BP_Aberrant_Shad_C
       
 FromClass: 
-      Gigantoraptor_Character_BP_Aberrant_C
+      /Game/ASA/Dinos/Gigantoraptor/Gigantoraptor_Character_BP_Aberrant.Gigantoraptor_Character_BP_Aberrant_C
 ToClass: 
-      Gigantoraptor_Character_BP_Aberrant_Shad_C
+      /ShadsCritterReworks/Content/Gigantoraptor/Gigantoraptor_Character_BP_Aberrant_Shad.Gigantoraptor_Character_BP_Aberrant_Shad_C
       
 FromClass: 
-      Oviraptor_Character_BP_Aberrant_C
+      /Game/PrimalEarth/Dinos/Oviraptor/Oviraptor_Character_BP_Aberrant.Oviraptor_Character_BP_Aberrant_C
 ToClass: 
-      Oviraptor_Character_BP_Aberrant_Shad_C
+      /ShadsCritterReworks/Content/Oviraptor/Oviraptor_Character_BP_Aberrant_Shad.Oviraptor_Character_BP_Aberrant_Shad_C
       
 FromClass: 
-      Paracer_Character_BP_Aberrant_C
+      /Game/PrimalEarth/Dinos/Paraceratherium/Paracer_Character_BP_Aberrant.Paracer_Character_BP_Aberrant_C
 ToClass: 
-      Paracer_Character_BP_Aberrant_Shad_C
+      /ShadsCritterReworks/Content/Paracer/Paracer_Character_BP_Aberrant_Shad.Paracer_Character_BP_Aberrant_Shad_C
       
 FromClass: 
-      Piranha_Character_BP_Aberrant_C
+      /Game/PrimalEarth/Dinos/Piranha/Piranha_Character_BP_Aberrant.Piranha_Character_BP_Aberrant_C
 ToClass: 
-      Piranha_Character_BP_Aberrant_Shad_C
+      /ShadsCritterReworks/Content/Piranha/Piranha_Character_BP_Aberrant_Shad.Piranha_Character_BP_Aberrant_Shad_C
       
 FromClass: 
-      Sarco_Character_BP_Aberrant_C
+      /Game/PrimalEarth/Dinos/Sarco/Sarco_Character_BP_Aberrant.Sarco_Character_BP_Aberrant_C
 ToClass: 
-      Sarco_Character_BP_Aberrant_Shad_C
+      /ShadsCritterReworks/Content/Sarco/Sarco_Character_BP_Aberrant_Shad.Sarco_Character_BP_Aberrant_Shad_C
       
 FromClass: 
-      Spino_Character_BP_Aberrant_C
+      /Game/PrimalEarth/Dinos/Spino/Spino_Character_BP_Aberrant.Spino_Character_BP_Aberrant_C
 ToClass: 
-      Spino_Character_BP_Aberrant_Shad_C
+      /ShadsCritterReworks/Content/Spino/Spino_Character_BP_Aberrant_Shad.Spino_Character_BP_Aberrant_Shad_C
       
 FromClass: 
-      Stego_Character_BP_Aberrant_C
+      /Game/PrimalEarth/Dinos/Stego/Stego_Character_BP_Aberrant.Stego_Character_BP_Aberrant_C
 ToClass: 
-      Stego_Character_BP_Aberrant_Shad_C
+      /ShadsCritterReworks/Content/Stego/Stego_Character_BP_Aberrant_Shad.Stego_Character_BP_Aberrant_Shad_C
       
 FromClass: 
-      Trike_Character_BP_Aberrant_C
+      /Game/PrimalEarth/Dinos/Trike/Trike_Character_BP_Aberrant.Trike_Character_BP_Aberrant_C
 ToClass: 
-      Trike_Character_BP_Aberrant_Shad_C
+      /ShadsCritterReworks/Content/Trike/Trike_Character_BP_Aberrant_Shad.Trike_Character_BP_Aberrant_Shad_C
       
 FromClass: 
-      Megalosaurus_Character_BP_C
+      /Game/PrimalEarth/Dinos/Megalosaurus/Megalosaurus_Character_BP.Megalosaurus_Character_BP_C
 ToClass: 
-      Megalosaurus_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Megalosaur/Megalosaurus_Character_BP_Shad.Megalosaurus_Character_BP_Shad_C
       
 FromClass: 
-      Megalosaurus_Character_BP_Aberrant_C
+      /Game/PrimalEarth/Dinos/Megalosaurus/Megalosaurus_Character_BP_Aberrant.Megalosaurus_Character_BP_Aberrant_C
 ToClass: 
-      Megalosaurus_Character_BP_Aberrant_Shad_C
+      /ShadsCritterReworks/Content/Megalosaur/Megalosaurus_Character_BP_Aberrant_Shad.Megalosaurus_Character_BP_Aberrant_Shad_C
       
 FromClass: 
-      Daeodon_Character_BP_C
+      /Game/PrimalEarth/Dinos/Daeodon/Daeodon_Character_BP.Daeodon_Character_BP_C
 ToClass: 
-      Daeodon_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Daeodon/Daeodon_Character_BP_Shad.Daeodon_Character_BP_Shad_C
       
 FromClass: 
-      Megalania_Character_BP_C
+      /Game/PrimalEarth/Dinos/Megalania/Megalania_Character_BP.Megalania_Character_BP_C
 ToClass: 
-      Megalania_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Megalania/Megalania_Character_BP_Shad.Megalania_Character_BP_Shad_C
       
 FromClass: 
-      Megalania_Character_BP_Aberrant_C
+      /Game/PrimalEarth/Dinos/Megalania/Megalania_Character_BP_Aberrant.Megalania_Character_BP_Aberrant_C
 ToClass: 
-      Megalania_Character_BP_Aberrant_Shad_C
+      /ShadsCritterReworks/Content/Megalania/Megalania_Character_BP_Aberrant_Shad.Megalania_Character_BP_Aberrant_Shad_C
       
 FromClass: 
-      Defender_Character_BP_C
+      /Game/Extinction/Dinos/Tank/Defender_Character_BP.Defender_Character_BP_C
 ToClass: 
-      ShadDefenseUnit_Character_bp_C
+      /ShadsCritterReworks/Content/DefenseUnit/ShadDefenseUnit_Character_bp.ShadDefenseUnit_Character_bp_C
       
 FromClass: 
-      Enforcer_Character_BP_C
+      /Game/Extinction/Dinos/Enforcer/Enforcer_Character_BP.Enforcer_Character_BP_C
 ToClass: 
-      Enforcer_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Enforcer/Enforcer_Character_BP_Shad.Enforcer_Character_BP_Shad_C
       
 FromClass: 
-      Dreadnoughtus_Character_BP_C
+      /Game/ASA/Dinos/Dreadnoughtus/Dreadnoughtus_Character_BP.Dreadnoughtus_Character_BP_C
 ToClass: 
-      Dreadnoughtus_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Dreadnoughtus/Dreadnoughtus_Character_BP_Shad.Dreadnoughtus_Character_BP_Shad_C
       
 FromClass: 
-      IceJumper_Character_BP_C
+      /Game/Extinction/Dinos/IceJumper/IceJumper_Character_BP.IceJumper_Character_BP_C
 ToClass: 
-      IceJumper_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Managarmr/IceJumper_Character_BP_Shad.IceJumper_Character_BP_Shad_C
       
 FromClass: 
-      Spindles_Character_BP_C
+      /Game/Extinction/Dinos/Spindles/Spindles_Character_BP.Spindles_Character_BP_C
 ToClass: 
-      Spindles_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Velonasaur/Spindles_Character_BP_Shad.Spindles_Character_BP_Shad_C
       
 FromClass: 
-      Owl_Character_BP_C
+      /Game/Extinction/Dinos/Owl/Owl_Character_BP.Owl_Character_BP_C
 ToClass: 
-      Owl_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/SnowOwl/Owl_Character_BP_Shad.Owl_Character_BP_Shad_C
       
 FromClass: 
-      Doggo_Character_BP_C
+      /Game/Packs/Wasteland/Dinos/Doggo/Doggo_Character_BP.Doggo_Character_BP_C
 ToClass: 
-      Doggo_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Armadoggo/Doggo_Character_BP_Shad.Doggo_Character_BP_Shad_C
       
 FromClass: 
-      Maelizard_Character_BP_C
+      /Game/ASA/Dinos/Maelizard/Maelizard_Character_BP.Maelizard_Character_BP_C
 ToClass: 
-      Maelizard_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Maeguana/Maelizard_Character_BP_Shad.Maelizard_Character_BP_Shad_C
       
 FromClass: 
-      Manta_Character_BP_Aberrant_C
+      /Game/PrimalEarth/Dinos/Manta/Manta_Character_BP_Aberrant.Manta_Character_BP_Aberrant_C
 ToClass: 
-      Manta_Character_BP_Aberrant_Shad_C
+      /ShadsCritterReworks/Content/Manta/Manta_Character_BP_Aberrant_Shad.Manta_Character_BP_Aberrant_Shad_C
       
 FromClass: 
-      Arthro_Character_BP_C
+      /Game/PrimalEarth/Dinos/Arthropluera/Arthro_Character_BP.Arthro_Character_BP_C
 ToClass: 
-      Arthro_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Arthro/Arthro_Character_BP_Shad.Arthro_Character_BP_Shad_C
       
 FromClass: 
-      Arthro_Character_BP_Aberrant_C
+      /Game/PrimalEarth/Dinos/Arthropluera/Arthro_Character_BP_Aberrant.Arthro_Character_BP_Aberrant_C
 ToClass: 
-      Arthro_Character_BP_Aberrant_Shad_C
+      /ShadsCritterReworks/Content/Arthro/Arthro_Character_BP_Aberrant_Shad.Arthro_Character_BP_Aberrant_Shad_C
       
 FromClass: 
-      Chalico_Character_BP_C
+      /Game/PrimalEarth/Dinos/Chalicotherium/Chalico_Character_BP.Chalico_Character_BP_C
 ToClass: 
-      Chalico_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Chalico/Chalico_Character_BP_Shad.Chalico_Character_BP_Shad_C
       
 FromClass: 
-      DeinotheriumASA_Character_BP_C
+      /Game/ASA/Dinos/Deinotherium/Dinos/DeinotheriumASA_Character_BP.DeinotheriumASA_Character_BP_C
 ToClass: 
-      DeinotheriumASA_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Deinotherium/DeinotheriumASA_Character_BP_Shad.DeinotheriumASA_Character_BP_Shad_C
       
 FromClass: 
-      Dimorph_Character_BP_C
+      /Game/PrimalEarth/Dinos/Dimorphodon/Dimorph_Character_BP.Dimorph_Character_BP_C
 ToClass: 
-      Dimorph_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Dimorphodon/Dimorph_Character_BP_Shad.Dimorph_Character_BP_Shad_C
       
 FromClass: 
-      Dimorph_Character_BP_Aberrant_C
+      /Game/PrimalEarth/Dinos/Dimorphodon/Dimorph_Character_BP_Aberrant.Dimorph_Character_BP_Aberrant_C
 ToClass: 
-      Dimorph_Character_BP_Aberrant_Shad_C
+      /ShadsCritterReworks/Content/Dimorphodon/Dimorph_Character_BP_Aberrant_Shad.Dimorph_Character_BP_Aberrant_Shad_C
       
 FromClass: 
-      RockGolem_Character_BP_C
+      /Game/ScorchedEarth/Dinos/RockGolem/RockGolem_Character_BP.RockGolem_Character_BP_C
 ToClass: 
-      RockGolem_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/RockGolem/RockGolem_Character_BP_Shad.RockGolem_Character_BP_Shad_C
       
 FromClass: 
-      Wyvern_Character_BP_Ice_C
+      /Game/ASA/Dinos/IceWyvern/Wyvern_Character_BP_Ice.Wyvern_Character_BP_Ice_C
 ToClass: 
-      Wyvern_Character_BP_Ice_Shad_C
+      /ShadsCritterReworks/Content/Wyvern/Wyvern_Character_BP_Ice_Shad.Wyvern_Character_BP_Ice_Shad_C
       
 FromClass: 
-      Griffin_Character_BP_C
+      /Game/PrimalEarth/Dinos/Griffin/Griffin_Character_BP.Griffin_Character_BP_C
 ToClass: 
-      Griffin_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Griffin/Griffin_Character_BP_Shad.Griffin_Character_BP_Shad_C
       
 FromClass: 
-      Bison_Character_BP_C
+      /Game/ASA/Dinos/Bison/Bison_Character_BP.Bison_Character_BP_C
 ToClass: 
-      Bison_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Bison/Bison_Character_BP_Shad.Bison_Character_BP_Shad_C
       
 FromClass: 
-      Rex_Character_BP_C
+      /Game/PrimalEarth/Dinos/Rex/Rex_Character_BP.Rex_Character_BP_C
 ToClass: 
-      Rex_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Rex/Rex_Character_BP_Shad.Rex_Character_BP_Shad_C
       
 FromClass: 
-      ValMegaraptor_Character_BP_C
+      /Game/ASA/Dinos/Megaraptor/ValMegaraptor_Character_BP.ValMegaraptor_Character_BP_C
 ToClass: 
-      ValMegaraptor_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Megaraptor/ValMegaraptor_Character_BP_Shad.ValMegaraptor_Character_BP_Shad_C
       
 FromClass: 
-      Deinonychus_Character_BP_C
+      /Game/PrimalEarth/Dinos/Raptor/Uberraptor/Deinonychus_Character_BP.Deinonychus_Character_BP_C
 ToClass: 
-      Deinonychus_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Deinonychus/Deinonychus_Character_BP_Shad.Deinonychus_Character_BP_Shad_C
       
 FromClass: 
-      SpiritBear_Character_BP_C
+      /Game/ASA/Dinos/SpiritBear/SpiritBear_Character_BP.SpiritBear_Character_BP_C
 ToClass: 
-      SpiritBear_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Elderclaw/SpiritBear_Character_BP_Shad.SpiritBear_Character_BP_Shad_C
       
 FromClass: 
-      ChalkGolem_Character_BP_C
+      /Game/ASA/Dinos/ChalkGolem/ChalkGolem_Character_BP.ChalkGolem_Character_BP_C
 ToClass: 
-      ChalkGolem_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/RockGolem/ChalkGolem/ChalkGolem_Character_BP_Shad.ChalkGolem_Character_BP_Shad_C
       
 FromClass: 
-      IceGolem_Character_BP_C
+      /Game/ASA/Dinos/IceGolem/IceGolem_Character_BP.IceGolem_Character_BP_C
 ToClass: 
-      IceGolem_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/RockGolem/IceGolem/IceGolem_Character_BP_Shad.IceGolem_Character_BP_Shad_C
       
 FromClass: 
-      Helicoprion_Character_BP_C
+      /Game/ASA/Dinos/Helicoprion/Helicoprion_Character_BP.Helicoprion_Character_BP_C
 ToClass: 
-      Helicoprion_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Helicoprion/Helicoprion_Character_BP_Shad.Helicoprion_Character_BP_Shad_C
       
 FromClass: 
-      SpiderL_VAL_Character_BP_C
+      /Game/Mods/Valguero/Assets/Dinos/SpiderL/SpiderL_VAL_Character_BP.SpiderL_VAL_Character_BP_C
 ToClass: 
-      SpiderL_VAL_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/ValBrood/SpiderL_VAL_Character_BP_Shad.SpiderL_VAL_Character_BP_Shad_C
       
 FromClass: 
-      Troodon_Character_BP_C
+      /Game/PrimalEarth/Dinos/Troodon/Troodon_Character_BP.Troodon_Character_BP_C
 ToClass: 
-      Troodon_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Troodon/Troodon_Character_BP_Shad.Troodon_Character_BP_Shad_C
       
 FromClass: 
-      Direbear_Character_Polar_C
+      /Game/PrimalEarth/Dinos/Direbear/Direbear_Character_Polar.Direbear_Character_Polar_C
 ToClass: 
-      Direbear_Character_BP_Polar_Shad_C
+      /ShadsCritterReworks/Content/CavePolarBear/Direbear_Character_BP_Polar_Shad.Direbear_Character_BP_Polar_Shad_C
       
 FromClass: 
-      Pachyrhino_Character_BP_C
+      /Game/PrimalEarth/Dinos/Pachyrhinosaurus/Pachyrhino_Character_BP.Pachyrhino_Character_BP_C
 ToClass: 
-      Pachyrhino_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Pachyrhino/Pachyrhino_Character_BP_Shad.Pachyrhino_Character_BP_Shad_C
       
 FromClass: 
-      YoungIceFox_DinoCompanion_Character_BP_C
+      /Game/LostColony/Dinos/YoungIceFox/YoungIceFox_DinoCompanion_Character_BP.YoungIceFox_DinoCompanion_Character_BP_C
 ToClass: 
-      YoungIceFox_DinoCompanion_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Veilwyn/YoungIceFox_DinoCompanion_Character_BP_Shad.YoungIceFox_DinoCompanion_Character_BP_Shad_C
       
 FromClass: 
-      AngelFox_Character_BP_C
+      /Game/LostColony/Dinos/AngelFox/AngelFox_Character_BP.AngelFox_Character_BP_C
 ToClass: 
-      AngelFox_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Solwyn/AngelFox_Character_BP_Shad.AngelFox_Character_BP_Shad_C
       
 FromClass: 
-      DevilFox_Character_BP_C
+      /Game/LostColony/Dinos/DevilFox/DevilFox_Character_BP.DevilFox_Character_BP_C
 ToClass: 
-      DevilFox_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Malwyn/DevilFox_Character_BP_Shad.DevilFox_Character_BP_Shad_C
       
 FromClass: 
-      SnowMonster_Character_BP_C
+      /Game/LostColony/Dinos/SnowMonster/SnowMonster_Character_BP.SnowMonster_Character_BP_C
 ToClass: 
-      SnowMonster_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Ossidon/SnowMonster_Character_BP_Shad.SnowMonster_Character_BP_Shad_C
       
 FromClass: 
-      SnowDragon_Character_BP_C
+      /Game/LostColony/Dinos/SnowDragon/SnowDragon_Character_BP.SnowDragon_Character_BP_C
 ToClass: 
-      SnowDragon_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Aureliax/SnowDragon_Character_BP_Shad.SnowDragon_Character_BP_Shad_C
       
 FromClass: 
-      Cryolophosaurus_Character_BP_C
+      /Game/ASA/Dinos/Cryolophosaurus/Cryolophosaurus_Character_BP.Cryolophosaurus_Character_BP_C
 ToClass: 
-      Cryolophosaurus_Character_BP_Shad_C
+      /ShadsCritterReworks/Content/Cryo/Cryolophosaurus_Character_BP_Shad.Cryolophosaurus_Character_BP_Shad_C
       
 FromClass: 
-      Desmodus_Character_BP_C
+      /Game/Fjordur/Dinos/Desmodus/Desmodus_Character_BP.Desmodus_Character_BP_C
 ToClass: 
-      Desmodus_Character_BP_Shad_C
-      StorageBox_Fabricator_C
-      PrimalItemStructure_GasCollector_Shad_C
-      PrimalItemStructure_SCRRepairStation_C
-      StorageBox_AnvilBench_C
-      PrimalItemArmor_SaddleCart_Shad_C
-      BP_Bloodforge_Base_C
-      PrimalItemArmor_SCRLostSnowMonsterSaddle_C
-      GasCollecter_ASA_Shad_C
-      StorageBox_SCRRepairStation_C
+      /ShadsCritterReworks/Content/Desmodus/Desmodus_Character_BP_Shad.Desmodus_Character_BP_Shad_C
 
 Dino Additions: 
 Container Name: null

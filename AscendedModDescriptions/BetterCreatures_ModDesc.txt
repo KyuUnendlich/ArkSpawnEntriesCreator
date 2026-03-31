@@ -1,0 +1,59 @@
+This mod is designed to make changes and tweaks to many different creatures to improving the QoL.
+
+All Creatures in this mod can be fully configured or disabled.
+
+Please note that this mod does not add any new spawns and some settings may only affect modded versions until they get added to the base game.
+Current Features
+
+The full list of changes and info can be found by clicking [here](https://legacy.curseforge.com/ark-survival-ascended/mods/better-creatures/pages/better-creatures-config-options-and-info) For easy mod configuration you can copy/paste the default ini [config](https://legacy.curseforge.com/ark-survival-ascended/mods/better-creatures/pages/better-creatures-config-options-and-info/better-creatures-all-config-settings) To disable creatures from this mod you can copy/paste the full list from [here](https://legacy.curseforge.com/ark-survival-ascended/mods/better-creatures/pages/better-creatures-config-options-and-info/disable-creatures-list)
+Current Supported Creatures
+
+    Achatina
+    AnglerFish
+    Anky
+    Basilisk
+    Basilosaurus
+    Defense Unit
+    Beelzebufo
+    Carcha
+    Daeodon
+    Dodo
+    Doedicurus
+    Dreadmare
+    Elderclaw
+    Extinction Titans
+    Fasolasuchus
+    Gacha
+    Giga
+    Ichthyornis
+    Karkinos
+    Kentro
+    Mana
+    Megalania
+    Megalosaurus
+    Megaraptor
+    Nameless
+    Oasisaur
+    Onyc
+    Purlovia
+    Pyromane
+    Raptor
+    Ravager
+    ReaperKing
+    Rhino
+    Rhynio
+    Rock Drake
+    RollRat
+    Sabertooth
+    Shastasaurus
+    Snow Owl
+    Spino
+    Stegosaurus
+    Terror Bird
+    Thorny Dragon
+    Tuso
+    Unicorn
+    Velonasaur
+    Wyvern
+    Yi Ling
+    Yutyrannus

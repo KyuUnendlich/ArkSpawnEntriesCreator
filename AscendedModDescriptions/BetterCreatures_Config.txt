@@ -1,0 +1,799 @@
+All changes in this mod are done via buffs with the only exception of the Defense Unit.
+
+ 
+
+Global Config Settings
+Below you will find the config settings that affects all tamed creatures.
+
+[BetterCreatures]
+DisableAllyLook=True
+ReduceFallDamage=True
+AllowAllBossTeleporting=True
+AllowFlyerBackwardsWalking=False
+PreventPassengerDamage=True
+PreventSameDinoTargeting=False
+PreventLevelUpHealing=True
+AllowRiderWeapons=False
+
+AllowMountedDinoBasing=False
+DinoBasingWhitelist=DarkPegasus_Character_BP_C,FireLion_Character_BP_C,RockDrake_Character_BP_C
+DinoBreedWithVariants=False
+WaterDinoForceTurnInPlace=True
+DinoBreedWithVariants=True
+WaterDinoTakesTorporOnLand=False
+
+
+DisableAllyLook: Disables creatures from looking at players by default.
+
+ReduceFallDamage: Reduces the amount of damage taken from falling while mounted on a dino.
+AllowAllBossTeleporting: Allows creatures with a drag weight of 550 or higher to be teleported (some arena exceptions such as flyers still apply).
+AllowFlyerBackwardsWalking: Allows all fliers to walk backwards while landed.
+PreventPassengerDamage: Prevents saddles with an active passenger from taking damage.
+PreventSameDinoTargeting: Prevents agro from creatures of the same species unless they are attacked. 
+PreventLevelUpHealing: Prevents the health regeneration from putting points into health.
+AllowRiderWeapons: Allows you to use weapons on all riders (some creatures may have weird issues such as still using attacks).
+
+AllowMountedDinoBasing: Allows players to stand on the back of all tamed creatures (may cause issues in some cases that allows a wild creature to stand on your dino.)
+DinoBasingWhitelist: For servers only you can specify the blueprint name separated by a comma that only allows these specific creatures to let players to stand on the back of them. (does not disable vanilla creatures if they are not added). 
+WaterDinoForceTurnInPlace: When set to true allows you to turn which direction your'e facing without moving while riding a water tame.
+DinoBreedWithVariants: Allows crossbreeding with other creatures such as an aberrant megalosaurus with a vanilla megalosaurus or an S-Spino with a vanilla Spino. (female species is what determines babies).
+WaterDinoTakesTorporOnLand When set to true will prevent water dino's from being killed if they manage to exit water but will instead take torpor damage and very quickly become unconscious.
+
+Health Bar HUD
+One of the new things added in this mod is the Health Bar HUD which will display a health bar at the bottom of your screen (customizable) that will show the current and max health value on the creature that you're currently riding, this may not work with all creatures such as those that prevent buffs.
+
+ 
+
+[BetterCreatures]
+PreventHealthHUD=False
+
+ 
+
+Levelling Restores Health
+A new feature in this mod allows your creatures to restore health each time you level up and put points into it, this will only heal by the amount of extra health that was added.
+ 
+
+Rhino
+
+The Rhino and Woolly Rhino has an additional charge effect that impales enemies when the charge meter is 75% or higher when tamed, this will drastically slow down enemies for a short period of time but be careful when fighting wild ones as the impale debuff will always be applied to you when attacked.
+
+The rhino's charge attack can also be reverted from 8.0x to 12.5x damage.
+
+ 
+
+[BetterCreatures]
+RevertRhinoChargeDamage=True
+RhinoHasImpaleBuff=True
+
+ 
+
+Dodo
+
+Tamed Dodo's when set to wandering will have a 12% chance to grant nearby creatures a guaranteed random mutation while they are breeding, this is only intended to affect creatures that produce eggs.
+
+ 
+
+When a creature is affected you will see a small glow around them for the next 5 minutes.
+
+The scan will by default reset every 60 minutes before having a chance to reroll the same creature again.
+
+With more dodo's you will have higher chances that it will affect creatures.
+
+ 
+
+[BetterCreatures]
+DisableDodoMutationBuff=False
+DodoMutationRollDelay=3600
+DodoScanRange=20
+DodoMutationChance=12
+
+ 
+
+Kentrosaurus
+All Kentro's when attacked by a carnivore will take twice as much damage while also reflecting significantly more damage back to the attacker.
+
+ 
+
+[BetterCreatures]
+PreventKentro=False
+
+ 
+
+Terror Bird
+The Terror Bird brings some simple but long needed changes that will give them a pack group bonus when wild, and when tamed will also have a leader pack bonus.
+
+ 
+
+[BetterCreatures]
+UseTerrorBirdPackBonus=True
+
+ 
+
+Defense Unit
+
+A tamable and ridable version of the Defense Unit has been added to the game which is a new creature that will replace all natural spawns on genesis and other maps such as extinction, this is designed similar to the Enforcer so when you kill one you'll get a blueprint that will allow you to craft it.
+
+ 
+
+The Defense Unit can eat all types of element and can discharge/stun enemies.
+
+ 
+
+Vulture
+
+-TBD
+
+ 
+
+[BetterCreatures]
+PreventVulture=False
+
+ 
+
+Andrewsarchus
+
+All tamed Andrewsarchus when equipped with it's saddle will let players craft cheaper ammo that can only be used with the Andrewsarchus.
+
+There is also a config option that will let you change the amount of damage caused by the minigun turret, this value is a multiplier so damage is still based on the quality of the saddle that you are using just like it is for vanilla.
+
+ 
+
+[BetterCreatures]
+PreventAndrewsarchus=False
+AndrewMinigunDamage=1
+
+ 
+
+Tek Wyvern
+
+All tamed Tek Wyvern's will scale damage based on melee when using it's breath attack.
+
+ 
+
+[BetterCreatures]
+PreventTekWyvernBonus=False
+
+ 
+
+Sabertooth
+
+All wild and tamed Sabertooth will do a small amount of bleed damage with it's bite attack.
+
+ 
+
+[BetterCreatures]
+PreventSabertooth=False
+
+ 
+
+Wyvern
+
+Every type of tamed female Wyvern will allow you to harvest milk, crystal, or mutagen every 60 minutes.
+Fire wyverns can be configured to change the fire attack based on color region 0.
+
+ 
+
+[BetterCreatures]
+PreventWyvernMilk=False
+PreventWyvernCrystal=False
+PreventWyvernMutagen=False
+WyvernHarvestAmountMilk=1
+WyvernHarvestAmountCrystal=1
+WyvernHarvestAmountMutagen=3
+WyvernHarvestInterval=3600
+FireWyvernExtraColors=False
+
+ 
+
+Magmasaur
+
+The Magmasaur has many configuration options that can make it a much better tame to have such as mating without lava, faster swim speed, increased or no metal requirement for firing projectiles or increased forge smelting speed.
+
+ 
+
+[BetterCreatures]
+PreventMagmasaur=False
+MagmasaurSmeltingSpeed=1.0
+MagmasaurWaterDamage=True
+MagmasaurBetterBreeding=True
+MagmasaurBetterSwimSpeed=True
+MagmasaurProjectileFoodCost=5.0
+MagmasaurSmeltingFoodConsumption=1.0
+MagmasaurMetalAmountPerShot=1
+
+ 
+
+Mana
+
+The Mana is another great creature with many configuration options that can make it a much better tame.
+
+ 
+
+[BetterCreatures]
+PreventMana=False
+ManaReducedStam=False
+ManaMaxStrafes=6
+ManaMaxJumps=3
+ManaBreathRange=8000
+ManaIncreaseFreezeTime=False
+ManaDiveDamage=10
+ManaFrozenDashDamageMult=3
+ManaNoDashLimit=False
+
+ 
+
+Giganotosaurus
+
+The Giga has a few changes such as faster maturing babies, no rage or a slightly nerfed version of it's gnash attack.
+
+ 
+
+[BetterCreatures]
+PreventGiga=False
+GigaGnashAttack=False
+GigaGnashCooldown=8
+GigaPreventRage=False
+GigaFasterBreeding=False
+
+ 
+
+BloodStalker
+
+All wild Bloodstalkers will now start it's taming process with 100% taming effectiveness, this however can still decrease just like a normal tame.
+
+ 
+
+[BetterCreatures]
+PreventBloodStalker=False
+
+ 
+
+Desmodus
+
+All tamed Desmodus can be configured to increase the amount of blood packs obtained from killing creatures as well as the option to replace the vanilla elixir with a modded one that can be placed in cold storage structures such as refrigerators and be configured to change the amount of imprint/taming bonus when used on creatures.
+
+Just like the Bloodstalker all wild Desmodus will start at 100% taming effectiveness and naturally decrease over time.
+
+ 
+
+[BetterCreatures]
+PreventDesmodus=False
+DesmodusBloodMultiplier=1
+DesmodusBetterElixir=False
+DesmodusElixirImprintAmount=0.3
+DesmodusElixirTameAmount=0.3
+
+ 
+
+Gacha
+
+All tamed Gacha's will now allow you collect resources from every type and can also be configured to add a few additional items such as ammonite bile or cementing paste.
+
+ 
+
+[BetterCreatures]
+PreventGacha=False
+GachaExtraResources=True
+
+GachaAlwaysHappy=False
+
+ 
+
+Megalosaurus
+
+All wild and tamed Megalosaurus will have the grab attack replaced with bleed if configured and enabled, tamed Megalosaurus will also never sleep and thus can be used at daytime without fear or worrying about sleep debt.
+
+ 
+
+[BetterCreatures]
+PreventMegalo=False
+MegaloBleedAttack=False
+
+ 
+
+Purlovia
+
+There is not really any meaningful changes for the Purlovia except that you can now store up to 300 items in it's inventory.
+
+ 
+
+[BetterCreatures]
+PreventPurlovia=False
+
+ 
+
+Rock Drake
+
+All Wild and tamed Rock Drakes can deal radiation damage, Tamed Rock Drakes can also eat raw or cooked meat as a substitute for nameless venom that when enabled will have increased food consumption for babies.
+
+ 
+
+[BetterCreatures]
+PreventRockDrake=False
+
+PreventRockDrakeRadiation=False
+
+ 
+
+Snow Owl
+All tamed Snow Owl's can now heal a bit faster and freeze more creatures in a larger radius.
+
+ 
+
+[BetterCreatures]
+PreventSnowOwl=False
+SnowOwlBetterHealSpeed=False
+SnowOwlStamHealing=200
+
+ 
+
+Shadowmane
+There are many configuration options available for the Shadowmane such as wild Shadows being tamable with cooked prime fish meat, unnerfed armor/abilities pre-patch from last year, increasing the pack size, adding new buffs from the male roar that increase damage to 1.5x and increase the bonus range which will allow the cloak or mate boost to work from a further distance.
+
+ 
+
+[BetterCreatures]
+PreventShadowmane=False
+ShadowmaneUnnerf=False
+ShadowmaneBetterTaming=False
+ShadowmaneAdditionalBuffs=False
+ShadowmaneBonusRange=2500
+ShadowmaneChargeDamage=35
+ShadowmanePackSize=6
+
+ 
+
+Amargasaurus
+All tamed Amargasaur can have their spike regen speed configured.
+All Wild Amargasaur can have certain mechanics configured such as preventing all damage from the taming team that is currently taming one, change the distance/duration before taming is cancelled or the health percentage before it starts losing taming effectiveness.
+
+The cancel distance can be calculated by dividing the number by 300, this would tell you how far it is in foundations.
+
+ 
+
+[BetterCreatures]
+PreventAmargasaur=False
+AmargasaurWildTamingPreventsDamage=True
+AmargasaurTameCancelDistance=10000
+AmargasaurDurationToCancelTame=30.0
+AmargasaurHealthToLoseEffectiveness=0.8
+AmargasaurSpikeRegen=12
+
+ 
+
+Daeodon
+All tamed Daeodon's will now heal using stamina instead of food (will still prevent healing if there's no food) and will allow you to configure the radius or passive healing amount.
+
+ 
+
+[BetterCreatures]
+PreventDaeodon=False
+DaeodonHealRadius=20
+DaeodonPassiveHealAmount=1
+
+ 
+
+Carcharodontosaurus
+All tamed Carcha's can be configured to increase the blood rage stacks as well as how long the roar buff will last for.
+
+When the Carcha has at least 50% of it's max blood rage stacks it's increased hunger will stop and return to normal.
+
+ 
+
+[BetterCreatures]
+PreventCarcha=False
+MaxBloodRageStacks=100
+RoarBuffTimePerBloodStack=0.5
+
+CarchaFasterBreeding=False
+
+ 
+
+Nameless
+All wild Nameless will take 50% bonus damage from rockdrakes.
+
+ 
+
+[BetterCreatures]
+PreventNameless=False
+
+ 
+
+Thorny Dragon
+All tamed thorny dragons will deal increased torpor damage when attacked, each hit you receive will slowly increase the torpor damage dealt from the tail needle attack which will allow you to more effectively knock out smaller creatures, the torpor damage boost will only stay active for up to 1 minute of not receiving any damage..
+
+ 
+
+[BetterCreatures]
+PreventThornyDragon=False
+
+ 
+
+Rhyniognatha
+
+The Rhynio has configuration options to change the resin armor damage resistance, projectile cost and even possible cravings for impregnated creatures.
+
+ 
+
+[BetterCreatures]
+
+PreventRhynio=False
+
+RhynioNeedleCost=1
+
+RhynioRocketCost=3
+
+RhynioBombCost=5
+
+RhynioAltProjectileClass=Blueprint'/Game/PrimalEarth/Dinos/Rhyniognatha/Resin/PrimalItemResource_Resin.PrimalItemResource_Resin'
+
+RhynioArmorModeCostPerSec=0.033333
+
+RhynioArmorDamageResistance=0.55
+
+RhynioArmorDamageResistanceTek=0.4
+
+RhynioUseBetterCravings=False
+
+RhynioFasterBreeding=False
+
+ 
+
+Kaiju Titans
+Some configuration options for wild and tamed titans on extinction are available that allows things such as preventing all damage from players unless they are mounted or hit a corruption node.
+
+ 
+
+[BetterCreatures]
+KaijuPreventsDamage=False
+KaijuNodeDamage=1.0
+KaijuPreventStarving=False
+
+ 
+
+ 
+
+Genesis Alpha Mission Dino's
+The below config option will allow you to reduce all incoming damage from alpha brute dino's by 50% on gen 1 when mounted on a dino.
+
+ 
+
+[BetterCreatures]
+ReduceBruteDamage=False
+
+ 
+
+Oasisaur
+All tamed Oasisaur can be configured to eat berries or change the reincarnation cooldown.
+
+a minimum value of 0 can be used which will make it always able to reincarnate without a cooldown.
+
+OasisaurKOTame uses extraordinary kibble to tame.
+
+[BetterCreatures]
+
+PreventOasisaur=False
+ReincarnateCooldown=21600.0
+OasisaurEatBerries=False
+OasisaurKOTame=False
+
+ 
+
+Fasolasuchus
+All wild Fasolasuchus can be configured to how much torpor it gained when hitting certain resources such as tree's, crystal or metal.
+
+[BetterCreatures]
+
+FasolaDismountTime=40
+FasolaTorporValueObsidian=250.0
+FasolaTorporValueSalt=5.0
+FasolaTorporValueStone=5.0
+FasolaTorporValueSand=5.0
+FasolaTorporValueCrystal=150.0
+FasolaTorporValueMetal=200.0
+FasolaTorporValueWood=0.0
+
+Shastasaurus
+All tamed Shasatasurus can be configured to be ignored by wild creatures, configurable delay between attacks and more.
+
+[BetterCreatures]
+
+ShastaIgnoredByWild=False
+ShastaMaxSpeed=1.0
+ShastaExtraBuild=False
+ShastaFlashbangDelay=30
+ShastaPulseDelay=60
+
+ 
+
+Ceratosaurus
+
+All wild Ceratosaurus can be configured to have additional drunk values added when attacked (max 100 to be tamed).
+[BetterCreatures]
+
+CeratoDrunkAmount=0
+
+Anglerfish
+All wild and tamed anglerfish are able to cause stun to enemies.
+
+[BetterCreatures]
+AnglerPreventOnWild=False
+
+Yi Ling
+Wild Yi Ling can be configured to be a Knockout tame and tamed Yi Lings can be configured to allow more dash jumps while gliding, max feather count and the duration of feather abilities.
+
+[BetterCreatures]
+
+PreventYiLing=False
+YiLingMaxJumps=5
+YiLingKOTame=False
+YiLingMaxFeathers=200
+YiLingFeatherDuration=300
+
+Ravager
+Tamed ravagers can be configured to deal bleed damage that has an 8 second cooldown.
+
+[BetterCreatures]
+RavagerTamedUseBleed=True
+
+Basilisk
+All wild and tamed basilisks can be configured to not take any radiation damage.
+
+[BetterCreatures]
+BasiliskPreventRadiation=True
+
+Spino
+All wild and tamed spino's can be configured to swim about twice as fast and not use any oxygen when underwater.
+
+[BetterCreatures]
+SpinoBetterSwimming=True
+
+Reaper King / Reaper Queen
+All tamed reapers can be configured to not be affected by the light debuff from any sources and have the pregnancy buff changed for more control over how baby reaper level scaling works.
+
+The formular for baby reapers works like this: Wild reaper queen level multiplied by the player level multiplier -1 + bonus xp level.
+so lets say you have a level 150 reaper and got all 75 bonus baby reaper levels and the player level multplier achieved is 1.4, this means your baby reaper becomes level 284. (150 wild reaper level multiplied by the player level multiplier of 1.4 = 210 -1 = 209 + 75 = 284.
+
+looking at the ReaperMinPlayerLevel, a value of 50 means that you'll get the minimum multiplier value from ReaperScaleMinLevel so with a player level of 50 or below this will set the player level multiplier to 0.6, the same works for the max level so a player level of 250 multiplies by 1.4 (ReaperScaleMaxLevel) giving you a level 284 baby reaper.
+
+ 
+
+Please note for the reaper level scales to work you must set UseNewReaperPregnantBuff=True
+
+[BetterCreatures]
+ReaperTamedPreventLightDebuff=False
+UseNewReaperPregnantBuff=False
+ReaperMinPlayerLevel=50
+ReaperMaxPlayerLevel=250
+ReaperScaleMinLevel=0.6
+ReaperScaleMaxLevel=1.4
+PreventReaperQueen=False
+PreventReaperKing=False
+
+Karkinos
+All tamed karkinos can be configured to lay eggs instead of using gestation for breeding.
+
+[BetterCreatures]
+KarkinosBreedingUseEggs=False
+
+
+Raptor
+All wild Raptors can be configured to use the pounce attack on players and tames.
+[BetterCreatures]
+RaptorPounce=False
+
+Unicorn
+All tamed unicorns have the ability to glide when jumping.
+
+BetterCreatures]
+UnicornGlide=False
+
+Achatina
+
+All tamed Achatina can be configured to eat berries or have their paste/polymer production modified.
+
+ 
+
+[BetterCreatures]
+
+AchatinaMaxItemsPaste=100
+AchatinaMaxItemsPolymer=100
+AchatinaItemIntervalPaste=60
+AchatinaItemIntervalPolymer=3600
+AchatinaEatBerries=False
+
+Basilosaurus
+All tamed Basilosaurus can be configured to not take damage when being deep in the ocean.
+
+[BetterCreatures]
+BasiloNoDepthLimit=False
+
+Ichthyornis
+All wild ichthyornis can be configured to never steal items from players.
+
+
+[BetterCreatures]
+PreventIchthyornisStealing=True
+
+Tusoteuthis
+All tamed Tuso's can be configured to produce biotoxin and harvest raw prime fish from corpses.
+
+[BetterCreatures]
+TusoHarvestPrimeFish=False
+TusoGenerateBioToxin=False
+TusoBioToxinInterval=900
+TusoBioToxinAmount=5
+
+Dreadmare
+Tamed Dreadmare's can be configured to not have a cryo cooldown when using it's black hole ability.
+
+[BetterCreatures]
+DreadmarePreventCryoCooldown=False
+DreadmareRemoveCryoLimit=False
+DreadmareBlackHoleInterval=5.0
+
+
+
+Onyc
+The Onyc can be configured to use blood packs as food, this will also prevent them from attacking you while it's in your inventory.
+
+[BetterCreatures]
+OnycTamingUseBloodPacks=False
+
+Yutyrannus
+
+The Yuty can be configured to breed faster and use auto courage mode while on servers.
+
+[BetterCreatures]
+YutyAutoCourage=False
+YutyBetterBreedingRates=False
+
+Pyromane
+The pyromane comes with many changes to it's attacks and abilities.
+
+[BetterCreatures]
+PyroMountedFlameCost=0.05
+PyroFlameTrailCost=0.04
+PyroFlameTrailDistance=20000
+PyroRunningSpeed=1.0
+PyroFireBoostDamage=1.5
+PyroFireDashDuration=0.8
+PyroFireDashDamage=25
+PyroPreventPassiveFire=False
+PyroMinEnergyForFireBoost=0.05
+PyroFireEnergyDrain=0.016667
+PyroArmorValue=124
+PyroFireDashDelayUnridden=15
+PyroFireDashDelayRidden=5
+PyroPreventDismount=True
+
+Anky
+
+All tamed Anky can continue to harvest resources by activating harvest mode on the radial wheel even when they are overweight.
+
+[BetterCreatures]
+PreventAnky=False
+AnkyAutoHarvest=True
+
+ 
+
+Doedicurus
+
+All tamed Doedicurus can continue to harvest resources by activating harvest mode on the radial wheel even when they are overweight.
+
+[BetterCreatures]
+PreventDoed=False
+DoedAutoHarvest=True
+
+RollRat
+
+All tamed RollRat can continue to harvest resources by activating harvest mode on the radial wheel even when they are overweight.
+
+[BetterCreatures]
+PreventRollRat=False
+RollRatAutoHarvest=True
+
+Megalania
+All wild and tamed megalania will now add poison to every attack that increases damage dealt by the megalania per hit stacking up to 10 times for a max of 3x the original damage.
+
+ 
+
+[BetterCreatures]
+PreventMegalania=False
+
+Velonasaur
+All wild and tamed Velonasaur can be configured to deal spine damage based on melee and configure the attack range.
+
+ 
+
+[BetterCreatures]
+PreventVelo=False
+
+VeloUseMeleeScaling=False
+
+VeloSpineRange=7000
+
+ 
+
+Bison
+Tamed Bisons can be configured to produce milk without babies or increase the range for cuddle food on babies being changed to bison milk.
+
+[BetterCreatures]
+BisonProduceMilkWithoutBaby=True
+BisonMilkHarvestInterval=3600
+BisonMilkCuddleRadius=3000
+PreventBison=False
+
+Gigantoraptor
+All tamed gigantoraptors can be configured to allow always rerolling cuddle food.
+
+[BetterCreatures]
+AlwaysAllowCuddleReroll=True
+PreventGigantoraptor=False
+
+Zombie Wyvern
+All tamed Zombie Wyverns can have mating enabled.
+
+[BetterCreatures]
+ZombieWyvernAllowMating=True
+PreventZombieWyvern=False
+
+Beelzebufo
+A new attack has been added that does the opposite effect of a rare flower where creatures will flee from you (only works on creatures with a drag weight of 375)
+
+[BetterCreatures]
+PreventToad=False
+AllowFearfulToxin=True
+
+ElderClaw
+The ElderClaw can be configured to increase it's max armor value from 80 to 124 or modify the spawn chance of the blossom when killing a wild creature.
+
+[BetterCreatures]
+PreventElderClaw=False
+ElderClawUseBetterArmor=True
+ElderClawBlossomSpawnChance=0.05
+ElderClawUseEggs=False
+
+MegaRaptor
+The megaraptor i feel is quite a bit underwhelming, so it will have increased base health values (roughly 6-9k hp for a 150 perfect tame) and has the pounce attack cooldown decreased from 20 seconds to 10 seconds.
+
+[BetterCreatures]
+PreventMegaRaptor=False
+
+Deinosuchus
+The Deinosuchus has been partially unnerfed and does bleed damage to bosses once again, although altered to do a bit less damage.
+
+[BetterCreatures]
+PreventDeinosuchus=False
+
+Giga Desmodus
+The Giga Desmodus has a few ini options such as modifying the health it consumes when using it's barrage attack or the amount of health healed back.
+
+[BetterCreatures]
+PreventGigaDesmodus=False
+BloodBarrageHealthAmount=0.05
+HealthGainDamageMult=0.15
+HealthGainDamageRiderMult=0.05
+MaxCarryWeight=400
+GigaDesmoSpeedMult=1.0
+
+Ossidon
+
+There are options that can modify the taming mechanics of the Ossidon.
+
+[BetterCreatures]
+PreventOssidon=False
+OssidonStunnedCooldown=20
+OssidonStunnedDuration=10
+OssidonTamingLossPerFail=0.5
+OssidonReqDinoMult=1.0
+OssidonReqIcicleMult=1.0
+
+Drakeling
+Can configure the drakeling to have all of the buffs from other drakelings.
+
+[BetterCreatures]
+DrakelingApplyAllBuffs=False
+DrakelingApplyXPInterval=300
+PreventDrakeling=False
+

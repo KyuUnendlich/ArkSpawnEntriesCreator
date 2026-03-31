@@ -1,0 +1,7 @@
+Engram Entries: 
+   EngramEntry_DefenseUnit_C
+
+Dino Entries: 
+   DefenseUnit_C
+   Drone_C
+

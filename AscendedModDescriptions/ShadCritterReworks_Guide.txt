@@ -1,0 +1,1335 @@
+
+SCR Allosaurus
+Gave my favorite medium-large carnivore some love, with some slightly custom animations. Made better for general solo use and small group use.
+
+    New Aberrant Variant! Spawns in the Elemental Chamber and is immune to radiation!
+    New Scorched Variant! Spawns in Badlands and Scorched Mountains! It's immune to sandstorms!
+    New bite attack anim
+    Increased both bite and bleed bite damage from 35 and 25 to 40
+    Doubled stamina recovery rate
+    Restored run speed variables
+    Allo no longer looses 10% movement speed on tame
+    Can now use left click attack with mouse held
+    Allo now has a gang bonus of +4 (a group of 5). It gains +5% melee and resistance per gang member.
+    New AltFire claw attack for Allosaurus: Hits twice, base 30 damage. If used on a bleeding target, inflicts a slowing debuff.
+    Bleed no longer slows targets, still drains 5% of HP in 10 seconds, but cannot drain more than 5,000 in a single proc.
+    Raised Allo drag weight from 285 to 385
+
+
+SCR Rogue Allosaurus
+A unique variant of Allosaurus for those who like Allo, but don't want to lug around an entire pack. Can be obtained by breeding any SCR allo, as it's a 5% to get a rogue egg instead of a normal one. Sacrifices pack mechanics to work alone.
+
+    Same abilities of all variants of SCR Allo, but does not have pack or gang mechanics
+    Has +15% more health and damage than SCR Allo.
+    Also possesses the Frenzy ability.
+    Does NOT get mate boost. Can still breed, but only with other SCR Rogue Allos
+    Can use its bleed attack by itself
+    Claw attack now has the added feature of slight armor-penetrating damage.
+
+SCR Alpha Raptor
+Yes, you're reading this right: SCR adds an opportunity to tame Alpha Raptors, and only Alpha Raptors, through a complex process.
+
+    There is a 35% chance an Alpha Raptor can be tameable. if it fails this chance, simply leave it alone and it will re-roll this chance on a server restart.
+    Drop the Alpha Raptor to 35% HP or less. If it looses its alpha buff, it has become tameable.
+    Once the Alpha buff is lost, it becomes vulnerable to tranqs. Use your best darts and best rifles to knock it out: it isnt intended to be easy!
+    Once KO, only tames on Extraordinary (Best) Kibble. Will not tame on normal meats.
+
+
+    Faster than normal alpha raptors
+    SCR Alpha Raptor inflicts Rend when tamed
+    SCR Alpha Raptor immune to yuty fear, mammoth intimidation, and force-flee buffs.
+    SCR Alpha Raptor can do a buff call as its third attack. For 60 seconds this grants itself and allies the "Rallied" buff. Rallied heals 2.5 HP per sec and grants 5% res for 60 seconds. While Rallied is also active, the player/creature in question also gets Rallied Frenzy, which is another form of Frenzy (+25% melee above 75% HP). Stacks with normal Frenzy!
+    Nerfed HP-per level when tamed (but not melee).
+    Cannot breed.
+    Higher jump height than normal raptors
+    Spawns with wyvern levels
+    The presence of an SCR Alpha Raptor alone buffs its allies with +35% Resistance and Melee. This buffs dinos both in the same tribe, and in allied tribes, in a range of about 6,000 units (same range as a normal alpha AoE)
+    You cannot have two Alpha Raptors - same tribe or allied tribe - next to each other. If you do, their damage drops by about 90% and they take 500% more damage.
+    Can use an item called "Champion's Grit" to scale its stats by 25% via imprinting (you do not gain additional melee and resistance when riding, however)
+
+
+This creature is intended as more of a leader's/chieftain's or supporter's mount. Tank the best you can (minus the headshot multipliers), and buff your allies via simply being near them!
+SCR Ankylosaurus
+IRL, ankylosaurus is one of my top 10 favorite dinosaurs, and its surprisingly powerful in its own right in-game. I try to draw out some of this power while also respecting the initial ASA decision to reverse the ability for Argent to carry it (this was intended pre-launch of ASA).
+
+    Drag weight increased to 300 (Meaning it CAN NO LONGER BE GRABBED BY ARGENT)
+    SCR Stygimoloch takes its old niche of being able to be carried by argent, and be a mineral harvester
+    Removed additional bonus movement speed on tame
+    Immune to knockback
+    Immune to bleeding, stuns
+    Drastically increased running speed and scaled running anim to compensate. (2.2 -> 5.0)
+    Removed tail slam from left click
+    Right click now has a headbutt anim it can use instead of just the bite
+    Anky as AI will try to use its head attacks less often and focus on using tail attacks.
+    Tail slap is now on C key, hits twice and has base 65 damage, and stuns. 20 second cooldown, costs 150 base stamina to use, cannot use with insufficient stamina and can only be done while walking.
+    Increased land tail swing anim speed of Anky by 30%
+    SCR Ankylosaurus will now grant the 85% weight reduction they usually have on just metal to now also Obsidian, Sulfur, Raw Salt, Gems, and Element Ore
+    SCR Ankylosaurus will now reduce Flint, Sparkpowder, and Charcoal to 5% carry weight.
+
+SCR Argentavis
+Gave one of Mid-game's most essential fliers a little tlc to focus on the fact vultures can fly for hours at a time.
+
+    Can now use left click attack with mouse held
+    Now regenerates stamina midair when not sprinting
+    Gains 20% movement speed when imprinted, now
+
+SCR Armadoggo
+Some tweaks to Bestest Boi to make it easier to tame, and have some usage in Horde Modes/early game.
+
+    Fixed Armadoggo loosing a crapton of affinity per feed.
+    Armadoggo now has +25% damage to corrupted
+    Armadoggo now cannot damage OSDs, or Element Veins
+    Armadoggo takes -50% damage from Corrupted 250 drag weight and smaller, -15% from larger ones.
+
+SCR Arthropluera
+A bit of QoL and rework to make Arthro better in PvE and PvP for its tier and a little more balanced. It's now been reworked to be a heavy defensive tank that punishes unprepared creatures who melee it. It's still curbstomped by megatherium/ranged attacks, though.
+
+    Raised drag weight, 110 -> 150
+    Increased base HP 500 -> 600
+    Increased base stamina 200 -> 300
+    Increased base weight from 100 -> 400
+    Removed +20% movement speed on tame
+    Restored tamed arthro movement speed variable from 0.65 -> 1.0
+    Increased Arthro overall run speed variable 2.7 -> 4.0
+    Further reduced wild arthro run speed variable from 0.8 -> 0.6
+    Increased Arthro bite base damage 18 -> 30
+    Changed Arthro bite damagetype. It no longer damages all structures, causes additional durability damage, or torpor. It's a generic small carnivore damagetype.
+    Arhtro's bite now uses an unused additive bite anim, speeding up its attack speed considerably.
+    Arthro now gains HP regeneration upon consuming a corpse.
+    Arthro's acid damagetype now inflicts reaper's acid debuff, draining HP and stamina.
+    Arthro's acid damagetype has some armor penetration, but not to the effectiveness of manta/theri.
+    If ANY form of Arthro's acid damagetype hits a target that is already afflicted by Reaper Acid, it has a chance to also start stacking Corrosive Acid. The chances are 8% on bite, 16% on reflex, and 50% on spit.
+    Wild Arthros cannot stack certain buffs, for balancing, to make caves more tolerable.
+    When Arthropluera uses its spit attack, it grants the "Acid-laced jaws" buff to itself for 120 seconds. This will cause its bite attacks to deal an additional instance of damage to the target on hit in its acid damagetype, equal to 15% of the bite's damage and inflicting xenomorph acid/corrosive acid.
+    Arthro's physical reflection damagetype changed to its acid damage, but this variation of its acid does not have additional durability damage multipliers, as most of that's handled in the reflection code itself.
+    Step height increased (200 -> 250)
+
+SCR Aureliax
+I scream in Aureliax for multiple reasons. For what you got out of Aureliax's taming method... you really didn't get much other than a fast flier with double critter grabbing.... oh, and base 100 damage of rider direct projectiles, communities who love cheese probably adored that. Not to mention if you get a request for rare flowers or mushrooms and you have a stack mod, Aureliax won't take said consumables, locking you out of the tame. SO - this balances Aureliax to be stronger, giving it a lot of QoL while making taming more streamlined, less asinine, and granting more pve (and pvp) utility.
+
+    Increased primary attack (lash out) damage 35 -> 80
+    Added an aesthetic roar on x/airbrake
+    For taming, Aureliax will no longer request items/tools
+    For taming, Aureliax will no longer request rare flowers/mushrooms, due to conflicts with stack mods
+    Lower-level Aureliax will now request Rhino Horns among their usual apex drops.
+    Mid-level and High-Level Auerliax will now request the above, as well as Great Beast Bones, Megaraptor Claws, and Managarmr Pelt
+    Immune to Knockback
+    Can now spawn at wyvern levels
+    New Passive Ability: Principles of Yin and Yang. This assigns Aureliax a passive ability depending on what state it is in.
+
+    Aureliax's Yang breath weapon damagetype changed from Managarmr to Lightning Wyvern. Matches the vfx more I feel, and prevents rider-direct damage. Enjoy armor-penetrating lightning damage.
+    Aureliax now lacks an oxygen stat, making it an effective aquatic mount. This will cause points in Oxygen to redistribute. Fits being an Asian dragon, I feel.
+
+SCR Baryonyx
+A slight bit of differentiation between bary and carno to make them similar but better at their own thing, as well as some nerfs and balance adjustments.
+
+    Can now use left click attack with mouse held
+    Reduced bite damage from 35 to 30
+    Increased tailspin damage from 25 to 45
+    Bite (not tailspin) can now harvest prime fish meat
+    Tailspin no longer triggers an AoE stun bubble. Tail itself needs to hit in order to trigger stun.
+    Stun attack now has a high stamina cost and an 18 second cooldown (the latter is the same as AI)
+    Swapped it and Carno's base HP (Bary: 440 → 420)
+    Slightly increased overall run (land and water) run speed.
+
+SCR Basilisk
+Some Tweaks, Nerfs, and Buffs to Best Noodle. Yes, I make Basilisk immune to radiation.
+
+    Reduced HP per tamed level on Basilisk from 0.2 to 0.1, keeping it in line with other high-hp breedables.
+    SCR Basilisk now has a unique venom debuff called Basilisk Venom. It lasts 4 seconds by default and inflicts 10 torpor per sec. With every bite, the buff slowly extends in time to a maximum of 300 seconds. The buff is considered a Disease, and can be cured via antidotes and similar.
+    Changed Team Class of Basilisk from Carnivores_Medium to Carnivores_High (Large predators like rex and spino).
+    Changed C "startle" hiss animation to Basilisk's actual roar. Scream your hearts out!
+    Now immune to knockback
+    Increased third person camera
+    Basilisk now has a new X key (prone) tail attack. This stationary attack has a slight cooldown, base stamina cost of 150, and has the same effects as Reaper's: Piercing armor while dealing great knockback.
+    Increased Basilisk projectile's impact reliability
+    Fixed some issues with basilisk's bite
+    Basilisk is now immune to radiation
+    Removed Headshot multipliers on Basilisk
+    GREATLY reduced basilisk's affinity loss per egg.
+    Basilisk also will not loose affinity when buried, seeking, or being attacked
+
+SCR Basilosaurus
+Some love for a great sea sausage, to help it make up for its lack of damage via synergy, if you spec into it.
+
+    SCR Basilo (wild and tamed) now unleash the true potential of the SCR Mantas following them. The buff they give allied mantas grants them with +10% melee and resistance while activating other effects in the mantas themselves.
+    SCR Basilo now has a buff that makes mantas neutral to it. Riders get a temporary version of this buff as well.
+    Basilo only lures mantas now, not ichthyosaurus
+
+SCR Bison
+Bison definitely has its reasons for nerfs, but also some noteworthy buffs. So I've tailored it accordingly based upon its head stances. Head Up gains some synergy with its ranged damage resistance to become more about cycle charging while head down and its melee resistance has effectively become the "brawling" mode. He's still subject to some tweaks as I try them out, but I feel largely, he's in a perfect position.
+
+    Added to Center Tundra Grasslands, Center Tundra Mountains, Grasslands, Tundra, and Snow Biodome
+    Reduced the maximum amount of bonus damage Bison can get when using one of its secondary attacks while running from 3.33x to 1.5x, due to Gang Bonus.
+    Gave Bison standard Purlovia-like stun instead of its unique not-stun on its headslam, meaning it can only stun targets up to 250 drag weight, but it stuns for 3 sec (STA Purlovia stun).
+    Lowered Bison Gore attack (head down primary attack) damage from 30 ->15
+    Bison Gore attack now hits four times (for a total of 60 damage, above vanilla's 30)
+    Bison Gore attack now has no knockback.
+    Raised Bison Headswipe (head up primary) base damage from 30-> 40 (equal to thyla)
+    Fixed an animation error with the Bison's Headbutt (Head up secondary)
+    Increased Bison's max gang detection range from 3500 to 6000
+    Halved Bison's bonus damage from additional members in its gang from +10% to +5%. Their resistance remains the same. (aka a group of 7 bison, which is max, is now +30% damage +30% res
+    Bison Headbutt (head up secondary) attack base damage increased 40-> 50
+    Bison will only use their headbutt attack as AI every 15 seconds now (up from 5). I didn't touch the player's 5-sec cooldown.
+    Bison Headbutt (head up secondary) now has a stamina cost of 150 and cannot be used with insufficient stam.
+    Raised Bison Headlaunch (head down secondary) ai attack interval from 0.1 sec to 5 sec
+    Bison Headlaunch (head down secondary) now has a stamina cost of 100, and cannot be used with insufficient stam.
+
+SCR Brontosaurus
+A little bit of QoL to the creature that's supposed to be "Herbivore Rex", focusing on its size, tankiness, and crowd control.
+
+    Redid animations and speed for SCR Bronto to make more sense
+    Increased tail swing speed of SCR Bronto by 25%, damage frames come out and end earlier now.
+    Increased base stamina from 240 to 300
+    Drastically reduced overall stamina drain of SCR Bronto when running
+    If any creature less than 380 drag weight attacks SCR Bronto with a melee attack, bronto will reduce the incoming damage by half.
+    Raised base damage of tail attack from 60 to 100
+    If the tail attack of Bronto hits anything less than 250 drag weight, the attack deals 50% more knockback
+    New right click stomp attack for Bronto. Base 250 damage, cannot be used with insufficient stam, base 150 damage. Cooldown of 30 seconds. Has a 25% chance to inflict Deinosuchus' Bone Break. On targets smaller than 300 drag weight, the attack will deal 2x damage and be guaranteed Bone Break. Tamed Giga damagetype, will auto-harvest corpses of critters it kills. This Bone Break will not inflict recoil damaeg.
+    SCR Bronto reduces the weight of berries and thatch in its inventory to 5%, and wood to 25%
+    Increased tamed HP per level from 0.132 -> 0.15
+
+SCR Carnotaurus
+A bit of TLC to fix one of the game's mid-tier mounts, reassuring its place within the game and differentiating it from Baryonyx enough.
+
+    Swapped it and Bary's HP (Carno: 420 → 440)
+    Lowered running stamina cost
+    New running animations!
+    Drastically increased running speed 2.8 → 4.65
+    Can now use left click attack with mouse held
+    Bleed no longer drains 20% of HP. Instead deals 15 base damage per second, scaling with melee (but ignoring buffs that boost melee). Partially ignores saddle armor. Cannot deal more than 2500 per tick. Buff time shortened from 30 to 10 seconds.
+
+SCR Ceratosaurus
+Ceratosaurus was always one of my favorite creatures within ARK Additions, feeling like a solid mid-tier creature that offered decent damage, fantastic traversal, and a surprising amount of flexibility. As a sucker for jacks-of-all-trades, I adored Cerato for what it was, and still is. Never had the opportunity to use multiple in a group, but Cera's run definitely needed to be fixed ever since it broke in a basegame update.
+
+Some very minor tweaks to what I feel is a near-perfect critter.
+
+    Raised bite damage from 25 to 35, equal to Carno
+    Can now use left click attacks held, like most critters in SCR
+    Adjusted TPV
+    Increased the collision and step damage effectiveness of Ceratosaurus when running. It should now far more reliably destroy trees and rocks in its way, preventing the bugs that plagued it in its modded form since a random basegame update.
+    Reworked Cerato venom. Cerato now only uses its "vanilla" Venom when wild.
+    Tamed Cerato venom works differently. It can now reliably be stacked/extended infinitely like a normal buff.
+    Healing now works differently for this tamed version of cerato's buff. It ignores all the vanilla mechanics completely now. Simply, whenever a carnivore hits the victim with a melee attack, the attacking carnivore is given a 3 second long buff that restores HP by 25 per sec and drains 5 torpor per sec.
+    Reduced Ceratosaurus Drag Weight to 300 from 501
+    Now has Frenzy, which increases its damage by 25% when above 75% HP
+
+SCR Chalicotherium
+One of my favorite mammals and creatures in-game in general, just a bit of QoL to beer horse/gorilla.
+
+    Added to SE Green Desert
+    Reduced Chalico's food consumption interval when taming
+    Claw attack now harvests corpses and fiber
+    Reduced base damage of bite from 32 -> 25
+    Chalico now only uses its bite attack when moving, falling, or swimming.
+    Decreased gravity of Chalico's bolder by half to make it a better projectile.
+    Increased lifespan of chalico's boulder from 2.6 -> 4
+    Boulder throwing for Chalico is now a special attack, being able to be toggled on and off AI.
+    SCR Chalico has the "Rowdy" ability, which activates above 75% Hp. The buff grants +25 Stamina per sec, -5 Torpor per sec, and immunity to mammoth's intimidation and certain force flee buffs.
+    Reduced the percent HP regen amount of Chalico when sitting down from 1% per sec to 50% HP -> 1% per sec to 15% HP. Afterwards, it starts regenerating HP by 15 HP per sec.
+
+SCR Cryolophosaurus
+Cryo. Hoo boy.
+
+Cryo definitely isn't the initial monster it was on initial launch back in ASE. Folks said garuga "gutted it" after a recent nerf back then, but I still thought Cryo was VERY viable - just still had different issues. I definitely do prefer ASA official Cryo: it's much more balanced. Originally I wanted to nerf Cryo's torpor out of fear, but it's not that bad. So I've tweaked it instead. If cryo can still perma-freeze bosses though (like it used to), I'll slap that with a hammer later. Currently still having my eyes on Cryo and will change as needed: but in SCR i've ended up buffing cryo vs nerfing. Some slight buffs to make it more a "LC Carno alt" of sorts. Originally wanted to be more heavy handed - but with what you have to do to get cryo, i feel a little strength is worth it. This buffs cryo to be a solid mid-late tier with utility.
+
+    Cryo no longer gains more HP per level than other critters per level when tamed (0.25 -> 0.2)
+    Increased Cryo melee per level wild to be equal to most creatures (0.04 -> 0.05)
+    Buffed Cryo bite damage (27-> 32)
+    Cryo's bite no longer inflicts torpor
+    Cryo's torpor projectiles now inflict Frozen Lullaby. This is a buff childed from Ice Wyvern's frozen buff (anything immune to that will be immune to this), but working differently. It decreases target speed by 15% but doesn't prevent running. This buff works EXACTLY like SCR Basilisk's venom: applying a high amount of torpor-per-sec, ignoring armor and resistances of all kinds. It lasts 4 seconds, but can be continuously re-applied to last 300 seconds. It applies 8 torpor per sec. If this proves too much i'll halve the torpor dealt by cryo's torpor projectile, but keep Lullaby.
+    - Cryo's torpor projectile now cannot damage a target that is unconscious. However, it can still apply Frozen Lullaby to them, protecting against torpor drain at no affinity lost.
+
+SCR Daeodon
+Some QoL to make pig become even more battlepig
+
+    New Aberrant variant (Spawns in green zone on ab)
+    Decreased its 5x mushroom harvesting to 2.5x, but it now applies to any type of mushroom
+    Now has a 3x harvest yield for Keratin
+    Any Mushroom weighs 10% of its usual weight in an SCR Daeodon's inventory
+    Increased base damage of Daeodon bite from 29 to 35
+    When Daeodon harvests a corpse, Daeodon gains a 25 sec HP regen buff that heals it by 25 HP per sec and restores 15 food per sec. While active, Daeodon looses food half as fast as it normally does.
+    Daeodon can now properly harvest bushes, its bite damage is now omnivore-like
+
+SCR Defense Unit
+A few tweaks to make a menace of Extinction's early game less annoying, and viable in several ways.
+
+    Will now alert SCR Enforcers when in combat.
+    Passive tame, feed element at lvl 25 to obtain
+    Naturally only takes 80% of incoming damage
+    Completely neutral/passive to players and their tames now unless attacked! Instead will actively attack and target any wild carnivores in their vacinity.
+    Reduces the weight of Element, Element Dust, and Element shards to 10% in inventory
+    Immune to knockback
+    Immune to bleeding, fear, venom
+    Has a saddle, the TEK Construct Defense drive, that grants armor.
+    Takes -30% damage from Corrupted
+    Deals 50% more damage to corrupted
+    When killing corrupted, gains the Defense Protocol buff. Regenerate HP and stamina while increasing Defense by 15% for 15 sec.
+    Left click: Arm stab. 34 base damage. Slower dps than Enforcer.
+    Right click: Roll. Fastest way to travel. When rolling, you take 25% less damage.
+    C key: Taser Stab. Stationary attack that deals base 70 damage with a cooldown and stamina cost. Ignores armor to the effectiveness of manta and electrocutes the target, lowering their speed, damage, and resistance for a moment.
+    AltFire: Flurry. Does not deal increased damage to corrupted, but rather, mines resources like a Metal Pick, allowing you to harvest Element Nodes. Base 15 damage, hitting 5-6 times.
+    Spacebar to jump
+
+SCR Deinonychus
+Some slight changes to SCR Deinon to make it more balanced while also giving it solo utility.
+
+    Increased Deinonychus's mesh size in its character bp from 0.75 -> 1.0, making it larger and its actual model size.
+    Deinonychus's stats have been scaled 25% at least from vanilla raptor to become more its own identity, due to the above.
+    HP Increased 200 -> 275
+    Stamina increased to 250
+    Weight increased to 250
+    Torpidity increased to 300
+    Increased walk speed 480 -> 510 (this also slightly scales run speed)
+    Increased TPV
+    SCR Deinonychus alphas now get a proper Alpha buff, like standard Raptors, but weaker (+15% res & damage)
+    SCR Deinonychus pack buff roar given a 25 stamina cost.
+    SCR Deinonychus pack buff roar cooldown increased from 2 sec to 8
+    SCR Deinonychus air control increased to be equal to Terror Bird. This allows it to extend or shorten its horizontal distances considerably. It also grants much more control over its vertical jumps (Note: this means Deinon can more easily effect its horizontal distance when jumping/falling, not the slow-fall movement terror-bird has)
+    Deinonychus no longer inflicts its unique bleed on targets. It inflicts Rend instead.
+    Deinonychus can inflict SCR Carno's bleed on targets it pounces.
+    Buffed the pounce/latched attack damage of Deinonychus from 21 -> 35
+    Deinonychus has a new tertiary (C) attack for only riders, an unused bite animation. If used on a target that is bleeding, has been inflicted with Rend, or SCR Cerato's venom, will grant SCR Xiphactinus' regeneration buff, but lasting 15 seconds instead of 5. This is inspired by dossier text. C can also still unlatch.
+
+    Doubled size of Deinon non-latching attack hitbox
+    Deinon no longer can wall-latch, in an attempt to make climbing more seamless. It CAN still wall-climb fine. Should also prevent random snap-to-surfaces when jumping.
+    SCR Deinon no longer has held jumps. The animation still plays but regardless, it is now a fixed distance jump that alternates depending on jump mode. By default, the jump deinon has is poor at horizontal traversal but useful for climbing. Alternate jumps with alt fire (left ctrl), Deinonychus will remember what jump mode it's in.
+
+SCR Deinosuchus
+There's not too much to do to Deinosuchus imo, with the changes it's had in ASA/Official since I last used it, but there's some stuff I came up with that should make it feel a little less like "Amphibious Rex" to those who don't like it for said reasons
+
+    Increased base left click damage of Deinosuchus from 55 to 62, to truly equal out to rex's dps
+    Like SCR Dunkleosteus, SCR Deinosuchus now ignores all bone damage multipliers with both normal bite and charged/uncharged giga-bite. While this means Deinosuchus now cannot benefit from headshot/weakshot multipliers; it now ignores things like trike heads, turtle shells, and stego backplates.
+    Extended the cooldown of Giga Bite from 15 sec to 30 sec
+    Fixed an issue where uncharged giga bites didn't keep their damagetype, not allowing them to damage up to stone structures/full damage to rock golems.
+    Added a unique "Apex Drop" to SCR Deinosuchus, Deinosuchus Skin. Within the tamed inventory of an SCR Deinosuchus, you can convert these to other Apex Drops. 1 Deinosuchus Skin can either net you 3 Sarco Skins, 5 Megalodon Teeth, or 1 Spino Sail.
+    Bone Break no longer triggers recoil damage.
+
+SCR Deinotherium
+Deinotherium imo was always one of the more balanced AA additions, minus a few small personal nitpicks. I personally adored how much it just hard-canceled the usual Carnivore meta and punished people for just using carnivores. However, modded Deinotherium and official Deinotherium are two completely different beasts. I definitely do understand why WC went the direction they did with official Deinotherium, though, even if I feel they took away a lot of Deinotherium's strength and terror.
+
+This restores a fair bit of that while hopefully not being too bad, focusing on the ideal setup being a small group of 4 (1 male 3 females). If Deinotherium is too strong i'll likely come back to it for some nerfs.
+
+    SCR Deinotherium will now only deal minimal knockback to creatures larger than 400 drag weight, making its second hit damage larger targets easier with its stomp attacks.
+    SCR Deinotherium's walking stomp now hits twice.
+    Increased hitboxes on Deinotherium stomp attacks by adding more hitboxes farther up the leg.
+    Rather than have their damage tailored by gender and with wild deinotherium getting +30% damage to carnivores and tamed only getting +15%, both male and female SCR Deinotherium, tamed or wild, get +30% damage to carnivores.
+    Increased stomp base damage from 30 -> 35
+    When doing their turning stomp, Deinotherium get a buff that increases the stomp's damage by +135%
+    Deinotherium gang bonus reduced to be +3 from +4, to match pack size of 4 (3 females and 1 male, ideally). This leads to roughly +15% attack and defense.
+    Male Deinotherium now have Pack Alpha bonus, increasing their damage by 50% and resistance by 25%. The idea is to push Females into a more defensive role while Males deal out most of the damage.
+    When any deinotherium in a pack does their rally call, other unmounted members will try to as well as soon as they're able.
+    Immune to knockback
+    Immune to sandstorms
+    New Apex Drop, Great Beast Bone
+
+SCR Desmodus
+Always loved bat and had zero issues. This gives some QoL to one of my favorite fliers.
+
+    Restored wild HP Per level (0.17 -> 0.2)
+    Restored tamed and wild stamina per level (0.05 -> 0.1)
+    In the inventory of Desmodus: Sanguine Elixirs, Blood Packs, and Leech Blood is reduced to 15% weight and given a 10x preservation multiplier.
+    In the inventory of Desmodus: Soiled Meat is reduced to 30% weight.
+    Removed terrestrial wing swipe attack
+    When SCR Desmodus bites a bleeding target, it gains SCR Xiph's healing buff
+
+SCR Dimorphodon
+A bit of tlc to give one of ARK's first shoulderpets (actually wasn't it the first i think?) some extreme utility and relevance. Whether it's as an early-game companion or later-game base guard, never forget your dimorphs!
+
+    Dimorphodon bite damage reduced from 23 -> 14 (why do they have the same base damage as argent..?)
+    Overall run speed multiplier increased from 1.8 -> 3.0
+    Wild run speed multiplier reduced from 1.0 -> 0.6
+    Bite attack range increased from 200 to 250
+    Dimorphodons now have a "Falconry" mechanic, it is toggled off by default. If toggled on, provided they are not on passive, they will automatically attack wild pest creatures nearby they can detect. Valid "Pests" are Ichthyornis, Microraptors, Pegomastax, Compies, Ants, and Dragonflies.
+    The bite of Dimorphodon now deals 3.25x damage towards Ants and Dragonflies.
+    Tamed Dimorphodons now have gang bonus. This caps at +9 (10 individuals) and grants 1.5% melee and 0.5% resistance per nearby dimorph.
+    Can be passive tamed, no level requirement.
+
+SCR Diplodocus
+Mostly just enabled Diplo to defend itself. :P
+
+    New tail attacks replacing nuzzle on left click. Base 60 damage. Wild Diplos will not use this.
+    Nuzzle moved to right click, same effects as before
+    Nuzzle can be disabled from AI by turning off special attacks in radial wheel.
+    Reduced SCR Diplo health from 1700 to 1200 (due to it now being able to deal damage)
+    Can now properly level melee
+    Lowered walk speed, but drastically increased run speed.
+
+SCR Direwolf
+Tweaks to prevent it from encroaching on sabertooth too much but make it unique at its own stuff.
+
+    restored some speed variables
+    Removed harvesting multipliers for pelt and hide
+    Reduced base damage from 33 to 30
+    Direwolf reduces the weight of pelt in its inventory to 25%
+    Direwolf now has Frenzy, increasing its base damage by 25% above 75% HP
+
+SCR Doedicurus
+Slight tweaks to the armadillo for some general quality-of-life
+
+    Sped up horizontal tail swing
+    Tail pound now hits twice
+    Increased roll speed from 1.6 to 2.0
+
+SCR Dreadnoughtus
+Not a fan of the creature that makes Extinction trivial. Slapped it with many nerfs to bring it in line with SCR Giga, and make it an overall anti-corrupted tame, not just anti-titan.
+
+    Restored wild HP level up value from 0.032 to 0.2
+    Increased tamed HP level up value from 0.02112 to 0.08
+    Reduced Dreadnoughtus base HP from 100,000 to 4000
+    Removed health nerf on tame, Dread now gains HP on tame like any other critter.
+    Increased Melee per level wild from 0.033333 to 0.05 (Same as all other normal creatures)
+    Increased Melee per level tamed from 0.066667 to 0.1 (same as all other normal creatures)
+    Dreadnoughtus now gains additional melee on tame like most other critters.
+    Reduced Dreadnoughtus run stamina drain from -20 to -10
+    Reduced Dreadnoughtus run speed multiplier from 2.037037 to 2.0
+    Increased Dreadnoughtus tamed run speed multiplier from 1.333 to 1.5
+    Reduced Dreadnoughtus base damage on neck attack from 1080 to 110
+    Reduced Dreadnoughtus base damage on tail attack from 1080 to 70
+    Drastically sped up tail and head attack anim speed
+    Tweaked and reduced overall knockback of attacks
+    The footstep sounds of Dreadnoughtus are now universal (the walking footstep sounds are used when running)
+    By default, Dreadnoughtus' Titan Slayer buff is only +50% damage/armor, scaling with drag weight of nearby hostile carnivores: not +150% damage. The damage output is not changed, but I have reduced the minimum and maximum resistance gained from +5% -> +50% to +1% +25%
+    By default, Dreadnoughtus' melee damagetypes now deal +50% damage to Corrupted. NOTE: Titans are not classified by ARK as "Corrupted", so this additional damage is not dealt to them. Titans get a unique +10% damage multiplier
+    Reduced damage dealt by Dreadnoughtus cannonball projectile from 1500 direct 300 explosive to 175 Direct 80 Explosive
+    Dreadnoughts now have "Gaia's Warden" buff. When wild, this reduces damage from Corrupted by 80%. When tamed, this reduces damage from Corrupted by 50%. Titans are not counted as Corrupted. Their damage is uniquely reduced by 10%.
+    Lowered Dreadnought's max Disdain stacks from 20 to 5, but increased the breath damage gained per disdain stack from 50 to 100
+
+SCR Dreadmare
+Focus on Dreadmare mostly being about debuffing, to make it play a solid support role. HP reduced due to speed to focus on it being more support-based, but increasing its skillset accordingly.
+
+Currently not spawning/Remapping. You will need to spawn it in manually (DarkPegasus_Character_BP_Shad_C)
+
+    Reduced base HP from 1000 to 550
+    Reduced base stamina from 600 to 350
+    Now gains 20% speed on imprint
+    Now has a saddle slot with an implant saddle learned at lvl 95. Can still be ridden without.
+    Dreadmare now takes 50% more damage from projectiles, like most fliers
+    Dreadmare now immune to damage from its own special attack damagetypes
+    Dreadmare immune to most fear-based buffs
+    Dreadmare is now a "Big Dino", preventing step damage and mitigating other effects.
+    Increased Windblade stamina cost from 10 to 20
+    Both Windblade variations (Dark and normal) no longer deal rider direct damage
+    Windblade base damage increased 20 -> 30
+    Dark Windblade base damage increased 30 -> 60 to be more useful in PvE
+    Increased Dark Windblade stamina cost from 10 to 200
+    Dreadmare base bite damage increased 18 -> 20
+    Bite now gives an HP regen buff when harvesting corpses
+    Added an unused taunt on X key (prone), land only
+    Lessened DLC restrictions to be equal to that of BTT.
+    Multiplied the affinity gained per wave by 10x
+
+SCR Dung Beetle
+Small fix because poor Dung Beetle needs it with the auto-harvesting it was given.
+
+    Increased base weight of Dung Beetle from 5 to 75
+    Slightly reduced level up values in Weight from 0.08 to 0.05
+
+SCR Dunkleosteus
+A bit of QoL to make Dunkle more viable, and not a pain in the butt to even use. Beware picking a fight with these lads.
+
+    Lowered the stamina cost of running for dunkle
+    Increased bite damage from 60 → 80
+    Increased stamina from 200 → 300
+    Restored HP Per level
+    Lowered Melee per level
+    Dunkle now ignores bone damage multipliers (it doesnt gain increased damage from hitting various body parts, but it also ignores such armored body parts as well
+
+SCR Elderclaw
+Elderclaw is extremely solid, I really didn't feel like there was need to do much other than very slight QoL tweaks to the bear that made sense.
+
+    Immune to bleeding and electrocution, as well as venom
+    Takes increased damage from fire
+    inventory sharply reduces the weight of berries, fiber, wood, thatch, and similar plant-based materials.
+    Inventory gives extended preservation for crops
+    Immune to knockback
+    Extended hitboxes on claw attacks to prevent easy flanking by small targets.
+
+SCR Enforcer
+Enforcer's pretty solid, but could use a little love. This is to help it out a bit, and I'm a bit attached to Enforcer itself as well.
+
+    Can now be passive tamed via Element (Do not kill to obtain, BPs dropped are vanilla enforcers). This also allows Enforcers to get posttame levels
+    When killing a Corrupted, Enforcer gains the following buff: Enforcement Protocol. It will regenerate HP and stamina while increasing its movement speed by 25% and its damage by 5% for 15 seconds.
+    Enforcer now uses a custom damagetype, no longer dealing 4x, but 2x damage to Corrupted. This was done due to the fact they gain posttame now. This damagetype also pierces armor, but not to the effectiveness of Manta/Theri. It also inflicts Rend.
+    As a "Robot", enforcer is now immune to all Fear, Bleed, and Venom-based buffs.
+    Fixed a few animation issues
+    Now has a "Saddle" - The TEK Construct Defense Drive - that now grants it armor like a saddle.
+    Will now alert SCR Defense Units when in combat
+
+SCR Fasolasuchus
+Much QoL to the best boi, as a Rauisuchian enjoyer.
+
+    Multiplied all torpor gain from collision by 3x
+    When Fasolasuchus does its slow bite anim or bury-bite anim, it will gain a buff that increases the attack damage of those animations by 50%.
+    Fasolasuchus now has a hitbox closer to its chest to make fighting against flanking targets a little easier
+    Fasolasuchus now makes Flint weigh 15% in its inventory
+    Extended amount of Control from 40 sec to 60 sec.
+    Very slightly increased faso's running speed (2.0 -> 2.25)
+    Faso base run speed while buried now noticeably faster. Max speed is the same.
+    SCR Fasolasuchus bite damagetype changed to be similar to Dunkle, but now also has partial armor pierce, allowing it to damage up to stone structures, harvest certain metal/mineral resources, etc. Faso also deals 50% less damage to structures it attacks. This was all done due to the general varanid (monitor lizard) portrayal of ARK's Faso and the fact Komodo Dragons have metal-coated teeth.
+    Fasolasuchus now also reduces Sparkpowder, Gems (Blue, red, green) and Charcoal to 15% in its inventory.
+    Fasolasuchus now also reduces the weight of Metal, Stone, Crystal, Obsidian, Sand, Sulfur, Raw Salt, and Element Ore to 35%.
+    Due to the fact Fasolasuchus cannot inflict its corrosion buff on tames in vanilla, SCR Faso now inflicts the unique "Corrosive Acid" buff (From ASE Wild Ark) onto only TAMED targets. This is a flat -40% resistance buff for 5 seconds. It extends with every proc to a maximum of 35 sec. This buff is inflicted by both Faso's bite and its recoil damage. If WC eventually fixes this it will be removed from SCR Faso.
+
+SCR Forest Wyvern
+Given their obscenely small size, I balanced Forest Wyverns around being very fast, hit-and-run fighters with specialty towards being anti-corrupted tames with their unique Fire damage. They only spawn in the Sunken Forest on extinction.
+
+- Small, fragile, very fast. (Base 250 HP)
+- Passive tame
+- Neutral to the player
+- Can grab targets 150 drag weight and less
+- All fire damage deals 2.5x to Corrupted dinos.
+- Left click bite, base 20 damage. When attacking, it deals an additional hit of fire damage, equal to half damage inflicted.This fire damage scales against corrupted.
+- Right click firebreath. Base 13 damage, scales against corrupted.
+- Rest of the functionalities are the same as other SCR Wyverns, though SCR Forest Wyvern does about a quarter of the knockback with its wings.
+SCR Gigantopithecus
+The funny monke is actually stupidly good for what it is for those who can get it early. 645 HP and base 40 damage is nothing to scoff at. Just a few tweaks to make "Bigfoot" a little better.
+
+    Restored HP and Melee per level when wild
+    Desires to be fed when tamed more often
+    Lowered base damage of left click from 40 to 32.
+    Left click no longer includes the ground pound, but now a punch to accompany the arm swipe. Both can be used while moving, making overal dps faster
+    Gigantopithecus now makes the shoulder pets it carries immune to damage.
+    Gigantopithecus now starts attacking from farther away.
+    Left ctrl is now the Ground Pound. Cannot be done while moving, cannot be used with insufficient stam. Base damage is 45. Applies a slowing effect to creatures 350 drag weight and less, reducing their movement speed to 75% of usual.
+    New Chitin Gauntlets for SCR Gigantopithecus. Equipped on an SCR Gigantopithecus, they increase overall melee damage by 35%. They can break, and require repair. Base durability is 450.
+    When SCR Gigantopithecus or Yeti use their punching (not ground pound) attacks while they have Chitin Gauntlets equipped, they will deal a secondary instance of damage equal to 50% of the punch's damage. This secondary damage instance is in a carnivore damagetype that pierces armor, but not to the effectiveness of manta.
+    SCR Gigantopithecus can throw projectiles. It cannot throw projectiles if it has gauntlets equipped. Gigantopithecus can now throw grenades, cluster grenades, plant species Z fruit, and stone. No projectiles except the stones scale with melee. Cycle projectiles with O, throw with right ctrl. Projectiles are thrown in a 2.25 sec cooldown interval. All projectiles are the same, minus the stone projectile. it is base 25 damage and inflicts torpidity.
+
+SCR Gigantoraptor
+Some slight changes to Gigantoraptor from a functionality standpoint: I largely think it's ok as-is. More love to it with some basis in cassowary.
+
+    Can now use left click held, like all other scr critters.
+    Bite damagetype changed to direbear, harvesting bushes, corpses, and honey.
+    Changed Gigantoraptor kick damage from omnivore to medium carnivore. When Gigantoraptors are wild, their kicks will do 2.25x damage to anything 150 drag weight and below, while also inflicting SCR's tick-based bleed. This was done to help wild parents better protect their nests and was inspired by cassowary.
+    When tamed, the kicks of SCR Gigantoraptor will do 50% more damage to creatures 125 drag weight or less, and 25% more to creatures 150 drag weight or less (but whose drag weight is more than 150). They cannot inflict bleeding.
+    Now spawns in Green Desert and Oasis on Scorched Earth
+    SCR Gigantoraptor now cannot take knockback from anything less than 150 drag weight.
+
+SCR Giganotosaurus
+In the ASE version of this mod i balanced giga around its default size. here I wanted to try an alternate popular form of rebalance: Making it smaller and similar in size to rex. I've done that here and I'm satisfied with the results!
+
+- Still rare, but should be slightly more common
+- Base HP: 1275 (rex is 1100)
+- 300 stam
+- 550 weight
+- 1850 torpor (giga's insane torpor drain still applies)
+- No botched leveling in any stat
+- 550 Drag Weight (*gigas can go into boss arenas now!*)
+- Faster than rex in a sprint
+- Bite damagetype now reduced to 55 damage: less than rex. The bite inflicts SCR Allo's bleed: Draining a capped 5% of health in a set amount of time! Giga's bite deals less damage to structures in SCR than it does in vanilla.
+- C key is another unused animation set of mine: a grab! Grab targets up to 200 drag weight. Left click goes from the usual bite to a Crunch that only hits the carried victim for base 80 damage, usual bite damagetype! If you use C while carrying a target, throw them violently off to your left for base 100 damage!
+- Spacebar/jump bind when enraged is a tail slam. Base 100 damage, 150 stamina cost. Deals knockback behind you and deals ***2.25x*** damage to structures! Inflicts Bone Break on targets 250 drag weight and less
+- Left ctrl key when enraged is the stomp. 40 second cooldown as players and AI, 250 base stamina cost. Shorter-radius AoE stomp directly underneath you that deals 2.25x damage to structures and stuns targets 250 drag weight and less while also inflicting bone break on them!
+- Giga's rage is now reworked. Giga now rages when it takes approximately 30% of its health in damage. Rage boosts giga's melee by 50% and resistance by 25%, and he won't dismount you when enraging! Also provides a *slight* stamina boost and drain of torpidity!
+- However, there's more to the rage as now Giga has a hidden "rage counter". Be careful how many times you rage: three strikes, you're out! Any time giga enrages, it adds +1 to giga's hidden "rage counter" variable. Letting your giga calm down instantly resets rage to 0. You can only "chain rage" (giga doesnt scale more and more with each rage) three times. On the fourth time... your giga enters what i've called "True Rage".
+- "True Rage" makes your giga a menace to allies and enemies alike. It plays another unique animation, giving you time to run away. You're immediately bucked off and your giga runs wild, attacking everything near it. It regenerates large amounts of torpor and stamina per second, and gains an additional +100% melee damage and +25% resistance that stacks. yes, that's right... When entering True Rage, the earlier buff still applies. ***A giga in True Rage has 250% Melee damage and +50% resistance, including mass torpor and stam regen.*** Reconsider bringing Gigas into fights where you expect them to take mass amounts of damage!
+SCR Griffin
+A little balance and tweaking to make Griffin more of a glass cannon tactical tame. Some nerfs to some attacks, and some buffs to others. The idea was to make its more risky ground slam more dangerous, but rewarding, than the aerial dive slash.
+
+    Now has an implant saddle at lvl 70
+    Added to Tundra Mountain, Tundra Biodome, Mountain, Scorched Mountain, and Carnivore Island biomes.
+    Nerfed griffin health from 980 -> 365, equal to argent. Removed HP nerf on tame.
+    Removed griffin melee nerf on tame
+    Restored griffin stamina
+    Raised base stamina from 220 -> 300
+    Raised base weight from 280 -> 350
+    Fixed some primary attack animation issues.
+    Fixed primary attack issues by giving a cooldown to the griffin's primary attack.
+    Diving Swipe damage on griffin reduced from 188 -> 85 base damage
+    Diving swipe now has a 4 second cooldown for players.
+    Diving swipe no longer counts as "flier" damage, ignoring some cases where the damage would be reduced.
+    Diving swipe now pierces armor to the effectiveness of Manta/Theri.
+    Raised Ground Slam damage from 115 to 188, no longer is classed as "flyer" damage, but large carnivore damage.
+    If Ground Slam hits anything 250 drag weight or less, they are given Broken Bones.
+
+SCR Helicoprion
+I won't lie, I keep forgetting Helicoprion exists because I never encountered them. Looking into them, though, they're *rather* strong. So what i've done is help them keep their identity by balancing them out and giving them some QoL. Also has crossplay with Additional Creatures: Aquaria.
+
+    Removed piercing damage and additional raft damage on bite attack. Bite still has high armor degredation quality, due to main mechanic.
+    Bite also now inflicts Rend, but only on dinos.
+    Bite of SCR Helicoprion can now harvest raw prime fish meat from certain corpses, like sickles.
+    Increased helicoprion tail whip stamina cost 20 -> 50
+    Increased Helicoprion tail whip useage cooldown 3sec -> 6sec
+    Humboldt Squid of AC: Aquaria added to multipliers
+    Helicoprion's buff now protects against Humboldts.
+
+SCR Kaprosuchus
+QoL to make Kapro more viable to PvE
+
+    Raised base damage to 35 from 25, to keep Glass Cannon feel
+    Kapro bite hitbox increased
+    Kapro bite now has slight armor penetration, but not to the effectiveness of manta or theri
+    Tamed Kaprosuchus much faster now, Kaprosuchus in the wild should be only marginarlly faster than vanilla
+    AI Kaprosuchus will now only try to lunge every 12 seconds (instead of 5) and if they are at least 800 units away from their target. They won't try and grab if they're in close melee now.
+    Lunging on Kaprosuchus is now a Special Attack, and can be enabled and disabled at will.
+    Increased player cooldown on Kapro lunge from 1.8 to 5 sec
+    Increased Health & Torpor from 200 to 315
+    Increased Weight from 140 to 225
+    Kapro can now inflict SCR Carno's bleed with its bite attack, but only on creatures.
+    Lowered drag weight from 410 to 125
+
+SCR Karkinos
+A few very small tweaks to Crab as I feel it doesn't need much. Also... gestating crabs is cursed.
+
+    Changed from gestation to egg lay. Crabs lay aquatic eggs
+    Increased claw slams base damage from 32 to 40
+    Increased double claw slam damage from 50 to 60
+    Immune to bleeding and stunning/electrocution
+    Karkinos immune to knockback
+    Slightly increased Karkinos run speed from 1.75 -> 2.0
+    Increased the secondary hit of damage Karkinos does to grabbed targets from 25 -> 30
+    Raised Karkinos' grab weight threshold from 250 -> 300
+
+SCR Lymantria
+Slight tweaks to Moth to bring it in line with my other fliers
+
+    Now passively produces up to 100 silk in inventory
+    Restored stamina and weight per level
+    Lowered SCR Lymantria torpor from 550 to 300
+
+SCR Maeguana
+Not a big fan of the lazy Maewing reskin. I'm definitely of the camp that adding Maeguana now reduces the viability of Maewing itself. So, I've tweaked it. SCR Maeguana has most of its baby care features and gliding mechanics butchered, in exchange for being a better combat mount than Maewing. Effectively, Maeguana is more for if you want an early/mid tier combat mount with Maewing's traversal mechanics. Maewing will focus more on traversal and baby care.
+
+    Reduced HP from 700 to 350
+    increased torpor from 100 to 350
+    Maeguana now gains health on tame
+    Unnerfed Maeguana HP per level
+    Removed Maeguana melee nerf on tame
+    Maeguana no longer can breathe underwater
+    Maeguana now have genders, meaning now only females lay eggs.
+    Maeguana now only lay Medium eggs
+    Maeguana now cannot sprint while swimming
+    Restored Maeguana walk speed rate (0.75-> 1.0) and reduced base walk speed (which thus scales run speed) to fix animation sliding (640 -> 450)
+    increased Maeguana run speed (2.75 -> 4)
+    Most variables relating to Maeguana's gliding mechanic have been reduced by at least half. This makes Maeguana much slower than Maewing and VASTLY unable to remain airborne/gliding as long. However, it is still a very fast travel mount and gliding is still a solid/preferred traversal option.
+    Increased base swim speed slightly
+    Increased hitbox on Maeguana bite
+    Increased base damage on Maeguana bite from 20 to 35
+    Increased belly flop damage on Maeguana from 20 to 40 and increased hitbox size
+    Increased Maeguana stamina cost on belly flop from 50 to 150
+    Gave Maeguana belly flop a 5 second stamina cost.
+    Maeguana can now move while biting while attacking. Baby grabbing is still stationary.
+    Tweaked the hitbox of Maeguana dive bomb, but did not change the base damage.
+    Maeguana's bite is now venomous, inflicting SCR's venom.
+    Maeguana is now immune to venom.
+    Maeguana can no longer nurse/care for babies (the option is there, but the functionality was disabled.It was easier to preserve code this way.)
+    Swapped out a few of Maeguana's more common sounds for Dimetrodon, instead of its default maewing-sarco blend.
+
+SCR Malwyn
+I legitimately think people misread Malwyn's dossier, much like Ossidon's. Nowhere does the dossier say it's supposed to be some shadowmane-level end-all tame. Malwyn itself is actually ludicrous - 800 hp for something its size isn't anything to scoff at. It also deals 60 base damage with its bite (only two less than rex) and 100 with its teleport. It honestly doesn't come across as needing much, it's pretty solid all things considered. It's a solid mid-late brawler, and it provides good support and skirmishing too. Nothing wrong with that, and that's more of both we need.
+
+Although, I do admit for the single player - especially in pve - it offers less than Solwyn. So I try to fix that.
+
+    Unnerfed tamed speed variables, making Malwyn faster
+    extended bite hitbox
+    Fixed an issue where Lost Bioengineering would deactivate on server restart
+    Can now freely mark and save four separate locations to teleport to across the map.
+
+
+SCR Malwyn Teleportation
+
+Toggle/swap locations used by holding down AltFire while pressing X/AirBrake. This cooldown is on a 1-second timer vs the actual teleport's 3-sec. Malwyns will start with Location 1 data active. Rotation works
+
+Location 1 -> 2 -> 3 -> 4 -> 1
+
+Simply tap X/Dino Air Brake to mark a location as that Malwyn's teleport destination for that toggled setting. Each SCR Malwyn can store four locations, and this location's data saves between server saves, upload/download, SP relog, cryo, etc. SCR Malwyn *cannot* mark a location if it is swimming or falling.
+
+*Hold* X/Dino Air Brake for 3 seconds to cue the teleport. You will get a message letting you know the teleport is fully cued and ready. Simply release Air Brake and poof back to your pre-decided destination!
+
+The entire process - and any result - has a 3 second toggle cooldown. For balance, SCR Malwyn when it takes damage now gains a sort of "Combat log" buff for 10 seconds - they cannot teleport while this buff is active. Here are all conditions teleporting can fail:
+
+- "In Combat"
+- No prior teleport location saved
+- Invalid movement state (falling/swimming)
+- Attacking
+SCR Mammoth
+Believe it or not despite the fact I adore dinosaurs, prehistoric mammals excite me more. I'm more drawn to them, and in a game like ARK, I try to use the cast of Mammals (and non-dinosaurian critters) over anything else. SCR Mammoth is my small attempt to take an already deceptively powerful critter, and make it more useful in the long term as well.
+
+    Removed bonus 100% movement speed on tame
+    New running anim, mammoth is now much faster
+    Increased mammoth stamina regeneration
+    Fixed an issue where mammoth had a glitch where it couldn't inflict damage if attacking too fast.
+    SCR Mammoth drum-rider now granted same damage protections as rider. Can still be shot off with certain damagetypes.
+
+SCR Managarmr
+I really like Managarmrs, but I understand why wildcard nerfed some aspects of it. I try to restore some of these, while addressing other issues.
+
+    Reduced Managarmr's base HP from 825 to 700
+    Increased Managarmr's base weight from 300 to 450
+    Managarmr can now recover stamina while walking as fast as it would standing still
+    Increased Managarmr's max jumps to 7
+    Increased Managarmr's max strafes to 20
+    Slightly increased Managarmr's overall land speed.
+    Drastically increased the distance of Managarmr's jet-burst. It is still only one per landing.
+    Reduced strafe stamina cost from 80 to 15
+    Reduced jump stamina cost from 40 to 20
+    Changed left click to only use an additive bite, drastically increasing DPS
+    The Bite Attack of Managarmr can now also be used via C (tertiary) key, allowing it to be used while in dash/jet mode, and swimming.
+    Removed Hurt anim, fixing glitches
+    Increased Managarmr bite damage from 35 to 42
+    Drastically reduced the damage dealt by Managarmr's ice breath, effectively neutralizing it as a form of damage. Effectively, it now deals no damage
+    Greatly increased the range of Managarmr's ice breath, allowing Managarm to freeze things from farther away.
+    Drastically reduced Managarm's swimming speed and prevented it from being able to sprint in water.
+    Is now a "Big dino", preventing it from taking step damage
+    Now the same team class as large carnivores (Rex, etc)
+    New Apex Drop, Managarmr Pelt
+
+SCR Manta
+Manta has no real reason for taming other than "The funny jump". So I wanted to change that, giving it synergy with Basilosaurus.
+
+    Lowered base health from 320 to 175
+    Restored all of Manta's health level up valuables, tamed and wild, from 0.05 to 0.2 (same as all/most other creatures in the game)
+    Restored Manta melee per tamed level from 0.05 to 0.1
+    When buffed by SCR Basilo, gains a gang bonus of up to +9 (10 total individuals), gaining 6% melee and 5.5% res per member
+    When buffed by SCR Basilo, gains Argent's health recovery buff upon eating corpses
+    Lowered their aggression and detection radius
+
+SCR Mantis
+Tweaks to Mantis to balance it out, as the insect naturally seems to ignore some of its own damage limiting code. Nerfed stats helped make breeding balanced in ASE, but in ASA with mutations working differently, it's a little moot. This is done to help make Mantis more balanced, as vanilla mantis seems to be going for "Glass Cannon", but can easily have the "Glass" removed from the equation.
+
+Note: by default, most player weapons are set to deal around -15% -> -25% damage to creatures, and this normally includes when equipped by creatures like Mantis, so generally giving them weapons reduces said dps, but mantis's variables were so obscene such reduction was pointless in the end. It also seems due to how mantis's lunge works that the damage reduction is just straight up ignored with the lunge, so go figure.
+
+
+    Unnerfed all stat variables
+    Slightly increased Mantis base health from 275 -> 325
+    Slightly increased Mantis base weight from 220 to 250
+    Slightly increased run speed (2.5 -> 3.0)
+    Slightly increased claw attack damage of Mantis (34 -> 35)
+    Reduced Lunge damage of Mantis (120 -> 80. It seems Mantis may have never actually used the base 120 damage to begin with and used a variable of 80?)
+    Added a cooldown to Mantis's Lunge, it can no longer be spammed by the player. It has a 7 second cooldown.
+    Increased Mantis lunge stamina cost from 40 to 100
+    Mantis now no longer benefits from a weapon's damage modifier, only caring for the weapon's damagetype (IE: a 100% sword now deals the same damage as a 700% sword).
+    You can toggle on and off weapon inheritance via alt fire. It is on by default.
+    Mantis now has an Ambush mechanic. By default, this mechanic has a 60 second cooldown. Upon spawn, cooldown is active. Cooldown refreshes every time the mantis deals damage (to players or structures), or takes damage.
+    Once cooldown is up, Mantis enters Ambush mode. Ambush increases Mantis's speed by 50% and melee damage by 150%.
+    When not swimming, pressing Spacebar will allow Mantis to consume 30 cementing paste for a buff that lasts 30 seconds, restoring 1 durability per second to its equipped weapons. Taking damage, or dealing damage, will deactivate this buff. This buff can be continuously re-applied to a maximum of 300 sec
+
+SCR Megalania
+My attempts at making a surprisingly weak late-game creature more useful and earlier accessible.
+
+    Bite base damage increased from 10 to 40
+    Removed claw attack
+    Bite now inflicts Venom - same as Poison Wyvern and Rock Drake - on Creatures, and Mega Rabies on players.
+    Bite now partially penetrates armor, but not to the effectiveness of manta/theri. the metal-coated teeth of Komodo Dragons was the inspiration for this.
+    SCR megalania immune to venom, including the ones in SCR and across my other mods
+    SCR Megalania immune to knockback
+    SCR megalania now slightly faster overall
+    New saddle available at lvl 40 for an earlier unlock/usage
+    SCR Aberrant Megalania now can also spawn in the Blue and Green zones on Aberration
+
+SCR Megalodon
+Simply done to balance them out and make the oceans less cancerous.
+
+    restored HP per level
+    Lowered melee gain on tame
+    lowered melee HP level rate to normal
+    Changed center of rotation and gravity to the middle of the body
+    Altered run speed of megalodon
+    Megalodon are now much less aggressive, with a radius similar to rex now
+    Now detects corpses from a considerable distance away and will rush in to feed.
+    Removed bleeding bite
+    Buffed damage from 40 to 62
+    Removed gang bonus
+    Increased Megalodon base HP from 600 to 825
+    Increased AoE of megalodon bite attack
+    Megalodon now has an "Opportunist" Mechanic, inspired by the dossier. Megalodon will gain +25% melee damage, +25% Speed, and +5% Resistance when it is near an un-allied target who has any of the following buffs: Bleeding, Electrocution, Stunning, Venom, Ink Blindness
+
+SCR Megalosaurus
+I despise giant rideable dilo. This gives some nerfs to what many people consider "Aberration's only good tame", making it less overbearing and less of a win-button on that map.
+
+    Decreased base health from 1050 to 625
+    Increased weight from 300 to 400
+    Reduced daytime bite damage from 75 to 30
+    Reduced nighttime bite damage from 95 to 60
+    Slightly increased Megalosaurus overall running speed multiplier from 2.8 -> 3
+    Fixed LoD issues on Megalosaurus
+
+SCR Megaraptor
+The idea of Megaraptor's intended niche is solid, but in practical use I never found it all that viable. A rogue/assassin type critter is a great idea, but ARK's general gameplay just never really allows for a situation where you can properly "Isolate" a target, especially in PvP. With megaraptor's team class being as it is, it gets swarmed by just about everything in the middle of combat, meaning it almost never gets its needed 2x damage buff, even with how lenient the distance for said buff is. It's too fragile, and ark's own mechanics and AI just don't really allow it to do its job.
+
+So I shifted Megaraptor from an assassin to a "Lone Wolf", buffing it to be by default more a thyla-esque mid tier who specializes in being the only one in a group, allowing Megaraptor to thrive more often in your average ark gameplay.
+
+    Buffed HP: 350 -> 475
+    Stamina Regeneration rate increased 0.05 -> 0.15
+    Buffed Weight 325 -> 400
+    Reduced run speed of wild megaraptors 1.15 -> 1.0
+    Buffed basic claw attack damage 25 -> 40
+    Buffed combo finisher damage from 30 -> 45
+    Swimming bite attack no longer deals bleed
+    Combo finisher now deals SCR Allo's bleed, slowing targets and draining a cappted percentile of HP.
+    Reduced bonus damage multiplier for isolated targets from 2.0 -> 1.25 damage
+    Megaraptor now allows rider weaponry
+    Increased "Isolation" distance requirement from 1600 units -> 3600 units (roughly half the buff range of Yutyrannus)
+    Buffed dive pounce damage from 35 -> 60damage
+    Doubled the amount of torpidity Megaraptor receives when taming due to its increase in damage.
+    Added to Ragnarok canyons, Badlands
+    New Apex Drop, Megaraptor Claw
+
+SCR Megatherium
+A few changes to my favorite in-game mammal to make it more viable when no insects are around, making it a solid mid-tier mount and even more of a monster when in insect killer mode.
+
+    New Aberrant Variant! Spawns in the Fertile Chamber!
+    Increased overall run speed
+    Increased slam damage to 49 to 52
+    Slam now has a slight stamina cost and cannot be used with insufficient stam
+    Claw attack increased in damage from 32 to 40
+    Bite attack decreased from 32 to 28
+    Megatherium sit buff now regenerates 1% HP per sec to 15% HP, no longer 1% to 50% as vanilla. Once reached, it regenerates 15 HP per second afterwards.
+    When frenzied, Megatherium regenerates -100 torpor per sec and +25 stamina per sec.
+    Megatherium now immune to Lymantria spore clouds and Araneo webbing
+    Megatherium now takes reduced damage from arthropluera's acid damage.
+
+SCR Mosasaurus
+Mostly done due to the fact I touched a lot of other ocean critters, gave Mosa a little QoL and rebalance as well.
+
+    Increased Mosa wild HP per level from 0.12 -> 0.2 (equal to most wild creatures)
+    Lowered Mosa tamed HP per level from 0.175 -> 0.1 (equal to most high-health SCR Adjustments)
+    Mosa is now immune to electrocution
+    Mosa can now slowly rotate in place.
+    New bite attack anim from Atlas's "Mean Whale", looking a tad less violent and being slightly slower in dps. Damage remains the same.
+    Older, unedited bite has been changed into a secondary grab-and-shake attack. Grabs anything 250 drag weight or less (base damage 25). In the second half of the anim, shakes the target violently for base 125 damage x melee stat and a 75% chance to apply SCR's Bone Break. 
+
+SCR Onyc
+With Onyc now having land animations in ASA, and Desmodus a ways out, I decided to enlarge the bat and turn it into a potent and unique, albeit fragile, mount!
+
+    Size increased 2.25x
+    Now an omnivore: tames the same as direbear for taming food
+    Bite now omnivore damagetype, harvesting corpses, bushes, fiber, and gathering honey from beehives!
+    Now has an Implant “Saddle”, available at lvl 65
+    HP increased to 275 (argent is 368)
+    Bite damage left unchanged (onyc has 35 base damage. Wow)
+    Can now be ridden
+    Increased base stamina from 100 to 250
+    Increased weight from 50 to 250
+    Now has gang bonus of up to +7 (8 max group). +2% res and melee per gang member max)
+    New aesthetic screech on right click, with SFX from Desmodus.
+
+SCR Ossidon
+So regarding Yeti-Wendigo-Monke.
+
+I love him.
+
+Honestly I didn't think the damage buff post-launch was NEEDED with it being Lost Colony rex, but I can understand why. HP's fine but also, consider that taming method. Good lord it was next to impossible on difficulty 6 without later patches and vanilla-ish rates. This nerfs ossidon while also ludicrously buffing it in other regards, and giving it a bit of QoL. The idea was to make it really stand out as the "primary bioweapon of the lost". I also really think folks misread it and Malwyn's dossier: it is not MADE to be a "titan killer" - it's intended to be their primary war mount and a great defense IN CASE of titan attacks.
+
+    Reduced Claw Attack damage from 95 -> 62 (what it was before being buffed pre-LC). This means Combo Finisher damage has been decreased as well, as it is a 2x multiplier.
+    Increased Ossidon combo finisher damage multiplier from 2x -> 2.25x (makes the new clap damage approx. 140 vs old 190).
+    Added: SCR Lost Ossidon Saddle. Unlocked at lvl 100. Crafted in Bloodforge. Requires Red Element to craft. Grants Ossidon Frenzy, increasing its damage by 25% above 75% HP
+    When SCR Ossidon is wearing an SCR Lost Ossidon Saddle, its claw attacks now hit a second time in dunkle's damagetype for half the attack's primary damage, while piercing to the effectiveness of manta/theri.
+    Reduced Ossidon bite damage from 95 -> 62
+    New attack: Slam.
+    If You hold X (air brake) while riding SCR Ossidon, rather than tap, you will use its Slam attack instead of its roar. This is normally only seen by the boss/miniboss Lost Ossidon of Gladiator Pits. Cannot be done while moving, base 140 damage, has a stamina cost and cannot be used with insufficient stamina. Deals damage according to drag weight of victim, capping out at a maximum of 5x damage. This attack will interrupt your bolus attack, making a great follow-up. This is tamed giga damagetype.
+    Extended immobile grace period for when rolling bolus from 1.0 -> 1.15. Taming aid, but also allows the new Ground Slam to better combo with the bolus detonation.
+    Slightly reduced the amount of icicles and dinos needed per level for Ossidon to be more fair for low-tame-speed, higher-than-vanilla level servers. (0.3 icicles per level/0.1 dinos per level -> 0.2 Icicles per level/0.08 dinos per level)
+    Now reduces the weight of most items in its inventory to 60%
+    Drastically reduced fall damage
+
+SCR Oviraptor
+Wasn't much to do here, seeing Wildcard did the egg-based change that I did back in ASE. However i gave it a weight reduction on eggs due to the auto-collection.
+
+    Reduces weight of eggs in inventory to 25%
+    Added Oviraptor to Green Desert and Oasis
+
+SCR Pachy
+Woefully underutilized, bone damage scalars now effecting Melee means Pachy now has trike-like resistance to the head. I capitalized this to make Pachy a raptor-ish tiered bruiser.
+
+    Increased in size roughly 75%
+    Increased HP from 165 to 300
+    Increased Stamina from 150 to 250
+    Increased torpor from 160 to 300
+    Increased weight from 150 to 350
+    New unused bite anim on left click, from Survival Evolved.
+    Left click damage buffed from 10 to 15
+    left click now omnivore damagetype, harvesting corpses and fiber
+    Headbutt now on C. Base 22 damage. Same effects elsewise
+    Restored all speed values
+    increased walk speed (and thus run and charge speeds)
+    Decreased charge speed multiplier from 2.5 to 2.0
+    Pachy can now turn while charging, albeit it is a very wide turn
+    increased charge impact damage from 17 to 35
+    Removed additional bonus movement speed on tame
+    Increased drag weight from 85 to 115
+
+SCR Pachyrhinosaurus
+Pachyrhino really, really needs a TLC. Not just a new run - it's honestly one of the things that would've benefitted the most from the TLC Vote. This does a little QoL to Pachyrhino to turn it into an early-game buffer and decent tame.
+
+    Sped up running animation
+    Run speed increased 2.5 -> 4.0
+    Stamina Increase: 150 -> 300
+    Reduced running stamina cost: 14->7
+    Camo Pheromone now grants Pachyrhino +15% movement speed when active
+    Rage Effect no longer enrages creatures to pachyrhino. Rather, when active, Pachyrhino will decrease its own resistance by 25% and subtly draining -2.5 stamina per sec. In exchange, it'll grant allies within a 3.6k unit radius around it the Incited buff. Incited will increase their movement speed and damage by 25%, while granting them near-immunity to fear, force flee buffs, mammoth intimidation, and yuty fear - while also granting extreme stamina regeneration.
+
+SCR Paraceratherium
+As I mentioned in Mammoth's post, I adore prehistoric mammals. Paracer here is my take on another rex-level herbivore - and a mammal at that- who can prove to be reliable for more than just transport.
+
+    New running anims
+    Increased run speed
+    Left click swapped to an unused headbutt. Base 45 damage with some knockback.
+    Right click is the stomp. Can only be used on land and has a small stamina cost, cannot be used with insufficient stam. Base 80 damage with usual range and knockback.
+    Paracer now reduces the weight of any resource in its inventory by 30%
+    Paracer now immune to knockback
+    New Apex Drop, Great Beast Bone
+
+SCR Pelagornis
+Touching every flier with a few basic touches, giving them all imprint movement speed. In Pelagornis' case, I'm trying to make it equal up to a better mid-tier flier with incentive for feeding fish meat.
+
+    Increased base HP from 260 to 280
+    Increased Stamina to 300
+    Increased torpor from 120 to 300
+    Increased weight from 150 to 225
+    Increased base bite damage from 16 to 22
+    Bite attack now harvests prime fish meat from fish
+    Increased third person camera
+    Increased bite hitbox
+
+SCR Piranha
+Mostly done to make crossing the waterways less toxic.
+
+    Aggression radius reduced drastically
+    Now detects corpses from a considerable distance away and will rush in to feed.
+    Vulnerable to various buffs now
+
+SCR Plesiosaur
+Some minor tweaks to make Plesiosaur (Elasmosaurus) a little less annoying in the wild to deal with.
+
+    Changed Team Class to Spinosaur/Rex's, allowing it to hunt fish if it gets close. It will also attack and defend itself from wild ocean predators
+    Drastically reduced their aggro radius
+    Plesiosaur can now turn in place
+    Bite attack can now harvest prime fish meat
+    Re-centered center of rotation and gravity to center of body, not the chest.
+    Lowered Melee received melee on tame to normal
+    Restored HP per level when wild
+    HP Per level when tamed is higher than vanilla, but still not default 0.2 of most creatures.
+    Plesiosaur now immune to electrocution
+
+SCR Polar Cave Bear
+Note: This is a remap of the Polar Bears usually found in Ice Caves. This is NOT a remap/rework of the "Polar Bear" found in Ragnarok and Valguero, which is just a white direbear with no differences. In vanilla these cave bears are roughly 1.2/1.3x larger than vanilla Direbear.
+
+Having seen them roaming the wilds of Lost Colony, I decided to add them to SCR as a powerful, tameable variant of Direbear that should help your survival on that difficult map.
+
+    Made tameable due to them appearing on Lost Colony. (these are NOT Ragnarök's tameable "Polar bears", which are called "Dire Polar Bears")
+    Niche is tailored differently than standard Direbear
+    +25% more in all base attributes than a normal Direbear (due to size difference being approximately that). This includes "+25% more needed to tame" regarding affinity.
+    Now uses the unused R-Direbear skin from Genesis 2, to help differentiate it.
+    Now considered a Carnivore
+    Changed team class from Herbivores_medium_aggressive to Carnivores_Medium
+    Targeting range reduced (5000 -> 4000)
+    Reduced effectiveness of non-carnivorous food (including honey, but not including kibble) by 50%. Prime Meat was given +50% more affinity when taming, Kibble +25%. Polar Cave Bear also requires the tier above Direbear's kibble requirement (PCB takes Exceptional).
+    Bite of SCR Polar Cave Bear is now the same as SCR Spino's bite: harvesting raw prime fish meat from fish corpses and granting itself a potent recovery buff when eating fish.
+    Claw attack of SCR polar bear now harvests pearls, like Anglers. When tamed, inflicts Trike-styled stun on things smaller than itself.
+    Grants rider insulation like Basilosaurus
+
+SCR Pteranodon
+Most fliers get touched in my mods to add in imprinted movement speed, but also just a bit of QoL. Ptero's no different.
+
+    Restored HP and Melee per level
+    Imprinting now scales speed
+    Restored some speed scaling
+
+SCR Pyromane
+I'mma be real, I jumped on the hate train as soon as that thing was revealed. I didnt even want to bother paying $5 for what literally seemed in youtuber videos to be just a copy-pasted shadowmane. Thankfully, I don't need to buy the DLC to mess with the critter in the dev kit. It's a lot more unique than I gave it credit for: didn't help there was a lot of misinfo going around.
+
+Pyromane's grown on me since I've had time to mess with it. It isn't as unique from Shadowmane as Tropeognathus is to Tapajara, but it's alright. This mod mostly balances Pyromanes out a bit, addressing some issues and increasing availability.
+
+    Minimalized DLC Requirements to be equal to that of Oasisaur (Pyromane requires its own DLC to be tamed. Elsewise, anybody can use it). I've carefully observed other mods which touched/interacted with DLC content in similar manners to see their approach, their status post-launch, if their changes were tolerable, etc. I will not be making Pyromane "free". If these changes are too much as granted by Wildcard, I'll revert them.
+    Removed natural saddle.
+    Added a crafted saddle at lvl 85.
+    Reduced base health from 600 to 500
+    Extended base ride time from 30 sec to 60
+    Pyromane should now only dash when at least 1200 units away from target
+    Increased shoulder-mounted stamina cost for fire breath from 5 stam to 25
+    Increased Ai cooldown from 1 sec to 5 for shoulder-mounted firebreath
+    All fire-based attacks of Pyromane should now no longer deal rider-direct damage.
+    When Doused, Pyromane takes 25% more damage.
+    Raised Pyromane Bite and claw slap damage from 35 to 46 (they're the same attack, unlike shadowmane), and extended their hitbox.
+
+SCR Quetzal
+Fixes some speed issues, as wild quetz were faster than tamed.
+
+    Regenerates stamina in flight when not sprinting
+    Made tamed quetz faster in the air, wild quetz now shares the same speed instead of being faster
+    Increased bite damage from 32 to 40
+    Restored tamed HP per level
+    Doubled stamina recovery
+    Removed melee nerf on tame
+
+SCR Ravager
+I honestly did not expect some of the subtle changes to Ravager in ASA... they're really pushing for it to be "The" beginner's mount for Ab... which is great! The claw slash harvesting fiber is a good idea...if they remembered to make it actually harvest bushes. So I've balanced Ravager around two things: Making it "Aberration's Direwolf" from a balance perspective, while giving it a crap ton of QoL to be your early-game friend!
+
+    Reduced base health on Ravager from 400 to 330, to make them a little more manageable to early-game players
+    You can now use ravager's howl while moving.
+    Restored Ravager's melee per level
+    Tweaked Ravager's ability to gather hide, increasing it to be somewhat less than SCR Saber, but still better than vanilla
+    Increased Ravager's base bite damage from 25 to 30
+    Removed bleed from wild ravagers
+    Increased Ravager's harvest yield on Polymer
+    Ravager claw attacks can be used while moving now (in ASA they were made to be intended to harvest bushes)
+    Ravager reduces the weight of all gems now, not just green
+    Ravager now also reduces the weight of Flint, Hide, and Pelt.
+    Flint, Hide, Gems, Pelt, Congealed Gas Balls, Thatch and Fiber now weigh 25% in Ravager's inventory
+    Tweaked Ravager overall speed. Removed +35% movement speed ravager gets on tame, removed the -20% speed tamed ravagers get. Wild Ravagers keep theirs
+    Increased Ravager Run speed from 3.86 -> 4, making them much faster overall in a sprint. Wild Ravagers should be much slower than tamed, as their unique run speed variable was toned down from 1 -> 0.9. This makes wild ravagers and players roughly the same speed, meaning putting obstacles between you is the best way to escape in early game.
+    Wild Ravagers no longer have gang bonus. Tamed ones still do.
+    Tamed Ravagers now have Frenzy, increasing their damage by 25% when above 75% HP
+
+SCR Reaper Augmentations
+I'd rather not touch Reaper itself, that code is a nightmare and No Untameables is 10/10. Rather, I provide a few items to help benefit all reapers, No Untameables queens as well.
+
+
+SCR Reaper Implant
+Provides base 10 armor to a Reaper, and gives it a buff that should make Surface Reaper Kings unable to aggro them. When crafted, the item will be in your Cosmetics tab, as it is technically a Costume to fit in the available slot Reapers have. Increases their movement speed by 25%
+
+
+SCR Reaper Adaptation Genes
+Four different types of consumable items that are used to "Simulate" mutations on a reaper by raising a selected stat by 1 base wild level. Will not exceed 255, which is max level cap before reset. There are consumables for Health, Stamina, Melee, and Weight.
+SCR Rex
+Some general QoL for rex.
+
+    Restored speed values
+    Tweaked Rex damagetype to be more consistent, dealing 15% more damage to all creatures not carnivores, instead of just creatures that used any Herbivore damagetype anywhere in the BP.
+    Rex's bite damagetype now ignores bone damage multipliers. While this means it cannot get headshots, it now ignores armored body parts, like turtle shells and trike heads.
+    Rex can now use turning-in-place bites
+    Rex now has a new spacebar/jump bind attack: a shoulder bash that brings it forward in place. If you time this shoulder bash correctly with an incoming melee attack, you will only take 50% of that attack's damage and reflect the other 50% back to the attacker. It will also inflict any status that melee attack would've.
+
+SCR Rhyniognatha
+Some QoL to the best buggy boi, to help it stand out and be worth its value.
+
+    Health restored to 1.4k pre-nerf
+    Weight restored to 1.2k pre-nerf
+    All resin armor values restored (0.55 damage reduction and 0.4 for tek)
+    Rhynio should now no longer slow down when carrying things
+    Slightly increased running flight speed
+    Increased claw attack damage from 55 to 62. Slightly penetrates armor now, but not to the effectiveness of Manta or Theri.
+    Reduced Rhynio rapid-fire projectile damage, as now the rapid-fire projectiles scale with melee.
+    Sap puddles left by Rhynio resin bomb now apply an armor buff to allies at no speed penalty. Armor can still be cut, like normal sap.
+    Rhynio Resin Bomb is now an AoE for allies as well. Allies that step into it get a buff that increases their resistance by 25%!
+    Inventory now reduces Resin and Sap to 10% of its usual weight.
+    Gains additional movement speed on imprint
+    Restored HP and stam per level
+    Lowered the range of creatures it can fear, from creatures max 565 Drag Weight to 300
+    Tweaked the impregnation buff of Rhyniognatha so that craving foods make more sense. Craving Foods are now the following: Superior Kibble, Exceptional Kibble, Extraordinary Kibble, Honey, Battle Tartare, Calien Soup, Enduro Stew, Focal Chili, FriaCurry, Lazarus Chowder, Shadow Steak Sautee.
+
+SCR Rock Drake
+A bit of a unique take on Rock Drake to help it specialize in hunting reapers, focusing on it being agile yet slightly frail for the size.
+
+    Raised Rock Drake kill xp from 2 -> 120 (Same as wyverns)
+    Changed Rock Drake's death harvesting cache to Rex's.
+    Removed all HP and Melee nerfs post-tame
+    Nerfed base health from 1950 to 950
+    Restored all level up variables, tamed and wild, in health, stamina, and melee
+    Nerfed base bite damage from 60 to 50
+    Rock Drakes now deal +25% more damage with their bite to Reapers and Nameless.
+    Rock Drakes are now venomous, the idea is they inherit the venom from the Nameless they hunt. Same functions as the venom of Poison Wyvern (-6.5 HP per sec, base buff time of 2.5 seconds. Buff time extends to a maximum of 300 with every bite).
+    Rock Drakes are immune to their own venom/Poison Wyvern's, none else in my mods.
+    Restored running movement speed variables
+    Imported an alternate bite attack for Rock Drake from the ASE version of SCR. The Ai attack speed is roughly the same speed as vanilla, but player attack speed is about 50-70% faster. Player-ridden biting isnt as fast as the ASE version due to ASA SCR Rock Drakes now having venom.
+
+SCR Rock Golem
+Some utility to one of ARK's first truly fictional animals. Not as severe as the ASE version of SCR, but good all the same.
+
+    Only the left and right arm swipes are used with rock golem primary attack.
+    Primary attack arm swipes have been made roughly the same in attack speed now
+    Primary golem attack now no longer costs excess stam and can be used at low stamina
+    Golem circular swipe damage increased from 80 -> 90
+    Golem circular swipe now hits twice
+    Golem immune to bleeding, broken bones, venom, and sandstorms.
+    Arm slam is now a spacebar (jump bind) attack, base 160 damage. Has a stamina cost and cooldown, cannot be used with insufficient stamina. 30% chance to inflict Broken Bones. If the target is 250 drag weight or less, deal double damage and guarantee broken bones.
+
+
+
+Chalk Golem
+Minor tweaks to allow Chalk Golem its own unique identity.
+
+    All changes to SCR Rock Golem
+    Gave an extended cooldown to spinning attack
+    Resistant to Acid-based damage and buffs.
+    When using spin attack at 99% health or lower, Chalk Golem will temporarily give itself a buff lasting 5 seconds that reduces damage by 15% and increases damage taken by 40%. In exchange, it'll grant a buff to allies that steadily heals them for 4.5 HP per sec while preventing many bleeding, venom, and acid-based buffs. This protection buff lasts 15 sec. WIELD THE POWER OF CALCIUM CARBONATE!
+
+
+Ice Golem
+Minor tweaks to allow Ice Golem its own unique identity.
+
+    All changes to SCR Rock Golem
+    Immune to freezing and similar cold-based buffs
+    Vulnerable to fire damage
+    Physical attacks and projectile attack now inflict vanilla ice wyvern's slowing effect.
+
+SCR Sabertooth
+Some tweaks to make it stand out more from Direwolf, as a viable mount.
+
+    Restored tamed movement speed
+    Increased base damage from 29 to 35
+    Melee attacks now pierce armor to the effectiveness of manta/theri
+    Increased base health from 250 to 400
+    Increased base stamina from 200 to 300
+    Increased weight from 200 to 325
+    Reduces the weight of Hide to 25% in inventory and Pelt to 50%
+    Increased jump height, made Saber immune to fall damage
+    Sabertooth is now larger than direwolf
+    Reduced Saber's capsule collision size to be more accurate to its width, making it fit through smaller gaps now
+    Saber run speed, walk speed, and jump height now scaled further due to increased size.
+
+SCR Sarco
+Always adored the crocodile, just a little love for the giga-sized gharial!
+
+    Bite can now be done while moving
+    Bite now harvests prime fish meat
+    Removed the long pause after sarco land bite, and increased the attack animation speed to normal.
+    Removed bonus speed on tame and additional tame speed
+    Increased Sarco running speed from 3.645 to 5.0
+    Completely reworked the grab, it should no longer randomly grab players off mounts. Deals 45 base damage and attempts to grab targets 200 drag weight or less. If it succeeds, they will take 3 additonal hits of 45 base damage (multiplied by melee stat) quickly before being let go.
+
+SCR Snow Owl
+Snow Owl's pretty solid, there's just some minor cosmetic changes here. I do like the idea it's better at healing low-HP creatures vs large ones, to keep it from encroaching on Daeodon.
+
+    Bite is only used on land, allowing for additive attacks
+    Claw attacks are now only in the air
+    Removed hurt anims to prevent glitches
+
+SCR Solwyn
+I do like Solwyn being more about utility/transport while Malwyn is more combat-focused. That said I have little in the way of balance concerns for Solwyn and more some bug fixes. If I get more ideals I'll make them but for now, angel doggo is fine (if I can increase the quality of vulpites i will. It feels every 180 my friends and I have tried have given us only primitives)
+
+    Immune to all ice-based buffs except allied-based Cryoloph freezing
+    extended bite hitbox
+    Fixed an issue where Glacial Serenity would deactivate after restart
+    Solwyns will now wait 16 seconds instead of 8 to fail a player.
+
+SCR Spino
+Some QoL to my favorite dinosaur both in-game and in-life, to make it less a pushover!
+
+    Bite and claw attacks now harvest prime fish meat from fish
+    Bite attack can now be done while moving in singleplayer
+    Increased base HP from 700 to 950
+    Increased weight from 350 to 400
+    Restored Claw attack animation speed to default
+    Now spawns in Oasis and Canyon in Scorched Earth
+    Spino's bite now grants a healing buff to itself whenever it harvests "Fish". Said buff is 25 sec long, healing 25 HP per sec, +2 stam per sec, -5 torpor per sec (If you use Wild Ark, this is weaker than the buff Sucho and Deinocheirus get). "Fish" Includes Piranha, Salmon, Coel, Anglers, Manta and Electrophorus
+    Spino's Bite attacks now deal +15% damage to anything "Amphibious" and +25% damage to anything a "Water Dino"
+
+SCR Stegosaurus
+Stego will always hold a special place in my heart. Not also is it one of my favorite herbivorous species, but my very first ever mount in ASE was a Stego named Titania who carried me through most of the game. My changes are done for stego-lovers everywhere, helping Stego out by focusing on the versatility and well-roundedness it has in vanilla.
+
+    Fixed an issue where attacking too fast prevented stego from dealing damage.
+    Stego now immune to knockback
+    Fixed several speed issues with stego, making stego faster
+    removed bonus speed on tame
+    New running anim, courtesy of unused ASE anims
+    Now spawns in Green Desert on Scorched Earth
+    Increased tail attack damage from 42 to 45
+    Increased Drag Weight from 250 to 300
+    SCR Stego plate mode damage reworked. Hardened Plate has no change. Heavy Plate can now mine stone similar to Anky, while still slowing targets, and ignoring bone damage multipliers. Sharpened Plate now has omnivore damagetype: harvesting corpses and fiber, while still piercing armor, and inflicting SCR's Rend.
+    Added weight reductions to the following for stego: Metal (75%), Wood (75%), Stone (75%), Flint (25%), Fiber (25%), Hide (50%), Pelt (50%)
+
+SCR Stygimoloch
+Brings the Arkaeology Evolved event skin to life as its own separate creature. Spawns in Jungles, Herbivore Island, Mountains, and Grasslands on The Island and Center. On Scorched Earth, spawns in Badlands, Scorched Mountains, and Green Desert.
+
+    Has all changes and features of SCR Pachycephalosaurus, childed from vanilla pachy
+    315 base health to SCR pachy's 300
+    450 weight to SCR Pachy's 350
+    Reduces the weight of stone, flint, crystal, obsidian, and metal in its inventory by 25%
+    Left click bite, harvests corpses and fiber.
+    Right click charge, same as SCR pachy.
+    C key headbutt, mines rocks and metal same as anky. Base 25 damage to Pachy's 22.
+    Stygi now takes Anky's role of being a metal/mineral harvester that can be carried by argent. It cannot auto-harvest, however.
+
+SCR Tapejara
+Some tweaks to one of my favorite vanilla fliers, to help it be a bit unique!
+
+    Changed diet from carnivore to herbivore (as the real life animal was one)
+    Taming food and affinity swapped to Trike's
+    Restored speed values
+    removed speed on tame
+    Tapejara should now be as fast as it was wild when tamed
+    Tapejara bite now harvests honey, fiber, bushes and corpses
+    Increased tapejara bite base damage from 18 to 22
+
+SCR TEK Dinos
+Some slight tweaks to a few TEK Dinos to make them more viable/unique on Extinction
+
+    All TEK Dinos are now a passive tame
+    SCR TEK Raptor, Rex, and Giga, when wild, can now be stunned for 500 seconds with an electric prod. This prevents them from attacking, and allows you to tame them.
+    Dinos Covered: Giga, Quetz, Rex, Raptor, Stego, Trike
+    TEK Dinos covered have the same changes in SCR as their normal variant, if I touched them
+    All TEK Dinos now have the "Is robot" boolean ticked
+    All TEK Dinos now have the SCR Robot buff on them, making them immune to fear, bleeding, and venom
+    All TEK Dinos now deal +25% more damage to Corrupted
+    Additional, Standalone spawns for them now in Sanctuary and in "Buffer" Areas around Sanctuary in the Wasteland.
+    Raptor, Stego, Trike, Rex can be found all throughout Sanctuary
+    Giga can be found near the Obelisk, near the Wasetland in city center, and in Buffer zones.
+    TEK Dinos do not loose affinity while taking damage.
+
+SCR Terror Bird
+Some QoL to make Terror Birds more viable aside from just their mobility.
+
+    Increased model size from 1.2 to 1.7, due to dossier saying they reached a max of 12 ft tall.
+    Increased Terror Bird walk and run speeds marginally
+    Increased Terror Bird bite base damage from 18 to 25
+    Terror Bird bite hitbox increased
+    Removed headshot multipliers from Terror Bird's head, to simulate its hard beak.
+    Increased Base Health from 270 to 350
+    Increased Weight from 120 to 200
+    Torpidity unchanged
+    Stamina increased from 160 to 250
+    Increased Terror Bird jump height
+    Terror Bird now gains argentavis regen when harvesting a corpse with its bite
+    Terror Bird now has a right-click stomp attack. When used on ground this deals 12 base damage, but has a 7.5x drag weight multiplier towards any creature (players not affected) that is under 100 drag weight. When used while gliding, falling, or jumping, this becomes a kick attack with base 45 damage, 50 stamina cost, cannot be used with insufficient stam. This base 45 damage attack still has that 7.5 damage multiplier, so enjoy karate-kicking Microraptors and Pegomastax out of the air for well over 1k damage in most instances.
+    Startle animation is now a C key emote
+    Raised drag weight to 125
+
+SCR Therizinosaurus
+Some QoL to my favorite herbivorous species. I didnt resize it, but I tried to keep it effectively damaging yet slightly squishy.
+
+    Claw attack now hits twice
+    Lowered bite base damage from 52 to 40
+    Bite damage no longer deals torpor or hits rider direct. Basic large herbivore damagetype now.
+    Fixed an issue where Theri became slower when ridden.
+    Inventory reduces the weight of the following resources to the amount in parenthesis: Fiber (10%), Hide (25%), Pelt (25%), Wood (50%), Silk (10%)
+
+SCR Thorny Dragon
+Some slight tweaks for one of Scorched's most iconic mounts: a personal favorite of mine!
+
+    New Aberrant Variant! Spawns in the Fertile Chamber!
+    Slightly increased aoe of attack
+    Spines no longer deal miniscule amounts of torpor, but instead raw damage. Base 25 damage per projectile, scales with melee.
+    Immune to sandstorms and bleeding
+    Slightly increased cooldown of spine attack on players
+    Removed headshot multipliers
+
+SCR Thylacoleo
+Nerfed the cat that had more HP than Spino in vanilla, making it a mid-tier while giving it new use.
+
+    Reduced base HP from 700 to 600
+    Restored health per level tamed
+    Thyla no longer has a slight harvest multiplier for hide
+    Thyla no longer inflicts bleed
+    Thyla bite now inflicts Rend. Rend lasts 15 seconds and decreases enemy resistance by 5% per stack, stacking 10 times.
+
+SCR Triceratops
+Gave Trike a little love to help it remain a loyal tame throughout much of your playthrough. Focusing on keeping the target in front of you to take as little damage as possible. Either be aggressive, or play defensive, the choice is yours!
+
+    Trike can now attack while moving
+    Can now use left click attack with mouse held
+    Removed additional bonus speed on tame
+    Increased base HP from 374 to 400
+    Increased Stamina from 150 to 250
+    Increased weight from 365 to 380
+    Restored all speed values
+    Increased running speed from 3.0 to 5
+    Increased Trike backwards walking speed from 0.75 to 0.9
+    New C attack for Trike: a stomp. Cannot be used while moving, base 25 stamina cost and cannot be used with insufficient stamina. Base 45 damage with knockback, harvests wood like a beaver.
+    Increased left click damage from 32 to 35
+
+SCR Troodon
+A little PvE-focused tweaks for a PvP-focused critter, for folks who want to use Troodon for other aspects.
+
+    Extended Gang detection radius from 3000 units to 6000
+    Extended bite radius of troodon from 110 to 165
+    Troodons will start biting from farther away, letting them hit certain targets easier.
+    Troodon jump attack base damage increased: 7 -> 14
+    Troodon jump attack range increased: 110 -> 225, making it hit targets easier.
+    Troodon basic bite no longer deals impulse
+    Jump of troodon inflicts Rend, allowing a pack of leaping troodon to deal excellent burst damage at the start of the engagement, and giving them advantage against targets with high knockback
+    Troodon much more likely to use their jump attacks when in combat
+    Now has an inventory slot for saddles, though it does not have one itself - useful if you have a sort of implant/saddle mod that works on anything.
+    Troodon now should loose much less affinity when tamed (affinity during day is still reduced)
+
+SCR Valguero Broodmother
+I don't make spider tameable or anything, I just tweak the fight a little to make it more of a viable overworld encounter.
+
+    No longer spawns at random levels. Locked at upper wyvern levels (21-38 on difficulty 0)
+    Drastically increased base kill XP from 8 to 1600, equal to Alpha Mosa, to make killing it more worth it.
+    Still not classified as a "boss" so it can be vulnerable to most buffs, BUT is now classified as an "Alpha", though it does not give an ally-boosting AoE. Chibi-farm away!
+    Fixed an issue where Val-Broodmother's acid projectiles had no damagetype. They've been changed to be parented from vanilla Arthro (No SCR corrosive acid). Instead they just inflict reaper's acid debuff.
+    Increased attack interval for Val-Broodmother's acid spit from 10 sec to 20 sec
+    SCR Val Broodmother doesn't do rider direct with its projectiles anymore.
+    Drastically increased loot table. It's still a field boss, needs better loot. Instead of only 3 out of 11 possible pre-programmed loot tables, it does 9 to 11 per kill.
+
+SCR Veilwyn
+Mostly done to allow SCR Veilwyn and Malwyn to exist. I have little issue with Veilwyn, even with how much damage it can deal.
+
+    Reduced gang damage bonus from +10% per group member to +5%
+
+SCR Velonasaur
+The only nerf Velonsaur ever needed in ASE was the massive nerf-hammer to its AoE attack, everything else was fine. In ASA, they've fixed this, but velona has... other issues. Let's hope WC fixes the hit registration, and I have no idea how to do this myself.
+
+    Restored some lost movement speed to Velonasaur, drastically increasing its tamed movement speed.
+    Fixed some vfx issues with one of velona's claw attack anims
+    Increased velonasaur claw damage from 32 to 35
+    Velonasaur's claw attack is now on AltFire.
+    Velonasaur's claws now pierce armor to the effectiveness of manta.
+    Left click has been turned into a bite, base 32 damage. High dps and inflicts Rend.
+    Drastically reduced stamina cost of the ridden firing mode for Velonasaur.
+
+SCR Yeti
+So... did you know you could originally claim baby Yetis in ASA in vanilla? The gigantopithecus in snow caves? My friends and I learned that on our Center playthrough. You can't get posttame levels - even with gigantoraptor - but you can claim and imprint them. Base 2k health monke with 10 more base damage than vanilla is nothing to scoff at, even if you can't get posttame levels. Having done SCR Gigantopithecus, I decided to do SCR Yeti as well.
+
+Changes were done due to this, and also the fact they spawn wild on Lost Colony. Also added overworld spawns in general.
+
+
+    All the changes of SCR Gigantopithecus
+    uses the Yeti model from Atlas, to be a bit more visually distinct
+    Now properly tameable, but only through baby claiming (can gain posttame levels)
+    Nerfed base HP from 2000 to 1000
+    Increased Weight to 450, up from 220
+    Increased stamina from 300 to 400
+    Basic left click raised from 32 to 45
+    Ground pound raised form 45 to 56
+    Better jump height, walk speed, run speed
+    Now Omnivorous.
+    Can now be KO Tamed.
+
+SCR Yi Ling
+Very few changes needed to be done for Yi imo, so instead I just gave it some QoL and made the taming process slightly less ass.
+
+    Increased bite AoE, changed bite damagetype to Omnivore, allowing yi to harvest some of its own needed resources.
+    Now neutral in the wild.
+    Added an aesthetic roar to X.
+    Yi Ling reduces the weight of Bio Toxin, Sap, Nameless Venom, and Congealed Gas Balls to 30%.
+    Doubled Yi's torpor intake and doubled its stun time for taming (8 sec stun to 16 sec. 3.75x torpor to 7.5)
+    Slightly increased the flashbang radius detection of Yi when taming. (1500 -> 1800)
+
+SCR Yutyrannus
+Just some slight tweaks to make Yuty a little more mobile in combat
+
+    Yutyrannus bite now only uses the additive animation, allowing it to attack and move.
+
+SCR Wyverns
+Slightly different tweaks than what I've done in ASE, trying a bit of a different approach to balancing Wyverns.
+
+    Restored Stamina per level (Wild and tamed get more per level alike)
+    Restored HP per level (Wild and tamed get more per level alike), but kept the post-tame health nerf
+    Removed Melee nerf on tame on ONLY Fire and Ice Wyvern. Fire Wyvern will gain positive melee upon tame (like most creatures in game), unlike Lightning and Poison, which loose a bit in vanilla. This is kept so Fire Wyvern has some advantages over the DPS/Armor Pierce/Torpor of Lightning Wyvern and the Armor Pierce/Rider Direct of Poison Wyvern
+    Decreased Fire Wyvern fire breath stamina cost from 160 to 100, Lightning Wyvern lightning breath increased from 160 stamina (base) to 180. Poison Wyvern remains at 85.
+    Wyverns now have their wing attacks hit twice
+    Poison Wyvern is now venomous. Its bite inflicts a venom that drains 6.5 HP Per sec over 2.5 seconds, but this buff can be extended with continuous application, to a max of 180 sec. This is a rework of my venom mechanics from ASE, curious to see how it'll work in ASA. Poison Wyvern is immune to this buff, and so is any creature immune to dilo venom. This debuff effects bosses.
+    Wyverns now have an aesthetic roar on left ctrl
+    Ice Wyvern breath projectile damage 20->26
+    Ice Wyverns now freeze targets solid instead of slow. Takes about 3 direct breath attacks to freeze Paracers.
+    Increased reliability of SCR Poison Wyvern's projectiles in hitting certain targets.
+    Tightened Wyvern flying turning radius. It isn't as good as the ASE version of SCR, but it's still much better than vanilla
+
+SCR Xiphactinus
+Xiph's always been weird for me. A personal favorite I've always adored, but never had much reason to use outside of Gen1's Ocean, The Island, and Ragnarok.
+
+However Xiph definitely has its problems: from using an invalid team class (thankfully WC's fixed that in ASA), to making bossfights absolutely trivial, to being able to mutate certain stats and abuse mechanics. SCR Xiph aims to address all this by balancing Xiph out around to be solid either alone or in a group, keeping the theme of a ravenous, constantly famished/hungry predator. Also does some things to prevent Land Xiph meta.
+
+    Xiph will now only use its lunge bite if there is distance between itself and the target, it can also use the lunge from slightly farther away now.
+    Increased the damage of Xiph's tear attack from lunging into large targets from 35 to 55
+    Removed the Deinon-like bleed Xiphactinus inflicted on targets and replaced it with SCR's tick-based bleed
+    Blood Frenzy now increases Xiph damage by 15% when active
+    Increased Gang detection/overlap range from 1000 to 3100
+    Lowered Xiph bonus melee per gang member from 0.3 to 0.05
+    Lowered Xiph bonus res per gang member from -0.1 to -0.035
+    The above rates are equal to that of Direwolf
+    Removed the ability to level or mutate Xiphactinus melee/HP in order to one-shot targets at higher HP percentages. Xiph now only cares about if the target it has grabbed is at 18% its own (the target's) max HP or less. If it is, the consume attack is triggered.
+    Increased Xiph lunge-grab stamina cost from 20 to 100
+    Xiph can no longer lunge without insufficient stam
+    Xiph now applies Rend to targets it has grabbed with its thrash attack
+    If Xiph now bites a bleeding target, it now gains a slight regen buff for 5 seconds. This buff restores 3.25 HP, 5 Stam, and -5 torpor per sec when active
+    Raised stamina cost from Xiph land jump from 0 to 225
+    Increased xiph jump cooldown on land from 1.9 sec to 6 sec
+    Xiph can no longer jump without sufficient stam
+    Reduced Xiph base stamina from 420 to 300
+    When in the non-damaging state of Landlubber, Xiph now looses 10 stam per second and has both its damage and resistance decreased by 25%
+    When Xiph is in the damaging state of Landlubber, its attack and defense will decrease by 75%, and its stamina drain will double to -20 per sec.
