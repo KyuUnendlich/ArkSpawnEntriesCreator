@@ -6,92 +6,92 @@ Engram Entries:
 ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT Remaps: 
       
 FromClass: 
-      Leedsichthys_Character_BP_C
+      /Game/PrimalEarth/Dinos/Leedsichthys/Leedsichthys_Character_BP.Leedsichthys_Character_BP_C
 ToClass: 
-      Leedsichthys_Character_BP_Tameable_C
+      /NoUntameables/Leedsichthys/Leedsichthys_Character_BP_Tameable.Leedsichthys_Character_BP_Tameable_C
       
 FromClass: 
-      Alpha_Leedsichthys_Character_BP_C
+      /Game/PrimalEarth/Dinos/Leedsichthys/Alpha_Leedsichthys_Character_BP.Alpha_Leedsichthys_Character_BP_C
 ToClass: 
-      Alpha_Leedsichthys_Character_BP_T_C
+      /NoUntameables/Leedsichthys/Alpha_Leedsichthys_Character_BP_T.Alpha_Leedsichthys_Character_BP_T_C
       
 FromClass: 
-      Ant_Character_BP_C
+      /Game/PrimalEarth/Dinos/Ant/Ant_Character_BP.Ant_Character_BP_C
 ToClass: 
-      QueenAnt_Character_BP_Tameable_C
+      /NoUntameables/Ant/QueenAnt_Character_BP_Tameable.QueenAnt_Character_BP_Tameable_C
       
 FromClass: 
-      FlyingAnt_Character_BP_C
+      /Game/PrimalEarth/Dinos/Ant/FlyingAnt_Character_BP.FlyingAnt_Character_BP_C
 ToClass: 
-      QueenAnt_Character_BP_Tameable_C
+      /NoUntameables/Ant/QueenAnt_Character_BP_Tameable.QueenAnt_Character_BP_Tameable_C
       
 FromClass: 
-      Euryp_Character_C
+      /Game/PrimalEarth/Dinos/Eurypterid/Euryp_Character.Euryp_Character_C
 ToClass: 
-      Euryp_Character_Tameable_C
+      /NoUntameables/Eurypterid/Euryp_Character_Tameable.Euryp_Character_Tameable_C
       
 FromClass: 
-      Cnidaria_Character_BP_C
+      /Game/PrimalEarth/Dinos/Cnidaria/Cnidaria_Character_BP.Cnidaria_Character_BP_C
 ToClass: 
-      Cnidaria_Character_BP_Tameable_C
+      /NoUntameables/Cnidaria/Cnidaria_Character_BP_Tameable.Cnidaria_Character_BP_Tameable_C
       
 FromClass: 
-      Dragonfly_Character_BP_C
+      /Game/PrimalEarth/Dinos/Dragonfly/Dragonfly_Character_BP.Dragonfly_Character_BP_C
 ToClass: 
-      Dragonfly_Character_BP_Tameable_C
+      /NoUntameables/Dragonfly/Dragonfly_Character_BP_Tameable.Dragonfly_Character_BP_Tameable_C
       
 FromClass: 
-      Ammonite_Character_C
+      /Game/PrimalEarth/Dinos/Ammonite/Ammonite_Character.Ammonite_Character_C
 ToClass: 
-      Ammonite_Character_Tameable_C
+      /NoUntameables/Ammonite/Ammonite_Character_Tameable.Ammonite_Character_Tameable_C
       
 FromClass: 
-      Jugbug_Water_Character_BP_C
+      /Game/ScorchedEarth/Dinos/JugBug/Jugbug_Water_Character_BP.Jugbug_Water_Character_BP_C
 ToClass: 
-      Jugbug_Water_Character_BP_Tameable_C
+      /NoUntameables/JugBug/Jugbug_Water_Character_BP_Tameable.Jugbug_Water_Character_BP_Tameable_C
       
 FromClass: 
-      Jugbug_Oil_Character_BP_C
+      /Game/ScorchedEarth/Dinos/JugBug/Jugbug_Oil_Character_BP.Jugbug_Oil_Character_BP_C
 ToClass: 
-      Jugbug_Oil_Character_BP_Tameable_C
+      /NoUntameables/JugBug/Jugbug_Oil_Character_BP_Tameable.Jugbug_Oil_Character_BP_Tameable_C
       
 FromClass: 
-      Deathworm_Character_BP_C
+      /Game/ScorchedEarth/Dinos/Deathworm/Deathworm_Character_BP.Deathworm_Character_BP_C
 ToClass: 
-      Deathworm_Character_BP_Tameable_C
+      /NoUntameables/Deathworm/Deathworm_Character_BP_Tameable.Deathworm_Character_BP_Tameable_C
       
 FromClass: 
-      MegaDeathworm_Character_BP_C
+      /Game/ScorchedEarth/Dinos/Deathworm/MegaDeathworm_Character_BP.MegaDeathworm_Character_BP_C
 ToClass: 
-      MegaDeathworm_Character_BP_T_C
+      /NoUntameables/Deathworm/MegaDeathworm_Character_BP_T.MegaDeathworm_Character_BP_T_C
       
 FromClass: 
-      Cnidaria_Character_BP_Aberrant_C
+      /Game/PrimalEarth/Dinos/Cnidaria/Cnidaria_Character_BP_Aberrant.Cnidaria_Character_BP_Aberrant_C
 ToClass: 
-      Cnidaria_Character_BP_Aberrant_Tameable_C
+      /NoUntameables/Cnidaria/Cnidaria_Character_BP_Aberrant_Tameable.Cnidaria_Character_BP_Aberrant_Tameable_C
       
 FromClass: 
-      Dragonfly_Character_BP_Aberrant_C
+      /Game/PrimalEarth/Dinos/Dragonfly/Dragonfly_Character_BP_Aberrant.Dragonfly_Character_BP_Aberrant_C
 ToClass: 
-      Dragonfly_Character_BP_Aberrant_Tameable_C
+      /NoUntameables/Dragonfly/Dragonfly_Character_BP_Aberrant_Tameable.Dragonfly_Character_BP_Aberrant_Tameable_C
       
 FromClass: 
-      Lightbug_Character_BaseBP_C
+      /Game/Aberration/Dinos/Lightbug/Lightbug_Character_BaseBP.Lightbug_Character_BaseBP_C
 ToClass: 
-      Lightbug_Character_BP_Tameable_C
+      /NoUntameables/Lightbug/Lightbug_Character_BP_Tameable.Lightbug_Character_BP_Tameable_C
       
 FromClass: 
-      Pteroteuthis_Char_BP_C
+      /Game/Aberration/Dinos/Pteroteuthis/Pteroteuthis_Char_BP.Pteroteuthis_Char_BP_C
 ToClass: 
-      Pteroteuthis_Char_BP_Tameable_C
+      /NoUntameables/Pteroteuthis/Pteroteuthis_Char_BP_Tameable.Pteroteuthis_Char_BP_Tameable_C
       
 FromClass: 
-      Pteroteuthis_Char_BP_Surface_C
+      /Game/Aberration/Dinos/Pteroteuthis/Pteroteuthis_Char_BP_Surface.Pteroteuthis_Char_BP_Surface_C
 ToClass: 
-      Pteroteuthis_Char_BP_Tameable_Surface_C
+      /NoUntameables/Pteroteuthis/Pteroteuthis_Char_BP_Tameable_Surface.Pteroteuthis_Char_BP_Tameable_Surface_C
       
 FromClass: 
-      Xenomorph_Character_BP_Female_C
+      /Game/Aberration/Dinos/Nameless/Xenomorph_Character_BP_Female.Xenomorph_Character_BP_Female_C
 ToClass: 
-      Xenomorph_Character_BP_Female_Wild_C
+      /NoUntameables/NamelessQueen/Xenomorph_Character_BP_Female_Wild.Xenomorph_Character_BP_Female_Wild_C
 
