@@ -38,8 +38,8 @@ namespace ArkSpawnEntriesCreator
 
             //OldASAMethods.ExtractAdditionalNPCSpawnValues(replaceFile, false, Path);
 
-            ASAExtractor();
-            //ASASpawnContainer();
+            //ASAExtractor();
+            ASASpawnContainer();
         }
 
 
@@ -96,8 +96,10 @@ namespace ArkSpawnEntriesCreator
             }
 
             const string path_spawn = "E:/ARK Saves/ArkSpawnEntriesCreator/ASASpawnEntries.csv";
+            const string path_spawn2 = "E:/ARK Saves/ArkSpawnEntriesCreator/ASASpawnEntries2.csv";
 
-            ASA_SpawnContainers.CheckForBP_C(path_spawn, Path_test);
+            //ASA_SpawnContainers.CreateSpawnContainerAdditions(path_spawn, Path_test);
+            ASA_SpawnContainers.CountModdedEntriesPerContainer(path_spawn, Path_test, path_spawn2, false);
         }
 
         public static void ASAExtractor()

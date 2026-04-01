@@ -179,4 +179,24 @@ namespace ArkSpawnEntriesCreator
             this.chanceForFour = "0.000";
         }
     }
+
+    public struct ASADinoEntry
+    {
+        public string entryName;
+        public string BP;
+        public string entryweight;
+        public string spawnlimit;
+        public int multiParamAmount;
+        public string multiParamLine;
+
+        public ASADinoEntry(string entryName, string BP, string entryweight, string spawnlimit, int multiParamAmount, string multiParamLine)
+        {
+            this.entryName = entryName;
+            this.BP = BP;
+            this.entryweight = entryweight;
+            this.spawnlimit = spawnlimit;
+            this.multiParamAmount = multiParamAmount;
+            this.multiParamLine = multiParamLine;
+        }
+    }
 }
