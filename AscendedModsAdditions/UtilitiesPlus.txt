@@ -1,0 +1,10 @@
+Engram Entries: 
+   EngramEntry_ReusableBola_C
+   EngramEntry_TekBinoculars_Plus_C
+   EngramEntry_ReusableParachute_C
+   EngramEntry_ReusableFlareLauncher_C
+   EngramEntry_ReusableSpear_C
+   Engram_HookPlus_C
+   EngramEntry_Torch_Reusable_C
+   EngramEntry_WeaponReinWhip_C
+

@@ -38,8 +38,8 @@ namespace ArkSpawnEntriesCreator
 
             //OldASAMethods.ExtractAdditionalNPCSpawnValues(replaceFile, false, Path);
 
-            //ASAExtractor();
-            ASASpawnContainer();
+            ASAExtractor();
+            //ASASpawnContainer();
         }
 
 
@@ -59,17 +59,17 @@ namespace ArkSpawnEntriesCreator
             PortsOfAtlas,                           MyrmDraconisGlaucus, /*Glaucus*/    Sivatherium,                        ShinsPortedCreatures,
             AtlasReborn,       /*MULTIMAIN*/        IsleSkyshroud, /*skysh  MULTIMAIN*/ Cockatrice,                         ArborealAdditions,
             AtlasFish,         /*2 Files*/          IsleOxalaia, /*IoMSpino*/           AA_Brachiosaurus, /*AABrachio*/     CrystalWyvernPort,
-            MoroLivy,                               IsleSpearcrest, /*BSSpearcrest*/    AA_Acrocantho, /*AAAcro*/           MoroIndomitable,
+            MoroLivy,                               IsleSpearcrest, /*BSSpearcrest*/    AA_Acrocantho, /*AAAcro*/           CastleCraftDecor,
             MoroGigantophis,                        IsleSuchomimus, /*IsleOfMythsSucho*/Meraxes,                            PaleoAscension,
             SulfurTitan, /*TitanSulfur*/            HorizonSuchomimus, /*Horizons*/     RunicWyverns,                       BetterCreatures,
-            AA_Edmontonia, /* Edmontonia */         MoroTylo,                           NeoAurochs, /*Aurochs*/
-            AA_Anomalocaris,                        MoroNotho,                          NeoStygi, /*Stygi*/
-            Cricosaurus, /*AA_Crico*/               Rubidgea, /*OCRubidgea*/            NeoStyraco, /*Styra*/
-            ArketyDraconyx, /*ATDraconyx*/          Birdwatcher,                        Skjaldastordr, /*MSVV_Skjaldastor*/
-            ArketyScotoharpes, /*ATScoto*/          TACVectispinus,                     PygmyHippo,
-            ArketyBombardier, /*ATBomb  MULTIMAIN*/ TACAntrodemus,                      ExtremeGargantSpino, /*t5ege*/
-            PiggleLycosuchus, /* Lycosuchus */      TACEocarcharia, /*Eocarcharia*/     CyrusRedPanda,
-            PiggleAdasaurus, /*PPR-Ada*/            TACDaemonis, /*Daemonis*/           CyrusThoraxSpider, /*CyrusJumping*/
+            AA_Edmontonia, /* Edmontonia */         MoroTylo,                           NeoAurochs, /*Aurochs*/             ImprovedPhoenix,
+            AA_Anomalocaris,                        MoroNotho,                          NeoStygi, /*Stygi*/                 VegPlanters,
+            Cricosaurus, /*AA_Crico*/               Rubidgea, /*OCRubidgea*/            NeoStyraco, /*Styra*/               UtilitiesPlus,
+            ArketyDraconyx, /*ATDraconyx*/          Birdwatcher,                        Skjaldastordr, /*MSVV_Skjaldastor*/ ClayAnkylo,
+            ArketyScotoharpes, /*ATScoto*/          TACVectispinus,                     PygmyHippo,                         ClayLeed,
+            ArketyBombardier, /*ATBomb  MULTIMAIN*/ TACAntrodemus,                      ExtremeGargantSpino, /*t5ege*/      ClayPachyrhino,
+            PiggleLycosuchus, /* Lycosuchus */      TACEocarcharia, /*Eocarcharia*/     CyrusRedPanda,                      ClayRex,
+            PiggleAdasaurus, /*PPR-Ada*/            TACDaemonis, /*Daemonis*/           CyrusThoraxSpider, /*CyrusJumping*/ ClayTrike,
             PaleoApexPredators, /*PA_EVO_01*/       TACDzungatherium,                   CyrusMagnaGecko, /*CyrusGecko*/
             PaleoDangerousDepths, /*PA_EVO_02*/     TACBastionBeetle,                   CliffansCritters,
             PaleoHardHittingHerbivores,/*PA_EVO_03*/Tyrannodominator,                   HuskyWolf,
@@ -82,7 +82,7 @@ namespace ArkSpawnEntriesCreator
             XyphMeiolania,                          RoyalArchaeopteryx,                 AnomalyGalvarex,
         }
 
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/MegaBitsAndBobs.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/ClayTrike.txt";
         const bool replaceFile = true;
         const bool multimain = false;
 

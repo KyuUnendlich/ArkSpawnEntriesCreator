@@ -1,0 +1,49 @@
+All Entry Names: 
+   NULL  x 1
+   Improved Phoenix  x 2
+
+Engram Entries: 
+   PrimalEngramEntry_PhoenixFlameThrower_C
+
+Dino Entries: 
+   ImprovedPhoenix_C
+
+ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT Remaps: 
+      
+FromClass: 
+      /Game/ScorchedEarth/Dinos/Phoenix/Phoenix_Character_BP.Phoenix_Character_BP_C
+ToClass: 
+      /ImprovedPhoenix/Dinos/ImprovedPhoenix_Character_BP.ImprovedPhoenix_Character_BP_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Improved Phoenix
+      Main BP: ImprovedPhoenix_Character_BP_C
+      Entry Weight: 0.010687
+      Spawn Limit: 0.0004
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Improved Phoenix
+      Main BP: ImprovedPhoenix_Character_BP_C
+      Entry Weight: 0.00131
+      Spawn Limit: 0.0003
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: ImprovedPhoenix_Character_BP_C
+      Entry Weight: 0.005
+      Spawn Limit: 0.007
+      Multi Spawn Chance: 1.0
+
+MultiParams Summary: 
+   Main BP: ImprovedPhoenix_Character_BP_C
+      Entry Weight:                   0.010687
+      Spawn Limit:                             0.0004
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.00131
+      Spawn Limit:                             0.0003
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.005
+      Spawn Limit:                             0.007
+      Multi Spawn Chance:                               1.0
+

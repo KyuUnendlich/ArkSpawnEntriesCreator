@@ -1,0 +1,51 @@
+All Entry Names: 
+   Scorched  x 4
+
+Engram Entries: 
+   EngramEntry_Saddle_ClayRex_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Scorched
+      Main BP: Scorched_ClayRex_Character_BP_Child_Child_C
+      Entry Weight: 0.04
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.5-0.3
+Container Name: null
+   Entry Name: Scorched
+      Main BP: Scorched_ClayRex_Character_BP_Child_Child_C
+      Entry Weight: 0.04
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.5-0.3
+Container Name: null
+   Entry Name: Scorched
+      Main BP: Scorched_ClayRex_Character_BP_Child_Child_C
+      Entry Weight: 0.04
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.5-0.3
+Container Name: null
+   Entry Name: Scorched
+      Main BP: Scorched_ClayRex_Character_BP_Child_Child_C
+      Entry Weight: 0.04
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.5-0.3
+
+Global Entry Weights: 
+   Main BP: Rex_Character_BP_C
+      SubBP: ClayRex_Character_BP_Child_C 0.5
+
+MultiParams Summary: 
+   Main BP: Scorched_ClayRex_Character_BP_Child_Child_C
+      Entry Weight:                   0.04
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.5-0.3
+      Entry Weight:                   0.04
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.5-0.3
+      Entry Weight:                   0.04
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.5-0.3
+      Entry Weight:                   0.04
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.5-0.3
+

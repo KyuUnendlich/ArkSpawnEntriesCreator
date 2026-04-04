@@ -1,0 +1,21 @@
+Engram Entries: 
+   EngramEntry_VP_PlantTool_C
+   EngramEntry_VP_PlanterBeach_C
+   EngramEntry_VP_PlanterCrops_C
+   EngramEntry_VP_PlanterCrystal_C
+   EngramEntry_VP_PlanterJungle_C
+   EngramEntry_VP_PlanterMountain_C
+   EngramEntry_VP_PlanterMushroom_C
+   EngramEntry_VP_PlanterOcean_C
+   EngramEntry_VP_PlanterRedwood_C
+   EngramEntry_VP_PlanterRock_C
+   EngramEntry_VP_PlanterShared_C
+   EngramEntry_VP_PlanterSnow_C
+   EngramEntry_VP_PlanterSwamp_C
+   EngramEntry_VP_PlanterVines_C
+   EngramEntry_VPSE_PlanterBadlands_C
+   EngramEntry_VPSE_PlanterDesert_C
+   EngramEntry_VPSE_PlanterMisc_C
+   EngramEntry_VPSE_PlanterMountain_C
+   EngramEntry_VPSE_PlanterOasis_C
+

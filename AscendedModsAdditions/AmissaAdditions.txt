@@ -1,0 +1,135 @@
+All Entry Names: 
+   Amissa Chicken  x 1
+   Amissa Fire Wyvern  x 1
+   Amissa Ice Wyvern  x 1
+   Amissa Lighning Wyvern  x 1
+   Amissa Mountain Wyvern  x 1
+   Amissa Parrot  x 1
+   Amissa Poison Wyvern  x 1
+   Amissa Shadow Wyvern  x 1
+   Maracaw Argent  x 1
+   Tameable Mummy  x 1
+
+Dino Entries: 
+   AmissaFireWyvern_C
+   AmissaIceWyvern_C
+   AmissaLightningWyvern_C
+   AmissaMaracawArgent_C
+   AmissaMountainWyvern_C
+   AmissaPoisonWyvern_C
+   AmissaShadowWyvern_C
+   AmissaTameableMummy_C
+   AmissaChicken_C
+   AmissaParrot_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Amissa Fire Wyvern
+      Main BP: AmissaWyvern_Character_BP_Fire_C
+      Entry Weight: 1.0
+      Spawn Limit: 1.0
+      Multi Spawn Chance: 1.0
+   Entry Name: Amissa Poison Wyvern
+      Main BP: AmissaWyvern_Character_BP_Poison_C
+      Entry Weight: 1.0
+      Spawn Limit: 1.0
+      Multi Spawn Chance: 1.0
+   Entry Name: Amissa Lighning Wyvern
+      Main BP: AmissaWyvern_Character_BP_Lightning2_C
+      Entry Weight: 1.0
+      Spawn Limit: 1.0
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Amissa Mountain Wyvern
+      Main BP: AmissaWyvern_Character_BP_Mountain_C
+      Entry Weight: 1.0
+      Spawn Limit: 1.0
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Amissa Ice Wyvern
+      Main BP: AmissaWyvern_Character_BP_Ice_C
+      Entry Weight: 1.0
+      Spawn Limit: 1.0
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Amissa Shadow Wyvern
+      Main BP: AmissaWyvern_Character_BP_ShadowWyvern_C
+      Entry Weight: 1.0
+      Spawn Limit: 1.0
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Maracaw Argent
+      Main BP: Maracaw_Argent_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 1.0
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Tameable Mummy
+      Main BP: MummyT_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 1.0
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Amissa Chicken
+      Main BP: AmissaChicken_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 1.0
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Amissa Parrot
+      Main BP: AmissaParrot_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 1.0
+      Multi Spawn Chance: 1.0
+
+MultiParams Summary: 
+   Main BP: AmissaChicken_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             1.0
+      Multi Spawn Chance:                               1.0
+
+   Main BP: AmissaParrot_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             1.0
+      Multi Spawn Chance:                               1.0
+
+   Main BP: AmissaWyvern_Character_BP_Fire_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             1.0
+      Multi Spawn Chance:                               1.0
+
+   Main BP: AmissaWyvern_Character_BP_Ice_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             1.0
+      Multi Spawn Chance:                               1.0
+
+   Main BP: AmissaWyvern_Character_BP_Lightning2_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             1.0
+      Multi Spawn Chance:                               1.0
+
+   Main BP: AmissaWyvern_Character_BP_Mountain_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             1.0
+      Multi Spawn Chance:                               1.0
+
+   Main BP: AmissaWyvern_Character_BP_Poison_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             1.0
+      Multi Spawn Chance:                               1.0
+
+   Main BP: AmissaWyvern_Character_BP_ShadowWyvern_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             1.0
+      Multi Spawn Chance:                               1.0
+
+   Main BP: Maracaw_Argent_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             1.0
+      Multi Spawn Chance:                               1.0
+
+   Main BP: MummyT_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             1.0
+      Multi Spawn Chance:                               1.0
+
