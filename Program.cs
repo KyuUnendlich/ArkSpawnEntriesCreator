@@ -38,8 +38,8 @@ namespace ArkSpawnEntriesCreator
 
             //OldASAMethods.ExtractAdditionalNPCSpawnValues(replaceFile, false, Path);
 
-            ASAExtractor();
-            //ASASpawnContainer();
+            //ASAExtractor();
+            ASASpawnContainer();
         }
 
 
@@ -70,7 +70,7 @@ namespace ArkSpawnEntriesCreator
             ArketyBombardier, /*ATBomb  MULTIMAIN*/ TACAntrodemus,                      ExtremeGargantSpino, /*t5ege*/      ClayPachyrhino,
             PiggleLycosuchus, /* Lycosuchus */      TACEocarcharia, /*Eocarcharia*/     CyrusRedPanda,                      ClayRex,
             PiggleAdasaurus, /*PPR-Ada*/            TACDaemonis, /*Daemonis*/           CyrusThoraxSpider, /*CyrusJumping*/ ClayTrike,
-            PaleoApexPredators, /*PA_EVO_01*/       TACDzungatherium,                   CyrusMagnaGecko, /*CyrusGecko*/
+            PaleoApexPredators, /*PA_EVO_01*/       TACDzungatherium,                   CyrusMagnaGecko, /*CyrusGecko*/     CyberStructures,
             PaleoDangerousDepths, /*PA_EVO_02*/     TACBastionBeetle,                   CliffansCritters,
             PaleoHardHittingHerbivores,/*PA_EVO_03*/Tyrannodominator,                   HuskyWolf,
             PaleoNativeAquatics, /*PA_PLUS_01*/     ARKOSanguivern,                     Stegotetrabelodon, /*Steg*/
@@ -82,7 +82,7 @@ namespace ArkSpawnEntriesCreator
             XyphMeiolania,                          RoyalArchaeopteryx,                 AnomalyGalvarex,
         }
 
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/ClayTrike.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/CyberStructures.txt";
         const bool replaceFile = true;
         const bool multimain = false;
 
@@ -97,9 +97,11 @@ namespace ArkSpawnEntriesCreator
 
             const string path_spawn = "E:/ARK Saves/ArkSpawnEntriesCreator/ASASpawnEntries.csv";
             const string path_spawn2 = "E:/ARK Saves/ArkSpawnEntriesCreator/ASASpawnEntries2.csv";
+            const string path_toolkit = "E:/ARK Saves/ArkSpawnEntriesCreator/ToolkitReplacements.csv";
 
             //ASA_SpawnContainers.CreateSpawnContainerAdditions(path_spawn, Path_test);
-            ASA_SpawnContainers.CountModdedEntriesPerContainer(path_spawn, Path_test, path_spawn2, false);
+            ASA_SpawnContainers.CreateToolkitReplacements(path_toolkit, Path_test);
+            //ASA_SpawnContainers.CountModdedEntriesPerContainer(path_spawn, Path_test, path_spawn2, false);
         }
 
         public static void ASAExtractor()

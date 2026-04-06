@@ -218,6 +218,52 @@ namespace ArkSpawnEntriesCreator
             }
         }
 
+        public static void CreateToolkitReplacements(string path_tool, string Path)
+        {
+            using (TextFieldParser csvParser = new TextFieldParser(path_tool))
+            {
+                csvParser.CommentTokens = new string[] { "#" };
+                csvParser.SetDelimiters(new string[] { "," });
+                csvParser.HasFieldsEnclosedInQuotes = true;
+
+                // Skip the row with the column names
+                csvParser.ReadLine();
+
+                StringBuilder sb = new StringBuilder();
+                int count = 0;
+
+                while (!csvParser.EndOfData)
+                {
+                    string[] toolkitLine = csvParser.ReadFields();
+                    if (toolkitLine[2] != "")
+                    {
+                        count++;
+
+                        sb.AppendLine("ReplacementsFromClass" + count + "=" + toolkitLine[2]);
+
+                        string replacementTo = "ReplacementsToClasses" + count + "=" + toolkitLine[4];
+                        string replacementPercent = "ReplacementsChances" + count + "=" + toolkitLine[5];
+
+                        int iter = 3;
+                        while (toolkitLine[4 + iter] != "")
+                        {
+                            replacementTo += "," + toolkitLine[4 + iter];
+                            replacementPercent += "," + toolkitLine[5 + iter];
+                            iter += 3;
+                        }
+
+                        sb.AppendLine(replacementTo);
+                        sb.AppendLine(replacementPercent);
+                    }
+                }
+
+                File.AppendAllText(Path, "[CTReplacements]");
+                File.AppendAllText(Path, "\r\n");
+                File.AppendAllText(Path, sb.ToString());
+                File.AppendAllText(Path, "\r\n");
+            }
+        }
+
         public static void CheckForBP_C(string path_spawn, string Path)
         {
             using (TextFieldParser csvParser = new TextFieldParser(path_spawn))
@@ -248,6 +294,43 @@ namespace ArkSpawnEntriesCreator
                 }
                 if (foundMissing_C) { 
                     File.AppendAllText(Path, "Missing _Cs at the end: ");
+                    File.AppendAllText(Path, "\r\n");
+                    File.AppendAllText(Path, sb.ToString());
+                    File.AppendAllText(Path, "\r\n");
+                }
+            }
+        }
+
+        public static void CheckFor_NOT_BP_C(string path_tool, string Path)
+        {
+            using (TextFieldParser csvParser = new TextFieldParser(path_tool))
+            {
+                csvParser.CommentTokens = new string[] { "#" };
+                csvParser.SetDelimiters(new string[] { "," });
+                csvParser.HasFieldsEnclosedInQuotes = true;
+
+                StringBuilder sb = new StringBuilder();
+                bool found_C = false;
+
+                while (!csvParser.EndOfData) {
+                    string[] potentialBPs = csvParser.ReadFields();
+                    foreach (string potBP in potentialBPs)
+                    {
+                        if (potBP.Length > 2)
+                        {
+                            string potBP_EndChars = potBP.Substring(potBP.Length - 2);
+                            if (potBP_EndChars.Equals("_C"))
+                            {
+                                sb.AppendLine(potBP);
+                                found_C = true;
+                            }
+                        }
+                    }
+                }
+
+                if (found_C)
+                {
+                    File.AppendAllText(Path, "_Cs at the end: ");
                     File.AppendAllText(Path, "\r\n");
                     File.AppendAllText(Path, sb.ToString());
                     File.AppendAllText(Path, "\r\n");
