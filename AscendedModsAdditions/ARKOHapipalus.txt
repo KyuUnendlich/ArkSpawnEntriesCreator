@@ -63,6 +63,9 @@ Global Entry Weights:
    Main BP: Hapipalus_Character_BP_C
       SubBP: Hapipalus_Character_BP_C 0.9
       SubBP: ARKOLOGY_Hapipalus_Character_BP_C 0.1
+   Main BP: Spino_Character_BP_Corrupted_Zombie_C
+      SubBP: Spino_Character_BP_Corrupted_Zombie_C 0.75
+      SubBP: Zombie_Hapipalus_Character_BP_C 0.25
 
 MultiParams Summary: 
    Main BP: Hapipalus_Character_BP_C

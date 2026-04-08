@@ -1,3 +1,10 @@
+Engram Entries: 
+   EngramEntry_Saddle_PaleoMoschops_C
+   EngramEntry_Saddle_PaleoKentro_C
+
+Dino Entries: 
+   PaleoMoschops_C
+
 ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT Remaps: 
       
 FromClass: 

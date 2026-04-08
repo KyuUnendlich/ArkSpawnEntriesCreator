@@ -1,8 +1,9 @@
 All Entry Names: 
-   PaddleSwimmer (1)  x 7
+   PaddleSwimmer (1)  x 14
 
 Engram Entries: 
    EngramEntry_Saddle_PSpino_C
+   EngramEntry_PaddleSwimmer_AdminRemote_C
 
 Dino Entries: 
    PaddleSwimmer_C
@@ -17,8 +18,8 @@ Container Name: null
 Container Name: null
    Entry Name: PaddleSwimmer (1)
       Main BP: PaddleSwimmer_Character_BP_C
-      Entry Weight: 0.015
-      Spawn Limit: 0.0075
+      Entry Weight: 0.003
+      Spawn Limit: 0.0001
       Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: PaddleSwimmer (1)
@@ -30,48 +31,113 @@ Container Name: null
    Entry Name: PaddleSwimmer (1)
       Main BP: PaddleSwimmer_Character_BP_C
       Entry Weight: 0.03
-      Spawn Limit: 0.005
+      Spawn Limit: 0.002
       Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: PaddleSwimmer (1)
       Main BP: PaddleSwimmer_Character_BP_C
       Entry Weight: 0.125
-      Spawn Limit: 0.005
+      Spawn Limit: 0.002
       Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: PaddleSwimmer (1)
       Main BP: PaddleSwimmer_Character_BP_C
       Entry Weight: 0.185
-      Spawn Limit: 0.005
+      Spawn Limit: 0.002
       Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: PaddleSwimmer (1)
       Main BP: PaddleSwimmer_Character_BP_C
       Entry Weight: 0.06
-      Spawn Limit: 0.005
+      Spawn Limit: 0.002
       Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: PaddleSwimmer (1)
+      Main BP: PaddleSwimmer_Character_BP_C
+      Entry Weight: 0.049
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: PaddleSwimmer (1)
+      Main BP: PaddleSwimmer_Character_BP_Aberrant_C
+      Entry Weight: 0.049
+      Spawn Limit: 0.002
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: PaddleSwimmer (1)
+      Main BP: PaddleSwimmer_Character_BP_Aberrant_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.001
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: PaddleSwimmer (1)
+      Main BP: PaddleSwimmer_Character_BP_C
+      Entry Weight: 0.049
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: PaddleSwimmer (1)
+      Main BP: PaddleSwimmer_Character_BP_C
+      Entry Weight: 0.049
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: PaddleSwimmer (1)
+      Main BP: PaddleSwimmer_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: PaddleSwimmer (1)
+      Main BP: PaddleSwimmer_Character_BP_Aberrant_C
+      Entry Weight: 0.09
+      Spawn Limit: 0.002
+      Multi Spawn Chance: 0.5
 
 MultiParams Summary: 
+   Main BP: PaddleSwimmer_Character_BP_Aberrant_C
+      Entry Weight:                   0.049
+      Spawn Limit:                             0.002
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.001
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.09
+      Spawn Limit:                             0.002
+      Multi Spawn Chance:                               0.5
+
    Main BP: PaddleSwimmer_Character_BP_C
       Entry Weight:                   0.049
       Spawn Limit:                             0.02
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.015
-      Spawn Limit:                             0.0075
+      Entry Weight:                   0.003
+      Spawn Limit:                             0.0001
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.049
       Spawn Limit:                             0.02
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.03
-      Spawn Limit:                             0.005
+      Spawn Limit:                             0.002
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.125
-      Spawn Limit:                             0.005
+      Spawn Limit:                             0.002
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.185
-      Spawn Limit:                             0.005
+      Spawn Limit:                             0.002
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.06
-      Spawn Limit:                             0.005
+      Spawn Limit:                             0.002
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.049
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.049
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.049
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.02
       Multi Spawn Chance:                               1.0
 

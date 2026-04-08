@@ -310,7 +310,7 @@ Container Name: null
       Multi Spawn Chance: 0.99-0.66-0.33
 Container Name: null
    Entry Name: Sinornithoides
-      Main BP: Sinornithoides_Character_BP_C
+      Main BP: Sinornithoides_Character_BP_Lost_C
       Entry Weight: 0.3
       Spawn Limit: 0.07
       Multi Spawn Chance: 0.9-0.6-0.3
@@ -318,28 +318,28 @@ Container Name: null
          SubBP: Sinornithoides_Character_BP_Eerie_C 0.05
 Container Name: null
    Entry Name: Sinornithoides
-      Main BP: Sinornithoides_Character_BP_C
+      Main BP: Sinornithoides_Character_BP_Lost_C
       Entry Weight: 0.3
       Spawn Limit: 0.07
       Multi Spawn Chance: 0.9-0.6-0.3
          SubBP: Sinornithoides_Character_BP_C 0.95
          SubBP: Sinornithoides_Character_BP_Eerie_C 0.05
    Entry Name: Edmonto
-      Main BP: Edmontosaurus_Character_BP_C
+      Main BP: Edmontosaurus_Character_BP_Lost_C
       Entry Weight: 0.09
       Spawn Limit: 0.07
       Multi Spawn Chance: 0.9-0.6-0.3
-         SubBP: Edmontosaurus_Character_BP_C 0.95
+         SubBP: Edmontosaurus_Character_BP_Lost_C 0.95
          SubBP: MegaEdmontosaurus_Character_BP_C 0.05
 Container Name: null
    Entry Name: Haasts
-      Main BP: HaastsEagle_Character_BP_C
+      Main BP: HaastsEagle_Character_BP_Lost_C
       Entry Weight: 0.15
       Spawn Limit: 0.07
       Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: Haasts
-      Main BP: HaastsEagle_Character_BP_C
+      Main BP: HaastsEagle_Character_BP_Lost_C
       Entry Weight: 0.15
       Spawn Limit: 0.07
       Multi Spawn Chance: 1.0
@@ -351,6 +351,9 @@ Global Entry Weights:
    Main BP: HaastsEagle_Character_BP_C
       SubBP: Bone_MegaHaastsEagle_Character_BP_C 0.05
       SubBP: HaastsEagle_Character_BP_C 0.95
+   Main BP: HaastsEagle_Character_BP_Lost_C
+      SubBP: Bone_MegaHaastsEagle_Character_BP_C 0.05
+      SubBP: HaastsEagle_Character_BP_Lost_C 0.95
 
 MultiParams Summary: 
    Main BP: Angulomastacator_Character_BP_C
@@ -385,14 +388,16 @@ SubBPList: Edmontosaurus_Character_BP_Aberrant_C: 0.95, MegaEdmontosaurus_Charac
       Entry Weight:                   0.15
       Spawn Limit:                             0.09
       Multi Spawn Chance:                               1.0-0.75
+SubBPList: Edmontosaurus_Character_BP_C: 0.95, MegaEdmontosaurus_Character_BP_C: 0.05
+SubBPList: Edmontosaurus_Character_BP_C: 0.95, MegaEdmontosaurus_Character_BP_C: 0.05
+SubBPList: Edmontosaurus_Character_BP_C: 0.95, MegaEdmontosaurus_Character_BP_C: 0.05
+SubBPList: Edmontosaurus_Character_BP_C: 0.95, MegaEdmontosaurus_Character_BP_C: 0.05
+
+   Main BP: Edmontosaurus_Character_BP_Lost_C
       Entry Weight:                   0.09
       Spawn Limit:                             0.07
       Multi Spawn Chance:                               0.9-0.6-0.3
-SubBPList: Edmontosaurus_Character_BP_C: 0.95, MegaEdmontosaurus_Character_BP_C: 0.05
-SubBPList: Edmontosaurus_Character_BP_C: 0.95, MegaEdmontosaurus_Character_BP_C: 0.05
-SubBPList: Edmontosaurus_Character_BP_C: 0.95, MegaEdmontosaurus_Character_BP_C: 0.05
-SubBPList: Edmontosaurus_Character_BP_C: 0.95, MegaEdmontosaurus_Character_BP_C: 0.05
-SubBPList: Edmontosaurus_Character_BP_C: 0.95, MegaEdmontosaurus_Character_BP_C: 0.05
+SubBPList: Edmontosaurus_Character_BP_Lost_C: 0.95, MegaEdmontosaurus_Character_BP_C: 0.05
 
    Main BP: Edmontosaurus_Character_BP_Scorched_C
       Entry Weight:                   0.1
@@ -472,6 +477,8 @@ SubBPList: Sinornithoides_Character_BP_C: 0.95, Sinornithoides_Character_BP_Eeri
       Entry Weight:                   0.1
       Spawn Limit:                             0.1
       Multi Spawn Chance:                               0.8
+
+   Main BP: HaastsEagle_Character_BP_Lost_C
       Entry Weight:                   0.15
       Spawn Limit:                             0.07
       Multi Spawn Chance:                               1.0
@@ -528,16 +535,18 @@ SubBPList: Sinornithoides_Character_BP_Aberrant_C: 0.95, Sinornithoides_Characte
       Entry Weight:                   0.25
       Spawn Limit:                             0.15
       Multi Spawn Chance:                               0.9-0.6-0.3
+SubBPList: Sinornithoides_Character_BP_C: 0.95, Sinornithoides_Character_BP_Eerie_C: 0.05
+SubBPList: Sinornithoides_Character_BP_C: 0.95, Sinornithoides_Character_BP_Eerie_C: 0.05
+SubBPList: Sinornithoides_Character_BP_C: 0.95, Sinornithoides_Character_BP_Eerie_C: 0.05
+SubBPList: Sinornithoides_Character_BP_C: 0.95, Sinornithoides_Character_BP_Eerie_C: 0.05
+
+   Main BP: Sinornithoides_Character_BP_Lost_C
       Entry Weight:                   0.3
       Spawn Limit:                             0.07
       Multi Spawn Chance:                               0.9-0.6-0.3
       Entry Weight:                   0.3
       Spawn Limit:                             0.07
       Multi Spawn Chance:                               0.9-0.6-0.3
-SubBPList: Sinornithoides_Character_BP_C: 0.95, Sinornithoides_Character_BP_Eerie_C: 0.05
-SubBPList: Sinornithoides_Character_BP_C: 0.95, Sinornithoides_Character_BP_Eerie_C: 0.05
-SubBPList: Sinornithoides_Character_BP_C: 0.95, Sinornithoides_Character_BP_Eerie_C: 0.05
-SubBPList: Sinornithoides_Character_BP_C: 0.95, Sinornithoides_Character_BP_Eerie_C: 0.05
 SubBPList: Sinornithoides_Character_BP_C: 0.95, Sinornithoides_Character_BP_Eerie_C: 0.05
 SubBPList: Sinornithoides_Character_BP_C: 0.95, Sinornithoides_Character_BP_Eerie_C: 0.05
 

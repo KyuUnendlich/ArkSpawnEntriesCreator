@@ -1,0 +1,11 @@
+Engram Entries: 
+   EngramDinoball_C
+   EngramDinoballStack_C
+   EngramDigitizerRifle_C
+   EngramDepotTerminal_C
+   EngramDigitizerRailGun_C
+   EngramDinoballStorageBox_C
+   EngramEntryDinoballDisplayCase_C
+   EngramDepotGeneStorage_C
+   EngramDepotPad_C
+

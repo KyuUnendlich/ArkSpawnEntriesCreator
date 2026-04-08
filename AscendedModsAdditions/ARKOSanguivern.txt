@@ -5,6 +5,10 @@ Engram Entries:
    EngramEntry_BloodstarvedSummoner_Gamma_C
    EngramEntry_BloodstarvedSummoner_Legendary_C
    EngramEntry_Cocktail_Sanguivern_C
+   EngramEntry_BloodstarvedSummoner_Beta_NONLC_C
+   EngramEntry_BloodstarvedSummoner_Gamma_NONLC_C
+   EngramEntry_BloodstarvedSummoner_Legendary_NONLC_C
+   EngramEntry_BloodstarvedSummoner_NONLC_C
 
 Dino Entries: 
    Sanguivern_C
@@ -14,3 +18,15 @@ Global Entry Weights:
    Main BP: Desmodus_Character_BP_C
       SubBP: Desmodus_Character_BP_C 0.95
       SubBP: Sanguivern_Character_BP_C 0.05
+   Main BP: Yutyrannus_Character_BP_Corrupted_Zombie_C
+      SubBP: Yutyrannus_Character_BP_Corrupted_Zombie_C 0.95
+      SubBP: Zombie_Alpha_Sanguivern_Character_BP_C 0.05
+   Main BP: Sanguivern_Character_BP_C
+      SubBP: Sanguivern_Character_BP_C 0.95
+      SubBP: MegaSanguivern_Character_BP_C 0.05
+   Main BP: Sanguivern_Character_BP_C
+      SubBP: Sanguivern_Character_BP_C 0.9
+      SubBP: ARKOLOGY_Sanguivern_Character_BP_C 0.1
+   Main BP: ARKOLOGY_Sanguivern_Character_BP_C
+      SubBP: ARKOLOGY_Sanguivern_Character_BP_C 0.95
+      SubBP: MegaSanguivern_Character_BP_C 0.05
