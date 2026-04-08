@@ -1,6 +1,7 @@
 ﻿using Microsoft.VisualBasic.FileIO;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -26,6 +27,13 @@ namespace ArkSpawnEntriesCreator
         const string spawnlimitC = ")";
         const string ending = "))";
 
+        const string startReduceA = "ConfigSubtractNPCSpawnEntriesContainer=(NPCSpawnEntriesContainerClassString=\"";
+        const string startReduceB = "\",NPCSpawnEntries=((NPCsToSpawnStrings=(\"";
+        const string reduceLoop1 = "\")),(NPCsToSpawnStrings=(\"";
+        const string reduceTransition = "\"))),NPCSpawnLimits=((NPCClassString=\"";
+        const string reduceLoop2 = "\"),(NPCClassString=\"";
+        const string reduceEnding = "\")))";
+
 
         public static void CreateSpawnContainerAdditions(string path_spawn, string Path) {
             using (TextFieldParser csvParser = new TextFieldParser(path_spawn))
@@ -38,6 +46,16 @@ namespace ArkSpawnEntriesCreator
                 string[] entryNames = csvParser.ReadFields();
                 // Read the row with the blueprint
                 string[] dinoBPs = csvParser.ReadFields();
+
+                /*
+                for (int iter = 3; iter < dinoBPs.Length; iter++)
+                {
+                    if (!dinoBPs[iter].Equals(""))
+                    {
+                        string[] temp = dinoBPs[iter].Split('.');
+                        dinoBPs[iter] = temp[1];
+                    }
+                }*/
 
                 // Skip the row with info
                 csvParser.ReadLine();
@@ -140,7 +158,111 @@ namespace ArkSpawnEntriesCreator
                         File.AppendAllText(Path, "\r\n");
 
                     }
+
+                    if (dinoEntriesRemove.Count != 0)
+                    {
+                        string outputText = startReduceA + spawnEntryContainerName + startReduceB + dinoEntriesRemove[0];
+
+                        for (int currentDinoEntryIndex = 1; currentDinoEntryIndex < dinoEntriesRemove.Count; currentDinoEntryIndex++)
+                        {
+                            outputText += reduceLoop1;
+                            outputText += dinoEntriesRemove[currentDinoEntryIndex];
+                        }
+
+                        outputText += reduceTransition;
+                        outputText += dinoEntriesRemove[0];
+                        for (int currentDinoEntryIndex = 1; currentDinoEntryIndex < dinoEntriesRemove.Count; currentDinoEntryIndex++)
+                        {
+                            outputText += reduceLoop2;
+                            outputText += dinoEntriesRemove[currentDinoEntryIndex];
+                        }
+
+                        outputText += reduceEnding;
+
+                        File.AppendAllText(Path, outputText);
+                        File.AppendAllText(Path, "\r\n");
+                    }
                 }
+            }
+        }
+
+        public static void CreateToolkitReplacements(string path_tool, string Path)
+        {
+            using (TextFieldParser csvParser = new TextFieldParser(path_tool))
+            {
+                csvParser.CommentTokens = new string[] { "#" };
+                csvParser.SetDelimiters(new string[] { "," });
+                csvParser.HasFieldsEnclosedInQuotes = true;
+
+                // Skip the row with the column names
+                csvParser.ReadLine();
+
+                StringBuilder sbReplace = new StringBuilder();
+                StringBuilder sbRemap = new StringBuilder();
+                StringBuilder sbNPCReplace = new StringBuilder();
+                int countReplace = 0;
+                int countRemap = 0;
+                bool endEarly = false;
+
+                while (!csvParser.EndOfData || !endEarly)
+                {
+                    string[] toolkitLine = csvParser.ReadFields();
+
+                    if ((toolkitLine[0].Equals("X")))
+                    {
+                        endEarly = true;
+                        break;
+                    }
+
+                    if (toolkitLine[2] != "")
+                    {
+                        if (toolkitLine[5] == "200")
+                        {
+                            countRemap++;
+                            sbRemap.AppendLine("RemapFrom" + countRemap + "=" + toolkitLine[2] + "_C");
+                            sbRemap.AppendLine("RemapTo" + countRemap + "=" + toolkitLine[4] + "_C");
+
+                            string[] from = toolkitLine[2].Split('.');
+                            string[] to = toolkitLine[4].Split('.');
+                            sbNPCReplace.AppendLine("NPCReplacements=(FromClassName=\"" + from[1] + "_C\",ToClassName=\"" + to[1] + "_C\")");
+                        }
+                        else
+                        {
+                            countReplace++;
+
+                            sbReplace.AppendLine("ReplacementsFromClass" + countReplace + "=" + toolkitLine[2]);
+
+                            string replacementTo = "ReplacementsToClasses" + countReplace + "=" + toolkitLine[4];
+                            string replacementPercent = "ReplacementsChances" + countReplace + "=" + toolkitLine[5];
+
+                            int iter = 3;
+                            while (toolkitLine[4 + iter] != "")
+                            {
+                                replacementTo += "," + toolkitLine[4 + iter];
+                                replacementPercent += "," + toolkitLine[5 + iter];
+                                iter += 3;
+                            }
+
+                            sbReplace.AppendLine(replacementTo);
+                            sbReplace.AppendLine(replacementPercent);
+                        }
+                    }
+                }
+
+                File.AppendAllText(Path, "NumEntriesReplacements=" + countReplace);
+                File.AppendAllText(Path, "\r\n");
+                File.AppendAllText(Path, "NumEntriesRemaps=" + countRemap);
+                File.AppendAllText(Path, "\r\n");
+                File.AppendAllText(Path, "\r\n");
+                File.AppendAllText(Path, "[CTReplacements]");
+                File.AppendAllText(Path, "\r\n");
+                File.AppendAllText(Path, sbReplace.ToString());
+                File.AppendAllText(Path, "\r\n");
+                File.AppendAllText(Path, "[CTRemaps]");
+                File.AppendAllText(Path, "\r\n");
+                File.AppendAllText(Path, sbRemap.ToString());
+                File.AppendAllText(Path, "\r\n");
+                File.AppendAllText(Path, sbNPCReplace.ToString());
             }
         }
 
@@ -218,52 +340,6 @@ namespace ArkSpawnEntriesCreator
             }
         }
 
-        public static void CreateToolkitReplacements(string path_tool, string Path)
-        {
-            using (TextFieldParser csvParser = new TextFieldParser(path_tool))
-            {
-                csvParser.CommentTokens = new string[] { "#" };
-                csvParser.SetDelimiters(new string[] { "," });
-                csvParser.HasFieldsEnclosedInQuotes = true;
-
-                // Skip the row with the column names
-                csvParser.ReadLine();
-
-                StringBuilder sb = new StringBuilder();
-                int count = 0;
-
-                while (!csvParser.EndOfData)
-                {
-                    string[] toolkitLine = csvParser.ReadFields();
-                    if (toolkitLine[2] != "")
-                    {
-                        count++;
-
-                        sb.AppendLine("ReplacementsFromClass" + count + "=" + toolkitLine[2]);
-
-                        string replacementTo = "ReplacementsToClasses" + count + "=" + toolkitLine[4];
-                        string replacementPercent = "ReplacementsChances" + count + "=" + toolkitLine[5];
-
-                        int iter = 3;
-                        while (toolkitLine[4 + iter] != "")
-                        {
-                            replacementTo += "," + toolkitLine[4 + iter];
-                            replacementPercent += "," + toolkitLine[5 + iter];
-                            iter += 3;
-                        }
-
-                        sb.AppendLine(replacementTo);
-                        sb.AppendLine(replacementPercent);
-                    }
-                }
-
-                File.AppendAllText(Path, "[CTReplacements]");
-                File.AppendAllText(Path, "\r\n");
-                File.AppendAllText(Path, sb.ToString());
-                File.AppendAllText(Path, "\r\n");
-            }
-        }
-
         public static void CheckForBP_C(string path_spawn, string Path)
         {
             using (TextFieldParser csvParser = new TextFieldParser(path_spawn))
@@ -312,7 +388,8 @@ namespace ArkSpawnEntriesCreator
                 StringBuilder sb = new StringBuilder();
                 bool found_C = false;
 
-                while (!csvParser.EndOfData) {
+                while (!csvParser.EndOfData)
+                {
                     string[] potentialBPs = csvParser.ReadFields();
                     foreach (string potBP in potentialBPs)
                     {
@@ -328,11 +405,37 @@ namespace ArkSpawnEntriesCreator
                     }
                 }
 
-                if (found_C)
-                {
-                    File.AppendAllText(Path, "_Cs at the end: ");
-                    File.AppendAllText(Path, "\r\n");
-                    File.AppendAllText(Path, sb.ToString());
+                File.AppendAllText(Path, "_Cs at the end: ");
+                File.AppendAllText(Path, "\r\n");
+                File.AppendAllText(Path, sb.ToString());
+                File.AppendAllText(Path, "\r\n");
+
+            }
+        }
+
+        public static void FindPhrase(string path_base, string Path, string phrase)
+        {
+            string[] files = Directory.GetFiles(@"E:\ARK Saves\ArkSpawnEntriesCreator\AscendedModsAdditions\", "*.txt");
+
+            File.AppendAllText(Path, "FindPhraseExe");
+            File.AppendAllText(Path, "\r\n");
+
+            foreach (string file in files)
+            {
+                bool found_phrase = false;
+
+                // Open the text file using a stream reader.
+                using StreamReader reader = new(file);
+
+                // Read the stream as a string.
+                string text = reader.ReadToEnd();
+
+                if (text.Contains(phrase)) {
+                    found_phrase = true;
+                }
+
+                if (found_phrase) {
+                    File.AppendAllText(Path, "Filename: " + file);
                     File.AppendAllText(Path, "\r\n");
                 }
             }

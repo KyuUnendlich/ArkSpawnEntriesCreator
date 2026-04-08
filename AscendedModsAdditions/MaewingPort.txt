@@ -1,0 +1,65 @@
+All Entry Names: 
+   aewing 2-3  x 6
+
+Engram Entries: 
+   EngramEntry_Milkglider_Saddle_ASEP_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: ASEP: Maewing 2-3
+      Main BP: MilkGlider_Character_BP_ASEP_C
+      Entry Weight: 0.12
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: ASEP: Maewing 2-3
+      Main BP: MilkGlider_Character_BP_ASEP_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: ASEP: Maewing 2-3
+      Main BP: MilkGlider_Character_BP_ASEP_C
+      Entry Weight: 0.14
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: ASEP: Maewing 2-3
+      Main BP: MilkGlider_Character_BP_ASEP_C
+      Entry Weight: 0.12
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: ASEP: Maewing 2-3
+      Main BP: MilkGlider_Character_BP_ASEP_C
+      Entry Weight: 0.12
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: ASEP: Maewing 2-3
+      Main BP: MilkGlider_Character_BP_ASEP_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 
+
+MultiParams Summary: 
+   Main BP: MilkGlider_Character_BP_ASEP_C
+      Entry Weight:                   0.12
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.14
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.12
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.12
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               
+

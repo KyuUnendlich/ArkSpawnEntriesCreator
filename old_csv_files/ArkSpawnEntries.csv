@@ -9,8 +9,8 @@ Global replace,,,,,,,,,,,
 ,,Taming Method,,,,,,,,,
 ,,Taming Kibble,,,,,,,,,
 ,,Egg Kibble,,,,,,,,,
-Beach,"The Center, Ragnarok, Valguero, Astraeos",EntryWeight,,,,,,0.9,0.9,,
-DinoSpawnEntriesBeach_C,https://usebeacon.app/Games/ArkSA/Mods/2399830/DinoSpawnEntriesBeach_Generic_C,Limit,,,,,,1.0,1.0,,
+Beach,"The Center, Ragnarok, Valguero, Astraeos",EntryWeight,,,,0.9,,0.9,,0.9,0.9
+DinoSpawnEntriesBeach_C,https://usebeacon.app/Games/ArkSA/Mods/2399830/DinoSpawnEntriesBeach_Generic_C,Limit,,,,1,,1,,1,1
 Grasslands Generic,"The Center, Ragnarok",EntryWeight,0.3,0.2,0.4,,,,,,
 DinoSpawnEntriesGrassland_Generic_C,https://usebeacon.app/Games/ArkSA/Mods/2399830/DinoSpawnEntriesGrassland_Generic_C,Limit,0.3,0.21,0.4,,,,,,
 Rag Ice 1 Wyvern,Ragnarok,EntryWeight,,,,,,,,,
