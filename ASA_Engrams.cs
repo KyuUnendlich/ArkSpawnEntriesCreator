@@ -8,6 +8,63 @@ namespace ArkSpawnEntriesCreator
 {
     class ASA_Engrams
     {
+        public static void AddModifiersToEngrams(string path_engram, string Path)
+        {
+            List<string> allEngramList = new List<string>();
+
+            StringBuilder sb = new StringBuilder();
+            List<string> specialEngrams = new List<string>();
+
+            using (TextFieldParser csvParser = new TextFieldParser(path_engram))
+            {
+                csvParser.CommentTokens = new string[] { "#" };
+                csvParser.SetDelimiters(new string[] { "," });
+                csvParser.HasFieldsEnclosedInQuotes = true;
+
+                while (!csvParser.EndOfData)
+                {
+                    string[] engram = csvParser.ReadFields();
+
+                    string tempEngram = engram[0];
+
+                    if (engram[0] != "") {
+
+                        if (engram[1] != "X" && engram[1] != "x")
+                        {
+                            string[] stringparts = tempEngram.Split(',');
+
+                            if (engram[2] != "")
+                            {
+
+                                int firstEqualsPos = stringparts[1].IndexOf("=") + 1;
+                                stringparts[1] = stringparts[1].Substring(0, firstEqualsPos) + engram[2];
+
+                                if (engram[3] != "")
+                                {
+                                    int secondEqualsPos = stringparts[2].IndexOf("=") + 1;
+                                    stringparts[2] = stringparts[2].Substring(0, secondEqualsPos) + engram[3];
+                                }
+
+                            }
+
+                            sb.AppendLine(string.Join(",", stringparts));
+                        }
+                    }
+                }
+            }
+
+            File.AppendAllText(Path, sb.ToString());
+            File.AppendAllText(Path, "\r\n");
+            File.AppendAllText(Path, "\r\n");
+
+            string engramReturn = string.Join(",", specialEngrams);
+            File.AppendAllText(Path, "EngramWorkbench=" + engramReturn);
+            File.AppendAllText(Path, "\r\n");
+            File.AppendAllText(Path, "OverrideUnlock=" + engramReturn);
+
+
+        }
+
         public static void CreateFullEngramLine(string path_engram, string Path)
         {
             List<string> allEngramList = new List<string>();

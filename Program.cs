@@ -81,7 +81,7 @@ namespace ArkSpawnEntriesCreator
             XyphMeiolania,                          RoyalArchaeopteryx,                 AnomalyGalvarex,
         }
 
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/PaddletailSpino.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/Birdwatcher.txt";
         const bool replaceFile = true;
         const bool multimain = false;
 
@@ -110,6 +110,7 @@ namespace ArkSpawnEntriesCreator
             //ASA_SpawnContainers.CountModdedEntriesPerContainer(path_spawn, Path_test, path_spawn2, false);
 
             //ASA_Engrams.CreateFullEngramLine(path_engram, Path_test);
+            ASA_Engrams.AddModifiersToEngrams(path_engram, Path_test);
 
             ASAExtractor();
         }
