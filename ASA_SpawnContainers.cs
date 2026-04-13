@@ -5,6 +5,7 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Text;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace ArkSpawnEntriesCreator
 {
@@ -186,6 +187,8 @@ namespace ArkSpawnEntriesCreator
             }
         }
 
+
+
         public static void CreateToolkitReplacements(string path_tool, string Path)
         {
             using (TextFieldParser csvParser = new TextFieldParser(path_tool))
@@ -263,6 +266,49 @@ namespace ArkSpawnEntriesCreator
                 File.AppendAllText(Path, sbRemap.ToString());
                 File.AppendAllText(Path, "\r\n");
                 File.AppendAllText(Path, sbNPCReplace.ToString());
+            }
+        }
+
+        public static void CreateToolkitSpawners(string path_spawn, string Path)
+        {
+            using (TextFieldParser csvParser = new TextFieldParser(path_spawn))
+            {
+                csvParser.CommentTokens = new string[] { "#" };
+                csvParser.SetDelimiters(new string[] { "," });
+                csvParser.HasFieldsEnclosedInQuotes = true;
+
+                // Skip additional rows until first container
+                for (int i = 0; i < 11; i++)
+                {
+                    csvParser.ReadLine();
+                }
+
+                StringBuilder sb = new StringBuilder();
+
+                int counter = 0;
+
+                while (!csvParser.EndOfData)
+                {
+                    string[] entryweightArray = csvParser.ReadFields();
+                    string[] spawnlimitArray = csvParser.ReadFields();
+
+                    string spawnEntryContainerName = spawnlimitArray[0];
+
+                    string captMult = entryweightArray[2];
+                    string spawnInterval = spawnlimitArray[2];
+
+                    sb.AppendLine("ContainerEdit" + counter + "=" + spawnEntryContainerName);
+                    sb.AppendLine("CapMult" + counter + "=" + captMult);
+                    sb.AppendLine("SpawnInterval" + counter + "=" + spawnInterval);
+
+                    counter++;
+                }
+
+                File.AppendAllText(Path, "NumEntriesSpawners="+counter);
+                File.AppendAllText(Path, "\r\n");
+                File.AppendAllText(Path, "\r\n");
+                File.AppendAllText(Path, "[CTSpawners]");
+                File.AppendAllText(Path, "\r\n");
             }
         }
 

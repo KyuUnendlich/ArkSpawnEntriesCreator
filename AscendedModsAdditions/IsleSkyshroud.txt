@@ -1,9 +1,10 @@
 All Entry Names: 
-   NULL  x 20
+   NULL  x 19
 
 Engram Entries: 
    EngramEntry_InstinctNullifier_C
    EngramEntry_DrakaraKibble_C
+   EngramEntry_Saddle_Drakara_C
 
 Dino Entries: 
    IoMDrakara_C
@@ -733,25 +734,6 @@ Container Name: null
       Spawn Limit: Error, wrong BP or couldnt be found
       Multi Spawn Chance: 0.5-0.5
          SubBP: Drakara_Character_BP_Arctic_C 0.3
-Container Name: null
-   Entry Name: 
-      Main BP: Drakara_Character_BP_Aberrant_C
-      Entry Weight: 0.025
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 0.7-0.5-0.25
-         SubBP: Drakara_Character_BP_Aberrant_C 0.3
-   Entry Name: 
-      Main BP: Drakara_Character_BP_Aberrant_C
-      Entry Weight: 0.025
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 0.7-0.5-0.25
-         SubBP: Drakara_Character_BP_Aberrant_C 0.3
-   Entry Name: 
-      Main BP: Drakara_Character_BP_Aberrant_C
-      Entry Weight: 0.025
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 0.7-0.5-0.25
-         SubBP: Drakara_Character_BP_Aberrant_C 0.3
 
 Global Entry Weights: 
    Main BP: Salmon_Character_BP_C
@@ -763,6 +745,12 @@ Global Entry Weights:
    Main BP: Dodo_Character_BP_C
       SubBP: Dodo_Character_BP_C 90.0
       SubBP: Atokirina_Character_BP_C 10.0
+   Main BP: Dodo_Character_BP_Aberrant_C
+      SubBP: Dodo_Character_BP_Aberrant_C 50.0
+      SubBP: Atokirina_Character_BP_C 50.0
+   Main BP: Drakara_Character_BP_C
+      SubBP: Drakara_Character_BP_C 90.0
+      SubBP: Drakara_Character_BP_Tropical_C 10.0
 
 MultiParams Summary: 
    Main BP: Drakara_Character_BP_Aberrant_C
@@ -787,15 +775,6 @@ MultiParams Summary:
       Entry Weight:                   0.025
       Spawn Limit:              Error, wrong BP or couldnt be found
       Multi Spawn Chance:                               0.8-0.5-0.25
-      Entry Weight:                   0.025
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               0.7-0.5-0.25
-      Entry Weight:                   0.025
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               0.7-0.5-0.25
-      Entry Weight:                   0.025
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               0.7-0.5-0.25
 SubBPList: Drakara_Character_BP_C: 1.0, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: 0.1, Drakara_Character_BP_Aberrant_C: 0.2, Drakara_Character_BP_Bloodfang_C: 0.2
 SubBPList: Drakara_Character_BP_Aberrant_C: 0.3, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Aberrant_C: doesnt exist
 SubBPList: Drakara_Character_BP_Aberrant_C: 0.3, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Aberrant_C: doesnt exist
@@ -803,9 +782,6 @@ SubBPList: Drakara_Character_BP_Aberrant_C: 0.3, Drakara_Character_BP_Alpha_C: 0
 SubBPList: Drakara_Character_BP_Aberrant_C: 0.3, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Aberrant_C: doesnt exist
 SubBPList: Drakara_Character_BP_Aberrant_C: 0.3, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Aberrant_C: doesnt exist
 SubBPList: Drakara_Character_BP_Aberrant_C: 0.3, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Aberrant_C: doesnt exist
-SubBPList: Drakara_Character_BP_Aberrant_C: 0.3
-SubBPList: Drakara_Character_BP_Aberrant_C: 0.3
-SubBPList: Drakara_Character_BP_Aberrant_C: 0.3
 
    Main BP: Drakara_Character_BP_Alpha_C
       Entry Weight:                   0.025

@@ -199,4 +199,42 @@ namespace ArkSpawnEntriesCreator
             this.multiParamLine = multiParamLine;
         }
     }
+
+    public struct LootDrop
+    {
+        public string lootDropName;
+        public int minLevelBP;
+        public int maxLevelBP;
+        public string minNumItems;
+        public string maxNumItems;
+        public string setWeight;
+        public string minQuantity;
+        public string maxQuantity;
+        public string minQuality;
+        public string maxQuality;
+        public string blueprint;
+        public string blueprintChance;
+
+        public string line;
+        public List<string> addedLootDropBPs;
+
+        public LootDrop(string lootDropName, int minLevelBP, int maxLevelBP, string minNumItems, string maxNumItems, string setWeight, string minQuantity,
+                        string maxQuantity, string minQuality, string maxQuality, string blueprint, string blueprintChance) { 
+            this.lootDropName = lootDropName;
+            this.minLevelBP = minLevelBP;
+            this.maxLevelBP = maxLevelBP;
+            this.minNumItems = minNumItems;
+            this.maxNumItems = maxNumItems;
+            this.setWeight = setWeight;
+            this.minQuantity = minQuantity;
+            this.maxQuantity = maxQuantity;
+            this.minQuality = minQuality;
+            this.maxQuality = maxQuality;
+            this.blueprint = blueprint;
+            this.blueprintChance = blueprintChance;
+
+            addedLootDropBPs = new List<string>();
+            this.line = "";
+        }
+    }
 }

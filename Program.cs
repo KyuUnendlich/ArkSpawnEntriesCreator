@@ -81,7 +81,7 @@ namespace ArkSpawnEntriesCreator
             XyphMeiolania,                          RoyalArchaeopteryx,                 AnomalyGalvarex,
         }
 
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/Birdwatcher.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/ClayTrike.txt";
         const bool replaceFile = true;
         const bool multimain = false;
 
@@ -100,19 +100,27 @@ namespace ArkSpawnEntriesCreator
 
             const string path_spawn = "E:/ARK Saves/ArkSpawnEntriesCreator/ASASpawnEntries.csv";
             const string path_spawn2 = "E:/ARK Saves/ArkSpawnEntriesCreator/ASASpawnEntries2.csv";
+
             const string path_engram = "E:/ARK Saves/ArkSpawnEntriesCreator/Engrams.csv";
             const string path_engram2 = "E:/ARK Saves/ArkSpawnEntriesCreator/EngramVanALL.csv";
+
+            const string path_loot = "E:/ARK Saves/ArkSpawnEntriesCreator/Loot.csv";
+            const string path_lootbase = "E:/ARK Saves/ArkSpawnEntriesCreator/ASA_LootDropsDefault.txt";
+
             const string path_toolkit = "E:/ARK Saves/ArkSpawnEntriesCreator/ToolkitReplacements.csv";
 
             //ASA_SpawnContainers.CreateSpawnContainerAdditions(path_spawn, Path_test);
             //ASA_SpawnContainers.FindPhrase(Path_base, Path_test, "Wyvern_Character_BP_Fire_C");
             //ASA_SpawnContainers.CreateToolkitReplacements(path_toolkit, Path_test);
+            ASA_SpawnContainers.CreateToolkitSpawners(path_spawn, Path_test);
             //ASA_SpawnContainers.CountModdedEntriesPerContainer(path_spawn, Path_test, path_spawn2, false);
 
             //ASA_Engrams.CreateFullEngramLine(path_engram, Path_test);
-            ASA_Engrams.AddModifiersToEngrams(path_engram, Path_test);
+            //ASA_Engrams.AddModifiersToEngrams(path_engram, Path_test);
 
-            ASAExtractor();
+            ASA_LootDrops.CreateModdedLootdrops(path_lootbase, path_loot, Path_test);
+
+            //ASAExtractor();
         }
 
         public static void ASAExtractor()
