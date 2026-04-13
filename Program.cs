@@ -118,7 +118,7 @@ namespace ArkSpawnEntriesCreator
             //ASA_Engrams.CreateFullEngramLine(path_engram, Path_test);
             //ASA_Engrams.AddModifiersToEngrams(path_engram, Path_test);
 
-            ASA_LootDrops.CreateModdedLootdrops(path_lootbase, path_loot, Path_test);
+            //ASA_LootDrops.CreateModdedLootdrops(path_lootbase, path_loot, Path_test);
 
             //ASAExtractor();
         }

@@ -285,7 +285,7 @@ namespace ArkSpawnEntriesCreator
 
                 StringBuilder sb = new StringBuilder();
 
-                int counter = 0;
+                int counter = 1;
 
                 while (!csvParser.EndOfData)
                 {
@@ -304,11 +304,15 @@ namespace ArkSpawnEntriesCreator
                     counter++;
                 }
 
+                counter--;
+
                 File.AppendAllText(Path, "NumEntriesSpawners="+counter);
                 File.AppendAllText(Path, "\r\n");
                 File.AppendAllText(Path, "\r\n");
                 File.AppendAllText(Path, "[CTSpawners]");
                 File.AppendAllText(Path, "\r\n");
+                File.AppendAllText(Path, sb.ToString());
+
             }
         }
 
