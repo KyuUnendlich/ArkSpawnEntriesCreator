@@ -1,1170 +1,602 @@
-NumEntriesSpawners=389
+Beach Generic Entry Count:                                       22 DN: Dearc EW: 0.075 SL: 0.3  DN: Siamosaurus EW: 0.025 SL: 0.1  DN: Tsintaosaurus EW: 0.125 SL: 0.25  DN: Scelidosaurus EW: 0.08 SL: 0.22  DN: Gandakasia EW: 0.1 SL: 0.12  DN: Jackrabbit EW: 0.15 SL: 0.1  DN: OstrichMoa EW: 0.05 SL: 0.05  DN: DraconyxCallovosaurus EW: 0.1 SL: 0.1  DN: Scotoharpes EW: 0.5 SL: 0.025  DN: Lycosuchus EW: 0.055 SL: 0.1  DN: Meiolania EW: 0.01 SL: /  DN: Camarillasaurus EW: 0.1 SL: /  DN: Protoceratops EW: 0.1 SL: 0.09  DN: Globster EW: 0.045 SL: /  DN: Nothosaurus EW: 0.05 SL: 0.002  DN: Pakasuchus EW: 0.02 SL: 0.02  DN: Angaturama EW: 0.01 SL: 0.01  DN: Austroraptor EW: 0.04 SL: 0.04  DN: Deltadromeus EW: 0.03 SL: 0.03  DN: Phosphatodraco EW: 0.025 SL: 0.025  DN: Vallibonavenatrix EW: 0.01 SL: 0.01  DN: Minmi EW: 0.1 SL: 0.1  DN: Walliserops EW: 0.09 SL: /  DN: Styracosaurus EW: 0.1 SL: 0.15  DN: Stygimoloch EW: 0.05 SL: 0.1  DN: ChickenMihirung EW: 0.08 SL: 0.08  DN: Moo-CowBos EW: 0.08 SL: 0.06  DN: Ursus AmericanusProtarctos EW: 0.025 SL: 0.025  DN: MockatooMacaw EW: 0.03 SL: 0.04  DN: Greater MoschopsUlemosaurus EW: 0.02 SL: 0.03  DN: Tropical Crystal Wyvern EW: 0.03 SL: 0.04 
+Rag Jungle Entry Count:                                          40 DN: Venoraptor EW: 0.025 SL: 0.05  DN: Atlas Flying FoxPteropus EW: 0.025 SL: 0.025  DN: RazortoothDryptosaurus EW: 0.01 SL: 0.01  DN: Shieldhorn EW: 0.025 SL: 0.025  DN: Gigantophis EW: 0.004 SL: 0.005  DN: DraconyxCallovosaurus EW: 0.1 SL: 0.1  DN: Bombardier Beetle EW: 0.03 SL: 0.05  DN: Lycosuchus EW: 0.055 SL: 0.1  DN: Adasaurus EW: 0.055 SL: 0.1  DN: Megistotherium EW: 0.03 SL: /  DN: Meiolania EW: 0.15 SL: /  DN: Mischoptera EW: 0.01 SL: /  DN: Nothosaurus EW: 0.2 SL: 0.005  DN: Eocarcharia EW: 0.0175 SL: 0.06  DN: Daemonis EW: 0.025 SL: 0.05  DN: Male Bastion Beetle EW: 0.025 SL: 0.025  DN: Female Bastion Beetle EW: 0.025 SL: 0.025  DN: Bastion Larvae EW: 0.025 SL: 0.025  DN: Monolophosaurus EW: 0.035 SL: 0.03  DN: Noxcalvasaurus EW: 0.02 SL: 0.02  DN: Dryosaurus EW: 0.02 SL: 0.02  DN: Pakasuchus EW: 0.02 SL: 0.02  DN: Aerosteon EW: 0.01 SL: 0.01  DN: Angaturama EW: 0.02 SL: 0.02  DN: Erythrosaurus EW: 0.025 SL: 0.025  DN: Gigatitan EW: 0.015 SL: 0.015  DN: Iguanacolossus EW: 0.04 SL: 0.035  DN: Ogre Darner EW: 0.015 SL: 0.015  DN: Skorpiovenator EW: 0.035 SL: 0.035  DN: Plateosaurus EW: 0.15 SL: 0.1  DN: Muttaburrasaurus EW: 0.0225 SL: 0.035  DN: Thorax Spider EW: 0.07 SL: 0.08  DN: MockatooMacaw EW: 0.05 SL: 0.05  DN: Kretzoiarctos EW: 0.015 SL: 0.015  DN: Ursus AmericanusProtarctos EW: 1.0 SL: 0.025  DN: Lirainosaurus EW: 0.03 SL: 0.1  DN: Sinornithoides EW: 0.075 SL: 0.1  DN: Jackrabbit EW: 0.075 SL: 0.1  DN: Camarillasaurus EW: 0.04 SL: 0.1  DN: Sivatherium EW: 0.03 SL: 0.03  DN: Runic Lantern Halo Wyvern EW: 0.03 SL: 0.03  DN: Red Panda EW: 0.03 SL: 0.04  DN: Star GeckoGekko EW: 0.02 SL: 0.03  DN: Greater MoschopsUlemosaurus EW: 0.03 SL: 0.04  DN: (Appa) GallimimusQiupalong EW: 0.03 SL: 0.04  DN: Cosmo EW: 0.05 SL: 0.05  DN: Sinomacrops EW: 0.03 SL: 0.04  DN: Yi Ling EW: 0.03 SL: 0.04 
+Grasslands Generic Entry Count:                                  21 DN: Nasutoceratops EW: 0.05 SL: 0.13  DN: Neimongosaurus EW: 0.025 SL: 0.35  DN: Neovenator EW: 0.05 SL: 0.1  DN: Pyroraptor EW: 0.15 SL: 0.07  DN: Anzu EW: 0.06 SL: 0.1  DN: Zuniceratops EW: 0.1 SL: 0.22  DN: Pinacosaurus EW: 0.1 SL: 0.27  DN: EdmontosaurusAnatosaurus EW: 0.15 SL: 0.08  DN: Gomphotherium EW: 0.65 SL: 0.2  DN: Jackrabbit EW: 0.15 SL: 0.1  DN: OstrichMoa EW: 0.15 SL: 0.1  DN: CobraPalaeophis EW: 0.064 SL: /  DN: Edmontonia EW: 0.0275 SL: 0.025  DN: DraconyxCallovosaurus EW: 0.1 SL: 0.1  DN: Megistotherium EW: 0.05 SL: /  DN: Meiolania EW: 0.01 SL: /  DN: Antrodemus EW: 0.075 SL: 0.05  DN: Eocarcharia EW: 0.0175 SL: 0.06  DN: Daemonis EW: 0.08 SL: 0.05  DN: Dzungariotherium EW: 0.02 SL: 0.05  DN: Male Bastion Beetle EW: 0.025 SL: 0.025  DN: Female Bastion Beetle EW: 0.025 SL: 0.025  DN: Bastion Larvae EW: 0.025 SL: 0.025  DN: Angaturama EW: 0.02 SL: 0.02  DN: Apatosaurus EW: 0.015 SL: 0.02  DN: Edmontosaurus EW: 0.03 SL: 0.03  DN: Epanterias EW: 0.025 SL: 0.025  DN: Erythrosaurus EW: 0.025 SL: 0.025  DN: Gargoyleosaurus EW: 0.02 SL: 0.02  DN: Iguanacolossus EW: 0.035 SL: 0.035  DN: InostranceviaPravoslavlevia EW: 0.02 SL: 0.02  DN: Magnapaulia EW: 0.014 SL: 0.014  DN: Torosaurus EW: 0.035 SL: 0.035  DN: Tyrannotitan EW: 0.0125 SL: 0.0125  DN: Brachiosaurus EW: 0.0425 SL: 0.015  DN: Meraxes EW: 0.09 SL: 0.095  DN: Skjaldastordr AnkyloAnodontosaurus EW: 0.1 SL: 0.09  DN: BoarHogMetridiochoerus EW: 0.04 SL: 0.04  DN: ChickenMihirung EW: 0.08 SL: 0.08  DN: Moo-CowBos EW: 0.08 SL: 0.06  DN: Ursus AmericanusProtarctos EW: 0.025 SL: 0.025  DN: Clay Greater TrikePentaceratops EW: 0.02 SL: /  DN: Saltasaurus EW: 0.03 SL: 0.1  DN: Greater MoschopsUlemosaurus EW: 0.03 SL: 0.04  DN: Maewing EW: 0.04 SL: 0.04  DN: Yi Ling EW: 0.01 SL: 0.02 
+Rag Scotland Entry Count:                                        32 DN: Gigantophis EW: 0.004 SL: 0.005  DN: Lycosuchus EW: 0.055 SL: 0.1  DN: Megistotherium EW: 0.01 SL: /  DN: Meiolania EW: 0.15 SL: /  DN: Europasaurus EW: 0.06 SL: 0.025  DN: Skyshroud Drakara EW: 0.025 SL: 0.04  DN: Bloodfang Drakara EW: 0.025 SL: 0.04  DN: Pyro Drakara EW: 0.025 SL: /  DN: Rubidgea EW: 1 SL: 0.025  DN: Antrodemus EW: 0.01 SL: 0.05  DN: Eocarcharia EW: 0.0175 SL: 0.06  DN: Tyrannodominator EW: 0.02 SL: /  DN: Plateosaurus EW: 0.15 SL: 0.1  DN: Diamantinasaurus EW: 0.055 SL: 0.06  DN: Muttaburrasaurus EW: 0.015 SL: 0.025  DN: Meraxes EW: 0.02 SL: 0.05  DN: Skjaldastordr AnkyloAnodontosaurus EW: 0.1 SL: 0.09  DN: Red Panda EW: 0.003 SL: 0.003  DN: Stegotetrabelodon EW: 0.007 SL: 0.005  DN: Clay Rag TrikeRegaliceratops EW: 0.035 SL: /  DN: Clay Greater TrikePentaceratops EW: 0.018 SL: /  DN: Lirainosaurus EW: 0.075 SL: 0.1  DN: Massospondylus EW: 0.075 SL: 0.1  DN: Gomphotherium EW: 0.07 SL: 0.1  DN: OstrichMoa EW: 0.075 SL: 0.1  DN: Kurupi EW: 0.04 SL: 0.1  DN: Antrodemus EW: 0.04 SL: 0.05  DN: Tyrannodominator EW: 0.02 SL: 0.04  DN: Epanterias EW: 0.025 SL: 0.025  DN: Gargoyleosaurus EW: 0.02 SL: 0.02  DN: Xuanhanosaurus EW: 0.05 SL: 0.05  DN: YangchuanosaurusShidaisaurus EW: 0.05 SL: 0.05  DN: Sivatherium EW: 0.03 SL: 0.03  DN: Brachiosaurus EW: 0.03 SL: 0.03  DN: Styracosaurus EW: 0.05 SL: 0.075  DN: Star GeckoGekko EW: 0.02 SL: 0.03  DN: Moo-CowBos EW: 0.04 SL: 0.04  DN: (Appa) GallimimusQiupalong EW: 0.03 SL: 0.04  DN: Andrewsarchus EW: 0.03 SL: 0.04  DN: Maewing EW: 0.04 SL: 0.04  DN: Ember Crystal Wyvern EW: 0.03 SL: 0.04 
+Damien Generic Entry Count:                                      16 DN: Nasutoceratops EW: 0.05 SL: 0.1  DN: Neimongosaurus EW: 0.025 SL: 0.2  DN: Pinacosaurus EW: 0.1 SL: 0.15  DN: Saltasaurus EW: 0.075 SL: 0.15  DN: Jackrabbit EW: 0.15 SL: 0.1  DN: Enantiophoenix EW: 0.01 SL: /  DN: Meiolania EW: 0.01 SL: /  DN: Skjaldastordr AnkyloAnodontosaurus EW: 0.1 SL: 0.09  DN: Pygmy HippoProminatherium EW: 0.1 SL: 0.1  DN: Lirainosaurus EW: 0.075 SL: 0.1  DN: Gargoyleosaurus EW: 0.02 SL: 0.02  DN: YangchuanosaurusShidaisaurus EW: 0.05 SL: 0.05  DN: Muttaburrasaurus EW: 0.03 SL: 0.03  DN: Sivatherium EW: 0.03 SL: 0.03  DN: Brachiosaurus EW: 0.03 SL: 0.03  DN: Red Panda EW: 0.02 SL: 0.03  DN: Clay AnkyloShamosaurus EW: 0.04 SL: 0.04  DN: Amargasaurus EW: 0.03 SL: 0.04  DN: Yi Ling EW: 0.03 SL: 0.04 
+Monster Isl Generic Entry Count:                                 17 DN: Jiangjunosaurus EW: 0.025 SL: /  DN: Mapusaurus EW: 0.025 SL: 0.12  DN: Lythronax EW: 0.1 SL: 0.15  DN: WAK SpinosaurusIchthyovenator EW: 0.007 SL: 0.095  DN: Megistotherium EW: 0.03 SL: /  DN: Spearcrest EW: 0.015 SL: 0.015  DN: Torvosaurus EW: 0.03 SL: 0.05  DN: Saurophaganax EW: 0.0125 SL: 0.05  DN: Epanterias EW: 0.025 SL: 0.025  DN: Erythrosaurus EW: 0.025 SL: 0.025  DN: Fasolasuchus LoricatusRauisuchus EW: 0.015 SL: 0.015  DN: Tyrannotitan EW: 0.0125 SL: 0.0125  DN: Xuanhanosaurus EW: 0.03 SL: 0.03  DN: YangchuanosaurusShidaisaurus EW: 0.03 SL: 0.03  DN: Pyroraptor EW: 0.06 SL: 0.1  DN: BoarHogMetridiochoerus EW: 0.04 SL: 0.04  DN: Clay AnkyloShamosaurus EW: 0.04 SL: 0.04  DN: (Appa) GallimimusQiupalong EW: 0.03 SL: 0.04  DN: Maeguana EW: 0.04 SL: 0.04 
+Mountain Generic Entry Count:                                    22 DN: Pyroraptor EW: 0.15 SL: 0.1  DN: Yangchuanosaurus EW: 0.05 SL: 0.2  DN: Jiangjunosaurus EW: 0.025 SL: /  DN: Mapusaurus EW: 0.025 SL: 0.12  DN: Hatzegopteryx EW: 0.0385 SL: 0.088  DN: CobraPalaeophis EW: 0.056 SL: 0.05  DN: RattlesnakeWonambi EW: 0.04 SL: 0.08  DN: Sulphur Titan EW: 0.05 SL: 0.008  DN: Edmontonia EW: 0.0235 SL: 0.0175  DN: Skyshroud Drakara EW: 0.0125 SL: 0.04  DN: Bloodfang Drakara EW: 0.006 SL: 0.04  DN: Pyro Drakara EW: 0.0125 SL: 0.04  DN: Spearcrest EW: 0.015 SL: 0.015  DN: Rubidgea EW: 0.07 SL: 0.15  DN: Angaturama EW: 0.02 SL: 0.01  DN: Diabloceratops EW: 0.015 SL: 0.015  DN: Fasolasuchus LoricatusRauisuchus EW: 0.015 SL: 0.015  DN: Tarchia EW: 0.025 SL: 0.025  DN: Tyrannotitan EW: 0.0125 SL: 0.0125  DN: Xuanhanosaurus EW: 0.03 SL: 0.03  DN: YangchuanosaurusShidaisaurus EW: 0.025 SL: 0.025  DN: Runic Quartz Wyvern EW: 0.05 SL: 0.05  DN: Skjaldastordr AnkyloAnodontosaurus EW: 0.1 SL: 0.09  DN: Clay AnkyloShamosaurus EW: 0.15 SL: /  DN: Clay Greater AnkyloTsagantegia EW: 0.15 SL: /  DN: Clay Greater TrikePentaceratops EW: 0.035 SL: /  DN: Fjordhawk EW: 0.15 SL: 0.1  DN: Sinomacrops EW: 0.15 SL: 0.1  DN: RazortoothDryptosaurus EW: 0.06 SL: 0.1  DN: Titanophoneus EW: 0.04 SL: 0.1  DN: Smilodon EW: 0.04 SL: 0.06  DN: Skyshroud Drakara EW: 0.025 SL: 0.04  DN: Saurophaganax EW: 0.04 SL: 0.05  DN: Ogre Darner EW: 0.025 SL: 0.025  DN: BoarHogMetridiochoerus EW: 0.04 SL: 0.04  DN: Maeguana EW: 0.04 SL: 0.04 
+Redwoods Generic Entry Count:                                    40 DN: Inostrancevia EW: 0.04 SL: 0.1  DN: Postosuchus EW: 0.075 SL: 0.2  DN: Kelenken EW: 0.5 SL: 0.15  DN: Atlas Flying FoxPteropus EW: 0.025 SL: 0.025  DN: RazortoothDryptosaurus EW: 0.01 SL: 0.01  DN: Shieldhorn EW: 0.025 SL: 0.025  DN: Edmontonia EW: 0.0285 SL: 0.0175  DN: Bombardier Beetle EW: 0.07 SL: 0.075  DN: Blaze Beetle EW: 0.007 SL: 0.075  DN: Blister Beetle EW: 0.007 SL: 0.075  DN: Lycosuchus EW: 0.055 SL: 0.1  DN: Enantiophoenix EW: 0.05 SL: /  DN: Kurupi EW: 0.02 SL: /  DN: Titanophoneus EW: 0.1 SL: /  DN: Dzungariotherium EW: 0.02 SL: 0.05  DN: Male Bastion Beetle EW: 0.025 SL: 0.025  DN: Female Bastion Beetle EW: 0.025 SL: 0.025  DN: Bastion Larvae EW: 0.025 SL: 0.025  DN: Tyrannodominator EW: 0.0075 SL: /  DN: Monolophosaurus EW: 0.03 SL: 0.03  DN: Noxcalvasaurus EW: 0.02 SL: 0.02  DN: Royal ArchaeopteryxYixianosaurus EW: 0.035 SL: 0.035  DN: Aerosteon EW: 0.015 SL: 0.015  DN: Albertosaurus EW: 0.03 SL: 0.03  DN: Angaturama EW: 0.02 SL: 0.02  DN: Cedarosaurus EW: 0.03 SL: 0.03  DN: Edmontosaurus EW: 0.03 SL: 0.03  DN: Erythrosaurus EW: 0.025 SL: 0.025  DN: Iguanacolossus EW: 0.035 SL: 0.035  DN: InostranceviaPravoslavlevia EW: 0.02 SL: 0.025  DN: Magnapaulia EW: 0.015 SL: 0.015  DN: Skorpiovenator EW: 0.035 SL: 0.035  DN: Diamantinasaurus EW: 0.055 SL: 0.06  DN: Meraxes EW: 0.04 SL: 0.09  DN: Kretzoiarctos EW: 0.01 SL: 0.01  DN: Ursus AmericanusProtarctos EW: 0.05 SL: 0.05  DN: Clay Greater TrikePentaceratops EW: 0.006 SL: /  DN: Bloodstalker EW: 0.0125 SL: 0.2  DN: Dinopithecus EW: 0.06 SL: /  DN: Tropeognathus EW: 0.0125 SL: 0.2  DN: Eotriceratops EW: 0.07 SL: 0.1  DN: Tyrannodominator EW: 0.02 SL: 0.04  DN: Ogre Darner EW: 0.025 SL: 0.025  DN: Kretzoiarctos EW: 0.04 SL: 0.04  DN: Fjordhawk EW: 0.03 SL: 0.05  DN: Roll Rat EW: 0.04 SL: 0.04  DN: Sinomacrops EW: 0.03 SL: 0.04  DN: Solwyn EW: 0.03 SL: 0.04 
+Snow Generic Entry Count:                                        19 DN: Yangchuanosaurus EW: 0.05 SL: 0.2  DN: Cryodrakon EW: 0.04 SL: 0.03  DN: Koolasuchus EW: 0.075 SL: 0.03  DN: Lythronax EW: 0.1 SL: 0.15  DN: Dilong EW: 0.03 SL: 0.1  DN: Cryoraptor EW: 0.02 SL: 0.05  DN: Jackrabbit EW: 0.2 SL: 0.1  DN: Polar Adasaurus EW: 0.08 SL: 0.1  DN: Megistotherium EW: 0.04 SL: /  DN: Arctic Fox EW: 1.0 SL: /  DN: Greater Arctic Fox EW: 0.08 SL: /  DN: Arctic Drakara EW: 0.025 SL: 0.04  DN: Daemonis EW: 0.05 SL: 0.05  DN: Albertosaurus EW: 0.03 SL: 0.03  DN: Anteosaurus EW: 0.035 SL: 0.035  DN: Edmontosaurus EW: 0.03 SL: 0.03  DN: Skjaldastordr AnkyloAnodontosaurus EW: 0.1 SL: 0.09  DN: Royal Owl Griffin EW: 0.0125 SL: 0.1  DN: Radiant Owl Griffin EW: 0.0125 SL: 0.1  DN: Myths Drakra EW: 0.025 SL: 0.04  DN: Stygimoloch EW: 0.05 SL: 0.075  DN: Galvarex EW: 0.01 SL: 0.02  DN: Cryolophosaurus EW: 0.05 SL: 0.05  DN: Snow Owl EW: 0.03 SL: 0.04  DN: Veilwyn EW: 0.03 SL: 0.04 
+Rag SnowForest Entry Count:                                      17 DN: Atlas KodiakKolponomos EW: 0.015 SL: 0.015  DN: Megistotherium EW: 0.02 SL: /  DN: Albertosaurus EW: 0.03 SL: 0.03  DN: Anteosaurus EW: 0.035 SL: 0.035  DN: Edmontosaurus EW: 0.03 SL: 0.03  DN: Meraxes EW: 0.03 SL: 0.05  DN: Clay Rag TrikeRegaliceratops EW: 0.08 SL: /  DN: Clay Greater TrikePentaceratops EW: 0.016 SL: /  DN: Lythronax EW: 0.06 SL: 0.1  DN: Pinacosaurus EW: 0.06 SL: 0.1  DN: Gomphotherium EW: 0.07 SL: 0.1  DN: Jackrabbit EW: 0.075 SL: 0.1  DN: Arctic Fox EW: 0.04 SL: 0.06  DN: Greater Arctic Fox EW: 0.04 SL: 0.06  DN: Daemonis EW: 0.04 SL: 0.05  DN: Styracosaurus EW: 0.05 SL: 0.075  DN: Stygimoloch EW: 0.05 SL: 0.075  DN: Clay Great PachyrhinoAchelousaurus EW: 0.04 SL: 0.04  DN: Managarmr EW: 0.04 SL: 0.04  DN: Snow Owl EW: 0.03 SL: 0.04 
+Rag SnowPlains Entry Count:                                      16 DN: Atlas KodiakKolponomos EW: 0.015 SL: 0.015  DN: Megistotherium EW: 0.008 SL: /  DN: Arctic Drakara EW: 0.025 SL: 0.04  DN: Albertosaurus EW: 0.03 SL: 0.03  DN: Anteosaurus EW: 0.035 SL: 0.035  DN: Edmontosaurus EW: 0.03 SL: 0.03  DN: Skjaldastordr AnkyloAnodontosaurus EW: 0.1 SL: 0.09  DN: Lythronax EW: 0.06 SL: 0.1  DN: Gomphotherium EW: 0.07 SL: 0.1  DN: Arctic Fox EW: 0.075 SL: 0.1  DN: Greater Arctic Fox EW: 0.075 SL: 0.1  DN: Myths Drakra EW: 0.025 SL: 0.04  DN: Hapipalus EW: 0.05 SL: 0.05  DN: Styracosaurus EW: 0.05 SL: 0.075  DN: Clay Great PachyrhinoAchelousaurus EW: 0.06 SL: 0.07  DN: Managarmr EW: 0.04 SL: 0.04  DN: Solwyn EW: 0.03 SL: 0.04  DN: Veilwyn EW: 0.03 SL: 0.04 
+Rag Polar Bear Entry Count:                                      5 DN: Cryodrakon EW: 0.04 SL: 0.10  DN: Hapipalus EW: 0.05 SL: 0.05  DN: Galvarex EW: 0.04 SL: 0.05  DN: Clay Great PachyrhinoAchelousaurus EW: 0.04 SL: 0.04  DN: Ferox EW: 0.05 SL: 0.05 
+Rag Bear Entry Count:                                            0
+Swamp Generic Entry Count:                                       18 DN: Venoraptor EW: 0.005 SL: 0.05  DN: CobraPalaeophis EW: 0.04 SL: 0.07  DN: RattlesnakeWonambi EW: 0.05 SL: 0.1  DN: Mischoptera EW: 0.4 SL: /  DN: Henodus EW: 0.125 SL: 0.2  DN: Materpiscis EW: 0.125 SL: 0.2  DN: Oxalaia EW: 0.015 SL: 0.015  DN: Dzungariotherium EW: 0.02 SL: 0.05  DN: Diploceraspis EW: 0.04 SL: 0.04  DN: Ichthyostega EW: 0.04 SL: 0.04  DN: Platyoposaurus EW: 0.03 SL: 0.03  DN: Whatcheeria EW: 0.03 SL: 0.03  DN: Chungkingosaurus EW: 0.03 SL: 0.03  DN: Deinocheirus EW: 0.01 SL: 0.01  DN: Eryops EW: 0.02 SL: 0.02  DN: SuchomimusRiparovenator EW: 0.015 SL: 0.015  DN: Tyrannomimus EW: 0.03 SL: 0.03  DN: Venenosaurus EW: 0.07 SL: 0.1  DN: Camarillasaurus EW: 0.04 SL: 0.1  DN: Giant SpinoIrritator EW: 0.075 SL: 0.1  DN: Angaturama EW: 0.035 SL: 0.035  DN: Greater KentrosaurusDacentrurus EW: 0.03 SL: 0.04  DN: Amargasaurus EW: 0.03 SL: 0.04 
+Swamp Water Generic Entry Count:                                 9 DN: Ouranosaurus EW: 0.05 SL: 0.16  DN: Paraxenisaurus EW: 0.01 SL: 0.05  DN: Bombardier Beetle EW: 0.07 SL: 0.075  DN: Blister Beetle EW: 0.007 SL: 0.075  DN: Goliath Tigerfish EW: 0.025 SL: 0.025  DN: Piraiba Catfish EW: 0.025 SL: 0.025  DN: Venoraptor EW: 0.07 SL: 0.1  DN: Mischoptera EW: 0.075 SL: 0.1  DN: Eryops EW: 0.04 SL: 0.02 
+SE Badlands Entry Count:                                         36 DN: Pyroraptor EW: 0.125 SL: 0.125  DN: Scorched Kelenken EW: 0.5 SL: 0.15  DN: Massospondylus EW: 0.08 SL: 0.2  DN: Bombardier Beetle EW: 0.07 SL: 0.075  DN: Blaze Beetle EW: 0.007 SL: 0.075  DN: Blister Beetle EW: 0.007 SL: 0.075  DN: Scorched Lyosuchus EW: 0.07 SL: 0.1  DN: Scorched Adasaurus EW: 0.055 SL: 0.1  DN: Ledumahadi EW: 0.02 SL: 0.1  DN: Megistotherium EW: 0.03 SL: /  DN: Scorched Kurupi EW: 0.02 SL: /  DN: Scorched Titanophoneus EW: 0.02 SL: /  DN: Protoceratops EW: 0.1 SL: 0.09  DN: Scorched Eocarcharia EW: 0.005 SL: /  DN: Scorched Daemonis EW: 0.075 SL: 0.05  DN: Scorched Dzungariotherium EW: 0.05 SL: 0.05  DN: Bastion Larvae EW: 0.025 SL: 0.025  DN: Scorched Male Bastion Beetle EW: 0.025 SL: 0.025  DN: Scorched Female Bastion Beetle EW: 0.025 SL: 0.025  DN: Scorched Tyrannodominator EW: 0.0075 SL: 0.05  DN: Scorched Monolophosaurus EW: 0.03 SL: 0.03  DN: Noxcalvasaurus EW: 0.02 SL: 0.02  DN: Aerosteon EW: 0.015 SL: 0.01  DN: Albertosaurus EW: 0.03 SL: 0.03  DN: Angaturama EW: 0.02 SL: 0.02  DN: Scorched Anteosaurus EW: 0.035 SL: 0.035  DN: Diabloceratops EW: 0.015 SL: 0.015  DN: Erythrosaurus EW: 0.025 SL: 0.025  DN: Fasolasuchus LoricatusRauisuchus EW: 0.01 SL: 0.02  DN: Tarchia EW: 0.025 SL: 0.025  DN: Xuanhanosaurus EW: 0.03 SL: 0.03  DN: YangchuanosaurusShidaisaurus EW: 0.025 SL: 0.025  DN: Sivatherium EW: 0.04 SL: 0.04  DN: Scorched Meraxes EW: 0.06 SL: /  DN: Runic Quartz Wyvern EW: 0.06 SL: 0.06  DN: Skjaldastordr AnkyloAnodontosaurus EW: 0.1 SL: 0.09  DN: Nyctatyrannus Echidne EW: 0.075 SL: 0.05  DN: D-ShantungosaurusShantungosaurus EW: 0.075 SL: 0.7  DN: Saltasaurus EW: 0.04 SL: 0.1  DN: Kelenken EW: 0.075 SL: 0.1  DN: AtlasuchusMekosuchus EW: 0.075 SL: 0.1  DN: Dinocrocuta EW: 0.075 SL: 0.1  DN: Anteosaurus EW: 0.035 SL: 0.035  DN: Star CrowCorvus EW: 0.02 SL: 0.03  DN: Andrewsarchus EW: 0.03 SL: 0.04  DN: Ravager EW: 0.04 SL: 0.04 
+SE Canyons Entry Count:                                          22 DN: AtlasuchusMekosuchus EW: 0.15 SL: 0.1  DN: Grand Tortugar EW: 0.03 SL: 0.03  DN: Scorched Adasaurus EW: 0.055 SL: 0.1  DN: Empirosaurus EW: 0.02 SL: 0.05  DN: Protoceratops EW: 0.1 SL: 0.09  DN: Dinocrocuta EW: 0.6 SL: 1.0  DN: Oxalaia EW: 0.015 SL: 0.015  DN: Scorched Daemonis EW: 0.04 SL: 0.05  DN: Scorched Dzungariotherium EW: 0.03 SL: 0.05  DN: Scorched Tyrannodominator EW: 0.04 SL: 0.05  DN: Diploceraspis EW: 0.02 SL: 0.02  DN: Ichthyostega EW: 0.02 SL: 0.02  DN: Platyoposaurus EW: 0.02 SL: 0.02  DN: Whatcheeria EW: 0.02 SL: 0.02  DN: Angaturama EW: 0.02 SL: 0.02  DN: Deinocheirus EW: 0.01 SL: 0.01  DN: Deltadromeus EW: 0.03 SL: 0.03  DN: Eryops EW: 0.04 SL: 0.02  DN: Phosphatodraco EW: 0.025 SL: 0.025  DN: SuchomimusRiparovenator EW: 0.02 SL: 0.015  DN: Tyrannomimus EW: 0.03 SL: 0.03  DN: Scorched Plateosaurus EW: 0.15 SL: /  DN: Scorched Muttaburrasaurus EW: 0.025 SL: 0.035  DN: Walliserops EW: 0.07 SL: /  DN: Barsboldia EW: 0.01 SL: 0.05  DN: Magna Gecko EW: 0.25 SL: 0.3  DN: Postosuchus EW: 0.075 SL: 0.2  DN: Kelenken EW: 0.075 SL: 0.1  DN: InostranceviaPravoslavlevia EW: 0.04 SL: 0.05  DN: Star CrowCorvus EW: 0.02 SL: 0.03  DN: Clay Rag TrikeRegaliceratops EW: 0.06 SL: 0.07  DN: Clay Greater TrikePentaceratops EW: 0.03 SL: 0.04  DN: Armadoggo EW: 0.03 SL: 0.04  DN: Ravager EW: 0.04 SL: 0.04  DN: Roll Rat EW: 0.04 SL: 0.04 
+SE Dunes Entry Count:                                            30 DN: Scorched Postosuchus EW: 0.07 SL: /  DN: Dracovenator EW: 0.1 SL: 0.1  DN: Scorched Edmontosaurus/ EW: 0.1 SL: 0.1  DN: Gigantophis EW: 0.004 SL: 0.005  DN: Sulphur Titan EW: 0.03 SL: 0.005  DN: Edmontonia EW: 0.0025 SL: 0.015  DN: Scorched Adasaurus EW: 0.055 SL: 0.1  DN: Empirosaurus EW: 0.01 SL: 0.05  DN: Dinocrocuta EW: 0.3 SL: 1.0  DN: Scorched Rubidgea EW: 0.05 SL: /  DN: Scorched Eocarcharia EW: 0.045 SL: 0.05  DN: Bastion Larvae EW: 0.025 SL: 0.025  DN: Scorched Male Bastion Beetle EW: 0.025 SL: 0.025  DN: Scorched Female Bastion Beetle EW: 0.025 SL: 0.025  DN: Scorched Monolophosaurus EW: 0.03 SL: 0.03  DN: Epanterias EW: 0.0125 SL: 0.02  DN: Majungasaurus EW: 0.025 SL: /  DN: Cockatrice EW: 0.02 SL: 0.02  DN: Scorched Meraxes EW: 0.045 SL: /  DN: Thorax Spider EW: 0.07 SL: 0.08  DN: Magna Gecko EW: 0.15 SL: 0.3  DN: Stegotetrabelodon EW: 0.01 SL: 0.01  DN: Galvarex EW: 0.025 SL: 0.025  DN: Nyctatyrannus Imperator EW: 0.05 SL: 0.05  DN: Amargasaurus EW: 0.02 SL: 0.1  DN: CobraPalaeophis EW: 0.04 SL: 0.1  DN: Apatosaurus EW: 0.015 SL: 0.015  DN: Gigatitan EW: 0.05 SL: 0.05  DN: Magnapaulia EW: 0.025 SL: 0.025  DN: Clay Greater AnkyloTsagantegia EW: 0.04 SL: 0.04  DN: Clay RexBistahieversor EW: 0.06 SL: 0.07  DN: Armadoggo EW: 0.03 SL: 0.04  DN: Dreadnoughtus EW: 0.05 SL: 0.05  DN: Oasisaur EW: 0.02 SL: 0.02  DN: Phoenix EW: 0.02 SL: 0.02  DN: Reaper Queen EW: 0.04 SL: 0.04  DN: Velonasaur EW: 0.03 SL: 0.04 
+SE Green Desert Entry Count:                                     34 DN: Eotriceratops EW: 0.1 SL: 0.08  DN: Scorched Haasts Eagle EW: 0.1 SL: 0.07  DN: Shieldhorn EW: 0.03 SL: 0.03  DN: Jackrabbit EW: 0.15 SL: 0.1  DN: OstrichMoa EW: 0.15 SL: 0.1  DN: Edmontonia EW: 0.02 SL: 0.035  DN: DraconyxCallovosaurus EW: 0.25 SL: 0.1  DN: Bombardier Beetle EW: 0.07 SL: 0.075  DN: Blaze Beetle EW: 0.007 SL: 0.075  DN: Blister Beetle EW: 0.007 SL: 0.075  DN: Scorched Lyosuchus EW: 0.07 SL: 0.1  DN: Protoceratops EW: 0.1 SL: 0.09  DN: Scorched Rubidgea EW: 0.04 SL: 0.1  DN: Royal ArchaeopteryxYixianosaurus EW: 0.035 SL: 0.035  DN: Dryosaurus EW: 0.03 SL: 0.03  DN: Pakasuchus EW: 0.03 SL: 0.03  DN: Angaturama EW: 0.02 SL: 0.02  DN: Apatosaurus EW: 0.01 SL: 0.02  DN: Epanterias EW: 0.025 SL: 0.025  DN: Erythrosaurus EW: 0.025 SL: 0.025  DN: Gargoyleosaurus EW: 0.03 SL: 0.03  DN: Scorched Iguanacolossus EW: 0.035 SL: 0.035  DN: Scorched Inostrancevia/ EW: 0.025 SL: 0.025  DN: Magnapaulia EW: 0.01 SL: 0.01  DN: Ogre Darner EW: 0.025 SL: 0.025  DN: Skorpiovenator EW: 0.025 SL: 0.025  DN: Torosaurus EW: 0.03 SL: 0.03  DN: Tyrannotitan EW: 0.0125 SL: 0.0125  DN: Scorched Plateosaurus EW: 0.15 SL: /  DN: Scorched Diamantinasaurus EW: 0.015 SL: 0.05  DN: Scorched Muttaburrasaurus EW: 0.005 SL: 0.025  DN: Barsboldia EW: 0.0225 SL: 0.075  DN: Runic Lantern Halo Wyvern EW: 0.03 SL: 0.03  DN: Skjaldastordr AnkyloAnodontosaurus EW: 0.1 SL: 0.09  DN: D-ShantungosaurusShantungosaurus EW: 0.075 SL: 0.7  DN: ChickenMihirung EW: 0.08 SL: 0.08  DN: Moo-CowBos EW: 0.08 SL: 0.06  DN: Ursus AmericanusProtarctos EW: 0.025 SL: 0.025  DN: Clay Great PachyrhinoAchelousaurus EW: 1 SL: /  DN: Anzu EW: 0.025 SL: 0.1  DN: Haasts Eagle EW: 0.075 SL: 0.1  DN: Meiolania EW: 0.075 SL: 0.1  DN: Skyshroud Drakara EW: 0.025 SL: 0.04  DN: InostranceviaPravoslavlevia EW: 0.04 SL: 0.05  DN: Tarchia EW: 0.025 SL: 0.025  DN: Majungasaurus EW: 0.03 SL: 0.03 
+SE Mountain Entry Count:                                         31 DN: Scorched Inostrancevia EW: 0.04 SL: /  DN: Scorched Genyodectes EW: 0.07 SL: 0.1  DN: Hatzegopteryx EW: 0.022 SL: 0.044  DN: CobraPalaeophis EW: 0.04 SL: 0.05  DN: RattlesnakeWonambi EW: 0.056 SL: 0.08  DN: Ledumahadi EW: 0.03 SL: 0.08  DN: Skyshroud Drakara EW: 0.025 SL: 0.04  DN: Spearcrest EW: 0.015 SL: 0.015  DN: Torvosaurus EW: 0.04 SL: 0.05  DN: Scorched Daemonis EW: 0.05 SL: 0.05  DN: Bastion Larvae EW: 0.025 SL: 0.025  DN: Scorched Male Bastion Beetle EW: 0.025 SL: 0.025  DN: Scorched Female Bastion Beetle EW: 0.025 SL: 0.025  DN: Scorched Tyrannodominator EW: 0.05 SL: 0.05  DN: Angaturama EW: 0.015 SL: 0.01  DN: Scorched Anteosaurus EW: 0.035 SL: 0.035  DN: Diabloceratops EW: 0.015 SL: 0.015  DN: Fasolasuchus LoricatusRauisuchus EW: 0.015 SL: 0.02  DN: Tarchia EW: 0.025 SL: 0.025  DN: Tyrannotitan EW: 0.0125 SL: 0.0125  DN: Xuanhanosaurus EW: 0.03 SL: 0.03  DN: YangchuanosaurusShidaisaurus EW: 0.025 SL: 0.025  DN: Runic Lantern Halo Wyvern EW: 0.03 SL: 0.03  DN: Skjaldastordr AnkyloAnodontosaurus EW: 0.1 SL: 0.09  DN: Star CrowCorvus EW: 0.1 SL: 0.1  DN: Radiant Owl Griffin EW: 0.0125 SL: 0.1  DN: Nyctatyrannus Echidne EW: 0.02 SL: 0.02  DN: Clay AnkyloShamosaurus EW: 0.15 SL: /  DN: Clay Greater AnkyloTsagantegia EW: 0.15 SL: /  DN: Clay Great PachyrhinoAchelousaurus EW: 1 SL: /  DN: Inostrancevia EW: 0.04 SL: 0.1  DN: Genyodectes EW: 0.05 SL: 0.1  DN: Dinocrocuta EW: 0.075 SL: 0.1  DN: Pyro Drakara EW: 0.025 SL: 0.04  DN: Anteosaurus EW: 0.035 SL: 0.035  DN: Majungasaurus EW: 0.03 SL: 0.03  DN: Nyctatyrannus Rex EW: 0.03 SL: 0.03  DN: Nyctatyrannus Imperator EW: 0.03 SL: 0.03  DN: Nyctatyrannus Echidne EW: 0.03 SL: 0.03  DN: D-ShantungosaurusShantungosaurus EW: 0.05 SL: 0.075  DN: Ursus AmericanusProtarctos EW: 0.04 SL: 0.04  DN: Clay Rag TrikeRegaliceratops EW: 0.06 SL: 0.07  DN: Clay Greater TrikePentaceratops EW: 0.03 SL: 0.04 
+SE Oasis Entry Count:                                            27 DN: Scorched WAK Spinosaurus EW: 0.0085 SL: /  DN: Jackrabbit EW: 0.15 SL: 0.1  DN: Scotoharpes EW: 0.065 SL: 0.02  DN: Scorched Lyosuchus EW: 0.07 SL: 0.1  DN: Enantiophoenix EW: 0.005 SL: /  DN: Skyshroud Drakara EW: 0.02 SL: 0.04  DN: Bloodfang Drakara EW: 0.0125 SL: 0.04  DN: Pyro Drakara EW: 0.006 SL: 0.04  DN: Oxalaia EW: 0.015 SL: 0.015  DN: Scorched Dzungariotherium EW: 0.05 SL: 0.05  DN: Bastion Larvae EW: 0.025 SL: 0.025  DN: Scorched Male Bastion Beetle EW: 0.025 SL: 0.025  DN: Scorched Female Bastion Beetle EW: 0.025 SL: 0.025  DN: Dryosaurus EW: 0.03 SL: 0.03  DN: Pakasuchus EW: 0.03 SL: 0.03  DN: Angaturama EW: 0.02 SL: 0.02  DN: Deinocheirus EW: 0.01 SL: 0.01  DN: Deltadromeus EW: 0.03 SL: 0.03  DN: Eryops EW: 0.03 SL: 0.02  DN: SuchomimusRiparovenator EW: 0.02 SL: 0.015  DN: Tyrannomimus EW: 0.03 SL: 0.03  DN: Scorched Diamantinasaurus EW: 0.015 SL: 0.05  DN: Scorched Muttaburrasaurus EW: 0.035 SL: 0.045  DN: Barsboldia EW: 0.0225 SL: 0.075  DN: Pygmy HippoProminatherium EW: 0.1 SL: 0.1  DN: Star LeatherwingLeatherwing EW: 0.1 SL: 0.1  DN: Royal Owl Griffin EW: 0.0125 SL: 0.1  DN: Nyctatyrannus Echidne EW: 0.075 SL: 0.05  DN: MockatooMacaw EW: 0.05 SL: 0.05  DN: Tsintaosaurus EW: 0.025 SL: 0.1  DN: Pinacosaurus EW: 0.04 SL: 0.1  DN: Massospondylus EW: 0.06 SL: 0.1  DN: WAK SpinosaurusIchthyovenator EW: 0.02 SL: 0.02  DN: OstrichMoa EW: 0.075 SL: 0.1  DN: Pyro Drakara EW: 0.025 SL: 0.04  DN: Apatosaurus EW: 0.015 SL: 0.015  DN: InostranceviaPravoslavlevia EW: 0.04 SL: 0.05  DN: Tarchia EW: 0.025 SL: 0.025  DN: Walliserops EW: 0.03 SL: 0.03 
+SE Sandworm Dunes Entry Count:                                   1 DN: Scorched Desolatitan EW: 0.05 SL: 0.05 
+SE Wyvern Trench Entry Count:                                    17 DN: Neovenator EW: 0.025 SL: 0.04  DN: Genyodectes EW: 0.05 SL: 0.1  DN: Eotriceratops EW: 0.07 SL: 0.1  DN: CobraPalaeophis EW: 0.04 SL: 0.1  DN: Titanophoneus EW: 0.04 SL: 0.1  DN: Globster EW: 0.075 SL: 0.1  DN: Bloodfang Drakara EW: 0.035 SL: 0.04  DN: Sanguivern EW: 0.05 SL: 0.05  DN: Epanterias EW: 0.025 SL: 0.025  DN: Skjaldastordr AnkyloAnodontosaurus EW: 0.05 SL: 0.06  DN: Greater KentrosaurusDacentrurus EW: 0.03 SL: 0.04  DN: Bloodstalker EW: 0.05 SL: 0.05  DN: Desmodus EW: 0.05 SL: 0.05  DN: Gloon EW: 0.02 SL: 0.02  DN: Malwyn EW: 0.04 SL: 0.04  DN: Ossidon EW: 0.04 SL: 0.04  DN: Velonasaur EW: 0.03 SL: 0.04 
+Rag Golem Entry Count:                                           8 DN: Thorax Spider EW: 0.07 SL: 0.08  DN: Mapusaurus EW: 0.05 SL: 0.1  DN: Dracovenator EW: 0.06 SL: 0.1  DN: Grand Tortugar EW: 0.075 SL: 0.1  DN: Sulphur Titan EW: 0.03 SL: 0.005  DN: Dracoteuthis EW: 0.06 SL: 0.1  DN: Fasolasuchus LoricatusRauisuchus EW: 0.015 SL: 0.02  DN: Basilisk EW: 0.05 SL: 0.05 
+SE Wyverns Entry Count:                                          3 DN: Astral Wyvern EW: 0.33 SL: 0.33  DN: Corrosion Wyvern EW: 0.33 SL: 0.33  DN: Seratine Wyvern EW: 0.33 SL: 0.33 
+Rag Deep Water Entry Count:                                      29 DN: Savage HammerheadMesozygaena EW: 0.025 SL: 0.025  DN: Scotoharpes EW: 1 SL: 0.05  DN: Charnia EW: 0.1 SL: /  DN: Dickinsonia EW: 0.005 SL: 1.0  DN: Nesonektris EW: 0.1 SL: /  DN: Shenzianyuloma EW: 0.1 SL: /  DN: Vetulicola EW: 0.1 SL: /  DN: Yuyuanozoon EW: 0.1 SL: /  DN: Hector's Dolphin EW: 0.1 SL: 0.06  DN: Onchopristis EW: 0.09 SL: 0.06  DN: Acrophyseter EW: 0.06 SL: 0.05  DN: Cryptoclidus EW: 0.06 SL: 0.05  DN: Humboldt Squid EW: 0.04 SL: 0.04  DN: Hydrotherosaurus EW: 0.05 SL: 0.05  DN: Ophthalmosaurus EW: 0.05 SL: 0.05  DN: Orca EW: 0.035 SL: 0.04  DN: Protostega EW: 0.045 SL: 0.045  DN: TylosaurusKhinjaria EW: 0.0225 SL: 0.0175  DN: Brachauchenius EW: 0.025 SL: 0.02  DN: Horned Nurse Shark EW: 0.07 SL: 0.07  DN: Kaikaifilu EW: 0.03 SL: 0.03  DN: Vallibonavenatrix EW: 0.035 SL: 0.035  DN: BaculiteEohamites EW: 0.25 SL: /  DN: Dugong EW: 0.12 SL: 0.08  DN: Medichelon EW: 0.18 SL: 0.08  DN: Hainosaurus EW: 0.06 SL: 0.1  DN: Prionosuchus EW: 0.04 SL: 0.1  DN: Hyneria EW: 0.075 SL: 0.1  DN: MarlinNyoomarlin EW: 0.04 SL: 0.1  DN: Mean WhaleAlbicetus EW: 0.09 SL: 0.1  DN: Livyathan EW: 0.1 SL: 0.0001  DN: Taniwhasaurus EW: 0.075 SL: 0.1  DN: AnomalocarisLenisicaris EW: 0.075 SL: 0.1  DN: Bothrilepis EW: 0.075 SL: 0.1  DN: Diadema EW: 0.03 SL: 0.04  DN: Saurichthys EW: 0.04 SL: 0.06  DN: Sphyrna EW: 0.075 SL: 0.1  DN: Hadal Dragonfish EW: 0.05 SL: 0.05  DN: Orycterocetus EW: 0.03 SL: 0.03  DN: Liopleurodon EW: 0.04 SL: 0.04  DN: Xiphactinus EW: 0.04 SL: 0.04 
+DarkWater Angler Generic Entry Count:                            27 DN: Dickinsonia EW: 0.005 SL: 1.0  DN: AnomalocarisLenisicaris EW: 0.12 SL: 0.025  DN: EdestusLestrodus EW: 0.06 SL: 0.06  DN: HelicoprionSarcoprion EW: 0.06 SL: 0.06  DN: Hadal Dragonfish EW: 0.04 SL: 0.04  DN: Dolichorhynchops EW: 0.06 SL: 0.1  DN: Hyneria EW: 0.075 SL: 0.1  DN: Thresher Shark EW: 0.06 SL: 0.1  DN: SeahorseHippocampus EW: 0.075 SL: 0.1  DN: Scotoharpes EW: 0.075 SL: 0.1  DN: Nesonektris EW: 0.075 SL: 0.1  DN: Shenzianyuloma EW: 0.075 SL: 0.1  DN: Vetulicola EW: 0.075 SL: 0.1  DN: Yuyuanozoon EW: 0.075 SL: 0.1  DN: AcrophyseterZygophyseter EW: 0.075 SL: 0.1  DN: Bothrilepis EW: 0.075 SL: 0.1  DN: Diadema EW: 0.03 SL: 0.04  DN: Edestus EW: 0.075 SL: 0.1  DN: Stethacanthus EW: 0.075 SL: 0.1  DN: Tylosaurus EW: 0.075 SL: 0.1  DN: Onchopristis EW: 0.06 SL: 0.05  DN: Acrophyseter EW: 0.06 SL: 0.05  DN: Humboldt Squid EW: 0.03 SL: 0.03  DN: Hydrotherosaurus EW: 0.03 SL: 0.03  DN: TylosaurusKhinjaria EW: 0.03 SL: 0.03  DN: BaculiteEohamites EW: 0.04 SL: 0.05  DN: Orycterocetus EW: 0.03 SL: 0.03  DN: Xiphactinus EW: 0.04 SL: 0.04 
+DeepWater Gen Entry Count:                                       24 DN: Baculites EW: 0.3 SL: 0.15  DN: Giant Sea Slug EW: 1 SL: 0.14  DN: Hainosaurus EW: 0.2 SL: 0.12  DN: Prionosuchus EW: 0.85 SL: 0.12  DN: Hyneria EW: 0.15 SL: 0.15  DN: Thresher Shark EW: 0.15 SL: /  DN: Hydrovanta EW: 0.5 SL: 0.1  DN: Savage HammerheadMesozygaena EW: 0.025 SL: 0.025  DN: SeahorseHippocampus EW: 0.2 SL: 0.1  DN: Gentle WhaleMaiabalaena EW: 0.15 SL: 0.1  DN: Mean WhaleAlbicetus EW: 0.15 SL: 0.1  DN: Anomalocaris EW: 0.03 SL: 0.1  DN: Scotoharpes EW: 1 SL: 0.05  DN: Charnia EW: 0.1 SL: /  DN: Nesonektris EW: 0.167 SL: /  DN: Shenzianyuloma EW: 0.167 SL: /  DN: Vetulicola EW: 0.167 SL: /  DN: Yuyuanozoon EW: 0.167 SL: /  DN: AcrophyseterZygophyseter EW: 0.05 SL: 0.025  DN: AnomalocarisLenisicaris EW: 0.12 SL: 0.035  DN: Bothrilepis EW: 0.2 SL: 0.05  DN: Lepidotes EW: 0.15 SL: 0.12  DN: Saurichthys EW: 0.15 SL: 0.055  DN: Sphyrna EW: 0.3 SL: 0.05  DN: Stethacanthus EW: 0.1 SL: 0.08  DN: Tylosaurus EW: 0.14 SL: 0.12  DN: Hector's Dolphin EW: 0.1 SL: 0.06  DN: Onchopristis EW: 0.09 SL: 0.06  DN: Acrophyseter EW: 0.06 SL: 0.05  DN: Cryptoclidus EW: 0.06 SL: 0.05  DN: Humboldt Squid EW: 0.04 SL: 0.04  DN: Hydrotherosaurus EW: 0.05 SL: 0.05  DN: Ophthalmosaurus EW: 0.05 SL: 0.05  DN: Orca EW: 0.035 SL: 0.04  DN: Protostega EW: 0.045 SL: 0.045  DN: TylosaurusKhinjaria EW: 0.0225 SL: 0.0175  DN: Brachauchenius EW: 0.025 SL: 0.02  DN: Horned Nurse Shark EW: 0.07 SL: 0.07  DN: Kaikaifilu EW: 0.03 SL: 0.03  DN: Vallibonavenatrix EW: 0.035 SL: 0.035  DN: Diadema EW: 0.03 SL: 0.04  DN: EdestusLestrodus EW: 0.03 SL: 0.03  DN: HelicoprionSarcoprion EW: 0.03 SL: 0.03  DN: BaculiteEohamites EW: 0.04 SL: 0.05  DN: Dugong EW: 0.04 SL: 0.05  DN: Medichelon EW: 0.04 SL: 0.05  DN: Clay LeedsichtysBonnerichthys EW: 0.04 SL: 0.04  DN: Leedsichtys EW: 0.04 SL: 0.04  DN: Liopleurodon EW: 0.04 SL: 0.04  DN: Shastasaurus EW: 0.03 SL: 0.04 
+Rag Ocean Entry Count:                                           36 DN: Savage HammerheadMesozygaena EW: 0.025 SL: 0.025  DN: Livyathan EW: 0.1 SL: 0.0001  DN: Bungartius EW: 1 SL: 0.2  DN: Charnia EW: 0.1 SL: /  DN: Dickinsonia EW: 0.005 SL: 1.0  DN: Nesonektris EW: 0.067 SL: /  DN: Shenzianyuloma EW: 0.067 SL: /  DN: Vetulicola EW: 0.067 SL: /  DN: Yuyuanozoon EW: 0.067 SL: /  DN: Draconis Glaucus EW: 0.025 SL: 0.01  DN: Tylosaurus EW: 0.04 SL: 0.00005  DN: Hector's Dolphin EW: 0.1 SL: 0.06  DN: Onchopristis EW: 0.09 SL: 0.06  DN: Acrophyseter EW: 0.06 SL: 0.05  DN: Cryptoclidus EW: 0.06 SL: 0.05  DN: Humboldt Squid EW: 0.04 SL: 0.04  DN: Hydrotherosaurus EW: 0.05 SL: 0.05  DN: Ophthalmosaurus EW: 0.05 SL: 0.05  DN: Orca EW: 0.035 SL: 0.04  DN: Protostega EW: 0.045 SL: 0.045  DN: TylosaurusKhinjaria EW: 0.0225 SL: 0.0175  DN: Brachauchenius EW: 0.025 SL: 0.02  DN: Horned Nurse Shark EW: 0.07 SL: 0.07  DN: Kaikaifilu EW: 0.03 SL: 0.03  DN: Vallibonavenatrix EW: 0.035 SL: 0.035  DN: BaculiteEohamites EW: 0.25 SL: /  DN: Dugong EW: 0.12 SL: 0.08  DN: Medichelon EW: 0.18 SL: 0.08  DN: Clay LeedsichtysBonnerichthys EW: 0.4 SL: 0.1  DN: Lualabaea EW: 0.05 SL: 0.1  DN: Dolichorhynchops EW: 0.06 SL: 0.1  DN: Thresher Shark EW: 0.06 SL: 0.1  DN: Hydrovanta EW: 0.075 SL: 0.1  DN: SeahorseHippocampus EW: 0.075 SL: 0.1  DN: DolphinKentriodon EW: 0.075 SL: 0.1  DN: Gentle WhaleMaiabalaena EW: 0.09 SL: 0.1  DN: MarlinNyoomarlin EW: 0.075 SL: 0.1  DN: Cricosaurus EW: 0.075 SL: 0.1  DN: Taniwhasaurus EW: 0.075 SL: 0.1  DN: Diadema EW: 0.03 SL: 0.04  DN: Lepidotes EW: 0.075 SL: 0.1  DN: Saurichthys EW: 0.075 SL: 0.1  DN: Sphyrna EW: 0.04 SL: 0.06  DN: Shonisaurus EW: 0.04 SL: 0.05  DN: Leedsichtys EW: 0.04 SL: 0.04  DN: Shastasaurus EW: 0.03 SL: 0.04 
+Rag Lobster Entry Count:                                         3 DN: Cricosaurus EW: 0.075 SL: 0.1  DN: AnomalocarisLenisicaris EW: 0.075 SL: 0.1  DN: Humboldt Squid EW: 0.03 SL: 0.03 
+InlandWater Generic Entry Count:                                 18 DN: Ornithocheirus EW: 0.3 SL: 0.12  DN: Paraxenisaurus EW: 0.4 SL: 0.12  DN: Koolasuchus EW: 0.075 SL: 0.2  DN: Gandakasia EW: 0.25 SL: 0.11  DN: Purussaurus EW: 0.04 SL: 0.06  DN: AtlasuchusMekosuchus EW: 0.4 SL: 0.1  DN: Grand Tortugar EW: 0.03 SL: 0.03  DN: Charnia EW: 0.1 SL: /  DN: Nesonektris EW: 0.1 SL: /  DN: Shenzianyuloma EW: 0.1 SL: /  DN: Vetulicola EW: 0.1 SL: /  DN: Yuyuanozoon EW: 0.1 SL: /  DN: Henodus EW: 0.3 SL: 0.1  DN: Materpiscis EW: 0.12 SL: 0.1  DN: Oxalaia EW: 0.015 SL: 0.015  DN: Giant SpinoIrritator EW: 0.006 SL: 0.01  DN: Hapipalus EW: 0.025 SL: 0.025  DN: Diploceraspis EW: 0.02 SL: 0.02  DN: Ichthyostega EW: 0.02 SL: 0.02  DN: Platyoposaurus EW: 0.03 SL: 0.03  DN: Whatcheeria EW: 0.015 SL: 0.015  DN: Arganodus EW: 0.03 SL: 0.03  DN: Chinlea EW: 0.03 SL: 0.03  DN: Goliath Tigerfish EW: 0.025 SL: 0.025  DN: Goonch Catfish EW: 0.025 SL: 0.025  DN: Lungfish EW: 0.03 SL: 0.03  DN: Mawsonia EW: 0.02 SL: 0.02  DN: Piraiba Catfish EW: 0.025 SL: 0.025  DN: Angaturama EW: 0.02 SL: 0.02  DN: Eryops EW: 0.02 SL: 0.02  DN: SuchomimusRiparovenator EW: 0.015 SL: 0.015  DN: Torosaurus EW: 0.03 SL: 0.03  DN: Paddletail SpinoRiojavenatrix EW: 0.049 SL: 0.02  DN: Axelrodichthys EW: 0.05 SL: 0.1  DN: Kaikaifilu EW: 0.02 SL: 0.03 
+RedW Water Generic Entry Count:                                  18 DN: AtlasuchusMekosuchus EW: 0.15 SL: 0.1  DN: Goonch Catfish EW: 0.03 SL: 0.03  DN: Zuniceratops EW: 0.05 SL: 0.1  DN: Gandakasia EW: 0.07 SL: 0.1  DN: Henodus EW: 0.075 SL: 0.1  DN: Materpiscis EW: 0.075 SL: 0.1  DN: Nothosaurus EW: 0.04 SL: 0.05  DN: Diploceraspis EW: 0.04 SL: 0.04  DN: Whatcheeria EW: 0.03 SL: 0.03  DN: Arganodus EW: 0.03 SL: 0.03  DN: Chinlea EW: 0.03 SL: 0.03  DN: Lungfish EW: 0.03 SL: 0.03  DN: Mawsonia EW: 0.02 SL: 0.02  DN: Piraiba Catfish EW: 0.025 SL: 0.025  DN: Austroraptor EW: 0.015 SL: 0.015  DN: Kaikaifilu EW: 0.02 SL: 0.03  DN: Squalicorax EW: 0.025 SL: 0.025  DN: Torosaurus EW: 0.03 SL: 0.03  DN: Paddletail SpinoRiojavenatrix EW: 0.03 SL: 0.03 
+Rag Water Generic Entry Count:                                   18 DN: Zuniceratops EW: 0.05 SL: 0.1  DN: Axelrodichthys EW: 0.05 SL: 0.1  DN: Gandakasia EW: 0.07 SL: 0.1  DN: Purussaurus EW: 0.075 SL: 0.1  DN: AtlasuchusMekosuchus EW: 0.075 SL: 0.1  DN: Henodus EW: 0.075 SL: 0.1  DN: Materpiscis EW: 0.075 SL: 0.1  DN: Nothosaurus EW: 0.04 SL: 0.05  DN: Diploceraspis EW: 0.04 SL: 0.04  DN: Whatcheeria EW: 0.03 SL: 0.03  DN: Chinlea EW: 0.03 SL: 0.03  DN: Goliath Tigerfish EW: 0.025 SL: 0.025  DN: Goonch Catfish EW: 0.025 SL: 0.025  DN: Mawsonia EW: 0.02 SL: 0.02  DN: Austroraptor EW: 0.015 SL: 0.015  DN: Kaikaifilu EW: 0.02 SL: 0.03  DN: Squalicorax EW: 0.025 SL: 0.025  DN: Torosaurus EW: 0.03 SL: 0.03 
+Rag Bison Entry Count:                                           7 DN: Daemonis EW: 0.01 SL: 0.05  DN: Red Panda EW: 0.003 SL: 0.003  DN: Genyodectes EW: 0.05 SL: 0.1  DN: EdmontosaurusAnatosaurus EW: 0.07 SL: 0.1  DN: Rubidgea EW: 0.075 SL: 0.1  DN: Skorpiovenator EW: 0.025 SL: 0.025  DN: Torosaurus EW: 0.03 SL: 0.03 
+Rag Center Entry Count:                                          28 DN: Atlas Flying FoxPteropus EW: 0.025 SL: 0.025  DN: RazortoothDryptosaurus EW: 0.01 SL: 0.01  DN: Shieldhorn EW: 0.025 SL: 0.025  DN: Lycosuchus EW: 0.055 SL: 0.1  DN: Enantiophoenix EW: 0.002 SL: 10  DN: Meiolania EW: 0.06 SL: /  DN: Skyshroud Drakara EW: 0.025 SL: 0.04  DN: Bloodfang Drakara EW: 0.025 SL: 0.04  DN: Pyro Drakara EW: 0.025 SL: 0.04  DN: Vectispinus EW: 0.075 SL: 0.05  DN: Antrodemus EW: 0.02 SL: 0.05  DN: Eocarcharia EW: 0.0175 SL: 0.06  DN: Daemonis EW: 0.04 SL: 0.05  DN: Dzungariotherium EW: 0.01 SL: 0.05  DN: Tyrannodominator EW: 0.0075 SL: /  DN: Monolophosaurus EW: 0.03 SL: 0.03  DN: Noxcalvasaurus EW: 0.02 SL: 0.02  DN: Royal ArchaeopteryxYixianosaurus EW: 0.035 SL: 0.035  DN: Aerosteon EW: 0.015 SL: 0.015  DN: Albertosaurus EW: 0.03 SL: 0.03  DN: Angaturama EW: 0.02 SL: 0.02  DN: Cedarosaurus EW: 0.03 SL: 0.03  DN: Edmontosaurus EW: 0.03 SL: 0.03  DN: Erythrosaurus EW: 0.025 SL: 0.025  DN: Iguanacolossus EW: 0.035 SL: 0.035  DN: InostranceviaPravoslavlevia EW: 0.02 SL: 0.025  DN: Magnapaulia EW: 0.015 SL: 0.015  DN: Skorpiovenator EW: 0.035 SL: 0.035  DN: Majungasaurus EW: 0.04 SL: /  DN: Kretzoiarctos EW: 0.01 SL: 0.01  DN: Ursus AmericanusProtarctos EW: 0.05 SL: 0.05  DN: Neimongosaurus EW: 0.025 SL: 0.2  DN: Zuniceratops EW: 0.05 SL: 0.1  DN: Axelrodichthys EW: 0.03 SL: 0.1  DN: Pinacosaurus EW: 0.06 SL: 0.1  DN: Angulomastacator EW: 0.075 SL: 0.1  DN: Sinornithoides EW: 0.075 SL: 0.1  DN: Adasaurus EW: 0.075 SL: 0.1  DN: Myths Drakra EW: 0.01 SL: 0.02  DN: Blood Crystal Wyvern EW: 0.03 SL: 0.04 
+Rag CenterWater Entry Count:                                     8 DN: Oxalaia EW: 0.015 SL: 0.015  DN: BaculiteEohamites EW: 0.2 SL: /  DN: Medichelon EW: 0.1 SL: 0.08  DN: Paddletail SpinoRiojavenatrix EW: 0.049 SL: 0.02  DN: Purussaurus EW: 0.075 SL: 0.1  DN: Ichthyostega EW: 0.04 SL: 0.04  DN: Platyoposaurus EW: 0.03 SL: 0.03  DN: Magnapaulia EW: 0.02 SL: 0.03  DN: Vallibonavenatrix EW: 0.03 SL: 0.03  DN: Dugong EW: 0.04 SL: 0.05 
+Gigantoraptor Entry Count:                                       6 DN: Skyshroud Drakara EW: 0.025 SL: 0.04  DN: Bloodfang Drakara EW: 0.025 SL: 0.04  DN: Pyro Drakara EW: 0.025 SL: /  DN: Massospondylus EW: 0.06 SL: 0.1  DN: Angulomastacator EW: 0.07 SL: 0.1  DN: Chungkingosaurus EW: 0.03 SL: 0.03  DN: Red Panda EW: 0.02 SL: 0.03  DN: Magna Gecko EW: 0.02 SL: 0.03  DN: Cosmo EW: 0.05 SL: 0.05 
+Rag Griffin Entry Count:                                         7 DN: Runic Lantern Halo Wyvern EW: 0.02 SL: 0.02  DN: Dzungariotherium EW: 0.04 SL: 0.05  DN: Tyrannodominator EW: 0.04 SL: 0.05  DN: Majungasaurus EW: 0.03 SL: 0.03  DN: Runic Quartz Wyvern EW: 0.03 SL: 0.03  DN: Deinonychus EW: 0.05 SL: 0.05  DN: Megaraptor EW: 0.04 SL: 0.04 
+Megalania Entry Count:                                           6 DN: Thorax Spider EW: 0.035 SL: 0.08  DN: Pinacosaurus EW: 0.06 SL: 0.1  DN: Venenosaurus EW: 0.07 SL: 0.1  DN: Adasaurus EW: 0.075 SL: 0.1  DN: Erythrosaurus EW: 0.03 SL: 0.03  DN: Eryops EW: 0.03 SL: 0.03 
+Rag Turtles Entry Count:                                         11 DN: Dearc EW: 0.05 SL: 0.22  DN: Pygmy HippoProminatherium EW: 0.1 SL: 0.1  DN: Scelidosaurus EW: 0.06 SL: 0.1  DN: Camarillasaurus EW: 0.04 SL: 0.1  DN: Runic Quartz Wyvern EW: 0.02 SL: 0.02  DN: Runic Lantern Halo Wyvern EW: 0.03 SL: 0.03  DN: Skjaldastordr AnkyloAnodontosaurus EW: 0.05 SL: 0.06  DN: Greater KentrosaurusDacentrurus EW: 0.03 SL: 0.04  DN: Defense Unit EW: 0.05 SL: 0.05  DN: Enforcer EW: 0.05 SL: 0.05  DN: Scout EW: 0.04 SL: 0.04 
+Rag Monkey Island Entry Count:                                   6 DN: Scelidosaurus EW: 0.08 SL: 0.22  DN: Sinornithoides EW: 0.075 SL: 0.1  DN: Phosphatodraco EW: 0.025 SL: 0.025  DN: Runic Quartz Wyvern EW: 0.02 SL: 0.02  DN: Runic Lantern Halo Wyvern EW: 0.03 SL: 0.03  DN: Magna Gecko EW: 0.02 SL: 0.03 
+Rag Jerboa Entry Count:                                          5 DN: Phosphatodraco EW: 0.025 SL: 0.025  DN: Runic Quartz Wyvern EW: 0.02 SL: 0.02  DN: Runic Lantern Halo Wyvern EW: 0.03 SL: 0.03  DN: Pygmy HippoProminatherium EW: 0.03 SL: 0.04  DN: Magna Gecko EW: 0.02 SL: 0.03 
+Rag Mudslide Entry Count:                                        2 DN: Acheroraptor EW: 0.06 SL: 0.1  DN: Clay AnkyloShamosaurus EW: 0.04 SL: 0.04 
+Dreadmare Entry Count:                                           5 DN: Dilong EW: 0.06 SL: 0.1  DN: Haasts Eagle EW: 0.075 SL: 0.1  DN: Deinonychus EW: 0.05 SL: 0.05  DN: Gacha EW: 0.05 SL: 0.05  DN: Gasbags EW: 0.05 SL: 0.05 
+Quetzal Entry Count:                                             1 DN: Aureliax EW: 0.5 SL: 0.5 
+Pelican Entry Count:                                             5 DN: Ornithocheirus EW: 1 SL: 0.06  DN: CryptoclidusKimmerosaurus EW: 1.0 SL: 1.0  DN: Obelisk squidObelisk Squid EW: 1.0 SL: 1.0  DN: Ambulocetus EW: 0.4 SL: 0.25  DN: Tropeognathus EW: 0.03 SL: 0.04 
+Rag Temple Entry Count:                                          2 DN: Bulbdog EW: 0.05 SL: 0.05  DN: Glowtail EW: 0.05 SL: 0.05 
+Rag Karkinos Entry Count:                                        1 DN: Seeker EW: 0.04 SL: 0.04 
+Rag Ab Megalania Entry Count:                                    1 DN: Rock Drake EW: 0.1 SL: 0.1 
+Rag Shark Fish Entry Count:                                      0 DN: BaculiteEohamites EW: 0.15 SL: / 
+Cave 1 Generic Entry Count:                                      1 DN: Tatzelwurm EW: 0.045 SL: / 
+Rag Vulture Entry Count:                                         0
+SwampCave Generic Entry Count:                                   0
+Rag Swamp Wyvern Entry Count:                                    1 DN: Venoraptor EW: 0.005 SL: 0.05 
+Rag Ice 1 Wyvern Entry Count:                                    0 DN: Cryodrakon EW: 0.04 SL: 0.15 
+Rag Ice 2 Wyvern Entry Count:                                    0
+Dark Water Entry Count:                                          5 DN: Livyathan EW: 0.5 SL: 0.1  DN: Scotoharpes EW: 1 SL: 0.05  DN: Dickinsonia EW: 0.1 SL: 0.1  DN: AnomalocarisLenisicaris EW: 0.12 SL: 0.025  DN: Edestus EW: 0.46 SL: 0.25  DN: Saurichthys EW: 0.12 SL: 0.025  DN: Stethacanthus EW: 0.12 SL: 0.025  DN: EdestusLestrodus EW: 0.06 SL: 0.06  DN: HelicoprionSarcoprion EW: 0.06 SL: 0.06  DN: Hadal Dragonfish EW: 0.04 SL: 0.04  DN: BaculiteEohamites EW: 0.25 SL: / 
+DarkWater Lio Entry Count:                                       0
+DarkWater Mosa Entry Count:                                      1 DN: Shonisaurus EW: 0.5 SL: 0.5 
+DarkWater Tuso Entry Count:                                      0 DN: Orycterocetus EW: 0.5 SL: 0.1 
+Rag Seagulls Entry Count:                                        1 DN: Dearc EW: 0.075 SL: 0.13 
+Cat Rag Entry Count:                                             0
+Archaeopteryx Entry Count:                                       0
+Beavers Entry Count:                                             0
+Giganotosaurus Entry Count:                                      2 DN: Sulphur Titan EW: 0.04 SL: 0.01  DN: Desolatitan EW: 1.0 SL: 1.0 
+Penguins Entry Count:                                            3 DN: Leopard Seal EW: 0.01 SL: 0.01  DN: Walrus EW: 0.04 SL: 0.04  DN: Star PenguinPalaeeudyptes EW: 0.5 SL: 0.5 
+Rhyniogantha Entry Count:                                        1 DN: Shadowmane EW: 0.2 SL: 0.2 
+Thylacoleo Entry Count:                                          0
+Titanosaur Entry Count:                                          1 DN: Argentinosaurus EW: 1.0 SL: 0.5 
+Unicorn Entry Count:                                             0
 
-[CTSpawners]
-ContainerEdit1=DinoSpawnEntriesBeach_Generic_C
-CapMult1=1.3
-SpawnInterval1=10
-ContainerEdit2=DinoSpawnEntries_Ragnarok_Jungle_C
-CapMult2=1.3
-SpawnInterval2=10
-ContainerEdit3=DinoSpawnEntriesGrassland_Generic_C
-CapMult3=1.3
-SpawnInterval3=10
-ContainerEdit4=DinoSpawnEntries_Ragnarok_Scotland_C
-CapMult4=1.3
-SpawnInterval4=10
-ContainerEdit5=DinoSpawnEntriesDamiensAtoll_Generic_C
-CapMult5=1.3
-SpawnInterval5=10
-ContainerEdit6=DinoSpawnEntriesMonsterIsland_Generic_C
-CapMult6=1.3
-SpawnInterval6=10
-ContainerEdit7=DinoSpawnEntriesMountain_Generic_C
-CapMult7=1.3
-SpawnInterval7=10
-ContainerEdit8=DinoSpawnEntriesRedwoods_Generic_C
-CapMult8=1.3
-SpawnInterval8=10
-ContainerEdit9=DinoSpawnEntriesSnow_Generic_C
-CapMult9=1.3
-SpawnInterval9=10
-ContainerEdit10=DinoSpawnEntries_Ragnarok_SnowForest_C
-CapMult10=1.3
-SpawnInterval10=10
-ContainerEdit11=DinoSpawnEntries_Ragnarok_SnowPlains_C
-CapMult11=1.3
-SpawnInterval11=10
-ContainerEdit12=DinoSpawnEntries_Ragnarok_PolarBear_C
-CapMult12=10
-SpawnInterval12=10
-ContainerEdit13=DinoSpawnEntries_Ragnarok_Bear_C
-CapMult13=1.3
-SpawnInterval13=10
-ContainerEdit14=DinoSpawnEntriesSwamp_Generic_C
-CapMult14=1.3
-SpawnInterval14=10
-ContainerEdit15=DinoSpawnEntries_SwampWater_Generic_C
-CapMult15=1.3
-SpawnInterval15=10
-ContainerEdit16=SE_DinoSpawnEntriesBadlands_C
-CapMult16=1.3
-SpawnInterval16=10
-ContainerEdit17=SE_DinoSpawnEntriesCanyons_C
-CapMult17=1.3
-SpawnInterval17=10
-ContainerEdit18=SE_DinoSpawnEntriesDunes_C
-CapMult18=1.3
-SpawnInterval18=10
-ContainerEdit19=SE_DinoSpawnEntriesGreenDesert_C
-CapMult19=1.3
-SpawnInterval19=10
-ContainerEdit20=SE_DinoSpawnEntriesMountain_C
-CapMult20=1.3
-SpawnInterval20=10
-ContainerEdit21=SE_DinoSpawnEntriesOasis_C
-CapMult21=1.3
-SpawnInterval21=10
-ContainerEdit22=SE_DinoSpawnEntriesSandworm_C
-CapMult22=1.3
-SpawnInterval22=10
-ContainerEdit23=SE_DinoSpawnEntriesWyvernTrench_C
-CapMult23=1.3
-SpawnInterval23=10
-ContainerEdit24=DinoSpawnEntries_Ragnarok_Golem_C
-CapMult24=30
-SpawnInterval24=10
-ContainerEdit25=SE_DinoSpawnEntriesWyvern_C
-CapMult25=1.3
-SpawnInterval25=10
-ContainerEdit26=DinoSpawnEntries_Ragnarok_DeepWater_C
-CapMult26=1.3
-SpawnInterval26=10
-ContainerEdit27=DinoSpawnEntries_DarkWaterAngler_Generic_C
-CapMult27=1.3
-SpawnInterval27=10
-ContainerEdit28=DinoSpawnEntries_DeepWater_Generic_C
-CapMult28=1.3
-SpawnInterval28=10
-ContainerEdit29=DinoSpawnEntries_InlandWater_Generic_C
-CapMult29=1.3
-SpawnInterval29=10
-ContainerEdit30=DinoSpawnEntries_RedwoodWater_Generic_C
-CapMult30=1.3
-SpawnInterval30=10
-ContainerEdit31=DinoSpawnEntriesWater_Generic_C
-CapMult31=1.3
-SpawnInterval31=10
-ContainerEdit32=DinoSpawnEntries_Ragnarok_Ocean_C
-CapMult32=1.3
-SpawnInterval32=10
-ContainerEdit33=DinoSpawnEntries_Lobster_C
-CapMult33=3
-SpawnInterval33=10
-ContainerEdit34=DinoSpawnEntries_Ragnarok_Bison_C
-CapMult34=3
-SpawnInterval34=10
-ContainerEdit35=DinoSpawnEntries_Ragnarok_Center_C
-CapMult35=1.3
-SpawnInterval35=10
-ContainerEdit36=DinoSpawnEntries_Ragnarok_CenterWater_C
-CapMult36=1.3
-SpawnInterval36=10
-ContainerEdit37=DinoSpawnEntriesGigantoraptor_C
-CapMult37=5
-SpawnInterval37=10
-ContainerEdit38=DinoSpawnEntries_Ragnarok_Griffin_C
-CapMult38=3
-SpawnInterval38=10
-ContainerEdit39=DinoSpawnEntriesMegalania_C
-CapMult39=3
-SpawnInterval39=10
-ContainerEdit40=Ragnarok_DinoSpawnEntries_Rag_turtles_C
-CapMult40=3
-SpawnInterval40=10
-ContainerEdit41=DinoSpawnEntries_Ragnarok_MonkeyIsland_C
-CapMult41=3
-SpawnInterval41=10
-ContainerEdit42=DinoSpawnEntries_Ragnarok_Jerboa_C
-CapMult42=3
-SpawnInterval42=10
-ContainerEdit43=DinoSpawnEntries_Ragnarok_Mudslide_C
-CapMult43=3
-SpawnInterval43=10
-ContainerEdit44=DinoSpawnEntriesDreadmare_C
-CapMult44=6
-SpawnInterval44=10
-ContainerEdit45=DinoSpawnEntriesQuetz_C
-CapMult45=3
-SpawnInterval45=10
-ContainerEdit46=DinoSpawnEntriesPelican_C
-CapMult46=1.3
-SpawnInterval46=10
-ContainerEdit47=Ragnarok_DinoSpawnEntries_Rag_Temple_C
-CapMult47=3
-SpawnInterval47=10
-ContainerEdit48=Ragnarok_DinoSpawnEntries_Rag_Crab_C
-CapMult48=1.3
-SpawnInterval48=10
-ContainerEdit49=Ragnarok_DinoSpawnEntries_Rag_Megla_C
-CapMult49=1.3
-SpawnInterval49=10
-ContainerEdit50=Ragnarok_DinoSpawnEntries_Rag_Shark_Fish_C
-CapMult50=1.3
-SpawnInterval50=10
-ContainerEdit51=DinoSpawnEntriesCave1_Generic_C
-CapMult51=1.3
-SpawnInterval51=10
-ContainerEdit52=Ragnarok_DinoSpawnEntries_Vult_C
-CapMult52=1.3
-SpawnInterval52=10
-ContainerEdit53=DinoSpawnEntriesSwampCave_Generic_C
-CapMult53=1.3
-SpawnInterval53=10
-ContainerEdit54=Ragnarok_DinoSpawnEntries_SwampWyvern_C
-CapMult54=1.3
-SpawnInterval54=10
-ContainerEdit55=Ragnarok_DinoSpawnEntriesIceWyvern_C
-CapMult55=1.3
-SpawnInterval55=10
-ContainerEdit56=Ragnarok_DinoSpawnEntries_Ice_Wyvern_2_C
-CapMult56=1.3
-SpawnInterval56=10
-ContainerEdit57=DinoSpawnEntries_DarkWater_C
-CapMult57=2
-SpawnInterval57=10
-ContainerEdit58=DinoSpawnEntries_DarkWater_Lio_C
-CapMult58=2
-SpawnInterval58=10
-ContainerEdit59=DinoSpawnEntries_DarkWater_Mosa_C
-CapMult59=2
-SpawnInterval59=10
-ContainerEdit60=DinoSpawnEntries_DarkWater_Tuso_C
-CapMult60=2
-SpawnInterval60=10
-ContainerEdit61=Ragnarok_DinoSpawnEntries_Rag_Seagull_C
-CapMult61=1.3
-SpawnInterval61=10
-ContainerEdit62=Ragnarok_DinoSpawnEntries_Rag_tapa_Cats_C
-CapMult62=1.3
-SpawnInterval62=10
-ContainerEdit63=DinoSpawnEntriesArcha_C
-CapMult63=1.3
-SpawnInterval63=10
-ContainerEdit64=DinoSpawnEntries_Beavers_C
-CapMult64=1.3
-SpawnInterval64=10
-ContainerEdit65=DinoSpawnEntriesGigant_C
-CapMult65=3
-SpawnInterval65=10
-ContainerEdit66=DinoSpawnEntriesPenguins_C
-CapMult66=1.3
-SpawnInterval66=10
-ContainerEdit67=DinoSpawnEntriesRhynio_C
-CapMult67=1.3
-SpawnInterval67=10
-ContainerEdit68=DinoSpawnEntriesThy_C
-CapMult68=1.3
-SpawnInterval68=10
-ContainerEdit69=DinoSpawnEntriesTitano_C
-CapMult69=5
-SpawnInterval69=10
-ContainerEdit70=DinoSpawnEntriesUnicorn_C
-CapMult70=1.3
-SpawnInterval70=10
-ContainerEdit71=DinoSpawnEntriesBeach_C
-CapMult71=1.3
-SpawnInterval71=10
-ContainerEdit72=DinoSpawnEntriesJungle_C
-CapMult72=1.3
-SpawnInterval72=10
-ContainerEdit73=DinoSpawnEntriesRedwoods_C
-CapMult73=1.3
-SpawnInterval73=10
-ContainerEdit74=DinoSpawnEntriesMountain_C
-CapMult74=1.3
-SpawnInterval74=10
-ContainerEdit75=DinoSpawnEntriesGrassland_C
-CapMult75=1.3
-SpawnInterval75=10
-ContainerEdit76=DinoSpawnEntriesSnow_C
-CapMult76=1.3
-SpawnInterval76=10
-ContainerEdit77=DinoSpawnEntriesMonsterIsland_C
-CapMult77=1.3
-SpawnInterval77=10
-ContainerEdit78=DinoSpawnEntriesSwamp_C
-CapMult78=1.3
-SpawnInterval78=10
-ContainerEdit79=DinoSpawnEntries_SwampWater_C
-CapMult79=1.3
-SpawnInterval79=10
-ContainerEdit80=DinoSpawnEntries_SwampWater_NoFish_C
-CapMult80=1.3
-SpawnInterval80=10
-ContainerEdit81=DinoSpawnEntriesSwampCave_C
-CapMult81=1.3
-SpawnInterval81=10
-ContainerEdit82=DinoSpawnEntriesDamiensAtoll_C
-CapMult82=1.3
-SpawnInterval82=10
-ContainerEdit83=DinoSpawnEntries_Ocean_C
-CapMult83=1.3
-SpawnInterval83=10
-ContainerEdit84=DinoSpawnEntries_DarkWaterAngler_C
-CapMult84=1.3
-SpawnInterval84=10
-ContainerEdit85=DinoSpawnEntries_InlandWater_C
-CapMult85=1.3
-SpawnInterval85=10
-ContainerEdit86=DinoSpawnEntries_RedwoodWater_C
-CapMult86=1.3
-SpawnInterval86=10
-ContainerEdit87=DinoSpawnEntries_ShallowWater_C
-CapMult87=1.3
-SpawnInterval87=10
-ContainerEdit88=DinoSpawnEntries_DeepWater_C
-CapMult88=1.3
-SpawnInterval88=10
-ContainerEdit89=DinoSpawnEntries_DarkWater_Plesia_C
-CapMult89=1.3
-SpawnInterval89=10
-ContainerEdit90=DinoSpawnEntriesCaveIceWater_C
-CapMult90=1.3
-SpawnInterval90=10
-ContainerEdit91=DinoSpawnEntriesIceCave_C
-CapMult91=1.3
-SpawnInterval91=10
-ContainerEdit92=LavaBeach_Spawn_C
-CapMult92=1.3
-SpawnInterval92=10
-ContainerEdit93=DinoSpawnEntriesJungle_Generic_C
-CapMult93=1.3
-SpawnInterval93=10
-ContainerEdit94=Lava_Spawn_C
-CapMult94=1.3
-SpawnInterval94=10
-ContainerEdit95=Lava_Upper_Spawn_C
-CapMult95=1.3
-SpawnInterval95=10
-ContainerEdit96=LavaWater_Spawn_C
-CapMult96=1.3
-SpawnInterval96=10
-ContainerEdit97=IceCaveWater_Spawner_C
-CapMult97=1.3
-SpawnInterval97=10
-ContainerEdit98=GrasslandsUnderArea_WaterSpawn_C
-CapMult98=1.3
-SpawnInterval98=10
-ContainerEdit99=SnowGrasslandsUnderArea_Spawn_C
-CapMult99=1.3
-SpawnInterval99=10
-ContainerEdit100=SnowGrasslands_Spawn_C
-CapMult100=1.3
-SpawnInterval100=10
-ContainerEdit101=SnowyMountain_Spawn_C
-CapMult101=1.3
-SpawnInterval101=10
-ContainerEdit102=CustomAnglerSpawner_C
-CapMult102=1.3
-SpawnInterval102=10
-ContainerEdit103=CustomPenguinSpawner_C
-CapMult103=1.3
-SpawnInterval103=10
-ContainerEdit104=DinoSpawnEntries_DeepWater_TheCenter_C
-CapMult104=1.3
-SpawnInterval104=10
-ContainerEdit105=DinoSpawnEntries_GenericWater_Generic_C
-CapMult105=1.3
-SpawnInterval105=10
-ContainerEdit106=DinoSpawnEntries_DarkWater_Generic_C
-CapMult106=1.3
-SpawnInterval106=10
-ContainerEdit107=DinoSpawnEntries_Ocean_Generic_C
-CapMult107=1.3
-SpawnInterval107=10
-ContainerEdit108=DinoSpawnEntries_ShallowWater_Generic_C
-CapMult108=1.3
-SpawnInterval108=10
-ContainerEdit109=UnderwaterCaveSpawn_C
-CapMult109=1.3
-SpawnInterval109=10
-ContainerEdit110=DinoSpawnEntries_OceanUnderworld_Generic_C
-CapMult110=1.3
-SpawnInterval110=10
-ContainerEdit111=SE_DinoSpawnEntriesCanyonCave_C
-CapMult111=1.3
-SpawnInterval111=10
-ContainerEdit112=SE_DinoSpawnEntriesMountainCave_C
-CapMult112=1.3
-SpawnInterval112=10
-ContainerEdit113=SE_DinoSpawnEntriesOasisCave_C
-CapMult113=1.3
-SpawnInterval113=10
-ContainerEdit114=SE_DinoSpawnEntriesTrenchCave_C
-CapMult114=1.3
-SpawnInterval114=10
-ContainerEdit115=SE_DinoSpawnEntries_RexSolo_C
-CapMult115=1.3
-SpawnInterval115=10
-ContainerEdit116=SE_DinoSpawnEntriesWater_C
-CapMult116=1.3
-SpawnInterval116=10
-ContainerEdit117=SE_DinoSpawnEntriesEZMode_C
-CapMult117=1.3
-SpawnInterval117=10
-ContainerEdit118=SE_DinoSpawnEntriesRuinsCave_C
-CapMult118=1.3
-SpawnInterval118=10
-ContainerEdit119=SE_DinoSpawnEntriesRuinsCaveNoGolem_C
-CapMult119=1.3
-SpawnInterval119=10
-ContainerEdit120=DinoSpawnEntries_Valguero_SnowForest_C
-CapMult120=1.3
-SpawnInterval120=10
-ContainerEdit121=DinoSpawnEntries_Valguero_SnowPlains_C
-CapMult121=1.3
-SpawnInterval121=10
-ContainerEdit122=DinoSpawnEntries_Valguero_Scotland_C
-CapMult122=1.3
-SpawnInterval122=10
-ContainerEdit123=DinoSpawnEntries_Valguero_IceDesert_C
-CapMult123=1.3
-SpawnInterval123=10
-ContainerEdit124=VAL_DinoSpawnEntries_TwitchFertileLand_Mix_C
-CapMult124=1.3
-SpawnInterval124=10
-ContainerEdit125=VAL_DinoSpawnEntries_TwitchBioWater_C
-CapMult125=1.3
-SpawnInterval125=10
-ContainerEdit126=DinoSpawnEntries_ChalkHills_C
-CapMult126=1.3
-SpawnInterval126=10
-ContainerEdit127=DinoSpawnEntries_ChalkHills_Plains_C
-CapMult127=1.3
-SpawnInterval127=10
-ContainerEdit128=DinoSpawnEntries_ChalkHills_Golem_C
-CapMult128=1.3
-SpawnInterval128=10
-ContainerEdit129=DinoSpawnEntriesGrassland_Generic_Valguero_C
-CapMult129=1.3
-SpawnInterval129=10
-ContainerEdit130=DinoSpawnEntriesJungle_Generic_Valguero_C
-CapMult130=1.3
-SpawnInterval130=10
-ContainerEdit131=DinoSpawnEntries_NormalLakeWater_C
-CapMult131=1.3
-SpawnInterval131=10
-ContainerEdit132=DinoSpawnEntriesSavana_C
-CapMult132=1.3
-SpawnInterval132=10
-ContainerEdit133=DinoSpawnEntriesTundra_C
-CapMult133=1.3
-SpawnInterval133=10
-ContainerEdit134=DinoSpawnEntries_SmallLakeNoPiranha_C
-CapMult134=1.3
-SpawnInterval134=10
-ContainerEdit135=DinoSpawnEntries_SmallLakeWithPiranha_C
-CapMult135=1.3
-SpawnInterval135=10
-ContainerEdit136=DinoSpawnEntriesWater_C
-CapMult136=1.3
-SpawnInterval136=10
-ContainerEdit137=Val_DinoSpawnEntries_DrakeTrench_C
-CapMult137=1.3
-SpawnInterval137=10
-ContainerEdit138=Val_DinoSpawnEntriesWyvernTrench_C
-CapMult138=1.3
-SpawnInterval138=10
-ContainerEdit139=Val_FireWyvernEntries_C
-CapMult139=1.3
-SpawnInterval139=10
-ContainerEdit140=Valguero_DinoSpawnEntries_Fish_JustFish_C
-CapMult140=1.3
-SpawnInterval140=10
-ContainerEdit141=Valguero_DinoSpawnEntries_MiltonSpot_C
-CapMult141=1.3
-SpawnInterval141=10
-ContainerEdit142=Valguero_IceWyvernEntries_C
-CapMult142=1.3
-SpawnInterval142=10
-ContainerEdit143=AB_DinoSpawnEntries_TwitchFertileWater_C
-CapMult143=1.3
-SpawnInterval143=10
-ContainerEdit144=AB_DinoSpawnEntries_TwitchFertileWaterEasy_C
-CapMult144=1.3
-SpawnInterval144=10
-ContainerEdit145=AB_DinoSpawnEntries_TwitchFertileLand_C
-CapMult145=1.3
-SpawnInterval145=10
-ContainerEdit146=AB_DinoSpawnEntries_TwitchFertileLandEasy_C
-CapMult146=1.3
-SpawnInterval146=10
-ContainerEdit147=AB_DinoSpawnEntries_FertileCave_C
-CapMult147=1.3
-SpawnInterval147=10
-ContainerEdit148=AB_DinoSpawnEntries_TwitchFertileWaterCave3_C
-CapMult148=1.3
-SpawnInterval148=10
-ContainerEdit149=AB_DinoSpawnEntries_BioLumCave_C
-CapMult149=1.3
-SpawnInterval149=10
-ContainerEdit150=AB_DinoSpawnEntries_BioCaveWater_C
-CapMult150=1.3
-SpawnInterval150=10
-ContainerEdit151=AB_DinoSpawnEntries_TwitchBioWater_C
-CapMult151=1.3
-SpawnInterval151=10
-ContainerEdit152=AB_DinoSpawnEntries_TwitchBioLand_C
-CapMult152=1.3
-SpawnInterval152=10
-ContainerEdit153=AB_DinoSpawnEntries_ElementalChamber_C
-CapMult153=1.3
-SpawnInterval153=10
-ContainerEdit154=AB_DinoSpawnEntries_DrakeTrench_C
-CapMult154=1.3
-SpawnInterval154=10
-ContainerEdit155=AB_DinoSpawnEntries_Fasolas_C
-CapMult155=1.3
-SpawnInterval155=10
-ContainerEdit156=AB_DinoSpawnEntries_Megalania_C
-CapMult156=1.3
-SpawnInterval156=10
-ContainerEdit157=AB_DinoSpawnEntries_FireLions_C
-CapMult157=1.3
-SpawnInterval157=10
-ContainerEdit158=AB_DinoSpawnEntries_ElementCave_C
-CapMult158=1.3
-SpawnInterval158=10
-ContainerEdit159=AB_DinoSpawnEntries_ElementWater_C
-CapMult159=1.3
-SpawnInterval159=10
-ContainerEdit160=AB_DinoSpawnEntries_XenoQueens_C
-CapMult160=1.3
-SpawnInterval160=10
-ContainerEdit161=AB_DinoSpawnEntries_Xenos_C
-CapMult161=1.3
-SpawnInterval161=10
-ContainerEdit162=AB_DinoSpawnEntries_RockDrake_C
-CapMult162=1.3
-SpawnInterval162=10
-ContainerEdit163=AB_DinoSpawnEntriesRockDrake_C
-CapMult163=1.3
-SpawnInterval163=10
-ContainerEdit164=SE_DinoSpawnEntries_ChupaCabraSurface_C
-CapMult164=1.3
-SpawnInterval164=10
-ContainerEdit165=AB_DinoSpawnEntries_OctoBat_C
-CapMult165=1.3
-SpawnInterval165=10
-ContainerEdit166=AB_DinoSpawnEntries_YiLing_C
-CapMult166=1.3
-SpawnInterval166=10
-ContainerEdit167=Ext_DinoSpawnEntries_DesertMountain_C
-CapMult167=1.3
-SpawnInterval167=10
-ContainerEdit168=Ext_DinoSpawnEntries_DesertOasis_C
-CapMult168=1.3
-SpawnInterval168=10
-ContainerEdit169=Ext_DinoSpawnEntries_DesertCave_C
-CapMult169=1.3
-SpawnInterval169=10
-ContainerEdit170=T_Ext_DinoSpawnEntriesSnow_1_C
-CapMult170=1.3
-SpawnInterval170=10
-ContainerEdit171=T_Ext_DinoSpawnEntriesSnow_Purlovia_C
-CapMult171=1.3
-SpawnInterval171=10
-ContainerEdit172=Ext_DinoSpawnEntries_Forest_C
-CapMult172=1.3
-SpawnInterval172=10
-ContainerEdit173=Ext_DinoSpawnEntries_ShallowWater_Ice_C
-CapMult173=1.3
-SpawnInterval173=10
-ContainerEdit174=DinoSpawnEntries_Wasteland_Sulfur_C
-CapMult174=1.3
-SpawnInterval174=10
-ContainerEdit175=DinoSpawnEntries_Wasteland_OilFields_C
-CapMult175=1.3
-SpawnInterval175=10
-ContainerEdit176=DinoSpawnEntries_Wasteland_OilFields_Fliers_C
-CapMult176=1.3
-SpawnInterval176=10
-ContainerEdit177=DinoSpawnEntries_Wasteland_Easy_C
-CapMult177=1.3
-SpawnInterval177=10
-ContainerEdit178=DinoSpawnEntries_Wasteland_Medium_C
-CapMult178=1.3
-SpawnInterval178=10
-ContainerEdit179=DinoSpawnEntries_Wasteland_Hard_C
-CapMult179=1.3
-SpawnInterval179=10
-ContainerEdit180=DinoSpawnEntries_Wasteland_North_C
-CapMult180=1.3
-SpawnInterval180=10
-ContainerEdit181=DinoSpawnEntries_Wasteland_South_C
-CapMult181=1.3
-SpawnInterval181=10
-ContainerEdit182=DinoSpawnEntries_Wasteland_ForbiddenZone_C
-CapMult182=1.3
-SpawnInterval182=10
-ContainerEdit183=DinoSpawnEntries_Wasteland_NorthCraterForest_C
-CapMult183=1.3
-SpawnInterval183=10
-ContainerEdit184=DinoSpawnEntries_Wasteland_SnowBuffer_C
-CapMult184=1.3
-SpawnInterval184=10
-ContainerEdit185=DinoSpawnEntries_Wasteland_DesertBuffer_C
-CapMult185=1.3
-SpawnInterval185=10
-ContainerEdit186=Ext_DinoSpawnEntries_ShallowWater_Cave_C
-CapMult186=1.3
-SpawnInterval186=10
-ContainerEdit187=Ext_DinoSpawnEntries_ShallowWater_Desert_C
-CapMult187=1.3
-SpawnInterval187=10
-ContainerEdit188=DinoSpawnEntriesQuetz_EX_C
-CapMult188=1.3
-SpawnInterval188=10
-ContainerEdit189=DinoSpawnEntries_CityCenter_C
-CapMult189=1.3
-SpawnInterval189=10
-ContainerEdit190=DinoSpawnEntries_ParkWater_C
-CapMult190=1.3
-SpawnInterval190=10
-ContainerEdit191=DinoSpawnEntries_ParkWater2_C
-CapMult191=1.3
-SpawnInterval191=10
-ContainerEdit192=DinoSpawnEntries_City_Park2_C
-CapMult192=1.3
-SpawnInterval192=10
-ContainerEdit193=DinoSpawnEntries_CityTier2_Fliers_C
-CapMult193=1.3
-SpawnInterval193=10
-ContainerEdit194=DinoSpawnEntries_CityTier2_Building_C
-CapMult194=1.3
-SpawnInterval194=10
-ContainerEdit195=DinoSpawnEntries_CityTier2_Building_DangerClose_C
-CapMult195=1.3
-SpawnInterval195=10
-ContainerEdit196=DinoSpawnEntries_Wasteland_City_Buffer_1_C
-CapMult196=1.3
-SpawnInterval196=10
-ContainerEdit197=DinoSpawnEntries_Wasteland_City_Buffer_2_C
-CapMult197=1.3
-SpawnInterval197=10
-ContainerEdit198=DinoSpawnEntries_CityCenter_DangerClose_C
-CapMult198=1.3
-SpawnInterval198=10
-ContainerEdit199=DinoSpawnEntries_City_Trench_C
-CapMult199=1.3
-SpawnInterval199=10
-ContainerEdit200=DinoSpawnEntries_CityObelisk_C
-CapMult200=1.3
-SpawnInterval200=10
-ContainerEdit201=T_Ext_DinoSpawnEntriesSnow_TEMP_C
-CapMult201=1.3
-SpawnInterval201=10
-ContainerEdit202=T_Ext_DinoSpawnEntriesSnow_TEMP2_C
-CapMult202=1.3
-SpawnInterval202=10
-ContainerEdit203=AB_DinoSpawnEntries_Basilisks_C
-CapMult203=1.3
-SpawnInterval203=10
-ContainerEdit204=DinoSpawnEntries_Cats_C
-CapMult204=1.3
-SpawnInterval204=10
-ContainerEdit205=DinoSpawnEntries_Deinonychus_C
-CapMult205=1.3
-SpawnInterval205=10
-ContainerEdit206=DinoSpawnEntries_Desmodus_LC_C
-CapMult206=1.3
-SpawnInterval206=10
-ContainerEdit207=DinoSpawnEntriesDarkPegasus_C
-CapMult207=1.3
-SpawnInterval207=10
-ContainerEdit208=DinoSpawnEntriesDreadnoughtus_C
-CapMult208=1.3
-SpawnInterval208=10
-ContainerEdit209=Ext_DinoSpawnEntries_Gacha_C
-CapMult209=1.3
-SpawnInterval209=10
-ContainerEdit210=DinoSpawnEntries_GrandTortugar_C
-CapMult210=1.3
-SpawnInterval210=10
-ContainerEdit211=DinoSpawnEntries_Megaraptor_C
-CapMult211=1.3
-SpawnInterval211=10
-ContainerEdit212=DinoSpawnEntriesChupa_C
-CapMult212=1.3
-SpawnInterval212=10
-ContainerEdit213=DinoSpawnEntriesRex_C
-CapMult213=1.3
-SpawnInterval213=10
-ContainerEdit214=DinoSpawnEntries_Ocean_Shasta_C
-CapMult214=1.3
-SpawnInterval214=10
-ContainerEdit215=DinoSpawnEntriesCave1_C
-CapMult215=1.3
-SpawnInterval215=10
-ContainerEdit216=DinoSpawnEntriesCave2-LowSpiderScorp_C
-CapMult216=1.3
-SpawnInterval216=10
-ContainerEdit217=DinoSpawnEntriesCave5_C
-CapMult217=1.3
-SpawnInterval217=10
-ContainerEdit218=/
-CapMult218=1.3
-SpawnInterval218=10
-ContainerEdit219=/
-CapMult219=1.3
-SpawnInterval219=10
-ContainerEdit220=/
-CapMult220=1.3
-SpawnInterval220=10
-ContainerEdit221=DinoSpawnEntriesCaveLava_C
-CapMult221=1.3
-SpawnInterval221=10
-ContainerEdit222=DinoSpawnEntriesGrassland_Astraeos_C
-CapMult222=1.3
-SpawnInterval222=10
-ContainerEdit223=AB_DinoSpawnEntries_BioCave_C
-CapMult223=1.3
-SpawnInterval223=10
-ContainerEdit224=DinoSpawnEntries_DeepWater_Ast_C
-CapMult224=1.3
-SpawnInterval224=10
-ContainerEdit225=DinoSpawnEntries_DucksSalmon_C
-CapMult225=1.3
-SpawnInterval225=10
-ContainerEdit226=DinoSpawnEntries_OvisAndHorses_C
-CapMult226=1.3
-SpawnInterval226=10
-ContainerEdit227=AST_DinoSpawnEntriesGreenDesert_C
-CapMult227=1.3
-SpawnInterval227=10
-ContainerEdit228=DinoSpawnEntries_Ocean_Generic_Ast_C
-CapMult228=1.3
-SpawnInterval228=10
-ContainerEdit229=DinoSpawnEntries_ScorpionKing_C
-CapMult229=1.3
-SpawnInterval229=10
-ContainerEdit230=DinoSpawnEntries_Skeletons_C
-CapMult230=1.3
-SpawnInterval230=10
-ContainerEdit231=Ext_DinoSpawnEntriesSnow_C
-CapMult231=1.3
-SpawnInterval231=10
-ContainerEdit232=DinoSpawnEntriesSnow_Astraeos_C
-CapMult232=1.3
-SpawnInterval232=10
-ContainerEdit233=DinoSpawnEntries_VolcanoCave_C
-CapMult233=1.3
-SpawnInterval233=10
-ContainerEdit234=DinoSpawnEntries_OceanCaveMedium_C
-CapMult234=1.3
-SpawnInterval234=10
-ContainerEdit235=DinoSpawnEntries_OceanCaveMedium_Generic_C
-CapMult235=1.3
-SpawnInterval235=10
-ContainerEdit236=DinoSpawnEntries_Caldera_LC_C
-CapMult236=1.3
-SpawnInterval236=10
-ContainerEdit237=DinoSpawnEntries_City_Caldera_1_C
-CapMult237=1.3
-SpawnInterval237=10
-ContainerEdit238=DinoSpawnEntries_City_Caldera_2_C
-CapMult238=1.3
-SpawnInterval238=10
-ContainerEdit239=DinoSpawnEntries_City_Interior
-CapMult239=1.3
-SpawnInterval239=10
-ContainerEdit240=DinoSpawnEntries_City_Perimeter_C
-CapMult240=1.3
-SpawnInterval240=10
-ContainerEdit241=DinoSpawnEntries_Dark_Forest_1_C
-CapMult241=1.3
-SpawnInterval241=10
-ContainerEdit242=DinoSpawnEntries_Dark_Forest_2_C
-CapMult242=1.3
-SpawnInterval242=10
-ContainerEdit243=DinoSpawnEntries_Dark_Mountain_C
-CapMult243=1.3
-SpawnInterval243=10
-ContainerEdit244=DinoSpawnEntries_Hotsprings_G_LC_C
-CapMult244=1.3
-SpawnInterval244=10
-ContainerEdit245=DinoSpawnEntries_Hotsprings_LC_C
-CapMult245=1.3
-SpawnInterval245=10
-ContainerEdit246=DinoSpawnEntries_Hotsprings_Outer_C
-CapMult246=1.3
-SpawnInterval246=10
-ContainerEdit247=DinoSpawnEntries_Mountain_LC_C
-CapMult247=1.3
-SpawnInterval247=10
-ContainerEdit248=DinoSpawnEntries_Tundra_1_C
-CapMult248=1.3
-SpawnInterval248=10
-ContainerEdit249=DinoSpawnEntries_Tundra_2_C
-CapMult249=1.3
-SpawnInterval249=10
-ContainerEdit250=DinoSpawnEntries_Tundra_Bowl_C
-CapMult250=1.3
-SpawnInterval250=10
-ContainerEdit251=DinoSpawnEntries_Tundra_Ridge_C
-CapMult251=1.3
-SpawnInterval251=10
-ContainerEdit252=DinoSpawnEntries_TW_Forest_1_C
-CapMult252=1.3
-SpawnInterval252=10
-ContainerEdit253=DinoSpawnEntries_TW_Forest_2_C
-CapMult253=1.3
-SpawnInterval253=10
-ContainerEdit254=DinoSpawnEntries_TW_Forest_Open_C
-CapMult254=1.3
-SpawnInterval254=10
-ContainerEdit255=DinoSpawnEntries_TW_Mountain_C
-CapMult255=1.3
-SpawnInterval255=10
-ContainerEdit256=DinoSpawnEntries_Valley_LC_C
-CapMult256=1.3
-SpawnInterval256=10
-ContainerEdit257=DinoSpawnEntries_Valley_Canyon_LC_C
-CapMult257=1.3
-SpawnInterval257=10
-ContainerEdit258=DinoSpawnEntries_ValleySnow_LC_C
-CapMult258=1.3
-SpawnInterval258=10
-ContainerEdit259=DinoSpawnEntries_ValleySnow_LC_Easy_C
-CapMult259=1.3
-SpawnInterval259=10
-ContainerEdit260=DinoSpawnEntries_AngelFox_ONLY_LC_C
-CapMult260=1.3
-SpawnInterval260=10
-ContainerEdit261=DinoSpawnEntries_Beavers_LC_C
-CapMult261=1.3
-SpawnInterval261=10
-ContainerEdit262=DinoSpawnEntries_BloodWater_LC_C
-CapMult262=1.3
-SpawnInterval262=10
-ContainerEdit263=DinoSpawnEntries_Tundra_Sauropod_C
-CapMult263=1.3
-SpawnInterval263=10
-ContainerEdit264=AB_DinoSpawnEntries_ChupaCabra_C
-CapMult264=1.3
-SpawnInterval264=10
-ContainerEdit265=DinoSpawnEntries_ElderClaw_LC_C
-CapMult265=1.3
-SpawnInterval265=10
-ContainerEdit266=DinoSpawnEntries_Glacier_LC_C
-CapMult266=1.3
-SpawnInterval266=10
-ContainerEdit267=DinoSpawnEntries_Hotsprings_Water_1_C
-CapMult267=1.3
-SpawnInterval267=10
-ContainerEdit268=DinoSpawnEntries_Hotsprings_Water_2_C
-CapMult268=1.3
-SpawnInterval268=10
-ContainerEdit269=DinoSpawnEntries_Lake_1_LC_C
-CapMult269=1.3
-SpawnInterval269=10
-ContainerEdit270=DinoSpawnEntries_Tundra_Megalania_C
-CapMult270=1.3
-SpawnInterval270=10
-ContainerEdit271=DinoSpawnEntries_Tundra_MegaRaptor_C
-CapMult271=1.3
-SpawnInterval271=10
-ContainerEdit272=DinoSpawnEntries_Tundra_Ossidon_C
-CapMult272=1.3
-SpawnInterval272=10
-ContainerEdit273=DinoSpawnEntries_Tundra_TREX_C
-CapMult273=1.3
-SpawnInterval273=10
-ContainerEdit274=DinoSpawnEntries_Water_LC_C
-CapMult274=1.3
-SpawnInterval274=10
-ContainerEdit275=DinoSpawnEntries_Water_River_LC_C
-CapMult275=1.3
-SpawnInterval275=10
-ContainerEdit276=DinoSpawnEntries_Water_Shallow_LC_C
-CapMult276=1.3
-SpawnInterval276=10
-ContainerEdit277=Gen1_Bog_Plains_DinoSpawnEntries_C
-CapMult277=1.3
-SpawnInterval277=10
-ContainerEdit278=Gen1_Bog_Forest_DinoSpawnEntries_C
-CapMult278=1.3
-SpawnInterval278=10
-ContainerEdit279=Gen1_Bog_Springs_DinoSpawnEntries_C
-CapMult279=1.3
-SpawnInterval279=10
-ContainerEdit280=Gen1_Bog_Water_DinoSpawnEntries_C
-CapMult280=1.3
-SpawnInterval280=10
-ContainerEdit281=Gen1_Bog_Canopy_DinoSpawnEntries_C
-CapMult281=1.3
-SpawnInterval281=10
-ContainerEdit282=Gen1_Bog_Spino_DinoSpawnEntries_C
-CapMult282=1.3
-SpawnInterval282=10
-ContainerEdit283=Gen1_Volcano_DinoSpawnEntries_C
-CapMult283=1.3
-SpawnInterval283=10
-ContainerEdit284=Gen1_Volcano_Cave_DinoSpawnEntries_C
-CapMult284=1.3
-SpawnInterval284=10
-ContainerEdit285=Gen1_Arctic_Forest_DinoSpawnEntries_C
-CapMult285=1.3
-SpawnInterval285=10
-ContainerEdit286=Gen1_Arctic_Forest_Nice_DinoSpawnEntries_C
-CapMult286=1.3
-SpawnInterval286=10
-ContainerEdit287=Gen1_Arctic_FrozenWater_DinoSpawnEntries_C
-CapMult287=1.3
-SpawnInterval287=10
-ContainerEdit288=Gen1_Arctic_Wastes_DinoSpawnEntries_C
-CapMult288=1.3
-SpawnInterval288=10
-ContainerEdit289=Gen1_OceanAboveWater_Land_DinoSpawnEntries_C
-CapMult289=1.3
-SpawnInterval289=10
-ContainerEdit290=Gen1_OceanShallow_DinoSpawnEntries_C
-CapMult290=1.3
-SpawnInterval290=10
-ContainerEdit291=Gen1_OceanDeep_DinoSpawnEntries_C
-CapMult291=1.3
-SpawnInterval291=10
-ContainerEdit292=Gen1_OceanLargerDinos_DinoSpawnEntries_C
-CapMult292=1.3
-SpawnInterval292=10
-ContainerEdit293=Gen1_Lunar_DinoSpawnEntries_C
-CapMult293=1.3
-SpawnInterval293=10
-ContainerEdit294=
-CapMult294=1.3
-SpawnInterval294=10
-ContainerEdit295=Gen1_Lunar_CaveWater_DinoSpawnEntries_Cave_C
-CapMult295=1.3
-SpawnInterval295=10
-ContainerEdit296=Gen1_Lunar_SpaceWhale_DinoSpawnEntries_C
-CapMult296=1.3
-SpawnInterval296=10
-ContainerEdit297=DinoSpawnEntriesBeach_Gen2_C
-CapMult297=1.3
-SpawnInterval297=10
-ContainerEdit298=DinoSpawnEntriesGrassland_Gen2_C
-CapMult298=1.3
-SpawnInterval298=10
-ContainerEdit299=DinoSpawnEntriesGrassland_Easy_Gen2_C
-CapMult299=1.3
-SpawnInterval299=10
-ContainerEdit300=DinoSpawnEntriesSlopedGrassland_Gen2_C
-CapMult300=1.3
-SpawnInterval300=10
-ContainerEdit301=DinoSpawnEntriesForest_Gen2_C
-CapMult301=1.3
-SpawnInterval301=10
-ContainerEdit302=DinoSpawnEntriesHardForest_Gen2_C
-CapMult302=1.3
-SpawnInterval302=10
-ContainerEdit303=DinoSpawnEntriesNiceJungle_Gen2_C
-CapMult303=1.3
-SpawnInterval303=10
-ContainerEdit304=DinoSpawnEntriesMeanJungle_Gen2_C
-CapMult304=1.3
-SpawnInterval304=10
-ContainerEdit305=DinoSpawnEntries_Corruption_Gen2_C
-CapMult305=1.3
-SpawnInterval305=10
-ContainerEdit306=DinoSpawnEntriesOceanWater_Gen2_C
-CapMult306=1.3
-SpawnInterval306=10
-ContainerEdit307=DinoSpawnEntriesOceanWaterDeep_Gen2_C
-CapMult307=1.3
-SpawnInterval307=10
-ContainerEdit308=DinoSpawnEntriesMountain_Easy_Gen2_C
-CapMult308=1.3
-SpawnInterval308=10
-ContainerEdit309=DinoSpawnEntriesMountain_Gen2_C
-CapMult309=1.3
-SpawnInterval309=10
-ContainerEdit310=DinoSpawnEntriesMountain_Hard_Gen2_C
-CapMult310=1.3
-SpawnInterval310=10
-ContainerEdit311=DinoSpawnEntriesMountain_VeryHard_Gen2_C
-CapMult311=1.3
-SpawnInterval311=10
-ContainerEdit312=DinoSpawnEntriesGardens_RiversLand_Gen2_C
-CapMult312=1.3
-SpawnInterval312=10
-ContainerEdit313=DinoSpawnEntriesRiverLand_Easy_Gen2_C
-CapMult313=1.3
-SpawnInterval313=10
-ContainerEdit314=DinoSpawnEntriesRiverLand_Medium_Gen2_C
-CapMult314=1.3
-SpawnInterval314=10
-ContainerEdit315=DinoSpawnEntriesRiverLand_Hard_Gen2_C
-CapMult315=1.3
-SpawnInterval315=10
-ContainerEdit316=DinoSpawnEntriesGardensMountain_Gen2_C
-CapMult316=1.3
-SpawnInterval316=10
-ContainerEdit317=DinoSpawnEntriesGardensMountain_North_Gen2_C
-CapMult317=1.3
-SpawnInterval317=10
-ContainerEdit318=DinoSpawnEntriesGardensMountain_Edges_Gen2_C
-CapMult318=1.3
-SpawnInterval318=10
-ContainerEdit319=DinoSpawnEntriesGardens_FootHills_Gen2_C
-CapMult319=1.3
-SpawnInterval319=10
-ContainerEdit320=DinoSpawnEntriesGardens_UpperHills1_C
-CapMult320=1.3
-SpawnInterval320=10
-ContainerEdit321=DinoSpawnEntriesGardens_UpperHills2_C
-CapMult321=1.3
-SpawnInterval321=10
-ContainerEdit322=DinoSpawnEntriesGardens_UpperHills3_C
-CapMult322=1.3
-SpawnInterval322=10
-ContainerEdit323=DinoSpawnEntriesGardens_UpperHills4_C
-CapMult323=1.3
-SpawnInterval323=10
-ContainerEdit324=DinoSpawnEntriesGardens_Plains_Gen2_C
-CapMult324=1.3
-SpawnInterval324=10
-ContainerEdit325=DinoSpawnEntriesGardens_TrenchForest_Gen2_C
-CapMult325=1.3
-SpawnInterval325=10
-ContainerEdit326=DinoSpawnEntriesGardens_TrenchBorder_Gen2_C
-CapMult326=1.3
-SpawnInterval326=10
-ContainerEdit327=DinoSpawnEntriesGardens_InnerRivers_Gen2_C
-CapMult327=1.3
-SpawnInterval327=10
-ContainerEdit328=DinoSpawnEntriesGardens_Swamps_Gen2_C
-CapMult328=1.3
-SpawnInterval328=10
-ContainerEdit329=DinoSpawnEntriesGardens_LakeBeaches_Gen2_C
-CapMult329=1.3
-SpawnInterval329=10
-ContainerEdit330=DinoSpawnEntries_GardensLake_Gen2_C
-CapMult330=1.3
-SpawnInterval330=10
-ContainerEdit331=DinoSpawnEntries_GardensLake_Water_Gen2_C
-CapMult331=1.3
-SpawnInterval331=10
-ContainerEdit332=DinoSpawnEntries_GardensSwamp_Water_Gen2_C
-CapMult332=1.3
-SpawnInterval332=10
-ContainerEdit333=DinoSpawnEntries_GardensWater_Gen2_C
-CapMult333=1.3
-SpawnInterval333=10
-ContainerEdit334=DinoSpawnEntriesSpinoWater_Gen2_C
-CapMult334=1.3
-SpawnInterval334=10
-ContainerEdit335=DinoSpawnEntriesWaterSpillways_Aquatic_Lake_C
-CapMult335=1.3
-SpawnInterval335=10
-ContainerEdit336=DinoSpawnEntriesWaterSpillways_Aquatic_C
-CapMult336=1.3
-SpawnInterval336=10
-ContainerEdit337=DinoSpawnEntriesWaterSpillways_Aquatic_Hard_C
-CapMult337=1.3
-SpawnInterval337=10
-ContainerEdit338=DinoSpawnEntriesWaterSpillways_Gen2_C
-CapMult338=1.3
-SpawnInterval338=10
-ContainerEdit339=DinoSpawnEntriesWaterSpillways_LargeWater_Gen2_C
-CapMult339=1.3
-SpawnInterval339=10
-ContainerEdit340=DinoSpawnEntries_EdenSharkTank_C
-CapMult340=1.3
-SpawnInterval340=10
-ContainerEdit341=DinoSpawnEntriesSpace_Gen2_C
-CapMult341=1.3
-SpawnInterval341=10
-ContainerEdit342=DinoSpawnEntriesBeach_LostIsland_C
-CapMult342=1.3
-SpawnInterval342=10
-ContainerEdit343=DinoSpawnEntriesSwamp_LostIsland_C
-CapMult343=1.3
-SpawnInterval343=10
-ContainerEdit344=DinoSpawnEntriesSwampWater_LostIsland_C
-CapMult344=1.3
-SpawnInterval344=10
-ContainerEdit345=DinoSpawnEntriesGrassland_LostIsland_C
-CapMult345=1.3
-SpawnInterval345=10
-ContainerEdit346=DinoSpawnEntriesGrassland_LostIsland_1_C
-CapMult346=1.3
-SpawnInterval346=10
-ContainerEdit347=DinoSpawnEntriesGrassland_LostIsland_2_C
-CapMult347=1.3
-SpawnInterval347=10
-ContainerEdit348=DinoSpawnEntriesJungle_LostIsland_C
-CapMult348=1.3
-SpawnInterval348=10
-ContainerEdit349=DinoSpawnEntriesDunes_LostIsland_C
-CapMult349=1.3
-SpawnInterval349=10
-ContainerEdit350=DinoSpawnEntriesBadlands_LostIsland_C
-CapMult350=1.3
-SpawnInterval350=10
-ContainerEdit351=DinoSpawnEntriesMountain_VeryHard_LostIsland_C
-CapMult351=1.3
-SpawnInterval351=10
-ContainerEdit352=DinoSpawnEntries_Volcano_LostIsland_C
-CapMult352=1.3
-SpawnInterval352=10
-ContainerEdit353=DinoSpawnEntriesSnow_LostIsland_C
-CapMult353=1.3
-SpawnInterval353=10
-ContainerEdit354=LostIsland_IceWyvernEntries_C
-CapMult354=1.3
-SpawnInterval354=10
-ContainerEdit355=DinoSpawnEntriesMountain1_C
-CapMult355=1.3
-SpawnInterval355=10
-ContainerEdit356=DinoSpawnEntriesDesertMountain_LostIsland_C
-CapMult356=1.3
-SpawnInterval356=10
-ContainerEdit357=DinoSpawnEntriesDesertOasis_LostIsland_C
-CapMult357=1.3
-SpawnInterval357=10
-ContainerEdit358=DinoSpawnEntriesGreenDesert_LostIsland_C
-CapMult358=1.3
-SpawnInterval358=10
-ContainerEdit359=DinoSpawnEntries_Steppe_C
-CapMult359=1.3
-SpawnInterval359=10
-ContainerEdit360=DinoSpawnEntries_CW_Emberfall_C
-CapMult360=1.3
-SpawnInterval360=10
-ContainerEdit361=CI_DinoSpawnEntries_ElementalChamber_C
-CapMult361=1.3
-SpawnInterval361=10
-ContainerEdit362=CI_DinoSpawnEntries_Bog_C
-CapMult362=1.3
-SpawnInterval362=10
-ContainerEdit363=CI_DinoSpawnEntries_EmberWyverns_C
-CapMult363=1.3
-SpawnInterval363=10
-ContainerEdit364=CI_DinoSpawnEntries_WaterTunnels_C
-CapMult364=1.3
-SpawnInterval364=10
-ContainerEdit365=CI_DinoSpawnEntries_FloatingIslands_Small_C
-CapMult365=1.3
-SpawnInterval365=10
-ContainerEdit366=CI_DinoSpawnEntries_FloatingIslands_Main_C
-CapMult366=1.3
-SpawnInterval366=10
-ContainerEdit367=CI_DinoSpawnEntries_DevilsWater_C
-CapMult367=1.3
-SpawnInterval367=10
-ContainerEdit368=CI_DinoSpawnEntries_PoohBears_C
-CapMult368=1.3
-SpawnInterval368=10
-ContainerEdit369=Fjo_DinoSpawnEntries_Fornland_C
-CapMult369=1.3
-SpawnInterval369=10
-ContainerEdit370=Fjo_Gen1_Bog_Springs_DinoSpawnEntries_C
-CapMult370=1.3
-SpawnInterval370=10
-ContainerEdit371=Fjordur_Volcano_DinoSpawnEntries_C
-CapMult371=1.3
-SpawnInterval371=10
-ContainerEdit372=DinoSpawnEntries_FallBiomeCave_C
-CapMult372=1.3
-SpawnInterval372=10
-ContainerEdit373=DinoSpawnEntries_Andrewsarchus_C
-CapMult373=1.3
-SpawnInterval373=10
-ContainerEdit374=Fjordur_IceWyvernEntries_C
-CapMult374=1.3
-SpawnInterval374=10
-ContainerEdit375=
-CapMult375=1.3
-SpawnInterval375=10
-ContainerEdit376=
-CapMult376=1.3
-SpawnInterval376=10
-ContainerEdit377=
-CapMult377=1.3
-SpawnInterval377=10
-ContainerEdit378=
-CapMult378=1.3
-SpawnInterval378=10
-ContainerEdit379=
-CapMult379=1.3
-SpawnInterval379=10
-ContainerEdit380=
-CapMult380=1.3
-SpawnInterval380=10
-ContainerEdit381=
-CapMult381=1.3
-SpawnInterval381=10
-ContainerEdit382=
-CapMult382=1.3
-SpawnInterval382=10
-ContainerEdit383=
-CapMult383=1.3
-SpawnInterval383=10
-ContainerEdit384=
-CapMult384=1.3
-SpawnInterval384=10
-ContainerEdit385=
-CapMult385=1.3
-SpawnInterval385=10
-ContainerEdit386=
-CapMult386=1.3
-SpawnInterval386=10
-ContainerEdit387=
-CapMult387=1.3
-SpawnInterval387=10
-ContainerEdit388=
-CapMult388=1.3
-SpawnInterval388=10
-ContainerEdit389=
-CapMult389=1.3
-SpawnInterval389=10
+
+Dearc: CN: Beach Generic EW: 0.075 SL: 0.3  CN: Rag Turtles EW: 0.05 SL: 0.22  CN: Rag Seagulls EW: 0.075 SL: 0.13 
+Inostrancevia: CN: Redwoods Generic EW: 0.04 SL: 0.1  CN: SE Mountain EW: 0.04 SL: 0.1 
+Tek Inostrancevia:
+Nasutoceratops: CN: Grasslands Generic EW: 0.05 SL: 0.13  CN: Damien Generic EW: 0.05 SL: 0.1 
+Neimongosaurus: CN: Grasslands Generic EW: 0.025 SL: 0.35  CN: Damien Generic EW: 0.025 SL: 0.2  CN: Rag Center EW: 0.025 SL: 0.2 
+Neovenator: CN: SE Wyvern Trench EW: 0.025 SL: 0.04 
+Postosuchus: CN: Redwoods Generic EW: 0.075 SL: 0.2  CN: SE Canyons EW: 0.075 SL: 0.2 
+Pyroraptor: CN: Monster Isl Generic EW: 0.06 SL: 0.1  CN: Mountain Generic EW: 0.15 SL: 0.1  CN: SE Badlands EW: 0.125 SL: 0.125 
+Siamosaurus: CN: Beach Generic EW: 0.025 SL: 0.1 
+Tsintaosaurus: CN: Beach Generic EW: 0.125 SL: 0.25  CN: SE Oasis EW: 0.025 SL: 0.1 
+Yangchuanosaurus: CN: Mountain Generic EW: 0.05 SL: 0.2  CN: Snow Generic EW: 0.05 SL: 0.2 
+Anzu: CN: Grasslands Generic EW: 0.06 SL: 0.1  CN: SE Green Desert EW: 0.025 SL: 0.1 
+Baculites: CN: DeepWater Gen EW: 0.3 SL: 0.15 
+Genyodectes: CN: SE Mountain EW: 0.05 SL: 0.1  CN: SE Wyvern Trench EW: 0.05 SL: 0.1  CN: Rag Bison EW: 0.05 SL: 0.1 
+Jiangjunosaurus: CN: Monster Isl Generic EW: 0.025 SL: /  CN: Mountain Generic EW: 0.025 SL: / 
+Lualabaea: CN: Rag Ocean EW: 0.05 SL: 0.1 
+Mapusaurus: CN: Monster Isl Generic EW: 0.025 SL: 0.12  CN: Mountain Generic EW: 0.025 SL: 0.12  CN: Rag Golem EW: 0.05 SL: 0.1 
+Ornithocheirus: CN: InlandWater Generic EW: 0.3 SL: 0.12  CN: Pelican EW: 1 SL: 0.06 
+Ouranosaurus: CN: Swamp Water Generic EW: 0.05 SL: 0.16 
+Tek Ouranosaurus:
+Paraxenisaurus: CN: Swamp Water Generic EW: 0.01 SL: 0.05  CN: InlandWater Generic EW: 0.4 SL: 0.12 
+Zuniceratops: CN: Grasslands Generic EW: 0.1 SL: 0.22  CN: RedW Water Generic EW: 0.05 SL: 0.1  CN: Rag Water Generic EW: 0.05 SL: 0.1  CN: Rag Center EW: 0.05 SL: 0.1 
+Axelrodichthys: CN: InlandWater Generic EW: 0.05 SL: 0.1  CN: Rag Water Generic EW: 0.05 SL: 0.1  CN: Rag Center EW: 0.03 SL: 0.1 
+Cryodrakon: CN: Snow Generic EW: 0.04 SL: 0.03  CN: Rag Polar Bear EW: 0.04 SL: 0.10  CN: Rag Ice 1 Wyvern EW: 0.04 SL: 0.15 
+Dolichorhynchops: CN: DarkWater Angler Generic EW: 0.06 SL: 0.1  CN: Rag Ocean EW: 0.06 SL: 0.1 
+Giant Sea Slug: CN: DeepWater Gen EW: 1 SL: 0.14 
+Hainosaurus: CN: Rag Deep Water EW: 0.06 SL: 0.1  CN: DeepWater Gen EW: 0.2 SL: 0.12 
+Koolasuchus: CN: Snow Generic EW: 0.075 SL: 0.03  CN: InlandWater Generic EW: 0.075 SL: 0.2 
+Tek Koolasuchus:
+Lythronax: CN: Monster Isl Generic EW: 0.1 SL: 0.15  CN: Snow Generic EW: 0.1 SL: 0.15  CN: Rag SnowForest EW: 0.06 SL: 0.1  CN: Rag SnowPlains EW: 0.06 SL: 0.1 
+Pinacosaurus: CN: Damien Generic EW: 0.1 SL: 0.15  CN: Rag SnowForest EW: 0.06 SL: 0.1  CN: SE Oasis EW: 0.04 SL: 0.1  CN: Rag Center EW: 0.06 SL: 0.1  CN: Megalania EW: 0.06 SL: 0.1 
+Prionosuchus: CN: Rag Deep Water EW: 0.04 SL: 0.1  CN: DeepWater Gen EW: 0.85 SL: 0.12 
+Saltasaurus: CN: Grasslands Generic EW: 0.03 SL: 0.1  CN: Damien Generic EW: 0.075 SL: 0.15  CN: SE Badlands EW: 0.04 SL: 0.1 
+Acheroraptor: CN: Rag Mudslide EW: 0.06 SL: 0.1 
+Dilong: CN: Snow Generic EW: 0.03 SL: 0.1  CN: Dreadmare EW: 0.06 SL: 0.1 
+Dracovenator: CN: Rag Golem EW: 0.06 SL: 0.1 
+Hyneria: CN: Rag Deep Water EW: 0.075 SL: 0.1  CN: DarkWater Angler Generic EW: 0.075 SL: 0.1  CN: DeepWater Gen EW: 0.15 SL: 0.15 
+Kelenken: CN: SE Badlands EW: 0.075 SL: 0.1  CN: SE Canyons EW: 0.075 SL: 0.1 
+Lirainosaurus: CN: Rag Jungle EW: 0.03 SL: 0.1  CN: Rag Scotland EW: 0.075 SL: 0.1  CN: Damien Generic EW: 0.075 SL: 0.1 
+Tek Lirainosaurus:
+Massospondylus: CN: Rag Scotland EW: 0.075 SL: 0.1  CN: SE Badlands EW: 0.08 SL: 0.2  CN: SE Oasis EW: 0.06 SL: 0.1  CN: Gigantoraptor EW: 0.06 SL: 0.1 
+Scelidosaurus: CN: Beach Generic EW: 0.08 SL: 0.22  CN: Rag Turtles EW: 0.06 SL: 0.1  CN: Rag Monkey Island EW: 0.08 SL: 0.22 
+Thresher Shark: CN: DarkWater Angler Generic EW: 0.06 SL: 0.1  CN: DeepWater Gen EW: 0.15 SL: /  CN: Rag Ocean EW: 0.06 SL: 0.1 
+Venenosaurus: CN: Swamp Generic EW: 0.07 SL: 0.1  CN: Megalania EW: 0.07 SL: 0.1 
+Angulomastacator: CN: Rag Center EW: 0.075 SL: 0.1  CN: Gigantoraptor EW: 0.07 SL: 0.1 
+EdmontosaurusAnatosaurus: CN: Grasslands Generic EW: 0.15 SL: 0.08  CN: Rag Bison EW: 0.07 SL: 0.1 
+Eotriceratops: CN: Redwoods Generic EW: 0.07 SL: 0.1  CN: SE Green Desert EW: 0.1 SL: 0.08  CN: SE Wyvern Trench EW: 0.07 SL: 0.1 
+Gandakasia: CN: Beach Generic EW: 0.1 SL: 0.12  CN: InlandWater Generic EW: 0.25 SL: 0.11  CN: RedW Water Generic EW: 0.07 SL: 0.1  CN: Rag Water Generic EW: 0.07 SL: 0.1 
+Tek Gandakasia:
+Gomphotherium: CN: Rag Scotland EW: 0.07 SL: 0.1  CN: Rag SnowForest EW: 0.07 SL: 0.1  CN: Rag SnowPlains EW: 0.07 SL: 0.1 
+Haasts Eagle: CN: SE Green Desert EW: 0.075 SL: 0.1  CN: Dreadmare EW: 0.075 SL: 0.1 
+Purussaurus: CN: InlandWater Generic EW: 0.04 SL: 0.06  CN: Rag Water Generic EW: 0.075 SL: 0.1  CN: Rag CenterWater EW: 0.075 SL: 0.1 
+Sinornithoides: CN: Rag Jungle EW: 0.075 SL: 0.1  CN: Rag Center EW: 0.075 SL: 0.1  CN: Rag Monkey Island EW: 0.075 SL: 0.1 
+Drakyros:
+Alpha Drakyros:
+WAK SpinosaurusIchthyovenator: CN: Monster Isl Generic EW: 0.007 SL: 0.095  CN: SE Oasis EW: 0.02 SL: 0.02 
+Hatzegopteryx: CN: Mountain Generic EW: 0.0385 SL: 0.088  CN: SE Mountain EW: 0.022 SL: 0.044 
+Cryoraptor: CN: Snow Generic EW: 0.02 SL: 0.05 
+Venoraptor: CN: Swamp Water Generic EW: 0.07 SL: 0.1  CN: Rag Swamp Wyvern EW: 0.005 SL: 0.05 
+Hydrovanta: CN: Rag Ocean EW: 0.075 SL: 0.1 
+Atlas Flying FoxPteropus: CN: Rag Jungle EW: 0.025 SL: 0.025  CN: Redwoods Generic EW: 0.025 SL: 0.025  CN: Rag Center EW: 0.025 SL: 0.025 
+Atlas KodiakKolponomos: CN: Rag SnowForest EW: 0.015 SL: 0.015  CN: Rag SnowPlains EW: 0.015 SL: 0.015 
+RazortoothDryptosaurus: CN: Mountain Generic EW: 0.06 SL: 0.1  CN: Redwoods Generic EW: 0.01 SL: 0.01  CN: Rag Center EW: 0.01 SL: 0.01 
+Savage HammerheadMesozygaena: CN: Rag Deep Water EW: 0.025 SL: 0.025  CN: DeepWater Gen EW: 0.025 SL: 0.025  CN: Rag Ocean EW: 0.025 SL: 0.025 
+Shieldhorn: CN: Rag Jungle EW: 0.025 SL: 0.025  CN: Redwoods Generic EW: 0.025 SL: 0.025  CN: SE Green Desert EW: 0.03 SL: 0.03  CN: Rag Center EW: 0.025 SL: 0.025 
+AtlasuchusMekosuchus: CN: SE Badlands EW: 0.075 SL: 0.1  CN: SE Canyons EW: 0.15 SL: 0.1  CN: InlandWater Generic EW: 0.4 SL: 0.1  CN: RedW Water Generic EW: 0.15 SL: 0.1  CN: Rag Water Generic EW: 0.075 SL: 0.1 
+Grand Tortugar: CN: SE Canyons EW: 0.03 SL: 0.03  CN: Rag Golem EW: 0.075 SL: 0.1  CN: InlandWater Generic EW: 0.03 SL: 0.03 
+Jackrabbit: CN: Rag Jungle EW: 0.075 SL: 0.1  CN: Grasslands Generic EW: 0.15 SL: 0.1  CN: Damien Generic EW: 0.15 SL: 0.1  CN: Snow Generic EW: 0.2 SL: 0.1  CN: Rag SnowForest EW: 0.075 SL: 0.1  CN: SE Green Desert EW: 0.15 SL: 0.1  CN: SE Oasis EW: 0.15 SL: 0.1 
+OstrichMoa: CN: Rag Scotland EW: 0.075 SL: 0.1  CN: SE Green Desert EW: 0.15 SL: 0.1  CN: SE Oasis EW: 0.075 SL: 0.1 
+SeahorseHippocampus: CN: DarkWater Angler Generic EW: 0.075 SL: 0.1  CN: DeepWater Gen EW: 0.2 SL: 0.1  CN: Rag Ocean EW: 0.075 SL: 0.1 
+CobraPalaeophis: CN: SE Dunes EW: 0.04 SL: 0.1  CN: SE Mountain EW: 0.04 SL: 0.05  CN: SE Wyvern Trench EW: 0.04 SL: 0.1 
+DolphinKentriodon: CN: Rag Ocean EW: 0.075 SL: 0.1 
+Gentle WhaleMaiabalaena: CN: Rag Ocean EW: 0.09 SL: 0.1 
+MarlinNyoomarlin: CN: Rag Deep Water EW: 0.04 SL: 0.1  CN: Rag Ocean EW: 0.075 SL: 0.1 
+Mean WhaleAlbicetus: CN: Rag Deep Water EW: 0.09 SL: 0.1  CN: DeepWater Gen EW: 0.15 SL: 0.1 
+RattlesnakeWonambi: CN: Mountain Generic EW: 0.04 SL: 0.08  CN: Swamp Generic EW: 0.05 SL: 0.1  CN: SE Mountain EW: 0.056 SL: 0.08 
+Anguilla:
+Centropristis:
+Silurus:
+Thunnus:
+Livyathan: CN: Rag Deep Water EW: 0.1 SL: 0.0001  CN: Rag Ocean EW: 0.1 SL: 0.0001  CN: Dark Water EW: 0.5 SL: 0.1 
+Gigantophis: CN: Rag Jungle EW: 0.004 SL: 0.005  CN: Rag Scotland EW: 0.004 SL: 0.005  CN: SE Dunes EW: 0.004 SL: 0.005 
+Sulphur Titan: CN: Mountain Generic EW: 0.05 SL: 0.008  CN: SE Dunes EW: 0.03 SL: 0.005  CN: Rag Golem EW: 0.03 SL: 0.005  CN: Giganotosaurus EW: 0.04 SL: 0.01 
+Edmontonia: CN: Grasslands Generic EW: 0.0275 SL: 0.025  CN: Mountain Generic EW: 0.0235 SL: 0.0175  CN: Redwoods Generic EW: 0.0285 SL: 0.0175  CN: SE Dunes EW: 0.0025 SL: 0.015  CN: SE Green Desert EW: 0.02 SL: 0.035 
+Anomalocaris: CN: DeepWater Gen EW: 0.03 SL: 0.1 
+Alpha Anomalocaris:
+Cricosaurus: CN: Rag Ocean EW: 0.075 SL: 0.1  CN: Rag Lobster EW: 0.075 SL: 0.1 
+DraconyxCallovosaurus: CN: Beach Generic EW: 0.1 SL: 0.1  CN: Rag Jungle EW: 0.1 SL: 0.1  CN: Grasslands Generic EW: 0.1 SL: 0.1  CN: SE Green Desert EW: 0.25 SL: 0.1 
+Scotoharpes: CN: Beach Generic EW: 0.5 SL: 0.025  CN: SE Oasis EW: 0.065 SL: 0.02  CN: Rag Deep Water EW: 1 SL: 0.05  CN: DarkWater Angler Generic EW: 0.075 SL: 0.1  CN: DeepWater Gen EW: 1 SL: 0.05  CN: Dark Water EW: 1 SL: 0.05 
+Bombardier Beetle: CN: Rag Jungle EW: 0.03 SL: 0.05  CN: Redwoods Generic EW: 0.07 SL: 0.075  CN: Swamp Water Generic EW: 0.07 SL: 0.075  CN: SE Badlands EW: 0.07 SL: 0.075  CN: SE Green Desert EW: 0.07 SL: 0.075 
+Blaze Beetle: CN: Redwoods Generic EW: 0.007 SL: 0.075  CN: SE Badlands EW: 0.007 SL: 0.075  CN: SE Green Desert EW: 0.007 SL: 0.075 
+Blister Beetle: CN: Redwoods Generic EW: 0.007 SL: 0.075  CN: Swamp Water Generic EW: 0.007 SL: 0.075  CN: SE Badlands EW: 0.007 SL: 0.075  CN: SE Green Desert EW: 0.007 SL: 0.075 
+Lycosuchus: CN: Rag Jungle EW: 0.055 SL: 0.1  CN: Rag Scotland EW: 0.055 SL: 0.1  CN: Redwoods Generic EW: 0.055 SL: 0.1  CN: Rag Center EW: 0.055 SL: 0.1 
+Adasaurus: CN: Rag Jungle EW: 0.055 SL: 0.1  CN: Rag Center EW: 0.075 SL: 0.1  CN: Megalania EW: 0.075 SL: 0.1 
+TyrannosaurusThanatotheristes:
+Alpha TyrannosaurusAlpha Thanatotheristes:
+Tek TyrannosaurusTek Thanatotheristes:
+EVO GiganotosaurusTaurovenator:
+EVO MosasaurPrognathodon:
+Alpha MosasaurAlpha Prognathodon:
+EVO TherizinosaurusEnigmosaurus:
+Alpha TherizinosaurusAlpha Enigmosaurus:
+CryptoclidusKimmerosaurus: CN: Pelican EW: 1.0 SL: 1.0 
+Obelisk squidObelisk Squid: CN: Pelican EW: 1.0 SL: 1.0 
+Bungartius: CN: Rag Ocean EW: 1 SL: 0.2 
+Empirosaurus: CN: SE Canyons EW: 0.02 SL: 0.05  CN: SE Dunes EW: 0.01 SL: 0.05 
+Ledumahadi: CN: SE Badlands EW: 0.02 SL: 0.1  CN: SE Mountain EW: 0.03 SL: 0.08 
+Charnia: CN: Rag Deep Water EW: 0.1 SL: /  CN: DeepWater Gen EW: 0.1 SL: /  CN: Rag Ocean EW: 0.1 SL: /  CN: InlandWater Generic EW: 0.1 SL: / 
+Dickinsonia: CN: Rag Deep Water EW: 0.005 SL: 1.0  CN: DarkWater Angler Generic EW: 0.005 SL: 1.0  CN: Rag Ocean EW: 0.005 SL: 1.0  CN: Dark Water EW: 0.1 SL: 0.1 
+Enantiophoenix: CN: Damien Generic EW: 0.01 SL: /  CN: Redwoods Generic EW: 0.05 SL: /  CN: SE Oasis EW: 0.005 SL: /  CN: Rag Center EW: 0.002 SL: 10 
+Megistotherium: CN: Rag Scotland EW: 0.01 SL: /  CN: Monster Isl Generic EW: 0.03 SL: /  CN: Snow Generic EW: 0.04 SL: /  CN: Rag SnowForest EW: 0.02 SL: /  CN: Rag SnowPlains EW: 0.008 SL: /  CN: SE Badlands EW: 0.03 SL: / 
+Meiolania: CN: Beach Generic EW: 0.01 SL: /  CN: Rag Jungle EW: 0.15 SL: /  CN: Grasslands Generic EW: 0.01 SL: /  CN: Rag Scotland EW: 0.15 SL: /  CN: Damien Generic EW: 0.01 SL: /  CN: SE Green Desert EW: 0.075 SL: 0.1  CN: Rag Center EW: 0.06 SL: / 
+Mischoptera: CN: Rag Jungle EW: 0.01 SL: /  CN: Swamp Generic EW: 0.4 SL: /  CN: Swamp Water Generic EW: 0.075 SL: 0.1 
+Nesonektris: CN: Rag Deep Water EW: 0.1 SL: /  CN: DarkWater Angler Generic EW: 0.075 SL: 0.1  CN: DeepWater Gen EW: 0.167 SL: /  CN: Rag Ocean EW: 0.067 SL: /  CN: InlandWater Generic EW: 0.1 SL: / 
+Shenzianyuloma: CN: Rag Deep Water EW: 0.1 SL: /  CN: DarkWater Angler Generic EW: 0.075 SL: 0.1  CN: DeepWater Gen EW: 0.167 SL: /  CN: Rag Ocean EW: 0.067 SL: /  CN: InlandWater Generic EW: 0.1 SL: / 
+Vetulicola: CN: Rag Deep Water EW: 0.1 SL: /  CN: DarkWater Angler Generic EW: 0.075 SL: 0.1  CN: DeepWater Gen EW: 0.167 SL: /  CN: Rag Ocean EW: 0.067 SL: /  CN: InlandWater Generic EW: 0.1 SL: / 
+Yuyuanozoon: CN: Rag Deep Water EW: 0.1 SL: /  CN: DarkWater Angler Generic EW: 0.075 SL: 0.1  CN: DeepWater Gen EW: 0.167 SL: /  CN: Rag Ocean EW: 0.067 SL: /  CN: InlandWater Generic EW: 0.1 SL: / 
+Camarillasaurus: CN: Rag Jungle EW: 0.04 SL: 0.1  CN: Swamp Generic EW: 0.04 SL: 0.1  CN: Rag Turtles EW: 0.04 SL: 0.1 
+Kurupi: CN: Rag Scotland EW: 0.04 SL: 0.1  CN: Redwoods Generic EW: 0.02 SL: / 
+Titanophoneus: CN: Mountain Generic EW: 0.04 SL: 0.1  CN: Redwoods Generic EW: 0.1 SL: /  CN: SE Wyvern Trench EW: 0.04 SL: 0.1 
+Taniwhasaurus: CN: Rag Deep Water EW: 0.075 SL: 0.1  CN: Rag Ocean EW: 0.075 SL: 0.1 
+AcrophyseterZygophyseter: CN: DarkWater Angler Generic EW: 0.075 SL: 0.1  CN: DeepWater Gen EW: 0.05 SL: 0.025 
+Ambulocetus: CN: Pelican EW: 0.4 SL: 0.25 
+AnomalocarisLenisicaris: CN: Rag Deep Water EW: 0.075 SL: 0.1  CN: DarkWater Angler Generic EW: 0.12 SL: 0.025  CN: DeepWater Gen EW: 0.12 SL: 0.035  CN: Rag Lobster EW: 0.075 SL: 0.1  CN: Dark Water EW: 0.12 SL: 0.025 
+Bothrilepis: CN: Rag Deep Water EW: 0.075 SL: 0.1  CN: DarkWater Angler Generic EW: 0.075 SL: 0.1  CN: DeepWater Gen EW: 0.2 SL: 0.05 
+Diadema: CN: Rag Deep Water EW: 0.03 SL: 0.04  CN: DarkWater Angler Generic EW: 0.03 SL: 0.04  CN: DeepWater Gen EW: 0.03 SL: 0.04  CN: Rag Ocean EW: 0.03 SL: 0.04 
+Edestus: CN: DarkWater Angler Generic EW: 0.075 SL: 0.1  CN: Dark Water EW: 0.46 SL: 0.25 
+Henodus: CN: Swamp Generic EW: 0.125 SL: 0.2  CN: InlandWater Generic EW: 0.3 SL: 0.1  CN: RedW Water Generic EW: 0.075 SL: 0.1  CN: Rag Water Generic EW: 0.075 SL: 0.1 
+Lepidotes: CN: Rag Ocean EW: 0.075 SL: 0.1 
+Materpiscis: CN: RedW Water Generic EW: 0.075 SL: 0.1  CN: Rag Water Generic EW: 0.075 SL: 0.1 
+Protoceratops: CN: Beach Generic EW: 0.1 SL: 0.09  CN: SE Badlands EW: 0.1 SL: 0.09  CN: SE Canyons EW: 0.1 SL: 0.09  CN: SE Green Desert EW: 0.1 SL: 0.09 
+Saurichthys: CN: Rag Deep Water EW: 0.04 SL: 0.06  CN: DeepWater Gen EW: 0.15 SL: 0.055  CN: Rag Ocean EW: 0.075 SL: 0.1  CN: Dark Water EW: 0.12 SL: 0.025 
+Sphyrna: CN: Rag Deep Water EW: 0.075 SL: 0.1  CN: DeepWater Gen EW: 0.3 SL: 0.05  CN: Rag Ocean EW: 0.04 SL: 0.06 
+Stethacanthus: CN: DarkWater Angler Generic EW: 0.075 SL: 0.1  CN: DeepWater Gen EW: 0.1 SL: 0.08  CN: Dark Water EW: 0.12 SL: 0.025 
+Europasaurus: CN: Rag Scotland EW: 0.06 SL: 0.025 
+Dinocrocuta: CN: SE Badlands EW: 0.075 SL: 0.1  CN: SE Canyons EW: 0.6 SL: 1.0  CN: SE Dunes EW: 0.3 SL: 1.0  CN: SE Mountain EW: 0.075 SL: 0.1 
+Smilodon: CN: Mountain Generic EW: 0.04 SL: 0.06 
+Arctic Fox: CN: Rag SnowForest EW: 0.04 SL: 0.06  CN: Rag SnowPlains EW: 0.075 SL: 0.1 
+Greater Arctic Fox: CN: Rag SnowForest EW: 0.04 SL: 0.06  CN: Rag SnowPlains EW: 0.075 SL: 0.1 
+Globster: CN: SE Wyvern Trench EW: 0.075 SL: 0.1 
+Tatzelwurm: CN: Cave 1 Generic EW: 0.045 SL: / 
+Dracoteuthis: CN: Rag Golem EW: 0.06 SL: 0.1 
+Draconis Glaucus: CN: Rag Ocean EW: 0.025 SL: 0.01 
+Alpha Draconis Glaucus:
+Skyshroud Drakara: CN: Mountain Generic EW: 0.0125 SL: 0.04  CN: Mountain Generic EW: 0.025 SL: 0.04  CN: SE Green Desert EW: 0.025 SL: 0.04  CN: SE Mountain EW: 0.025 SL: 0.04  CN: SE Oasis EW: 0.02 SL: 0.04  CN: Rag Center EW: 0.025 SL: 0.04  CN: Gigantoraptor EW: 0.025 SL: 0.04 
+Arctic Drakara: CN: Snow Generic EW: 0.025 SL: 0.04  CN: Rag SnowPlains EW: 0.025 SL: 0.04 
+Bloodfang Drakara: CN: SE Wyvern Trench EW: 0.035 SL: 0.04  CN: Rag Center EW: 0.025 SL: 0.04  CN: Gigantoraptor EW: 0.025 SL: 0.04 
+Myths Drakra: CN: Snow Generic EW: 0.025 SL: 0.04  CN: Rag SnowPlains EW: 0.025 SL: 0.04  CN: Rag Center EW: 0.01 SL: 0.02 
+Pyro Drakara: CN: SE Mountain EW: 0.025 SL: 0.04  CN: SE Oasis EW: 0.006 SL: 0.04  CN: SE Oasis EW: 0.025 SL: 0.04  CN: Rag Center EW: 0.025 SL: 0.04  CN: Gigantoraptor EW: 0.025 SL: / 
+Tropical Drakara:
+Atokirina:
+Mudshieldfish:
+Oxalaia: CN: Swamp Generic EW: 0.015 SL: 0.015  CN: SE Canyons EW: 0.015 SL: 0.015  CN: SE Oasis EW: 0.015 SL: 0.015  CN: InlandWater Generic EW: 0.015 SL: 0.015  CN: Rag CenterWater EW: 0.015 SL: 0.015 
+Spearcrest: CN: Monster Isl Generic EW: 0.015 SL: 0.015  CN: Mountain Generic EW: 0.015 SL: 0.015  CN: SE Mountain EW: 0.015 SL: 0.015 
+Suchomimus Male:
+Suchomimus Female:
+Alpha Suchomimus:
+Tylosaurus: CN: DarkWater Angler Generic EW: 0.075 SL: 0.1  CN: DeepWater Gen EW: 0.14 SL: 0.12  CN: Rag Ocean EW: 0.04 SL: 0.00005 
+Nothosaurus: CN: Beach Generic EW: 0.05 SL: 0.002  CN: Rag Jungle EW: 0.2 SL: 0.005  CN: RedW Water Generic EW: 0.04 SL: 0.05  CN: Rag Water Generic EW: 0.04 SL: 0.05 
+Rubidgea: CN: Rag Bison EW: 0.075 SL: 0.1 
+Giant SpinoIrritator: CN: Swamp Generic EW: 0.075 SL: 0.1  CN: InlandWater Generic EW: 0.006 SL: 0.01 
+Torvosaurus: CN: Monster Isl Generic EW: 0.03 SL: 0.05  CN: SE Mountain EW: 0.04 SL: 0.05 
+Saurophaganax: CN: Monster Isl Generic EW: 0.0125 SL: 0.05  CN: Mountain Generic EW: 0.04 SL: 0.05 
+Shonisaurus: CN: Rag Ocean EW: 0.04 SL: 0.05  CN: DarkWater Mosa EW: 0.5 SL: 0.5 
+Vectispinus: CN: Rag Center EW: 0.075 SL: 0.05 
+Antrodemus: CN: Rag Scotland EW: 0.01 SL: 0.05  CN: Rag Scotland EW: 0.04 SL: 0.05  CN: Rag Center EW: 0.02 SL: 0.05 
+Eocarcharia: CN: Rag Jungle EW: 0.0175 SL: 0.06  CN: Grasslands Generic EW: 0.0175 SL: 0.06  CN: Rag Scotland EW: 0.0175 SL: 0.06  CN: Rag Center EW: 0.0175 SL: 0.06 
+Daemonis: CN: Snow Generic EW: 0.05 SL: 0.05  CN: Rag SnowForest EW: 0.04 SL: 0.05  CN: Rag Bison EW: 0.01 SL: 0.05  CN: Rag Center EW: 0.04 SL: 0.05 
+Dzungariotherium: CN: Grasslands Generic EW: 0.02 SL: 0.05  CN: Redwoods Generic EW: 0.02 SL: 0.05  CN: Swamp Generic EW: 0.02 SL: 0.05  CN: Rag Center EW: 0.01 SL: 0.05  CN: Rag Griffin EW: 0.04 SL: 0.05 
+Male Bastion Beetle: CN: Rag Jungle EW: 0.025 SL: 0.025  CN: Grasslands Generic EW: 0.025 SL: 0.025  CN: Redwoods Generic EW: 0.025 SL: 0.025 
+Female Bastion Beetle: CN: Rag Jungle EW: 0.025 SL: 0.025  CN: Grasslands Generic EW: 0.025 SL: 0.025  CN: Redwoods Generic EW: 0.025 SL: 0.025 
+Bastion Larvae: CN: Rag Jungle EW: 0.025 SL: 0.025  CN: Grasslands Generic EW: 0.025 SL: 0.025  CN: Redwoods Generic EW: 0.025 SL: 0.025  CN: SE Badlands EW: 0.025 SL: 0.025  CN: SE Dunes EW: 0.025 SL: 0.025  CN: SE Mountain EW: 0.025 SL: 0.025  CN: SE Oasis EW: 0.025 SL: 0.025 
+Tyrannodominator: CN: Rag Scotland EW: 0.02 SL: /  CN: Rag Scotland EW: 0.02 SL: 0.04  CN: Redwoods Generic EW: 0.0075 SL: /  CN: Redwoods Generic EW: 0.02 SL: 0.04  CN: Rag Center EW: 0.0075 SL: /  CN: Rag Griffin EW: 0.04 SL: 0.05 
+Sanguivern: CN: SE Wyvern Trench EW: 0.05 SL: 0.05 
+Hapipalus: CN: Rag SnowPlains EW: 0.05 SL: 0.05  CN: Rag Polar Bear EW: 0.05 SL: 0.05  CN: InlandWater Generic EW: 0.025 SL: 0.025 
+Desolatitan: CN: Giganotosaurus EW: 1.0 SL: 1.0 
+Astral Wyvern: CN: SE Wyverns EW: 0.33 SL: 0.33 
+Corrosion Wyvern: CN: SE Wyverns EW: 0.33 SL: 0.33 
+Seratine Wyvern: CN: SE Wyverns EW: 0.33 SL: 0.33 
+Monolophosaurus: CN: Rag Jungle EW: 0.035 SL: 0.03  CN: Redwoods Generic EW: 0.03 SL: 0.03  CN: Rag Center EW: 0.03 SL: 0.03 
+Noxcalvasaurus: CN: Rag Jungle EW: 0.02 SL: 0.02  CN: Redwoods Generic EW: 0.02 SL: 0.02  CN: SE Badlands EW: 0.02 SL: 0.02  CN: Rag Center EW: 0.02 SL: 0.02 
+Royal ArchaeopteryxYixianosaurus: CN: Redwoods Generic EW: 0.035 SL: 0.035  CN: SE Green Desert EW: 0.035 SL: 0.035  CN: Rag Center EW: 0.035 SL: 0.035 
+Diploceraspis: CN: Swamp Generic EW: 0.04 SL: 0.04  CN: SE Canyons EW: 0.02 SL: 0.02  CN: InlandWater Generic EW: 0.02 SL: 0.02  CN: RedW Water Generic EW: 0.04 SL: 0.04  CN: Rag Water Generic EW: 0.04 SL: 0.04 
+Dryosaurus: CN: Rag Jungle EW: 0.02 SL: 0.02  CN: SE Green Desert EW: 0.03 SL: 0.03  CN: SE Oasis EW: 0.03 SL: 0.03 
+Hector's Dolphin: CN: Rag Ocean EW: 0.1 SL: 0.06 
+Ichthyostega: CN: Swamp Generic EW: 0.04 SL: 0.04  CN: SE Canyons EW: 0.02 SL: 0.02  CN: InlandWater Generic EW: 0.02 SL: 0.02  CN: Rag CenterWater EW: 0.04 SL: 0.04 
+Onchopristis: CN: Rag Deep Water EW: 0.09 SL: 0.06  CN: DarkWater Angler Generic EW: 0.06 SL: 0.05  CN: DeepWater Gen EW: 0.09 SL: 0.06  CN: Rag Ocean EW: 0.09 SL: 0.06 
+Pakasuchus: CN: Beach Generic EW: 0.02 SL: 0.02  CN: Rag Jungle EW: 0.02 SL: 0.02  CN: SE Green Desert EW: 0.03 SL: 0.03  CN: SE Oasis EW: 0.03 SL: 0.03 
+Platyoposaurus: CN: Swamp Generic EW: 0.03 SL: 0.03  CN: SE Canyons EW: 0.02 SL: 0.02  CN: InlandWater Generic EW: 0.03 SL: 0.03  CN: Rag CenterWater EW: 0.03 SL: 0.03 
+Whatcheeria: CN: Swamp Generic EW: 0.03 SL: 0.03  CN: SE Canyons EW: 0.02 SL: 0.02  CN: InlandWater Generic EW: 0.015 SL: 0.015  CN: RedW Water Generic EW: 0.03 SL: 0.03  CN: Rag Water Generic EW: 0.03 SL: 0.03 
+Acrophyseter: CN: DarkWater Angler Generic EW: 0.06 SL: 0.05  CN: DeepWater Gen EW: 0.06 SL: 0.05  CN: Rag Ocean EW: 0.06 SL: 0.05 
+Arganodus: CN: InlandWater Generic EW: 0.03 SL: 0.03  CN: RedW Water Generic EW: 0.03 SL: 0.03 
+Chinlea: CN: RedW Water Generic EW: 0.03 SL: 0.03  CN: Rag Water Generic EW: 0.03 SL: 0.03 
+Cryptoclidus: CN: DeepWater Gen EW: 0.06 SL: 0.05  CN: Rag Ocean EW: 0.06 SL: 0.05 
+EdestusLestrodus: CN: DarkWater Angler Generic EW: 0.06 SL: 0.06  CN: DeepWater Gen EW: 0.03 SL: 0.03  CN: Dark Water EW: 0.06 SL: 0.06 
+Goliath Tigerfish: CN: Swamp Water Generic EW: 0.025 SL: 0.025  CN: InlandWater Generic EW: 0.025 SL: 0.025  CN: Rag Water Generic EW: 0.025 SL: 0.025 
+Goonch Catfish: CN: RedW Water Generic EW: 0.03 SL: 0.03  CN: Rag Water Generic EW: 0.025 SL: 0.025 
+HelicoprionSarcoprion: CN: DarkWater Angler Generic EW: 0.06 SL: 0.06  CN: DeepWater Gen EW: 0.03 SL: 0.03  CN: Dark Water EW: 0.06 SL: 0.06 
+Humboldt Squid: CN: Rag Deep Water EW: 0.04 SL: 0.04  CN: DarkWater Angler Generic EW: 0.03 SL: 0.03  CN: DeepWater Gen EW: 0.04 SL: 0.04  CN: Rag Ocean EW: 0.04 SL: 0.04  CN: Rag Lobster EW: 0.03 SL: 0.03 
+Hydrotherosaurus: CN: DarkWater Angler Generic EW: 0.03 SL: 0.03  CN: DeepWater Gen EW: 0.05 SL: 0.05  CN: Rag Ocean EW: 0.05 SL: 0.05 
+Leopard Seal: CN: Penguins EW: 0.01 SL: 0.01 
+Lungfish: CN: InlandWater Generic EW: 0.03 SL: 0.03  CN: RedW Water Generic EW: 0.03 SL: 0.03 
+Mawsonia: CN: RedW Water Generic EW: 0.02 SL: 0.02  CN: Rag Water Generic EW: 0.02 SL: 0.02 
+Ophthalmosaurus: CN: Rag Deep Water EW: 0.05 SL: 0.05  CN: DeepWater Gen EW: 0.05 SL: 0.05  CN: Rag Ocean EW: 0.05 SL: 0.05 
+Orca: CN: Rag Ocean EW: 0.035 SL: 0.04 
+Piraiba Catfish: CN: Swamp Water Generic EW: 0.025 SL: 0.025  CN: InlandWater Generic EW: 0.025 SL: 0.025  CN: RedW Water Generic EW: 0.025 SL: 0.025 
+Protostega: CN: Rag Ocean EW: 0.045 SL: 0.045 
+TylosaurusKhinjaria: CN: Rag Deep Water EW: 0.0225 SL: 0.0175  CN: DarkWater Angler Generic EW: 0.03 SL: 0.03  CN: DeepWater Gen EW: 0.0225 SL: 0.0175  CN: Rag Ocean EW: 0.0225 SL: 0.0175 
+Walrus: CN: Penguins EW: 0.04 SL: 0.04 
+Aerosteon: CN: Rag Jungle EW: 0.01 SL: 0.01  CN: Redwoods Generic EW: 0.015 SL: 0.015  CN: SE Badlands EW: 0.015 SL: 0.01  CN: Rag Center EW: 0.015 SL: 0.015 
+Albertosaurus: CN: Redwoods Generic EW: 0.03 SL: 0.03  CN: Snow Generic EW: 0.03 SL: 0.03  CN: Rag SnowForest EW: 0.03 SL: 0.03  CN: Rag SnowPlains EW: 0.03 SL: 0.03  CN: SE Badlands EW: 0.03 SL: 0.03  CN: Rag Center EW: 0.03 SL: 0.03 
+Angaturama: CN: Rag Jungle EW: 0.02 SL: 0.02  CN: Grasslands Generic EW: 0.02 SL: 0.02  CN: Mountain Generic EW: 0.02 SL: 0.01  CN: Redwoods Generic EW: 0.02 SL: 0.02  CN: Swamp Generic EW: 0.035 SL: 0.035  CN: SE Badlands EW: 0.02 SL: 0.02  CN: SE Canyons EW: 0.02 SL: 0.02  CN: SE Green Desert EW: 0.02 SL: 0.02  CN: SE Mountain EW: 0.015 SL: 0.01  CN: SE Oasis EW: 0.02 SL: 0.02  CN: InlandWater Generic EW: 0.02 SL: 0.02  CN: Rag Center EW: 0.02 SL: 0.02 
+Anteosaurus: CN: SE Badlands EW: 0.035 SL: 0.035  CN: SE Mountain EW: 0.035 SL: 0.035 
+Apatosaurus: CN: Grasslands Generic EW: 0.015 SL: 0.02  CN: SE Dunes EW: 0.015 SL: 0.015  CN: SE Green Desert EW: 0.01 SL: 0.02  CN: SE Oasis EW: 0.015 SL: 0.015 
+Austroraptor: CN: Beach Generic EW: 0.04 SL: 0.04  CN: RedW Water Generic EW: 0.015 SL: 0.015  CN: Rag Water Generic EW: 0.015 SL: 0.015 
+Brachauchenius: CN: Rag Deep Water EW: 0.025 SL: 0.02  CN: DeepWater Gen EW: 0.025 SL: 0.02  CN: Rag Ocean EW: 0.025 SL: 0.02 
+Cedarosaurus: CN: Redwoods Generic EW: 0.03 SL: 0.03  CN: Rag Center EW: 0.03 SL: 0.03 
+Chungkingosaurus: CN: Swamp Generic EW: 0.03 SL: 0.03  CN: Gigantoraptor EW: 0.03 SL: 0.03 
+Deinocheirus: CN: Swamp Generic EW: 0.01 SL: 0.01  CN: SE Canyons EW: 0.01 SL: 0.01  CN: SE Oasis EW: 0.01 SL: 0.01 
+Deltadromeus: CN: Beach Generic EW: 0.03 SL: 0.03  CN: SE Canyons EW: 0.03 SL: 0.03  CN: SE Oasis EW: 0.03 SL: 0.03 
+Diabloceratops: CN: Mountain Generic EW: 0.015 SL: 0.015  CN: SE Badlands EW: 0.015 SL: 0.015  CN: SE Mountain EW: 0.015 SL: 0.015 
+Edmontosaurus: CN: Grasslands Generic EW: 0.03 SL: 0.03  CN: Redwoods Generic EW: 0.03 SL: 0.03  CN: Snow Generic EW: 0.03 SL: 0.03  CN: Rag SnowForest EW: 0.03 SL: 0.03  CN: Rag SnowPlains EW: 0.03 SL: 0.03  CN: Rag Center EW: 0.03 SL: 0.03 
+Epanterias: CN: Rag Scotland EW: 0.025 SL: 0.025  CN: Monster Isl Generic EW: 0.025 SL: 0.025  CN: SE Dunes EW: 0.0125 SL: 0.02  CN: SE Green Desert EW: 0.025 SL: 0.025  CN: SE Wyvern Trench EW: 0.025 SL: 0.025 
+Erythrosaurus: CN: Rag Jungle EW: 0.025 SL: 0.025  CN: Grasslands Generic EW: 0.025 SL: 0.025  CN: Monster Isl Generic EW: 0.025 SL: 0.025  CN: Redwoods Generic EW: 0.025 SL: 0.025  CN: SE Badlands EW: 0.025 SL: 0.025  CN: SE Green Desert EW: 0.025 SL: 0.025  CN: Rag Center EW: 0.025 SL: 0.025  CN: Megalania EW: 0.03 SL: 0.03 
+Eryops: CN: Swamp Generic EW: 0.02 SL: 0.02  CN: Swamp Water Generic EW: 0.04 SL: 0.02  CN: SE Canyons EW: 0.04 SL: 0.02  CN: SE Oasis EW: 0.03 SL: 0.02  CN: InlandWater Generic EW: 0.02 SL: 0.02  CN: Megalania EW: 0.03 SL: 0.03 
+Fasolasuchus LoricatusRauisuchus: CN: SE Badlands EW: 0.01 SL: 0.02  CN: SE Mountain EW: 0.015 SL: 0.02  CN: Rag Golem EW: 0.015 SL: 0.02 
+Gargoyleosaurus: CN: Grasslands Generic EW: 0.02 SL: 0.02  CN: Rag Scotland EW: 0.02 SL: 0.02  CN: Damien Generic EW: 0.02 SL: 0.02  CN: SE Green Desert EW: 0.03 SL: 0.03 
+Gigatitan: CN: SE Dunes EW: 0.05 SL: 0.05 
+Hadal Dragonfish: CN: Rag Deep Water EW: 0.05 SL: 0.05  CN: DarkWater Angler Generic EW: 0.04 SL: 0.04  CN: Dark Water EW: 0.04 SL: 0.04 
+Horned Nurse Shark: CN: Rag Deep Water EW: 0.07 SL: 0.07  CN: DeepWater Gen EW: 0.07 SL: 0.07  CN: Rag Ocean EW: 0.07 SL: 0.07 
+Iguanacolossus: CN: Rag Jungle EW: 0.04 SL: 0.035  CN: Grasslands Generic EW: 0.035 SL: 0.035  CN: Redwoods Generic EW: 0.035 SL: 0.035  CN: Rag Center EW: 0.035 SL: 0.035 
+InostranceviaPravoslavlevia: CN: SE Canyons EW: 0.04 SL: 0.05  CN: SE Green Desert EW: 0.04 SL: 0.05  CN: SE Oasis EW: 0.04 SL: 0.05  CN: Rag Center EW: 0.02 SL: 0.025 
+Kaikaifilu: CN: Rag Ocean EW: 0.03 SL: 0.03  CN: InlandWater Generic EW: 0.02 SL: 0.03  CN: RedW Water Generic EW: 0.02 SL: 0.03  CN: Rag Water Generic EW: 0.02 SL: 0.03 
+Magnapaulia: CN: SE Dunes EW: 0.025 SL: 0.025  CN: SE Green Desert EW: 0.01 SL: 0.01  CN: Rag Center EW: 0.015 SL: 0.015  CN: Rag CenterWater EW: 0.02 SL: 0.03 
+Ogre Darner: CN: Rag Jungle EW: 0.015 SL: 0.015  CN: Mountain Generic EW: 0.025 SL: 0.025  CN: Redwoods Generic EW: 0.025 SL: 0.025  CN: SE Green Desert EW: 0.025 SL: 0.025 
+Phosphatodraco: CN: Beach Generic EW: 0.025 SL: 0.025  CN: SE Canyons EW: 0.025 SL: 0.025  CN: Rag Monkey Island EW: 0.025 SL: 0.025  CN: Rag Jerboa EW: 0.025 SL: 0.025 
+Skorpiovenator: CN: Rag Jungle EW: 0.035 SL: 0.035  CN: Redwoods Generic EW: 0.035 SL: 0.035  CN: SE Green Desert EW: 0.025 SL: 0.025  CN: Rag Bison EW: 0.025 SL: 0.025  CN: Rag Center EW: 0.035 SL: 0.035 
+Squalicorax: CN: RedW Water Generic EW: 0.025 SL: 0.025  CN: Rag Water Generic EW: 0.025 SL: 0.025 
+SuchomimusRiparovenator: CN: Swamp Generic EW: 0.015 SL: 0.015  CN: SE Canyons EW: 0.02 SL: 0.015  CN: SE Oasis EW: 0.02 SL: 0.015  CN: InlandWater Generic EW: 0.015 SL: 0.015 
+Tarchia: CN: Mountain Generic EW: 0.025 SL: 0.025  CN: SE Badlands EW: 0.025 SL: 0.025  CN: SE Green Desert EW: 0.025 SL: 0.025  CN: SE Mountain EW: 0.025 SL: 0.025  CN: SE Oasis EW: 0.025 SL: 0.025 
+Torosaurus: CN: Grasslands Generic EW: 0.035 SL: 0.035  CN: SE Green Desert EW: 0.03 SL: 0.03  CN: InlandWater Generic EW: 0.03 SL: 0.03  CN: RedW Water Generic EW: 0.03 SL: 0.03  CN: Rag Water Generic EW: 0.03 SL: 0.03  CN: Rag Bison EW: 0.03 SL: 0.03 
+Tyrannomimus: CN: SE Canyons EW: 0.03 SL: 0.03  CN: SE Oasis EW: 0.03 SL: 0.03 
+Tyrannotitan: CN: Grasslands Generic EW: 0.0125 SL: 0.0125  CN: Monster Isl Generic EW: 0.0125 SL: 0.0125  CN: Mountain Generic EW: 0.0125 SL: 0.0125  CN: SE Green Desert EW: 0.0125 SL: 0.0125  CN: SE Mountain EW: 0.0125 SL: 0.0125 
+Vallibonavenatrix: CN: Beach Generic EW: 0.01 SL: 0.01  CN: Rag Deep Water EW: 0.035 SL: 0.035  CN: DeepWater Gen EW: 0.035 SL: 0.035  CN: Rag Ocean EW: 0.035 SL: 0.035  CN: Rag CenterWater EW: 0.03 SL: 0.03 
+Alpha Vallibonavenatrix:
+Xuanhanosaurus: CN: Rag Scotland EW: 0.05 SL: 0.05  CN: Monster Isl Generic EW: 0.03 SL: 0.03  CN: Mountain Generic EW: 0.03 SL: 0.03  CN: SE Badlands EW: 0.03 SL: 0.03  CN: SE Mountain EW: 0.03 SL: 0.03 
+YangchuanosaurusShidaisaurus: CN: Rag Scotland EW: 0.05 SL: 0.05  CN: Damien Generic EW: 0.05 SL: 0.05  CN: Monster Isl Generic EW: 0.03 SL: 0.03  CN: Mountain Generic EW: 0.025 SL: 0.025  CN: SE Badlands EW: 0.025 SL: 0.025  CN: SE Mountain EW: 0.025 SL: 0.025 
+Plateosaurus: CN: Rag Jungle EW: 0.15 SL: 0.1  CN: Rag Scotland EW: 0.15 SL: 0.1 
+Diamantinasaurus: CN: Rag Scotland EW: 0.055 SL: 0.06  CN: Redwoods Generic EW: 0.055 SL: 0.06 
+Muttaburrasaurus: CN: Rag Jungle EW: 0.0225 SL: 0.035  CN: Rag Scotland EW: 0.015 SL: 0.025  CN: Damien Generic EW: 0.03 SL: 0.03 
+Minmi: CN: Beach Generic EW: 0.1 SL: 0.1 
+Argentinosaurus: CN: Titanosaur EW: 1.0 SL: 0.5 
+Majungasaurus: CN: SE Green Desert EW: 0.03 SL: 0.03  CN: SE Mountain EW: 0.03 SL: 0.03  CN: Rag Center EW: 0.04 SL: /  CN: Rag Griffin EW: 0.03 SL: 0.03 
+Walliserops: CN: Beach Generic EW: 0.09 SL: /  CN: SE Canyons EW: 0.07 SL: /  CN: SE Oasis EW: 0.03 SL: 0.03 
+Barsboldia: CN: SE Canyons EW: 0.01 SL: 0.05  CN: SE Green Desert EW: 0.0225 SL: 0.075  CN: SE Oasis EW: 0.0225 SL: 0.075 
+Sivatherium: CN: Rag Jungle EW: 0.03 SL: 0.03  CN: Rag Scotland EW: 0.03 SL: 0.03  CN: Damien Generic EW: 0.03 SL: 0.03  CN: SE Badlands EW: 0.04 SL: 0.04 
+Cockatrice: CN: SE Dunes EW: 0.02 SL: 0.02 
+Brachiosaurus: CN: Grasslands Generic EW: 0.0425 SL: 0.015  CN: Rag Scotland EW: 0.03 SL: 0.03  CN: Damien Generic EW: 0.03 SL: 0.03 
+Meraxes: CN: Rag Scotland EW: 0.02 SL: 0.05  CN: Redwoods Generic EW: 0.04 SL: 0.09  CN: Rag SnowForest EW: 0.03 SL: 0.05 
+Runic Quartz Wyvern: CN: SE Badlands EW: 0.06 SL: 0.06  CN: Rag Griffin EW: 0.03 SL: 0.03  CN: Rag Turtles EW: 0.02 SL: 0.02  CN: Rag Monkey Island EW: 0.02 SL: 0.02  CN: Rag Jerboa EW: 0.02 SL: 0.02 
+Runic Lantern Halo Wyvern: CN: Rag Jungle EW: 0.03 SL: 0.03  CN: SE Green Desert EW: 0.03 SL: 0.03  CN: SE Mountain EW: 0.03 SL: 0.03  CN: Rag Griffin EW: 0.02 SL: 0.02  CN: Rag Turtles EW: 0.03 SL: 0.03  CN: Rag Monkey Island EW: 0.03 SL: 0.03  CN: Rag Jerboa EW: 0.03 SL: 0.03 
+Styracosaurus: CN: Rag Scotland EW: 0.05 SL: 0.075  CN: Rag SnowForest EW: 0.05 SL: 0.075  CN: Rag SnowPlains EW: 0.05 SL: 0.075 
+Stygimoloch: CN: Beach Generic EW: 0.05 SL: 0.1  CN: Snow Generic EW: 0.05 SL: 0.075  CN: Rag SnowForest EW: 0.05 SL: 0.075 
+Skjaldastordr AnkyloAnodontosaurus: CN: SE Wyvern Trench EW: 0.05 SL: 0.06  CN: Rag Turtles EW: 0.05 SL: 0.06 
+Pygmy HippoProminatherium: CN: Rag Turtles EW: 0.1 SL: 0.1  CN: Rag Jerboa EW: 0.03 SL: 0.04 
+Gargant SpinoSigilmassasaurus:
+Red Panda: CN: Rag Jungle EW: 0.03 SL: 0.04  CN: Rag Scotland EW: 0.003 SL: 0.003  CN: Damien Generic EW: 0.02 SL: 0.03  CN: Rag Bison EW: 0.003 SL: 0.003  CN: Gigantoraptor EW: 0.02 SL: 0.03 
+Thorax Spider: CN: Rag Jungle EW: 0.07 SL: 0.08  CN: SE Dunes EW: 0.07 SL: 0.08  CN: Rag Golem EW: 0.07 SL: 0.08  CN: Megalania EW: 0.035 SL: 0.08 
+Magna Gecko: CN: Gigantoraptor EW: 0.02 SL: 0.03  CN: Rag Monkey Island EW: 0.02 SL: 0.03  CN: Rag Jerboa EW: 0.02 SL: 0.03 
+Husky Wolf:
+Stegotetrabelodon: CN: Rag Scotland EW: 0.007 SL: 0.005  CN: SE Dunes EW: 0.01 SL: 0.01 
+GingerpithecusCapuchin:
+Star GeckoGekko: CN: Rag Jungle EW: 0.02 SL: 0.03  CN: Rag Scotland EW: 0.02 SL: 0.03 
+Star PenguinPalaeeudyptes: CN: Penguins EW: 0.5 SL: 0.5 
+Star LeatherwingLeatherwing: CN: SE Oasis EW: 0.1 SL: 0.1 
+Star CrowCorvus: CN: SE Badlands EW: 0.02 SL: 0.03  CN: SE Canyons EW: 0.02 SL: 0.03  CN: SE Mountain EW: 0.1 SL: 0.1 
+BaculiteEohamites: CN: DarkWater Angler Generic EW: 0.04 SL: 0.05  CN: DeepWater Gen EW: 0.04 SL: 0.05  CN: Rag Ocean EW: 0.25 SL: /  CN: Rag CenterWater EW: 0.2 SL: /  CN: Rag Shark Fish EW: 0.15 SL: /  CN: Dark Water EW: 0.25 SL: / 
+Dugong: CN: DeepWater Gen EW: 0.04 SL: 0.05  CN: Rag Ocean EW: 0.12 SL: 0.08  CN: Rag CenterWater EW: 0.04 SL: 0.05 
+Medichelon: CN: DeepWater Gen EW: 0.04 SL: 0.05  CN: Rag Ocean EW: 0.18 SL: 0.08  CN: Rag CenterWater EW: 0.1 SL: 0.08 
+Galvarex: CN: Snow Generic EW: 0.01 SL: 0.02  CN: Rag Polar Bear EW: 0.04 SL: 0.05  CN: SE Dunes EW: 0.025 SL: 0.025 
+Alpha Galvarex:
+Royal Owl Griffin: CN: Snow Generic EW: 0.0125 SL: 0.1  CN: SE Oasis EW: 0.0125 SL: 0.1 
+Radiant Owl Griffin: CN: Snow Generic EW: 0.0125 SL: 0.1  CN: SE Mountain EW: 0.0125 SL: 0.1 
+Nyctatyrannus Rex: CN: SE Mountain EW: 0.03 SL: 0.03 
+Nyctatyrannus Imperator: CN: SE Dunes EW: 0.05 SL: 0.05  CN: SE Mountain EW: 0.03 SL: 0.03 
+Nyctatyrannus Echidne: CN: SE Mountain EW: 0.02 SL: 0.02  CN: SE Mountain EW: 0.03 SL: 0.03  CN: SE Oasis EW: 0.075 SL: 0.05 
+Paddletail SpinoRiojavenatrix: CN: RedW Water Generic EW: 0.03 SL: 0.03  CN: Rag CenterWater EW: 0.049 SL: 0.02 
+Orycterocetus: CN: Rag Deep Water EW: 0.03 SL: 0.03  CN: DarkWater Angler Generic EW: 0.03 SL: 0.03  CN: DarkWater Tuso EW: 0.5 SL: 0.1 
+D-ShantungosaurusShantungosaurus: CN: SE Green Desert EW: 0.075 SL: 0.7  CN: SE Mountain EW: 0.05 SL: 0.075 
+BoarHogMetridiochoerus: CN: Monster Isl Generic EW: 0.04 SL: 0.04  CN: Mountain Generic EW: 0.04 SL: 0.04 
+ChickenMihirung: CN: Beach Generic EW: 0.08 SL: 0.08  CN: Grasslands Generic EW: 0.08 SL: 0.08  CN: SE Green Desert EW: 0.08 SL: 0.08 
+Beeg ChickenGreater Mihirung:
+MockatooMacaw: CN: Beach Generic EW: 0.03 SL: 0.04  CN: Rag Jungle EW: 0.05 SL: 0.05  CN: SE Oasis EW: 0.05 SL: 0.05 
+Moo-CowBos: CN: Grasslands Generic EW: 0.08 SL: 0.06  CN: Rag Scotland EW: 0.04 SL: 0.04  CN: SE Green Desert EW: 0.08 SL: 0.06 
+Kretzoiarctos: CN: Rag Jungle EW: 0.015 SL: 0.015  CN: Redwoods Generic EW: 0.01 SL: 0.01  CN: Redwoods Generic EW: 0.04 SL: 0.04  CN: Rag Center EW: 0.01 SL: 0.01 
+Ursus AmericanusProtarctos: CN: SE Green Desert EW: 0.025 SL: 0.025  CN: SE Mountain EW: 0.04 SL: 0.04  CN: Rag Center EW: 0.05 SL: 0.05 
+Clay AnkyloShamosaurus: CN: Damien Generic EW: 0.04 SL: 0.04  CN: Monster Isl Generic EW: 0.04 SL: 0.04  CN: Mountain Generic EW: 0.15 SL: /  CN: SE Mountain EW: 0.15 SL: /  CN: Rag Mudslide EW: 0.04 SL: 0.04 
+Clay Greater AnkyloTsagantegia: CN: SE Dunes EW: 0.04 SL: 0.04  CN: SE Mountain EW: 0.15 SL: / 
+Clay LeedsichtysBonnerichthys: CN: DeepWater Gen EW: 0.04 SL: 0.04  CN: Rag Ocean EW: 0.4 SL: 0.1 
+Clay Great PachyrhinoAchelousaurus: CN: Rag SnowForest EW: 0.04 SL: 0.04  CN: Rag SnowPlains EW: 0.06 SL: 0.07  CN: Rag Polar Bear EW: 0.04 SL: 0.04  CN: SE Green Desert EW: 1 SL: /  CN: SE Mountain EW: 1 SL: / 
+Clay RexBistahieversor: CN: SE Dunes EW: 0.06 SL: 0.07 
+Clay Rag TrikeRegaliceratops: CN: Rag Scotland EW: 0.035 SL: /  CN: Rag SnowForest EW: 0.08 SL: /  CN: SE Canyons EW: 0.06 SL: 0.07  CN: SE Mountain EW: 0.06 SL: 0.07 
+Clay Greater TrikePentaceratops: CN: Rag Scotland EW: 0.018 SL: /  CN: Mountain Generic EW: 0.035 SL: /  CN: Redwoods Generic EW: 0.006 SL: /  CN: Rag SnowForest EW: 0.016 SL: /  CN: SE Canyons EW: 0.03 SL: 0.04  CN: SE Mountain EW: 0.03 SL: 0.04 
+Greater KentrosaurusDacentrurus: CN: Swamp Generic EW: 0.03 SL: 0.04  CN: SE Wyvern Trench EW: 0.03 SL: 0.04  CN: Rag Turtles EW: 0.03 SL: 0.04 
+Greater MoschopsUlemosaurus: CN: Beach Generic EW: 0.02 SL: 0.03  CN: Rag Jungle EW: 0.03 SL: 0.04  CN: Grasslands Generic EW: 0.03 SL: 0.04 
+Kentriodon:
+(Appa) BisonLeptobos:
+(Appa) BrontosaurusBarosaurus:
+(Appa) EquusCalippus:
+(Appa) GallimimusQiupalong: CN: Rag Jungle EW: 0.03 SL: 0.04  CN: Rag Scotland EW: 0.03 SL: 0.04  CN: Monster Isl Generic EW: 0.03 SL: 0.04 
+(Appa) HyaenodonGalecyon:
+(Appa) IguanodonBatyrosaurus:
+(Appa) MammothPalaeoloxodon:
+(Appa) MegalocerosEucladoceros:
+(Appa) ParasaurJaxartosaurus:
+(Appa) StegosaurusHesperosaurus:
+(Appa) TriceratopsAnchiceratops:
+(Appa) Wooly RhinoElasmotherium:
+Achatina:
+Acrocanthosaurus:
+Allosaurus:
+Amargasaurus: CN: Damien Generic EW: 0.03 SL: 0.04  CN: Swamp Generic EW: 0.03 SL: 0.04  CN: SE Dunes EW: 0.02 SL: 0.1 
+Ammonite:
+Andrewsarchus: CN: Rag Scotland EW: 0.03 SL: 0.04  CN: SE Badlands EW: 0.03 SL: 0.04 
+Anglerfish:
+Ankylosaurus:
+Araneo:
+Archaeopteryx:
+Archelon:
+Argentavis:
+Armadoggo: CN: SE Canyons EW: 0.03 SL: 0.04  CN: SE Dunes EW: 0.03 SL: 0.04 
+Arthropluera:
+Astrocetus:
+Astrodelphis:
+Aureliax: CN: Quetzal EW: 0.5 SL: 0.5 
+Baryonyx:
+Basilisk: CN: Rag Golem EW: 0.05 SL: 0.05 
+Basilosaurus:
+Beelzebufo:
+Bison:
+Bloodstalker: CN: Redwoods Generic EW: 0.0125 SL: 0.2  CN: SE Wyvern Trench EW: 0.05 SL: 0.05 
+Boaratos:
+Brontosaurus:
+Bulbdog: CN: Rag Temple EW: 0.05 SL: 0.05 
+Burrowbuck:
+Carbonemys:
+Carcharodontosaurus:
+Carnotaurus:
+Castoroides:
+Cat:
+Ceratosaurus:
+Chalicotherium:
+Cnidaria:
+Coelacanth:
+Compy:
+Cosmo: CN: Rag Jungle EW: 0.05 SL: 0.05  CN: Gigantoraptor EW: 0.05 SL: 0.05 
+Cryolophosaurus: CN: Snow Generic EW: 0.05 SL: 0.05 
+Daeodon:
+Deathworm:
+Defense Unit: CN: Rag Turtles EW: 0.05 SL: 0.05 
+Deinonychus: CN: Rag Griffin EW: 0.05 SL: 0.05  CN: Dreadmare EW: 0.05 SL: 0.05 
+Deinosuchus:
+Deinotherium:
+Desmodus: CN: SE Wyvern Trench EW: 0.05 SL: 0.05 
+Dilophosaur:
+Dimetrodon:
+Dimorphodon:
+Dinopithecus: CN: Redwoods Generic EW: 0.06 SL: / 
+Diplocaulus:
+Diplodocus:
+Dire Bear:
+Direwolf:
+Dodo:
+Doedicurus:
+Spring Drakeling:
+Summer Drakeling:
+Autumn Drakeling:
+Winter Drakeling:
+Dreadmare:
+Dreadnoughtus: CN: SE Dunes EW: 0.05 SL: 0.05 
+Dung Beetle:
+Dunkleosteus:
+Elderclaw:
+Electrophorus:
+Enforcer: CN: Rag Turtles EW: 0.05 SL: 0.05 
+Equus:
+Eurypterid:
+Fasolasuchus:
+Featherlight:
+Ferox: CN: Rag Polar Bear EW: 0.05 SL: 0.05 
+Fjordhawk: CN: Redwoods Generic EW: 0.03 SL: 0.05 
+Gacha: CN: Dreadmare EW: 0.05 SL: 0.05 
+Gallimimus:
+Gasbags: CN: Dreadmare EW: 0.05 SL: 0.05 
+Giant Queen Bee:
+Giganotosaurus:
+Gigantopithecus:
+Gigantoraptor:
+Gloon: CN: SE Wyvern Trench EW: 0.02 SL: 0.02 
+Glowbug:
+Glowtail: CN: Rag Temple EW: 0.05 SL: 0.05 
+Grand TortugarVanilla:
+Griffin:
+Helicoprion:
+Hesperornis:
+Hyaenodon:
+Ichthyornis:
+Ichthyosaurus:
+Iguanodon:
+Jerboa:
+Jugbug Water:
+Jugbug Oil:
+Kairuku:
+Kaprosuchus:
+Karkinos:
+Kentrosaurus:
+Lamprey:
+Leech:
+Leedsichtys: CN: DeepWater Gen EW: 0.04 SL: 0.04  CN: Rag Ocean EW: 0.04 SL: 0.04 
+Liopleurodon: CN: Rag Deep Water EW: 0.04 SL: 0.04  CN: DeepWater Gen EW: 0.04 SL: 0.04 
+Lymantria:
+Lystrosaurus:
+Maeguana: CN: Monster Isl Generic EW: 0.04 SL: 0.04  CN: Mountain Generic EW: 0.04 SL: 0.04 
+Maewing: CN: Grasslands Generic EW: 0.04 SL: 0.04  CN: Rag Scotland EW: 0.04 SL: 0.04 
+Magmasaur:
+Malwyn: CN: SE Wyvern Trench EW: 0.04 SL: 0.04 
+Mammoth:
+Managarmr: CN: Rag SnowForest EW: 0.04 SL: 0.04  CN: Rag SnowPlains EW: 0.04 SL: 0.04 
+Manta:
+Mantis:
+Megachelon:
+Megalania:
+Megaloceros:
+Megalodon:
+Megalosaurus:
+Meganeura:
+Megaraptor: CN: Rag Griffin EW: 0.04 SL: 0.04 
+Megatherium:
+Mesopithecus:
+Microraptor:
+Morellatops:
+Mosasaur:
+Moschops:
+Nameless:
+Neophyte:
+Noglin:
+Oasisaur: CN: SE Dunes EW: 0.02 SL: 0.02 
+Onyc:
+Ossidon: CN: SE Wyvern Trench EW: 0.04 SL: 0.04 
+Otter:
+Oviraptor:
+Ovis:
+Pachy:
+Pachyrhinosaurus:
+Palaeoctopus:
+Paraceratherium:
+Parakeet Fish School:
+Parasaur:
+Pegomastax:
+Pelagornis:
+Phiomia:
+Phoenix: CN: SE Dunes EW: 0.02 SL: 0.02 
+Piranha:
+Plesiosaur:
+Procoptodon:
+Pteranodon:
+Pulmonoscorpius:
+Purlovia:
+Pyromane:
+Quetzal:
+Raptor:
+Ravager: CN: SE Badlands EW: 0.04 SL: 0.04  CN: SE Canyons EW: 0.04 SL: 0.04 
+Reaper Queen: CN: SE Dunes EW: 0.04 SL: 0.04 
+Rex:
+Rhyniognatha:
+Rock Drake: CN: Rag Ab Megalania EW: 0.1 SL: 0.1 
+Rock Elemental:
+Roll Rat: CN: Redwoods Generic EW: 0.04 SL: 0.04  CN: SE Canyons EW: 0.04 SL: 0.04 
+Sabertooth:
+Sabertooth Salmon:
+Sarco:
+Scout: CN: Rag Turtles EW: 0.04 SL: 0.04 
+Seeker: CN: Rag Karkinos EW: 0.04 SL: 0.04 
+Shadowmane: CN: Rhyniogantha EW: 0.2 SL: 0.2 
+Shastasaurus: CN: DeepWater Gen EW: 0.03 SL: 0.04  CN: Rag Ocean EW: 0.03 SL: 0.04 
+Shinehorn:
+Sinomacrops: CN: Rag Jungle EW: 0.03 SL: 0.04  CN: Mountain Generic EW: 0.15 SL: 0.1  CN: Redwoods Generic EW: 0.03 SL: 0.04 
+Snow Owl: CN: Snow Generic EW: 0.03 SL: 0.04  CN: Rag SnowForest EW: 0.03 SL: 0.04 
+Solwyn: CN: Redwoods Generic EW: 0.03 SL: 0.04  CN: Rag SnowPlains EW: 0.03 SL: 0.04 
+Spinosaurus:
+Stegosaurus:
+Tapejara:
+Tek Stryder:
+Terror Bird:
+Therizinosaurus:
+Thorny Dragon:
+Thylacoleo:
+Titanoboa:
+Titanomyra:
+Titanosaur:
+Triceratops:
+Trilobite:
+Troodon:
+Tropeognathus: CN: Pelican EW: 0.03 SL: 0.04 
+Tusoteuthis:
+Unicorn:
+Veilwyn: CN: Snow Generic EW: 0.03 SL: 0.04  CN: Rag SnowPlains EW: 0.03 SL: 0.04 
+Velonasaur: CN: SE Dunes EW: 0.03 SL: 0.04  CN: SE Wyvern Trench EW: 0.03 SL: 0.04 
+Vulture:
+Woolly Rhino:
+Xiphactinus: CN: Rag Deep Water EW: 0.04 SL: 0.04  CN: DarkWater Angler Generic EW: 0.04 SL: 0.04 
+Yi Ling: CN: Rag Jungle EW: 0.03 SL: 0.04  CN: Grasslands Generic EW: 0.01 SL: 0.02  CN: Damien Generic EW: 0.03 SL: 0.04 
+Yutyrannus:
+Fire Wyvern:
+Lightning Wyvern:
+Poison Wyvern:
+Ice Wyvern:
+Voidwyrm:
+Blood Crystal Wyvern: CN: Rag Center EW: 0.03 SL: 0.04 
+Ember Crystal Wyvern: CN: Rag Scotland EW: 0.03 SL: 0.04 
+Tropical Crystal Wyvern: CN: Beach Generic EW: 0.03 SL: 0.04 
+Tek Parasaur:
+Tek Quetzal:
+Tek Raptor:
+Tek Rex:
+Tek Stego:
+Tek Trike:
+Desert Titan:
+Forest Titan:
+Ice Titan:

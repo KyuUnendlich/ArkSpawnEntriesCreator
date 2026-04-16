@@ -71,7 +71,7 @@ namespace ArkSpawnEntriesCreator
             PiggleAdasaurus, /*PPR-Ada*/            TACDaemonis, /*Daemonis*/           CyrusThoraxSpider, /*CyrusJumping*/ ClayTrike,
             PaleoApexPredators, /*PA_EVO_01*/       TACDzungatherium,                   CyrusMagnaGecko, /*CyrusGecko*/     CyberStructures,
             PaleoDangerousDepths, /*PA_EVO_02*/     TACBastionBeetle,                   CliffansCritters,                   MaewingPort,
-            PaleoHardHittingHerbivores,/*PA_EVO_03*/Tyrannodominator,                   HuskyWolf,
+            PaleoHardHittingHerbivores,/*PA_EVO_03*/Tyrannodominator,                   HuskyWolf,                          FerasWildSeas, /*FCR_Wild*/
             PaleoNativeAquatics, /*PA_PLUS_01*/     ARKOSanguivern,                     Stegotetrabelodon, /*Steg*/
             PaleoRulersWastelands, /*PA_PLUS_02*/   ARKOHapipalus,                      Gingerpithecus, 
             XyphCharnia,                            ARKODesolatitan,                    StarExoticAnimals, /*RR_Exo   MULTIMAIN*/
@@ -81,7 +81,7 @@ namespace ArkSpawnEntriesCreator
             XyphMeiolania,                          RoyalArchaeopteryx,                 AnomalyGalvarex,
         }
 
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/ClayTrike.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/FerasWildSeas.txt";
         const bool replaceFile = true;
         const bool multimain = false;
 
@@ -99,7 +99,7 @@ namespace ArkSpawnEntriesCreator
             const string Path_base = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions";
 
             const string path_spawn = "E:/ARK Saves/ArkSpawnEntriesCreator/ASASpawnEntries.csv";
-            const string path_spawn2 = "E:/ARK Saves/ArkSpawnEntriesCreator/ASASpawnEntries2.csv";
+            const string path_spawn2 = "E:/ARK Saves/ArkSpawnEntriesCreator/ASASpawnEntriesBase.csv";
 
             const string path_engram = "E:/ARK Saves/ArkSpawnEntriesCreator/Engrams.csv";
             const string path_engram2 = "E:/ARK Saves/ArkSpawnEntriesCreator/EngramVanALL.csv";
@@ -110,10 +110,12 @@ namespace ArkSpawnEntriesCreator
             const string path_toolkit = "E:/ARK Saves/ArkSpawnEntriesCreator/ToolkitReplacements.csv";
 
             //ASA_SpawnContainers.CreateSpawnContainerAdditions(path_spawn, Path_test);
+
             //ASA_SpawnContainers.FindPhrase(Path_base, Path_test, "Wyvern_Character_BP_Fire_C");
             //ASA_SpawnContainers.CreateToolkitReplacements(path_toolkit, Path_test);
-            ASA_SpawnContainers.CreateToolkitSpawners(path_spawn, Path_test);
-            //ASA_SpawnContainers.CountModdedEntriesPerContainer(path_spawn, Path_test, path_spawn2, false);
+            //ASA_SpawnContainers.CreateToolkitSpawners(path_spawn, Path_test);
+
+            ASA_SpawnContainers.ReadContainerKnowledge(path_spawn2, Path_test, path_spawn, true);
 
             //ASA_Engrams.CreateFullEngramLine(path_engram, Path_test);
             //ASA_Engrams.AddModifiersToEngrams(path_engram, Path_test);

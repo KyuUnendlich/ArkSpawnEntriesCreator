@@ -82,7 +82,7 @@ namespace ArkSpawnEntriesCreator
 
                     string spawnEntryContainerName = spawnlimitArray[0];
 
-                    for (int currentDinoIndex = 3; currentDinoIndex < entryweightArray.Length; currentDinoIndex++)
+                    for (int currentDinoIndex = 4; currentDinoIndex < entryweightArray.Length; currentDinoIndex++)
                     {
                         if (!entryweightArray[currentDinoIndex].Equals(""))
                         {
@@ -94,6 +94,7 @@ namespace ArkSpawnEntriesCreator
                             {
                                 //Create Multiparams values
                                 string[] parts = multiParams[currentDinoIndex].Split(':');
+                                string entry = dinoBPs[currentDinoIndex];
                                 int multiParamAmount = Int32.Parse(parts[0]);
                                 string multiParamLine = parts[1].Replace("-", ",");
 
@@ -316,10 +317,10 @@ namespace ArkSpawnEntriesCreator
             }
         }
 
-        public static void CountModdedEntriesPerContainer(string path_spawn, string Path, string path_spawn2, bool secondFile)
+        public static void ReadContainerKnowledge(string path_base, string Path, string path_adds, bool secondFile)
         {
-            using (TextFieldParser csvParser = new TextFieldParser(path_spawn))
-            using (TextFieldParser csvParser2 = new TextFieldParser(path_spawn2))
+            using (TextFieldParser csvParser = new TextFieldParser(path_base))
+            using (TextFieldParser csvParser2 = new TextFieldParser(path_adds))
             {
                 csvParser.CommentTokens = new string[] { "#" };
                 csvParser.SetDelimiters(new string[] { "," });
@@ -328,50 +329,91 @@ namespace ArkSpawnEntriesCreator
                 csvParser2.SetDelimiters(new string[] { "," });
                 csvParser2.HasFieldsEnclosedInQuotes = true;
 
+                string[] dinoNamesBase = csvParser.ReadFields();
+                string[] dinoNamesAdd = csvParser2.ReadFields();
+
                 // Skip all rows until first container
-                for (int i = 0; i < 11; i++)
+                for (int i = 0; i < 5; i++)
                 {
                     csvParser.ReadLine();
                     csvParser2.ReadLine();
                 }
 
-                while (!csvParser.EndOfData || !csvParser2.EndOfData)
+                string[] dinoNamesBaseRenames = csvParser.ReadFields();
+                string[] dinoNamesAddRenames = csvParser2.ReadFields();
+
+                for (int i = 0; i < 4; i++)
+                {
+                    csvParser.ReadLine();
+                    csvParser2.ReadLine();
+                }
+
+                Dictionary<string, List<SpawnKnowledge>> dinoKnowledge = new Dictionary<string, List<SpawnKnowledge>>();
+
+                for (int i = 4; i < dinoNamesBase.Length; i++) {
+                    dinoNamesBase[i] += dinoNamesBaseRenames[i];
+                    dinoKnowledge.Add(dinoNamesBase[i], new List<SpawnKnowledge>());
+                }
+
+                for (int i = 4; i < dinoNamesAdd.Length; i++)
+                {
+                    dinoNamesAdd[i] += dinoNamesAddRenames[i];
+                }
+
+                while (!csvParser.EndOfData && !csvParser2.EndOfData)
                 {
                     int dinoCount = 0;
 
                     // Read current line fields, pointer moves to the next line.
-                    string[] entryweightArray = csvParser.ReadFields();
-                    string[] entryweightArray2 = csvParser2.ReadFields();
-                    csvParser2.ReadFields();
-                    string[] spawnlimitArray = csvParser.ReadFields();
+                    string[] entryweightArrayBase = csvParser.ReadFields();
+                    string[] entryweightArrayAdditions = csvParser2.ReadFields();
 
-                    string spawnEntryContainerName = spawnlimitArray[0];
+                    string[] spawnlimitArrayBase = csvParser.ReadFields();
+                    string[] spawnlimitArrayAdditions = csvParser2.ReadFields();
 
-                    for (int currentDinoIndex = 3; currentDinoIndex < entryweightArray.Length; currentDinoIndex++)
+                    string spawnEntryContainerName = entryweightArrayBase[0];
+                    string spawnEntryContainerNameCheck = spawnEntryContainerName + entryweightArrayAdditions[0];
+
+                    List <SpawnKnowledge> spawnContainerKnowledge = new List<SpawnKnowledge>();
+
+                    for (int currentDinoIndex = 4; currentDinoIndex < entryweightArrayBase.Length; currentDinoIndex++)
                     {
-                        if (!entryweightArray[currentDinoIndex].Equals(""))
+                        if (!entryweightArrayBase[currentDinoIndex].Equals(""))
                         {
-                            if (entryweightArray[currentDinoIndex].Equals("x"))
-                            {
-                                dinoCount--;
-                            }
-                            else {
-                                dinoCount++;
-                            }
+                            SpawnKnowledge spawnKnowledge = new SpawnKnowledge(dinoNamesBase[currentDinoIndex], spawnEntryContainerName, 
+                                entryweightArrayBase[currentDinoIndex], spawnlimitArrayBase[currentDinoIndex]);
+
+                            dinoKnowledge[dinoNamesBase[currentDinoIndex]].Add(spawnKnowledge);
+                            spawnContainerKnowledge.Add(spawnKnowledge);
+
+                            dinoCount++;
                         }
                     }
 
                     if (secondFile) {
-                        for (int currentDinoIndex = 3; currentDinoIndex < entryweightArray2.Length; currentDinoIndex++)
+                        for (int currentDinoIndex = 4; currentDinoIndex < entryweightArrayAdditions.Length; currentDinoIndex++)
                         {
-                            if (!entryweightArray2[currentDinoIndex].Equals(""))
+                            if (!entryweightArrayAdditions[currentDinoIndex].Equals(""))
                             {
-                                if (entryweightArray[currentDinoIndex].Equals("x"))
+                                if (entryweightArrayAdditions[currentDinoIndex].Equals("x"))
                                 {
+                                    List <SpawnKnowledge> knowledges = dinoKnowledge[dinoNamesAdd[currentDinoIndex]];
+
+                                    for (int i = 0; i < knowledges.Count; i++) {
+                                        if (knowledges[i].spawnContainer.Equals(spawnEntryContainerName))
+                                            dinoKnowledge[dinoNamesAdd[currentDinoIndex]].RemoveAt(i);
+                                        break;
+                                    }
                                     dinoCount--;
                                 }
                                 else
                                 {
+                                    SpawnKnowledge spawnKnowledge = new SpawnKnowledge(dinoNamesAdd[currentDinoIndex], spawnEntryContainerName,
+                                        entryweightArrayAdditions[currentDinoIndex], spawnlimitArrayAdditions[currentDinoIndex]);
+
+                                    dinoKnowledge[dinoNamesAdd[currentDinoIndex]].Add(spawnKnowledge);
+                                    spawnContainerKnowledge.Add(spawnKnowledge);
+
                                     dinoCount++;
                                 }
                             }
@@ -384,7 +426,26 @@ namespace ArkSpawnEntriesCreator
                         txt += " ";
                     }
 
-                    File.AppendAllText(Path, txt + dinoCount);
+                    string dinoPart = "";
+                    foreach (SpawnKnowledge knowledge in spawnContainerKnowledge) {
+                        dinoPart += " DN: " + knowledge.dinoName + " EW: " + knowledge.entryWeight + " SL: " + knowledge.spawnLimit + " ";
+                    }
+
+                    File.AppendAllText(Path, txt + dinoCount + dinoPart);
+                    File.AppendAllText(Path, "\r\n");
+                }
+
+                File.AppendAllText(Path, "\r\n");
+                File.AppendAllText(Path, "\r\n");
+
+                for (int i = 4; i < dinoNamesAdd.Length; i++) {
+                    List<SpawnKnowledge> knowledges = dinoKnowledge[dinoNamesAdd[i]];
+                    string dinoKnow = dinoNamesAdd[i] + ":";
+                    foreach (SpawnKnowledge knowledge in knowledges)
+                    {
+                        dinoKnow += " CN: " + knowledge.spawnContainer + " EW: " + knowledge.entryWeight + " SL: " + knowledge.spawnLimit + " ";
+                    }
+                    File.AppendAllText(Path, dinoKnow);
                     File.AppendAllText(Path, "\r\n");
                 }
             }

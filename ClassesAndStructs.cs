@@ -237,4 +237,19 @@ namespace ArkSpawnEntriesCreator
             this.line = "";
         }
     }
+    public struct SpawnKnowledge
+    {
+        public string dinoName;
+        public string spawnContainer;
+        public string entryWeight;
+        public string spawnLimit;
+
+        public SpawnKnowledge(string dinoName, string spawnContainer, string entryWeight, string spawnLimit)
+        {
+            this.dinoName = dinoName;
+            this.spawnContainer = spawnContainer;
+            this.entryWeight = entryWeight;
+            this.spawnLimit = spawnLimit;
+        }
+    }
 }

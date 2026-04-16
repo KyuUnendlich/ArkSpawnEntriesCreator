@@ -1,0 +1,11 @@
+Engram Entries: 
+   EngramEntry_KentriodonSaddle_C
+
+Dino Entries: 
+   Kentriodon_C
+
+
+Global Entry Weights: 
+   Main BP: Dolphin_Character_BP_C
+      SubBP: Dolphin_Character_BP_C 40.0
+      SubBP: Kentriodon_Character_BP_C 60.0
