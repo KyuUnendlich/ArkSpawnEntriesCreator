@@ -1,11 +1,8 @@
 ﻿using Microsoft.VisualBasic.FileIO;
 using System;
 using System.Collections.Generic;
-using System.Drawing;
 using System.IO;
-using System.Linq;
 using System.Text;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace ArkSpawnEntriesCreator
 {
@@ -319,6 +316,9 @@ namespace ArkSpawnEntriesCreator
 
         public static void ReadContainerKnowledge(string path_base, string Path, string path_adds, bool secondFile)
         {
+            string path_output_csv = "E:/ARK Saves/ArkSpawnEntriesCreator/strings.csv";
+            File.Delete(path_output_csv);
+
             using (TextFieldParser csvParser = new TextFieldParser(path_base))
             using (TextFieldParser csvParser2 = new TextFieldParser(path_adds))
             {
@@ -426,6 +426,7 @@ namespace ArkSpawnEntriesCreator
                         txt += " ";
                     }
 
+                    // Txt
                     string dinoPart = "";
                     foreach (SpawnKnowledge knowledge in spawnContainerKnowledge) {
                         dinoPart += " DN: " + knowledge.dinoName + " EW: " + knowledge.entryWeight + " SL: " + knowledge.spawnLimit + " ";
@@ -433,11 +434,27 @@ namespace ArkSpawnEntriesCreator
 
                     File.AppendAllText(Path, txt + dinoCount + dinoPart);
                     File.AppendAllText(Path, "\r\n");
+
+                    //CSV
+                    List<string> csvSpawnCont = new List<string>();
+                    csvSpawnCont.Add(spawnEntryContainerName); csvSpawnCont.Add(dinoCount.ToString());
+                    foreach (SpawnKnowledge knowledge in spawnContainerKnowledge)
+                    {
+                        csvSpawnCont.Add(knowledge.dinoName); csvSpawnCont.Add(knowledge.entryWeight); csvSpawnCont.Add(knowledge.spawnLimit);
+                    }
+                    csvSpawnCont.ToArray();
+
+                    File.AppendAllText(path_output_csv, string.Join(",", csvSpawnCont));
+                    File.AppendAllText(path_output_csv, "\r\n");
                 }
 
                 File.AppendAllText(Path, "\r\n");
                 File.AppendAllText(Path, "\r\n");
+                File.AppendAllText(path_output_csv, "\r\n");
+                File.AppendAllText(path_output_csv, "\r\n");
 
+
+                //Txt
                 for (int i = 4; i < dinoNamesAdd.Length; i++) {
                     List<SpawnKnowledge> knowledges = dinoKnowledge[dinoNamesAdd[i]];
                     string dinoKnow = dinoNamesAdd[i] + ":";
@@ -447,6 +464,20 @@ namespace ArkSpawnEntriesCreator
                     }
                     File.AppendAllText(Path, dinoKnow);
                     File.AppendAllText(Path, "\r\n");
+                }
+
+                //CSV
+                for (int i = 4; i < dinoNamesAdd.Length; i++)
+                {
+                    List<string> csvDino = new List<string>();
+                    List<SpawnKnowledge> knowledges = dinoKnowledge[dinoNamesAdd[i]];
+                    csvDino.Add(dinoNamesAdd[i]); csvDino.Add(knowledges.Count.ToString());
+                    foreach (SpawnKnowledge knowledge in knowledges)
+                    {
+                        csvDino.Add(knowledge.spawnContainer); csvDino.Add(knowledge.entryWeight); csvDino.Add(knowledge.spawnLimit);
+                    }
+                    File.AppendAllText(path_output_csv, string.Join(",", csvDino));
+                    File.AppendAllText(path_output_csv, "\r\n");
                 }
             }
         }
