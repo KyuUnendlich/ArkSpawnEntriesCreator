@@ -363,3 +363,21 @@ Global Entry Weights:
    Main BP: Bigfoot_Character_BP_C
       SubBP: Bigfoot_Character_BP_C 1.0
       SubBP: AA_Yeti_Character_BP_C 0.1
+   Main BP: AA_AberrantCat_Character_BP_C
+      SubBP: AA_AberrantCat_Character_BP_C 1.0
+      SubBP: AA_AberrantSpottedCat_Character_BP_C 0.25
+   Main BP: AA_AberrantCat_Character_BP_C
+      SubBP: AA_AberrantCat_Character_BP_C 1.0
+      SubBP: AA_AberrantCalicoCat_Character_BP_C 0.25
+   Main BP: AA_AberrantCat_Character_BP_C
+      SubBP: AA_AberrantCat_Character_BP_C 1.0
+      SubBP: AA_AberrantStripedCat_Character_BP_C 0.25
+   Main BP: Ptero_Character_BP_C
+      SubBP: Ptero_Character_BP_C 1.0
+      SubBP: AA_Leatherwing_Character_BP_C 0.1
+   Main BP: Cryolophosaurus_Character_BP_C
+      SubBP: Cryolophosaurus_Character_BP_C 1.0
+      SubBP: AA_AberrantCryolophosaurus_Character_BP_C 0.05
+   Main BP: Rex_Character_BP_C
+      SubBP: Rex_Character_BP_C 1.0
+      SubBP: AA_XRex_Character_BP_C 0.1

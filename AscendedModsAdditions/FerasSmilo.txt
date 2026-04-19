@@ -10,5 +10,5 @@ Global Entry Weights:
       SubBP: Smilodon_Character_BP_C 20.0
       SubBP: Saber_Character_BP_C 80.0
    Main BP: Smilodon_Character_BP_C
-      SubBP: Smilodon_Character_BP_C 98.0
-      SubBP: MegaSmilodon_Character_BP_C 2.0
+      SubBP: Smilodon_Character_BP_C 90.0
+      SubBP: MegaSmilodon_Character_BP_C 10.0
