@@ -50,7 +50,7 @@ Container Name: null
    Entry Name: Doli
       Main BP: Dolichorhynchops_Character_BP_C
       Entry Weight: 0.45
-      Spawn Limit: 0.21
+      Spawn Limit: 0.4
       Multi Spawn Chance: 1.0-0.8-0.3
    Entry Name: Priono
       Main BP: Prionosuchus_Character_BP_C
@@ -66,7 +66,7 @@ Container Name: null
    Entry Name: Doli
       Main BP: Dolichorhynchops_Character_BP_C
       Entry Weight: 0.45
-      Spawn Limit: 0.13
+      Spawn Limit: 0.35
       Multi Spawn Chance: 1.0-0.8-0.3
    Entry Name: Priono
       Main BP: Prionosuchus_Character_BP_C
@@ -427,10 +427,10 @@ MultiParams Summary:
 
    Main BP: Dolichorhynchops_Character_BP_C
       Entry Weight:                   0.45
-      Spawn Limit:                             0.21
+      Spawn Limit:                             0.4
       Multi Spawn Chance:                               1.0-0.8-0.3
       Entry Weight:                   0.45
-      Spawn Limit:                             0.13
+      Spawn Limit:                             0.35
       Multi Spawn Chance:                               1.0-0.8-0.3
 
    Main BP: GiantSeaSlug_Character_BP_C

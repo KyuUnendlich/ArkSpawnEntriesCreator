@@ -1,9 +1,8 @@
 All Entry Names: 
-   Empiro  x 7
-   Empiro (1)  x 1
-   Ledu  x 7
-   Val Ledu  x 1
-   Valgueran Ledu  x 1
+   Empiro  x 8
+   Empiro (1)  x 3
+   Ledu  x 8
+   Ledu (1)  x 2
    Zombie Empiro  x 1
 
 Engram Entries: 
@@ -82,13 +81,13 @@ Container Name: null
       Spawn Limit: 0.05
       Multi Spawn Chance: 1.0
 Container Name: null
-   Entry Name: Val Ledu
-      Main BP: PA_Val_Ledu_Character_BP_C
+   Entry Name: Empiro
+      Main BP: PA_Empiro_Character_BP_C
       Entry Weight: 0.015
       Spawn Limit: 
       Multi Spawn Chance: 1.0
 Container Name: null
-   Entry Name: Valgueran Ledu
+   Entry Name: Ledu
       Main BP: PA_Val_Ledu_Character_BP_C
       Entry Weight: 0.02
       Spawn Limit: 
@@ -108,7 +107,7 @@ Container Name: null
 Container Name: null
    Entry Name: Zombie Empiro
       Main BP: PA_Empiro_Character_BP_Corrupted_Zombie_C
-      Entry Weight: 0.15
+      Entry Weight: 0.1
       Spawn Limit: 0.1
       Multi Spawn Chance: 1.0
 Container Name: null
@@ -122,6 +121,30 @@ Container Name: null
       Main BP: PA_Ledu_Character_BP_C
       Entry Weight: 0.2
       Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Empiro (1)
+      Main BP: PA_Empiro_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Ledu (1)
+      Main BP: PA_Ledu_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.075
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Empiro (1)
+      Main BP: PA_Empiro_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Ledu (1)
+      Main BP: PA_Ledu_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.1
       Multi Spawn Chance: 1.0
 
 MultiParams Summary: 
@@ -144,15 +167,24 @@ MultiParams Summary:
       Entry Weight:                   0.01
       Spawn Limit:                             0.05
       Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.015
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
       Entry Weight:                   0.06
       Spawn Limit:                             0.1
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.06
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.1
       Spawn Limit:                             0.1
       Multi Spawn Chance:                               1.0
 
    Main BP: PA_Empiro_Character_BP_Corrupted_Zombie_C
-      Entry Weight:                   0.15
+      Entry Weight:                   0.1
       Spawn Limit:                             0.1
       Multi Spawn Chance:                               1.0
 
@@ -178,11 +210,14 @@ MultiParams Summary:
       Entry Weight:                   0.2
       Spawn Limit:                             0.05
       Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.075
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
 
    Main BP: PA_Val_Ledu_Character_BP_C
-      Entry Weight:                   0.015
-      Spawn Limit:                             
-      Multi Spawn Chance:                               1.0
       Entry Weight:                   0.02
       Spawn Limit:                             
       Multi Spawn Chance:                               1.0
