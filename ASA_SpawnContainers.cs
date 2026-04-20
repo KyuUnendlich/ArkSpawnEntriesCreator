@@ -79,7 +79,7 @@ namespace ArkSpawnEntriesCreator
 
                     string spawnEntryContainerName = spawnlimitArray[0];
 
-                    for (int currentDinoIndex = 4; currentDinoIndex < entryweightArray.Length; currentDinoIndex++)
+                    for (int currentDinoIndex = 5; currentDinoIndex < entryweightArray.Length; currentDinoIndex++)
                     {
                         if (!entryweightArray[currentDinoIndex].Equals(""))
                         {
@@ -350,12 +350,12 @@ namespace ArkSpawnEntriesCreator
 
                 Dictionary<string, List<SpawnKnowledge>> dinoKnowledge = new Dictionary<string, List<SpawnKnowledge>>();
 
-                for (int i = 4; i < dinoNamesBase.Length; i++) {
+                for (int i = 5; i < dinoNamesBase.Length; i++) {
                     dinoNamesBase[i] += dinoNamesBaseRenames[i];
                     dinoKnowledge.Add(dinoNamesBase[i], new List<SpawnKnowledge>());
                 }
 
-                for (int i = 4; i < dinoNamesAdd.Length; i++)
+                for (int i = 5; i < dinoNamesAdd.Length; i++)
                 {
                     dinoNamesAdd[i] += dinoNamesAddRenames[i];
                 }
@@ -376,7 +376,7 @@ namespace ArkSpawnEntriesCreator
 
                     List <SpawnKnowledge> spawnContainerKnowledge = new List<SpawnKnowledge>();
 
-                    for (int currentDinoIndex = 4; currentDinoIndex < entryweightArrayBase.Length; currentDinoIndex++)
+                    for (int currentDinoIndex = 5; currentDinoIndex < entryweightArrayBase.Length; currentDinoIndex++)
                     {
                         if (!entryweightArrayBase[currentDinoIndex].Equals(""))
                         {
@@ -391,7 +391,7 @@ namespace ArkSpawnEntriesCreator
                     }
 
                     if (secondFile) {
-                        for (int currentDinoIndex = 4; currentDinoIndex < entryweightArrayAdditions.Length; currentDinoIndex++)
+                        for (int currentDinoIndex = 5; currentDinoIndex < entryweightArrayAdditions.Length; currentDinoIndex++)
                         {
                             if (!entryweightArrayAdditions[currentDinoIndex].Equals(""))
                             {
@@ -401,8 +401,17 @@ namespace ArkSpawnEntriesCreator
 
                                     for (int i = 0; i < knowledges.Count; i++) {
                                         if (knowledges[i].spawnContainer.Equals(spawnEntryContainerName))
+                                        {
+                                            string dinoNameCur = knowledges[i].dinoName;
                                             dinoKnowledge[dinoNamesAdd[currentDinoIndex]].RemoveAt(i);
-                                        break;
+                                            foreach (SpawnKnowledge spawnKnow in spawnContainerKnowledge) {
+                                                if (dinoNameCur.Equals(spawnKnow.dinoName)) {
+                                                    spawnContainerKnowledge.Remove(spawnKnow);
+                                                    break;
+                                                }
+                                            }
+                                            break;
+                                        }
                                     }
                                     dinoCount--;
                                 }
@@ -455,7 +464,7 @@ namespace ArkSpawnEntriesCreator
 
 
                 //Txt
-                for (int i = 4; i < dinoNamesAdd.Length; i++) {
+                for (int i = 5; i < dinoNamesAdd.Length; i++) {
                     List<SpawnKnowledge> knowledges = dinoKnowledge[dinoNamesAdd[i]];
                     string dinoKnow = dinoNamesAdd[i] + ":";
                     foreach (SpawnKnowledge knowledge in knowledges)
@@ -467,7 +476,7 @@ namespace ArkSpawnEntriesCreator
                 }
 
                 //CSV
-                for (int i = 4; i < dinoNamesAdd.Length; i++)
+                for (int i = 5; i < dinoNamesAdd.Length; i++)
                 {
                     List<string> csvDino = new List<string>();
                     List<SpawnKnowledge> knowledges = dinoKnowledge[dinoNamesAdd[i]];
