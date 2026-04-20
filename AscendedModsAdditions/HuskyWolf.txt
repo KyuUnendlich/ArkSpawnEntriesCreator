@@ -9,7 +9,7 @@ Global Entry Weights:
    Main BP: Direwolf_Character_BP_C
       SubBP: Direwolf_Character_BP_C 0.9
       SubBP: HuskyWolf_Character_BP_C 0.35
-      SubBP: AlphaHuskyWolf_Character_BP_C 0.05
+      SubBP: AlphaHuskyWolf_Character_BP_C 0.03
    Main BP: CaveWolf_Character_BP_C
       SubBP: CaveWolf_Character_BP_C 0.9
       SubBP: AberrantHuskyWolf_Character_BP_C 0.3
