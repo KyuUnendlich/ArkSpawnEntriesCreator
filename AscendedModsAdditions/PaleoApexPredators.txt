@@ -61,11 +61,6 @@ ToClass:
       /PA_EVO_Pack_01/Dinos/EVO_Rex/Extinction/EVO_Alpha_Corrupt_Tek_Rex_Character_BP.EVO_Alpha_Corrupt_Tek_Rex_Character_BP_C
       
 FromClass: 
-      /Game/LostColony/Dinos/ZombieDino/Rex/Rex_Character_BP_Corrupt_Zombie.Rex_Character_BP_Corrupt_Zombie_C
-ToClass: 
-      /PA_EVO_Pack_01/Dinos/EVO_Rex/Zombie/EVO_Rex_Character_BP_Corrupted_Zombie.EVO_Rex_Character_BP_Corrupted_Zombie_C
-      
-FromClass: 
       /PA_EVO_Pack_01/Dinos/EVO_Rex/EVO_Rex_Character_BP.EVO_Rex_Character_BP_C
 ToClass: 
       /PA_EVO_Pack_01/Dinos/EVO_Rex/Legacy/EVO_Legacy_Rex_Character_BP.EVO_Legacy_Rex_Character_BP_C

@@ -81,7 +81,7 @@ namespace ArkSpawnEntriesCreator
             XyphMeiolania,                          RoyalArchaeopteryx,                 AnomalyGalvarex,
         }
 
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/XyphEnantiophoenix.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/PaleoHardHittingHerbivores.txt";
         const bool replaceFile = true;
         const bool multimain = false;
 
@@ -118,11 +118,11 @@ namespace ArkSpawnEntriesCreator
             //ASA_SpawnContainers.ReadContainerKnowledge(path_spawn2, Path_test, path_spawn, true);
 
             //ASA_Engrams.CreateFullEngramLine(path_engram, Path_test);
-            //ASA_Engrams.AddModifiersToEngrams(path_engram, Path_test);
+            ASA_Engrams.AddModifiersToEngrams(path_engram, Path_test);
 
             //ASA_LootDrops.CreateModdedLootdrops(path_lootbase, path_loot, Path_test);
 
-            ASAExtractor();
+            //ASAExtractor();
         }
 
         public static void ASAExtractor()

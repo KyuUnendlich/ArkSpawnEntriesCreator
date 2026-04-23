@@ -54,13 +54,15 @@ namespace ArkSpawnEntriesCreator
             }
 
             File.AppendAllText(Path, sb.ToString());
-            File.AppendAllText(Path, "\r\n");
-            File.AppendAllText(Path, "\r\n");
 
+            /*
+            File.AppendAllText(Path, "\r\n");
+            File.AppendAllText(Path, "\r\n");
             string engramReturn = string.Join(",", specialEngrams);
             File.AppendAllText(Path, "EngramWorkbench=" + engramReturn);
             File.AppendAllText(Path, "\r\n");
             File.AppendAllText(Path, "OverrideUnlock=" + engramReturn);
+            */
 
 
         }

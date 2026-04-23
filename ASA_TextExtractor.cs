@@ -248,7 +248,8 @@ namespace ArkSpawnEntriesCreator
 
                 //Searching for beginning of additions
                 if (text.Contains("TheNPCSpawnEntriesContainerAdditions") || text.Contains("GlobalNPCRandomSpawnClassWeights") || 
-                    text.Contains("ClassLoadedNPCRandomReplacements\": [") || text.Contains("\"AdditionalStructureEngrams\": ["))
+                    text.Contains("ClassLoadedNPCRandomReplacements\": [") || text.Contains("\"AdditionalStructureEngrams\": [") || 
+                    text.Contains("Remap_Engrams"))
                 {
                     readingRemaps = false;
                 }

@@ -1,8 +1,12 @@
+All Entry Names: 
+   Bronto (1-5)  x 1
+
 Engram Entries: 
    EngramEntry_Saddle_EVO_Therizino_C
 
 Dino Entries: 
    EVO_Therizino_C
+   EVO_Bronto_C
 
 ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT Remaps: 
       
@@ -10,9 +14,50 @@ FromClass:
       /Game/PrimalEarth/Dinos/Therizinosaurus/Therizino_Character_BP.Therizino_Character_BP_C
 ToClass: 
       /PA_EVO_Pack_03/Dinos/EVO_Therizino/EVO_Therizino_Character_BP.EVO_Therizino_Character_BP_C
+      
+FromClass: 
+      /Game/PrimalEarth/Dinos/Sauropod/Sauropod_Character_BP.Sauropod_Character_BP_C
+ToClass: 
+      /PA_EVO_Pack_03/Dinos/EVO_Bronto/EVO_Bronto_Character_BP.EVO_Bronto_Character_BP_C
+      
+FromClass: 
+      /Game/LostColony/Dinos/ZombieDino/Therizinosaurus/Therizino_Character_BP_Corrupted_Zombie.Therizino_Character_BP_Corrupted_Zombie_C
+ToClass: 
+      /PA_EVO_Pack_03/Dinos/EVO_Therizino/Zombie/EVO_Therizino_Character_BP_Corrupted_Zombie.EVO_Therizino_Character_BP_Corrupted_Zombie_C
+      
+FromClass: 
+      /Game/LostColony/Dinos/ZombieDino/Sauropod/Sauropod_Character_BP_Corrupt_Zombie.Sauropod_Character_BP_Corrupt_Zombie_C
+ToClass: 
+      /PA_EVO_Pack_03/Dinos/EVO_Bronto/Zombie/EVO_Bronto_Character_BP_Corrupted_Zombie.EVO_Bronto_Character_BP_Corrupted_Zombie_C
 
+ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT Remapped Engrams: 
+      
+FromClass: 
+      /Game/PrimalEarth/CoreBlueprints/Engrams/EngramEntry_Saddle_Sauro.EngramEntry_Saddle_Sauro_C
+ToClass: 
+      /PA_EVO_Pack_03/Dinos/EVO_Bronto/Saddles/EngramEntry_EVO_Bronto_Saddle.EngramEntry_EVO_Bronto_Saddle_C
+      
+FromClass: 
+      /Game/PrimalEarth/CoreBlueprints/Engrams/EngramEntry_Saddle_Sauro_Platform.EngramEntry_Saddle_Sauro_Platform_C
+ToClass: 
+      /PA_EVO_Pack_03/Dinos/EVO_Bronto/Saddles/EngramEntry_EVO_Bronto_Platform_Saddle.EngramEntry_EVO_Bronto_Platform_Saddle_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Bronto (1-5)
+      Main BP: EVO_Scorched_Bronto_Character_BP_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.5-0.2
 
 Global Entry Weights: 
    Main BP: EVO_Therizino_Character_BP_C
       SubBP: EVO_Alpha_Therizino_Character_BP_C 0.02
       SubBP: EVO_Therizino_Character_BP_C 0.98
+
+MultiParams Summary: 
+   Main BP: EVO_Scorched_Bronto_Character_BP_C
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.5-0.2
+
