@@ -84,21 +84,31 @@ namespace ArkSpawnEntriesCreator
                     {
                         if (!entryweightArray[currentDinoIndex].Equals(""))
                         {
-                            if (entryweightArray[currentDinoIndex].Equals("x"))
+                            bool both = false;
+
+                            if (entryweightArray[currentDinoIndex].Contains("x"))
                             {
                                 dinoEntriesRemove.Add(dinoBPs[currentDinoIndex]);
+
+                                if (entryweightArray[currentDinoIndex].Length > 1) {
+                                    both = true;
+                                }
                             }
-                            else
+
+                            if (!entryweightArray[currentDinoIndex].Contains("x") || both)
                             {
-                                //Create Multiparams values
-                                string[] parts = multiParams[currentDinoIndex].Split(':');
-                                string entry = dinoBPs[currentDinoIndex];
-                                int multiParamAmount = Int32.Parse(parts[0]);
-                                string multiParamLine = parts[1].Replace("-", ",");
+                                {
+                                    //Create Multiparams values
+                                    string[] parts = multiParams[currentDinoIndex].Split(':');
+                                    string entry = dinoBPs[currentDinoIndex];
+                                    int multiParamAmount = Int32.Parse(parts[0]);
+                                    string multiParamLine = parts[1].Replace("-", ",");
 
-                                ASADinoEntry temp = new ASADinoEntry(entryNames[currentDinoIndex], dinoBPs[currentDinoIndex], entryweightArray[currentDinoIndex], spawnlimitArray[currentDinoIndex], multiParamAmount, multiParamLine);
-                                dinoEntriesAdd.Add(temp);
+                                    ASADinoEntry temp = new ASADinoEntry(entryNames[currentDinoIndex], dinoBPs[currentDinoIndex], 
+                                        entryweightArray[currentDinoIndex], spawnlimitArray[currentDinoIndex], multiParamAmount, multiParamLine);
+                                    dinoEntriesAdd.Add(temp);
 
+                                }
                             }
                         }
                     }
