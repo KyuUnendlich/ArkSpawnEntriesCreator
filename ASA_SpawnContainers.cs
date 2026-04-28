@@ -105,7 +105,7 @@ namespace ArkSpawnEntriesCreator
                                     string multiParamLine = parts[1].Replace("-", ",");
 
                                     ASADinoEntry temp = new ASADinoEntry(entryNames[currentDinoIndex], dinoBPs[currentDinoIndex], 
-                                        entryweightArray[currentDinoIndex], spawnlimitArray[currentDinoIndex], multiParamAmount, multiParamLine);
+                                        entryweightArray[currentDinoIndex].Replace("x", ""), spawnlimitArray[currentDinoIndex], multiParamAmount, multiParamLine);
                                     dinoEntriesAdd.Add(temp);
 
                                 }

@@ -111,10 +111,10 @@ namespace ArkSpawnEntriesCreator
 
             //ASA_SpawnContainers.FindPhrase(Path_base, Path_test, "Wyvern_Character_BP_Fire_C");
 
-            //ASA_SpawnContainers.CreateToolkitReplacements(path_toolkit, Path_test);
+            ASA_SpawnContainers.CreateToolkitReplacements(path_toolkit, Path_test);
             //ASA_SpawnContainers.CreateToolkitSpawners(path_spawn, Path_test);
 
-            ASA_SpawnContainers.CreateSpawnContainerAdditions(path_spawn, Path_test);
+            //ASA_SpawnContainers.CreateSpawnContainerAdditions(path_spawn, Path_test);
             //ASA_SpawnContainers.ReadContainerKnowledge(path_spawn2, Path_test, path_spawn, true);
 
             //ASA_Engrams.CreateFullEngramLine(path_engram, Path_test);
