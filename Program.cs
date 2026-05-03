@@ -44,7 +44,7 @@ namespace ArkSpawnEntriesCreator
 
         enum Mod
         {
-            Prehistoric1, /*Beasts*/                XyphMischoptera,                    ACEndemics, /*Endemics*/            MarniiGriffins, /*Marnii   MULTIMAIN*/
+            Prehistoric1, /*Beasts*/                XyphMischoptera,                    ACEndemics, /*Endemics*/            MarniiGriffins, /*Marnii MULTI*/
             Prehistoric2,                           XyphVetuli,                         ACAquaria, /*Aquaria*/              IslaNycta,
             Prehistoric3,                           KamiFeral,                          AC2WildArk, /*Addititio   2 Files*/ PaddletailSpino, /*PSpino*/
             Prehistoric4,                           TheSunkenWorld,                     FayeMenagerie, /*Menagerie*/        PolyOrycterocetus,
@@ -72,18 +72,18 @@ namespace ArkSpawnEntriesCreator
             PaleoApexPredators, /*PA_EVO_01*/       TACDzungatherium,                   CyrusMagnaGecko, /*CyrusGecko*/     CyberStructures,
             PaleoDangerousDepths, /*PA_EVO_02*/     TACBastionBeetle,                   CliffansCritters,                   MaewingPort,
             PaleoHardHittingHerbivores,/*PA_EVO_03*/Tyrannodominator,                   HuskyWolf,                          FerasWildSeas, /*FCR_Wild*/
-            PaleoNativeAquatics, /*PA_PLUS_01*/     ARKOSanguivern,                     Stegotetrabelodon, /*Steg*/
-            PaleoRulersWastelands, /*PA_PLUS_02*/   ARKOHapipalus,                      Gingerpithecus, 
-            XyphCharnia,                            ARKODesolatitan,                    StarExoticAnimals, /*RR_Exo   MULTIMAIN*/
-            XyphDick,                               MoreWyverns,                        StarAnimals, /*RR_StarAnim   MULTIMAIN*/
-            XyphEnantiophoenix,                     Monolopho, /*Forogotten*/           StarFarmAnimals, /*RR_Farm   MULTIMAIN*/
+            PaleoNativeAquatics, /*PA_PLUS_01*/     ARKOSanguivern,                     Stegotetrabelodon, /*Steg*/         FerasEnhy, /*Ferasvanil*/
+            PaleoRulersWastelands, /*PA_PLUS_02*/   ARKOHapipalus,                      Gingerpithecus,                     GiantIsopod,
+            XyphCharnia,                            ARKODesolatitan,                    StarExoticAnimals, /*RR_Exo MULTI*/ GuishanCollection,
+            XyphDick,                               MoreWyverns,                        StarAnimals, /*RR_StarAnim  MULTI*/ ScorchedReborn, /*SEReb*/
+            XyphEnantiophoenix,                     Monolopho, /*Forogotten*/           StarFarmAnimals, /*RR_Farm  MULTI*/ TweeWyvern, /*Tristan*/
             XyphMegistotherium,                     Noxcalva, /*BlazingNoxcalva*/       OceaniaContent, /*AEM_Content*/
             XyphMeiolania,                          RoyalArchaeopteryx,                 AnomalyGalvarex,
         }
 
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/KalugaAppalachian.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/PaleoApexPredators.txt";
         const bool replaceFile = true;
-        const bool multimain = false;
+        const bool multimain = true;
 
         public static void ASASpawnContainer() 
         {
@@ -111,7 +111,7 @@ namespace ArkSpawnEntriesCreator
 
             //ASA_SpawnContainers.FindPhrase(Path_base, Path_test, "Wyvern_Character_BP_Fire_C");
 
-            ASA_SpawnContainers.CreateToolkitReplacements(path_toolkit, Path_test);
+            //ASA_SpawnContainers.CreateToolkitReplacements(path_toolkit, Path_test);
             //ASA_SpawnContainers.CreateToolkitSpawners(path_spawn, Path_test);
 
             //ASA_SpawnContainers.CreateSpawnContainerAdditions(path_spawn, Path_test);
@@ -122,7 +122,7 @@ namespace ArkSpawnEntriesCreator
 
             //ASA_LootDrops.CreateModdedLootdrops(path_lootbase, path_loot, Path_test);
 
-            //ASAExtractor();
+            ASAExtractor();
         }
 
         public static void ASAExtractor()

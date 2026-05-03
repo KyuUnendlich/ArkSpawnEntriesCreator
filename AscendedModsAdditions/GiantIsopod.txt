@@ -1,0 +1,35 @@
+All Entry Names: 
+   IdopodBeach  x 1
+   IsopodBeachG  x 1
+
+Dino Entries: 
+   Giant_Isopod_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: IdopodBeach
+      Main BP: Giant_Isopod_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.5
+Container Name: null
+   Entry Name: IsopodBeachG
+      Main BP: Giant_Isopod_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.5
+
+Global Entry Weights: 
+   Main BP: Trilobite_Character_C
+      SubBP: Trilobite_Character_C 0.4
+      SubBP: Giant_Isopod_Character_BP_C 0.6
+
+MultiParams Summary: 
+   Main BP: Giant_Isopod_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.5
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.5
+

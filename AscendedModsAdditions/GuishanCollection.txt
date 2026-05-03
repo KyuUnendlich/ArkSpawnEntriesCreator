@@ -1,0 +1,348 @@
+All Entry Names: 
+   Arambourgiania  x 3
+   Deinocherius  x 5
+   Prenocephale  x 7
+   Probactro  x 7
+   Probactrosaurus  x 1
+   Probcatrosaurus  x 1
+   Tarbo  x 4
+   Tarchia  x 5
+
+Engram Entries: 
+   EngramEntry_Saddle_Prenocephale_GSC_C
+   EngramEntry_Saddle_Arambourgiania_GSC_C
+   EngramEntry_AnvilBench_GSC_C
+   EngramEntry_Saddle_Tarchia_GSC_C
+   EngramEntry_Saddle_Probactrosaurus_GSC_C
+   EngramEntry_ChallengeDeinocheirus_C
+   EngramEntry_Saddle_Deinocheirus_GSC_C
+   EngramEntry_YummyFoodMix_C
+   EngramEntry_AnchorStone_C
+   EngramEntry_Saddle_Arganodus_GSC_C
+
+Dino Entries: 
+   Tarbosaurus_GSC_C
+   Prenocephale_GSC_C
+   Arambourgiania_GSC_C
+   Probactrosaurus_GSC_C
+   Tarchia_GSC_C
+   Deinocheirus_GSC_C
+   Arganodus_GSC_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Tarbo
+      Main BP:                   "AssetPathName": "
+      Entry Weight: 0.02
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: Prenocephale
+      Main BP: Prenocephale_Character_BP_GSC_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-1.0-0.66-0.33
+   Entry Name: Tarchia
+      Main BP: Tarchia_Character_BP_GSC_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Tarbo
+      Main BP:                   "AssetPathName": "
+      Entry Weight: 0.02
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Tarbo
+      Main BP:                   "AssetPathName": "
+      Entry Weight: 0.02
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Arambourgiania
+      Main BP: Arambourgiania_Character_BP_GSC_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Arambourgiania
+      Main BP: Arambourgiania_Character_BP_GSC_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Arambourgiania
+      Main BP: Arambourgiania_Character_BP_GSC_C
+      Entry Weight: 0.0075
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: Tarchia
+      Main BP: Tarchia_Character_BP_GSC_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Prenocephale
+      Main BP: Prenocephale_Character_BP_GSC_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-1.0-0.5-0.25
+Container Name: null
+   Entry Name: Prenocephale
+      Main BP: Prenocephale_Character_BP_GSC_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0
+   Entry Name: Tarchia
+      Main BP: Tarchia_Character_BP_GSC_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Prenocephale
+      Main BP: Prenocephale_Character_BP_GSC_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-1.0-0.5-0.25
+   Entry Name: Tarchia
+      Main BP: Tarchia_Character_BP_GSC_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+   Entry Name: Probcatrosaurus
+      Main BP: Probactrosaurus_Character_BP_GSC_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Prenocephale
+      Main BP: Prenocephale_Character_BP_GSC_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5
+Container Name: null
+   Entry Name: Prenocephale
+      Main BP: Prenocephale_Character_BP_GSC_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-1.0-0.5-0.25
+Container Name: null
+   Entry Name: Prenocephale
+      Main BP: Prenocephale_Character_BP_GSC_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-0.5-0.25
+   Entry Name: Tarchia
+      Main BP: Tarchia_Character_BP_GSC_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+   Entry Name: Tarbo
+      Main BP:                   "AssetPathName": "
+      Entry Weight: 0.03
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Deinocherius
+      Main BP: Deinocheirus_Character_BP_GSC_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Deinocherius
+      Main BP: Deinocheirus_Character_BP_GSC_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Deinocherius
+      Main BP: Deinocheirus_Character_BP_GSC_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Deinocherius
+      Main BP: Deinocheirus_Character_BP_GSC_C
+      Entry Weight: 0.008
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Probactro
+      Main BP: Probactrosaurus_Character_BP_GSC_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Probactro
+      Main BP: Probactrosaurus_Character_BP_GSC_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Probactrosaurus
+      Main BP: Probactrosaurus_Character_BP_GSC_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0
+   Entry Name: Deinocherius
+      Main BP: Deinocheirus_Character_BP_GSC_C
+      Entry Weight: 0.005
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Probactro
+      Main BP: Probactrosaurus_Character_BP_GSC_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Probactro
+      Main BP: Probactrosaurus_Character_BP_GSC_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Probactro
+      Main BP: Probactrosaurus_Character_BP_GSC_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Probactro
+      Main BP: Probactrosaurus_Character_BP_GSC_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Probactro
+      Main BP: Probactrosaurus_Character_BP_GSC_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+Container Name: null
+Container Name: null
+Container Name: null
+Container Name: null
+Container Name: null
+Container Name: null
+Container Name: null
+Container Name: null
+Container Name: null
+Container Name: null
+Container Name: null
+Container Name: null
+Container Name: null
+
+MultiParams Summary: 
+   Main BP:                   "AssetPathName": "
+      Entry Weight:                   0.02
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+
+   Main BP: Arambourgiania_Character_BP_GSC_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.0075
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+
+   Main BP: Deinocheirus_Character_BP_GSC_C
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.008
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.005
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0
+
+   Main BP: Prenocephale_Character_BP_GSC_C
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-1.0-0.66-0.33
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.25
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.25
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.25
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.25
+
+   Main BP: Probactrosaurus_Character_BP_GSC_C
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+
+   Main BP: Tarchia_Character_BP_GSC_C
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+
