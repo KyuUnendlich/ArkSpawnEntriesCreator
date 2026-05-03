@@ -68,7 +68,7 @@ Container Name: null
       Main BP: AcrophyseterTSW_Character_BP_C
       Entry Weight: 0.05
       Spawn Limit: 0.025
-      Multi Spawn Chance: 1.0-0.8-0.5
+      Multi Spawn Chance: 1.0-0.95-0.8-0.4-0.2-0.15
    Entry Name: Steth Spawn
       Main BP: StethTSW_Character_BP_C
       Entry Weight: 0.1
@@ -104,7 +104,7 @@ Container Name: null
       Main BP: AcrophyseterTSW_Character_BP_C
       Entry Weight: 0.05
       Spawn Limit: 0.025
-      Multi Spawn Chance: 1.0-0.8-0.5
+      Multi Spawn Chance: 1.0-0.95-0.8-0.4-0.2-0.15
    Entry Name: Steth Spawn
       Main BP: StethTSW_Character_BP_C
       Entry Weight: 0.1
@@ -185,9 +185,9 @@ Container Name: null
       Multi Spawn Chance: 1.0-0.5
    Entry Name: Acrophyseter
       Main BP: AcrophyseterTSW_Character_BP_C
-      Entry Weight: 0.1
+      Entry Weight: 0.05
       Spawn Limit: 0.1
-      Multi Spawn Chance: 1.0-0.8-0.5
+      Multi Spawn Chance: 1.0-0.95-0.8-0.4-0.2-0.15
    Entry Name: Lepi One To Four
       Main BP: LepiTSW_Character_BP_C
       Entry Weight: 0.45
@@ -228,9 +228,9 @@ Container Name: null
       Multi Spawn Chance: 1.0-0.5
    Entry Name: Acrophyseter
       Main BP: AcrophyseterTSW_Character_BP_C
-      Entry Weight: 0.1
+      Entry Weight: 0.05
       Spawn Limit: 0.1
-      Multi Spawn Chance: 1.0-0.8-0.5
+      Multi Spawn Chance: 1.0-0.95-0.8-0.4-0.2-0.15
    Entry Name: Lepi One To Four
       Main BP: LepiTSW_Character_BP_C
       Entry Weight: 0.45
@@ -271,9 +271,9 @@ Container Name: null
       Multi Spawn Chance: 1.0-0.5
    Entry Name: Acrophyseter
       Main BP: AcrophyseterTSW_Character_BP_C
-      Entry Weight: 0.1
+      Entry Weight: 0.05
       Spawn Limit: 0.15
-      Multi Spawn Chance: 1.0-0.8-0.5
+      Multi Spawn Chance: 1.0-0.95-0.8-0.4-0.2-0.15
    Entry Name: Lepi One To Four
       Main BP: LepiTSW_Character_BP_C
       Entry Weight: 0.45
@@ -486,19 +486,19 @@ MultiParams Summary:
    Main BP: AcrophyseterTSW_Character_BP_C
       Entry Weight:                   0.05
       Spawn Limit:                             0.025
-      Multi Spawn Chance:                               1.0-0.8-0.5
+      Multi Spawn Chance:                               1.0-0.95-0.8-0.4-0.2-0.15
       Entry Weight:                   0.05
       Spawn Limit:                             0.025
-      Multi Spawn Chance:                               1.0-0.8-0.5
-      Entry Weight:                   0.1
+      Multi Spawn Chance:                               1.0-0.95-0.8-0.4-0.2-0.15
+      Entry Weight:                   0.05
       Spawn Limit:                             0.1
-      Multi Spawn Chance:                               1.0-0.8-0.5
-      Entry Weight:                   0.1
+      Multi Spawn Chance:                               1.0-0.95-0.8-0.4-0.2-0.15
+      Entry Weight:                   0.05
       Spawn Limit:                             0.1
-      Multi Spawn Chance:                               1.0-0.8-0.5
-      Entry Weight:                   0.1
+      Multi Spawn Chance:                               1.0-0.95-0.8-0.4-0.2-0.15
+      Entry Weight:                   0.05
       Spawn Limit:                             0.15
-      Multi Spawn Chance:                               1.0-0.8-0.5
+      Multi Spawn Chance:                               1.0-0.95-0.8-0.4-0.2-0.15
 
    Main BP: AmbulocetusTSW_Character_BP_C
       Entry Weight:                   0.4

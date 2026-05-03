@@ -1,6 +1,5 @@
 All Entry Names: 
    Gupfish (1)  x 1
-   SE Carbo (1)  x 1
    SE Mammoth (1-2)  x 1
    SE Megaraptor (1)  x 1
    SE Megatherium (1-2)  x 2
@@ -8,6 +7,7 @@ All Entry Names:
    SE Sarco (1)  x 2
    SE Turtle (1)  x 1
    SE Turtle (1-2)  x 1
+   Stegotetra (1-2)  x 1
    Stegotetra (1-3)  x 1
    Stegotetrabelodon (1-4)  x 2
 
@@ -53,11 +53,6 @@ Container Name: null
       Spawn Limit: 0.1
       Multi Spawn Chance: 1.0-0.6
 Container Name: null
-   Entry Name: SE Carbo (1)
-      Main BP: Turtle_Character_BP_SEReborn_C
-      Entry Weight: 0.055
-      Spawn Limit: 0.05
-      Multi Spawn Chance: 1.0
    Entry Name: SE Sarco (1)
       Main BP: DeinosuchusASA_Character_BP_SEReborn_Sarco_C
       Entry Weight: 0.05
@@ -108,6 +103,12 @@ Container Name: null
       Entry Weight: 1.0
       Spawn Limit: 1.0
       Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Stegotetra (1-2)
+      Main BP: Mammoth_Character_BP_SEReborn_Stegotetra_C
+      Entry Weight: 0.033
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.33
 
 MultiParams Summary: 
    Main BP: DeinosuchusASA_Character_BP_SEReborn_Puru_C
@@ -146,6 +147,9 @@ MultiParams Summary:
       Entry Weight:                   0.03
       Spawn Limit:                             0.1
       Multi Spawn Chance:                               1.0-0.667-0.333
+      Entry Weight:                   0.033
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.33
 
    Main BP: Megatherium_Character_BP_SEReborn_C
       Entry Weight:                   0.01
@@ -159,9 +163,6 @@ MultiParams Summary:
       Entry Weight:                   0.055
       Spawn Limit:                             0.1
       Multi Spawn Chance:                               1.0-0.75
-      Entry Weight:                   0.055
-      Spawn Limit:                             0.05
-      Multi Spawn Chance:                               1.0
       Entry Weight:                   0.1
       Spawn Limit:                             0.1
       Multi Spawn Chance:                               1.0

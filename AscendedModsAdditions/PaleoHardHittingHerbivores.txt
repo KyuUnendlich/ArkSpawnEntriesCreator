@@ -3,6 +3,7 @@ All Entry Names:
 
 Engram Entries: 
    EngramEntry_Saddle_EVO_Therizino_C
+   EngramEntry_BrontoCanopy_C
 
 Dino Entries: 
    EVO_Therizino_C
@@ -49,6 +50,21 @@ Container Name: null
       Entry Weight: 0.01
       Spawn Limit: 0.1
       Multi Spawn Chance: 1.0-0.9-0.5-0.2
+   Entry Name: Bronto (1-5)
+      Main BP: EVO_Scorched_Bronto_Character_BP_C
+      Entry Weight: 0.01
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-0.9-0.5-0.2
+   Entry Name: Bronto (1-5)
+      Main BP: EVO_Scorched_Bronto_Character_BP_C
+      Entry Weight: 0.01
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-0.9-0.5-0.2
+   Entry Name: Bronto (1-5)
+      Main BP: EVO_Scorched_Bronto_Character_BP_C
+      Entry Weight: 0.01
+      Spawn Limit: Error, wrong BP or couldnt be found
+      Multi Spawn Chance: 1.0-0.9-0.5-0.2
 
 Global Entry Weights: 
    Main BP: EVO_Therizino_Character_BP_C
@@ -59,5 +75,14 @@ MultiParams Summary:
    Main BP: EVO_Scorched_Bronto_Character_BP_C
       Entry Weight:                   0.01
       Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.5-0.2
+      Entry Weight:                   0.01
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-0.9-0.5-0.2
+      Entry Weight:                   0.01
+      Spawn Limit:              Error, wrong BP or couldnt be found
+      Multi Spawn Chance:                               1.0-0.9-0.5-0.2
+      Entry Weight:                   0.01
+      Spawn Limit:              Error, wrong BP or couldnt be found
       Multi Spawn Chance:                               1.0-0.9-0.5-0.2
 

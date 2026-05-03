@@ -1,5 +1,5 @@
 All Entry Names: 
-   NULL  x 128
+   NULL  x 150
 
 Engram Entries: 
    EngramEntry_BatImplant_C
@@ -573,6 +573,16 @@ FromClass:
       /Game/Fjordur/Dinos/Desmodus/Desmodus_Character_BP.Desmodus_Character_BP_C
 ToClass: 
       /ShadsCritterReworks/Content/Desmodus/Desmodus_Character_BP_Shad.Desmodus_Character_BP_Shad_C
+      
+FromClass: 
+      /Game/ASA/Dinos/Acrocanthosaurus/Acrocanthosaurus_Character_BP.Acrocanthosaurus_Character_BP_C
+ToClass: 
+      /ShadsCritterReworks/Content/Acro/Acrocanthosaurus_Character_BP_Shad.Acrocanthosaurus_Character_BP_Shad_C
+      
+FromClass: 
+      /Game/ASA/Dinos/GrandTortugar/GrandTortugar_Character_BP.GrandTortugar_Character_BP_C
+ToClass: 
+      /ShadsCritterReworks/Content/Tortugar/GrandTortugar_Character_BP_Shad.GrandTortugar_Character_BP_Shad_C
 
 Dino Additions: 
 Container Name: null
@@ -580,62 +590,57 @@ Container Name: null
       Main BP: SCRStygi_Character_BP_C
       Entry Weight: 0.03
       Spawn Limit: 0.035
-      Multi Spawn Chance: 1.0-0.5
+      Multi Spawn Chance: 1.0-0.75
    Entry Name: 
       Main BP: Bison_Character_BP_Shad_C
-      Entry Weight: 0.024
-      Spawn Limit: 0.024
+      Entry Weight: 0.03
+      Spawn Limit: 0.035
       Multi Spawn Chance: 1.0-0.8-0.6-0.4
 Container Name: null
    Entry Name: 
       Main BP: SCRStygi_Character_BP_C
       Entry Weight: 0.03
       Spawn Limit: 0.035
-      Multi Spawn Chance: 1.0-0.5
+      Multi Spawn Chance: 1.0-0.75
    Entry Name: 
       Main BP: Bison_Character_BP_Shad_C
-      Entry Weight: 0.024
-      Spawn Limit: 0.024
+      Entry Weight: 0.03
+      Spawn Limit: 0.035
       Multi Spawn Chance: 1.0-0.8-0.6-0.4
 Container Name: null
    Entry Name: 
       Main BP: SCRStygi_Character_BP_C
       Entry Weight: 0.03
       Spawn Limit: 0.035
-      Multi Spawn Chance: 1.0-0.5
+      Multi Spawn Chance: 1.0-0.75
    Entry Name: 
       Main BP: Bison_Character_BP_Shad_C
-      Entry Weight: 0.024
-      Spawn Limit: 0.024
+      Entry Weight: 0.03
+      Spawn Limit: 0.035
       Multi Spawn Chance: 1.0-0.8-0.6-0.4
 Container Name: null
    Entry Name: 
       Main BP: SCRStygi_Character_BP_C
       Entry Weight: 0.03
       Spawn Limit: 0.035
-      Multi Spawn Chance: 1.0-0.5
+      Multi Spawn Chance: 1.0-0.75
    Entry Name: 
       Main BP: Bison_Character_BP_Shad_C
-      Entry Weight: 0.024
-      Spawn Limit: 0.024
+      Entry Weight: 0.03
+      Spawn Limit: 0.035
       Multi Spawn Chance: 1.0-0.8-0.6-0.4
 Container Name: null
    Entry Name: 
       Main BP: SCRStygi_Character_BP_C
       Entry Weight: 0.03
       Spawn Limit: 0.035
-      Multi Spawn Chance: 1.0-0.5
+      Multi Spawn Chance: 1.0-0.75
    Entry Name: 
       Main BP: Bison_Character_BP_Shad_C
-      Entry Weight: 0.024
-      Spawn Limit: 0.024
+      Entry Weight: 0.03
+      Spawn Limit: 0.035
       Multi Spawn Chance: 1.0-0.8-0.6-0.4
 Container Name: null
-   Entry Name: 
-      Main BP: Bison_Character_BP_Shad_C
-      Entry Weight: 0.024
-      Spawn Limit: 0.024
-      Multi Spawn Chance: 1.0-0.8-0.6-0.4
    Entry Name: 
       Main BP: Griffin_Character_BP_Shad_C
       Entry Weight: 0.015
@@ -645,13 +650,18 @@ Container Name: null
       Main BP: Yeti_Character_BP_Shad_C
       Entry Weight: 0.015
       Spawn Limit: 0.015
-      Multi Spawn Chance: 1.0-0.5
-Container Name: null
+      Multi Spawn Chance: 1.0
    Entry Name: 
       Main BP: Bison_Character_BP_Shad_C
-      Entry Weight: 0.024
-      Spawn Limit: 0.024
+      Entry Weight: 0.03
+      Spawn Limit: 0.035
       Multi Spawn Chance: 1.0-0.8-0.6-0.4
+   Entry Name: 
+      Main BP: Direbear_Character_BP_Polar_Shad_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+Container Name: null
    Entry Name: 
       Main BP: Griffin_Character_BP_Shad_C
       Entry Weight: 0.015
@@ -661,24 +671,18 @@ Container Name: null
       Main BP: Yeti_Character_BP_Shad_C
       Entry Weight: 0.015
       Spawn Limit: 0.015
-      Multi Spawn Chance: 1.0-0.5
-Container Name: null
+      Multi Spawn Chance: 1.0
    Entry Name: 
       Main BP: Bison_Character_BP_Shad_C
-      Entry Weight: 0.024
-      Spawn Limit: 0.024
+      Entry Weight: 0.03
+      Spawn Limit: 0.035
       Multi Spawn Chance: 1.0-0.8-0.6-0.4
    Entry Name: 
-      Main BP: Griffin_Character_BP_Shad_C
-      Entry Weight: 0.015
-      Spawn Limit: 0.015
+      Main BP: Direbear_Character_BP_Polar_Shad_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.02
       Multi Spawn Chance: 1.0
 Container Name: null
-   Entry Name: 
-      Main BP: Bison_Character_BP_Shad_C
-      Entry Weight: 0.024
-      Spawn Limit: 0.024
-      Multi Spawn Chance: 1.0-0.8-0.6-0.4
    Entry Name: 
       Main BP: Griffin_Character_BP_Shad_C
       Entry Weight: 0.015
@@ -688,13 +692,18 @@ Container Name: null
       Main BP: Yeti_Character_BP_Shad_C
       Entry Weight: 0.015
       Spawn Limit: 0.015
-      Multi Spawn Chance: 1.0-0.5
-Container Name: null
+      Multi Spawn Chance: 1.0
    Entry Name: 
       Main BP: Bison_Character_BP_Shad_C
-      Entry Weight: 0.024
-      Spawn Limit: 0.024
+      Entry Weight: 0.03
+      Spawn Limit: 0.035
       Multi Spawn Chance: 1.0-0.8-0.6-0.4
+   Entry Name: 
+      Main BP: Direbear_Character_BP_Polar_Shad_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+Container Name: null
    Entry Name: 
       Main BP: Griffin_Character_BP_Shad_C
       Entry Weight: 0.015
@@ -704,13 +713,18 @@ Container Name: null
       Main BP: Yeti_Character_BP_Shad_C
       Entry Weight: 0.015
       Spawn Limit: 0.015
-      Multi Spawn Chance: 1.0-0.5
-Container Name: null
+      Multi Spawn Chance: 1.0
    Entry Name: 
       Main BP: Bison_Character_BP_Shad_C
-      Entry Weight: 0.024
-      Spawn Limit: 0.024
+      Entry Weight: 0.03
+      Spawn Limit: 0.035
       Multi Spawn Chance: 1.0-0.8-0.6-0.4
+   Entry Name: 
+      Main BP: Direbear_Character_BP_Polar_Shad_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+Container Name: null
    Entry Name: 
       Main BP: Griffin_Character_BP_Shad_C
       Entry Weight: 0.015
@@ -720,13 +734,18 @@ Container Name: null
       Main BP: Yeti_Character_BP_Shad_C
       Entry Weight: 0.015
       Spawn Limit: 0.015
-      Multi Spawn Chance: 1.0-0.5
-Container Name: null
+      Multi Spawn Chance: 1.0
    Entry Name: 
       Main BP: Bison_Character_BP_Shad_C
-      Entry Weight: 0.024
-      Spawn Limit: 0.024
+      Entry Weight: 0.03
+      Spawn Limit: 0.035
       Multi Spawn Chance: 1.0-0.8-0.6-0.4
+   Entry Name: 
+      Main BP: Direbear_Character_BP_Polar_Shad_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+Container Name: null
    Entry Name: 
       Main BP: Griffin_Character_BP_Shad_C
       Entry Weight: 0.015
@@ -736,13 +755,13 @@ Container Name: null
       Main BP: Yeti_Character_BP_Shad_C
       Entry Weight: 0.015
       Spawn Limit: 0.015
-      Multi Spawn Chance: 1.0-0.5
-Container Name: null
+      Multi Spawn Chance: 1.0
    Entry Name: 
       Main BP: Bison_Character_BP_Shad_C
-      Entry Weight: 0.024
-      Spawn Limit: 0.024
+      Entry Weight: 0.03
+      Spawn Limit: 0.035
       Multi Spawn Chance: 1.0-0.8-0.6-0.4
+Container Name: null
    Entry Name: 
       Main BP: Griffin_Character_BP_Shad_C
       Entry Weight: 0.015
@@ -752,22 +771,127 @@ Container Name: null
       Main BP: Yeti_Character_BP_Shad_C
       Entry Weight: 0.015
       Spawn Limit: 0.015
-      Multi Spawn Chance: 1.0-0.5
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Bison_Character_BP_Shad_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.8-0.6-0.4
+   Entry Name: 
+      Main BP: Direbear_Character_BP_Polar_Shad_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: Griffin_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Yeti_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Bison_Character_BP_Shad_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.8-0.6-0.4
+   Entry Name: 
+      Main BP: Direbear_Character_BP_Polar_Shad_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: Griffin_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Yeti_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Bison_Character_BP_Shad_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.8-0.6-0.4
+   Entry Name: 
+      Main BP: Direbear_Character_BP_Polar_Shad_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Gigant_Character_BP_Shad_C
+      Entry Weight: 0.008
+      Spawn Limit: 0.008
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: Griffin_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Yeti_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Bison_Character_BP_Shad_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.8-0.6-0.4
+   Entry Name: 
+      Main BP: Direbear_Character_BP_Polar_Shad_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Gigant_Character_BP_Shad_C
+      Entry Weight: 0.008
+      Spawn Limit: 0.008
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: Griffin_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Gigant_Character_BP_Shad_C
+      Entry Weight: 0.008
+      Spawn Limit: 0.008
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: Griffin_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Gigant_Character_BP_Shad_C
+      Entry Weight: 0.008
+      Spawn Limit: 0.008
+      Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: 
       Main BP: SCRStygi_Character_BP_C
       Entry Weight: 0.03
-      Spawn Limit: 0.035
-      Multi Spawn Chance: 1.0-0.5
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.7
    Entry Name: 
       Main BP: Stego_Character_BP_Shad_C
       Entry Weight: 0.03
-      Spawn Limit: 0.02
-      Multi Spawn Chance: 1.0-0.75-0.5
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.8-0.5
    Entry Name: 
       Main BP: Gigantoraptor_Character_BP_Shad_C
       Entry Weight: 0.02
-      Spawn Limit: 0.01
+      Spawn Limit: 0.02
       Multi Spawn Chance: 1.0
    Entry Name: 
       Main BP: Oviraptor_Character_BP_Shad_C
@@ -781,218 +905,232 @@ Container Name: null
       Multi Spawn Chance: 1.0-0.8-0.6
 Container Name: null
    Entry Name: 
-      Main BP: SCRStygi_Character_BP_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.035
-      Multi Spawn Chance: 1.0-0.5
-   Entry Name: 
-      Main BP: Griffin_Character_BP_Shad_C
-      Entry Weight: 0.015
-      Spawn Limit: 0.015
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: Allo_Character_BP_Shad_Scorched_C
-      Entry Weight: 0.025
-      Spawn Limit: 0.025
-      Multi Spawn Chance: 1.0-1.0-1.0
-Container Name: null
-   Entry Name: 
-      Main BP: SCRStygi_Character_BP_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.035
-      Multi Spawn Chance: 1.0-0.5
-   Entry Name: 
-      Main BP: Allo_Character_BP_Shad_Scorched_C
-      Entry Weight: 0.025
-      Spawn Limit: 0.025
-      Multi Spawn Chance: 1.0-1.0-1.0
-   Entry Name: 
-      Main BP: ValMegaraptor_Character_BP_Shad_C
-      Entry Weight: 0.015
-      Spawn Limit: 
-      Multi Spawn Chance: 1.0
-Container Name: null
-   Entry Name: 
-      Main BP: SCRStygi_Character_BP_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.035
-      Multi Spawn Chance: 1.0-0.5
-Container Name: null
-   Entry Name: 
-      Main BP: SCRStygi_Character_BP_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.035
-      Multi Spawn Chance: 1.0-0.5
-Container Name: null
-   Entry Name: 
-      Main BP: SCRStygi_Character_BP_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.035
-      Multi Spawn Chance: 1.0-0.5
-Container Name: null
-   Entry Name: 
-      Main BP: SCRStygi_Character_BP_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.035
-      Multi Spawn Chance: 1.0-0.5
-Container Name: null
-   Entry Name: 
-      Main BP: SCRStygi_Character_BP_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.035
-      Multi Spawn Chance: 1.0-0.5
-   Entry Name: 
-      Main BP: Gigant_Character_BP_Shad_C
-      Entry Weight: 0.002
-      Spawn Limit: 0.002
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: Griffin_Character_BP_Shad_C
-      Entry Weight: 0.015
-      Spawn Limit: 0.015
-      Multi Spawn Chance: 1.0
-Container Name: null
-   Entry Name: 
-      Main BP: SCRStygi_Character_BP_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.035
-      Multi Spawn Chance: 1.0-0.5
-   Entry Name: 
-      Main BP: Gigant_Character_BP_Shad_C
-      Entry Weight: 0.002
-      Spawn Limit: 0.002
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: Griffin_Character_BP_Shad_C
-      Entry Weight: 0.015
-      Spawn Limit: 0.015
-      Multi Spawn Chance: 1.0
-Container Name: null
-   Entry Name: 
-      Main BP: SCRStygi_Character_BP_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.035
-      Multi Spawn Chance: 1.0-0.5
-Container Name: null
-   Entry Name: 
-      Main BP: Gigant_Character_BP_Shad_C
-      Entry Weight: 0.002
-      Spawn Limit: 0.002
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: Bison_Character_BP_Shad_C
-      Entry Weight: 0.025
-      Spawn Limit: 0.025
-      Multi Spawn Chance: 1.0-0.8-0.6-0.4
-   Entry Name: 
-      Main BP: Yeti_Character_BP_Shad_C
-      Entry Weight: 0.015
-      Spawn Limit: 0.015
-      Multi Spawn Chance: 1.0-0.5
-Container Name: null
-   Entry Name: 
-      Main BP: Gigant_Character_BP_Shad_C
-      Entry Weight: 0.002
-      Spawn Limit: 0.002
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: Bison_Character_BP_Shad_C
-      Entry Weight: 0.025
-      Spawn Limit: 0.025
-      Multi Spawn Chance: 1.0-0.8-0.6-0.4
-   Entry Name: 
-      Main BP: Yeti_Character_BP_Shad_C
-      Entry Weight: 0.015
-      Spawn Limit: 0.015
-      Multi Spawn Chance: 1.0-0.5
-Container Name: null
-   Entry Name: 
-      Main BP: Gigant_Character_BP_Shad_C
-      Entry Weight: 0.002
-      Spawn Limit: 0.002
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: Griffin_Character_BP_Shad_C
-      Entry Weight: 0.015
-      Spawn Limit: 0.015
-      Multi Spawn Chance: 1.0
-Container Name: null
-   Entry Name: 
-      Main BP: Gigant_Character_BP_Shad_C
-      Entry Weight: 0.002
-      Spawn Limit: 0.002
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: Griffin_Character_BP_Shad_C
-      Entry Weight: 0.015
-      Spawn Limit: 0.015
-      Multi Spawn Chance: 1.0
-Container Name: null
-   Entry Name: 
       Main BP: Gigantoraptor_Character_BP_Shad_C
       Entry Weight: 0.02
-      Spawn Limit: 0.01
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: Spino_Character_BP_Shad_C
-      Entry Weight: 0.02
-      Spawn Limit: 0.01
+      Spawn Limit: 0.02
       Multi Spawn Chance: 1.0
    Entry Name: 
       Main BP: Oviraptor_Character_BP_Shad_C
       Entry Weight: 0.025
       Spawn Limit: 0.025
       Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Spino_Character_BP_Shad_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: 
       Main BP: Spino_Character_BP_Shad_C
       Entry Weight: 0.02
-      Spawn Limit: 0.01
+      Spawn Limit: 0.02
       Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: 
       Main BP: DeinosuchusASA_Character_BP_Shad_C
-      Entry Weight: 0.01
-      Spawn Limit: 0.01
+      Entry Weight: 0.02
+      Spawn Limit: 0.02
       Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: 
       Main BP: DeinosuchusASA_Character_BP_Shad_C
-      Entry Weight: 0.01
-      Spawn Limit: 0.01
+      Entry Weight: 0.02
+      Spawn Limit: 0.02
       Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: 
       Main BP: DeinosuchusASA_Character_BP_Shad_C
-      Entry Weight: 0.01
-      Spawn Limit: 0.01
+      Entry Weight: 0.02
+      Spawn Limit: 0.02
       Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: 
       Main BP: DeinosuchusASA_Character_BP_Shad_C
-      Entry Weight: 0.01
-      Spawn Limit: 0.01
+      Entry Weight: 0.02
+      Spawn Limit: 0.02
       Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: 
-      Main BP: SpineyLizard_Character_BP_Shad_Aberrant_C
-      Entry Weight: 0.04
-      Spawn Limit: 0.04
-      Multi Spawn Chance: 1.0-0.6
-   Entry Name: 
-      Main BP: Megatherium_Character_BP_Shad_Aberrant_C
+      Main BP: SCRStygi_Character_BP_C
       Entry Weight: 0.03
       Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.7
+   Entry Name: 
+      Main BP: Griffin_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
       Multi Spawn Chance: 1.0
    Entry Name: 
-      Main BP: Megalania_Character_BP_Aberrant_Shad_C
+      Main BP: Allo_Character_BP_Shad_Scorched_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-0.8-0.6
+Container Name: null
+   Entry Name: 
+      Main BP: SCRStygi_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.7
+   Entry Name: 
+      Main BP: ValMegaraptor_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Allo_Character_BP_Shad_Scorched_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-0.8-0.6
+Container Name: null
+   Entry Name: 
+      Main BP: SCRStygi_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.7
+   Entry Name: 
+      Main BP: SpiritBear_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: SCRStygi_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.7
+   Entry Name: 
+      Main BP: SpiritBear_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: SCRStygi_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.7
+   Entry Name: 
+      Main BP: SpiritBear_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: SCRStygi_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.7
+   Entry Name: 
+      Main BP: SpiritBear_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: ValMegaraptor_Character_BP_Shad_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: SpiritBear_Character_BP_Shad_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: ValMegaraptor_Character_BP_Shad_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: SpiritBear_Character_BP_Shad_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: ValMegaraptor_Character_BP_Shad_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: SpiritBear_Character_BP_Shad_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: SCRStygi_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.7
+   Entry Name: 
+      Main BP: Griffin_Character_BP_Shad_C
       Entry Weight: 0.02
       Spawn Limit: 0.02
       Multi Spawn Chance: 1.0
    Entry Name: 
-      Main BP: Daeodon_Character_BP_Shad_Aberrant_C
+      Main BP: Gigant_Character_BP_Shad_C
+      Entry Weight: 0.008
+      Spawn Limit: 0.009
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: SCRStygi_Character_BP_C
       Entry Weight: 0.03
       Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.7
+   Entry Name: 
+      Main BP: Griffin_Character_BP_Shad_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Gigant_Character_BP_Shad_C
+      Entry Weight: 0.008
+      Spawn Limit: 0.009
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: SCRStygi_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.7
+Container Name: null
+   Entry Name: 
+      Main BP: Yeti_Character_BP_Shad_C
+      Entry Weight: 0.045
+      Spawn Limit: 0.045
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: 
+      Main BP: Yeti_Character_BP_Shad_C
+      Entry Weight: 0.045
+      Spawn Limit: 0.045
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: 
+      Main BP: Yeti_Character_BP_Shad_C
+      Entry Weight: 0.045
+      Spawn Limit: 0.045
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: 
+      Main BP: Yeti_Character_BP_Shad_C
+      Entry Weight: 0.045
+      Spawn Limit: 0.045
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: 
+      Main BP: GrandTortugar_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: GrandTortugar_Character_BP_Shad_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.04
       Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: 
@@ -1234,46 +1372,10 @@ Container Name: null
       Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: 
-      Main BP: ValMegaraptor_Character_BP_Shad_C
-      Entry Weight: 0.15
-      Spawn Limit: 0.025
-      Multi Spawn Chance: 1.0
-Container Name: null
-   Entry Name: 
       Main BP: Baryonyx_Character_BP_Shad_Arcane_C
       Entry Weight: 0.0
       Spawn Limit: 0.0
       Multi Spawn Chance: 0.0-0.0-0.0-0.0-0.0
-Container Name: null
-   Entry Name: 
-      Main BP: Yeti_Character_BP_Shad_C
-      Entry Weight: 0.045
-      Spawn Limit: 0.045
-      Multi Spawn Chance: 1.0-0.5
-Container Name: null
-   Entry Name: 
-      Main BP: Yeti_Character_BP_Shad_C
-      Entry Weight: 0.045
-      Spawn Limit: 0.045
-      Multi Spawn Chance: 1.0-0.5
-Container Name: null
-   Entry Name: 
-      Main BP: Yeti_Character_BP_Shad_C
-      Entry Weight: 0.045
-      Spawn Limit: 0.045
-      Multi Spawn Chance: 1.0-0.5
-Container Name: null
-   Entry Name: 
-      Main BP: Yeti_Character_BP_Shad_C
-      Entry Weight: 0.045
-      Spawn Limit: 0.045
-      Multi Spawn Chance: 1.0-0.5
-Container Name: null
-   Entry Name: 
-      Main BP: Yeti_Character_BP_Shad_C
-      Entry Weight: 0.045
-      Spawn Limit: 0.045
-      Multi Spawn Chance: 1.0-0.5
 
 Global Entry Weights: 
    Main BP: Rex_Character_BP_C
@@ -1322,10 +1424,10 @@ MultiParams Summary:
    Main BP: Allo_Character_BP_Shad_Scorched_C
       Entry Weight:                   0.025
       Spawn Limit:                             0.025
-      Multi Spawn Chance:                               1.0-1.0-1.0
+      Multi Spawn Chance:                               1.0-0.8-0.6
       Entry Weight:                   0.025
       Spawn Limit:                             0.025
-      Multi Spawn Chance:                               1.0-1.0-1.0
+      Multi Spawn Chance:                               1.0-0.8-0.6
 
    Main BP: Baryonyx_Character_BP_Shad_Arcane_C
       Entry Weight:                   0.0
@@ -1413,50 +1515,50 @@ MultiParams Summary:
       Multi Spawn Chance:                               1.0-0.76-0.5
 
    Main BP: Bison_Character_BP_Shad_C
-      Entry Weight:                   0.024
-      Spawn Limit:                             0.024
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.035
       Multi Spawn Chance:                               1.0-0.8-0.6-0.4
-      Entry Weight:                   0.024
-      Spawn Limit:                             0.024
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.035
       Multi Spawn Chance:                               1.0-0.8-0.6-0.4
-      Entry Weight:                   0.024
-      Spawn Limit:                             0.024
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.035
       Multi Spawn Chance:                               1.0-0.8-0.6-0.4
-      Entry Weight:                   0.024
-      Spawn Limit:                             0.024
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.035
       Multi Spawn Chance:                               1.0-0.8-0.6-0.4
-      Entry Weight:                   0.024
-      Spawn Limit:                             0.024
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.035
       Multi Spawn Chance:                               1.0-0.8-0.6-0.4
-      Entry Weight:                   0.024
-      Spawn Limit:                             0.024
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.035
       Multi Spawn Chance:                               1.0-0.8-0.6-0.4
-      Entry Weight:                   0.024
-      Spawn Limit:                             0.024
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.035
       Multi Spawn Chance:                               1.0-0.8-0.6-0.4
-      Entry Weight:                   0.024
-      Spawn Limit:                             0.024
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.035
       Multi Spawn Chance:                               1.0-0.8-0.6-0.4
-      Entry Weight:                   0.024
-      Spawn Limit:                             0.024
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.035
       Multi Spawn Chance:                               1.0-0.8-0.6-0.4
-      Entry Weight:                   0.024
-      Spawn Limit:                             0.024
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.035
       Multi Spawn Chance:                               1.0-0.8-0.6-0.4
-      Entry Weight:                   0.024
-      Spawn Limit:                             0.024
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.035
       Multi Spawn Chance:                               1.0-0.8-0.6-0.4
-      Entry Weight:                   0.024
-      Spawn Limit:                             0.024
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.035
       Multi Spawn Chance:                               1.0-0.8-0.6-0.4
-      Entry Weight:                   0.024
-      Spawn Limit:                             0.024
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.035
       Multi Spawn Chance:                               1.0-0.8-0.6-0.4
-      Entry Weight:                   0.025
-      Spawn Limit:                             0.025
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.035
       Multi Spawn Chance:                               1.0-0.8-0.6-0.4
-      Entry Weight:                   0.025
-      Spawn Limit:                             0.025
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.035
       Multi Spawn Chance:                               1.0-0.8-0.6-0.4
 
    Main BP: Ceratosaurus_Character_BP_ASA_Shad_C
@@ -1473,22 +1575,48 @@ MultiParams Summary:
       Entry Weight:                   0.03
       Spawn Limit:                             0.03
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.03
-      Spawn Limit:                             0.03
-      Multi Spawn Chance:                               1.0
 
    Main BP: DeinosuchusASA_Character_BP_Shad_C
-      Entry Weight:                   0.01
-      Spawn Limit:                             0.01
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.02
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.01
-      Spawn Limit:                             0.01
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.02
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.01
-      Spawn Limit:                             0.01
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.02
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.01
-      Spawn Limit:                             0.01
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+
+   Main BP: Direbear_Character_BP_Polar_Shad_C
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.02
       Multi Spawn Chance:                               1.0
 
    Main BP: FireLion_Character_BP_Shad_C
@@ -1497,23 +1625,23 @@ MultiParams Summary:
       Multi Spawn Chance:                               1.0-0.5-0.25
 
    Main BP: Gigant_Character_BP_Shad_C
-      Entry Weight:                   0.002
-      Spawn Limit:                             0.002
+      Entry Weight:                   0.008
+      Spawn Limit:                             0.008
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.002
-      Spawn Limit:                             0.002
+      Entry Weight:                   0.008
+      Spawn Limit:                             0.008
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.002
-      Spawn Limit:                             0.002
+      Entry Weight:                   0.008
+      Spawn Limit:                             0.008
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.002
-      Spawn Limit:                             0.002
+      Entry Weight:                   0.008
+      Spawn Limit:                             0.008
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.002
-      Spawn Limit:                             0.002
+      Entry Weight:                   0.008
+      Spawn Limit:                             0.009
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.002
-      Spawn Limit:                             0.002
+      Entry Weight:                   0.008
+      Spawn Limit:                             0.009
       Multi Spawn Chance:                               1.0
 
    Main BP: Gigant_Character_BP_Shad_Tek_C
@@ -1532,10 +1660,18 @@ MultiParams Summary:
 
    Main BP: Gigantoraptor_Character_BP_Shad_C
       Entry Weight:                   0.02
-      Spawn Limit:                             0.01
+      Spawn Limit:                             0.02
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.02
-      Spawn Limit:                             0.01
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+
+   Main BP: GrandTortugar_Character_BP_Shad_C
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.04
       Multi Spawn Chance:                               1.0
 
    Main BP: Griffin_Character_BP_Shad_C
@@ -1578,11 +1714,14 @@ MultiParams Summary:
       Entry Weight:                   0.015
       Spawn Limit:                             0.015
       Multi Spawn Chance:                               1.0
-
-   Main BP: Megalania_Character_BP_Aberrant_Shad_C
       Entry Weight:                   0.02
       Spawn Limit:                             0.02
       Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+
+   Main BP: Megalania_Character_BP_Aberrant_Shad_C
       Entry Weight:                   0.02
       Spawn Limit:                             0.02
       Multi Spawn Chance:                               1.0
@@ -1591,9 +1730,6 @@ MultiParams Summary:
       Multi Spawn Chance:                               1.0
 
    Main BP: Megatherium_Character_BP_Shad_Aberrant_C
-      Entry Weight:                   0.03
-      Spawn Limit:                             0.03
-      Multi Spawn Chance:                               1.0
       Entry Weight:                   0.03
       Spawn Limit:                             0.03
       Multi Spawn Chance:                               1.0
@@ -1609,49 +1745,49 @@ MultiParams Summary:
    Main BP: SCRStygi_Character_BP_C
       Entry Weight:                   0.03
       Spawn Limit:                             0.035
-      Multi Spawn Chance:                               1.0-0.5
+      Multi Spawn Chance:                               1.0-0.75
       Entry Weight:                   0.03
       Spawn Limit:                             0.035
-      Multi Spawn Chance:                               1.0-0.5
+      Multi Spawn Chance:                               1.0-0.75
       Entry Weight:                   0.03
       Spawn Limit:                             0.035
-      Multi Spawn Chance:                               1.0-0.5
+      Multi Spawn Chance:                               1.0-0.75
       Entry Weight:                   0.03
       Spawn Limit:                             0.035
-      Multi Spawn Chance:                               1.0-0.5
+      Multi Spawn Chance:                               1.0-0.75
       Entry Weight:                   0.03
       Spawn Limit:                             0.035
-      Multi Spawn Chance:                               1.0-0.5
+      Multi Spawn Chance:                               1.0-0.75
       Entry Weight:                   0.03
-      Spawn Limit:                             0.035
-      Multi Spawn Chance:                               1.0-0.5
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.7
       Entry Weight:                   0.03
-      Spawn Limit:                             0.035
-      Multi Spawn Chance:                               1.0-0.5
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.7
       Entry Weight:                   0.03
-      Spawn Limit:                             0.035
-      Multi Spawn Chance:                               1.0-0.5
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.7
       Entry Weight:                   0.03
-      Spawn Limit:                             0.035
-      Multi Spawn Chance:                               1.0-0.5
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.7
       Entry Weight:                   0.03
-      Spawn Limit:                             0.035
-      Multi Spawn Chance:                               1.0-0.5
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.7
       Entry Weight:                   0.03
-      Spawn Limit:                             0.035
-      Multi Spawn Chance:                               1.0-0.5
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.7
       Entry Weight:                   0.03
-      Spawn Limit:                             0.035
-      Multi Spawn Chance:                               1.0-0.5
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.7
       Entry Weight:                   0.03
-      Spawn Limit:                             0.035
-      Multi Spawn Chance:                               1.0-0.5
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.7
       Entry Weight:                   0.03
-      Spawn Limit:                             0.035
-      Multi Spawn Chance:                               1.0-0.5
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.7
       Entry Weight:                   0.03
-      Spawn Limit:                             0.035
-      Multi Spawn Chance:                               1.0-0.5
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.7
       Entry Weight:                   0.08
       Spawn Limit:                             0.05
       Multi Spawn Chance:                               1.0-0.8-0.6
@@ -1680,28 +1816,54 @@ MultiParams Summary:
       Entry Weight:                   0.04
       Spawn Limit:                             0.04
       Multi Spawn Chance:                               1.0-0.6
-      Entry Weight:                   0.04
-      Spawn Limit:                             0.04
-      Multi Spawn Chance:                               1.0-0.6
 
    Main BP: Spino_Character_BP_Shad_C
       Entry Weight:                   0.02
-      Spawn Limit:                             0.01
+      Spawn Limit:                             0.02
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.02
-      Spawn Limit:                             0.01
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+
+   Main BP: SpiritBear_Character_BP_Shad_C
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
       Multi Spawn Chance:                               1.0
 
    Main BP: Stego_Character_BP_Shad_C
       Entry Weight:                   0.03
-      Spawn Limit:                             0.02
-      Multi Spawn Chance:                               1.0-0.75-0.5
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.8-0.5
 
    Main BP: ValMegaraptor_Character_BP_Shad_C
       Entry Weight:                   0.015
-      Spawn Limit:                             
+      Spawn Limit:                             0.02
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.15
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.025
       Spawn Limit:                             0.025
       Multi Spawn Chance:                               1.0
 
@@ -1713,44 +1875,44 @@ MultiParams Summary:
    Main BP: Yeti_Character_BP_Shad_C
       Entry Weight:                   0.015
       Spawn Limit:                             0.015
-      Multi Spawn Chance:                               1.0-0.5
+      Multi Spawn Chance:                               1.0
       Entry Weight:                   0.015
       Spawn Limit:                             0.015
-      Multi Spawn Chance:                               1.0-0.5
+      Multi Spawn Chance:                               1.0
       Entry Weight:                   0.015
       Spawn Limit:                             0.015
-      Multi Spawn Chance:                               1.0-0.5
+      Multi Spawn Chance:                               1.0
       Entry Weight:                   0.015
       Spawn Limit:                             0.015
-      Multi Spawn Chance:                               1.0-0.5
+      Multi Spawn Chance:                               1.0
       Entry Weight:                   0.015
       Spawn Limit:                             0.015
-      Multi Spawn Chance:                               1.0-0.5
+      Multi Spawn Chance:                               1.0
       Entry Weight:                   0.015
       Spawn Limit:                             0.015
-      Multi Spawn Chance:                               1.0-0.5
+      Multi Spawn Chance:                               1.0
       Entry Weight:                   0.015
       Spawn Limit:                             0.015
-      Multi Spawn Chance:                               1.0-0.5
+      Multi Spawn Chance:                               1.0
       Entry Weight:                   0.015
       Spawn Limit:                             0.015
-      Multi Spawn Chance:                               1.0-0.5
+      Multi Spawn Chance:                               1.0
       Entry Weight:                   0.015
       Spawn Limit:                             0.015
-      Multi Spawn Chance:                               1.0-0.5
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0
       Entry Weight:                   0.045
       Spawn Limit:                             0.045
-      Multi Spawn Chance:                               1.0-0.5
+      Multi Spawn Chance:                               
       Entry Weight:                   0.045
       Spawn Limit:                             0.045
-      Multi Spawn Chance:                               1.0-0.5
+      Multi Spawn Chance:                               
       Entry Weight:                   0.045
       Spawn Limit:                             0.045
-      Multi Spawn Chance:                               1.0-0.5
+      Multi Spawn Chance:                               
       Entry Weight:                   0.045
       Spawn Limit:                             0.045
-      Multi Spawn Chance:                               1.0-0.5
-      Entry Weight:                   0.045
-      Spawn Limit:                             0.045
-      Multi Spawn Chance:                               1.0-0.5
+      Multi Spawn Chance:                               
 

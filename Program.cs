@@ -62,8 +62,8 @@ namespace ArkSpawnEntriesCreator
             MoroGigantophis,                        IsleSuchomimus, /*IsleOfMythsSucho*/Meraxes,                            PaleoAscension,
             SulfurTitan, /*TitanSulfur*/            HorizonSuchomimus, /*Horizons*/     RunicWyverns,                       BetterCreatures,
             AA_Edmontonia, /* Edmontonia */         MoroTylo,                           NeoAurochs, /*Aurochs*/             ImprovedPhoenix,
-            AA_Anomalocaris,                        MoroNotho,                          NeoStygi, /*Stygi*/                 VegPlanters,
-            Cricosaurus, /*AA_Crico*/               Rubidgea, /*OCRubidgea*/            NeoStyraco, /*Styra*/               UtilitiesPlus,
+            AA_Anomalocaris,                        MoroNotho,                          NeoStygi, /*Stygi*/                 
+            Cricosaurus, /*AA_Crico*/               Rubidgea, /*OCRubidgea*/            NeoStyraco, /*Styra*/               
             ArketyDraconyx, /*ATDraconyx*/          Birdwatcher,                        Skjaldastordr, /*MSVV_Skjaldastor*/ ClayAnkylo,
             ArketyScotoharpes, /*ATScoto*/          TACVectispinus,                     PygmyHippo,                         ClayLeed,
             ArketyBombardier, /*ATBomb  MULTIMAIN*/ TACAntrodemus,                      ExtremeGargantSpino, /*t5ege*/      ClayPachyrhino,
@@ -81,9 +81,9 @@ namespace ArkSpawnEntriesCreator
             XyphMeiolania,                          RoyalArchaeopteryx,                 AnomalyGalvarex,
         }
 
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/PaleoApexPredators.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/ShadCritterReworks.txt";
         const bool replaceFile = true;
-        const bool multimain = true;
+        const bool multimain = false;
 
         public static void ASASpawnContainer() 
         {

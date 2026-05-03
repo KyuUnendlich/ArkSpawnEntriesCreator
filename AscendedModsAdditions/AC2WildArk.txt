@@ -1,5 +1,5 @@
 All Entry Names: 
-   NULL  x 375
+   NULL  x 409
 
 Engram Entries: 
    EngramEntry_ChallengePaul_C
@@ -51,6 +51,8 @@ Engram Entries:
    EngramEntry_Saddle_Hadal_C
    EngramEntry_ErythroCombatSaddle_C
    EngramEntry_ErythroStandardSaddle_C
+   EngramEntry_Saddle_Saurovindico_C
+   EngramEntry_ChallengeSmok_C
 
 Dino Entries: 
    AC2Aeros_C
@@ -86,6 +88,7 @@ Dino Entries:
    AC2Chungus_C
    AC2Erythro_C
    AC2Squali_C
+   SmokSaur_C
 
 Dino Additions: 
 Container Name: null
@@ -320,6 +323,11 @@ Container Name: null
       Entry Weight: 0.5
       Spawn Limit: 0.1
       Multi Spawn Chance: 1.0-0.5
+   Entry Name: 
+      Main BP: Saurovindico_Character_BP_Wild_Crystal_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: 
       Main BP: Anteo_Character_BP_C
@@ -336,6 +344,11 @@ Container Name: null
       Entry Weight: 0.05
       Spawn Limit: 0.05
       Multi Spawn Chance: 1.0-0.5
+   Entry Name: 
+      Main BP: Saurovindico_Character_BP_Wild_Crystal_C
+      Entry Weight: 0.008
+      Spawn Limit: 0.008
+      Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: 
       Main BP: Anteo_Character_BP_C
@@ -352,6 +365,11 @@ Container Name: null
       Entry Weight: 0.5
       Spawn Limit: 0.1
       Multi Spawn Chance: 1.0-0.5
+   Entry Name: 
+      Main BP: Saurovindico_Character_BP_Wild_Crystal_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: 
       Main BP: Eryops_Character_bp_C
@@ -530,25 +548,20 @@ Container Name: null
       Spawn Limit: 0.02
       Multi Spawn Chance: 1.0
    Entry Name: 
-      Main BP: Goyle_Character_BP_C
-      Entry Weight: 0.02
-      Spawn Limit: 0.02
-      Multi Spawn Chance: 1.0-0.8-0.6
-   Entry Name: 
       Main BP: Edmontosaurus_Character_BP_C
       Entry Weight: 0.03
       Spawn Limit: 0.03
-      Multi Spawn Chance: 1.0-0.8-0.7
+      Multi Spawn Chance: 1.0-0.8-0.6
    Entry Name: 
       Main BP: BigIggy_Character_BP_C
       Entry Weight: 0.035
       Spawn Limit: 0.035
-      Multi Spawn Chance: 1.0-0.75-0.5
+      Multi Spawn Chance: 1.0-0.8-0.6
    Entry Name: 
       Main BP: Apatosaurus_Character_BP_C
       Entry Weight: 0.015
       Spawn Limit: 0.02
-      Multi Spawn Chance: 1.0-0.75-0.5
+      Multi Spawn Chance: 1.0-0.8-0.6
    Entry Name: 
       Main BP: Epanterias_Character_BP_C
       Entry Weight: 0.025
@@ -556,7 +569,7 @@ Container Name: null
       Multi Spawn Chance: 1.0
    Entry Name: 
       Main BP: ShadTyrannotitan_Character_BP_C
-      Entry Weight: 0.0125
+      Entry Weight: 1.0
       Spawn Limit: 0.0125
       Multi Spawn Chance: 1.0-0.5
    Entry Name: 
@@ -586,25 +599,20 @@ Container Name: null
       Spawn Limit: 0.02
       Multi Spawn Chance: 1.0
    Entry Name: 
-      Main BP: Goyle_Character_BP_C
-      Entry Weight: 0.02
-      Spawn Limit: 0.02
-      Multi Spawn Chance: 1.0-0.8-0.6
-   Entry Name: 
       Main BP: Edmontosaurus_Character_BP_C
       Entry Weight: 0.03
       Spawn Limit: 0.03
-      Multi Spawn Chance: 1.0-0.8-0.7
+      Multi Spawn Chance: 1.0-0.8-0.6
    Entry Name: 
       Main BP: BigIggy_Character_BP_C
       Entry Weight: 0.035
       Spawn Limit: 0.035
-      Multi Spawn Chance: 1.0-0.75-0.5
+      Multi Spawn Chance: 1.0-0.8-0.6
    Entry Name: 
       Main BP: Apatosaurus_Character_BP_C
       Entry Weight: 0.015
       Spawn Limit: 0.02
-      Multi Spawn Chance: 1.0-0.75-0.5
+      Multi Spawn Chance: 1.0-0.8-0.6
    Entry Name: 
       Main BP: Epanterias_Character_BP_C
       Entry Weight: 0.025
@@ -612,7 +620,7 @@ Container Name: null
       Multi Spawn Chance: 1.0
    Entry Name: 
       Main BP: ShadTyrannotitan_Character_BP_C
-      Entry Weight: 0.0125
+      Entry Weight: 1.0
       Spawn Limit: 0.0125
       Multi Spawn Chance: 1.0-0.5
    Entry Name: 
@@ -642,25 +650,20 @@ Container Name: null
       Spawn Limit: 0.02
       Multi Spawn Chance: 1.0
    Entry Name: 
-      Main BP: Goyle_Character_BP_C
-      Entry Weight: 0.02
-      Spawn Limit: 0.02
-      Multi Spawn Chance: 1.0-0.8-0.6
-   Entry Name: 
       Main BP: Edmontosaurus_Character_BP_C
       Entry Weight: 0.03
       Spawn Limit: 0.03
-      Multi Spawn Chance: 1.0-0.8-0.7
+      Multi Spawn Chance: 1.0-0.8-0.6
    Entry Name: 
       Main BP: BigIggy_Character_BP_C
       Entry Weight: 0.035
       Spawn Limit: 0.035
-      Multi Spawn Chance: 1.0-0.75-0.5
+      Multi Spawn Chance: 1.0-0.8-0.6
    Entry Name: 
       Main BP: Apatosaurus_Character_BP_C
       Entry Weight: 0.015
       Spawn Limit: 0.02
-      Multi Spawn Chance: 1.0-0.75-0.5
+      Multi Spawn Chance: 1.0-0.8-0.6
    Entry Name: 
       Main BP: Epanterias_Character_BP_C
       Entry Weight: 0.025
@@ -668,7 +671,7 @@ Container Name: null
       Multi Spawn Chance: 1.0
    Entry Name: 
       Main BP: ShadTyrannotitan_Character_BP_C
-      Entry Weight: 0.0125
+      Entry Weight: 1.0
       Spawn Limit: 0.0125
       Multi Spawn Chance: 1.0-0.5
    Entry Name: 
@@ -702,13 +705,11 @@ Container Name: null
       Entry Weight: 0.015
       Spawn Limit: 0.015
       Multi Spawn Chance: 1.0
-         SubBP: AC2Fasola_Character_BP_C 1.0
-         SubBP: AC2Fasola_Character_BP_Mega_C 0.05
    Entry Name: 
       Main BP: ACYang_Character_BP_C
       Entry Weight: 0.025
       Spawn Limit: 0.025
-      Multi Spawn Chance: 1.0-0.75
+      Multi Spawn Chance: 1.0-0.6
    Entry Name: 
       Main BP: ShadTyrannotitan_Character_BP_C
       Entry Weight: 0.0125
@@ -718,6 +719,11 @@ Container Name: null
       Main BP: Anga_Character_BP_C
       Entry Weight: 0.02
       Spawn Limit: 0.01
+      Multi Spawn Chance: 0.0
+   Entry Name: 
+      Main BP: Saurovindico_Character_BP_Wild_C
+      Entry Weight: 0.004
+      Spawn Limit: 0.004
       Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: 
@@ -740,13 +746,11 @@ Container Name: null
       Entry Weight: 0.015
       Spawn Limit: 0.015
       Multi Spawn Chance: 1.0
-         SubBP: AC2Fasola_Character_BP_C 1.0
-         SubBP: AC2Fasola_Character_BP_Mega_C 0.05
    Entry Name: 
       Main BP: ACYang_Character_BP_C
       Entry Weight: 0.025
       Spawn Limit: 0.025
-      Multi Spawn Chance: 1.0-0.75
+      Multi Spawn Chance: 1.0-0.6
    Entry Name: 
       Main BP: ShadTyrannotitan_Character_BP_C
       Entry Weight: 0.0125
@@ -756,7 +760,447 @@ Container Name: null
       Main BP: Anga_Character_BP_C
       Entry Weight: 0.02
       Spawn Limit: 0.01
+      Multi Spawn Chance: 0.0
+   Entry Name: 
+      Main BP: Saurovindico_Character_BP_Wild_C
+      Entry Weight: 0.004
+      Spawn Limit: 0.004
       Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: AC2Dibble_Character_bp_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Tarchia_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Xuan_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: AC2Fasola_Character_BP_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: ACYang_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-0.6
+   Entry Name: 
+      Main BP: ShadTyrannotitan_Character_BP_C
+      Entry Weight: 0.0125
+      Spawn Limit: 0.0125
+      Multi Spawn Chance: 1.0-0.5
+   Entry Name: 
+      Main BP: Anga_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 0.0
+   Entry Name: 
+      Main BP: Saurovindico_Character_BP_Wild_C
+      Entry Weight: 0.004
+      Spawn Limit: 0.004
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: Anteo_Character_BP_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Edmontosaurus_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.8-0.7
+   Entry Name: 
+      Main BP: Alberta_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.7
+   Entry Name: 
+      Main BP: Saurovindico_Character_BP_Wild_C
+      Entry Weight: 0.004
+      Spawn Limit: 0.004
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: Anteo_Character_BP_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Edmontosaurus_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.8-0.7
+   Entry Name: 
+      Main BP: Alberta_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.7
+   Entry Name: 
+      Main BP: Saurovindico_Character_BP_Wild_C
+      Entry Weight: 0.004
+      Spawn Limit: 0.004
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: Anteo_Character_BP_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Edmontosaurus_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.8-0.7
+   Entry Name: 
+      Main BP: Alberta_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.7
+   Entry Name: 
+      Main BP: Saurovindico_Character_BP_Wild_C
+      Entry Weight: 0.004
+      Spawn Limit: 0.004
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: Anteo_Character_BP_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Edmontosaurus_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.8-0.7
+   Entry Name: 
+      Main BP: Alberta_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.7
+   Entry Name: 
+      Main BP: Saurovindico_Character_BP_Wild_C
+      Entry Weight: 0.004
+      Spawn Limit: 0.004
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: Anteo_Character_BP_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Edmontosaurus_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.8-0.7
+   Entry Name: 
+      Main BP: Alberta_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.7
+   Entry Name: 
+      Main BP: Saurovindico_Character_BP_Wild_C
+      Entry Weight: 0.004
+      Spawn Limit: 0.004
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: Anteo_Character_BP_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Edmontosaurus_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.8-0.7
+   Entry Name: 
+      Main BP: Alberta_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.7
+   Entry Name: 
+      Main BP: Saurovindico_Character_BP_Wild_C
+      Entry Weight: 0.004
+      Spawn Limit: 0.004
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: Anteo_Character_BP_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Edmontosaurus_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.8-0.7
+   Entry Name: 
+      Main BP: Alberta_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.7
+   Entry Name: 
+      Main BP: Saurovindico_Character_BP_Wild_C
+      Entry Weight: 0.004
+      Spawn Limit: 0.004
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: Anteo_Character_BP_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Edmontosaurus_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.8-0.7
+   Entry Name: 
+      Main BP: Alberta_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.7
+   Entry Name: 
+      Main BP: Saurovindico_Character_BP_Wild_C
+      Entry Weight: 0.004
+      Spawn Limit: 0.004
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: Anteo_Character_BP_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Edmontosaurus_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.8-0.7
+   Entry Name: 
+      Main BP: Alberta_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.7
+   Entry Name: 
+      Main BP: Saurovindico_Character_BP_Wild_C
+      Entry Weight: 0.004
+      Spawn Limit: 0.004
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: Anteo_Character_BP_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Edmontosaurus_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.8-0.7
+   Entry Name: 
+      Main BP: Alberta_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.7
+   Entry Name: 
+      Main BP: Saurovindico_Character_BP_Wild_C
+      Entry Weight: 0.004
+      Spawn Limit: 0.004
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: BloodyAeros_Character_BP_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: BigPaul_Character_BP_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Torosaur_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.8-0.6
+   Entry Name: 
+      Main BP: Inostran_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Skorpiovenator_Character_BP_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Edmontosaurus_Character_BP_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.8-0.6
+   Entry Name: 
+      Main BP: BigIggy_Character_BP_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.8-0.6
+   Entry Name: 
+      Main BP: Alberta_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.7
+   Entry Name: 
+      Main BP: Cedarosaurus_Character_bp_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.8-0.6
+   Entry Name: 
+      Main BP: Anga_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: ACErythro_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: 
+      Main BP: BloodyAeros_Character_BP_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: BigPaul_Character_BP_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Torosaur_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.8-0.6
+   Entry Name: 
+      Main BP: Inostran_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Skorpiovenator_Character_BP_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Edmontosaurus_Character_BP_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.8-0.6
+   Entry Name: 
+      Main BP: BigIggy_Character_BP_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0-0.8-0.6
+   Entry Name: 
+      Main BP: Alberta_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.7
+   Entry Name: 
+      Main BP: Cedarosaurus_Character_bp_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.8-0.6
+   Entry Name: 
+      Main BP: Anga_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: ACErythro_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: 
+      Main BP: ShadTyrannotitan_Character_BP_C
+      Entry Weight: 0.0125
+      Spawn Limit: 0.0125
+      Multi Spawn Chance: 1.0-0.5
+   Entry Name: 
+      Main BP: Epanterias_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: AC2Fasola_Character_BP_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Xuan_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.5
+   Entry Name: 
+      Main BP: ACYang_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.5
+   Entry Name: 
+      Main BP: ACErythro_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-0.5
+   Entry Name: 
+      Main BP: Saurovindico_Character_BP_Wild_C
+      Entry Weight: 0.002
+      Spawn Limit: 0.002
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: 
+      Main BP: ShadTyrannotitan_Character_BP_C
+      Entry Weight: 0.0125
+      Spawn Limit: 0.0125
+      Multi Spawn Chance: 1.0-0.5
+   Entry Name: 
+      Main BP: Epanterias_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: AC2Fasola_Character_BP_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Xuan_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.5
+   Entry Name: 
+      Main BP: ACYang_Character_BP_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.5
+   Entry Name: 
+      Main BP: ACErythro_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-0.5
+   Entry Name: 
+      Main BP: Saurovindico_Character_BP_Wild_C
+      Entry Weight: 0.002
+      Spawn Limit: 0.002
+      Multi Spawn Chance: 1.0-0.5
 Container Name: null
    Entry Name: 
       Main BP: AC2Dibble_Character_bp_C
@@ -799,6 +1243,11 @@ Container Name: null
       Main BP: Anga_Character_BP_C
       Entry Weight: 0.015
       Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Saurovindico_Character_BP_Wild_C
+      Entry Weight: 0.004
+      Spawn Limit: 0.004
       Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: 
@@ -869,246 +1318,6 @@ Container Name: null
       Entry Weight: 0.03
       Spawn Limit: 0.03
       Multi Spawn Chance: 1.0-0.7
-Container Name: null
-   Entry Name: 
-      Main BP: Anteo_Character_BP_C
-      Entry Weight: 0.035
-      Spawn Limit: 0.035
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: Edmontosaurus_Character_BP_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.03
-      Multi Spawn Chance: 1.0-0.8-0.7
-   Entry Name: 
-      Main BP: Alberta_Character_BP_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.03
-      Multi Spawn Chance: 1.0-0.7
-Container Name: null
-   Entry Name: 
-      Main BP: Anteo_Character_BP_C
-      Entry Weight: 0.035
-      Spawn Limit: 0.035
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: Edmontosaurus_Character_BP_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.03
-      Multi Spawn Chance: 1.0-0.8-0.7
-   Entry Name: 
-      Main BP: Alberta_Character_BP_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.03
-      Multi Spawn Chance: 1.0-0.7
-Container Name: null
-   Entry Name: 
-      Main BP: Anteo_Character_BP_C
-      Entry Weight: 0.035
-      Spawn Limit: 0.035
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: Edmontosaurus_Character_BP_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.03
-      Multi Spawn Chance: 1.0-0.8-0.7
-   Entry Name: 
-      Main BP: Alberta_Character_BP_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.03
-      Multi Spawn Chance: 1.0-0.7
-Container Name: null
-   Entry Name: 
-      Main BP: Anteo_Character_BP_C
-      Entry Weight: 0.035
-      Spawn Limit: 0.035
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: Edmontosaurus_Character_BP_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.03
-      Multi Spawn Chance: 1.0-0.8-0.7
-   Entry Name: 
-      Main BP: Alberta_Character_BP_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.03
-      Multi Spawn Chance: 1.0-0.7
-Container Name: null
-   Entry Name: 
-      Main BP: Anteo_Character_BP_C
-      Entry Weight: 0.035
-      Spawn Limit: 0.035
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: Edmontosaurus_Character_BP_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.03
-      Multi Spawn Chance: 1.0-0.8-0.7
-   Entry Name: 
-      Main BP: Alberta_Character_BP_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.03
-      Multi Spawn Chance: 1.0-0.7
-Container Name: null
-   Entry Name: 
-      Main BP: Anteo_Character_BP_C
-      Entry Weight: 0.035
-      Spawn Limit: 0.035
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: Edmontosaurus_Character_BP_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.03
-      Multi Spawn Chance: 1.0-0.8-0.7
-   Entry Name: 
-      Main BP: Alberta_Character_BP_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.03
-      Multi Spawn Chance: 1.0-0.7
-Container Name: null
-   Entry Name: 
-      Main BP: Anteo_Character_BP_C
-      Entry Weight: 0.035
-      Spawn Limit: 0.035
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: Edmontosaurus_Character_BP_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.03
-      Multi Spawn Chance: 1.0-0.8-0.7
-   Entry Name: 
-      Main BP: Alberta_Character_BP_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.03
-      Multi Spawn Chance: 1.0-0.7
-Container Name: null
-   Entry Name: 
-      Main BP: Anteo_Character_BP_C
-      Entry Weight: 0.035
-      Spawn Limit: 0.035
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: Edmontosaurus_Character_BP_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.03
-      Multi Spawn Chance: 1.0-0.8-0.7
-   Entry Name: 
-      Main BP: Alberta_Character_BP_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.03
-      Multi Spawn Chance: 1.0-0.7
-Container Name: null
-   Entry Name: 
-      Main BP: BloodyAeros_Character_BP_C
-      Entry Weight: 0.015
-      Spawn Limit: 0.015
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: BigPaul_Character_BP_C
-      Entry Weight: 0.015
-      Spawn Limit: 0.015
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: Torosaur_Character_BP_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.03
-      Multi Spawn Chance: 1.0-0.8-0.6
-   Entry Name: 
-      Main BP: Inostran_Character_BP_C
-      Entry Weight: 0.02
-      Spawn Limit: 0.025
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: Skorpiovenator_Character_BP_C
-      Entry Weight: 0.035
-      Spawn Limit: 0.035
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: Edmontosaurus_Character_BP_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.03
-      Multi Spawn Chance: 1.0-0.8-0.6
-   Entry Name: 
-      Main BP: BigIggy_Character_BP_C
-      Entry Weight: 0.035
-      Spawn Limit: 0.035
-      Multi Spawn Chance: 1.0-0.75-0.5
-   Entry Name: 
-      Main BP: Alberta_Character_BP_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.03
-      Multi Spawn Chance: 1.0-0.7
-   Entry Name: 
-      Main BP: Cedarosaurus_Character_bp_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.03
-      Multi Spawn Chance: 1.0-0.8-0.7
-   Entry Name: 
-      Main BP: Anga_Character_BP_C
-      Entry Weight: 0.02
-      Spawn Limit: 0.02
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: ACErythro_Character_BP_C
-      Entry Weight: 0.025
-      Spawn Limit: 0.025
-      Multi Spawn Chance: 1.0-0.5
-Container Name: null
-   Entry Name: 
-      Main BP: BloodyAeros_Character_BP_C
-      Entry Weight: 0.015
-      Spawn Limit: 0.015
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: BigPaul_Character_BP_C
-      Entry Weight: 0.015
-      Spawn Limit: 0.015
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: Torosaur_Character_BP_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.03
-      Multi Spawn Chance: 1.0-0.8-0.6
-   Entry Name: 
-      Main BP: Inostran_Character_BP_C
-      Entry Weight: 0.02
-      Spawn Limit: 0.025
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: Skorpiovenator_Character_BP_C
-      Entry Weight: 0.035
-      Spawn Limit: 0.035
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: Edmontosaurus_Character_BP_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.03
-      Multi Spawn Chance: 1.0-0.8-0.6
-   Entry Name: 
-      Main BP: BigIggy_Character_BP_C
-      Entry Weight: 0.035
-      Spawn Limit: 0.035
-      Multi Spawn Chance: 1.0-0.75-0.5
-   Entry Name: 
-      Main BP: Alberta_Character_BP_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.03
-      Multi Spawn Chance: 1.0-0.7
-   Entry Name: 
-      Main BP: Cedarosaurus_Character_bp_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.03
-      Multi Spawn Chance: 1.0-0.8-0.7
-   Entry Name: 
-      Main BP: Anga_Character_BP_C
-      Entry Weight: 0.02
-      Spawn Limit: 0.02
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: ACErythro_Character_BP_C
-      Entry Weight: 0.025
-      Spawn Limit: 0.025
-      Multi Spawn Chance: 1.0-0.5
 Container Name: null
    Entry Name: 
       Main BP: BloodyAeros_Character_BP_C
@@ -1468,6 +1677,11 @@ Container Name: null
       Entry Weight: 0.035
       Spawn Limit: 0.035
       Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Volcano_Saurovindico_Character_BP_Wild_C
+      Entry Weight: 0.002
+      Spawn Limit: 0.002
+      Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: 
       Main BP: AC2Dibble_Character_bp_C
@@ -1488,6 +1702,11 @@ Container Name: null
       Main BP: Volcano_Phosphato_Character_bp_C
       Entry Weight: 0.035
       Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Volcano_Saurovindico_Character_BP_Wild_C
+      Entry Weight: 0.002
+      Spawn Limit: 0.002
       Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: 
@@ -1732,6 +1951,11 @@ Container Name: null
       Multi Spawn Chance: 1.0
          SubBP: AC2Fasola_Character_BP_Aberrant_C 1.0
          SubBP: AC2Fasola_Character_BP_Aberrant_Mega_C 0.05
+   Entry Name: 
+      Main BP: Saurovindico_Character_BP_Wild_Aberrant_C
+      Entry Weight: 0.002
+      Spawn Limit: 0.002
+      Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: 
       Main BP: Apatosaurus_Character_BP_C
@@ -1981,6 +2205,11 @@ Container Name: null
       Entry Weight: 0.025
       Spawn Limit: 0.025
       Multi Spawn Chance: 1.0-0.5
+   Entry Name: 
+      Main BP: Saurovindico_Character_BP_Wild_C
+      Entry Weight: 0.002
+      Spawn Limit: 0.002
+      Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: 
       Main BP: AC2Dibble_Character_bp_C
@@ -1994,72 +2223,6 @@ Container Name: null
       Multi Spawn Chance: 1.0-0.5
 Container Name: null
    Entry Name: 
-      Main BP: ShadTyrannotitan_Character_BP_C
-      Entry Weight: 0.0125
-      Spawn Limit: 0.0125
-      Multi Spawn Chance: 1.0-0.5
-   Entry Name: 
-      Main BP: Epanterias_Character_BP_C
-      Entry Weight: 0.025
-      Spawn Limit: 0.025
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: AC2Fasola_Character_BP_C
-      Entry Weight: 0.015
-      Spawn Limit: 0.015
-      Multi Spawn Chance: 1.0
-         SubBP: AC2Fasola_Character_BP_C 1.0
-         SubBP: AC2Fasola_Character_BP_Mega_C 0.05
-   Entry Name: 
-      Main BP: Xuan_Character_BP_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.03
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: ACYang_Character_BP_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.03
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: ACErythro_Character_BP_C
-      Entry Weight: 0.025
-      Spawn Limit: 0.025
-      Multi Spawn Chance: 1.0-0.5
-Container Name: null
-   Entry Name: 
-      Main BP: ShadTyrannotitan_Character_BP_C
-      Entry Weight: 0.0125
-      Spawn Limit: 0.0125
-      Multi Spawn Chance: 1.0-0.5
-   Entry Name: 
-      Main BP: Epanterias_Character_BP_C
-      Entry Weight: 0.025
-      Spawn Limit: 0.025
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: AC2Fasola_Character_BP_C
-      Entry Weight: 0.015
-      Spawn Limit: 0.015
-      Multi Spawn Chance: 1.0
-         SubBP: AC2Fasola_Character_BP_C 1.0
-         SubBP: AC2Fasola_Character_BP_Mega_C 0.05
-   Entry Name: 
-      Main BP: Xuan_Character_BP_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.03
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: ACYang_Character_BP_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.03
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: ACErythro_Character_BP_C
-      Entry Weight: 0.025
-      Spawn Limit: 0.025
-      Multi Spawn Chance: 1.0-0.5
-Container Name: null
-   Entry Name: 
       Main BP: Epanterias_Character_BP_C
       Entry Weight: 0.0125
       Spawn Limit: 0.02
@@ -2070,6 +2233,11 @@ Container Name: null
       Entry Weight: 0.0
       Spawn Limit: 0.0
       Multi Spawn Chance: 0.0-0.0-0.0
+   Entry Name: 
+      Main BP: Saurovindico_Character_BP_C
+      Entry Weight: 0.0
+      Spawn Limit: 0.0
+      Multi Spawn Chance: 
 Container Name: null
    Entry Name: 
       Main BP: Hadal_Character_bp_C
@@ -2135,6 +2303,9 @@ MultiParams Summary:
       Entry Weight:                   0.015
       Spawn Limit:                             0.015
       Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0
       Entry Weight:                   0.01
       Spawn Limit:                             0.01
       Multi Spawn Chance:                               1.0
@@ -2163,6 +2334,15 @@ SubBPList: AC2Fasola_Character_BP_Aberrant_C: 1.0, AC2Fasola_Character_BP_Aberra
       Spawn Limit:                             0.015
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.015
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.015
       Spawn Limit:                             0.02
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.01
@@ -2171,16 +2351,6 @@ SubBPList: AC2Fasola_Character_BP_Aberrant_C: 1.0, AC2Fasola_Character_BP_Aberra
       Entry Weight:                   0.025
       Spawn Limit:                             0.015
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.015
-      Spawn Limit:                             0.015
-      Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.015
-      Spawn Limit:                             0.015
-      Multi Spawn Chance:                               1.0
-SubBPList: AC2Fasola_Character_BP_C: 1.0, AC2Fasola_Character_BP_Mega_C: 0.05
-SubBPList: AC2Fasola_Character_BP_C: 1.0, AC2Fasola_Character_BP_Mega_C: 0.05
-SubBPList: AC2Fasola_Character_BP_C: 1.0, AC2Fasola_Character_BP_Mega_C: 0.05
-SubBPList: AC2Fasola_Character_BP_C: 1.0, AC2Fasola_Character_BP_Mega_C: 0.05
 SubBPList: AC2Fasola_Character_BP_C: 1.0, AC2Fasola_Character_BP_Mega_C: 0.05
 SubBPList: AC2Fasola_Character_BP_C: 1.0, AC2Fasola_Character_BP_Mega_C: 0.05
 SubBPList: AC2Fasola_Character_BP_C: 1.0, AC2Fasola_Character_BP_Mega_C: 0.05
@@ -2278,10 +2448,19 @@ SubBPList: AC2Fasola_Character_BP_C: 1.0, AC2Fasola_Character_BP_Mega_C: 0.05
       Multi Spawn Chance:                               1.0-0.5
       Entry Weight:                   0.025
       Spawn Limit:                             0.025
-      Multi Spawn Chance:                               1.0-0.75
+      Multi Spawn Chance:                               1.0-0.6
       Entry Weight:                   0.025
       Spawn Limit:                             0.025
-      Multi Spawn Chance:                               1.0-0.75
+      Multi Spawn Chance:                               1.0-0.6
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-0.6
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.5
       Entry Weight:                   0.025
       Spawn Limit:                             0.025
       Multi Spawn Chance:                               1.0-0.75
@@ -2297,12 +2476,6 @@ SubBPList: AC2Fasola_Character_BP_C: 1.0, AC2Fasola_Character_BP_Mega_C: 0.05
       Entry Weight:                   0.03
       Spawn Limit:                             0.03
       Multi Spawn Chance:                               1.0-0.5
-      Entry Weight:                   0.03
-      Spawn Limit:                             0.03
-      Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.03
-      Spawn Limit:                             0.03
-      Multi Spawn Chance:                               1.0
 
    Main BP: Alberta_Character_BP_C
       Entry Weight:                   0.45
@@ -2337,37 +2510,43 @@ SubBPList: AC2Fasola_Character_BP_C: 1.0, AC2Fasola_Character_BP_Mega_C: 0.05
       Multi Spawn Chance:                               1.0-0.7
       Entry Weight:                   0.03
       Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.7
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.7
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.7
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.7
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.7
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.7
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.7
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.7
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.7
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.7
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.7
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.7
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
       Multi Spawn Chance:                               1.0-0.8-0.6
-      Entry Weight:                   0.03
-      Spawn Limit:                             0.03
-      Multi Spawn Chance:                               1.0-0.7
-      Entry Weight:                   0.03
-      Spawn Limit:                             0.03
-      Multi Spawn Chance:                               1.0-0.7
-      Entry Weight:                   0.03
-      Spawn Limit:                             0.03
-      Multi Spawn Chance:                               1.0-0.7
-      Entry Weight:                   0.03
-      Spawn Limit:                             0.03
-      Multi Spawn Chance:                               1.0-0.7
-      Entry Weight:                   0.03
-      Spawn Limit:                             0.03
-      Multi Spawn Chance:                               1.0-0.7
-      Entry Weight:                   0.03
-      Spawn Limit:                             0.03
-      Multi Spawn Chance:                               1.0-0.7
-      Entry Weight:                   0.03
-      Spawn Limit:                             0.03
-      Multi Spawn Chance:                               1.0-0.7
-      Entry Weight:                   0.03
-      Spawn Limit:                             0.03
-      Multi Spawn Chance:                               1.0-0.7
-      Entry Weight:                   0.03
-      Spawn Limit:                             0.03
-      Multi Spawn Chance:                               1.0-0.7
-      Entry Weight:                   0.03
-      Spawn Limit:                             0.03
-      Multi Spawn Chance:                               1.0-0.7
       Entry Weight:                   0.03
       Spawn Limit:                             0.03
       Multi Spawn Chance:                               1.0-0.7
@@ -2419,18 +2598,21 @@ SubBPList: AC2Fasola_Character_BP_C: 1.0, AC2Fasola_Character_BP_Mega_C: 0.05
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.02
       Spawn Limit:                             0.01
-      Multi Spawn Chance:                               1.0
+      Multi Spawn Chance:                               0.0
       Entry Weight:                   0.02
       Spawn Limit:                             0.01
+      Multi Spawn Chance:                               0.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               0.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.02
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.015
       Spawn Limit:                             0.01
-      Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.02
-      Spawn Limit:                             0.02
-      Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.02
-      Spawn Limit:                             0.02
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.02
       Spawn Limit:                             0.02
@@ -2536,6 +2718,12 @@ SubBPList: AC2Fasola_Character_BP_C: 1.0, AC2Fasola_Character_BP_Mega_C: 0.05
       Entry Weight:                   0.035
       Spawn Limit:                             0.035
       Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               1.0
       Entry Weight:                   0.02
       Spawn Limit:                             0.02
       Multi Spawn Chance:                               1.0
@@ -2557,13 +2745,13 @@ SubBPList: AC2Fasola_Character_BP_C: 1.0, AC2Fasola_Character_BP_Mega_C: 0.05
    Main BP: Apatosaurus_Character_BP_C
       Entry Weight:                   0.015
       Spawn Limit:                             0.02
-      Multi Spawn Chance:                               1.0-0.75-0.5
+      Multi Spawn Chance:                               1.0-0.8-0.6
       Entry Weight:                   0.015
       Spawn Limit:                             0.02
-      Multi Spawn Chance:                               1.0-0.75-0.5
+      Multi Spawn Chance:                               1.0-0.8-0.6
       Entry Weight:                   0.015
       Spawn Limit:                             0.02
-      Multi Spawn Chance:                               1.0-0.75-0.5
+      Multi Spawn Chance:                               1.0-0.8-0.6
       Entry Weight:                   0.01
       Spawn Limit:                             0.02
       Multi Spawn Chance:                               1.0-0.75-0.5
@@ -2600,19 +2788,19 @@ SubBPList: AC2Fasola_Character_BP_C: 1.0, AC2Fasola_Character_BP_Mega_C: 0.05
       Multi Spawn Chance:                               1.0-0.75-0.5
       Entry Weight:                   0.035
       Spawn Limit:                             0.035
-      Multi Spawn Chance:                               1.0-0.75-0.5
+      Multi Spawn Chance:                               1.0-0.8-0.6
       Entry Weight:                   0.035
       Spawn Limit:                             0.035
-      Multi Spawn Chance:                               1.0-0.75-0.5
+      Multi Spawn Chance:                               1.0-0.8-0.6
       Entry Weight:                   0.035
       Spawn Limit:                             0.035
-      Multi Spawn Chance:                               1.0-0.75-0.5
+      Multi Spawn Chance:                               1.0-0.8-0.6
       Entry Weight:                   0.035
       Spawn Limit:                             0.035
-      Multi Spawn Chance:                               1.0-0.75-0.5
+      Multi Spawn Chance:                               1.0-0.8-0.6
       Entry Weight:                   0.035
       Spawn Limit:                             0.035
-      Multi Spawn Chance:                               1.0-0.75-0.5
+      Multi Spawn Chance:                               1.0-0.8-0.6
       Entry Weight:                   0.035
       Spawn Limit:                             0.035
       Multi Spawn Chance:                               1.0-0.75-0.5
@@ -2680,13 +2868,13 @@ SubBPList: AC2Fasola_Character_BP_C: 1.0, AC2Fasola_Character_BP_Mega_C: 0.05
       Spawn Limit:                             0.01
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.015
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.015
       Spawn Limit:                             0.01
-      Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.015
-      Spawn Limit:                             0.015
-      Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.015
-      Spawn Limit:                             0.015
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.015
       Spawn Limit:                             0.015
@@ -2732,10 +2920,10 @@ SubBPList: AC2Fasola_Character_BP_C: 1.0, AC2Fasola_Character_BP_Mega_C: 0.05
       Multi Spawn Chance:                               1.0-0.7-0.5
       Entry Weight:                   0.03
       Spawn Limit:                             0.03
-      Multi Spawn Chance:                               1.0-0.8-0.7
+      Multi Spawn Chance:                               1.0-0.8-0.6
       Entry Weight:                   0.03
       Spawn Limit:                             0.03
-      Multi Spawn Chance:                               1.0-0.8-0.7
+      Multi Spawn Chance:                               1.0-0.8-0.6
       Entry Weight:                   0.03
       Spawn Limit:                             0.03
       Multi Spawn Chance:                               1.0-0.8-0.7
@@ -2835,46 +3023,52 @@ SubBPList: Deinocheirus_Character_BP_C: 1.0, Deinocheirus_Character_BP_Mega_C: 0
       Multi Spawn Chance:                               1.0-0.8-0.6
       Entry Weight:                   0.03
       Spawn Limit:                             0.03
-      Multi Spawn Chance:                               1.0-0.8-0.7
-      Entry Weight:                   0.03
-      Spawn Limit:                             0.03
-      Multi Spawn Chance:                               1.0-0.8-0.7
-      Entry Weight:                   0.03
-      Spawn Limit:                             0.03
-      Multi Spawn Chance:                               1.0-0.8-0.7
-      Entry Weight:                   0.03
-      Spawn Limit:                             0.03
-      Multi Spawn Chance:                               1.0-0.8-0.7
-      Entry Weight:                   0.03
-      Spawn Limit:                             0.03
-      Multi Spawn Chance:                               1.0-0.8-0.7
-      Entry Weight:                   0.03
-      Spawn Limit:                             0.03
-      Multi Spawn Chance:                               1.0-0.8-0.7
-      Entry Weight:                   0.03
-      Spawn Limit:                             0.03
-      Multi Spawn Chance:                               1.0-0.8-0.7
-      Entry Weight:                   0.03
-      Spawn Limit:                             0.03
-      Multi Spawn Chance:                               1.0-0.8-0.7
-      Entry Weight:                   0.03
-      Spawn Limit:                             0.03
-      Multi Spawn Chance:                               1.0-0.8-0.7
-      Entry Weight:                   0.03
-      Spawn Limit:                             0.03
-      Multi Spawn Chance:                               1.0-0.8-0.7
-      Entry Weight:                   0.03
-      Spawn Limit:                             0.03
-      Multi Spawn Chance:                               1.0-0.8-0.7
-      Entry Weight:                   0.03
-      Spawn Limit:                             0.03
-      Multi Spawn Chance:                               1.0-0.8-0.7
+      Multi Spawn Chance:                               1.0-0.8-0.6
       Entry Weight:                   0.03
       Spawn Limit:                             0.03
       Multi Spawn Chance:                               1.0-0.8-0.6
       Entry Weight:                   0.03
       Spawn Limit:                             0.03
       Multi Spawn Chance:                               1.0-0.8-0.6
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.8-0.7
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.8-0.7
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.8-0.7
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.8-0.7
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.8-0.7
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.8-0.7
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.8-0.7
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.8-0.7
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.8-0.7
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.8-0.7
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.8-0.6
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.8-0.6
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.8-0.7
       Entry Weight:                   0.03
       Spawn Limit:                             0.03
       Multi Spawn Chance:                               1.0-0.8-0.6
@@ -2949,15 +3143,6 @@ SubBPList: Deinocheirus_Character_BP_C: 1.0, Deinocheirus_Character_BP_Mega_C: 0
       Multi Spawn Chance:                               1.0
 
    Main BP: Goyle_Character_BP_C
-      Entry Weight:                   0.02
-      Spawn Limit:                             0.02
-      Multi Spawn Chance:                               1.0-0.8-0.6
-      Entry Weight:                   0.02
-      Spawn Limit:                             0.02
-      Multi Spawn Chance:                               1.0-0.8-0.6
-      Entry Weight:                   0.02
-      Spawn Limit:                             0.02
-      Multi Spawn Chance:                               1.0-0.8-0.6
       Entry Weight:                   0.03
       Spawn Limit:                             0.03
       Multi Spawn Chance:                               1.0-0.8-0.6
@@ -3098,11 +3283,88 @@ SubBPList: Deinocheirus_Character_BP_C: 1.0, Deinocheirus_Character_BP_Mega_C: 0
       Spawn Limit:                             0.03
       Multi Spawn Chance:                               1.0
 
+   Main BP: Saurovindico_Character_BP_C
+      Entry Weight:                   0.0
+      Spawn Limit:                             0.0
+      Multi Spawn Chance:                               
+
+   Main BP: Saurovindico_Character_BP_Wild_Aberrant_C
+      Entry Weight:                   0.002
+      Spawn Limit:                             0.002
+      Multi Spawn Chance:                               1.0
+
+   Main BP: Saurovindico_Character_BP_Wild_C
+      Entry Weight:                   0.004
+      Spawn Limit:                             0.004
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.004
+      Spawn Limit:                             0.004
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.004
+      Spawn Limit:                             0.004
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.004
+      Spawn Limit:                             0.004
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.004
+      Spawn Limit:                             0.004
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.004
+      Spawn Limit:                             0.004
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.004
+      Spawn Limit:                             0.004
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.004
+      Spawn Limit:                             0.004
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.004
+      Spawn Limit:                             0.004
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.004
+      Spawn Limit:                             0.004
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.004
+      Spawn Limit:                             0.004
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.004
+      Spawn Limit:                             0.004
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.004
+      Spawn Limit:                             0.004
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.002
+      Spawn Limit:                             0.002
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.002
+      Spawn Limit:                             0.002
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.004
+      Spawn Limit:                             0.004
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.002
+      Spawn Limit:                             0.002
+      Multi Spawn Chance:                               1.0
+
+   Main BP: Saurovindico_Character_BP_Wild_Crystal_C
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.008
+      Spawn Limit:                             0.008
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+
    Main BP: ShadTyrannotitan_Character_BP_C
-      Entry Weight:                   0.0125
+      Entry Weight:                   1.0
       Spawn Limit:                             0.0125
       Multi Spawn Chance:                               1.0-0.5
-      Entry Weight:                   0.0125
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.0125
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   1.0
       Spawn Limit:                             0.0125
       Multi Spawn Chance:                               1.0-0.5
       Entry Weight:                   0.0125
@@ -3163,6 +3425,9 @@ SubBPList: Deinocheirus_Character_BP_C: 1.0, Deinocheirus_Character_BP_Mega_C: 0
       Multi Spawn Chance:                               1.0
 
    Main BP: Tarchia_Character_BP_C
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0
       Entry Weight:                   0.025
       Spawn Limit:                             0.025
       Multi Spawn Chance:                               1.0
@@ -3319,6 +3584,14 @@ SubBPList: Valli_Character_BP_C: 1.0, Valli_Character_BP_Mega_C: 0.05
       Spawn Limit:                             0.035
       Multi Spawn Chance:                               1.0
 
+   Main BP: Volcano_Saurovindico_Character_BP_Wild_C
+      Entry Weight:                   0.002
+      Spawn Limit:                             0.002
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.002
+      Spawn Limit:                             0.002
+      Multi Spawn Chance:                               1.0
+
    Main BP: Xuan_Character_BP_Aberrant_C
       Entry Weight:                   0.04
       Spawn Limit:                             0.04
@@ -3339,23 +3612,26 @@ SubBPList: Valli_Character_BP_C: 1.0, Valli_Character_BP_Mega_C: 0.05
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.03
       Spawn Limit:                             0.03
-      Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.015
-      Spawn Limit:                             0.015
-      Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.015
-      Spawn Limit:                             0.015
-      Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.015
-      Spawn Limit:                             0.015
-      Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.015
-      Spawn Limit:                             0.015
-      Multi Spawn Chance:                               1.0
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.5
       Entry Weight:                   0.03
       Spawn Limit:                             0.03
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.03
       Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.015
       Multi Spawn Chance:                               1.0
 
