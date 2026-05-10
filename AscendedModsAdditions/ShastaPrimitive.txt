@@ -1,0 +1,12 @@
+Engram Entries: 
+   EngramEntry_PrimitiveShastaSaddle_C
+
+ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT Remaps: 
+      
+FromClass: 
+      /Game/ASA/Dinos/Shastasaurus/Shastasaurus_Character_BP.Shastasaurus_Character_BP_C
+ToClass: 
+      /ShastaPrimitiveSaddle/Content/Shastasaurus_Character_BP_PS.Shastasaurus_Character_BP_PS_C
+      /Game/ASA/Dinos/Shastasaurus/Shastasaurus_Character_BP.Shastasaurus_Character_BP_C
+      /ShastaPrimitiveSaddle/Content/Shastasaurus_Character_BP_PS.Shastasaurus_Character_BP_PS_C
+

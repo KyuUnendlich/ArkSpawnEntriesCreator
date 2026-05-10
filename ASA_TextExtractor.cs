@@ -719,7 +719,7 @@ namespace ArkSpawnEntriesCreator
                 foreach (SpawnEntry entry in globalEntries)
                 {
                     sb.AppendLine("   Main BP: " + entry.mainBP);
-                    int lengthOfSubBPs = entry.subBPs.Count;
+                    int lengthOfSubBPs = Math.Min(entry.subBPs.Count, entry.subBPWeights.Count);
                     for (int i = 0; i < lengthOfSubBPs; i++)
                     {
                         sb.AppendLine("      SubBP: " + entry.subBPs[i] + " " + entry.subBPWeights[i]);

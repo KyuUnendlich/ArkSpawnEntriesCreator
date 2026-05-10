@@ -11,6 +11,7 @@ All Entry Names:
 Engram Entries: 
    EngramEntry_Saddle_ClayTrike_C
    EngramEntry_Saddle_GreaterClayTrike_C
+   EngramEntry_Saddle_GreaterClayTrike_Platform_C
 
 Dino Additions: 
 Container Name: null

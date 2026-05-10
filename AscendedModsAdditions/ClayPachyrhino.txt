@@ -1,5 +1,3 @@
-I just commented out the error, cba for this only mod to fix it
-
 All Entry Names: 
    ClayPachyrhino  x 4
    GreaterClayPachy  x 5
@@ -70,6 +68,7 @@ Container Name: null
 
 Global Entry Weights: 
    Main BP: Pachyrhino_Character_BP_C
+      SubBP: ClayPachyrhino_Character_BP_C 0.9
 
 MultiParams Summary: 
    Main BP: ClayPachyrhino_Character_BP_C

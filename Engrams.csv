@@ -920,25 +920,42 @@
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_ReusableParachute_C"",EngramLevelRequirement=22,EngramPointsCost=6,EngramHidden=false,RemoveEngramPreReq=true)",,,,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_WeaponReinWhip_C"",EngramLevelRequirement=20,EngramPointsCost=6,EngramHidden=false,RemoveEngramPreReq=true)",,,,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_ReusableSpear_C"",EngramLevelRequirement=3,EngramPointsCost=3,EngramHidden=false,RemoveEngramPreReq=true)",,,,,,
-"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VP_PlantTool_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,150,,,11,0
-"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VP_PlanterBeach_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,150,,,11,0
-"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VP_PlanterCrops_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,150,,,11,0
-"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VP_PlanterCrystal_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,150,,,56,0
-"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VP_PlanterJungle_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,150,,,37,0
-"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VP_PlanterMountain_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,150,,,15,0
-"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VP_PlanterMushroom_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,150,,,56,0
-"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VP_PlanterOcean_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,150,,,81,0
-"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VP_PlanterRedwood_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,150,,,33,0
-"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VP_PlanterRock_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,150,,,15,0
-"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VP_PlanterShared_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,150,,,11,0
-"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VP_PlanterSnow_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,150,,,23,0
-"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VP_PlanterSwamp_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,150,,,33,0
-"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VP_PlanterVines_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,150,,,33,0
-"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VPSE_PlanterBadlands_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,150,,,56,0
-"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VPSE_PlanterDesert_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,150,,,37,0
-"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VPSE_PlanterMisc_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,150,,,23,0
-"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VPSE_PlanterMountain_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,150,,,15,0
-"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VPSE_PlanterOasis_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,150,,,11,0
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VP_PlantTool_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,150,,,11,Vegetation Planters
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VP_PlanterBeach_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,150,,,11,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VP_PlanterCrops_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,150,,,11,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VP_PlanterCrystal_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,150,,,56,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VP_PlanterJungle_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,150,,,37,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VP_PlanterMountain_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,150,,,15,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VP_PlanterMushroom_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,150,,,56,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VP_PlanterOcean_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,150,,,81,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VP_PlanterRedwood_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,150,,,33,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VP_PlanterRock_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,150,,,15,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VP_PlanterShared_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,150,,,11,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VP_PlanterSnow_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,150,,,23,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VP_PlanterSwamp_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,150,,,33,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VP_PlanterVines_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,150,,,33,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VPSE_PlanterBadlands_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,150,,,56,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VPSE_PlanterDesert_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,150,,,37,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VPSE_PlanterMisc_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,150,,,23,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VPSE_PlanterMountain_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,150,,,15,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_VPSE_PlanterOasis_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,150,,,11,
+"OverrideNamedEngramEntries=(EngramClassName=""PrimalEngram_JVHLandscaping_Bench_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,1,,,JVH Landscaping,
+"OverrideNamedEngramEntries=(EngramClassName=""PrimalEngram_HugeTrees_JVHLandscaping_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,150,,,,
+"OverrideNamedEngramEntries=(EngramClassName=""PrimalEngram_HugeRocks_JVHLandscaping_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,150,,,,
+"OverrideNamedEngramEntries=(EngramClassName=""PrimalEngram_LargerRocks_JVHLandscaping_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,150,,,,
+"OverrideNamedEngramEntries=(EngramClassName=""PrimalEngram_TreePlatformWood_JVHLandscaping_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,150,,,,
+"OverrideNamedEngramEntries=(EngramClassName=""PrimalEngram_TreePlatformWood_JVHLandscaping_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,150,,,,
+"OverrideNamedEngramEntries=(EngramClassName=""PrimalEngram_Mushrooms_JVHLandscaping_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,150,,,,
+"OverrideNamedEngramEntries=(EngramClassName=""PrimalEngram_Crystals_JVHLandscaping_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,150,,,,
+"OverrideNamedEngramEntries=(EngramClassName=""PrimalEngram_BioLumen_JVHLandscaping_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,150,,,,
+"OverrideNamedEngramEntries=(EngramClassName=""PrimalEngram_ScorchedCrystals_JVHLandscaping_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,150,,,,
+"OverrideNamedEngramEntries=(EngramClassName=""PrimalEngram_AberrationCrystals_JVHLandscaping_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,150,,,,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_CropPlot_Small_JVHLandscaping_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,,,,removes grass around it,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_CropPlot_Medium_JVHLandscaping_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,,,,removes grass around it,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_CropPlot_Large_JVHLandscaping_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,,,,removes grass around it,
+"OverrideNamedEngramEntries=(EngramClassName=""PrimalEngram_RagnarokLargeRocks_JVHLandscaping_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,150,,,,
+"OverrideNamedEngramEntries=(EngramClassName=""PrimalEngram_TweakTool_JVH_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,1,,,,
+"OverrideNamedEngramEntries=(EngramClassName=""PrimalEngram_Bench_JVHGardenDecor_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,1,,,JVH Garden,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_AwesomeTeleporters_Teleporter_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,48,20,,Awesome Teleporters,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_AwesomeTeleporters_Remote_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,48,20,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_CraftingSkillPotion_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,20,,,Crafting Skill Potion,
@@ -964,6 +981,8 @@
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_SalvageStation_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,12,10,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_BlueprintStation_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,12,5,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_EngramWorkbench_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,1,0,,Engrams Return,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_SprayPainter_Scribbles_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,27,0,,BetterSigns,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_PaintBrush_Scribbles_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,27,0,,,
 ,,,,,,
 ,,,,,,
 ,,,,,,
@@ -1090,6 +1109,8 @@
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_Hadal_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,77,45,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_ErythroCombatSaddle_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,64,30,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_ErythroStandardSaddle_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,56,20,,,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_Saurovindico_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,105,45,,,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_ChallengeSmok_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,105,3,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_AcrophAQ_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,18,12,Additional Creatures: Aquaria,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_AqLeopardSeal_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,35,10,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_AqWalrus_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,39,14,,,
@@ -1122,7 +1143,7 @@
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Weapon_CyclopsChitinGA_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,,,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Weapon_CyclopsChitinGS_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,,,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_Atlasuchus_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,38,18,Ports of Atlas,,
-"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_GrandTortugar_C"",EngramLevelRequirement=43,EngramPointsCost=18,EngramHidden=False,RemoveEngramPreReq=True)",,43,18,,,vanilla
+"OverrideNamedEngramEntries=(EngramClassName=""/PortsOfAtlas/Creatures/GrandTortugar/EngramEntry_Saddle_GrandTortugar_C.EngramEntry_Saddle_GrandTortugar_C"",EngramLevelRequirement=43,EngramPointsCost=18,EngramHidden=False,RemoveEngramPreReq=True)",,43,18,,,vanilla
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_SaddlePlatform_GrandTortugar_C"",EngramLevelRequirement=52,EngramPointsCost=18,EngramHidden=False,RemoveEngramPreReq=True)",,52,18,,,modded
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_Olfend_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,,,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_Ostrich_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,22,15,,,
@@ -1153,7 +1174,7 @@
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_AmbulocetusSaddle_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,23,7,The Sunken World Additions,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_SphyrnaSaddle_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,19,8,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_ThermiteScope_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,83,9,,,
-"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_EdestusSaddle_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,80,35,,,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_EdestusSaddle_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,71,35,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Trident_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,,,,,spear upgrade
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_RefinedTranqBolt_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,88,30,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_TorpedoBolt_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,,,,,underwater rocket
@@ -1418,11 +1439,11 @@
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_SlopedCoralWall_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,,,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_CoralNode_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,,,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_CoralPillar_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,,,,,
-"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_TurretBallistaBrachyura_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,,,,,
-"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_TurretCannonBrachyura_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,,,,,
-"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_TurretCatapultBrachyura_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,,,,,
-"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_TurretMinigunBrachyura_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,,,,,
-"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_TurretRocketBrachyura_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,,,,,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_TurretBallistaBrachyura_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,86,10,,,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_TurretCannonBrachyura_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,86,10,,,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_TurretCatapultBrachyura_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,86,10,,,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_TurretMinigunBrachyura_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,86,10,,,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_TurretRocketBrachyura_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,86,10,,,
 ,,,,,,
 ,,,,,,
 ,,,,,,
@@ -1457,6 +1478,7 @@
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_EVO_Mosa_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,81,56,Paleo: Dangerous Depths,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_EVO_Mosa_Platform_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,91,,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_EVO_Bronto_Saddle_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,75,25,Paleo: Hard Hitting Herbivores,,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_BrontoCanopy_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,75,5,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_EVO_Bronto_Platform_Saddle_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,85,35,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_EVO_Therizino_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,73,42,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_PA_Cryptoclidus_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,27,20,Paleo: Native Aquatics,,
@@ -1553,7 +1575,7 @@
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_ClayAnkySaddle_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,26,18,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_ClayLeed_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,33,,ClaysLeedsichthysEdit,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_GreaterClayLeed_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,,,,,saddle for bigger variant
-"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_ClayPachyrhinosaddle_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,,,ClaysPachyrhinoEdit,,saddle for same sized
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_ClayPachyrhinosaddle_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,26,18,ClaysPachyrhinoEdit,,saddle for same sized
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_GreaterClayPachyrhinosaddle_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,37,23,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_ClayRex_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,76,34,ClaysRexEdit,,does this work?
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_ClayTrike_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,29,16,ClaysTrikeEdit,,
@@ -1561,9 +1583,25 @@
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_PaleoMoschops_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,6,6,Paleo ARK Ascension,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_PaleoKentro_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,26,15,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_KentriodonSaddle_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,16,9,Feras Creature Reforged: Wild Seas,,
-,,,,,,
-,,,,,,
-,,,,,,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_XiphiorhynchusSaddle_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,42,12,,,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_Enhydriodon_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,18,9,Feras Vanilla Edits: Enhydriodon,,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_Prenocephale_GSC_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,17,6,GuiShan Collection,,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_Arambourgiania_GSC_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,88,30,,,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_Tarchia_GSC_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,66,20,,,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_Probactrosaurus_GSC_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,38,16,,,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_Deinocheirus_GSC_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,92,35,,,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_Arganodus_GSC_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,39,22,,,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_AnvilBench_GSC_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,18,5,,,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_ChallengeDeinocheirus_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,92,2,,,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_YummyFoodMix_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,,,,,human food
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_AnchorStone_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,25,0,,,stops dinos from moving
+"OverrideNamedEngramEntries=(EngramClassName=""ENGRAM_TARBO:PLACEHOLDER"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,86,32,,,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle__SeReborn_Sarco_ASA_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,47,25,Scorched Earth Reborn: Additions,,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_Mammoth_SEReborn_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,55,27,,,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_Megatherium_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,67,28,,,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_SeReborn_Puru_ASA_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,76,32,,,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_SERebornTurtle_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,18,14,,,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_Stegotetra_SEReborn_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,21,16,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_DefenseUnit_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,75,25,Better Creatures,,
 "OverrideNamedEngramEntries=(EngramClassName=""PrimalEngramEntry_PhoenixFlameThrower_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,71,12,Improved Phoenix,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Milkglider_Saddle_ASEP_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,19,24,Maewing Port,,
@@ -1576,3 +1614,4 @@
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_PortedSaddle_Desmodus_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,,,,,
 "OverrideNamedEngramEntries=(EngramClassName=""PortedEngramEntry_Saddle_Tropeognathus_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,67,32,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_PrimalCrystal_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,65,8,Crystal Wyverns (Port),,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_PrimitiveShastaSaddle_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,84,25,,,

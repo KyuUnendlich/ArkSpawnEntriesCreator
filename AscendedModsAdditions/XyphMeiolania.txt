@@ -6,6 +6,7 @@ Engram Entries:
    EngramEntry_MeiolaniaMortarSaddle_C
    EngramEntry_RocketMortar_C
    EngramEntry_MeiolaniaShield_C
+   EngramEntry_MeiolaniaStonecutterSaddle_C
 
 Dino Entries: 
    Meiolania_C
