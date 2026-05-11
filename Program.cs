@@ -81,7 +81,7 @@ namespace ArkSpawnEntriesCreator
             XyphMeiolania,                          RoyalArchaeopteryx,                 AnomalyGalvarex,
         }
 
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/FerasWildSeas.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/GiantIsopod.txt";
         const bool replaceFile = true;
         const bool multimain = false;
 
@@ -121,9 +121,9 @@ namespace ArkSpawnEntriesCreator
 
             //ASA_Engrams.AddModifiersToEngrams(path_engram, Path_test);
 
-            //ASA_SpawnContainers.CreateSpawnContainerAdditions(path_spawn, Path_test);
+            ASA_SpawnContainers.CreateSpawnContainerAdditions(path_spawn, Path_test);
 
-            ASAExtractor();
+            //ASAExtractor();
         }
 
         public static void ASAExtractor()

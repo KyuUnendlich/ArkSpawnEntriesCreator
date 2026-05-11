@@ -1,11 +1,69 @@
+All Entry Names: 
+   NULL  x 6
+
 Engram Entries: 
    EngramEntry_KentriodonSaddle_C
+   EngramEntry_XiphiorhynchusSaddle_C
 
 Dino Entries: 
    Kentriodon_C
+   Xiphiorhynchus_C
 
+Dino Additions: 
+Container Name: null
+   Entry Name: 
+      Main BP: Kentriodon_Character_BP_C
+      Entry Weight: 5.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.8
+   Entry Name: 
+      Main BP: Xiphiorhynchus_Character_BP_C
+      Entry Weight: 5.0
+      Spawn Limit: 0.5
+      Multi Spawn Chance: 0.6
+Container Name: null
+   Entry Name: 
+      Main BP: Kentriodon_Character_BP_C
+      Entry Weight: 5.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.8
+   Entry Name: 
+      Main BP: Xiphiorhynchus_Character_BP_C
+      Entry Weight: 5.0
+      Spawn Limit: 0.5
+      Multi Spawn Chance: 0.6
+Container Name: null
+   Entry Name: 
+      Main BP: Kentriodon_Character_BP_C
+      Entry Weight: 5.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.8
+   Entry Name: 
+      Main BP: Xiphiorhynchus_Character_BP_C
+      Entry Weight: 5.0
+      Spawn Limit: 0.5
+      Multi Spawn Chance: 0.6
 
-Global Entry Weights: 
-   Main BP: Dolphin_Character_BP_C
-      SubBP: Dolphin_Character_BP_C 40.0
-      SubBP: Kentriodon_Character_BP_C 60.0
+MultiParams Summary: 
+   Main BP: Kentriodon_Character_BP_C
+      Entry Weight:                   5.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.8
+      Entry Weight:                   5.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.8
+      Entry Weight:                   5.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.8
+
+   Main BP: Xiphiorhynchus_Character_BP_C
+      Entry Weight:                   5.0
+      Spawn Limit:                             0.5
+      Multi Spawn Chance:                               0.6
+      Entry Weight:                   5.0
+      Spawn Limit:                             0.5
+      Multi Spawn Chance:                               0.6
+      Entry Weight:                   5.0
+      Spawn Limit:                             0.5
+      Multi Spawn Chance:                               0.6
+

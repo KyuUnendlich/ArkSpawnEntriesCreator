@@ -1143,7 +1143,7 @@
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Weapon_CyclopsChitinGA_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,,,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Weapon_CyclopsChitinGS_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,,,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_Atlasuchus_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,38,18,Ports of Atlas,,
-"OverrideNamedEngramEntries=(EngramClassName=""/PortsOfAtlas/Creatures/GrandTortugar/EngramEntry_Saddle_GrandTortugar_C.EngramEntry_Saddle_GrandTortugar_C"",EngramLevelRequirement=43,EngramPointsCost=18,EngramHidden=False,RemoveEngramPreReq=True)",,43,18,,,vanilla
+"OverrideNamedEngramEntries=(EngramClassName=""/PortsOfAtlas/Creatures/GrandTortugar/EngramEntry_Saddle_GrandTortugar.EngramEntry_Saddle_GrandTortugar_C"",EngramLevelRequirement=43,EngramPointsCost=18,EngramHidden=False,RemoveEngramPreReq=True)",x,43,18,,,this doesnt work sadly
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_SaddlePlatform_GrandTortugar_C"",EngramLevelRequirement=52,EngramPointsCost=18,EngramHidden=False,RemoveEngramPreReq=True)",,52,18,,,modded
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_Olfend_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,,,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_Ostrich_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,22,15,,,
@@ -1579,7 +1579,8 @@
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_GreaterClayPachyrhinosaddle_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,37,23,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_ClayRex_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,76,34,ClaysRexEdit,,does this work?
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_ClayTrike_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,29,16,ClaysTrikeEdit,,
-"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_GreaterClayTrike_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,66,36,,,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_GreaterClayTrike_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,66,26,,,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_GreaterClayTrike_Platform_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,77,36,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_PaleoMoschops_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,6,6,Paleo ARK Ascension,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_PaleoKentro_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,26,15,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_KentriodonSaddle_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,16,9,Feras Creature Reforged: Wild Seas,,
@@ -1596,12 +1597,15 @@
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_YummyFoodMix_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,,,,,human food
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_AnchorStone_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,25,0,,,stops dinos from moving
 "OverrideNamedEngramEntries=(EngramClassName=""ENGRAM_TARBO:PLACEHOLDER"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",x,86,32,,,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_Inostrancevia_GSC_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,54,22,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle__SeReborn_Sarco_ASA_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,47,25,Scorched Earth Reborn: Additions,,
-"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_Mammoth_SEReborn_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,55,27,,,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_Mammoth_SEReborn_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,55,20,,,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_SaddlePlatform_Mammoth_SEReborn_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,68,25,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_Megatherium_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,67,28,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_SeReborn_Puru_ASA_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,76,32,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_SERebornTurtle_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,18,14,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_Stegotetra_SEReborn_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,21,16,,,
+"OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Saddle_SETitano_Platform_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,95,38,,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_DefenseUnit_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,75,25,Better Creatures,,
 "OverrideNamedEngramEntries=(EngramClassName=""PrimalEngramEntry_PhoenixFlameThrower_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,71,12,Improved Phoenix,,
 "OverrideNamedEngramEntries=(EngramClassName=""EngramEntry_Milkglider_Saddle_ASEP_C"",EngramLevelRequirement=0,EngramPointsCost=0,EngramHidden=False,RemoveEngramPreReq=True)",,19,24,Maewing Port,,

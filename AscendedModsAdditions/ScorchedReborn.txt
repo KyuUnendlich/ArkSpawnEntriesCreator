@@ -1,13 +1,14 @@
 All Entry Names: 
    Gupfish (1)  x 1
+   SandWyvern (1)  x 1
    SE Mammoth (1-2)  x 1
    SE Megaraptor (1)  x 1
    SE Megatherium (1-2)  x 2
    SE Puru (1)  x 2
    SE Sarco (1)  x 2
+   SE Titano  x 1
    SE Turtle (1)  x 1
    SE Turtle (1-2)  x 1
-   Stegotetra (1-2)  x 1
    Stegotetra (1-3)  x 1
    Stegotetrabelodon (1-4)  x 2
 
@@ -18,6 +19,8 @@ Engram Entries:
    EngramEntry_Saddle_SeReborn_Puru_ASA_C
    EngramEntry_Saddle_SERebornTurtle_C
    EngramEntry_Saddle_Stegotetra_SEReborn_C
+   EngramEntry_SaddlePlatform_Mammoth_SEReborn_C
+   EngramEntry_Saddle_SETitano_Platform_C
 
 Dino Entries: 
    Gupfish_C
@@ -104,11 +107,17 @@ Container Name: null
       Spawn Limit: 1.0
       Multi Spawn Chance: 1.0
 Container Name: null
-   Entry Name: Stegotetra (1-2)
-      Main BP: Mammoth_Character_BP_SEReborn_Stegotetra_C
-      Entry Weight: 0.033
-      Spawn Limit: 0.05
-      Multi Spawn Chance: 1.0-0.33
+   Entry Name: SandWyvern (1)
+      Main BP: Wyvern_Character_BP_Sand_C
+      Entry Weight: 1.0
+      Spawn Limit: 1.0
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: SE Titano
+      Main BP: ScorchedTitanosaur_Character_BP_C
+      Entry Weight: 0.002
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
 
 MultiParams Summary: 
    Main BP: DeinosuchusASA_Character_BP_SEReborn_Puru_C
@@ -147,9 +156,6 @@ MultiParams Summary:
       Entry Weight:                   0.03
       Spawn Limit:                             0.1
       Multi Spawn Chance:                               1.0-0.667-0.333
-      Entry Weight:                   0.033
-      Spawn Limit:                             0.05
-      Multi Spawn Chance:                               1.0-0.33
 
    Main BP: Megatherium_Character_BP_SEReborn_C
       Entry Weight:                   0.01
@@ -158,6 +164,11 @@ MultiParams Summary:
       Entry Weight:                   0.045
       Spawn Limit:                             0.05
       Multi Spawn Chance:                               1.0-0.45
+
+   Main BP: ScorchedTitanosaur_Character_BP_C
+      Entry Weight:                   0.002
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0
 
    Main BP: Turtle_Character_BP_SEReborn_C
       Entry Weight:                   0.055
@@ -171,4 +182,9 @@ MultiParams Summary:
       Entry Weight:                   0.055
       Spawn Limit:                             0.025
       Multi Spawn Chance:                               0.8
+
+   Main BP: Wyvern_Character_BP_Sand_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             1.0
+      Multi Spawn Chance:                               1.0
 
