@@ -1,3 +1,8 @@
+All Entry Names: 
+   Acro (1)  x 3
+   Acro (1-2)  x 7
+   Acro (2)  x 1
+
 Engram Entries: 
    EngramEntry_SaddleAcro_C
 

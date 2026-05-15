@@ -19,9 +19,9 @@ Container Name: null
       Multi Spawn Chance: 1.0-1.0-0.5-1.0
 Container Name: null
    Entry Name: ClayPachyrhino
-      Main BP: ClayPachyrhino_Character_BP_C
+      Main BP: ScorchedClayPachyrhino_Character_BP_Child_C
       Entry Weight: 1.0
-      Spawn Limit: 0.01
+      Spawn Limit: 
       Multi Spawn Chance: 1.0-1.0-0.5
 Container Name: null
    Entry Name: ClayPachyrhino
@@ -75,9 +75,6 @@ MultiParams Summary:
       Entry Weight:                   0.07
       Spawn Limit:                             
       Multi Spawn Chance:                               1.0-1.0-0.5-1.0
-      Entry Weight:                   1.0
-      Spawn Limit:                             0.01
-      Multi Spawn Chance:                               1.0-1.0-0.5
       Entry Weight:                   0.08
       Spawn Limit:                             
       Multi Spawn Chance:                               1.0-1.0-0.5-0.25
@@ -101,4 +98,9 @@ MultiParams Summary:
       Entry Weight:                   0.025
       Spawn Limit:                             
       Multi Spawn Chance:                               1.0-0.7-0.8-0.5-0.5
+
+   Main BP: ScorchedClayPachyrhino_Character_BP_Child_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-1.0-0.5
 

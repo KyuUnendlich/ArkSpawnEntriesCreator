@@ -8,6 +8,7 @@ Engram Entries:
 Dino Entries: 
    Kentriodon_C
    Xiphiorhynchus_C
+   Godsilia_C
 
 Dino Additions: 
 Container Name: null
@@ -43,6 +44,17 @@ Container Name: null
       Entry Weight: 5.0
       Spawn Limit: 0.5
       Multi Spawn Chance: 0.6
+
+Global Entry Weights: 
+   Main BP: Angler_Character_BP_C
+      SubBP: Angler_Character_BP_C 0.7
+      SubBP: Godsilia_Character_BP_C 0.3
+   Main BP: Manta_Character_BP_C
+      SubBP: Dolphin_Character_BP_C 0.7
+      SubBP: Kentriodon_Anim_BP_C 0.1
+   Main BP: Manta_Character_BP_C
+      SubBP: Dolphin_Character_BP_C 0.98
+      SubBP: Xiphiorhynchus_Character_BP_C 0.02
 
 MultiParams Summary: 
    Main BP: Kentriodon_Character_BP_C
