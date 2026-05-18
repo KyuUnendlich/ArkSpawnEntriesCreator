@@ -1,0 +1,128 @@
+All Entry Names: 
+   NULL  x 12
+
+Engram Entries: 
+   EngramEntry_Saddle_Diru_C
+   EngramEntry_Saddle_Kutsu_C
+
+Dino Entries: 
+   Armaedron_C
+   Diru_C
+   Kutsu_C
+   PureChild_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: 
+      Main BP: KutsuYaKu_Character_bp_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: KutsuYaKu_Character_bp_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: KutsuYaKu_Character_bp_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: KutsuYaKu_Character_bp_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: KutsuYaKu_Character_bp_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: KutsuYaKu_Character_bp_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: KutsuYaKu_Character_bp_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: KutsuYaKu_Character_bp_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: DiruYaKu_Character_bp_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: DiruYaKu_Character_bp_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: DiruYaKu_Character_bp_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: DiruYaKu_Character_bp_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0
+
+MultiParams Summary: 
+   Main BP: DiruYaKu_Character_bp_C
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0
+
+   Main BP: KutsuYaKu_Character_bp_C
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0
+

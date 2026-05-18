@@ -77,11 +77,11 @@ namespace ArkSpawnEntriesCreator
             XyphCharnia,                            ARKODesolatitan,                    StarExoticAnimals, /*RR_Exo MULTI*/ GuishanCollection,
             XyphDick,                               MoreWyverns,                        StarAnimals, /*RR_StarAnim  MULTI*/ ScorchedReborn, /*SEReb*/
             XyphEnantiophoenix,                     Monolopho, /*Forogotten*/           StarFarmAnimals, /*RR_Farm  MULTI*/ TweeWyvern, /*Tristan*/
-            XyphMegistotherium,                     Noxcalva, /*BlazingNoxcalva*/       OceaniaContent, /*AEM_Content*/
-            XyphMeiolania,                          RoyalArchaeopteryx,                 AnomalyGalvarex,
+            XyphMegistotherium,                     Noxcalva, /*BlazingNoxcalva*/       OceaniaContent, /*AEM_Content*/     ACGrandHunt, /*Additional*/
+            XyphMeiolania,                          RoyalArchaeopteryx,                 AnomalyGalvarex,                    TACIguana,
         }
 
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/FerasEnhy.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/LifeFinds.txt";
         const bool replaceFile = true;
         const bool multimain = false;
 
