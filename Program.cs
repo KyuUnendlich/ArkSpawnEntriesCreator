@@ -44,44 +44,44 @@ namespace ArkSpawnEntriesCreator
 
         enum Mod
         {
-            Prehistoric1, /*Beasts*/                XyphMischoptera,                    ACEndemics, /*Endemics*/            MarniiGriffins, /*Marnii MULTI*/
-            Prehistoric2,                           XyphVetuli,                         ACAquaria, /*Aquaria*/              IslaNycta,
-            Prehistoric3,                           KamiFeral,                          AC2WildArk, /*Addititio   2 Files*/ PaddletailSpino, /*PSpino*/
-            Prehistoric4,                           TheSunkenWorld,                     FayeMenagerie, /*Menagerie*/        PolyOrycterocetus,
-            Prehistoric5,                           NeoEuropa, /*Europa*/               AussieDiamantina, /*NickDiamant*/   DeimosShantungo,
-            CyrusDrakonis,                          FerasDinocroc,                      AussieMuttaburra, /*NickMutta*/     AsharavelBestiary,
-            WakSpino,                               FerasSmilo, /*GreaterSaber*/        AussieMinmi, /*AussieAdditions*/    MegaBitsAndBobs,
-            Hatze,                                  FerasFoxes, /*Arcticfox*/           AbiArgentino, /*Argentino*/         KalugaAppalachian,
-            TACElementalRaptors, /*TAC_FireAnd*/    CuriousCryptids, /*TutorialDino*/   FeralMajunga, /*Majunga*/
-            MoroHydrovanta, /*Hydrovanta*/          AstraeosCreatures,                  FeralWalliserops, /*Walliserops*/   ShadCritterReworks,
-            ShadAtlas,                              MyrmDracoteuthis, /*Dracoteuthis*/  Barsboldia,                         NoUntameables,
-            PortsOfAtlas,                           MyrmDraconisGlaucus, /*Glaucus*/    Sivatherium,                        ShinsPortedCreatures,
-            AtlasReborn,       /*MULTIMAIN*/        IsleSkyshroud, /*skysh  MULTIMAIN*/ Cockatrice,                         ArborealAdditions,
-            AtlasFish,         /*2 Files*/          IsleOxalaia, /*IoMSpino*/           AA_Brachiosaurus, /*AABrachio*/     CrystalWyvernPort,
-            MoroLivy,                               IsleSpearcrest, /*BSSpearcrest*/    AA_Acrocantho, /*AAAcro*/           CastleCraftDecor,
-            MoroGigantophis,                        IsleSuchomimus, /*IsleOfMythsSucho*/Meraxes,                            PaleoAscension,
-            SulfurTitan, /*TitanSulfur*/            HorizonSuchomimus, /*Horizons*/     RunicWyverns,                       BetterCreatures,
-            AA_Edmontonia, /* Edmontonia */         MoroTylo,                           NeoAurochs, /*Aurochs*/             ImprovedPhoenix,
-            AA_Anomalocaris,                        MoroNotho,                          NeoStygi, /*Stygi*/                 
-            Cricosaurus, /*AA_Crico*/               Rubidgea, /*OCRubidgea*/            NeoStyraco, /*Styra*/               
-            ArketyDraconyx, /*ATDraconyx*/          Birdwatcher,                        Skjaldastordr, /*MSVV_Skjaldastor*/ ClayAnkylo,
-            ArketyScotoharpes, /*ATScoto*/          TACVectispinus,                     PygmyHippo,                         ClayLeed,
-            ArketyBombardier, /*ATBomb  MULTIMAIN*/ TACAntrodemus,                      ExtremeGargantSpino, /*t5ege*/      ClayPachyrhino,
-            PiggleLycosuchus, /* Lycosuchus */      TACEocarcharia, /*Eocarcharia*/     CyrusRedPanda,                      ClayRex,
-            PiggleAdasaurus, /*PPR-Ada*/            TACDaemonis, /*Daemonis*/           CyrusThoraxSpider, /*CyrusJumping*/ ClayTrike,
-            PaleoApexPredators, /*PA_EVO_01*/       TACDzungatherium,                   CyrusMagnaGecko, /*CyrusGecko*/     CyberStructures,
-            PaleoDangerousDepths, /*PA_EVO_02*/     TACBastionBeetle,                   CliffansCritters,                   MaewingPort,
-            PaleoHardHittingHerbivores,/*PA_EVO_03*/Tyrannodominator,                   HuskyWolf,                          FerasWildSeas, /*FCR_Wild*/
-            PaleoNativeAquatics, /*PA_PLUS_01*/     ARKOSanguivern,                     Stegotetrabelodon, /*Steg*/         FerasEnhy, /*Ferasvanil*/
-            PaleoRulersWastelands, /*PA_PLUS_02*/   ARKOHapipalus,                      Gingerpithecus,                     GiantIsopod,
-            XyphCharnia,                            ARKODesolatitan,                    StarExoticAnimals, /*RR_Exo MULTI*/ GuishanCollection,
-            XyphDick,                               MoreWyverns,                        StarAnimals, /*RR_StarAnim  MULTI*/ ScorchedReborn, /*SEReb*/
-            XyphEnantiophoenix,                     Monolopho, /*Forogotten*/           StarFarmAnimals, /*RR_Farm  MULTI*/ TweeWyvern, /*Tristan*/
-            XyphMegistotherium,                     Noxcalva, /*BlazingNoxcalva*/       OceaniaContent, /*AEM_Content*/     ACGrandHunt, /*Additional*/
-            XyphMeiolania,                          RoyalArchaeopteryx,                 AnomalyGalvarex,                    TACIguana,
+            Prehistoric1, /*Beasts*/                XyphMischoptera,                    ACEndemics, /*Endemics*/            MarniiGriffins, /*Marnii MULTI*/KalugaAppalachian,
+            Prehistoric2,                           XyphVetuli,                         ACAquaria, /*Aquaria*/              IslaNycta,                      NoUntameables,
+            Prehistoric3,                           KamiFeral,                          AC2WildArk, /*Addititio   2 Files*/ PaddletailSpino, /*PSpino*/     ShinsPortedCreatures,
+            Prehistoric4,                           TheSunkenWorld,                     FayeMenagerie, /*Menagerie*/        PolyOrycterocetus,              BetterCreatures,
+            Prehistoric5,                           NeoEuropa, /*Europa*/               AussieDiamantina, /*NickDiamant*/   DeimosShantungo,                CyberStructures,
+            CyrusDrakonis,                          FerasDinocroc,                      AussieMuttaburra, /*NickMutta*/     MegaBitsAndBobs,                MaewingPort,
+            WakSpino,                               FerasSmilo, /*GreaterSaber*/        AussieMinmi, /*AussieAdditions*/    ClayAnkylo,                     ImprovedPhoenix,
+            Hatze,                                  FerasFoxes, /*Arcticfox*/           AbiArgentino, /*Argentino*/         ClayLeed,
+            TACElementalRaptors, /*TAC_FireAnd*/    CuriousCryptids, /*TutorialDino*/   FeralMajunga, /*Majunga*/           ClayPachyrhino,
+            MoroHydrovanta, /*Hydrovanta*/          AstraeosCreatures,                  FeralWalliserops, /*Walliserops*/   ClayRex,
+            ShadAtlas,                              MyrmDracoteuthis, /*Dracoteuthis*/  Barsboldia,                         ClayTrike,
+            PortsOfAtlas,                           MyrmDraconisGlaucus, /*Glaucus*/    Sivatherium,                        PaleoAscension,
+            AtlasReborn,       /*MULTIMAIN*/        IsleSkyshroud, /*skysh  MULTIMAIN*/ Cockatrice,                         FerasWildSeas, /*FCR_Wild*/
+            AtlasFish,         /*2 Files*/          IsleOxalaia, /*IoMSpino*/           AA_Brachiosaurus, /*AABrachio*/     FerasEnhy, /*Ferasvanil*/
+            MoroLivy,                               IsleSpearcrest, /*BSSpearcrest*/    AA_Acrocantho, /*AAAcro*/           GiantIsopod,
+            MoroGigantophis,                        IsleSuchomimus, /*IsleOfMythsSucho*/Meraxes,                            GuishanCollection,
+            SulfurTitan, /*TitanSulfur*/            HorizonSuchomimus, /*Horizons*/     RunicWyverns,                       ScorchedReborn, /*SEReb*/
+            AA_Edmontonia, /* Edmontonia */         MoroTylo,                           NeoAurochs, /*Aurochs*/             TweeWyvern, /*Tristan*/
+            AA_Anomalocaris,                        MoroNotho,                          NeoStygi, /*Stygi*/                 ACGrandHunt, /*Additional*/
+            Cricosaurus, /*AA_Crico*/               Rubidgea, /*OCRubidgea*/            NeoStyraco, /*Styra*/               TACIguana,
+            ArketyDraconyx, /*ATDraconyx*/          Birdwatcher,                        Skjaldastordr, /*MSVV_Skjaldastor*/ RadiantGenesis,
+            ArketyScotoharpes, /*ATScoto*/          TACVectispinus,                     PygmyHippo,                         
+            ArketyBombardier, /*ATBomb  MULTIMAIN*/ TACAntrodemus,                      ExtremeGargantSpino, /*t5ege*/      
+            PiggleLycosuchus, /* Lycosuchus */      TACEocarcharia, /*Eocarcharia*/     CyrusRedPanda,                      
+            PiggleAdasaurus, /*PPR-Ada*/            TACDaemonis, /*Daemonis*/           CyrusThoraxSpider, /*CyrusJumping*/ 
+            PaleoApexPredators, /*PA_EVO_01*/       TACDzungatherium,                   CyrusMagnaGecko, /*CyrusGecko*/     
+            PaleoDangerousDepths, /*PA_EVO_02*/     TACBastionBeetle,                   CliffansCritters,                   
+            PaleoHardHittingHerbivores,/*PA_EVO_03*/Tyrannodominator,                   HuskyWolf,                          
+            PaleoNativeAquatics, /*PA_PLUS_01*/     ARKOSanguivern,                     Stegotetrabelodon, /*Steg*/         
+            PaleoRulersWastelands, /*PA_PLUS_02*/   ARKOHapipalus,                      Gingerpithecus,                     
+            XyphCharnia,                            ARKODesolatitan,                    StarExoticAnimals, /*RR_Exo MULTI*/ 
+            XyphDick,                               MoreWyverns,                        StarAnimals, /*RR_StarAnim  MULTI*/ 
+            XyphEnantiophoenix,                     Monolopho, /*Forogotten*/           StarFarmAnimals, /*RR_Farm  MULTI*/ 
+            XyphMegistotherium,                     Noxcalva, /*BlazingNoxcalva*/       OceaniaContent, /*AEM_Content*/     
+            XyphMeiolania,                          RoyalArchaeopteryx,                 AnomalyGalvarex,                    
         }
 
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/LifeFinds.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/KalugaAppalachian.txt";
         const bool replaceFile = true;
         const bool multimain = false;
 
