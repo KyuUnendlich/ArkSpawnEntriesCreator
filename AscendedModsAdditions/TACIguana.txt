@@ -1,5 +1,5 @@
 All Entry Names: 
-   NULL  x 8
+   NULL  x 10
 
 Dino Entries: 
    Iguana_TAC_C
@@ -53,8 +53,28 @@ Container Name: null
       Entry Weight: 0.05
       Spawn Limit: 0.025
       Multi Spawn Chance: 1.0-1.0-1.0-0.5-0.25
+Container Name: null
+   Entry Name: 
+      Main BP: Mtn_TACIguana_Character_BP_Child_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-0.5-0.25
+Container Name: null
+   Entry Name: 
+      Main BP: Mtn_TACIguana_Character_BP_Child_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-1.0-1.0-0.5-0.25
 
 MultiParams Summary: 
+   Main BP: Mtn_TACIguana_Character_BP_Child_C
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-0.5-0.25
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-1.0-0.5-0.25
+
    Main BP: SE_TACIguana_Character_BP_Child_C
       Entry Weight:                   0.03
       Spawn Limit:                             0.025

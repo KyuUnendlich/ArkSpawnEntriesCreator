@@ -1,0 +1,197 @@
+All Entry Names: 
+   MythGrass  x 4
+   MythOasisExt  x 2
+   MythOcean  x 1
+   MythOceanExt  x 1
+   MythOceanGen  x 1
+   MythSnow  x 1
+   MythSnowExt  x 1
+   MythSnowGen  x 1
+   MythSulfurExt  x 1
+   MythWyvTrench  x 1
+
+Engram Entries: 
+   EngramEntry_Myth_Workbench_C
+   EngramEntry_Myth_Chair_Noble_C
+   EngramEntry_Myth_Chair_Torture_C
+   EngramEntry_Myth_Flags_C
+   EngramEntry_Myth_FoodBowl_C
+   EngramEntry_Freezer_Gun_C
+   EngramEntry_Magic_Ball_C
+   EngramEntry_Magic_Crossbow_C
+   EngramEntry_Magic_Wand_C
+
+Dino Entries: 
+   Dog_Doberman_C
+   Dog_Ridgeback_C
+   Dog_Shepherd_C
+   Dog_Bulldog_C
+   Dragon_Tyrant_C
+   Dragon_Changer_C
+   Dragon_Terror_C
+   Phoenix_Myth_C
+   Phoenix_Infernal_C
+   Phoenix_Sea_C
+   Dog_Infernal_C
+   Infinity_Beast_C
+   Basilisk_Myth_C
+   Orca_Myth_C
+   Shoni_Myth_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: MythGrass
+      Main BP: Dog_Doberman_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1
+Container Name: null
+   Entry Name: MythGrass
+      Main BP: Dog_Doberman_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1
+Container Name: null
+   Entry Name: MythGrass
+      Main BP: Dog_Doberman_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1
+Container Name: null
+   Entry Name: MythOasisExt
+      Main BP: Basilisk_Myth_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 0.05-0.1
+Container Name: null
+Container Name: null
+   Entry Name: MythWyvTrench
+      Main BP: Phoenix_Infernal_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 0.05-0.06-0.06-0.06
+Container Name: null
+   Entry Name: MythGrass
+      Main BP: Dog_Doberman_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.1-0.1-0.1-0.1
+Container Name: null
+   Entry Name: MythSulfurExt
+      Main BP: Phoenix_Infernal_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 0.05-0.06-0.06-0.06
+Container Name: null
+   Entry Name: MythOasisExt
+      Main BP: Basilisk_Myth_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 0.05-0.1
+Container Name: null
+   Entry Name: MythSnow
+      Main BP: Phoenix_Sea_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 0.05
+Container Name: null
+   Entry Name: MythSnowGen
+      Main BP: Phoenix_Sea_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 0.05
+Container Name: null
+   Entry Name: MythSnowExt
+      Main BP: Phoenix_Sea_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.02
+Container Name: null
+   Entry Name: MythOceanExt
+      Main BP: Orca_Myth_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 0.1-0.05-0.2-0.2-0.15-0.15-0.1
+Container Name: null
+   Entry Name: MythOcean
+      Main BP: Orca_Myth_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 0.12-0.05-0.2-0.2-0.15-0.15-0.1
+Container Name: null
+   Entry Name: MythOceanGen
+      Main BP: Orca_Myth_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 0.1-0.05-0.2-0.2-0.15-0.15-0.1
+
+Global Entry Weights: 
+   Main BP: Megalodon_Character_BP_C
+      SubBP: Megalodon_Character_BP_C 0.6
+      SubBP: Orca_Myth_Character_BP_C 0.4
+   Main BP: Mosa_Character_BP_C
+      SubBP: Mosa_Character_BP_C 0.7
+      SubBP: Shoni_Myth_Character_BP_C 0.3
+   Main BP: Wyvern_Character_BP_Lightning_C
+      SubBP: Wyvern_Character_BP_Lightning_C 0.8
+      SubBP: Dragon_Changer_Character_BP_C 0.2
+   Main BP: Wyvern_Character_BP_Poison_C
+      SubBP: Wyvern_Character_BP_Poison_C 0.8
+      SubBP: Dragon_Terror_Character_BP_C 0.2
+   Main BP: Wyvern_Character_BP_Fire_C
+      SubBP: Wyvern_Character_BP_Fire_C 0.8
+      SubBP: Dragon_Tyrant_Character_BP_C 2.0
+
+MultiParams Summary: 
+   Main BP: Basilisk_Myth_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               0.05-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               0.05-0.1
+
+   Main BP: Dog_Doberman_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.1-0.1-0.1-0.1
+
+   Main BP: Orca_Myth_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               0.1-0.05-0.2-0.2-0.15-0.15-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               0.12-0.05-0.2-0.2-0.15-0.15-0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               0.1-0.05-0.2-0.2-0.15-0.15-0.1
+
+   Main BP: Phoenix_Infernal_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               0.05-0.06-0.06-0.06
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               0.05-0.06-0.06-0.06
+
+   Main BP: Phoenix_Sea_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               0.05
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               0.05
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.02
+

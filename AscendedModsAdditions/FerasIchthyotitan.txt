@@ -1,0 +1,42 @@
+All Entry Names: 
+   NULL  x 3
+
+Engram Entries: 
+   EngramEntry_IchthyotitanSaddle_C
+   EngramEntry_TekIchthyotitanSaddle_C
+
+Dino Entries: 
+   Ichthyotitan_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: 
+      Main BP: Ichthyotitan_Character_BP_C
+      Entry Weight: 0.5
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 0.1
+Container Name: null
+   Entry Name: 
+      Main BP: Ichthyotitan_Character_BP_C
+      Entry Weight: 0.5
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 0.1
+Container Name: null
+   Entry Name: 
+      Main BP: Ichthyotitan_Character_BP_C
+      Entry Weight: 0.5
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 0.1
+
+MultiParams Summary: 
+   Main BP: Ichthyotitan_Character_BP_C
+      Entry Weight:                   0.5
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               0.1
+      Entry Weight:                   0.5
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               0.1
+      Entry Weight:                   0.5
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               0.1
+

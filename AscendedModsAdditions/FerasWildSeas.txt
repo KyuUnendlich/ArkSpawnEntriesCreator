@@ -9,73 +9,72 @@ Dino Entries:
    Kentriodon_C
    Xiphiorhynchus_C
    Godsilia_C
+   Eusphyra_C
+   Galeichthys_C
 
 Dino Additions: 
 Container Name: null
    Entry Name: 
       Main BP: Kentriodon_Character_BP_C
       Entry Weight: 5.0
-      Spawn Limit: 
-      Multi Spawn Chance: 0.8
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 0.1
    Entry Name: 
       Main BP: Xiphiorhynchus_Character_BP_C
       Entry Weight: 5.0
-      Spawn Limit: 0.5
-      Multi Spawn Chance: 0.6
+      Spawn Limit: 0.3
+      Multi Spawn Chance: 0.2
 Container Name: null
    Entry Name: 
       Main BP: Kentriodon_Character_BP_C
       Entry Weight: 5.0
-      Spawn Limit: 
-      Multi Spawn Chance: 0.8
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 0.1
    Entry Name: 
       Main BP: Xiphiorhynchus_Character_BP_C
       Entry Weight: 5.0
-      Spawn Limit: 0.5
-      Multi Spawn Chance: 0.6
+      Spawn Limit: 0.3
+      Multi Spawn Chance: 0.2
 Container Name: null
    Entry Name: 
       Main BP: Kentriodon_Character_BP_C
       Entry Weight: 5.0
-      Spawn Limit: 
-      Multi Spawn Chance: 0.8
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 0.1
    Entry Name: 
       Main BP: Xiphiorhynchus_Character_BP_C
       Entry Weight: 5.0
-      Spawn Limit: 0.5
-      Multi Spawn Chance: 0.6
+      Spawn Limit: 0.3
+      Multi Spawn Chance: 0.2
 
 Global Entry Weights: 
    Main BP: Angler_Character_BP_C
       SubBP: Angler_Character_BP_C 0.7
       SubBP: Godsilia_Character_BP_C 0.3
-   Main BP: Manta_Character_BP_C
-      SubBP: Dolphin_Character_BP_C 0.7
-      SubBP: Kentriodon_Anim_BP_C 0.1
-   Main BP: Manta_Character_BP_C
-      SubBP: Dolphin_Character_BP_C 0.98
-      SubBP: Xiphiorhynchus_Character_BP_C 0.02
+   Main BP: Coel_Character_BP_C
+      SubBP: Coel_Character_BP_C 0.99
+      SubBP: Galeichthys_Character_BP_C 0.01
 
 MultiParams Summary: 
    Main BP: Kentriodon_Character_BP_C
       Entry Weight:                   5.0
-      Spawn Limit:                             
-      Multi Spawn Chance:                               0.8
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               0.1
       Entry Weight:                   5.0
-      Spawn Limit:                             
-      Multi Spawn Chance:                               0.8
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               0.1
       Entry Weight:                   5.0
-      Spawn Limit:                             
-      Multi Spawn Chance:                               0.8
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               0.1
 
    Main BP: Xiphiorhynchus_Character_BP_C
       Entry Weight:                   5.0
-      Spawn Limit:                             0.5
-      Multi Spawn Chance:                               0.6
+      Spawn Limit:                             0.3
+      Multi Spawn Chance:                               0.2
       Entry Weight:                   5.0
-      Spawn Limit:                             0.5
-      Multi Spawn Chance:                               0.6
+      Spawn Limit:                             0.3
+      Multi Spawn Chance:                               0.2
       Entry Weight:                   5.0
-      Spawn Limit:                             0.5
-      Multi Spawn Chance:                               0.6
+      Spawn Limit:                             0.3
+      Multi Spawn Chance:                               0.2
 

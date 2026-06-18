@@ -1,5 +1,5 @@
 All Entry Names: 
-   NULL  x 92
+   NULL  x 136
 
 Engram Entries: 
    EngramEntry_BnBWorkbench_C
@@ -37,101 +37,6 @@ Container Name: null
       Spawn Limit: 0.06
       Multi Spawn Chance: 1.0-0.8-0.6-0.4
    Entry Name: 
-      Main BP: Ursus_Character_BP_ABB_C
-      Entry Weight: 0.025
-      Spawn Limit: 0.025
-      Multi Spawn Chance: 1.0
-Container Name: null
-   Entry Name: 
-      Main BP: GFChicken_Character_BP_C
-      Entry Weight: 0.08
-      Spawn Limit: 0.08
-      Multi Spawn Chance: 1.0-0.8-0.6-0.4
-   Entry Name: 
-      Main BP: GFCow_Character_BP_C
-      Entry Weight: 0.08
-      Spawn Limit: 0.06
-      Multi Spawn Chance: 1.0-0.8-0.6-0.4
-   Entry Name: 
-      Main BP: Ursus_Character_BP_ABB_C
-      Entry Weight: 0.025
-      Spawn Limit: 0.025
-      Multi Spawn Chance: 1.0
-Container Name: null
-   Entry Name: 
-      Main BP: GFChicken_Character_BP_C
-      Entry Weight: 0.08
-      Spawn Limit: 0.08
-      Multi Spawn Chance: 1.0-0.8-0.6-0.4
-   Entry Name: 
-      Main BP: GFCow_Character_BP_C
-      Entry Weight: 0.08
-      Spawn Limit: 0.06
-      Multi Spawn Chance: 1.0-0.8-0.6-0.4
-   Entry Name: 
-      Main BP: BoarHog_Character_BP_C
-      Entry Weight: 0.04
-      Spawn Limit: 0.04
-      Multi Spawn Chance: 1.0-0.8-0.6-0.4
-   Entry Name: 
-      Main BP: Ursus_Character_BP_ABB_C
-      Entry Weight: 0.025
-      Spawn Limit: 0.025
-      Multi Spawn Chance: 1.0
-Container Name: null
-   Entry Name: 
-      Main BP: GFChicken_Character_BP_C
-      Entry Weight: 0.08
-      Spawn Limit: 0.08
-      Multi Spawn Chance: 1.0-0.8-0.6-0.4
-   Entry Name: 
-      Main BP: GFCow_Character_BP_C
-      Entry Weight: 0.08
-      Spawn Limit: 0.06
-      Multi Spawn Chance: 1.0-0.8-0.6-0.4
-   Entry Name: 
-      Main BP: BoarHog_Character_BP_C
-      Entry Weight: 0.04
-      Spawn Limit: 0.04
-      Multi Spawn Chance: 1.0-0.8-0.6-0.4
-   Entry Name: 
-      Main BP: Ursus_Character_BP_ABB_C
-      Entry Weight: 0.025
-      Spawn Limit: 0.025
-      Multi Spawn Chance: 1.0
-Container Name: null
-   Entry Name: 
-      Main BP: GFChicken_Character_BP_C
-      Entry Weight: 0.08
-      Spawn Limit: 0.08
-      Multi Spawn Chance: 1.0-0.8-0.6-0.4
-   Entry Name: 
-      Main BP: GFCow_Character_BP_C
-      Entry Weight: 0.08
-      Spawn Limit: 0.06
-      Multi Spawn Chance: 1.0-0.8-0.6-0.4
-   Entry Name: 
-      Main BP: BoarHog_Character_BP_C
-      Entry Weight: 0.04
-      Spawn Limit: 0.04
-      Multi Spawn Chance: 1.0-0.8-0.6-0.4
-   Entry Name: 
-      Main BP: Ursus_Character_BP_ABB_C
-      Entry Weight: 0.025
-      Spawn Limit: 0.025
-      Multi Spawn Chance: 1.0
-Container Name: null
-   Entry Name: 
-      Main BP: GFChicken_Character_BP_C
-      Entry Weight: 0.08
-      Spawn Limit: 0.08
-      Multi Spawn Chance: 1.0-0.8-0.6-0.4
-   Entry Name: 
-      Main BP: GFCow_Character_BP_C
-      Entry Weight: 0.08
-      Spawn Limit: 0.06
-      Multi Spawn Chance: 1.0-0.8-0.6-0.4
-   Entry Name: 
       Main BP: BoarHog_Character_BP_C
       Entry Weight: 0.04
       Spawn Limit: 0.04
@@ -268,102 +173,6 @@ Container Name: null
       Entry Weight: 0.05
       Spawn Limit: 0.05
       Multi Spawn Chance: 1.0-0.8-0.6
-   Entry Name: 
-      Main BP: Ursus_Character_BP_ABB_C
-      Entry Weight: 1.0
-      Spawn Limit: 0.025
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: Ursus_Character_BP_Oreo_C
-      Entry Weight: 0.015
-      Spawn Limit: 0.015
-      Multi Spawn Chance: 
-Container Name: null
-   Entry Name: 
-      Main BP: GFMockatoo_Character_BP_C
-      Entry Weight: 0.05
-      Spawn Limit: 0.05
-      Multi Spawn Chance: 1.0-0.8-0.6
-   Entry Name: 
-      Main BP: Ursus_Character_BP_ABB_C
-      Entry Weight: 1.0
-      Spawn Limit: 0.025
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: Ursus_Character_BP_Oreo_C
-      Entry Weight: 0.015
-      Spawn Limit: 0.015
-      Multi Spawn Chance: 
-Container Name: null
-   Entry Name: 
-      Main BP: GFMockatoo_Character_BP_C
-      Entry Weight: 0.05
-      Spawn Limit: 0.05
-      Multi Spawn Chance: 1.0-0.8-0.6
-   Entry Name: 
-      Main BP: Ursus_Character_BP_ABB_C
-      Entry Weight: 1.0
-      Spawn Limit: 0.025
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: Ursus_Character_BP_Oreo_C
-      Entry Weight: 0.015
-      Spawn Limit: 0.015
-      Multi Spawn Chance: 
-Container Name: null
-   Entry Name: 
-      Main BP: GFMockatoo_Character_BP_C
-      Entry Weight: 0.05
-      Spawn Limit: 0.05
-      Multi Spawn Chance: 1.0-0.8-0.6
-   Entry Name: 
-      Main BP: Ursus_Character_BP_ABB_C
-      Entry Weight: 1.0
-      Spawn Limit: 0.025
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: Ursus_Character_BP_Oreo_C
-      Entry Weight: 0.015
-      Spawn Limit: 0.015
-      Multi Spawn Chance: 
-Container Name: null
-   Entry Name: 
-      Main BP: GFMockatoo_Character_BP_C
-      Entry Weight: 0.05
-      Spawn Limit: 0.05
-      Multi Spawn Chance: 1.0-0.8-0.6
-Container Name: null
-   Entry Name: 
-      Main BP: Ursus_Character_BP_ABB_C
-      Entry Weight: 0.05
-      Spawn Limit: 0.05
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: Ursus_Character_BP_Grizzly_C
-      Entry Weight: 0.035
-      Spawn Limit: 0.035
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: Ursus_Character_BP_Oreo_C
-      Entry Weight: 0.01
-      Spawn Limit: 0.01
-      Multi Spawn Chance: 1.0
-Container Name: null
-   Entry Name: 
-      Main BP: Ursus_Character_BP_ABB_C
-      Entry Weight: 0.05
-      Spawn Limit: 0.05
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: Ursus_Character_BP_Grizzly_C
-      Entry Weight: 0.035
-      Spawn Limit: 0.035
-      Multi Spawn Chance: 1.0
-   Entry Name: 
-      Main BP: Ursus_Character_BP_Oreo_C
-      Entry Weight: 0.01
-      Spawn Limit: 0.01
-      Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: 
       Main BP: Ursus_Character_BP_ABB_C
@@ -406,17 +215,6 @@ Container Name: null
       Entry Weight: 0.042
       Spawn Limit: 0.042
       Multi Spawn Chance: 1.0-0.9-0.8-0.7
-Container Name: null
-   Entry Name: 
-      Main BP: Ursus_Character_BP_Grizzly_C
-      Entry Weight: 0.035
-      Spawn Limit: 0.035
-      Multi Spawn Chance: 
-   Entry Name: 
-      Main BP: Ursus_Character_BP_Polar_C
-      Entry Weight: 0.04
-      Spawn Limit: 0.04
-      Multi Spawn Chance: 
 Container Name: null
    Entry Name: 
       Main BP: Ursus_Character_BP_Grizzly_C
@@ -496,27 +294,465 @@ Container Name: null
       Multi Spawn Chance: 
 Container Name: null
    Entry Name: 
+      Main BP: Ursus_Character_BP_Polar_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: 
+      Main BP: Ursus_Character_BP_Polar_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: 
+      Main BP: BoarHog_Character_BP_C
+      Entry Weight: 0.4
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7
+   Entry Name: 
+      Main BP: Ursus_Character_BP_Grizzly_C
+      Entry Weight: 0.4
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: BoarHog_Character_BP_C
+      Entry Weight: 0.4
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7
+   Entry Name: 
+      Main BP: Ursus_Character_BP_Grizzly_C
+      Entry Weight: 0.4
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: BoarHog_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7
+   Entry Name: 
+      Main BP: Ursus_Character_BP_Grizzly_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Ursus_Character_BP_ABB_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: BoarHog_Character_BP_C
+      Entry Weight: 0.4
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7
+   Entry Name: 
+      Main BP: Ursus_Character_BP_Grizzly_C
+      Entry Weight: 0.4
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Ursus_Character_BP_ABB_C
+      Entry Weight: 0.4
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: BoarHog_Character_BP_C
+      Entry Weight: 0.4
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7
+   Entry Name: 
+      Main BP: Ursus_Character_BP_Grizzly_C
+      Entry Weight: 0.4
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Ursus_Character_BP_ABB_C
+      Entry Weight: 0.4
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: BoarHog_Character_BP_C
+      Entry Weight: 0.4
+      Spawn Limit: 0.4
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7
+   Entry Name: 
+      Main BP: Ursus_Character_BP_Grizzly_C
+      Entry Weight: 0.4
+      Spawn Limit: 0.4
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Ursus_Character_BP_Polar_C
+      Entry Weight: 0.3
+      Spawn Limit: 0.4
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: BoarHog_Character_BP_C
+      Entry Weight: 0.4
+      Spawn Limit: 0.4
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7
+   Entry Name: 
+      Main BP: Ursus_Character_BP_Grizzly_C
+      Entry Weight: 0.4
+      Spawn Limit: 0.4
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Ursus_Character_BP_Polar_C
+      Entry Weight: 0.3
+      Spawn Limit: 0.4
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: BoarHog_Character_BP_C
+      Entry Weight: 0.4
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7
+   Entry Name: 
+      Main BP: Ursus_Character_BP_Grizzly_C
+      Entry Weight: 0.4
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Ursus_Character_BP_Polar_C
+      Entry Weight: 0.3
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: BoarHog_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7
+   Entry Name: 
+      Main BP: Ursus_Character_BP_ABB_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: GFCow_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.8-0.6
+   Entry Name: 
+      Main BP: GFChicken_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.8-0.6
+Container Name: null
+   Entry Name: 
+      Main BP: BoarHog_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7
+   Entry Name: 
+      Main BP: Ursus_Character_BP_ABB_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: GFCow_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.8-0.6
+   Entry Name: 
+      Main BP: GFChicken_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.8-0.6
+Container Name: null
+   Entry Name: 
+      Main BP: BoarHog_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7
+   Entry Name: 
+      Main BP: Ursus_Character_BP_ABB_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: GFCow_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.8-0.6
+   Entry Name: 
+      Main BP: GFChicken_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.8-0.6
+Container Name: null
+   Entry Name: 
+      Main BP: BoarHog_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7
+   Entry Name: 
+      Main BP: Ursus_Character_BP_ABB_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: GFCow_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.8-0.6
+   Entry Name: 
+      Main BP: GFChicken_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.8-0.6
+Container Name: null
+   Entry Name: 
+      Main BP: BoarHog_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7
+   Entry Name: 
+      Main BP: Ursus_Character_BP_ABB_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: GFCow_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.8-0.6
+   Entry Name: 
+      Main BP: GFChicken_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.8-0.6
+Container Name: null
+   Entry Name: 
+      Main BP: Ursus_Character_BP_Grizzly_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: Ursus_Character_BP_Grizzly_C
+      Entry Weight: 0.5
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: GFMockatoo_Character_BP_C
+      Entry Weight: 0.3
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0-0.8
+   Entry Name: 
+      Main BP: Ursus_Character_BP_ABB_C
+      Entry Weight: 0.3
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: GFMockatoo_Character_BP_C
+      Entry Weight: 0.3
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0-0.8
+   Entry Name: 
+      Main BP: Ursus_Character_BP_ABB_C
+      Entry Weight: 0.3
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: GFChicken_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7
+   Entry Name: 
+      Main BP: GFCow_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0-0.8-0.6-0.4
+   Entry Name: 
+      Main BP: Ursus_Character_BP_ABB_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: GFChicken_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7
+   Entry Name: 
+      Main BP: GFCow_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0-0.8-0.6-0.4
+   Entry Name: 
+      Main BP: Ursus_Character_BP_ABB_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: GFChicken_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7
+   Entry Name: 
+      Main BP: GFCow_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0-0.8-0.6-0.4
+   Entry Name: 
+      Main BP: BoarHog_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0-0.8-0.6-0.4
+   Entry Name: 
+      Main BP: Ursus_Character_BP_ABB_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: GFChicken_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7
+   Entry Name: 
+      Main BP: GFCow_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0-0.8-0.6-0.4
+   Entry Name: 
+      Main BP: BoarHog_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0-0.8-0.6-0.4
+   Entry Name: 
+      Main BP: Ursus_Character_BP_ABB_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: GFMockatoo_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.8-0.6
+   Entry Name: 
+      Main BP: Ursus_Character_BP_ABB_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Ursus_Character_BP_Oreo_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: 
+      Main BP: GFMockatoo_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.8-0.6
+   Entry Name: 
+      Main BP: Ursus_Character_BP_ABB_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Ursus_Character_BP_Oreo_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: 
+      Main BP: GFMockatoo_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.8-0.6
+   Entry Name: 
+      Main BP: Ursus_Character_BP_ABB_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Ursus_Character_BP_Oreo_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: 
+      Main BP: GFMockatoo_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.8-0.6
+   Entry Name: 
+      Main BP: Ursus_Character_BP_ABB_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Ursus_Character_BP_Oreo_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.015
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: 
+      Main BP: Ursus_Character_BP_ABB_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+   Entry Name: 
       Main BP: Ursus_Character_BP_Grizzly_C
       Entry Weight: 0.035
       Spawn Limit: 0.035
-      Multi Spawn Chance: 
+      Multi Spawn Chance: 1.0
    Entry Name: 
-      Main BP: Ursus_Character_BP_Polar_C
-      Entry Weight: 0.04
-      Spawn Limit: 0.04
-      Multi Spawn Chance: 
+      Main BP: Ursus_Character_BP_Oreo_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: 
-      Main BP: Ursus_Character_BP_Polar_C
-      Entry Weight: 0.04
-      Spawn Limit: 0.04
-      Multi Spawn Chance: 
+      Main BP: Ursus_Character_BP_ABB_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Ursus_Character_BP_Grizzly_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Ursus_Character_BP_Oreo_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
 Container Name: null
+   Entry Name: 
+      Main BP: Ursus_Character_BP_Grizzly_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0
    Entry Name: 
       Main BP: Ursus_Character_BP_Polar_C
       Entry Weight: 0.04
       Spawn Limit: 0.04
-      Multi Spawn Chance: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: 
+      Main BP: Ursus_Character_BP_Grizzly_C
+      Entry Weight: 0.035
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 1.0
+   Entry Name: 
+      Main BP: Ursus_Character_BP_Polar_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0
 
 MultiParams Summary: 
    Main BP: BoarHog_Character_BP_C
@@ -541,18 +777,54 @@ MultiParams Summary:
       Entry Weight:                   0.04
       Spawn Limit:                             0.04
       Multi Spawn Chance:                               1.0-0.8-0.6-0.4
-      Entry Weight:                   0.04
-      Spawn Limit:                             0.04
-      Multi Spawn Chance:                               1.0-0.8-0.6-0.4
-      Entry Weight:                   0.04
-      Spawn Limit:                             0.04
-      Multi Spawn Chance:                               1.0-0.8-0.6-0.4
-      Entry Weight:                   0.04
-      Spawn Limit:                             0.04
-      Multi Spawn Chance:                               1.0-0.8-0.6-0.4
       Entry Weight:                   0.042
       Spawn Limit:                             0.042
       Multi Spawn Chance:                               1.0-0.9-0.8-0.7
+      Entry Weight:                   0.4
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7
+      Entry Weight:                   0.4
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7
+      Entry Weight:                   0.4
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7
+      Entry Weight:                   0.4
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7
+      Entry Weight:                   0.4
+      Spawn Limit:                             0.4
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7
+      Entry Weight:                   0.4
+      Spawn Limit:                             0.4
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7
+      Entry Weight:                   0.4
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0-0.8-0.6-0.4
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0-0.8-0.6-0.4
 
    Main BP: GFChicken_Character_BP_C
       Entry Weight:                   0.08
@@ -576,21 +848,33 @@ MultiParams Summary:
       Entry Weight:                   0.08
       Spawn Limit:                             0.08
       Multi Spawn Chance:                               1.0-0.8-0.6-0.4
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.8-0.6
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.8-0.6
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.8-0.6
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.8-0.6
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.8-0.6
       Entry Weight:                   0.08
       Spawn Limit:                             0.08
-      Multi Spawn Chance:                               1.0-0.8-0.6-0.4
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7
       Entry Weight:                   0.08
       Spawn Limit:                             0.08
-      Multi Spawn Chance:                               1.0-0.8-0.6-0.4
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7
       Entry Weight:                   0.08
       Spawn Limit:                             0.08
-      Multi Spawn Chance:                               1.0-0.8-0.6-0.4
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7
       Entry Weight:                   0.08
       Spawn Limit:                             0.08
-      Multi Spawn Chance:                               1.0-0.8-0.6-0.4
-      Entry Weight:                   0.08
-      Spawn Limit:                             0.08
-      Multi Spawn Chance:                               1.0-0.8-0.6-0.4
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7
 
    Main BP: GFCow_Character_BP_C
       Entry Weight:                   0.08
@@ -614,9 +898,21 @@ MultiParams Summary:
       Entry Weight:                   0.08
       Spawn Limit:                             0.06
       Multi Spawn Chance:                               1.0-0.8-0.6-0.4
-      Entry Weight:                   0.08
-      Spawn Limit:                             0.06
-      Multi Spawn Chance:                               1.0-0.8-0.6-0.4
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.8-0.6
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.8-0.6
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.8-0.6
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.8-0.6
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.8-0.6
       Entry Weight:                   0.08
       Spawn Limit:                             0.06
       Multi Spawn Chance:                               1.0-0.8-0.6-0.4
@@ -642,19 +938,25 @@ MultiParams Summary:
       Multi Spawn Chance:                               1.0-0.8-0.6
       Entry Weight:                   0.05
       Spawn Limit:                             0.05
-      Multi Spawn Chance:                               1.0-0.8-0.6
-      Entry Weight:                   0.05
-      Spawn Limit:                             0.05
-      Multi Spawn Chance:                               1.0-0.8-0.6
-      Entry Weight:                   0.05
-      Spawn Limit:                             0.05
-      Multi Spawn Chance:                               1.0-0.8-0.6
-      Entry Weight:                   0.05
-      Spawn Limit:                             0.05
-      Multi Spawn Chance:                               1.0-0.8-0.6
-      Entry Weight:                   0.05
-      Spawn Limit:                             0.05
       Multi Spawn Chance:                               1.0-0.75-0.5
+      Entry Weight:                   0.3
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               1.0-0.8
+      Entry Weight:                   0.3
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               1.0-0.8
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.8-0.6
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.8-0.6
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.8-0.6
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.8-0.6
 
    Main BP: Ursus_Character_BP_ABB_C
       Entry Weight:                   0.025
@@ -669,38 +971,65 @@ MultiParams Summary:
       Entry Weight:                   0.025
       Spawn Limit:                             0.025
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.025
-      Spawn Limit:                             0.025
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.025
-      Spawn Limit:                             0.025
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.025
-      Spawn Limit:                             0.025
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.1
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.025
-      Spawn Limit:                             0.025
+      Entry Weight:                   0.4
+      Spawn Limit:                             0.1
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.025
-      Spawn Limit:                             0.025
-      Multi Spawn Chance:                               1.0
-      Entry Weight:                   1.0
-      Spawn Limit:                             0.025
-      Multi Spawn Chance:                               1.0
-      Entry Weight:                   1.0
-      Spawn Limit:                             0.025
-      Multi Spawn Chance:                               1.0
-      Entry Weight:                   1.0
-      Spawn Limit:                             0.025
-      Multi Spawn Chance:                               1.0
-      Entry Weight:                   1.0
-      Spawn Limit:                             0.025
+      Entry Weight:                   0.4
+      Spawn Limit:                             0.1
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.05
       Spawn Limit:                             0.05
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.05
       Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.3
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.3
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.025
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.05
       Spawn Limit:                             0.05
@@ -718,57 +1047,87 @@ MultiParams Summary:
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.035
       Spawn Limit:                             0.035
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.035
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.4
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.4
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.4
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.4
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.4
+      Spawn Limit:                             0.4
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.4
+      Spawn Limit:                             0.4
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.4
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.5
+      Spawn Limit:                             0.1
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.035
       Spawn Limit:                             0.035
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.035
       Spawn Limit:                             0.035
-      Multi Spawn Chance:                               
+      Multi Spawn Chance:                               1.0
       Entry Weight:                   0.035
       Spawn Limit:                             0.035
-      Multi Spawn Chance:                               
+      Multi Spawn Chance:                               1.0
       Entry Weight:                   0.035
       Spawn Limit:                             0.035
-      Multi Spawn Chance:                               
-      Entry Weight:                   0.035
-      Spawn Limit:                             0.035
-      Multi Spawn Chance:                               
-      Entry Weight:                   0.035
-      Spawn Limit:                             0.035
-      Multi Spawn Chance:                               
-      Entry Weight:                   0.035
-      Spawn Limit:                             0.035
-      Multi Spawn Chance:                               
-      Entry Weight:                   0.035
-      Spawn Limit:                             0.035
-      Multi Spawn Chance:                               
-      Entry Weight:                   0.035
-      Spawn Limit:                             0.035
-      Multi Spawn Chance:                               
-      Entry Weight:                   0.035
-      Spawn Limit:                             0.035
-      Multi Spawn Chance:                               
+      Multi Spawn Chance:                               1.0
 
    Main BP: Ursus_Character_BP_Oreo_C
-      Entry Weight:                   0.015
-      Spawn Limit:                             0.015
-      Multi Spawn Chance:                               
-      Entry Weight:                   0.015
-      Spawn Limit:                             0.015
-      Multi Spawn Chance:                               
-      Entry Weight:                   0.015
-      Spawn Limit:                             0.015
-      Multi Spawn Chance:                               
-      Entry Weight:                   0.015
-      Spawn Limit:                             0.015
-      Multi Spawn Chance:                               
       Entry Weight:                   0.01
       Spawn Limit:                             0.01
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.01
       Spawn Limit:                             0.01
       Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.015
+      Multi Spawn Chance:                               1.0-0.5
       Entry Weight:                   0.01
       Spawn Limit:                             0.01
       Multi Spawn Chance:                               1.0
@@ -777,9 +1136,6 @@ MultiParams Summary:
       Multi Spawn Chance:                               1.0
 
    Main BP: Ursus_Character_BP_Polar_C
-      Entry Weight:                   0.04
-      Spawn Limit:                             0.04
-      Multi Spawn Chance:                               
       Entry Weight:                   0.035
       Spawn Limit:                             0.03
       Multi Spawn Chance:                               
@@ -807,7 +1163,19 @@ MultiParams Summary:
       Entry Weight:                   0.04
       Spawn Limit:                             0.04
       Multi Spawn Chance:                               
+      Entry Weight:                   0.3
+      Spawn Limit:                             0.4
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.3
+      Spawn Limit:                             0.4
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.3
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
       Entry Weight:                   0.04
       Spawn Limit:                             0.04
-      Multi Spawn Chance:                               
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0
 
