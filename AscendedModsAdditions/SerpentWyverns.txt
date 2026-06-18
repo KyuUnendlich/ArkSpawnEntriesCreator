@@ -1,0 +1,348 @@
+All Entry Names: 
+   NULL  x 40
+
+Engram Entries: 
+   EngramEntry_IncubatorSW_C
+   EngramEntry_NestDecor_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: 
+      Main BP: Wyvern_Character_BP_Fire_Medieval_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.25
+   Entry Name: 
+      Main BP: Wyvern_Character_BP_Ice_Medieval_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.2
+   Entry Name: 
+      Main BP: Wyvern_Character_BP_Lightning_Medieval_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.3
+   Entry Name: 
+      Main BP: Wyvern_Character_BP_Poison_Medieval_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.15
+   Entry Name: 
+      Main BP: SerpentWyvern_Dodo_C
+      Entry Weight: 0.8
+      Spawn Limit: 
+      Multi Spawn Chance: 0.05
+Container Name: null
+   Entry Name: 
+      Main BP: Wyvern_Character_BP_Fire_Medieval_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.25
+   Entry Name: 
+      Main BP: Wyvern_Character_BP_Ice_Medieval_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.2
+   Entry Name: 
+      Main BP: Wyvern_Character_BP_Lightning_Medieval_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.3
+   Entry Name: 
+      Main BP: Wyvern_Character_BP_Poison_Medieval_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.15
+   Entry Name: 
+      Main BP: SerpentWyvern_Dodo_C
+      Entry Weight: 0.8
+      Spawn Limit: 
+      Multi Spawn Chance: 0.05
+Container Name: null
+   Entry Name: 
+      Main BP: Wyvern_Character_BP_Fire_Medieval_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.25
+   Entry Name: 
+      Main BP: Wyvern_Character_BP_Ice_Medieval_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.2
+   Entry Name: 
+      Main BP: Wyvern_Character_BP_Lightning_Medieval_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.3
+   Entry Name: 
+      Main BP: Wyvern_Character_BP_Poison_Medieval_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.15
+   Entry Name: 
+      Main BP: SerpentWyvern_Dodo_C
+      Entry Weight: 0.8
+      Spawn Limit: 
+      Multi Spawn Chance: 0.05
+Container Name: null
+   Entry Name: 
+      Main BP: Wyvern_Character_BP_Fire_Medieval_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.25
+   Entry Name: 
+      Main BP: Wyvern_Character_BP_Ice_Medieval_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.2
+   Entry Name: 
+      Main BP: Wyvern_Character_BP_Lightning_Medieval_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.3
+   Entry Name: 
+      Main BP: Wyvern_Character_BP_Poison_Medieval_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.15
+   Entry Name: 
+      Main BP: SerpentWyvern_Dodo_C
+      Entry Weight: 0.8
+      Spawn Limit: 
+      Multi Spawn Chance: 0.05
+Container Name: null
+   Entry Name: 
+      Main BP: Wyvern_Character_BP_Fire_Medieval_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.25
+   Entry Name: 
+      Main BP: Wyvern_Character_BP_Ice_Medieval_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.2
+   Entry Name: 
+      Main BP: Wyvern_Character_BP_Lightning_Medieval_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.3
+   Entry Name: 
+      Main BP: Wyvern_Character_BP_Poison_Medieval_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.15
+   Entry Name: 
+      Main BP: SerpentWyvern_Dodo_C
+      Entry Weight: 0.8
+      Spawn Limit: 
+      Multi Spawn Chance: 0.05
+Container Name: null
+   Entry Name: 
+      Main BP: Wyvern_Character_BP_Fire_Medieval_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.25
+   Entry Name: 
+      Main BP: Wyvern_Character_BP_Ice_Medieval_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.2
+   Entry Name: 
+      Main BP: Wyvern_Character_BP_Lightning_Medieval_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.3
+   Entry Name: 
+      Main BP: Wyvern_Character_BP_Poison_Medieval_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.15
+   Entry Name: 
+      Main BP: SerpentWyvern_Dodo_C
+      Entry Weight: 0.8
+      Spawn Limit: 
+      Multi Spawn Chance: 0.05
+Container Name: null
+   Entry Name: 
+      Main BP: Wyvern_Character_BP_Fire_Medieval_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.25
+   Entry Name: 
+      Main BP: Wyvern_Character_BP_Ice_Medieval_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.2
+   Entry Name: 
+      Main BP: Wyvern_Character_BP_Lightning_Medieval_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.3
+   Entry Name: 
+      Main BP: Wyvern_Character_BP_Poison_Medieval_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.15
+   Entry Name: 
+      Main BP: SerpentWyvern_Dodo_C
+      Entry Weight: 0.8
+      Spawn Limit: 
+      Multi Spawn Chance: 0.05
+Container Name: null
+   Entry Name: 
+      Main BP: Wyvern_Character_BP_Fire_Medieval_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.25
+   Entry Name: 
+      Main BP: Wyvern_Character_BP_Ice_Medieval_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.2
+   Entry Name: 
+      Main BP: Wyvern_Character_BP_Lightning_Medieval_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.3
+   Entry Name: 
+      Main BP: Wyvern_Character_BP_Poison_Medieval_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.15
+   Entry Name: 
+      Main BP: SerpentWyvern_Dodo_C
+      Entry Weight: 0.8
+      Spawn Limit: 
+      Multi Spawn Chance: 0.05
+
+MultiParams Summary: 
+   Main BP: SerpentWyvern_Dodo_C
+      Entry Weight:                   0.8
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.05
+      Entry Weight:                   0.8
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.05
+      Entry Weight:                   0.8
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.05
+      Entry Weight:                   0.8
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.05
+      Entry Weight:                   0.8
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.05
+      Entry Weight:                   0.8
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.05
+      Entry Weight:                   0.8
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.05
+      Entry Weight:                   0.8
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.05
+
+   Main BP: Wyvern_Character_BP_Fire_Medieval_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.25
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.25
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.25
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.25
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.25
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.25
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.25
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.25
+
+   Main BP: Wyvern_Character_BP_Ice_Medieval_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.2
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.2
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.2
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.2
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.2
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.2
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.2
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.2
+
+   Main BP: Wyvern_Character_BP_Lightning_Medieval_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.3
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.3
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.3
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.3
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.3
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.3
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.3
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.3
+
+   Main BP: Wyvern_Character_BP_Poison_Medieval_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.15
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.15
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.15
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.15
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.15
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.15
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.15
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.15
+

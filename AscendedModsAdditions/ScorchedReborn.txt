@@ -8,7 +8,7 @@ All Entry Names:
    SE Sarco (1)  x 2
    SE Titano  x 2
    SE Turtle (1)  x 1
-   SE Turtle (1-2)  x 1
+   SE Turtle (1-2)  x 2
    Stegotetra (1-3)  x 1
    Stegotetrabelodon (1-4)  x 2
 
@@ -77,6 +77,11 @@ Container Name: null
       Entry Weight: 0.045
       Spawn Limit: 0.05
       Multi Spawn Chance: 1.0-0.45
+   Entry Name: SE Turtle (1-2)
+      Main BP: Turtle_Character_BP_SEReborn_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.45
 Container Name: null
    Entry Name: SE Sarco (1)
       Main BP: DeinosuchusASA_Character_BP_SEReborn_Sarco_C
@@ -91,7 +96,7 @@ Container Name: null
    Entry Name: SE Turtle (1)
       Main BP: Turtle_Character_BP_SEReborn_C
       Entry Weight: 0.1
-      Spawn Limit: 0.1
+      Spawn Limit: 
       Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: Stegotetra (1-3)
@@ -187,8 +192,11 @@ MultiParams Summary:
       Entry Weight:                   0.055
       Spawn Limit:                             0.1
       Multi Spawn Chance:                               1.0-0.75
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.45
       Entry Weight:                   0.1
-      Spawn Limit:                             0.1
+      Spawn Limit:                             
       Multi Spawn Chance:                               1.0
 
    Main BP: ValMegaraptor_Character_BP_SEReborn_C

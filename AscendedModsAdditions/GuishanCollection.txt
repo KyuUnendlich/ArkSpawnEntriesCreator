@@ -1,9 +1,13 @@
 All Entry Names: 
    Arambourgiania  x 3
+   Archelon  x 5
    Arganodus  x 4
    Deinocherius  x 5
+   GSC_Ichthyostega  x 6
+   Ichthyostega  x 1
    Ino  x 6
    Inostrancevia  x 1
+   Mawsonia  x 4
    Prenocephale  x 7
    Probactro  x 7
    Probactrosaurus  x 1
@@ -23,6 +27,9 @@ Engram Entries:
    EngramEntry_AnchorStone_C
    EngramEntry_Saddle_Arganodus_GSC_C
    EngramEntry_Saddle_Inostrancevia_GSC_C
+   EngramEntry_Saddle_Ichthyostega_GSC_C
+   EngramEntry_Saddle_Archelon_GSC_C
+   EngramEntry_Saddle_Mawsonia_GSC_C
 
 Dino Entries: 
    Tarbosaurus_GSC_C
@@ -33,6 +40,9 @@ Dino Entries:
    Deinocheirus_GSC_C
    Arganodus_GSC_C
    Inostrancevia_GSC_C
+   Ichthyostega_GSC_C
+   Archelon_GSC_C
+   Mawsonia_GSC_C
 
 Dino Additions: 
 Container Name: null
@@ -104,7 +114,7 @@ Container Name: null
       Multi Spawn Chance: 1.0-1.0-0.5-0.25
    Entry Name: Ino
       Main BP: Inostrancevia_Character_BP_GSC_C
-      Entry Weight: 0.025
+      Entry Weight: 0.05
       Spawn Limit: 0.05
       Multi Spawn Chance: 1.0
 Container Name: null
@@ -180,25 +190,40 @@ Container Name: null
       Multi Spawn Chance: 1.0
    Entry Name: Arganodus
       Main BP: Arganodus_Character_BP_GSC_C
-      Entry Weight: 0.02
+      Entry Weight: 0.03
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+   Entry Name: Ichthyostega
+      Main BP: Ichthyostega_Character_BP_GSC_C
+      Entry Weight: 0.05
       Spawn Limit: 0.05
       Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: Deinocherius
       Main BP: Deinocheirus_Character_BP_GSC_C
-      Entry Weight: 0.006
+      Entry Weight: 0.005
       Spawn Limit: 0.02
       Multi Spawn Chance: 1.0
    Entry Name: Arganodus
       Main BP: Arganodus_Character_BP_GSC_C
-      Entry Weight: 0.02
-      Spawn Limit: 0.04
+      Entry Weight: 0.04
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+   Entry Name: GSC_Ichthyostega
+      Main BP: Ichthyostega_Character_BP_GSC_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
       Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: Deinocherius
       Main BP: Deinocheirus_Character_BP_GSC_C
       Entry Weight: 0.01
       Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+   Entry Name: GSC_Ichthyostega
+      Main BP: Ichthyostega_Character_BP_GSC_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
       Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: Deinocherius
@@ -209,13 +234,23 @@ Container Name: null
 Container Name: null
    Entry Name: Probactro
       Main BP: Probactrosaurus_Character_BP_GSC_C
-      Entry Weight: 0.03
+      Entry Weight: 0.05
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+   Entry Name: Archelon
+      Main BP: Archelon_Character_BP_GSC_C
+      Entry Weight: 0.025
       Spawn Limit: 0.05
       Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: Probactro
       Main BP: Probactrosaurus_Character_BP_GSC_C
-      Entry Weight: 0.025
+      Entry Weight: 0.04
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+   Entry Name: Archelon
+      Main BP: Archelon_Character_BP_GSC_C
+      Entry Weight: 0.03
       Spawn Limit: 0.05
       Multi Spawn Chance: 1.0
 Container Name: null
@@ -262,16 +297,36 @@ Container Name: null
 Container Name: null
    Entry Name: Arganodus
       Main BP: Arganodus_Character_BP_GSC_C
-      Entry Weight: 0.03
+      Entry Weight: 0.04
       Spawn Limit: 0.05
       Multi Spawn Chance: 1.0
+   Entry Name: Mawsonia
+      Main BP: Mawsonia_Character_BP_GSC_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.66-0.33
 Container Name: null
    Entry Name: Arganodus
       Main BP: Arganodus_Character_BP_GSC_C
-      Entry Weight: 0.03
+      Entry Weight: 0.05
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+   Entry Name: Archelon
+      Main BP: Archelon_Character_BP_GSC_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+   Entry Name: Mawsonia
+      Main BP: Mawsonia_Character_BP_GSC_C
+      Entry Weight: 0.1
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.75-0.5-0.25
+Container Name: null
+   Entry Name: GSC_Ichthyostega
+      Main BP: Ichthyostega_Character_BP_GSC_C
+      Entry Weight: 0.02
       Spawn Limit: 0.05
       Multi Spawn Chance: 1.0
-Container Name: null
 Container Name: null
    Entry Name: Ino
       Main BP: Inostrancevia_Character_BP_GSC_C
@@ -282,17 +337,56 @@ Container Name: null
    Entry Name: Ino
       Main BP: Inostrancevia_Character_BP_GSC_C
       Entry Weight: 0.25
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: GSC_Ichthyostega
+      Main BP: Ichthyostega_Character_BP_GSC_C
+      Entry Weight: 0.03
       Spawn Limit: 0.05
       Multi Spawn Chance: 1.0
 Container Name: null
+   Entry Name: GSC_Ichthyostega
+      Main BP: Ichthyostega_Character_BP_GSC_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: GSC_Ichthyostega
+      Main BP: Ichthyostega_Character_BP_GSC_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Archelon
+      Main BP: Archelon_Character_BP_GSC_C
+      Entry Weight: 0.125
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+   Entry Name: Mawsonia
+      Main BP: Mawsonia_Character_BP_GSC_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.5-0.25-1.0
+Container Name: null
+   Entry Name: Archelon
+      Main BP: Archelon_Character_BP_GSC_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+   Entry Name: Mawsonia
+      Main BP: Mawsonia_Character_BP_GSC_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.66-0.33
 Container Name: null
 Container Name: null
 Container Name: null
-Container Name: null
-Container Name: null
-Container Name: null
-Container Name: null
-Container Name: null
+
+Global Entry Weights: 
+   Main BP: Ichthyostega_Character_BP_GSC_C
+      SubBP: Ichthyostega_Character_BP_GSC_C 0.97
+      SubBP: Ichthyostega_Character_BP_GSC_Alpha_C 0.03
 
 MultiParams Summary: 
    Main BP:                   "AssetPathName": "
@@ -320,25 +414,42 @@ MultiParams Summary:
       Spawn Limit:                             
       Multi Spawn Chance:                               1.0
 
+   Main BP: Archelon_Character_BP_GSC_C
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.125
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+
    Main BP: Arganodus_Character_BP_GSC_C
-      Entry Weight:                   0.02
-      Spawn Limit:                             0.05
-      Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.02
-      Spawn Limit:                             0.04
-      Multi Spawn Chance:                               1.0
       Entry Weight:                   0.03
       Spawn Limit:                             0.05
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.03
+      Entry Weight:                   0.04
       Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.1
       Multi Spawn Chance:                               1.0
 
    Main BP: Deinocheirus_Character_BP_GSC_C
       Entry Weight:                   0.006
       Spawn Limit:                             0.02
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.006
+      Entry Weight:                   0.005
       Spawn Limit:                             0.02
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.01
@@ -351,6 +462,29 @@ MultiParams Summary:
       Spawn Limit:                             0.01
       Multi Spawn Chance:                               1.0
 
+   Main BP: Ichthyostega_Character_BP_GSC_C
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+
    Main BP: Inostrancevia_Character_BP_GSC_C
       Entry Weight:                   0.03
       Spawn Limit:                             0.05
@@ -358,7 +492,7 @@ MultiParams Summary:
       Entry Weight:                   0.04
       Spawn Limit:                             0.05
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.025
+      Entry Weight:                   0.05
       Spawn Limit:                             0.05
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.03
@@ -371,8 +505,22 @@ MultiParams Summary:
       Spawn Limit:                             0.05
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.25
-      Spawn Limit:                             0.05
+      Spawn Limit:                             0.1
       Multi Spawn Chance:                               1.0
+
+   Main BP: Mawsonia_Character_BP_GSC_C
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.66-0.33
+      Entry Weight:                   0.1
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.75-0.5-0.25
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.5-0.25-1.0
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.66-0.33
 
    Main BP: Prenocephale_Character_BP_GSC_C
       Entry Weight:                   0.035
@@ -401,10 +549,10 @@ MultiParams Summary:
       Entry Weight:                   0.03
       Spawn Limit:                             0.05
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.03
-      Spawn Limit:                             0.05
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.1
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.025
+      Entry Weight:                   0.04
       Spawn Limit:                             0.05
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.02

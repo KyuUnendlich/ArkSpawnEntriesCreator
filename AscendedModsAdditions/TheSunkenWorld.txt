@@ -1,19 +1,20 @@
 All Entry Names: 
-   Acrophyseter  x 5
-   Ambulocetus (1-4)  x 2
-   Anom Spawn  x 10
+   Acrophyseter  x 7
+   Ambulocetus (1-4)  x 1
+   Anom Spawn  x 12
    Bothri (1-3)  x 1
-   Bothri One To Three  x 6
-   Eddy Spawn  x 2
+   Bothri One To Three  x 8
+   Eddy Spawn  x 3
    Henodus  x 5
-   Lepi One To Four  x 6
+   Lepi One To Four  x 8
    Materpiscis  x 7
    Proto (1-3)  x 7
-   Sauric Spawn  x 7
-   Sphyrna  x 5
+   Sauric Spawn  x 9
+   Sphyrna  x 7
    Steth  x 3
-   Steth Spawn  x 7
-   Urchin  x 5
+   Steth Spawn  x 9
+   Sunfish and Friends  x 4
+   Urchin  x 6
 
 Engram Entries: 
    EngramEntry_AmbulocetusSaddle_C
@@ -51,6 +52,7 @@ Dino Entries:
    inoEntry_C
    eaurchin_C
    Steth_C
+   Sunfish_C
 
 Dino Additions: 
 Container Name: null
@@ -129,18 +131,38 @@ Container Name: null
    Entry Name: Anom Spawn
       Main BP: AnomaTSW_Character_BP_C
       Entry Weight: 0.12
-      Spawn Limit: 0.025
-      Multi Spawn Chance: 1.0-0.5-0.5
-   Entry Name: Steth Spawn
-      Main BP: StethTSW_Character_BP_C
-      Entry Weight: 0.12
-      Spawn Limit: 0.025
-      Multi Spawn Chance: 1.0-1.0-0.66-0.66-0.66
+      Spawn Limit: 0.035
+      Multi Spawn Chance: 0.5-0.5-0.5
    Entry Name: Sauric Spawn
       Main BP: SauricTSW_Character_BP_C
-      Entry Weight: 0.12
+      Entry Weight: 0.15
+      Spawn Limit: 0.055
+      Multi Spawn Chance: 0.5-0.5-0.5
+   Entry Name: Acrophyseter
+      Main BP: AcrophyseterTSW_Character_BP_C
+      Entry Weight: 0.05
       Spawn Limit: 0.025
-      Multi Spawn Chance: 1.0-0.5-0.5
+      Multi Spawn Chance: 1.0-0.95-0.8-0.4-0.2-0.15
+   Entry Name: Steth Spawn
+      Main BP: StethTSW_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 1.0-1.0-0.66-0.66-0.66
+   Entry Name: Sphyrna
+      Main BP: SphyrnaTSW_Character_BP_C
+      Entry Weight: 0.3
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.5
+   Entry Name: Bothri One To Three
+      Main BP: BothriTSW_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0
+   Entry Name: Lepi One To Four
+      Main BP: LepiTSW_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.12
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0
    Entry Name: Eddy Spawn
       Main BP: EdestusTSW_Character_BP_C
       Entry Weight: 0.46
@@ -171,45 +193,23 @@ Container Name: null
    Entry Name: Anom Spawn
       Main BP: AnomaTSW_Character_BP_C
       Entry Weight: 0.12
-      Spawn Limit: 0.05
-      Multi Spawn Chance: 1.0-1.0-1.0
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0-0.5-0.5
    Entry Name: Steth Spawn
       Main BP: StethTSW_Character_BP_C
-      Entry Weight: 0.3
-      Spawn Limit: 0.15
+      Entry Weight: 0.12
+      Spawn Limit: 0.025
       Multi Spawn Chance: 1.0-1.0-0.66-0.66-0.66
-   Entry Name: Sphyrna
-      Main BP: SphyrnaTSW_Character_BP_C
-      Entry Weight: 0.5
-      Spawn Limit: 0.12
-      Multi Spawn Chance: 1.0-0.5
-   Entry Name: Acrophyseter
-      Main BP: AcrophyseterTSW_Character_BP_C
-      Entry Weight: 0.05
-      Spawn Limit: 0.1
-      Multi Spawn Chance: 1.0-0.95-0.8-0.4-0.2-0.15
-   Entry Name: Lepi One To Four
-      Main BP: LepiTSW_Character_BP_C
-      Entry Weight: 0.45
-      Spawn Limit: 0.1
-      Multi Spawn Chance: 1.0-1.0-1.0-1.0
-   Entry Name: Bothri One To Three
-      Main BP: BothriTSW_Character_BP_C
-      Entry Weight: 0.25
-      Spawn Limit: 0.05
-      Multi Spawn Chance: 1.0-1.0-1.0-1.0
    Entry Name: Sauric Spawn
       Main BP: SauricTSW_Character_BP_C
-      Entry Weight: 0.18
+      Entry Weight: 0.12
       Spawn Limit: 0.025
-      Multi Spawn Chance: 0.5-0.5-0.5
-   Entry Name: Urchin
-      Main BP: UrchinTSW_Character_BP_C
-      Entry Weight: 0.5
-      Spawn Limit: 
-      Multi Spawn Chance: 1.0-0.9-0.2
-         SubBP: UrchinTSW_Character_BP_C 1.0
-         SubBP: MegaUrchinTSW_Character_BP_C 0.015
+      Multi Spawn Chance: 1.0-0.5-0.5
+   Entry Name: Eddy Spawn
+      Main BP: EdestusTSW_Character_BP_C
+      Entry Weight: 0.46
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: Anom Spawn
       Main BP: AnomaTSW_Character_BP_C
@@ -253,6 +253,59 @@ Container Name: null
       Multi Spawn Chance: 1.0-0.9-0.2
          SubBP: UrchinTSW_Character_BP_C 1.0
          SubBP: MegaUrchinTSW_Character_BP_C 0.015
+   Entry Name: Sunfish and Friends
+      Main BP: SunfishTSW_Character_BP_C
+      Entry Weight: 0.5
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.1-0.01-0.6-0.35
+Container Name: null
+   Entry Name: Anom Spawn
+      Main BP: AnomaTSW_Character_BP_C
+      Entry Weight: 0.12
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-1.0
+   Entry Name: Steth Spawn
+      Main BP: StethTSW_Character_BP_C
+      Entry Weight: 0.3
+      Spawn Limit: 0.15
+      Multi Spawn Chance: 1.0-1.0-0.66-0.66-0.66
+   Entry Name: Sphyrna
+      Main BP: SphyrnaTSW_Character_BP_C
+      Entry Weight: 0.5
+      Spawn Limit: 0.12
+      Multi Spawn Chance: 1.0-0.5
+   Entry Name: Acrophyseter
+      Main BP: AcrophyseterTSW_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.95-0.8-0.4-0.2-0.15
+   Entry Name: Lepi One To Four
+      Main BP: LepiTSW_Character_BP_C
+      Entry Weight: 0.45
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0
+   Entry Name: Bothri One To Three
+      Main BP: BothriTSW_Character_BP_C
+      Entry Weight: 0.25
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0
+   Entry Name: Sauric Spawn
+      Main BP: SauricTSW_Character_BP_C
+      Entry Weight: 0.18
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 0.5-0.5-0.5
+   Entry Name: Urchin
+      Main BP: UrchinTSW_Character_BP_C
+      Entry Weight: 0.5
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.2
+         SubBP: UrchinTSW_Character_BP_C 1.0
+         SubBP: MegaUrchinTSW_Character_BP_C 0.015
+   Entry Name: Sunfish and Friends
+      Main BP: SunfishTSW_Character_BP_C
+      Entry Weight: 0.5
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.1-0.01-0.6-0.35
 Container Name: null
    Entry Name: Anom Spawn
       Main BP: AnomaTSW_Character_BP_C
@@ -296,6 +349,59 @@ Container Name: null
       Multi Spawn Chance: 1.0-0.9-0.2
          SubBP: UrchinTSW_Character_BP_C 1.0
          SubBP: MegaUrchinTSW_Character_BP_C 0.015
+   Entry Name: Sunfish and Friends
+      Main BP: SunfishTSW_Character_BP_C
+      Entry Weight: 0.5
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.1-0.01-0.6-0.35
+Container Name: null
+   Entry Name: Anom Spawn
+      Main BP: AnomaTSW_Character_BP_C
+      Entry Weight: 0.12
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-1.0
+   Entry Name: Steth Spawn
+      Main BP: StethTSW_Character_BP_C
+      Entry Weight: 0.3
+      Spawn Limit: 0.15
+      Multi Spawn Chance: 1.0-1.0-0.66-0.66-0.66
+   Entry Name: Sphyrna
+      Main BP: SphyrnaTSW_Character_BP_C
+      Entry Weight: 0.5
+      Spawn Limit: 0.12
+      Multi Spawn Chance: 1.0-0.5
+   Entry Name: Acrophyseter
+      Main BP: AcrophyseterTSW_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.15
+      Multi Spawn Chance: 1.0-0.95-0.8-0.4-0.2-0.15
+   Entry Name: Lepi One To Four
+      Main BP: LepiTSW_Character_BP_C
+      Entry Weight: 0.45
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0
+   Entry Name: Bothri One To Three
+      Main BP: BothriTSW_Character_BP_C
+      Entry Weight: 0.25
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0
+   Entry Name: Sauric Spawn
+      Main BP: SauricTSW_Character_BP_C
+      Entry Weight: 0.18
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 0.5-0.5-0.5
+   Entry Name: Urchin
+      Main BP: UrchinTSW_Character_BP_C
+      Entry Weight: 0.5
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.2
+         SubBP: UrchinTSW_Character_BP_C 1.0
+         SubBP: MegaUrchinTSW_Character_BP_C 0.015
+   Entry Name: Sunfish and Friends
+      Main BP: SunfishTSW_Character_BP_C
+      Entry Weight: 0.5
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.1-0.01-0.6-0.35
 Container Name: null
    Entry Name: Anom Spawn
       Main BP: AnomaTSW_Character_BP_C
@@ -428,12 +534,6 @@ Container Name: null
       Spawn Limit: 0.25
       Multi Spawn Chance: 1.0-0.8-0.4-0.4
 Container Name: null
-   Entry Name: Ambulocetus (1-4)
-      Main BP: AmbulocetusTSW_Character_BP_C
-      Entry Weight: 0.4
-      Spawn Limit: 0.25
-      Multi Spawn Chance: 1.0-0.8-0.4-0.4
-Container Name: null
    Entry Name: Proto (1-3)
       Main BP: ProtoTSW_Character_BP_C
       Entry Weight: 0.1
@@ -491,6 +591,9 @@ MultiParams Summary:
       Spawn Limit:                             0.025
       Multi Spawn Chance:                               1.0-0.95-0.8-0.4-0.2-0.15
       Entry Weight:                   0.05
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-0.95-0.8-0.4-0.2-0.15
+      Entry Weight:                   0.05
       Spawn Limit:                             0.1
       Multi Spawn Chance:                               1.0-0.95-0.8-0.4-0.2-0.15
       Entry Weight:                   0.05
@@ -499,11 +602,11 @@ MultiParams Summary:
       Entry Weight:                   0.05
       Spawn Limit:                             0.15
       Multi Spawn Chance:                               1.0-0.95-0.8-0.4-0.2-0.15
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.15
+      Multi Spawn Chance:                               1.0-0.95-0.8-0.4-0.2-0.15
 
    Main BP: AmbulocetusTSW_Character_BP_C
-      Entry Weight:                   0.4
-      Spawn Limit:                             0.25
-      Multi Spawn Chance:                               1.0-0.8-0.4-0.4
       Entry Weight:                   0.4
       Spawn Limit:                             0.25
       Multi Spawn Chance:                               1.0-0.8-0.4-0.4
@@ -516,11 +619,17 @@ MultiParams Summary:
       Spawn Limit:                             0.035
       Multi Spawn Chance:                               0.5-0.5-0.5
       Entry Weight:                   0.12
+      Spawn Limit:                             0.035
+      Multi Spawn Chance:                               0.5-0.5-0.5
+      Entry Weight:                   0.12
       Spawn Limit:                             0.025
       Multi Spawn Chance:                               1.0-0.5-0.5
       Entry Weight:                   0.12
       Spawn Limit:                             0.025
       Multi Spawn Chance:                               1.0-0.5-0.5
+      Entry Weight:                   0.12
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-1.0
       Entry Weight:                   0.12
       Spawn Limit:                             0.05
       Multi Spawn Chance:                               1.0-1.0-1.0
@@ -547,6 +656,12 @@ MultiParams Summary:
       Entry Weight:                   0.2
       Spawn Limit:                             0.05
       Multi Spawn Chance:                               1.0-1.0-1.0-1.0
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0
+      Entry Weight:                   0.25
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0
       Entry Weight:                   0.25
       Spawn Limit:                             0.05
       Multi Spawn Chance:                               1.0-1.0-1.0-1.0
@@ -564,6 +679,9 @@ MultiParams Summary:
       Multi Spawn Chance:                               1.0-0.7-0.3
 
    Main BP: EdestusTSW_Character_BP_C
+      Entry Weight:                   0.46
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               1.0
       Entry Weight:                   0.46
       Spawn Limit:                             0.25
       Multi Spawn Chance:                               1.0
@@ -594,6 +712,12 @@ MultiParams Summary:
       Multi Spawn Chance:                               1.0-1.0-1.0-1.0
       Entry Weight:                   0.15
       Spawn Limit:                             0.12
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.12
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0
+      Entry Weight:                   0.45
+      Spawn Limit:                             0.1
       Multi Spawn Chance:                               1.0-1.0-1.0-1.0
       Entry Weight:                   0.45
       Spawn Limit:                             0.1
@@ -661,12 +785,18 @@ MultiParams Summary:
       Entry Weight:                   0.15
       Spawn Limit:                             0.055
       Multi Spawn Chance:                               0.5-0.5-0.5
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.055
+      Multi Spawn Chance:                               0.5-0.5-0.5
       Entry Weight:                   0.12
       Spawn Limit:                             0.025
       Multi Spawn Chance:                               1.0-0.5-0.5
       Entry Weight:                   0.12
       Spawn Limit:                             0.025
       Multi Spawn Chance:                               1.0-0.5-0.5
+      Entry Weight:                   0.18
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               0.5-0.5-0.5
       Entry Weight:                   0.18
       Spawn Limit:                             0.025
       Multi Spawn Chance:                               0.5-0.5-0.5
@@ -683,6 +813,12 @@ MultiParams Summary:
       Multi Spawn Chance:                               1.0-0.5
       Entry Weight:                   0.3
       Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.3
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.5
+      Spawn Limit:                             0.12
       Multi Spawn Chance:                               1.0-0.5
       Entry Weight:                   0.5
       Spawn Limit:                             0.12
@@ -701,11 +837,17 @@ MultiParams Summary:
       Entry Weight:                   0.1
       Spawn Limit:                             0.08
       Multi Spawn Chance:                               1.0-1.0-0.66-0.66-0.66
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               1.0-1.0-0.66-0.66-0.66
       Entry Weight:                   0.12
       Spawn Limit:                             0.025
       Multi Spawn Chance:                               1.0-1.0-0.66-0.66-0.66
       Entry Weight:                   0.12
       Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0-1.0-0.66-0.66-0.66
+      Entry Weight:                   0.3
+      Spawn Limit:                             0.15
       Multi Spawn Chance:                               1.0-1.0-0.66-0.66-0.66
       Entry Weight:                   0.3
       Spawn Limit:                             0.15
@@ -726,6 +868,20 @@ MultiParams Summary:
       Spawn Limit:                             0.1
       Multi Spawn Chance:                               1.0
 
+   Main BP: SunfishTSW_Character_BP_C
+      Entry Weight:                   0.5
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.1-0.01-0.6-0.35
+      Entry Weight:                   0.5
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.1-0.01-0.6-0.35
+      Entry Weight:                   0.5
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.1-0.01-0.6-0.35
+      Entry Weight:                   0.5
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.1-0.01-0.6-0.35
+
    Main BP: UrchinTSW_Character_BP_C
       Entry Weight:                   0.5
       Spawn Limit:                             
@@ -742,6 +898,10 @@ MultiParams Summary:
       Entry Weight:                   0.5
       Spawn Limit:                             
       Multi Spawn Chance:                               1.0-0.9-0.2
+      Entry Weight:                   0.5
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.2
+SubBPList: UrchinTSW_Character_BP_C: 1.0, MegaUrchinTSW_Character_BP_C: 0.015
 SubBPList: UrchinTSW_Character_BP_C: 1.0, MegaUrchinTSW_Character_BP_C: 0.015
 SubBPList: UrchinTSW_Character_BP_C: 1.0, MegaUrchinTSW_Character_BP_C: 0.015
 SubBPList: UrchinTSW_Character_BP_C: 1.0, MegaUrchinTSW_Character_BP_C: 0.015

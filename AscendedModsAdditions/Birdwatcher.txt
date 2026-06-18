@@ -1,5 +1,7 @@
 All Entry Names: 
    AB GiantSpino  x 1
+   Austro  x 1
+   Austroraptor  x 3
    Giant Spino  x 2
    GiantSpino  x 2
    Saurophaganax  x 6
@@ -17,12 +19,14 @@ Engram Entries:
    EngramEntry_BCKibble_Large_C
    EngramEntry_Saddle_Shoni_Platform_BC_C
    EngramEntry_Saddle_Saurophaganax_BC_C
+   EngramEntry_Saddle_Austroraptor_BC_C
 
 Dino Entries: 
    Torvosaurus_BC_C
    GiantSpino_BC_C
    Shonisaurus_BC_C
    Saurophaganax_BC_C
+   Austroraptor_BC_C
 
 Dino Additions: 
 Container Name: null
@@ -163,8 +167,60 @@ Container Name: null
       Multi Spawn Chance: 1.0-0.5
          SubBP: Saurophaganax_Character_BP_BC_C 0.96
          SubBP: Saurophaganax_Character_BP_BC_Alpha_C 0.04
+Container Name: null
+   Entry Name: Austroraptor
+      Main BP: Austroraptor_Character_BP_BC_C
+      Entry Weight: 0.06
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+         SubBP: Austroraptor_Character_BP_BC_C 0.97
+         SubBP: Austroraptor_Character_BP_Alpha_C 0.03
+Container Name: null
+   Entry Name: Austroraptor
+      Main BP: Austroraptor_Character_BP_BC_C
+      Entry Weight: 0.06
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+         SubBP: Austroraptor_Character_BP_BC_C 0.97
+         SubBP: Austroraptor_Character_BP_Alpha_C 0.03
+Container Name: null
+   Entry Name: Austroraptor
+      Main BP: Austroraptor_Character_BP_BC_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+         SubBP: Austroraptor_Character_BP_BC_C 0.97
+         SubBP: Austroraptor_Character_BP_Alpha_C 0.03
+Container Name: null
+   Entry Name: Austro
+      Main BP: Austroraptor_Character_BP_BC_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+         SubBP: Austroraptor_Character_BP_BC_C 0.97
+         SubBP: Austroraptor_Character_BP_Alpha_C 0.03
+Container Name: null
+Container Name: null
 
 MultiParams Summary: 
+   Main BP: Austroraptor_Character_BP_BC_C
+      Entry Weight:                   0.06
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.06
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+SubBPList: Austroraptor_Character_BP_BC_C: 0.97, Austroraptor_Character_BP_Alpha_C: 0.03
+SubBPList: Austroraptor_Character_BP_BC_C: 0.97, Austroraptor_Character_BP_Alpha_C: 0.03
+SubBPList: Austroraptor_Character_BP_BC_C: 0.97, Austroraptor_Character_BP_Alpha_C: 0.03
+SubBPList: Austroraptor_Character_BP_BC_C: 0.97, Austroraptor_Character_BP_Alpha_C: 0.03
+
    Main BP: GiantSpino_Character_BP_BC_Aberrant_C
       Entry Weight:                   0.002
       Spawn Limit:                             0.01
