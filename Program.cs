@@ -81,7 +81,7 @@ namespace ArkSpawnEntriesCreator
             XyphMeiolania,                          RoyalArchaeopteryx,                 AnomalyGalvarex,                    
         }
 
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/Machairodus.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/MarniiHairstyles.txt";
         const bool replaceFile = true;
         const bool multimain = false;
 
