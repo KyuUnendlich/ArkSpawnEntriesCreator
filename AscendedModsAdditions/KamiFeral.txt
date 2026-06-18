@@ -1,13 +1,13 @@
 All Entry Names: 
    Camarilla  x 7
    Camarillasaurus  x 2
-   Kurupi  x 13
-   Polar Camarilla  x 7
-   Polar Kurupi  x 7
-   Polar Titanophoneus  x 7
+   Kurupi  x 15
+   Polar Camarilla  x 8
+   Polar Kurupi  x 8
+   Polar Titanophoneus  x 8
    Taniwhasaurus  x 3
    Titanoph  x 1
-   Titanophoneus  x 10
+   Titanophoneus  x 12
 
 Engram Entries: 
    EngramEntry_Saddle_Titanophoneus_C
@@ -347,6 +347,44 @@ Container Name: null
       Entry Weight: 0.3
       Spawn Limit: 0.2
       Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Polar Titanophoneus
+      Main BP: K_Titanophoneus_Character_BP_Polar_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+   Entry Name: Polar Kurupi
+      Main BP: K_Kurupi_Character_BP_Polar_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+   Entry Name: Polar Camarilla
+      Main BP: K_Camarillasaurus_Character_BP_Polar_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Titanophoneus
+      Main BP: K_Titanophoneus_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+   Entry Name: Kurupi
+      Main BP: K_Kurupi_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 0.5-0.5
+Container Name: null
+   Entry Name: Titanophoneus
+      Main BP: K_Titanophoneus_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+   Entry Name: Kurupi
+      Main BP: K_Kurupi_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 0.5-0.5
 
 Global Entry Weights: 
    Main BP: K_Titanophoneus_Character_BP_C
@@ -416,6 +454,9 @@ MultiParams Summary:
       Entry Weight:                   0.3
       Spawn Limit:                             0.2
       Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               1.0
 
    Main BP: K_Kurupi_Character_BP_Aberrant_C
       Entry Weight:                   0.1
@@ -450,6 +491,12 @@ MultiParams Summary:
       Entry Weight:                   0.1
       Spawn Limit:                             
       Multi Spawn Chance:                               0.5-0.5
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               0.5-0.5
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               0.5-0.5
 
    Main BP: K_Kurupi_Character_BP_Polar_C
       Entry Weight:                   0.2
@@ -471,6 +518,9 @@ MultiParams Summary:
       Spawn Limit:                             0.2
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.3
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.2
       Spawn Limit:                             0.2
       Multi Spawn Chance:                               1.0
 
@@ -529,6 +579,12 @@ MultiParams Summary:
       Entry Weight:                   0.2
       Spawn Limit:                             0.1
       Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               1.0
 
    Main BP: K_Titanophoneus_Character_BP_Polar_C
       Entry Weight:                   0.2
@@ -550,6 +606,9 @@ MultiParams Summary:
       Spawn Limit:                             0.2
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.3
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.2
       Spawn Limit:                             0.2
       Multi Spawn Chance:                               1.0
 

@@ -1,0 +1,173 @@
+All Entry Names: 
+   Alpha Machairodus  x 17
+
+Engram Entries: 
+   EngramEntry_Saddle_Machairodus_C
+   EngramEntry_Saberchest_C
+   EngramEntry_Saberboots_C
+   EngramEntry_Saberpants_C
+   EngramEntry_SaberHelmet_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Alpha Machairodus
+      Main BP: AlphaMachairodus_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.2
+Container Name: null
+   Entry Name: Alpha Machairodus
+      Main BP: AlphaMachairodus_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.2
+Container Name: null
+   Entry Name: Alpha Machairodus
+      Main BP: AlphaMachairodus_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.2
+Container Name: null
+   Entry Name: Alpha Machairodus
+      Main BP: AlphaMachairodus_Character_BP_C
+      Entry Weight: 0.8
+      Spawn Limit: 
+      Multi Spawn Chance: 0.2
+Container Name: null
+   Entry Name: Alpha Machairodus
+      Main BP: AlphaMachairodus_Character_BP_C
+      Entry Weight: 0.8
+      Spawn Limit: 
+      Multi Spawn Chance: 0.2
+Container Name: null
+   Entry Name: Alpha Machairodus
+      Main BP: AlphaMachairodus_Character_BP_C
+      Entry Weight: 0.8
+      Spawn Limit: 
+      Multi Spawn Chance: 0.2
+Container Name: null
+   Entry Name: Alpha Machairodus
+      Main BP: AlphaMachairodus_Character_BP_C
+      Entry Weight: 0.8
+      Spawn Limit: 
+      Multi Spawn Chance: 0.2
+Container Name: null
+   Entry Name: Alpha Machairodus
+      Main BP: AlphaMachairodus_Character_BP_C
+      Entry Weight: 0.8
+      Spawn Limit: 
+      Multi Spawn Chance: 0.2
+Container Name: null
+   Entry Name: Alpha Machairodus
+      Main BP: AlphaMachairodus_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.2
+Container Name: null
+   Entry Name: Alpha Machairodus
+      Main BP: AlphaMachairodus_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.3
+Container Name: null
+   Entry Name: Alpha Machairodus
+      Main BP: AlphaMachairodus_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.2
+Container Name: null
+   Entry Name: Alpha Machairodus
+      Main BP: AlphaMachairodus_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.3
+Container Name: null
+   Entry Name: Alpha Machairodus
+      Main BP: AlphaMachairodus_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.2
+Container Name: null
+   Entry Name: Alpha Machairodus
+      Main BP: AlphaMachairodus_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.3
+Container Name: null
+   Entry Name: Alpha Machairodus
+      Main BP: AlphaMachairodus_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.2
+Container Name: null
+   Entry Name: Alpha Machairodus
+      Main BP: AlphaMachairodus_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.2
+Container Name: null
+   Entry Name: Alpha Machairodus
+      Main BP: AlphaMachairodus_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 0.2
+
+Global Entry Weights: 
+   Main BP: Saber_Character_BP_C
+      SubBP: Saber_Character_BP_C 0.5
+      SubBP: Machairodus_character_BP_C 0.3
+
+MultiParams Summary: 
+   Main BP: AlphaMachairodus_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.2
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.2
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.2
+      Entry Weight:                   0.8
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.2
+      Entry Weight:                   0.8
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.2
+      Entry Weight:                   0.8
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.2
+      Entry Weight:                   0.8
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.2
+      Entry Weight:                   0.8
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.2
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.2
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.3
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.2
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.3
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.2
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.3
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.2
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.2
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               0.2
+
