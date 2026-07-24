@@ -1,5 +1,5 @@
 All Entry Names: 
-   NULL  x 18
+   NULL  x 16
 
 Engram Entries: 
    EngramEntry_InstinctNullifier_C
@@ -146,31 +146,6 @@ Container Name: null
          SubBP: Drakara_Character_BP_Aberrant_C 0.3
          SubBP: Drakara_Character_BP_Alpha_C 0.05
          SubBP: Drakara_Character_BP_Aberrant_C doesnt exist
-Container Name: null
-   Entry Name: 
-      Main BP: Drakara_Character_BP_Tropical_C
-      Entry Weight: 0.025
-      Spawn Limit: 0.04
-      Multi Spawn Chance: 0.8-0.15-0.5
-         SubBP: Drakara_Character_BP_Tropical_C 0.1
-         SubBP: Drakara_Character_BP_Alpha_C 0.05
-         SubBP: Drakara_Character_BP_Pyro_C 0.15
-   Entry Name: 
-      Main BP: Drakara_Character_BP_Pyro_C
-      Entry Weight: 0.025
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 0.8-0.15-0.5
-         SubBP: Drakara_Character_BP_Tropical_C 0.1
-         SubBP: Drakara_Character_BP_Alpha_C 0.05
-         SubBP: Drakara_Character_BP_Pyro_C 0.15
-   Entry Name: 
-      Main BP: Drakara_Character_BP_Tropical_C
-      Entry Weight: 0.025
-      Spawn Limit: 0.05
-      Multi Spawn Chance: 0.8-0.15-0.5
-         SubBP: Drakara_Character_BP_Tropical_C 0.1
-         SubBP: Drakara_Character_BP_Alpha_C 0.05
-         SubBP: Drakara_Character_BP_Pyro_C 0.15
 Container Name: null
    Entry Name: 
       Main BP: Drakara_Character_BP_Tropical_C
@@ -404,19 +379,6 @@ Container Name: null
          SubBP: Drakara_Character_BP_Pigmy_C 0.3
 Container Name: null
    Entry Name: 
-      Main BP: Drakara_Character_BP_Pigmy_C
-      Entry Weight: 0.025
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 0.3
-         SubBP: Drakara_Character_BP_Pigmy_C 0.3
-   Entry Name: 
-      Main BP: Drakara_Character_BP_Pigmy_C
-      Entry Weight: 0.025
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 0.3
-         SubBP: Drakara_Character_BP_Pigmy_C 0.3
-Container Name: null
-   Entry Name: 
       Main BP: Drakara_Character_BP_C
       Entry Weight: 0.025
       Spawn Limit: 0.04
@@ -479,56 +441,28 @@ Container Name: null
       Spawn Limit: 0.04
       Multi Spawn Chance: 0.2-0.2-0.1
          SubBP: Drakara_Character_BP_C 0.3
-         SubBP: Drakara_Character_BP_Alpha_C 0.05
-         SubBP: Drakara_Character_BP_Pyro_C doesnt exist
-   Entry Name: 
-      Main BP: Drakara_Character_BP_C
-      Entry Weight: 0.025
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 0.2-0.2-0.1
-         SubBP: Drakara_Character_BP_C 0.3
-         SubBP: Drakara_Character_BP_Alpha_C 0.05
-         SubBP: Drakara_Character_BP_Pyro_C doesnt exist
+         SubBP: Drakara_Character_BP_Pyro_C 0.05
    Entry Name: 
       Main BP: Drakara_Character_BP_Bloodfang_C
       Entry Weight: 0.025
       Spawn Limit: Error, wrong BP or couldnt be found
       Multi Spawn Chance: 0.2-0.2-0.1
          SubBP: Drakara_Character_BP_C 0.3
-         SubBP: Drakara_Character_BP_Alpha_C 0.05
-         SubBP: Drakara_Character_BP_Pyro_C doesnt exist
-   Entry Name: 
-      Main BP: Drakara_Character_BP_Bloodfang_C
-      Entry Weight: 0.025
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 0.2-0.2-0.1
-         SubBP: Drakara_Character_BP_C 0.3
-         SubBP: Drakara_Character_BP_Alpha_C 0.05
-         SubBP: Drakara_Character_BP_Pyro_C doesnt exist
+         SubBP: Drakara_Character_BP_Pyro_C 0.05
    Entry Name: 
       Main BP: Drakara_Character_BP_Pyro_C
       Entry Weight: 0.025
       Spawn Limit: Error, wrong BP or couldnt be found
       Multi Spawn Chance: 0.2-0.2-0.1
          SubBP: Drakara_Character_BP_C 0.3
-         SubBP: Drakara_Character_BP_Alpha_C 0.05
-         SubBP: Drakara_Character_BP_Pyro_C doesnt exist
-   Entry Name: 
-      Main BP: Drakara_Character_BP_Pyro_C
-      Entry Weight: 0.025
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 0.2-0.2-0.1
-         SubBP: Drakara_Character_BP_C 0.3
-         SubBP: Drakara_Character_BP_Alpha_C 0.05
-         SubBP: Drakara_Character_BP_Pyro_C doesnt exist
+         SubBP: Drakara_Character_BP_Pyro_C 0.05
    Entry Name: 
       Main BP: Drakara_Character_BP_C
       Entry Weight: 0.025
       Spawn Limit: Error, wrong BP or couldnt be found
       Multi Spawn Chance: 0.2-0.2-0.1
          SubBP: Drakara_Character_BP_C 0.3
-         SubBP: Drakara_Character_BP_Alpha_C 0.05
-         SubBP: Drakara_Character_BP_Pyro_C doesnt exist
+         SubBP: Drakara_Character_BP_Pyro_C 0.05
 Container Name: null
    Entry Name: 
       Main BP: Drakara_Character_BP_C
@@ -789,9 +723,6 @@ SubBPList: Drakara_Character_BP_Arctic_C: 0.3
       Multi Spawn Chance:                               0.2-0.2-0.1
       Entry Weight:                   0.025
       Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               0.2-0.2-0.1
-      Entry Weight:                   0.025
-      Spawn Limit:              Error, wrong BP or couldnt be found
       Multi Spawn Chance:                               0.5-0.5-0.25-0.2
 SubBPList: Drakara_Character_BP_C: 1.0, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: 0.1, Drakara_Character_BP_Aberrant_C: 0.2, Drakara_Character_BP_Bloodfang_C: 0.2
 SubBPList: Drakara_Character_BP_C: 0.3, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: doesnt exist
@@ -802,8 +733,7 @@ SubBPList: Drakara_Character_BP_C: 0.3, Drakara_Character_BP_Alpha_C: 0.05, Drak
 SubBPList: Drakara_Character_BP_C: 0.3, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: doesnt exist
 SubBPList: Drakara_Character_BP_C: 1.0, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: doesnt exist
 SubBPList: Drakara_Character_BP_C: 1.0, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: doesnt exist
-SubBPList: Drakara_Character_BP_C: 0.3, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: doesnt exist
-SubBPList: Drakara_Character_BP_C: 0.3, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: doesnt exist
+SubBPList: Drakara_Character_BP_C: 0.3, Drakara_Character_BP_Pyro_C: 0.05
 SubBPList: Drakara_Character_BP_C: 0.3, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: doesnt exist
 SubBPList: Drakara_Character_BP_C: 0.3, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: doesnt exist
 SubBPList: Drakara_Character_BP_C: 0.3, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: doesnt exist, Drakara_Character_BP_Bloodfang_C: doesnt exist
@@ -858,9 +788,6 @@ SubBPList: Drakara_Character_BP_C: 0.3, Drakara_Character_BP_Alpha_C: 0.05, Drak
       Spawn Limit:              Error, wrong BP or couldnt be found
       Multi Spawn Chance:                               0.2-0.2-0.1
       Entry Weight:                   0.025
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               0.2-0.2-0.1
-      Entry Weight:                   0.025
       Spawn Limit:                             0.04
       Multi Spawn Chance:                               0.2-0.2-0.1
       Entry Weight:                   0.025
@@ -892,9 +819,8 @@ SubBPList: Drakara_Character_BP_C: 0.3, Drakara_Character_BP_Alpha_C: 0.05, Drak
 SubBPList: Drakara_Character_BP_C: 1.0, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: doesnt exist
 SubBPList: Drakara_Character_BP_C: 1.0, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: doesnt exist
 SubBPList: Drakara_Character_BP_C: 1.0, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: doesnt exist
-SubBPList: Drakara_Character_BP_C: 0.3, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: doesnt exist
-SubBPList: Drakara_Character_BP_C: 0.3, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: doesnt exist
-SubBPList: Drakara_Character_BP_C: 0.3, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: doesnt exist
+SubBPList: Drakara_Character_BP_C: 0.3, Drakara_Character_BP_Pyro_C: 0.05
+SubBPList: Drakara_Character_BP_C: 0.3, Drakara_Character_BP_Pyro_C: 0.05
 SubBPList: Drakara_Character_BP_C: 0.3, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: doesnt exist
 SubBPList: Drakara_Character_BP_C: 0.3, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: doesnt exist
 SubBPList: Drakara_Character_BP_C: 0.3, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: doesnt exist
@@ -909,14 +835,6 @@ SubBPList: Drakara_Character_BP_Arctic_C: 0.3
       Entry Weight:                   0.025
       Spawn Limit:              Error, wrong BP or couldnt be found
       Multi Spawn Chance:                               0.3
-      Entry Weight:                   0.025
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               0.3
-      Entry Weight:                   0.025
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               0.3
-SubBPList: Drakara_Character_BP_Pigmy_C: 0.3
-SubBPList: Drakara_Character_BP_Pigmy_C: 0.3
 SubBPList: Drakara_Character_BP_Pigmy_C: 0.3
 SubBPList: Drakara_Character_BP_Pigmy_C: 0.3
 
@@ -932,9 +850,6 @@ SubBPList: Drakara_Character_BP_Pigmy_C: 0.3
       Multi Spawn Chance:                               0.2-0.2-0.1
       Entry Weight:                   0.025
       Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               0.8-0.15-0.5
-      Entry Weight:                   0.025
-      Spawn Limit:              Error, wrong BP or couldnt be found
       Multi Spawn Chance:                               0.5-0.5-0.25
       Entry Weight:                   0.025
       Spawn Limit:              Error, wrong BP or couldnt be found
@@ -951,9 +866,6 @@ SubBPList: Drakara_Character_BP_Pigmy_C: 0.3
       Entry Weight:                   0.025
       Spawn Limit:              Error, wrong BP or couldnt be found
       Multi Spawn Chance:                               0.5-0.5-0.5
-      Entry Weight:                   0.025
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               0.2-0.2-0.1
       Entry Weight:                   0.025
       Spawn Limit:              Error, wrong BP or couldnt be found
       Multi Spawn Chance:                               0.2-0.2-0.1
@@ -969,26 +881,18 @@ SubBPList: Drakara_Character_BP_Pigmy_C: 0.3
 SubBPList: Drakara_Character_BP_C: 1.0, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: 0.1, Drakara_Character_BP_Aberrant_C: 0.2, Drakara_Character_BP_Bloodfang_C: 0.2
 SubBPList: Drakara_Character_BP_C: 0.3, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: doesnt exist
 SubBPList: Drakara_Character_BP_C: 0.3, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: doesnt exist
-SubBPList: Drakara_Character_BP_Tropical_C: 0.1, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: 0.15
 SubBPList: Drakara_Character_BP_C: 0.3, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: doesnt exist, Drakara_Character_BP_Bloodfang_C: doesnt exist
 SubBPList: Drakara_Character_BP_C: 0.3, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: doesnt exist, Drakara_Character_BP_Bloodfang_C: doesnt exist
 SubBPList: Drakara_Character_BP_C: 0.3, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: doesnt exist
 SubBPList: Drakara_Character_BP_C: 0.3, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: doesnt exist
 SubBPList: Drakara_Character_BP_C: 1.0, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: doesnt exist
 SubBPList: Drakara_Character_BP_C: 1.0, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: doesnt exist
-SubBPList: Drakara_Character_BP_C: 0.3, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: doesnt exist
-SubBPList: Drakara_Character_BP_C: 0.3, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: doesnt exist
+SubBPList: Drakara_Character_BP_C: 0.3, Drakara_Character_BP_Pyro_C: 0.05
 SubBPList: Drakara_Character_BP_C: 0.3, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: doesnt exist
 SubBPList: Drakara_Character_BP_C: 0.3, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: doesnt exist
 SubBPList: Drakara_Character_BP_C: 0.3, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: doesnt exist, Drakara_Character_BP_Bloodfang_C: doesnt exist
 
    Main BP: Drakara_Character_BP_Tropical_C
-      Entry Weight:                   0.025
-      Spawn Limit:                             0.04
-      Multi Spawn Chance:                               0.8-0.15-0.5
-      Entry Weight:                   0.025
-      Spawn Limit:                             0.05
-      Multi Spawn Chance:                               0.8-0.15-0.5
       Entry Weight:                   0.025
       Spawn Limit:                             0.04
       Multi Spawn Chance:                               0.5-0.5
@@ -998,8 +902,6 @@ SubBPList: Drakara_Character_BP_C: 0.3, Drakara_Character_BP_Alpha_C: 0.05, Drak
       Entry Weight:                   0.025
       Spawn Limit:                             0.04
       Multi Spawn Chance:                               0.5-0.5-0.25
-SubBPList: Drakara_Character_BP_Tropical_C: 0.1, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: 0.15
-SubBPList: Drakara_Character_BP_Tropical_C: 0.1, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: 0.15
 SubBPList: Drakara_Character_BP_Tropical_C: 0.3, Drakara_Character_BP_Pyro_C: 0.25
 SubBPList: Drakara_Character_BP_Tropical_C: 0.3, Drakara_Character_BP_Pyro_C: 0.25
 SubBPList: Drakara_Character_BP_C: 0.3, Drakara_Character_BP_Alpha_C: 0.05, Drakara_Character_BP_Pyro_C: doesnt exist, Drakara_Character_BP_Bloodfang_C: doesnt exist

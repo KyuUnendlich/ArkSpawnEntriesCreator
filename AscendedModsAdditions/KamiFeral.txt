@@ -69,7 +69,7 @@ Container Name: null
       Multi Spawn Chance: 1.0
    Entry Name: Camarilla
       Main BP: K_Camarillasaurus_Character_BP_C
-      Entry Weight: 0.1
+      Entry Weight: 0.05
       Spawn Limit: 
       Multi Spawn Chance: 1.0
 Container Name: null
@@ -98,7 +98,7 @@ Container Name: null
 Container Name: null
    Entry Name: Camarilla
       Main BP: K_Camarillasaurus_Character_BP_C
-      Entry Weight: 0.1
+      Entry Weight: 0.05
       Spawn Limit: 
       Multi Spawn Chance: 1.0
 Container Name: null
@@ -170,7 +170,7 @@ Container Name: null
       Multi Spawn Chance: 1.0
    Entry Name: Camarillasaurus
       Main BP: K_Camarillasaurus_Character_BP_C
-      Entry Weight: 0.1
+      Entry Weight: 0.05
       Spawn Limit: 
       Multi Spawn Chance: 1.0
 Container Name: null
@@ -413,10 +413,10 @@ MultiParams Summary:
       Entry Weight:                   0.2
       Spawn Limit:                             0.2
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.1
+      Entry Weight:                   0.05
       Spawn Limit:                             
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.1
+      Entry Weight:                   0.05
       Spawn Limit:                             
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.5
@@ -428,7 +428,7 @@ MultiParams Summary:
       Entry Weight:                   0.5
       Spawn Limit:                             
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.1
+      Entry Weight:                   0.05
       Spawn Limit:                             
       Multi Spawn Chance:                               1.0
 

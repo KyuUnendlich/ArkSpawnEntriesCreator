@@ -7,12 +7,14 @@ Dino Entries:
 
 Global Entry Weights: 
    Main BP: Baryonyx_Character_BP_C
-      SubBP: Baryonyx_Character_BP_C 70.0
-      SubBP: Suchomimus_Character_BP_Male_C 15.0
-      SubBP: Suchomimus_Character_BP_Female_C 15.0
+      SubBP: Baryonyx_Character_BP_C 80.0
+      SubBP: Suchomimus_Character_BP_Male_C 20.0
    Main BP: Baryonyx_Character_BP_Aberrant_C
       SubBP: Baryonyx_Character_BP_Aberrant_C 80.0
       SubBP: Suchomimus_Character_BP_Aberrant_C 20.0
    Main BP: Suchomimus_Character_BP_Male_C
       SubBP: Suchomimus_Character_BP_Male_C 95.0
       SubBP: MegaSuchomimus_Character_BP_C 5.0
+   Main BP: Bog_Spino_Character_BP_C
+      SubBP: Bog_Spino_Character_BP_C 95.0
+      SubBP: Suchomimus_Character_BP_Female_C 5.0

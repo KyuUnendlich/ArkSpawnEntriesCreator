@@ -1,5 +1,5 @@
 All Entry Names: 
-   MorosLivyatan  x 3
+   MorosLivyatan  x 4
 
 Engram Entries: 
    EngramEntry_LivyatanCommunicationPad_Moro_C
@@ -41,6 +41,12 @@ Container Name: null
       Entry Weight: 1.0
       Spawn Limit: 0.0001
       Multi Spawn Chance: 0.1
+Container Name: null
+   Entry Name: MorosLivyatan
+      Main BP: Moro_Livyatan_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 0.15
 
 MultiParams Summary: 
    Main BP: Moro_Livyatan_Character_BP_C
@@ -53,4 +59,7 @@ MultiParams Summary:
       Entry Weight:                   1.0
       Spawn Limit:                             0.0001
       Multi Spawn Chance:                               0.1
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               0.15
 
