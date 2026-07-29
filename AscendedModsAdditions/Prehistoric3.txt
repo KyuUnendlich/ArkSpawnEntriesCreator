@@ -1,15 +1,15 @@
 All Entry Names: 
-   Axel  x 3
+   Axel  x 4
    Cryo  x 6
-   Doli  x 2
-   Hainosaurus  x 2
-   Koola  x 8
-   Lythronax (1-2)  x 9
-   Pinacosaurus (1-2)  x 11
-   Priono  x 4
+   Doli  x 3
+   Hainosaurus  x 4
+   Koola  x 10
+   Lythronax (1-2)  x 11
+   Pinacosaurus (1-2)  x 13
+   Priono  x 7
    Salta (1-2)  x 1
-   Saltasaurus  x 5
-   Slug  x 2
+   Saltasaurus  x 6
+   Slug  x 4
 
 Engram Entries: 
    EngramEntry_Saddle_Axel_C
@@ -112,10 +112,45 @@ Container Name: null
       Spawn Limit: 0.1
       Multi Spawn Chance: 1.0
 Container Name: null
+   Entry Name: Slug
+      Main BP: GiantSeaSlug_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 1.0
+   Entry Name: Hainosaurus
+      Main BP: Hainosaurus_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+         SubBP: Hainosaurus_Character_BP_C 0.85
+         SubBP: MegaHainosaurus_Character_BP_C 0.05
+         SubBP: Hainosaurus_Character_BP_Eerie_C 0.1
+   Entry Name: Priono
+      Main BP: Prionosuchus_Character_BP_C
+      Entry Weight: 0.85
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
    Entry Name: Pinacosaurus (1-2)
       Main BP: Pinacosaurus_Character_BP_C
       Entry Weight: 0.1
       Spawn Limit: 0.3
+      Multi Spawn Chance: 1.0-0.5
+         SubBP: Pinacosaurus_Character_BP_C 0.9
+         SubBP: Pinacosaurus_Character_BP_Eerie_C 0.1
+Container Name: null
+   Entry Name: Pinacosaurus (1-2)
+      Main BP: Pinacosaurus_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 1.0-0.5
+         SubBP: Pinacosaurus_Character_BP_C 0.9
+         SubBP: Pinacosaurus_Character_BP_Eerie_C 0.1
+Container Name: null
+   Entry Name: Pinacosaurus (1-2)
+      Main BP: Pinacosaurus_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.25
       Multi Spawn Chance: 1.0-0.5
          SubBP: Pinacosaurus_Character_BP_C 0.9
          SubBP: Pinacosaurus_Character_BP_Eerie_C 0.1
@@ -187,6 +222,24 @@ Container Name: null
       Entry Weight: 0.1
       Spawn Limit: 0.15
       Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Cryo
+      Main BP: Cryodrakon_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 0.5
+   Entry Name: Lythronax (1-2)
+      Main BP: Lythronax_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.15
+      Multi Spawn Chance: 1.0-0.5
+   Entry Name: Koola
+      Main BP: Koolasuchus_Character_BP_C
+      Entry Weight: 0.075
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.5
+         SubBP: Koolasuchus_Character_BP_C 0.95
+         SubBP: Koolasuchus_Character_BP_Bionic_C 0.05
 Container Name: null
    Entry Name: Cryo
       Main BP: Cryodrakon_Character_BP_C
@@ -300,11 +353,59 @@ Container Name: null
       Spawn Limit: 0.09
       Multi Spawn Chance: 1.0-0.5-0.25
 Container Name: null
-   Entry Name: Cryo
-      Main BP: Cryodrakon_Character_BP_C
-      Entry Weight: 0.08
+   Entry Name: Saltasaurus
+      Main BP: Saltasaurus_Character_BP_Bog_C
+      Entry Weight: 0.075
       Spawn Limit: 0.15
-      Multi Spawn Chance: 0.5
+      Multi Spawn Chance: 1.0-0.5-0.25
+Container Name: null
+   Entry Name: Koola
+      Main BP: Koolasuchus_Character_BP_Bionic_C
+      Entry Weight: 0.075
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Lythronax (1-2)
+      Main BP: Lythronax_Character_BP_Snow_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Hainosaurus
+      Main BP: Hainosaurus_Character_BP_Ocean_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+         SubBP: Hainosaurus_Character_BP_Ocean_C 0.85
+         SubBP: MegaHainosaurus_Character_BP_C 0.05
+         SubBP: Hainosaurus_Character_BP_Eerie_C 0.1
+Container Name: null
+   Entry Name: Slug
+      Main BP: GiantSeaSlug_Character_BP_Ocean_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.15
+      Multi Spawn Chance: 1.0
+   Entry Name: Priono
+      Main BP: Prionosuchus_Character_BP_Ocean_C
+      Entry Weight: 0.8
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Axel
+      Main BP: Axelrodichthys_Character_BP_Ocean_C
+      Entry Weight: 0.85
+      Spawn Limit: 0.15
+      Multi Spawn Chance: 1.0-0.5
+   Entry Name: Doli
+      Main BP: Dolichorhynchops_Character_BP_Ocean_C
+      Entry Weight: 0.45
+      Spawn Limit: 0.15
+      Multi Spawn Chance: 1.0-0.8-0.3
+   Entry Name: Priono
+      Main BP: Prionosuchus_Character_BP_Ocean_C
+      Entry Weight: 0.85
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: Cryo
       Main BP: Cryodrakon_Character_BP_C
@@ -403,6 +504,11 @@ MultiParams Summary:
       Spawn Limit:                             
       Multi Spawn Chance:                               1.0
 
+   Main BP: Axelrodichthys_Character_BP_Ocean_C
+      Entry Weight:                   0.85
+      Spawn Limit:                             0.15
+      Multi Spawn Chance:                               1.0-0.5
+
    Main BP: Cryodrakon_Character_BP_C
       Entry Weight:                   0.08
       Spawn Limit:                             0.03
@@ -414,7 +520,7 @@ MultiParams Summary:
       Spawn Limit:                             0.03
       Multi Spawn Chance:                               0.5
       Entry Weight:                   0.08
-      Spawn Limit:                             0.15
+      Spawn Limit:                             0.03
       Multi Spawn Chance:                               0.5
       Entry Weight:                   0.08
       Spawn Limit:                             0.15
@@ -433,12 +539,25 @@ MultiParams Summary:
       Spawn Limit:                             0.35
       Multi Spawn Chance:                               1.0-0.8-0.3
 
+   Main BP: Dolichorhynchops_Character_BP_Ocean_C
+      Entry Weight:                   0.45
+      Spawn Limit:                             0.15
+      Multi Spawn Chance:                               1.0-0.8-0.3
+
    Main BP: GiantSeaSlug_Character_BP_C
       Entry Weight:                   1.0
       Spawn Limit:                             0.2
       Multi Spawn Chance:                               1.0
       Entry Weight:                   1.0
       Spawn Limit:                             0.08
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               1.0
+
+   Main BP: GiantSeaSlug_Character_BP_Ocean_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.15
       Multi Spawn Chance:                               1.0
 
    Main BP: Hainosaurus_Character_BP_C
@@ -448,14 +567,29 @@ MultiParams Summary:
       Entry Weight:                   0.2
       Spawn Limit:                             0.1
       Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
 SubBPList: Hainosaurus_Character_BP_C: 0.85, MegaHainosaurus_Character_BP_C: 0.05, Hainosaurus_Character_BP_Eerie_C: 0.1
 SubBPList: Hainosaurus_Character_BP_C: 0.85, MegaHainosaurus_Character_BP_C: 0.05, Hainosaurus_Character_BP_Eerie_C: 0.1
+SubBPList: Hainosaurus_Character_BP_C: 0.85, MegaHainosaurus_Character_BP_C: 0.05, Hainosaurus_Character_BP_Eerie_C: 0.1
+
+   Main BP: Hainosaurus_Character_BP_Ocean_C
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+SubBPList: Hainosaurus_Character_BP_Ocean_C: 0.85, MegaHainosaurus_Character_BP_C: 0.05, Hainosaurus_Character_BP_Eerie_C: 0.1
 
    Main BP: Koolasuchus_Character_BP_Aberrant_C
       Entry Weight:                   0.075
       Spawn Limit:                             0.055
       Multi Spawn Chance:                               1.0-0.5
 SubBPList: Koolasuchus_Character_BP_Aberrant_C: 0.95, Koolasuchus_Character_BP_Bionic_C: 0.05
+
+   Main BP: Koolasuchus_Character_BP_Bionic_C
+      Entry Weight:                   0.075
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5
 
    Main BP: Koolasuchus_Character_BP_C
       Entry Weight:                   0.075
@@ -474,6 +608,9 @@ SubBPList: Koolasuchus_Character_BP_Aberrant_C: 0.95, Koolasuchus_Character_BP_B
       Spawn Limit:                             0.03
       Multi Spawn Chance:                               1.0-0.5
       Entry Weight:                   0.075
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.075
       Spawn Limit:                             0.1
       Multi Spawn Chance:                               1.0-0.5
       Entry Weight:                   0.075
@@ -486,8 +623,12 @@ SubBPList: Koolasuchus_Character_BP_C: 0.95, Koolasuchus_Character_BP_Bionic_C: 
 SubBPList: Koolasuchus_Character_BP_C: 0.95, Koolasuchus_Character_BP_Bionic_C: 0.05
 SubBPList: Koolasuchus_Character_BP_C: 0.95, Koolasuchus_Character_BP_Bionic_C: 0.05
 SubBPList: Koolasuchus_Character_BP_C: 0.95, Koolasuchus_Character_BP_Bionic_C: 0.05
+SubBPList: Koolasuchus_Character_BP_C: 0.95, Koolasuchus_Character_BP_Bionic_C: 0.05
 
    Main BP: Lythronax_Character_BP_C
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.15
+      Multi Spawn Chance:                               1.0-0.5
       Entry Weight:                   0.1
       Spawn Limit:                             0.15
       Multi Spawn Chance:                               1.0-0.5
@@ -518,6 +659,11 @@ SubBPList: Koolasuchus_Character_BP_C: 0.95, Koolasuchus_Character_BP_Bionic_C: 
       Spawn Limit:                             0.1
       Multi Spawn Chance:                               1.0-0.5
 
+   Main BP: Lythronax_Character_BP_Snow_C
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               1.0-0.5
+
    Main BP: Pinacosaurus_Character_BP_Aberrant_C
       Entry Weight:                   0.1
       Spawn Limit:                             0.1
@@ -536,6 +682,12 @@ SubBPList: Pinacosaurus_Character_BP_Aberrant_C: 0.9, Pinacosaurus_Character_BP_
       Spawn Limit:                             0.25
       Multi Spawn Chance:                               1.0-0.5
       Entry Weight:                   0.1
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.1
       Spawn Limit:                             0.2
       Multi Spawn Chance:                               1.0-0.5
       Entry Weight:                   0.1
@@ -547,6 +699,8 @@ SubBPList: Pinacosaurus_Character_BP_Aberrant_C: 0.9, Pinacosaurus_Character_BP_
       Entry Weight:                   0.1
       Spawn Limit:                             0.03
       Multi Spawn Chance:                               1.0-0.5
+SubBPList: Pinacosaurus_Character_BP_C: 0.9, Pinacosaurus_Character_BP_Eerie_C: 0.1
+SubBPList: Pinacosaurus_Character_BP_C: 0.9, Pinacosaurus_Character_BP_Eerie_C: 0.1
 SubBPList: Pinacosaurus_Character_BP_C: 0.9, Pinacosaurus_Character_BP_Eerie_C: 0.1
 SubBPList: Pinacosaurus_Character_BP_C: 0.9, Pinacosaurus_Character_BP_Eerie_C: 0.1
 SubBPList: Pinacosaurus_Character_BP_C: 0.9, Pinacosaurus_Character_BP_Eerie_C: 0.1
@@ -583,10 +737,26 @@ SubBPList: Pinacosaurus_Character_BP_Scorched_C: 0.9, Pinacosaurus_Character_BP_
       Entry Weight:                   0.85
       Spawn Limit:                             0.1
       Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.85
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+
+   Main BP: Prionosuchus_Character_BP_Ocean_C
+      Entry Weight:                   0.8
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.85
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
 
    Main BP: Saltasaurus_Character_BP_Aberrant_C
       Entry Weight:                   0.075
       Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.5-0.25
+
+   Main BP: Saltasaurus_Character_BP_Bog_C
+      Entry Weight:                   0.075
+      Spawn Limit:                             0.15
       Multi Spawn Chance:                               1.0-0.5-0.25
 
    Main BP: Saltasaurus_Character_BP_C

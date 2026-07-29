@@ -1,20 +1,22 @@
 All Entry Names: 
    Dearc  x 4
    Inostrancevia  x 3
-   Inostrancevia (1-2)  x 3
+   Inostrancevia (1-2)  x 6
    Nasuto (2)  x 8
-   Neimo  x 10
+   Neimo  x 11
+   Neimo (1-3)  x 1
    Neimongo (1-2)  x 1
-   Neovenator (1)  x 4
+   Neovenator (1)  x 6
    Postosuchus (1)  x 2
-   Postosuchus (1-2)  x 5
+   Postosuchus (1-2)  x 6
    Pyro (1-2)  x 1
-   Pyroraptor  x 5
-   Siamo (1)  x 5
+   Pyroraptor  x 6
+   Siamo (1)  x 4
    Siamosaurus  x 2
    Tsint  x 1
-   Tsintao (1-2)  x 6
-   Yang (1-2)  x 9
+   Tsintao (1-2)  x 8
+   Yang (1-2)  x 10
+   Yang (2)  x 1
 
 Engram Entries: 
    EngramEntry_Saddle_Postosuchus_C
@@ -131,6 +133,33 @@ Container Name: null
       Spawn Limit: 0.07
       Multi Spawn Chance: 1.0-0.65
 Container Name: null
+   Entry Name: Neovenator (1)
+      Main BP: Neovenator_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+         SubBP: Neovenator_Character_BP_C 0.85
+         SubBP: MegaNeovenator_Character_BP_C 0.05
+         SubBP: Neovenator_Character_BP_Eerie_C 0.1
+   Entry Name: Nasuto (2)
+      Main BP: Nasutoceratops_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.13
+      Multi Spawn Chance: 1.0-0.5
+         SubBP: Nasutoceratops_Character_BP_C 0.85
+         SubBP: MegaNasutoceratops_Character_BP_C 0.05
+         SubBP: Nasutoceratops_Character_BP_Eerie_C 0.1
+   Entry Name: Neimo
+      Main BP: Neimongosaurus_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.35
+      Multi Spawn Chance: 1.0-0.5-0.25
+   Entry Name: Pyroraptor
+      Main BP: Pyroraptor_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.07
+      Multi Spawn Chance: 1.0-0.65
+Container Name: null
    Entry Name: Tsintao (1-2)
       Main BP: Tsintaosaurus_Character_BP_C
       Entry Weight: 0.125
@@ -197,6 +226,12 @@ Container Name: null
       Spawn Limit: 0.13
       Multi Spawn Chance: 1.0-0.25
 Container Name: null
+   Entry Name: Yang (1-2)
+      Main BP: Yangchuanosaurus_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.13
+      Multi Spawn Chance: 1.0-0.25
+Container Name: null
    Entry Name: Neimo
       Main BP: Neimongosaurus_Character_BP_C
       Entry Weight: 0.025
@@ -225,6 +260,20 @@ Container Name: null
          SubBP: MegaNasutoceratops_Character_BP_C 0.05
          SubBP: Nasutoceratops_Character_BP_Eerie_C 0.1
 Container Name: null
+   Entry Name: Neovenator (1)
+      Main BP: Neovenator_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.06
+      Multi Spawn Chance: 1.0
+         SubBP: Neovenator_Character_BP_C 0.85
+         SubBP: MegaNeovenator_Character_BP_C 0.05
+         SubBP: Neovenator_Character_BP_Eerie_C 0.1
+   Entry Name: Tsintao (1-2)
+      Main BP: Tsintaosaurus_Character_BP_C
+      Entry Weight: 0.125
+      Spawn Limit: 0.15
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
    Entry Name: Siamo (1)
       Main BP: Siamosaurus_Character_BP_C
       Entry Weight: 0.05
@@ -240,6 +289,22 @@ Container Name: null
       Multi Spawn Chance: 1.0
          SubBP: Siamosaurus_Character_BP_C 0.95
          SubBP: MegaSiamosaurus_Character_BP_C 0.05
+Container Name: null
+   Entry Name: Inostrancevia (1-2)
+      Main BP: Inostrancevia_Character_BP_C
+      Entry Weight: 0.06
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.2
+         SubBP: Inostrancevia_Character_BP_C 0.9
+         SubBP: Inostrancevia_Character_BP_Bionic_C 0.1
+Container Name: null
+   Entry Name: Inostrancevia (1-2)
+      Main BP: Inostrancevia_Character_BP_C
+      Entry Weight: 0.06
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.2
+         SubBP: Inostrancevia_Character_BP_C 0.9
+         SubBP: Inostrancevia_Character_BP_Bionic_C 0.1
 Container Name: null
    Entry Name: Postosuchus (1)
       Main BP: Postosuchus_Character_BP_Scorched_C
@@ -389,44 +454,55 @@ Container Name: null
       Multi Spawn Chance: 1.0-0.65
 Container Name: null
    Entry Name: Siamo (1)
-      Main BP: Siamosaurus_Character_BP_C
+      Main BP: Siamosaurus_Character_BP_Ocean_C
       Entry Weight: 0.05
       Spawn Limit: 0.2
       Multi Spawn Chance: 1.0
-         SubBP: Siamosaurus_Character_BP_C 0.95
+         SubBP: Siamosaurus_Character_BP_Ocean_C 0.95
          SubBP: MegaSiamosaurus_Character_BP_C 0.05
 Container Name: null
    Entry Name: Dearc
-      Main BP: Dearc_Character_BP_C
+      Main BP: Dearc_Character_BP_Volcanic_C
       Entry Weight: 0.075
-      Spawn Limit: 0.15
-      Multi Spawn Chance: 1.0-0.5-0.25
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 1.0-0.25
+   Entry Name: Tsintao (1-2)
+      Main BP: Tsintaosaurus_Character_BP_Volcano_C
+      Entry Weight: 0.125
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5
+   Entry Name: Postosuchus (1-2)
+      Main BP: Postosuchus_Character_BP_Volcanic_C
+      Entry Weight: 0.075
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 1.0-0.5
 Container Name: null
    Entry Name: Neovenator (1)
-      Main BP: Neovenator_Character_BP_C
+      Main BP: Neovenator_Character_BP_Snow_C
       Entry Weight: 0.05
       Spawn Limit: 0.03
       Multi Spawn Chance: 1.0
-         SubBP: Neovenator_Character_BP_C 0.85
+         SubBP: Neovenator_Character_BP_Snow_C 0.85
          SubBP: MegaNeovenator_Character_BP_C 0.05
          SubBP: Neovenator_Character_BP_Eerie_C 0.1
 Container Name: null
-   Entry Name: Nasuto (2)
-      Main BP: Nasutoceratops_Character_BP_C
+   Entry Name: Yang (2)
+      Main BP: Yangchuanosaurus_Character_BP_Snow_C
       Entry Weight: 0.05
       Spawn Limit: 0.03
       Multi Spawn Chance: 1.0-0.5
-         SubBP: Nasutoceratops_Character_BP_C 0.85
-         SubBP: MegaNasutoceratops_Character_BP_C 0.05
-         SubBP: Nasutoceratops_Character_BP_Eerie_C 0.1
 Container Name: null
-   Entry Name: Siamo (1)
-      Main BP: Siamosaurus_Character_BP_Aberrant_C
-      Entry Weight: 0.05
-      Spawn Limit: 0.03
-      Multi Spawn Chance: 1.0
-         SubBP: Siamosaurus_Character_BP_Aberrant_C 0.95
-         SubBP: MegaSiamosaurus_Character_BP_C 0.05
+   Entry Name: Neimo (1-3)
+      Main BP: Neimongosaurus_Character_BP_Bog_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5-0.25
+Container Name: null
+   Entry Name: Inostrancevia (1-2)
+      Main BP: Inostrancevia_Character_BP_Bionic_C
+      Entry Weight: 0.07
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5
 Container Name: null
    Entry Name: Neimo
       Main BP: Neimongosaurus_Character_BP_Aberrant_C
@@ -471,21 +547,21 @@ Container Name: null
       Multi Spawn Chance: 1.0-0.25
 Container Name: null
    Entry Name: Inostrancevia (1-2)
-      Main BP: Inostrancevia_Character_BP_C
+      Main BP: Inostrancevia_Character_BP_Lost_C
       Entry Weight: 0.06
       Spawn Limit: 0.08
       Multi Spawn Chance: 1.0-0.5
-         SubBP: Inostrancevia_Character_BP_C 0.9
+         SubBP: Inostrancevia_Character_BP_Lost_C 0.9
          SubBP: Inostrancevia_Character_BP_Bionic_C 0.1
 Container Name: null
    Entry Name: Neimo
-      Main BP: Neimongosaurus_Character_BP_C
+      Main BP: Neimongosaurus_Character_BP_Lost_C
       Entry Weight: 0.05
       Spawn Limit: 0.08
       Multi Spawn Chance: 1.0-0.5-0.25
 Container Name: null
    Entry Name: Neimo
-      Main BP: Neimongosaurus_Character_BP_C
+      Main BP: Neimongosaurus_Character_BP_Lost_C
       Entry Weight: 0.05
       Spawn Limit: 0.08
       Multi Spawn Chance: 1.0-0.5-0.25
@@ -524,9 +600,16 @@ MultiParams Summary:
       Entry Weight:                   0.075
       Spawn Limit:                             0.12
       Multi Spawn Chance:                               1.0-0.5-0.25
+
+   Main BP: Dearc_Character_BP_Volcanic_C
       Entry Weight:                   0.075
-      Spawn Limit:                             0.15
-      Multi Spawn Chance:                               1.0-0.5-0.25
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               1.0-0.25
+
+   Main BP: Inostrancevia_Character_BP_Bionic_C
+      Entry Weight:                   0.07
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5
 
    Main BP: Inostrancevia_Character_BP_C
       Entry Weight:                   0.04
@@ -535,16 +618,26 @@ MultiParams Summary:
       Entry Weight:                   0.04
       Spawn Limit:                             0.1
       Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.06
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.2
+      Entry Weight:                   0.06
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.2
       Entry Weight:                   0.04
       Spawn Limit:                             0.07
       Multi Spawn Chance:                               1.0-0.5
-      Entry Weight:                   0.06
-      Spawn Limit:                             0.08
-      Multi Spawn Chance:                               1.0-0.5
+SubBPList: Inostrancevia_Character_BP_C: 0.9, Inostrancevia_Character_BP_Bionic_C: 0.1
+SubBPList: Inostrancevia_Character_BP_C: 0.9, Inostrancevia_Character_BP_Bionic_C: 0.1
 SubBPList: Inostrancevia_Character_BP_C: 0.9, Inostrancevia_Character_BP_Bionic_C: 0.1
 SubBPList: Inostrancevia_Character_BP_C: 0.9, Inostrancevia_Character_BP_Bionic_C: 0.1
 SubBPList: Inostrancevia_Character_BP_C: 0.95, Inostrancevia_Character_BP_Bionic_C: 0.05
-SubBPList: Inostrancevia_Character_BP_C: 0.9, Inostrancevia_Character_BP_Bionic_C: 0.1
+
+   Main BP: Inostrancevia_Character_BP_Lost_C
+      Entry Weight:                   0.06
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               1.0-0.5
+SubBPList: Inostrancevia_Character_BP_Lost_C: 0.9, Inostrancevia_Character_BP_Bionic_C: 0.1
 
    Main BP: Inostrancevia_Character_BP_Scorched_C
       Entry Weight:                   0.04
@@ -574,6 +667,9 @@ SubBPList: Nasutoceratops_Character_BP_Aberrant_C: 0.85, MegaNasutoceratops_Char
       Spawn Limit:                             0.13
       Multi Spawn Chance:                               1.0-0.5
       Entry Weight:                   0.05
+      Spawn Limit:                             0.13
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.05
       Spawn Limit:                             0.2
       Multi Spawn Chance:                               1.0-0.5
       Entry Weight:                   0.05
@@ -581,9 +677,6 @@ SubBPList: Nasutoceratops_Character_BP_Aberrant_C: 0.85, MegaNasutoceratops_Char
       Multi Spawn Chance:                               1.0-0.5
       Entry Weight:                   0.05
       Spawn Limit:                             0.07
-      Multi Spawn Chance:                               1.0-0.5
-      Entry Weight:                   0.05
-      Spawn Limit:                             0.03
       Multi Spawn Chance:                               1.0-0.5
 SubBPList: Nasutoceratops_Character_BP_C: 0.85, MegaNasutoceratops_Character_BP_C: 0.05, Nasutoceratops_Character_BP_Eerie_C: 0.1
 SubBPList: Nasutoceratops_Character_BP_C: 0.85, MegaNasutoceratops_Character_BP_C: 0.05, Nasutoceratops_Character_BP_Eerie_C: 0.1
@@ -600,9 +693,17 @@ SubBPList: Nasutoceratops_Character_BP_C: 0.85, MegaNasutoceratops_Character_BP_
       Spawn Limit:                             0.02
       Multi Spawn Chance:                               1.0-0.5-0.25
 
+   Main BP: Neimongosaurus_Character_BP_Bog_C
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5-0.25
+
    Main BP: Neimongosaurus_Character_BP_C
       Entry Weight:                   0.025
       Spawn Limit:                             0.45
+      Multi Spawn Chance:                               1.0-0.5-0.25
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.35
       Multi Spawn Chance:                               1.0-0.5-0.25
       Entry Weight:                   0.025
       Spawn Limit:                             0.35
@@ -616,6 +717,8 @@ SubBPList: Nasutoceratops_Character_BP_C: 0.85, MegaNasutoceratops_Character_BP_
       Entry Weight:                   0.025
       Spawn Limit:                             0.13
       Multi Spawn Chance:                               1.0-0.5-0.25
+
+   Main BP: Neimongosaurus_Character_BP_Lost_C
       Entry Weight:                   0.05
       Spawn Limit:                             0.08
       Multi Spawn Chance:                               1.0-0.5-0.25
@@ -642,12 +745,22 @@ SubBPList: Nasutoceratops_Character_BP_C: 0.85, MegaNasutoceratops_Character_BP_
       Spawn Limit:                             0.1
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.05
-      Spawn Limit:                             0.03
+      Spawn Limit:                             0.06
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.1
       Multi Spawn Chance:                               1.0
 SubBPList: Neovenator_Character_BP_C: 0.85, MegaNeovenator_Character_BP_C: 0.05, Neovenator_Character_BP_Eerie_C: 0.1
 SubBPList: Neovenator_Character_BP_C: 0.85, MegaNeovenator_Character_BP_C: 0.05, Neovenator_Character_BP_Eerie_C: 0.1
 SubBPList: Neovenator_Character_BP_C: 0.85, MegaNeovenator_Character_BP_C: 0.05, Neovenator_Character_BP_Eerie_C: 0.1
 SubBPList: Neovenator_Character_BP_C: 0.85, MegaNeovenator_Character_BP_C: 0.05, Neovenator_Character_BP_Eerie_C: 0.1
+SubBPList: Neovenator_Character_BP_C: 0.85, MegaNeovenator_Character_BP_C: 0.05, Neovenator_Character_BP_Eerie_C: 0.1
+
+   Main BP: Neovenator_Character_BP_Snow_C
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0
+SubBPList: Neovenator_Character_BP_Snow_C: 0.85, MegaNeovenator_Character_BP_C: 0.05, Neovenator_Character_BP_Eerie_C: 0.1
 
    Main BP: Postosuchus_Character_BP_Aberrant_C
       Entry Weight:                   0.075
@@ -676,7 +789,15 @@ SubBPList: Neovenator_Character_BP_C: 0.85, MegaNeovenator_Character_BP_C: 0.05,
       Spawn Limit:                             0.07
       Multi Spawn Chance:                               1.0
 
+   Main BP: Postosuchus_Character_BP_Volcanic_C
+      Entry Weight:                   0.075
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               1.0-0.5
+
    Main BP: Pyroraptor_Character_BP_C
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.07
+      Multi Spawn Chance:                               1.0-0.65
       Entry Weight:                   0.15
       Spawn Limit:                             0.07
       Multi Spawn Chance:                               1.0-0.65
@@ -700,10 +821,6 @@ SubBPList: Neovenator_Character_BP_C: 0.85, MegaNeovenator_Character_BP_C: 0.05,
       Entry Weight:                   0.05
       Spawn Limit:                             0.06
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.05
-      Spawn Limit:                             0.03
-      Multi Spawn Chance:                               1.0
-SubBPList: Siamosaurus_Character_BP_Aberrant_C: 0.95, MegaSiamosaurus_Character_BP_C: 0.05
 SubBPList: Siamosaurus_Character_BP_Aberrant_C: 0.95, MegaSiamosaurus_Character_BP_C: 0.05
 
    Main BP: Siamosaurus_Character_BP_C
@@ -719,12 +836,14 @@ SubBPList: Siamosaurus_Character_BP_Aberrant_C: 0.95, MegaSiamosaurus_Character_
       Entry Weight:                   0.05
       Spawn Limit:                             0.2
       Multi Spawn Chance:                               1.0
+SubBPList: Siamosaurus_Character_BP_C: 0.95, MegaSiamosaurus_Character_BP_C: 0.05
+SubBPList: Siamosaurus_Character_BP_C: 0.95, MegaSiamosaurus_Character_BP_C: 0.05
+
+   Main BP: Siamosaurus_Character_BP_Ocean_C
       Entry Weight:                   0.05
       Spawn Limit:                             0.2
       Multi Spawn Chance:                               1.0
-SubBPList: Siamosaurus_Character_BP_C: 0.95, MegaSiamosaurus_Character_BP_C: 0.05
-SubBPList: Siamosaurus_Character_BP_C: 0.95, MegaSiamosaurus_Character_BP_C: 0.05
-SubBPList: Siamosaurus_Character_BP_C: 0.95, MegaSiamosaurus_Character_BP_C: 0.05
+SubBPList: Siamosaurus_Character_BP_Ocean_C: 0.95, MegaSiamosaurus_Character_BP_C: 0.05
 
    Main BP: Tsintaosaurus_Character_BP_Aberrant_C
       Entry Weight:                   0.125
@@ -742,6 +861,9 @@ SubBPList: Siamosaurus_Character_BP_C: 0.95, MegaSiamosaurus_Character_BP_C: 0.0
       Spawn Limit:                             0.2
       Multi Spawn Chance:                               1.0-0.5
       Entry Weight:                   0.125
+      Spawn Limit:                             0.15
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.125
       Spawn Limit:                             0.12
       Multi Spawn Chance:                               1.0-0.5
 
@@ -753,6 +875,11 @@ SubBPList: Siamosaurus_Character_BP_C: 0.95, MegaSiamosaurus_Character_BP_C: 0.0
    Main BP: Tsintaosaurus_Character_BP_Scorched_C
       Entry Weight:                   0.125
       Spawn Limit:                             0.15
+      Multi Spawn Chance:                               1.0-0.5
+
+   Main BP: Tsintaosaurus_Character_BP_Volcano_C
+      Entry Weight:                   0.125
+      Spawn Limit:                             0.1
       Multi Spawn Chance:                               1.0-0.5
 
    Main BP: Yangchuanosaurus_Character_BP_Aberrant_C
@@ -774,6 +901,9 @@ SubBPList: Siamosaurus_Character_BP_C: 0.95, MegaSiamosaurus_Character_BP_C: 0.0
       Spawn Limit:                             0.13
       Multi Spawn Chance:                               1.0-0.25
       Entry Weight:                   0.05
+      Spawn Limit:                             0.13
+      Multi Spawn Chance:                               1.0-0.25
+      Entry Weight:                   0.05
       Spawn Limit:                             0.1
       Multi Spawn Chance:                               1.0-0.25
       Entry Weight:                   0.05
@@ -787,4 +917,9 @@ SubBPList: Siamosaurus_Character_BP_C: 0.95, MegaSiamosaurus_Character_BP_C: 0.0
       Entry Weight:                   0.08
       Spawn Limit:                             0.08
       Multi Spawn Chance:                               1.0-0.25
+
+   Main BP: Yangchuanosaurus_Character_BP_Snow_C
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.5
 
