@@ -1,14 +1,150 @@
+All Entry Names: 
+   NULL  x 14
+
 Engram Entries: 
    EngramEntry_SmilodonSaddle_C
 
 Dino Entries: 
    Smilodon_C
 
+Dino Additions: 
+Container Name: null
+   Entry Name: 
+      Main BP: Smilodon_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0-0.5-0.05
+Container Name: null
+   Entry Name: 
+      Main BP: Smilodon_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0-0.5-0.05
+Container Name: null
+   Entry Name: 
+      Main BP: Smilodon_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0-0.5-0.05
+Container Name: null
+   Entry Name: 
+      Main BP: Smilodon_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0-0.5-0.05
+Container Name: null
+   Entry Name: 
+      Main BP: Smilodon_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0-0.5-0.05
+Container Name: null
+   Entry Name: 
+      Main BP: Smilodon_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0-0.5-0.05
+Container Name: null
+   Entry Name: 
+      Main BP: Smilodon_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0-0.5-0.05
+Container Name: null
+   Entry Name: 
+      Main BP: Snow_Smilodon_Character_BP_C
+      Entry Weight: 0.5
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5-0.05
+Container Name: null
+   Entry Name: 
+      Main BP: Snow_Smilodon_Character_BP_C
+      Entry Weight: 0.5
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5-0.05
+Container Name: null
+   Entry Name: 
+      Main BP: Smilodon_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0-0.5-0.05
+Container Name: null
+   Entry Name: 
+      Main BP: Smilodon_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0-0.5-0.05
+Container Name: null
+   Entry Name: 
+      Main BP: Smilodon_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5-0.05
+Container Name: null
+   Entry Name: 
+      Main BP: Smilodon_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5-0.05
+Container Name: null
+   Entry Name: 
+      Main BP: Smilodon_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5-0.05
 
 Global Entry Weights: 
-   Main BP: Saber_Character_BP_C
-      SubBP: Smilodon_Character_BP_C 20.0
-      SubBP: Saber_Character_BP_C 80.0
    Main BP: Smilodon_Character_BP_C
       SubBP: Smilodon_Character_BP_C 90.0
       SubBP: MegaSmilodon_Character_BP_C 10.0
+   Main BP: Snow_Smilodon_Character_BP_C
+      SubBP: Snow_Smilodon_Character_BP_C 90.0
+      SubBP: MegaSmilodon_Character_BP_C 10.0
+
+MultiParams Summary: 
+   Main BP: Smilodon_Character_BP_C
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0-0.5-0.05
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0-0.5-0.05
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0-0.5-0.05
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0-0.5-0.05
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0-0.5-0.05
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0-0.5-0.05
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0-0.5-0.05
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0-0.5-0.05
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0-0.5-0.05
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5-0.05
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5-0.05
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5-0.05
+
+   Main BP: Snow_Smilodon_Character_BP_C
+      Entry Weight:                   0.5
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5-0.05
+      Entry Weight:                   0.5
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5-0.05
+

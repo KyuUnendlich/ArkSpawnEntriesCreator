@@ -1,5 +1,5 @@
 All Entry Names: 
-   NULL  x 4
+   NULL  x 5
 
 Engram Entries: 
    EngramEntry_DinocrocutaSaddle_C
@@ -11,27 +11,33 @@ Dino Additions:
 Container Name: null
    Entry Name: 
       Main BP: Dinocrocuta_Character_BP_C
-      Entry Weight: 0.4
-      Spawn Limit: 0.3
-      Multi Spawn Chance: 0.5
+      Entry Weight: 0.05
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 0.2
 Container Name: null
    Entry Name: 
       Main BP: Dinocrocuta_Character_BP_C
-      Entry Weight: 0.4
-      Spawn Limit: 0.3
-      Multi Spawn Chance: 0.5
+      Entry Weight: 0.05
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 0.2
 Container Name: null
    Entry Name: 
       Main BP: Dinocrocuta_Character_BP_C
-      Entry Weight: 0.4
-      Spawn Limit: 0.3
-      Multi Spawn Chance: 0.5
+      Entry Weight: 0.05
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 0.2
 Container Name: null
    Entry Name: 
       Main BP: Dinocrocuta_Character_BP_C
-      Entry Weight: 0.4
-      Spawn Limit: 0.3
-      Multi Spawn Chance: 0.5
+      Entry Weight: 0.05
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 0.2
+Container Name: null
+   Entry Name: 
+      Main BP: Vulcano_Dinocrocuta_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 0.2
 
 Global Entry Weights: 
    Main BP: Dinocrocuta_Character_BP_C
@@ -40,16 +46,21 @@ Global Entry Weights:
 
 MultiParams Summary: 
    Main BP: Dinocrocuta_Character_BP_C
-      Entry Weight:                   0.4
-      Spawn Limit:                             0.3
-      Multi Spawn Chance:                               0.5
-      Entry Weight:                   0.4
-      Spawn Limit:                             0.3
-      Multi Spawn Chance:                               0.5
-      Entry Weight:                   0.4
-      Spawn Limit:                             0.3
-      Multi Spawn Chance:                               0.5
-      Entry Weight:                   0.4
-      Spawn Limit:                             0.3
-      Multi Spawn Chance:                               0.5
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               0.2
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               0.2
+
+   Main BP: Vulcano_Dinocrocuta_Character_BP_C
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               0.2
 

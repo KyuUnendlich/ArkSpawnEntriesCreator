@@ -4,9 +4,10 @@ All Entry Names:
    Clay Trike  x 2
    claytrike  x 2
    ClayTrike  x 4
-   GreaterClayTrike  x 6
+   GreaterClayTrike  x 5
    GreaterClayTrike and normal  x 1
    RAGClayTrike  x 1
+   VolcanoTrike  x 1
 
 Engram Entries: 
    EngramEntry_Saddle_ClayTrike_C
@@ -18,7 +19,7 @@ Container Name: null
    Entry Name: Clay Trike
       Main BP: ClayTrike_Character_BP_C
       Entry Weight: 0.1
-      Spawn Limit: 0.1
+      Spawn Limit: 0.15
       Multi Spawn Chance: 1.0-0.7-0.8-0.5-0.2
 Container Name: null
    Entry Name: Clay Trike
@@ -43,7 +44,7 @@ Container Name: null
       Main BP: ScorchedClayTrike_Character_BP_Child_C
       Entry Weight: 0.04
       Spawn Limit: 
-      Multi Spawn Chance: 1.0-1.0-0.5-0.3
+      Multi Spawn Chance: 1.0-1.0-0.5-0.5
 Container Name: null
    Entry Name: claytrike
       Main BP: GreaterClayTrike_Character_BP_C
@@ -94,16 +95,10 @@ Container Name: null
       Multi Spawn Chance: 1.0-0.7-0.5
 Container Name: null
    Entry Name: GreaterClayTrike and normal
-      Main BP: GreaterClayTrike_Character_BP_C
+      Main BP: GreaterScorchedClayTrike_Character_BP_Child_C
       Entry Weight: 0.035
       Spawn Limit: 
       Multi Spawn Chance: 1.0-0.7-0.5
-Container Name: null
-   Entry Name: GreaterClayTrike
-      Main BP: RagClayTrike_Character_BP_Child_C
-      Entry Weight: 0.035
-      Spawn Limit: 
-      Multi Spawn Chance: 1.0-0.7-0.5-0.5
 Container Name: null
    Entry Name: GreaterClayTrike
       Main BP: GreaterClayTrike_Character_BP_C
@@ -121,7 +116,13 @@ Container Name: null
       Main BP: RagClayTrike_Character_BP_Child_C
       Entry Weight: 0.08
       Spawn Limit: 
-      Multi Spawn Chance: 1.0-0.7-0.8-0.5-0.2
+      Multi Spawn Chance: 1.0-0.7-0.8-0.5-0.5
+Container Name: null
+   Entry Name: VolcanoTrike
+      Main BP: Volcano_ClayTrike_Character_BP_C
+      Entry Weight: 0.08
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-1.0-1.0-1.0-1.0
 
 MultiParams Summary: 
    Main BP: ClayTrike_Character_BP_AB_C
@@ -137,7 +138,7 @@ MultiParams Summary:
 
    Main BP: ClayTrike_Character_BP_C
       Entry Weight:                   0.1
-      Spawn Limit:                             0.1
+      Spawn Limit:                             0.15
       Multi Spawn Chance:                               1.0-0.7-0.8-0.5-0.2
       Entry Weight:                   0.1
       Spawn Limit:                             0.1
@@ -165,26 +166,30 @@ MultiParams Summary:
       Entry Weight:                   0.035
       Spawn Limit:                             0.1
       Multi Spawn Chance:                               1.0-0.7-0.5
-      Entry Weight:                   0.035
-      Spawn Limit:                             
-      Multi Spawn Chance:                               1.0-0.7-0.5
       Entry Weight:                   0.025
       Spawn Limit:                             0.1
       Multi Spawn Chance:                               1.0
 
-   Main BP: RagClayTrike_Character_BP_Child_C
+   Main BP: GreaterScorchedClayTrike_Character_BP_Child_C
       Entry Weight:                   0.035
       Spawn Limit:                             
-      Multi Spawn Chance:                               1.0-0.7-0.5-0.5
+      Multi Spawn Chance:                               1.0-0.7-0.5
+
+   Main BP: RagClayTrike_Character_BP_Child_C
       Entry Weight:                   0.055
       Spawn Limit:                             
       Multi Spawn Chance:                               1.0-0.7-0.8-0.5-0.5
       Entry Weight:                   0.08
       Spawn Limit:                             
-      Multi Spawn Chance:                               1.0-0.7-0.8-0.5-0.2
+      Multi Spawn Chance:                               1.0-0.7-0.8-0.5-0.5
 
    Main BP: ScorchedClayTrike_Character_BP_Child_C
       Entry Weight:                   0.04
       Spawn Limit:                             
-      Multi Spawn Chance:                               1.0-1.0-0.5-0.3
+      Multi Spawn Chance:                               1.0-1.0-0.5-0.5
+
+   Main BP: Volcano_ClayTrike_Character_BP_C
+      Entry Weight:                   0.08
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-1.0
 

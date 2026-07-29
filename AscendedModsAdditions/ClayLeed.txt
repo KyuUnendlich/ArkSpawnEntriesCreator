@@ -1,6 +1,8 @@
 All Entry Names: 
-   ClayLeeds Group (2-5)  x 4
-   Greater Leeds (1)  x 4
+   ClayLeeds Group (2-5)  x 3
+   Greater Leeds (1)  x 3
+   X-ClayLeeds Group (2-5)  x 3
+   X-Greater Leeds (1)  x 3
 
 Engram Entries: 
    EngramEntry_Saddle_ClayLeed_C
@@ -14,74 +16,112 @@ Dino Additions:
 Container Name: null
    Entry Name: ClayLeeds Group (2-5)
       Main BP: ClayLeedsichthys_Character_BP_C
-      Entry Weight: 0.4
-      Spawn Limit: 0.1
+      Entry Weight: 0.25
+      Spawn Limit: 0.22
       Multi Spawn Chance: 1.0-1.0-0.8-0.3-0.1
    Entry Name: Greater Leeds (1)
       Main BP: GreaterClayLeedsichthys_Character_BP_C
-      Entry Weight: 0.15
-      Spawn Limit: 0.033
+      Entry Weight: 0.09
+      Spawn Limit: 0.1
       Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: ClayLeeds Group (2-5)
       Main BP: ClayLeedsichthys_Character_BP_C
-      Entry Weight: 0.4
-      Spawn Limit: 0.1
+      Entry Weight: 0.25
+      Spawn Limit: 0.25
       Multi Spawn Chance: 1.0-1.0-0.8-0.3-0.1
    Entry Name: Greater Leeds (1)
       Main BP: GreaterClayLeedsichthys_Character_BP_C
-      Entry Weight: 0.15
-      Spawn Limit: 0.033
+      Entry Weight: 0.09
+      Spawn Limit: 0.1
       Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: ClayLeeds Group (2-5)
       Main BP: ClayLeedsichthys_Character_BP_C
-      Entry Weight: 0.4
-      Spawn Limit: 0.1
+      Entry Weight: 0.13
+      Spawn Limit: 0.05
       Multi Spawn Chance: 1.0-1.0-0.8-0.3-0.1
    Entry Name: Greater Leeds (1)
       Main BP: GreaterClayLeedsichthys_Character_BP_C
-      Entry Weight: 0.15
+      Entry Weight: 0.065
       Spawn Limit: 0.033
       Multi Spawn Chance: 1.0
 Container Name: null
-   Entry Name: ClayLeeds Group (2-5)
-      Main BP: ClayLeedsichthys_Character_BP_C
-      Entry Weight: 0.05
-      Spawn Limit: 0.07
+   Entry Name: X-ClayLeeds Group (2-5)
+      Main BP: X-ClayLeedsichthys_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 
       Multi Spawn Chance: 1.0-1.0-0.8-0.3-0.1
-   Entry Name: Greater Leeds (1)
-      Main BP: GreaterClayLeedsichthys_Character_BP_C
-      Entry Weight: 0.04
-      Spawn Limit: 0.01
+   Entry Name: X-Greater Leeds (1)
+      Main BP: X-GreaterClayLeedsichthys_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: X-ClayLeeds Group (2-5)
+      Main BP: X-ClayLeedsichthys_Character_BP_C
+      Entry Weight: 0.25
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-1.0-0.8-0.3-0.1
+   Entry Name: X-Greater Leeds (1)
+      Main BP: X-GreaterClayLeedsichthys_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: X-ClayLeeds Group (2-5)
+      Main BP: X-ClayLeedsichthys_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-1.0-0.8-0.3-0.1
+   Entry Name: X-Greater Leeds (1)
+      Main BP: X-GreaterClayLeedsichthys_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 
       Multi Spawn Chance: 1.0
 
 MultiParams Summary: 
    Main BP: ClayLeedsichthys_Character_BP_C
-      Entry Weight:                   0.4
-      Spawn Limit:                             0.1
+      Entry Weight:                   0.25
+      Spawn Limit:                             0.22
       Multi Spawn Chance:                               1.0-1.0-0.8-0.3-0.1
-      Entry Weight:                   0.4
-      Spawn Limit:                             0.1
+      Entry Weight:                   0.25
+      Spawn Limit:                             0.25
       Multi Spawn Chance:                               1.0-1.0-0.8-0.3-0.1
-      Entry Weight:                   0.4
-      Spawn Limit:                             0.1
-      Multi Spawn Chance:                               1.0-1.0-0.8-0.3-0.1
-      Entry Weight:                   0.05
-      Spawn Limit:                             0.07
+      Entry Weight:                   0.13
+      Spawn Limit:                             0.05
       Multi Spawn Chance:                               1.0-1.0-0.8-0.3-0.1
 
    Main BP: GreaterClayLeedsichthys_Character_BP_C
-      Entry Weight:                   0.15
+      Entry Weight:                   0.09
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.09
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.065
       Spawn Limit:                             0.033
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.15
-      Spawn Limit:                             0.033
+
+   Main BP: X-ClayLeedsichthys_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-1.0-0.8-0.3-0.1
+      Entry Weight:                   0.25
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-1.0-0.8-0.3-0.1
+      Entry Weight:                   0.2
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-1.0-0.8-0.3-0.1
+
+   Main BP: X-GreaterClayLeedsichthys_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.15
-      Spawn Limit:                             0.033
+      Entry Weight:                   0.1
+      Spawn Limit:                             
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.04
-      Spawn Limit:                             0.01
+      Entry Weight:                   0.1
+      Spawn Limit:                             
       Multi Spawn Chance:                               1.0
 

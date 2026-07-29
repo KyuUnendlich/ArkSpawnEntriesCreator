@@ -1,4 +1,5 @@
 All Entry Names: 
+   BogClayPachyrhino  x 1
    ClayPachyrhino  x 4
    GreaterClayPachy  x 5
 
@@ -65,10 +66,17 @@ Container Name: null
       Entry Weight: 1.0
       Spawn Limit: 0.1
       Multi Spawn Chance: 1.0-1.0-1.0-1.0-1.0-1.0
+Container Name: null
+   Entry Name: BogClayPachyrhino
+      Main BP: GenesisClayPachyrhino_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0-1.0-1.0-0.5-0.5-0.5-0.5-0.5
 
 Global Entry Weights: 
    Main BP: Pachyrhino_Character_BP_C
       SubBP: ClayPachyrhino_Character_BP_C 0.9
+      SubBP: GreaterClayPachyrhino_Character_BP_Child_C 0.1
 
 MultiParams Summary: 
    Main BP: ClayPachyrhino_Character_BP_C
@@ -81,6 +89,11 @@ MultiParams Summary:
       Entry Weight:                   1.0
       Spawn Limit:                             0.1
       Multi Spawn Chance:                               1.0-1.0-1.0-1.0-1.0-1.0
+
+   Main BP: GenesisClayPachyrhino_Character_BP_C
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               1.0-1.0-1.0-0.5-0.5-0.5-0.5-0.5
 
    Main BP: GreaterClayPachyrhino_Character_BP_Child_C
       Entry Weight:                   0.025

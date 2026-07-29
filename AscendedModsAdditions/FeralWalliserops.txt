@@ -1,9 +1,11 @@
 All Entry Names: 
-   NULL  x 6
+   NULL  x 7
 
 Engram Entries: 
    EngramEntry_Saddle_Walliserops_C
    EngramEntry_ChitinSpear_C
+   EngramEntry_ArrowSpike_Metal_C
+   EngramEntry_ArrowSpike_C
 
 Dino Entries: 
    Walliserops_C
@@ -11,9 +13,9 @@ Dino Entries:
 Dino Additions: 
 Container Name: null
    Entry Name: 
-      Main BP: Walliserops_Character_BP_C
-      Entry Weight: 0.07
-      Spawn Limit: 
+      Main BP: Bog_Walliserops_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.07
       Multi Spawn Chance: 
 Container Name: null
    Entry Name: 
@@ -42,20 +44,28 @@ Container Name: null
 Container Name: null
    Entry Name: 
       Main BP: Walliserops_Character_BP_C
-      Entry Weight: 0.05
+      Entry Weight: 0.1
+      Spawn Limit: 
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: 
+      Main BP: Walliserops_Character_BP_C
+      Entry Weight: 0.07
       Spawn Limit: 
       Multi Spawn Chance: 
 
 MultiParams Summary: 
+   Main BP: Bog_Walliserops_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.07
+      Multi Spawn Chance:                               
+
    Main BP: Walliserops_Character_BP_Aberrant_C
       Entry Weight:                   0.07
       Spawn Limit:                             
       Multi Spawn Chance:                               
 
    Main BP: Walliserops_Character_BP_C
-      Entry Weight:                   0.07
-      Spawn Limit:                             
-      Multi Spawn Chance:                               
       Entry Weight:                   0.08
       Spawn Limit:                             
       Multi Spawn Chance:                               
@@ -65,7 +75,10 @@ MultiParams Summary:
       Entry Weight:                   0.09
       Spawn Limit:                             
       Multi Spawn Chance:                               
-      Entry Weight:                   0.05
+      Entry Weight:                   0.1
+      Spawn Limit:                             
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.07
       Spawn Limit:                             
       Multi Spawn Chance:                               
 
