@@ -73,15 +73,15 @@ namespace ArkSpawnEntriesCreator
             PaleoDangerousDepths, /*PA_EVO_02*/     TACBastionBeetle,                   CliffansCritters,                   AIPlateo, /*PTZ-01*/
             PaleoHardHittingHerbivores,/*PA_EVO_03*/Tyrannodominator,                   HuskyWolf,                          ForgottenEdestus,
             PaleoNativeAquatics, /*PA_PLUS_01*/     ARKOSanguivern,                     Stegotetrabelodon, /*Steg*/         Hiveopod,
-            PaleoRulersWastelands, /*PA_PLUS_02*/   ARKOHapipalus,                      Gingerpithecus,                     HyphHatze,
+            PaleoRulersWastelands, /*PA_PLUS_02*/   ARKOHapipalus,                      Gingerpithecus,                     XyphHatze,
             XyphCharnia,                            ARKODesolatitan,                    StarExoticAnimals, /*RR_Exo MULTI*/ MoroSuper, /*Superceph*/
             XyphDick,                               MoreWyverns,                        StarAnimals, /*RR_StarAnim  MULTI*/ PiggleNanuq, /*PPR-Nanuq*/
             XyphEnantiophoenix,                     Monolopho, /*Forogotten*/           StarFarmAnimals, /*RR_Farm  MULTI*/ FerasOrca,
-            XyphMegistotherium,                     Noxcalva, /*BlazingNoxcalva*/       OceaniaContent, /*AEM_Content*/     
+            XyphMegistotherium,                     Noxcalva, /*BlazingNoxcalva*/       OceaniaContent, /*AEM_Content*/     WarPrehist,
             XyphMeiolania,                          RoyalArchaeopteryx,                 AnomalyGalvarex,                    
         }
 
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/Machairodus.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/WarPrehist.txt";
         const bool replaceFile = true;
         const bool multimain = false;
 

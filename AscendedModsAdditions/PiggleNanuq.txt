@@ -1,0 +1,212 @@
+All Entry Names: 
+   Nanuq (1)  x 1
+   Nanuq (1-2)  x 15
+   X Nanuq (1-2)  x 2
+   Yut (1) + Nanuqs (2)  x 3
+
+Engram Entries: 
+   EngramEntry_TyrantsCrown_C
+   EngramEntry_TyrantsCrown_Skin_C
+   EngramEntry_Saddle_Nanuq_C
+
+Dino Entries: 
+   Nanuq_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Nanuq (1-2)
+      Main BP: Nanuq_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.7
+Container Name: null
+   Entry Name: Yut (1) + Nanuqs (2)
+      Main BP: Yutyrannus_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-1.0-1.0
+Container Name: null
+   Entry Name: Nanuq (1-2)
+      Main BP: Nanuq_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.7
+Container Name: null
+   Entry Name: Nanuq (1-2)
+      Main BP: Nanuq_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.7
+Container Name: null
+   Entry Name: Yut (1) + Nanuqs (2)
+      Main BP: Yutyrannus_Character_BP_C
+      Entry Weight: 0.02
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-1.0-1.0
+Container Name: null
+   Entry Name: Nanuq (1-2)
+      Main BP: Nanuq_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.7
+Container Name: null
+   Entry Name: Nanuq (1)
+      Main BP: Nanuq_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 0.8
+Container Name: null
+   Entry Name: Nanuq (1-2)
+      Main BP: Nanuq_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.7
+Container Name: null
+   Entry Name: Nanuq (1-2)
+      Main BP: Nanuq_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.7
+Container Name: null
+   Entry Name: Yut (1) + Nanuqs (2)
+      Main BP: Yutyrannus_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-1.0-1.0
+Container Name: null
+   Entry Name: Nanuq (1-2)
+      Main BP: Nanuq_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.7
+Container Name: null
+   Entry Name: Nanuq (1-2)
+      Main BP: Nanuq_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.7
+Container Name: null
+   Entry Name: Nanuq (1-2)
+      Main BP: Nanuq_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.7
+Container Name: null
+   Entry Name: Nanuq (1-2)
+      Main BP: Nanuq_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.7
+Container Name: null
+   Entry Name: Nanuq (1-2)
+      Main BP: Nanuq_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.7
+Container Name: null
+   Entry Name: Nanuq (1-2)
+      Main BP: Nanuq_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.7
+Container Name: null
+   Entry Name: Nanuq (1-2)
+      Main BP: Nanuq_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.7
+Container Name: null
+   Entry Name: Nanuq (1-2)
+      Main BP: Nanuq_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.7
+Container Name: null
+   Entry Name: Nanuq (1-2)
+      Main BP: Nanuq_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.7
+Container Name: null
+   Entry Name: X Nanuq (1-2)
+      Main BP: Snow_Nanuq_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.7
+Container Name: null
+   Entry Name: X Nanuq (1-2)
+      Main BP: Snow_Nanuq_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.7
+
+MultiParams Summary: 
+   Main BP: Nanuq_Character_BP_C
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.7
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.7
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.7
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.7
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               0.8
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.7
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.7
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.7
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.7
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.7
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.7
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.7
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.7
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.7
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.7
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.7
+
+   Main BP: Snow_Nanuq_Character_BP_C
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.7
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.7
+
+   Main BP: Yutyrannus_Character_BP_C
+      Entry Weight:                   0.02
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-1.0-1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-1.0-1.0
+      Entry Weight:                   0.04
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-1.0-1.0
+

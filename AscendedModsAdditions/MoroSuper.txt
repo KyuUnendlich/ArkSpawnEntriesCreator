@@ -1,0 +1,102 @@
+All Entry Names: 
+   Supercephalosornis  x 9
+
+Engram Entries: 
+   EngramEntry_SuperGun_C
+   EngramEntry_LabStation_C
+   EngramEntry_SuperGunAmmo_Tier1_C
+   EngramEntry_SupercephalosornisSaddle_C
+   EngramEntry_SupercephalosornisNest_C
+   EngramEntry_BloodExtractionDarts_C
+   EngramEntry_Supercephalosornis_ChibiPet_C
+   EngramEntry_Supercephalosornis_Dossier_C
+
+Dino Entries: 
+   Supercephalosornis_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Supercephalosornis
+      Main BP: Supercephalosornis_Character_BP_C_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.05
+Container Name: null
+   Entry Name: Supercephalosornis
+      Main BP: Supercephalosornis_Character_BP_C_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.05
+Container Name: null
+   Entry Name: Supercephalosornis
+      Main BP: Supercephalosornis_Character_BP_C_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.05
+Container Name: null
+   Entry Name: Supercephalosornis
+      Main BP: Supercephalosornis_Character_BP_C_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.05
+Container Name: null
+   Entry Name: Supercephalosornis
+      Main BP: Supercephalosornis_Character_BP_C_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.05
+Container Name: null
+   Entry Name: Supercephalosornis
+      Main BP: Supercephalosornis_Character_BP_C_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.05
+Container Name: null
+   Entry Name: Supercephalosornis
+      Main BP: Supercephalosornis_Character_BP_C_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 0.01
+Container Name: null
+   Entry Name: Supercephalosornis
+      Main BP: Supercephalosornis_Character_BP_C_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 0.01
+Container Name: null
+   Entry Name: Supercephalosornis
+      Main BP: Supercephalosornis_Character_BP_C_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 0.15
+
+MultiParams Summary: 
+   Main BP: Supercephalosornis_Character_BP_C_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.05
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.05
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.05
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.05
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.05
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.05
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               0.01
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               0.01
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               0.15
+

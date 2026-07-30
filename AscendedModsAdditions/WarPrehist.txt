@@ -1,0 +1,69 @@
+All Entry Names: 
+   War Rex  x 1
+   WarRex  x 5
+
+Engram Entries: 
+   EngramEntry_Saddle_DevastatingRex_WPC_C
+
+Dino Entries: 
+   DevastatingRex_WPC_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: War Rex
+      Main BP: DevastatingRex_Character_BP_WPC_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: WarRex
+      Main BP: DevastatingRex_Character_BP_WPC_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: WarRex
+      Main BP: DevastatingRex_Character_BP_WPC_C
+      Entry Weight: 0.005
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: WarRex
+      Main BP: DevastatingRex_Character_BP_WPC_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: WarRex
+      Main BP: DevastatingRex_Character_BP_WPC_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: WarRex
+      Main BP: DevastatingRex_Character_BP_WPC_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+
+MultiParams Summary: 
+   Main BP: DevastatingRex_Character_BP_WPC_C
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.005
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+

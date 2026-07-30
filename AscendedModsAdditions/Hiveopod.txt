@@ -1,0 +1,180 @@
+All Entry Names: 
+   Hiveopod  x 3
+   Hiveopod (1)  x 10
+   hiveopod (1-2)  x 1
+   Hiveopod (1-2)  x 1
+   Hiveopod (2)  x 1
+   Zombie Hiveopod  x 1
+
+Engram Entries: 
+   EngramEntry_Saddle_Hiveopod_C
+   EngramEntry_SaltedSpoiledMeat_C
+
+Dino Entries: 
+   Hiveopod_C
+   HiveVolter_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Hiveopod (1)
+      Main BP: Hiveopod_Character_BP_C
+      Entry Weight: 0.13
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Hiveopod (1)
+      Main BP: Hiveopod_Character_BP_C
+      Entry Weight: 0.13
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Hiveopod (1)
+      Main BP: Hiveopod_Character_BP_C
+      Entry Weight: 0.13
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Hiveopod
+      Main BP: Hiveopod_Character_BP_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.07
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Hiveopod (1)
+      Main BP: Hiveopod_Character_BP_C
+      Entry Weight: 0.06
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.6
+Container Name: null
+   Entry Name: Hiveopod (1)
+      Main BP: Hiveopod_Character_BP_C
+      Entry Weight: 0.047
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Hiveopod (1)
+      Main BP: Hiveopod_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.075
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Hiveopod (1)
+      Main BP: Hiveopod_Character_BP_Waste_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: hiveopod (1-2)
+      Main BP: Hiveopod_Character_BP_Aberrant_C
+      Entry Weight: 0.07
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.5
+Container Name: null
+   Entry Name: Hiveopod (1)
+      Main BP: Hiveopod_Character_BP_Aberrant_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Hiveopod (1)
+      Main BP: Hiveopod_Character_BP_Aberrant_C
+      Entry Weight: 0.06
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Hiveopod (1)
+      Main BP: Hiveopod_Character_BP_Aberrant_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Hiveopod
+      Main BP: Hiveopod_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.3
+Container Name: null
+   Entry Name: Hiveopod
+      Main BP: Hiveopod_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.3
+Container Name: null
+   Entry Name: Zombie Hiveopod
+      Main BP: Hiveopod_Character_BP_Revenant_C
+      Entry Weight: 0.5
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Hiveopod (2)
+      Main BP: Hiveopod_Character_BP_C
+      Entry Weight: 0.045
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-1.0
+Container Name: null
+   Entry Name: Hiveopod (1-2)
+      Main BP: Hiveopod_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.15
+      Multi Spawn Chance: 1.0-0.5
+
+MultiParams Summary: 
+   Main BP: Hiveopod_Character_BP_Aberrant_C
+      Entry Weight:                   0.07
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.06
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+
+   Main BP: Hiveopod_Character_BP_C
+      Entry Weight:                   0.13
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.13
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.13
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.07
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.06
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.6
+      Entry Weight:                   0.047
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.075
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.3
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.3
+      Entry Weight:                   0.045
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-1.0
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.15
+      Multi Spawn Chance:                               1.0-0.5
+
+   Main BP: Hiveopod_Character_BP_Revenant_C
+      Entry Weight:                   0.5
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+
+   Main BP: Hiveopod_Character_BP_Waste_C
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+
