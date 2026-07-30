@@ -1,6 +1,6 @@
 All Entry Names: 
    Aberrant Enantiophoenix  x 2
-   Enantiophoenix  x 19
+   Enantiophoenix  x 21
 
 Dino Entries: 
    Enantiophoenix_C
@@ -132,6 +132,18 @@ Container Name: null
       Entry Weight: 0.1
       Spawn Limit: 10.0
       Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6-0.3-0.3-0.1
+Container Name: null
+   Entry Name: Enantiophoenix
+      Main BP: Enant_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 10.0
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6-0.3-0.3-0.1
+Container Name: null
+   Entry Name: Enantiophoenix
+      Main BP: Enant_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 10.0
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6-0.3-0.3-0.1
 
 MultiParams Summary: 
    Main BP: Enant_Character_BP_C
@@ -178,6 +190,12 @@ MultiParams Summary:
       Spawn Limit:                             10.0
       Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6-0.3-0.3-0.1
       Entry Weight:                   0.4
+      Spawn Limit:                             10.0
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6-0.3-0.3-0.1
+      Entry Weight:                   0.1
+      Spawn Limit:                             10.0
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6-0.3-0.3-0.1
+      Entry Weight:                   0.1
       Spawn Limit:                             10.0
       Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6-0.3-0.3-0.1
       Entry Weight:                   0.1

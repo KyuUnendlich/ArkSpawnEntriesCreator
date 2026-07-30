@@ -1,3 +1,6 @@
+Engram Entries: 
+   EngramEntry_EVO_Mosa_Tek_Saddle_C
+
 Dino Entries: 
    EVO_Mosa_C
 
@@ -24,13 +27,9 @@ ToClass:
       /PA_EVO_Pack_02/Dinos/EVO_Mosa/Alpha/EVO_Cave_Alpha_Mosa_Character_BP.EVO_Cave_Alpha_Mosa_Character_BP_C
       
 FromClass: 
-      /Game/PrimalEarth/CoreBlueprints/Engrams/EngramEntry_Saddle_Mosa.EngramEntry_Saddle_Mosa_C
+      /Game/Genesis/Dinos/BiomeVariants/Ocean_Mosasaurus/Ocean_Mosa_Character_BP.Ocean_Mosa_Character_BP_C
 ToClass: 
-      /PA_EVO_Pack_02/Dinos/EVO_Mosa/Saddle/EngramEntry_Saddle_EVO_Mosa.EngramEntry_Saddle_EVO_Mosa_C
-      /Game/PrimalEarth/Dinos/Mosasaurus/Mosa_Character_BP.Mosa_Character_BP_C
-      /Game/ASA/Dinos/Shastasaurus/Shastasaurus_Character_BP.Shastasaurus_Character_BP_C
-      /Game/PrimalEarth/Dinos/Tusoteuthis/Tusoteuthis_Character_BP.Tusoteuthis_Character_BP_C
-      /Game/PrimalEarth/Dinos/Plesiosaur/Plesiosaur_Character_BP.Plesiosaur_Character_BP_C
+      /PA_EVO_Pack_02/Dinos/EVO_Mosa/Genesis/EVO_Ocean_Mosa_Character_BP.EVO_Ocean_Mosa_Character_BP_C
 
 ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT Remapped Engrams: 
       
@@ -39,3 +38,7 @@ FromClass:
 ToClass: 
       /PA_EVO_Pack_02/Dinos/EVO_Mosa/Saddle/EngramEntry_Saddle_EVO_Mosa.EngramEntry_Saddle_EVO_Mosa_C
 
+Dino Additions: 
+Container Name: null
+
+MultiParams Summary: 

@@ -1,5 +1,5 @@
 All Entry Names: 
-   NULL  x 3
+   NULL  x 4
 
 Engram Entries: 
    EngramEntry_IchthyotitanSaddle_C
@@ -27,6 +27,12 @@ Container Name: null
       Entry Weight: 0.5
       Spawn Limit: 0.2
       Multi Spawn Chance: 0.1
+Container Name: null
+   Entry Name: 
+      Main BP: Ichthyotitan_Character_BP_C
+      Entry Weight: 0.15
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 0.8-0.2
 
 MultiParams Summary: 
    Main BP: Ichthyotitan_Character_BP_C
@@ -39,4 +45,7 @@ MultiParams Summary:
       Entry Weight:                   0.5
       Spawn Limit:                             0.2
       Multi Spawn Chance:                               0.1
+      Entry Weight:                   0.15
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.8-0.2
 

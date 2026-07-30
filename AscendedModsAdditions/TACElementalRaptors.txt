@@ -317,25 +317,25 @@ Container Name: null
 Container Name: null
    Entry Name: Snow
       Main BP: Cryoraptor_Character_BP_C
-      Entry Weight: 0.07
+      Entry Weight: 0.09
       Spawn Limit: 0.05
       Multi Spawn Chance: 1.0-1.0-0.5-0.1
 Container Name: null
    Entry Name: Snow
       Main BP: Cryoraptor_Character_BP_C
-      Entry Weight: 0.07
+      Entry Weight: 0.09
       Spawn Limit: 0.05
       Multi Spawn Chance: 1.0-1.0-0.5-0.1
 Container Name: null
    Entry Name: Swamp
       Main BP: Venoraptor_Character_BP_Child_C
-      Entry Weight: 0.08
+      Entry Weight: 0.09
       Spawn Limit: 0.05
       Multi Spawn Chance: 1.0-1.0-0.5-0.1
 Container Name: null
    Entry Name: Swamp
       Main BP: Venoraptor_Character_BP_Child_C
-      Entry Weight: 0.08
+      Entry Weight: 0.09
       Spawn Limit: 0.05
       Multi Spawn Chance: 1.0-1.0-0.5-0.1
 
@@ -385,10 +385,10 @@ MultiParams Summary:
       Entry Weight:                   0.025
       Spawn Limit:                             0.05
       Multi Spawn Chance:                               1.0-1.0-0.5-0.1
-      Entry Weight:                   0.07
+      Entry Weight:                   0.09
       Spawn Limit:                             0.05
       Multi Spawn Chance:                               1.0-1.0-0.5-0.1
-      Entry Weight:                   0.07
+      Entry Weight:                   0.09
       Spawn Limit:                             0.05
       Multi Spawn Chance:                               1.0-1.0-0.5-0.1
 
@@ -503,10 +503,10 @@ MultiParams Summary:
       Entry Weight:                   0.01
       Spawn Limit:                             0.05
       Multi Spawn Chance:                               1.0-1.0-0.5-0.1
-      Entry Weight:                   0.08
+      Entry Weight:                   0.09
       Spawn Limit:                             0.05
       Multi Spawn Chance:                               1.0-1.0-0.5-0.1
-      Entry Weight:                   0.08
+      Entry Weight:                   0.09
       Spawn Limit:                             0.05
       Multi Spawn Chance:                               1.0-1.0-0.5-0.1
 

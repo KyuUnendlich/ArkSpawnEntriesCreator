@@ -1,5 +1,5 @@
 All Entry Names: 
-   MoroTylosaurus  x 3
+   MoroTylosaurus  x 4
 
 Engram Entries: 
    EngramEntry_SaddleTylosaurus_C
@@ -24,7 +24,13 @@ Container Name: null
    Entry Name: MoroTylosaurus
       Main BP: MoroTylosaurus_character_bp_C
       Entry Weight: 0.2
-      Spawn Limit: 0.012
+      Spawn Limit: 0.004
+      Multi Spawn Chance: 0.15
+Container Name: null
+   Entry Name: MoroTylosaurus
+      Main BP: MoroTylosaurus_character_bp_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.12
       Multi Spawn Chance: 0.7
 
 MultiParams Summary: 
@@ -36,6 +42,9 @@ MultiParams Summary:
       Spawn Limit:                             5E-05
       Multi Spawn Chance:                               0.2
       Entry Weight:                   0.2
-      Spawn Limit:                             0.012
+      Spawn Limit:                             0.004
+      Multi Spawn Chance:                               0.15
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.12
       Multi Spawn Chance:                               0.7
 

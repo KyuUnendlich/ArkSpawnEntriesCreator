@@ -1,5 +1,5 @@
 All Entry Names: 
-   Charnia  x 34
+   Charnia  x 42
 
 Dino Entries: 
    Charnia_C
@@ -209,6 +209,54 @@ Container Name: null
       Entry Weight: 0.1
       Spawn Limit: 
       Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+Container Name: null
+   Entry Name: Charnia
+      Main BP: Charnia_CharacterBP_C
+      Entry Weight: 0.1
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+Container Name: null
+   Entry Name: Charnia
+      Main BP: Charnia_CharacterBP_C
+      Entry Weight: 0.1
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+Container Name: null
+   Entry Name: Charnia
+      Main BP: Charnia_CharacterBP_C
+      Entry Weight: 0.1
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+Container Name: null
+   Entry Name: Charnia
+      Main BP: Charnia_CharacterBP_C
+      Entry Weight: 0.1
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+Container Name: null
+   Entry Name: Charnia
+      Main BP: Charnia_CharacterBP_C
+      Entry Weight: 0.1
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+Container Name: null
+   Entry Name: Charnia
+      Main BP: Charnia_CharacterBP_C
+      Entry Weight: 0.1
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+Container Name: null
+   Entry Name: Charnia
+      Main BP: Charnia_CharacterBP_C
+      Entry Weight: 0.1
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+Container Name: null
+   Entry Name: Charnia
+      Main BP: Charnia_CharacterBP_C
+      Entry Weight: 0.1
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
 
 MultiParams Summary: 
    Main BP: AberrantCharnia_CharacterBP_C
@@ -278,6 +326,30 @@ MultiParams Summary:
       Spawn Limit:                             
       Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
       Entry Weight:                   0.3
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.1
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.1
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.1
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.1
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.1
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.1
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.1
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.1
       Spawn Limit:                             
       Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
       Entry Weight:                   0.1

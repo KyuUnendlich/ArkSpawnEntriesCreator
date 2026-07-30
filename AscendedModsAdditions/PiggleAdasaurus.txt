@@ -5,7 +5,9 @@ All Entry Names:
    Ada Dunes  x 1
    Ada Ext Desert  x 1
    Ada FertileZone  x 1
-   Ada Jungle  x 4
+   Ada Jungle  x 2
+   Ada Jungle (Rag)  x 1
+   Ada Jungle (Val)  x 1
    Ada LC DarkForest 2  x 2
    Ada LC Tundra  x 3
    Ada Val AbCave  x 1
@@ -13,7 +15,7 @@ All Entry Names:
    Ada WasteBuffer 2  x 1
    Ada Wasteland Easy  x 1
    Polar Ada  x 1
-   Polar Ada - Snow Ext  x 1
+   Polar Ada - Snow Ext  x 3
    Polar Ada - Snow Gen  x 1
    Polar Ada - Val Tundra  x 1
 
@@ -39,13 +41,13 @@ Container Name: null
       Spawn Limit: 0.1
       Multi Spawn Chance: 1.0
 Container Name: null
-   Entry Name: Ada Jungle
+   Entry Name: Ada Jungle (Rag)
       Main BP: Adasaurus_Character_BP_C
       Entry Weight: 0.055
       Spawn Limit: 0.1
       Multi Spawn Chance: 1.0
 Container Name: null
-   Entry Name: Ada Jungle
+   Entry Name: Ada Jungle (Val)
       Main BP: Adasaurus_Character_BP_C
       Entry Weight: 0.055
       Spawn Limit: 0.1
@@ -97,7 +99,7 @@ Container Name: null
       Main BP: Adasaurus_Character_BP_Aberrant_C
       Entry Weight: 0.055
       Spawn Limit: 0.07
-      Multi Spawn Chance: 0.5
+      Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: Ada BioCave
       Main BP: Adasaurus_Character_BP_Aberrant_C
@@ -164,12 +166,24 @@ Container Name: null
       Entry Weight: 0.08
       Spawn Limit: 0.1
       Multi Spawn Chance: 0.7-0.2
+Container Name: null
+   Entry Name: Polar Ada - Snow Ext
+      Main BP: Adasaurus_Character_BP_Polar_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.07
+      Multi Spawn Chance: 0.7-0.2
+Container Name: null
+   Entry Name: Polar Ada - Snow Ext
+      Main BP: Adasaurus_Character_BP_Polar_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.07
+      Multi Spawn Chance: 0.7-0.2
 
 MultiParams Summary: 
    Main BP: Adasaurus_Character_BP_Aberrant_C
       Entry Weight:                   0.055
       Spawn Limit:                             0.07
-      Multi Spawn Chance:                               0.5
+      Multi Spawn Chance:                               1.0
       Entry Weight:                   0.055
       Spawn Limit:                             0.07
       Multi Spawn Chance:                               1.0
@@ -227,6 +241,12 @@ MultiParams Summary:
       Multi Spawn Chance:                               0.7-0.2
       Entry Weight:                   0.08
       Spawn Limit:                             0.1
+      Multi Spawn Chance:                               0.7-0.2
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.07
+      Multi Spawn Chance:                               0.7-0.2
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.07
       Multi Spawn Chance:                               0.7-0.2
 
    Main BP: Adasaurus_Character_BP_Scorched_C

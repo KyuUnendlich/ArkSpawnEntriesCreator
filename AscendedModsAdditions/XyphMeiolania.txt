@@ -1,5 +1,5 @@
 All Entry Names: 
-   Meiolania  x 29
+   Meiolania  x 33
 
 Engram Entries: 
    EngramEntry_MeiolaniaSaddle_C
@@ -186,6 +186,30 @@ Container Name: null
       Entry Weight: 0.3
       Spawn Limit: 
       Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Meiolania
+      Main BP: Meiolania_Character_BP_C
+      Entry Weight: 0.3
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Meiolania
+      Main BP: Meiolania_Character_BP_C
+      Entry Weight: 0.3
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Meiolania
+      Main BP: Meiolania_Character_BP_C
+      Entry Weight: 0.3
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Meiolania
+      Main BP: Meiolania_Character_BP_C
+      Entry Weight: 0.3
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
 
 MultiParams Summary: 
    Main BP: Meiolania_Character_BP_C
@@ -244,6 +268,18 @@ MultiParams Summary:
       Spawn Limit:                             
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.2
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.3
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.3
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.3
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.3
       Spawn Limit:                             
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.3

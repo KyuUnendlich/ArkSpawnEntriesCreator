@@ -1,6 +1,6 @@
 All Entry Names: 
    Aberrant Megistotherium  x 2
-   Megistotherium  x 51
+   Megistotherium  x 54
    MegistotheriumNoStripes  x 20
 
 Engram Entries: 
@@ -428,6 +428,24 @@ Container Name: null
       Entry Weight: 0.001
       Spawn Limit: 
       Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: MegistotheriumElVariant_CharacterBP_C
+      Entry Weight: 0.03
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: MegistotheriumElVariant_CharacterBP_C
+      Entry Weight: 0.03
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Megistotherium
+      Main BP: MegistotheriumElVariant_CharacterBP_C
+      Entry Weight: 0.03
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
 
 MultiParams Summary: 
    Main BP: Megistotherium_CharacterBP_C
@@ -563,6 +581,17 @@ MultiParams Summary:
       Spawn Limit:                             
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.025
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+
+   Main BP: MegistotheriumElVariant_CharacterBP_C
+      Entry Weight:                   0.03
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
       Spawn Limit:                             
       Multi Spawn Chance:                               1.0
 

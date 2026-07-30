@@ -1,15 +1,15 @@
 All Entry Names: 
-   Banffia  x 22
+   Banffia  x 31
    Banffia Aberrant  x 7
-   Nesonektris  x 22
+   Nesonektris  x 31
    Nesonektris Aberrant  x 7
-   Shenzianyuloma  x 22
+   Shenzianyuloma  x 31
    Shenzianyuloma Aberrant  x 7
-   Skeemella  x 22
+   Skeemella  x 31
    Skeemella Aberrant  x 7
-   Vetulicola  x 22
+   Vetulicola  x 31
    Vetulicola Aberrant  x 7
-   Yuyuanozoon  x 22
+   Yuyuanozoon  x 31
    Yuyuanozoon Aberrant  x 7
 
 Engram Entries: 
@@ -923,6 +923,285 @@ Container Name: null
       Entry Weight: 0.166667
       Spawn Limit: 
       Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+Container Name: null
+   Entry Name: Shenzianyuloma
+      Main BP: ShenzianyulomaV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Nesonektris
+      Main BP: NesonektrisV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Yuyuanozoon
+      Main BP: YuyuanozoonV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Banffia
+      Main BP: BanffiaV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Skeemella
+      Main BP: SkeemellaV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Vetulicola
+      Main BP: VetulicolaV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+Container Name: null
+   Entry Name: Shenzianyuloma
+      Main BP: ShenzianyulomaV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Nesonektris
+      Main BP: NesonektrisV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Yuyuanozoon
+      Main BP: YuyuanozoonV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Banffia
+      Main BP: BanffiaV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Skeemella
+      Main BP: SkeemellaV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Vetulicola
+      Main BP: VetulicolaV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+Container Name: null
+   Entry Name: Shenzianyuloma
+      Main BP: ShenzianyulomaV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Nesonektris
+      Main BP: NesonektrisV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Yuyuanozoon
+      Main BP: YuyuanozoonV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Banffia
+      Main BP: BanffiaV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Skeemella
+      Main BP: SkeemellaV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Vetulicola
+      Main BP: VetulicolaV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+Container Name: null
+   Entry Name: Shenzianyuloma
+      Main BP: ShenzianyulomaV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Nesonektris
+      Main BP: NesonektrisV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Yuyuanozoon
+      Main BP: YuyuanozoonV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Banffia
+      Main BP: BanffiaV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Skeemella
+      Main BP: SkeemellaV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Vetulicola
+      Main BP: VetulicolaV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+Container Name: null
+   Entry Name: Shenzianyuloma
+      Main BP: ShenzianyulomaV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Nesonektris
+      Main BP: NesonektrisV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Yuyuanozoon
+      Main BP: YuyuanozoonV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Banffia
+      Main BP: BanffiaV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Skeemella
+      Main BP: SkeemellaV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Vetulicola
+      Main BP: VetulicolaV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+Container Name: null
+   Entry Name: Shenzianyuloma
+      Main BP: ShenzianyulomaV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Nesonektris
+      Main BP: NesonektrisV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Yuyuanozoon
+      Main BP: YuyuanozoonV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Banffia
+      Main BP: BanffiaV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Skeemella
+      Main BP: SkeemellaV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Vetulicola
+      Main BP: VetulicolaV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+Container Name: null
+   Entry Name: Shenzianyuloma
+      Main BP: ShenzianyulomaV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Nesonektris
+      Main BP: NesonektrisV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Yuyuanozoon
+      Main BP: YuyuanozoonV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Banffia
+      Main BP: BanffiaV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Skeemella
+      Main BP: SkeemellaV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Vetulicola
+      Main BP: VetulicolaV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+Container Name: null
+   Entry Name: Shenzianyuloma
+      Main BP: ShenzianyulomaV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Nesonektris
+      Main BP: NesonektrisV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Yuyuanozoon
+      Main BP: YuyuanozoonV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Banffia
+      Main BP: BanffiaV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Skeemella
+      Main BP: SkeemellaV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Vetulicola
+      Main BP: VetulicolaV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+Container Name: null
+   Entry Name: Shenzianyuloma
+      Main BP: ShenzianyulomaV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Nesonektris
+      Main BP: NesonektrisV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Yuyuanozoon
+      Main BP: YuyuanozoonV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Banffia
+      Main BP: BanffiaV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Skeemella
+      Main BP: SkeemellaV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
+   Entry Name: Vetulicola
+      Main BP: VetulicolaV_CharacterBP_C
+      Entry Weight: 0.166667
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.9-0.8-0.7-0.6
 
 MultiParams Summary: 
    Main BP: BanffiaAberrant_CharacterBP_C
@@ -992,6 +1271,33 @@ MultiParams Summary:
       Spawn Limit:                             
       Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
       Entry Weight:                   0.066667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
       Spawn Limit:                             
       Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
       Entry Weight:                   0.166667
@@ -1106,6 +1412,33 @@ MultiParams Summary:
       Entry Weight:                   0.166667
       Spawn Limit:                             
       Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
 
    Main BP: ShenzianyulomaAberrantV_CharacterBP_C
       Entry Weight:                   0.166667
@@ -1174,6 +1507,33 @@ MultiParams Summary:
       Spawn Limit:                             
       Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
       Entry Weight:                   0.066667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
       Spawn Limit:                             
       Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
       Entry Weight:                   0.166667
@@ -1288,6 +1648,33 @@ MultiParams Summary:
       Entry Weight:                   0.166667
       Spawn Limit:                             
       Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
 
    Main BP: VetulicolaAberrant_CharacterBP_C
       Entry Weight:                   0.166667
@@ -1379,6 +1766,33 @@ MultiParams Summary:
       Entry Weight:                   0.166667
       Spawn Limit:                             
       Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
 
    Main BP: YuyuanozoonAberrant_CharacterBP_C
       Entry Weight:                   0.166667
@@ -1447,6 +1861,33 @@ MultiParams Summary:
       Spawn Limit:                             
       Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
       Entry Weight:                   0.066667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
+      Entry Weight:                   0.166667
       Spawn Limit:                             
       Multi Spawn Chance:                               1.0-0.9-0.8-0.7-0.6
       Entry Weight:                   0.166667
