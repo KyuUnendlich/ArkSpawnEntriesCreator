@@ -1,6 +1,7 @@
 All Entry Names: 
    Tarbo (1)  x 1
    Tarbosaurus  x 2
+   X-EvoGigantosaurus (1)  x 1
 
 Engram Entries: 
    EngramEntry_Saddle_EVO_Giga_C
@@ -61,6 +62,11 @@ ToClass:
       /PA_EVO_Pack_01/Dinos/EVO_Rex/Extinction/EVO_Alpha_Corrupt_Tek_Rex_Character_BP.EVO_Alpha_Corrupt_Tek_Rex_Character_BP_C
       
 FromClass: 
+      /Game/Genesis/Dinos/BiomeVariants/Volcano_Rex/Volcano_Rex_Character_BP.Volcano_Rex_Character_BP_C
+ToClass: 
+      /PA_EVO_Pack_01/Dinos/EVO_Rex/Genesis/EVO_Volcano_Rex_Character_BP.EVO_Volcano_Rex_Character_BP_C
+      
+FromClass: 
       /PA_EVO_Pack_01/Dinos/EVO_Rex/EVO_Rex_Character_BP.EVO_Rex_Character_BP_C
 ToClass: 
       /PA_EVO_Pack_01/Dinos/EVO_Rex/Legacy/EVO_Legacy_Rex_Character_BP.EVO_Legacy_Rex_Character_BP_C
@@ -112,6 +118,12 @@ Container Name: null
       Entry Weight: 0.02
       Spawn Limit: 0.05
       Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: X-EvoGigantosaurus (1)
+      Main BP: EVO_Volcano_Giga_Character_BP_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0
 
 MultiParams Summary: 
    Main BP: EVO_Tarbo_Character_BP_C
@@ -123,5 +135,10 @@ MultiParams Summary:
       Multi Spawn Chance:                               0.35
       Entry Weight:                   0.02
       Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+
+   Main BP: EVO_Volcano_Giga_Character_BP_C
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
       Multi Spawn Chance:                               1.0
 

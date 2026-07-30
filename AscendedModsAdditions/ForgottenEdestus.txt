@@ -1,0 +1,128 @@
+All Entry Names: 
+   NULL  x 12
+
+Engram Entries: 
+   EngramEntry_AmmoniteFlesh_C
+   EngramEntry_HerbalFish_C
+   EngramEntry_Saddle_EdestusAbyssal_C
+   EngramEntry_Saddle_OceanEdestus_C
+
+Dino Entries: 
+   Edestus_C
+   OceanEdestus_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: 
+      Main BP: FFEdestus_Character_BP_C
+      Entry Weight: 0.06
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0-0.75-0.5-0.25
+Container Name: null
+   Entry Name: 
+      Main BP: FFEdestus_Character_BP_C
+      Entry Weight: 0.06
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0-0.75-0.5-0.25
+Container Name: null
+   Entry Name: 
+      Main BP: FFEdestus_Character_BP_C
+      Entry Weight: 0.06
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0-0.75-0.5-0.25
+Container Name: null
+   Entry Name: 
+      Main BP: FFEdestus_Character_BP_C
+      Entry Weight: 0.06
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0-0.75-0.5-0.25
+Container Name: null
+   Entry Name: 
+      Main BP: FFEdestus_Character_BP_C
+      Entry Weight: 0.06
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0-0.75-0.5-0.25
+Container Name: null
+   Entry Name: 
+      Main BP: FFEdestus_Character_BP_C
+      Entry Weight: 0.06
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0-0.75-0.5-0.25
+Container Name: null
+   Entry Name: 
+      Main BP: FFEdestus_Character_BP_Abyssal_C
+      Entry Weight: 0.06
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0-0.75-0.5-0.25
+Container Name: null
+   Entry Name: 
+      Main BP: FFEdestus_Character_BP_Abyssal_C
+      Entry Weight: 0.06
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0-0.75-0.5-0.25
+Container Name: null
+   Entry Name: 
+      Main BP: FFEdestus_Character_BP_Abyssal_C
+      Entry Weight: 0.06
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0-0.75-0.5-0.25
+Container Name: null
+   Entry Name: 
+      Main BP: FFEdestus_Character_BP_Abyssal_C
+      Entry Weight: 0.06
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0-0.75-0.5-0.25
+Container Name: null
+   Entry Name: 
+      Main BP: FFEdestus_Character_BP_Abyssal_C
+      Entry Weight: 0.06
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0-0.75-0.5-0.25
+Container Name: null
+   Entry Name: 
+      Main BP: FFEdestus_Character_BP_Abyssal_C
+      Entry Weight: 0.06
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0-0.75-0.5-0.25
+
+MultiParams Summary: 
+   Main BP: FFEdestus_Character_BP_Abyssal_C
+      Entry Weight:                   0.06
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0-0.75-0.5-0.25
+      Entry Weight:                   0.06
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0-0.75-0.5-0.25
+      Entry Weight:                   0.06
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0-0.75-0.5-0.25
+      Entry Weight:                   0.06
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0-0.75-0.5-0.25
+      Entry Weight:                   0.06
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0-0.75-0.5-0.25
+      Entry Weight:                   0.06
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0-0.75-0.5-0.25
+
+   Main BP: FFEdestus_Character_BP_C
+      Entry Weight:                   0.06
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0-0.75-0.5-0.25
+      Entry Weight:                   0.06
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0-0.75-0.5-0.25
+      Entry Weight:                   0.06
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0-0.75-0.5-0.25
+      Entry Weight:                   0.06
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0-0.75-0.5-0.25
+      Entry Weight:                   0.06
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0-0.75-0.5-0.25
+      Entry Weight:                   0.06
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0-0.75-0.5-0.25
+

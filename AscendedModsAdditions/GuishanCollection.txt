@@ -2,18 +2,22 @@ All Entry Names:
    Arambourgiania  x 3
    Archelon  x 5
    Arganodus  x 4
+   Chinela  x 2
+   Chinlea  x 5
    Deinocherius  x 5
    GSC_Ichthyostega  x 6
    Ichthyostega  x 1
    Ino  x 6
    Inostrancevia  x 1
    Mawsonia  x 4
+   Oxalaia  x 7
    Prenocephale  x 7
    Probactro  x 7
    Probactrosaurus  x 1
    Probcatrosaurus  x 1
    Tarbo  x 4
    Tarchia  x 5
+   X-Ino  x 1
 
 Engram Entries: 
    EngramEntry_Saddle_Prenocephale_GSC_C
@@ -30,6 +34,8 @@ Engram Entries:
    EngramEntry_Saddle_Ichthyostega_GSC_C
    EngramEntry_Saddle_Archelon_GSC_C
    EngramEntry_Saddle_Mawsonia_GSC_C
+   EngramEntry_Saddle_Oxalaia_GSC_C
+   EngramEntry_Saddle_Chinlea_GSC_C
 
 Dino Entries: 
    Tarbosaurus_GSC_C
@@ -43,6 +49,8 @@ Dino Entries:
    Ichthyostega_GSC_C
    Archelon_GSC_C
    Mawsonia_GSC_C
+   Oxalaia_GSC_C
+   Chinlea_GSC_C
 
 Dino Additions: 
 Container Name: null
@@ -144,6 +152,11 @@ Container Name: null
       Entry Weight: 0.03
       Spawn Limit: 0.05
       Multi Spawn Chance: 1.0
+   Entry Name: Oxalaia
+      Main BP: Oxalaia_Character_BP_GSC_C
+      Entry Weight: 0.0125
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: Prenocephale
       Main BP: Prenocephale_Character_BP_GSC_C
@@ -185,23 +198,33 @@ Container Name: null
 Container Name: null
    Entry Name: Deinocherius
       Main BP: Deinocheirus_Character_BP_GSC_C
-      Entry Weight: 0.006
-      Spawn Limit: 0.02
+      Entry Weight: 0.01
+      Spawn Limit: 0.01
       Multi Spawn Chance: 1.0
    Entry Name: Arganodus
       Main BP: Arganodus_Character_BP_GSC_C
-      Entry Weight: 0.03
+      Entry Weight: 0.04
       Spawn Limit: 0.05
       Multi Spawn Chance: 1.0
    Entry Name: Ichthyostega
       Main BP: Ichthyostega_Character_BP_GSC_C
-      Entry Weight: 0.05
+      Entry Weight: 0.04
       Spawn Limit: 0.05
       Multi Spawn Chance: 1.0
+   Entry Name: Oxalaia
+      Main BP: Oxalaia_Character_BP_GSC_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0
+   Entry Name: Chinlea
+      Main BP: Chinlea_Character_BP_GSC_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.5
 Container Name: null
    Entry Name: Deinocherius
       Main BP: Deinocheirus_Character_BP_GSC_C
-      Entry Weight: 0.005
+      Entry Weight: 0.01
       Spawn Limit: 0.02
       Multi Spawn Chance: 1.0
    Entry Name: Arganodus
@@ -211,9 +234,19 @@ Container Name: null
       Multi Spawn Chance: 1.0
    Entry Name: GSC_Ichthyostega
       Main BP: Ichthyostega_Character_BP_GSC_C
-      Entry Weight: 0.05
+      Entry Weight: 0.04
       Spawn Limit: 0.05
       Multi Spawn Chance: 1.0
+   Entry Name: Oxalaia
+      Main BP: Oxalaia_Character_BP_GSC_C
+      Entry Weight: 0.015
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+   Entry Name: Chinlea
+      Main BP: Chinlea_Character_BP_GSC_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.5
 Container Name: null
    Entry Name: Deinocherius
       Main BP: Deinocheirus_Character_BP_GSC_C
@@ -252,6 +285,11 @@ Container Name: null
       Main BP: Archelon_Character_BP_GSC_C
       Entry Weight: 0.03
       Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+   Entry Name: Oxalaia
+      Main BP: Oxalaia_Character_BP_GSC_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.025
       Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: Probactrosaurus
@@ -305,6 +343,11 @@ Container Name: null
       Entry Weight: 0.02
       Spawn Limit: 0.05
       Multi Spawn Chance: 1.0-0.66-0.33
+   Entry Name: Chinlea
+      Main BP: Chinlea_Character_BP_GSC_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.5-0.2
 Container Name: null
    Entry Name: Arganodus
       Main BP: Arganodus_Character_BP_GSC_C
@@ -318,9 +361,14 @@ Container Name: null
       Multi Spawn Chance: 1.0
    Entry Name: Mawsonia
       Main BP: Mawsonia_Character_BP_GSC_C
-      Entry Weight: 0.1
-      Spawn Limit: 
-      Multi Spawn Chance: 1.0-0.75-0.5-0.25
+      Entry Weight: 0.075
+      Spawn Limit: 0.08
+      Multi Spawn Chance: 1.0-0.8-0.5-0.2
+   Entry Name: Chinlea
+      Main BP: Chinlea_Character_BP_GSC_C
+      Entry Weight: 0.06
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.6-0.3
 Container Name: null
    Entry Name: GSC_Ichthyostega
       Main BP: Ichthyostega_Character_BP_GSC_C
@@ -357,6 +405,11 @@ Container Name: null
       Entry Weight: 0.03
       Spawn Limit: 0.05
       Multi Spawn Chance: 1.0
+   Entry Name: Chinlea
+      Main BP: Chinlea_Character_BP_GSC_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.5
 Container Name: null
    Entry Name: Archelon
       Main BP: Archelon_Character_BP_GSC_C
@@ -368,6 +421,11 @@ Container Name: null
       Entry Weight: 0.04
       Spawn Limit: 0.05
       Multi Spawn Chance: 1.0-0.5-0.25-1.0
+   Entry Name: Chinela
+      Main BP: Chinlea_Character_BP_GSC_C
+      Entry Weight: 0.06
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.6-0.3
 Container Name: null
    Entry Name: Archelon
       Main BP: Archelon_Character_BP_GSC_C
@@ -376,12 +434,38 @@ Container Name: null
       Multi Spawn Chance: 1.0
    Entry Name: Mawsonia
       Main BP: Mawsonia_Character_BP_GSC_C
-      Entry Weight: 0.04
+      Entry Weight: 0.06
       Spawn Limit: 0.05
       Multi Spawn Chance: 1.0-0.66-0.33
+   Entry Name: Chinela
+      Main BP: Chinlea_Character_BP_GSC_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.6-0.3
 Container Name: null
+   Entry Name: Oxalaia
+      Main BP: Oxalaia_Character_BP_GSC_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
 Container Name: null
+   Entry Name: Oxalaia
+      Main BP: Oxalaia_Character_BP_GSC_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
 Container Name: null
+   Entry Name: Oxalaia
+      Main BP: Oxalaia_Character_BP_GSC_C
+      Entry Weight: 0.01
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: X-Ino
+      Main BP: Snow_Inostrancevia_Character_BP_GSC_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0
 
 Global Entry Weights: 
    Main BP: Ichthyostega_Character_BP_GSC_C
@@ -432,7 +516,7 @@ MultiParams Summary:
       Multi Spawn Chance:                               1.0
 
    Main BP: Arganodus_Character_BP_GSC_C
-      Entry Weight:                   0.03
+      Entry Weight:                   0.04
       Spawn Limit:                             0.05
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.04
@@ -445,11 +529,34 @@ MultiParams Summary:
       Spawn Limit:                             0.1
       Multi Spawn Chance:                               1.0
 
+   Main BP: Chinlea_Character_BP_GSC_C
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.5-0.2
+      Entry Weight:                   0.06
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.6-0.3
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.06
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.6-0.3
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.6-0.3
+
    Main BP: Deinocheirus_Character_BP_GSC_C
-      Entry Weight:                   0.006
-      Spawn Limit:                             0.02
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.01
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.005
+      Entry Weight:                   0.01
       Spawn Limit:                             0.02
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.01
@@ -463,10 +570,10 @@ MultiParams Summary:
       Multi Spawn Chance:                               1.0
 
    Main BP: Ichthyostega_Character_BP_GSC_C
-      Entry Weight:                   0.05
+      Entry Weight:                   0.04
       Spawn Limit:                             0.05
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.05
+      Entry Weight:                   0.04
       Spawn Limit:                             0.05
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.05
@@ -512,15 +619,38 @@ MultiParams Summary:
       Entry Weight:                   0.02
       Spawn Limit:                             0.05
       Multi Spawn Chance:                               1.0-0.66-0.33
-      Entry Weight:                   0.1
-      Spawn Limit:                             
-      Multi Spawn Chance:                               1.0-0.75-0.5-0.25
+      Entry Weight:                   0.075
+      Spawn Limit:                             0.08
+      Multi Spawn Chance:                               1.0-0.8-0.5-0.2
       Entry Weight:                   0.04
       Spawn Limit:                             0.05
       Multi Spawn Chance:                               1.0-0.5-0.25-1.0
-      Entry Weight:                   0.04
+      Entry Weight:                   0.06
       Spawn Limit:                             0.05
       Multi Spawn Chance:                               1.0-0.66-0.33
+
+   Main BP: Oxalaia_Character_BP_GSC_C
+      Entry Weight:                   0.0125
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.015
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0
 
    Main BP: Prenocephale_Character_BP_GSC_C
       Entry Weight:                   0.035
@@ -572,6 +702,11 @@ MultiParams Summary:
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.02
       Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+
+   Main BP: Snow_Inostrancevia_Character_BP_GSC_C
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.04
       Multi Spawn Chance:                               1.0
 
    Main BP: Tarchia_Character_BP_GSC_C

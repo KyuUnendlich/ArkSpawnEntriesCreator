@@ -73,11 +73,6 @@ Container Name: null
       Spawn Limit: 0.2
       Multi Spawn Chance: 1.0-1.0-1.0-0.5-0.5-0.5-0.5-0.5
 
-Global Entry Weights: 
-   Main BP: Pachyrhino_Character_BP_C
-      SubBP: ClayPachyrhino_Character_BP_C 0.9
-      SubBP: GreaterClayPachyrhino_Character_BP_Child_C 0.1
-
 MultiParams Summary: 
    Main BP: ClayPachyrhino_Character_BP_C
       Entry Weight:                   0.07

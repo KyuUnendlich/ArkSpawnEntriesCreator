@@ -1,9 +1,11 @@
 All Entry Names: 
    AB GiantSpino  x 1
+   AB Maip  x 1
    Austro  x 1
    Austroraptor  x 3
    Giant Spino  x 2
    GiantSpino  x 2
+   Maip  x 3
    Saurophaganax  x 6
    Shoni  x 1
    Torvo  x 3
@@ -20,6 +22,7 @@ Engram Entries:
    EngramEntry_Saddle_Shoni_Platform_BC_C
    EngramEntry_Saddle_Saurophaganax_BC_C
    EngramEntry_Saddle_Austroraptor_BC_C
+   EngramEntry_Saddle_Maip_BC_C
 
 Dino Entries: 
    Torvosaurus_BC_C
@@ -27,6 +30,7 @@ Dino Entries:
    Shonisaurus_BC_C
    Saurophaganax_BC_C
    Austroraptor_BC_C
+   Maip_BC_C
 
 Dino Additions: 
 Container Name: null
@@ -200,7 +204,40 @@ Container Name: null
          SubBP: Austroraptor_Character_BP_BC_C 0.97
          SubBP: Austroraptor_Character_BP_Alpha_C 0.03
 Container Name: null
+   Entry Name: Maip
+      Main BP: Maip_Character_BP_BC_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+         SubBP: Maip_Character_BP_BC_C 0.8
+         SubBP: Maip_Character_BP_BC_Alpha_C 0.03
+         SubBP: Maip_Character_BP_BC_Woolly_C 0.17
 Container Name: null
+   Entry Name: Maip
+      Main BP: Maip_Character_BP_BC_C
+      Entry Weight: 0.03
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+         SubBP: Maip_Character_BP_BC_C 0.8
+         SubBP: Maip_Character_BP_BC_Alpha_C 0.03
+         SubBP: Maip_Character_BP_BC_Woolly_C 0.17
+Container Name: null
+   Entry Name: AB Maip
+      Main BP: Maip_Character_BP_BC_Aberrant_C
+      Entry Weight: 0.02
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+         SubBP: Maip_Character_BP_BC_Aberrant_C 0.96
+         SubBP: Maip_Character_BP_BC_Alpha_C 0.04
+Container Name: null
+   Entry Name: Maip
+      Main BP: Maip_Character_BP_BC_C
+      Entry Weight: 0.125
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+         SubBP: Maip_Character_BP_BC_C 0.5
+         SubBP: Maip_Character_BP_BC_Alpha_C 0.03
+         SubBP: Maip_Character_BP_BC_Woolly_C 0.47
 
 MultiParams Summary: 
    Main BP: Austroraptor_Character_BP_BC_C
@@ -244,6 +281,26 @@ SubBPList: GiantSpino_Character_BP_BC_C: 0.97, GiantSpino_Character_BP_BC_Alpha_
 SubBPList: GiantSpino_Character_BP_BC_C: 0.97, GiantSpino_Character_BP_BC_Alpha_C: 0.03
 SubBPList: GiantSpino_Character_BP_BC_C: 0.97, GiantSpino_Character_BP_BC_Alpha_C: 0.03
 SubBPList: GiantSpino_Character_BP_BC_C: 0.97, GiantSpino_Character_BP_BC_Alpha_C: 0.03
+
+   Main BP: Maip_Character_BP_BC_Aberrant_C
+      Entry Weight:                   0.02
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+SubBPList: Maip_Character_BP_BC_Aberrant_C: 0.96, Maip_Character_BP_BC_Alpha_C: 0.04
+
+   Main BP: Maip_Character_BP_BC_C
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.03
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.125
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+SubBPList: Maip_Character_BP_BC_C: 0.8, Maip_Character_BP_BC_Alpha_C: 0.03, Maip_Character_BP_BC_Woolly_C: 0.17
+SubBPList: Maip_Character_BP_BC_C: 0.8, Maip_Character_BP_BC_Alpha_C: 0.03, Maip_Character_BP_BC_Woolly_C: 0.17
+SubBPList: Maip_Character_BP_BC_C: 0.5, Maip_Character_BP_BC_Alpha_C: 0.03, Maip_Character_BP_BC_Woolly_C: 0.47
 
    Main BP: Saurophaganax_Character_BP_BC_C
       Entry Weight:                   0.01
