@@ -46,7 +46,7 @@ namespace ArkSpawnEntriesCreator
         {
             Prehistoric1, /*Beasts*/                XyphMischoptera,                    ACEndemics, /*Endemics*/            MarniiGriffins, /*Marnii MULTI*/FerasMegalodon,
             Prehistoric2,                           XyphVetuli,                         ACAquaria, /*Aquaria*/              IslaNycta,                      Vorath,
-            Prehistoric3,                           KamiFeral,                          AC2WildArk, /*Addititio   2 Files*/ PaddletailSpino, /*PSpino*/     
+            Prehistoric3,                           KamiFeral,                          AC2WildArk, /*Addititio   2 Files*/ PaddletailSpino, /*PSpino*/     TyloRex,
             Prehistoric4,                           TheSunkenWorld,                     FayeMenagerie, /*Menagerie*/        PolyOrycterocetus,              
             Prehistoric5,                           NeoEuropa, /*Europa*/               AussieDiamantina, /*NickDiamant*/   DeimosShantungo,                
             CyrusDrakonis,                          FerasDinocroc,                      AussieMuttaburra, /*NickMutta*/     MegaBitsAndBobs,                
@@ -81,7 +81,7 @@ namespace ArkSpawnEntriesCreator
             XyphMeiolania,                          RoyalArchaeopteryx,                 AnomalyGalvarex,                    FerasMegalania,                 ImprovedPhoenix,
         }
 
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/Drawbridge.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/TyloRex.txt";
         const bool replaceFile = true;
         const bool multimain = false;
 
@@ -117,13 +117,13 @@ namespace ArkSpawnEntriesCreator
             //ASA_SpawnContainers.CreateToolkitReplacements(path_toolkit, Path_test);
             //ASA_SpawnContainers.CreateToolkitSpawners(path_spawn, Path_test);
 
-            //ASA_LootDrops.CreateModdedLootdrops(path_lootbase, path_loot, Path_test);
+            ASA_LootDrops.CreateModdedLootdrops(path_lootbase, path_loot, Path_test);
 
             //ASA_Engrams.AddModifiersToEngrams(path_engram, Path_test);
 
             //ASA_SpawnContainers.CreateSpawnContainerAdditions(path_spawn, Path_test);
 
-            ASAExtractor();
+            //ASAExtractor();
         }
 
         public static void ASAExtractor()

@@ -1,0 +1,29 @@
+ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT Remaps: 
+      
+FromClass: 
+      /Game/PrimalEarth/Dinos/Megalodon/Megalodon_Character_BP.Megalodon_Character_BP_C
+ToClass: 
+      /FerasTLCs_Megalodon/TLCMegalodon_Character_BP.TLCMegalodon_Character_BP_C
+      
+FromClass: 
+      /Game/Genesis/Dinos/BiomeVariants/Ocean_Megalodon/Ocean_Megalodon_Character_BP.Ocean_Megalodon_Character_BP_C
+ToClass: 
+      /FerasTLCs_Megalodon/Ocean_TLCMegalodon_Character_BP.Ocean_TLCMegalodon_Character_BP_C
+      
+FromClass: 
+      /Game/PrimalEarth/Dinos/Megalodon/MEgaMegalodon_Character_BP.MegaMegalodon_Character_BP_C
+ToClass: 
+      /FerasTLCs_Megalodon/MegaTLCMegalodon_Character_BP.MegaTLCMegalodon_Character_BP_C
+
+ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT ALERT Remapped Engrams: 
+      
+FromClass: 
+      /Game/PrimalEarth/CoreBlueprints/Engrams/EngramEntry_Saddle_Megalodon.EngramEntry_Saddle_Megalodon_C
+ToClass: 
+      /FerasTLCs_Megalodon/Saddle/EngramEntry_Saddle_TLCMegalodonSaddle.EngramEntry_Saddle_TLCMegalodonSaddle_C
+      
+FromClass: 
+      /Game/PrimalEarth/CoreBlueprints/Engrams/EngramEntry_TekMegalodonSaddle.EngramEntry_TekMegalodonSaddle_C
+ToClass: 
+      /FerasTLCs_Megalodon/Saddle/EngramEntry_TLCTekMegalodonSaddle.EngramEntry_TLCTekMegalodonSaddle_C
+
