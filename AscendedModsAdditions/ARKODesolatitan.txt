@@ -1,5 +1,6 @@
 All Entry Names: 
    Desolatitan (1)  x 4
+   X-Desola (1)  x 1
 
 Engram Entries: 
    EngramEntry_PrimalSummoner_C
@@ -40,6 +41,12 @@ Container Name: null
       Entry Weight: 0.1
       Spawn Limit: 0.1
       Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: X-Desola (1)
+      Main BP: Snow_Desolatitan_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.003
+      Multi Spawn Chance: 0.003
 
 Global Entry Weights: 
    Main BP: Desolatitan_Character_BP_C
@@ -65,4 +72,9 @@ MultiParams Summary:
       Entry Weight:                   0.1
       Spawn Limit:                             0.1
       Multi Spawn Chance:                               1.0
+
+   Main BP: Snow_Desolatitan_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.003
+      Multi Spawn Chance:                               0.003
 

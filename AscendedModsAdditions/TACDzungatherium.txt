@@ -3,7 +3,7 @@ All Entry Names:
    BlueZone  x 1
    Canyon  x 3
    EX Oasis  x 1
-   Grasslands  x 8
+   Grasslands  x 10
    Grasslands Alpha  x 4
    Greenzone  x 4
    Redwoods  x 2
@@ -169,6 +169,18 @@ Container Name: null
       Entry Weight: 0.02
       Spawn Limit: 0.05
       Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Grasslands
+      Main BP: Bog_Dzung_Character_BP_Child_C
+      Entry Weight: 0.75
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Grasslands
+      Main BP: Bog_Dzung_Character_BP_Child_C
+      Entry Weight: 0.4
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 
 
 MultiParams Summary: 
    Main BP: AB-Dzung_Character_BP_Child_C
@@ -202,6 +214,14 @@ MultiParams Summary:
       Spawn Limit:                             0.05
       Multi Spawn Chance:                               
       Entry Weight:                   0.015
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+
+   Main BP: Bog_Dzung_Character_BP_Child_C
+      Entry Weight:                   0.75
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.4
       Spawn Limit:                             0.05
       Multi Spawn Chance:                               
 

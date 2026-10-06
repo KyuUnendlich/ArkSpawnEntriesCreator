@@ -1,5 +1,6 @@
 All Entry Names: 
    Dracoteuthis  x 1
+   Dracoteuthis (1)  x 1
    Dracoteuthis (Valg)  x 1
    Squiddo  x 1
 
@@ -16,56 +17,6 @@ Container Name: null
       Entry Weight: 0.01
       Spawn Limit: 0.01
       Multi Spawn Chance: 1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-   Entry Name: Dracoteuthis
-      Main BP: Pteroteuthis_Char_BP_C
-      Entry Weight: 0.01
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-   Entry Name: Dracoteuthis
-      Main BP: Pteroteuthis_Char_BP_C
-      Entry Weight: 0.01
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-   Entry Name: Dracoteuthis
-      Main BP: Pteroteuthis_Char_BP_C
-      Entry Weight: 0.01
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-   Entry Name: Dracoteuthis
-      Main BP: Pteroteuthis_Char_BP_C
-      Entry Weight: 0.01
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-   Entry Name: Dracoteuthis
-      Main BP: Pteroteuthis_Char_BP_C
-      Entry Weight: 0.01
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-   Entry Name: Dracoteuthis
-      Main BP: Pteroteuthis_Char_BP_C
-      Entry Weight: 0.01
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-   Entry Name: Dracoteuthis
-      Main BP: Pteroteuthis_Char_BP_C
-      Entry Weight: 0.01
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-   Entry Name: Dracoteuthis
-      Main BP: Pteroteuthis_Char_BP_C
-      Entry Weight: 0.01
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-   Entry Name: Dracoteuthis
-      Main BP: Pteroteuthis_Char_BP_C
-      Entry Weight: 0.01
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-   Entry Name: Dracoteuthis
-      Main BP: Pteroteuthis_Char_BP_C
-      Entry Weight: 0.01
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
 Container Name: null
    Entry Name: Squiddo
       Main BP: Dracoteuthis_Character_BP_C
@@ -78,56 +29,12 @@ Container Name: null
       Entry Weight: 0.04
       Spawn Limit: 0.05
       Multi Spawn Chance: 1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-   Entry Name: Dracoteuthis (Valg)
-      Main BP: Pteroteuthis_Char_BP_C
-      Entry Weight: 0.04
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-   Entry Name: Dracoteuthis (Valg)
-      Main BP: Pteroteuthis_Char_BP_C
-      Entry Weight: 0.04
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-   Entry Name: Dracoteuthis (Valg)
-      Main BP: Pteroteuthis_Char_BP_C
-      Entry Weight: 0.04
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-   Entry Name: Dracoteuthis (Valg)
-      Main BP: Pteroteuthis_Char_BP_C
-      Entry Weight: 0.04
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-   Entry Name: Dracoteuthis (Valg)
-      Main BP: Pteroteuthis_Char_BP_C
-      Entry Weight: 0.04
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-   Entry Name: Dracoteuthis (Valg)
-      Main BP: Pteroteuthis_Char_BP_C
-      Entry Weight: 0.04
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-   Entry Name: Dracoteuthis (Valg)
-      Main BP: Pteroteuthis_Char_BP_C
-      Entry Weight: 0.04
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-   Entry Name: Dracoteuthis (Valg)
-      Main BP: Pteroteuthis_Char_BP_C
-      Entry Weight: 0.04
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-   Entry Name: Dracoteuthis (Valg)
-      Main BP: Pteroteuthis_Char_BP_C
-      Entry Weight: 0.04
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-   Entry Name: Dracoteuthis (Valg)
-      Main BP: Pteroteuthis_Char_BP_C
-      Entry Weight: 0.04
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
+Container Name: null
+   Entry Name: Dracoteuthis (1)
+      Main BP: Lunar_Dracoteuthis_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
 
 MultiParams Summary: 
    Main BP: Dracoteuthis_Character_BP_C
@@ -141,65 +48,8 @@ MultiParams Summary:
       Spawn Limit:                             0.05
       Multi Spawn Chance:                               1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
 
-   Main BP: Pteroteuthis_Char_BP_C
-      Entry Weight:                   0.01
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-      Entry Weight:                   0.01
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-      Entry Weight:                   0.01
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-      Entry Weight:                   0.01
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-      Entry Weight:                   0.01
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-      Entry Weight:                   0.01
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-      Entry Weight:                   0.01
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-      Entry Weight:                   0.01
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-      Entry Weight:                   0.01
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-      Entry Weight:                   0.01
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-      Entry Weight:                   0.04
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-      Entry Weight:                   0.04
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-      Entry Weight:                   0.04
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-      Entry Weight:                   0.04
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-      Entry Weight:                   0.04
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-      Entry Weight:                   0.04
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-      Entry Weight:                   0.04
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-      Entry Weight:                   0.04
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-      Entry Weight:                   0.04
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
-      Entry Weight:                   0.04
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0-1.0
+   Main BP: Lunar_Dracoteuthis_Character_BP_C
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
 

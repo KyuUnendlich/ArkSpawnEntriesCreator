@@ -4,6 +4,7 @@ All Entry Names:
 
 Engram Entries: 
    EngramEntry_Saddle_DevastatingRex_WPC_C
+   EngramEntry_AlphaDevastatingRexSummoner_C
 
 Dino Entries: 
    DevastatingRex_WPC_C
@@ -45,6 +46,11 @@ Container Name: null
       Entry Weight: 0.03
       Spawn Limit: 0.02
       Multi Spawn Chance: 1.0
+
+Global Entry Weights: 
+   Main BP: DevastatingRex_Character_BP_WPC_C
+      SubBP: DevastatingRex_Character_BP_WPC_C 0.95
+      SubBP: DevastatingRex_Character_BP_WPC_Alpha_C 0.05
 
 MultiParams Summary: 
    Main BP: DevastatingRex_Character_BP_WPC_C
