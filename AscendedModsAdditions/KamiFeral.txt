@@ -1,13 +1,16 @@
 All Entry Names: 
    Camarilla  x 7
    Camarillasaurus  x 2
-   Kurupi  x 15
-   Polar Camarilla  x 8
-   Polar Kurupi  x 8
-   Polar Titanophoneus  x 8
+   Kurupi  x 12
+   Polar Camarilla  x 9
+   Polar Kurupi  x 9
+   Polar Titanophoneus  x 9
    Taniwhasaurus  x 3
    Titanoph  x 1
-   Titanophoneus  x 12
+   Titanophoneus  x 10
+   X Camarillasaurus  x 1
+   X Kurupi  x 1
+   X Titanophoneus  x 1
 
 Engram Entries: 
    EngramEntry_Saddle_Titanophoneus_C
@@ -31,6 +34,10 @@ Dino Entries:
    Kurupi_Polar_C
    Titanophoneus_Polar_C
    Camarilla_Polar_C
+   Titanophoneus_X_C
+   Kurupi_X_C
+   Camarilla_X_C
+   Taniwhasaurus_X_C
 
 Dino Additions: 
 Container Name: null
@@ -207,184 +214,188 @@ Container Name: null
       Spawn Limit: 
       Multi Spawn Chance: 0.5-0.5
 Container Name: null
+   Entry Name: X Camarillasaurus
+      Main BP: K_Camarillasaurus_Character_BP_X_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+   Entry Name: X Kurupi
+      Main BP: K_Taniwhasaurus_Character_BP_X_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Polar Titanophoneus
+      Main BP: K_Titanophoneus_Character_BP_Polar_C
+      Entry Weight: 0.2
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: Polar Kurupi
+      Main BP: K_Kurupi_Character_BP_Polar_C
+      Entry Weight: 0.2
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+   Entry Name: Polar Camarilla
+      Main BP: K_Camarillasaurus_Character_BP_Polar_C
+      Entry Weight: 0.2
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Polar Titanophoneus
+      Main BP: K_Titanophoneus_Character_BP_Polar_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+   Entry Name: Polar Kurupi
+      Main BP: K_Kurupi_Character_BP_Polar_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+   Entry Name: Polar Camarilla
+      Main BP: K_Camarillasaurus_Character_BP_Polar_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Polar Titanophoneus
+      Main BP: K_Titanophoneus_Character_BP_Polar_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+   Entry Name: Polar Kurupi
+      Main BP: K_Kurupi_Character_BP_Polar_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+   Entry Name: Polar Camarilla
+      Main BP: K_Camarillasaurus_Character_BP_Polar_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Polar Titanophoneus
+      Main BP: K_Titanophoneus_Character_BP_Polar_C
+      Entry Weight: 0.3
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+   Entry Name: Polar Kurupi
+      Main BP: K_Kurupi_Character_BP_Polar_C
+      Entry Weight: 0.3
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+   Entry Name: Polar Camarilla
+      Main BP: K_Camarillasaurus_Character_BP_Polar_C
+      Entry Weight: 0.3
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Polar Titanophoneus
+      Main BP: K_Titanophoneus_Character_BP_Polar_C
+      Entry Weight: 0.3
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+   Entry Name: Polar Kurupi
+      Main BP: K_Kurupi_Character_BP_Polar_C
+      Entry Weight: 0.3
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+   Entry Name: Polar Camarilla
+      Main BP: K_Camarillasaurus_Character_BP_Polar_C
+      Entry Weight: 0.3
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Polar Titanophoneus
+      Main BP: K_Titanophoneus_Character_BP_Polar_C
+      Entry Weight: 0.3
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+   Entry Name: Polar Kurupi
+      Main BP: K_Kurupi_Character_BP_Polar_C
+      Entry Weight: 0.3
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+   Entry Name: Polar Camarilla
+      Main BP: K_Camarillasaurus_Character_BP_Polar_C
+      Entry Weight: 0.3
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Polar Titanophoneus
+      Main BP: K_Titanophoneus_Character_BP_Polar_C
+      Entry Weight: 0.3
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+   Entry Name: Polar Kurupi
+      Main BP: K_Kurupi_Character_BP_Polar_C
+      Entry Weight: 0.3
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+   Entry Name: Polar Camarilla
+      Main BP: K_Camarillasaurus_Character_BP_Polar_C
+      Entry Weight: 0.3
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Polar Titanophoneus
+      Main BP: K_Titanophoneus_Character_BP_Polar_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+   Entry Name: Polar Kurupi
+      Main BP: K_Kurupi_Character_BP_Polar_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+   Entry Name: Polar Camarilla
+      Main BP: K_Camarillasaurus_Character_BP_Polar_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+Container Name: null
    Entry Name: Titanophoneus
       Main BP: K_Titanophoneus_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+   Entry Name: Kurupi
+      Main BP: K_Kurupi_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 0.5-0.5
+Container Name: null
+   Entry Name: Titanophoneus
+      Main BP: K_Titanophoneus_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+   Entry Name: Kurupi
+      Main BP: K_Kurupi_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 0.5-0.5
+Container Name: null
+   Entry Name: Polar Titanophoneus
+      Main BP: K_Titanophoneus_Character_BP_Polar_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+   Entry Name: Polar Kurupi
+      Main BP: K_Kurupi_Character_BP_Polar_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+   Entry Name: Polar Camarilla
+      Main BP: K_Camarillasaurus_Character_BP_Polar_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: X Titanophoneus
+      Main BP: K_Titanophoneus_Character_BP_X_C
       Entry Weight: 0.1
-      Spawn Limit: 0.1
-      Multi Spawn Chance: 1.0
-   Entry Name: Kurupi
-      Main BP: K_Kurupi_Character_BP_C
-      Entry Weight: 0.1
-      Spawn Limit: 
-      Multi Spawn Chance: 0.5-0.5
-Container Name: null
-   Entry Name: Kurupi
-      Main BP: K_Kurupi_Character_BP_SE_C
-      Entry Weight: 0.08
-      Spawn Limit: 
-      Multi Spawn Chance: 0.5
-Container Name: null
-   Entry Name: Titanophoneus
-      Main BP: K_Titanophoneus_Character_BP_C
-      Entry Weight: 0.2
-      Spawn Limit: 0.1
-      Multi Spawn Chance: 1.0
-   Entry Name: Kurupi
-      Main BP: K_Kurupi_Character_BP_C
-      Entry Weight: 0.1
-      Spawn Limit: 
-      Multi Spawn Chance: 0.5-0.5
-Container Name: null
-Container Name: null
-   Entry Name: Polar Titanophoneus
-      Main BP: K_Titanophoneus_Character_BP_Polar_C
-      Entry Weight: 0.2
-      Spawn Limit: 
-      Multi Spawn Chance: 1.0
-   Entry Name: Polar Kurupi
-      Main BP: K_Kurupi_Character_BP_Polar_C
-      Entry Weight: 0.2
-      Spawn Limit: 
-      Multi Spawn Chance: 1.0
-   Entry Name: Polar Camarilla
-      Main BP: K_Camarillasaurus_Character_BP_Polar_C
-      Entry Weight: 0.2
-      Spawn Limit: 
-      Multi Spawn Chance: 1.0
-Container Name: null
-   Entry Name: Polar Titanophoneus
-      Main BP: K_Titanophoneus_Character_BP_Polar_C
-      Entry Weight: 0.2
       Spawn Limit: 0.2
       Multi Spawn Chance: 1.0
-   Entry Name: Polar Kurupi
-      Main BP: K_Kurupi_Character_BP_Polar_C
-      Entry Weight: 0.2
-      Spawn Limit: 0.2
-      Multi Spawn Chance: 1.0
-   Entry Name: Polar Camarilla
-      Main BP: K_Camarillasaurus_Character_BP_Polar_C
-      Entry Weight: 0.2
-      Spawn Limit: 0.2
-      Multi Spawn Chance: 1.0
-Container Name: null
-   Entry Name: Polar Titanophoneus
-      Main BP: K_Titanophoneus_Character_BP_Polar_C
-      Entry Weight: 0.2
-      Spawn Limit: 0.2
-      Multi Spawn Chance: 1.0
-   Entry Name: Polar Kurupi
-      Main BP: K_Kurupi_Character_BP_Polar_C
-      Entry Weight: 0.2
-      Spawn Limit: 0.2
-      Multi Spawn Chance: 1.0
-   Entry Name: Polar Camarilla
-      Main BP: K_Camarillasaurus_Character_BP_Polar_C
-      Entry Weight: 0.2
-      Spawn Limit: 0.2
-      Multi Spawn Chance: 1.0
-Container Name: null
-   Entry Name: Polar Titanophoneus
-      Main BP: K_Titanophoneus_Character_BP_Polar_C
-      Entry Weight: 0.3
-      Spawn Limit: 0.2
-      Multi Spawn Chance: 1.0
-   Entry Name: Polar Kurupi
-      Main BP: K_Kurupi_Character_BP_Polar_C
-      Entry Weight: 0.3
-      Spawn Limit: 0.2
-      Multi Spawn Chance: 1.0
-   Entry Name: Polar Camarilla
-      Main BP: K_Camarillasaurus_Character_BP_Polar_C
-      Entry Weight: 0.3
-      Spawn Limit: 0.2
-      Multi Spawn Chance: 1.0
-Container Name: null
-   Entry Name: Polar Titanophoneus
-      Main BP: K_Titanophoneus_Character_BP_Polar_C
-      Entry Weight: 0.3
-      Spawn Limit: 0.2
-      Multi Spawn Chance: 1.0
-   Entry Name: Polar Kurupi
-      Main BP: K_Kurupi_Character_BP_Polar_C
-      Entry Weight: 0.3
-      Spawn Limit: 0.2
-      Multi Spawn Chance: 1.0
-   Entry Name: Polar Camarilla
-      Main BP: K_Camarillasaurus_Character_BP_Polar_C
-      Entry Weight: 0.3
-      Spawn Limit: 0.2
-      Multi Spawn Chance: 1.0
-Container Name: null
-   Entry Name: Polar Titanophoneus
-      Main BP: K_Titanophoneus_Character_BP_Polar_C
-      Entry Weight: 0.3
-      Spawn Limit: 0.2
-      Multi Spawn Chance: 1.0
-   Entry Name: Polar Kurupi
-      Main BP: K_Kurupi_Character_BP_Polar_C
-      Entry Weight: 0.3
-      Spawn Limit: 0.2
-      Multi Spawn Chance: 1.0
-   Entry Name: Polar Camarilla
-      Main BP: K_Camarillasaurus_Character_BP_Polar_C
-      Entry Weight: 0.3
-      Spawn Limit: 0.2
-      Multi Spawn Chance: 1.0
-Container Name: null
-   Entry Name: Polar Titanophoneus
-      Main BP: K_Titanophoneus_Character_BP_Polar_C
-      Entry Weight: 0.3
-      Spawn Limit: 0.2
-      Multi Spawn Chance: 1.0
-   Entry Name: Polar Kurupi
-      Main BP: K_Kurupi_Character_BP_Polar_C
-      Entry Weight: 0.3
-      Spawn Limit: 0.2
-      Multi Spawn Chance: 1.0
-   Entry Name: Polar Camarilla
-      Main BP: K_Camarillasaurus_Character_BP_Polar_C
-      Entry Weight: 0.3
-      Spawn Limit: 0.2
-      Multi Spawn Chance: 1.0
-Container Name: null
-   Entry Name: Polar Titanophoneus
-      Main BP: K_Titanophoneus_Character_BP_Polar_C
-      Entry Weight: 0.2
-      Spawn Limit: 0.2
-      Multi Spawn Chance: 1.0
-   Entry Name: Polar Kurupi
-      Main BP: K_Kurupi_Character_BP_Polar_C
-      Entry Weight: 0.2
-      Spawn Limit: 0.2
-      Multi Spawn Chance: 1.0
-   Entry Name: Polar Camarilla
-      Main BP: K_Camarillasaurus_Character_BP_Polar_C
-      Entry Weight: 0.2
-      Spawn Limit: 0.2
-      Multi Spawn Chance: 1.0
-Container Name: null
-   Entry Name: Titanophoneus
-      Main BP: K_Titanophoneus_Character_BP_C
-      Entry Weight: 0.2
-      Spawn Limit: 0.2
-      Multi Spawn Chance: 1.0
-   Entry Name: Kurupi
-      Main BP: K_Kurupi_Character_BP_C
-      Entry Weight: 0.2
-      Spawn Limit: 0.2
-      Multi Spawn Chance: 0.5-0.5
-Container Name: null
-   Entry Name: Titanophoneus
-      Main BP: K_Titanophoneus_Character_BP_C
-      Entry Weight: 0.2
-      Spawn Limit: 0.2
-      Multi Spawn Chance: 1.0
-   Entry Name: Kurupi
-      Main BP: K_Kurupi_Character_BP_C
-      Entry Weight: 0.2
-      Spawn Limit: 0.2
-      Multi Spawn Chance: 0.5-0.5
 
 Global Entry Weights: 
    Main BP: K_Titanophoneus_Character_BP_C
@@ -399,6 +410,20 @@ Global Entry Weights:
    Main BP: K_Camarillasaurus_Character_BP_Aberrant_C
       SubBP: K_Camarillasaurus_Character_BP_Aberrant_C 0.98
       SubBP: K_Camarillasaurus_Character_BP_Alpha_C 0.02
+   Main BP: Raptor_Character_BP_Aberrant_C
+      SubBP: Raptor_Character_BP_Aberrant_C 0.98
+      SubBP: K_Camarillasaurus_Character_BP_Aberrant_C 0.02
+   Main BP: Raptor_Character_BP_Aberrant_C
+      SubBP: Raptor_Character_BP_Aberrant_C 0.98
+      SubBP: K_Kurupi_Character_BP_Aberrant_C 0.02
+   Main BP: Megalosaurus_Character_BP_Aberrant_C
+      SubBP: Megalosaurus_Character_BP_Aberrant_C 0.98
+      SubBP: K_Titanophoneus_Character_BP_Aberrant_C 0.02
+   Main BP: Rhino_Character_BP_C
+      SubBP: K_Kurupi_Character_BP_Polar_C 0.02
+      SubBP: K_Camarillasaurus_Character_BP_Polar_C 0.01
+      SubBP: DinoEntry_Titanophoneus_Polar_C 0.02
+      SubBP: Rhino_Character_BP_C 0.95
 
 MultiParams Summary: 
    Main BP: K_Camarillasaurus_Character_BP_Aberrant_C
@@ -457,6 +482,14 @@ MultiParams Summary:
       Entry Weight:                   0.2
       Spawn Limit:                             0.2
       Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               1.0
+
+   Main BP: K_Camarillasaurus_Character_BP_X_C
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               1.0
 
    Main BP: K_Kurupi_Character_BP_Aberrant_C
       Entry Weight:                   0.1
@@ -479,12 +512,6 @@ MultiParams Summary:
       Entry Weight:                   0.02
       Spawn Limit:                             
       Multi Spawn Chance:                               0.04-0.07
-      Entry Weight:                   0.1
-      Spawn Limit:                             
-      Multi Spawn Chance:                               0.5-0.5
-      Entry Weight:                   0.1
-      Spawn Limit:                             
-      Multi Spawn Chance:                               0.5-0.5
       Entry Weight:                   0.1
       Spawn Limit:                             
       Multi Spawn Chance:                               0.5-0.5
@@ -523,14 +550,14 @@ MultiParams Summary:
       Entry Weight:                   0.2
       Spawn Limit:                             0.2
       Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               1.0
 
    Main BP: K_Kurupi_Character_BP_SE_C
       Entry Weight:                   0.02
       Spawn Limit:                             
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.08
-      Spawn Limit:                             
-      Multi Spawn Chance:                               0.5
 
    Main BP: K_Taniwhasaurus_Character_BP_C
       Entry Weight:                   0.1
@@ -541,6 +568,11 @@ MultiParams Summary:
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.1
       Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+
+   Main BP: K_Taniwhasaurus_Character_BP_X_C
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.2
       Multi Spawn Chance:                               1.0
 
    Main BP: K_Titanophoneus_Character_BP_Aberrant_C
@@ -571,12 +603,6 @@ MultiParams Summary:
       Spawn Limit:                             0.2
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.1
-      Spawn Limit:                             0.1
-      Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.1
-      Spawn Limit:                             0.1
-      Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.2
       Spawn Limit:                             0.1
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.2
@@ -611,9 +637,17 @@ MultiParams Summary:
       Entry Weight:                   0.2
       Spawn Limit:                             0.2
       Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               1.0
 
    Main BP: K_Titanophoneus_Character_BP_SE_C
       Entry Weight:                   0.02
       Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+
+   Main BP: K_Titanophoneus_Character_BP_X_C
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.2
       Multi Spawn Chance:                               1.0
 

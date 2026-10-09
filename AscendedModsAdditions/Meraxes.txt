@@ -1,7 +1,7 @@
 All Entry Names: 
-   Meraxes  x 1
+   Meraxes  x 2
    Meraxes (1)  x 12
-   Meraxes One  x 5
+   Meraxes One  x 4
 
 Engram Entries: 
    EngramEntry_CorruptedMeraxesSummoner_C
@@ -105,17 +105,17 @@ Container Name: null
       Spawn Limit: 0.095
       Multi Spawn Chance: 0.65
 Container Name: null
-   Entry Name: Meraxes One
-      Main BP: MeraxesBA_Character_BP_C
-      Entry Weight: 0.0085
-      Spawn Limit: 0.095
-      Multi Spawn Chance: 0.65
+   Entry Name: Meraxes
+      Main BP: X_MeraxesBA_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: Meraxes One
-      Main BP: MeraxesBA_Character_BP_C
-      Entry Weight: 0.01
+      Main BP: TEK_MeraxesBA_Character_BP_C
+      Entry Weight: 0.75
       Spawn Limit: 0.095
-      Multi Spawn Chance: 0.65
+      Multi Spawn Chance: 0.8
 Container Name: null
    Entry Name: Meraxes
       Main BP: MeraxesBA_Character_BP_C
@@ -158,12 +158,6 @@ MultiParams Summary:
       Entry Weight:                   0.06
       Spawn Limit:                             0.095
       Multi Spawn Chance:                               0.65
-      Entry Weight:                   0.0085
-      Spawn Limit:                             0.095
-      Multi Spawn Chance:                               0.65
-      Entry Weight:                   0.01
-      Spawn Limit:                             0.095
-      Multi Spawn Chance:                               0.65
       Entry Weight:                   0.4
       Spawn Limit:                             0.075
       Multi Spawn Chance:                               1.0
@@ -181,4 +175,14 @@ MultiParams Summary:
       Entry Weight:                   0.03
       Spawn Limit:                             0.08
       Multi Spawn Chance:                               1.0-0.25
+
+   Main BP: TEK_MeraxesBA_Character_BP_C
+      Entry Weight:                   0.75
+      Spawn Limit:                             0.095
+      Multi Spawn Chance:                               0.8
+
+   Main BP: X_MeraxesBA_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
 
