@@ -1,6 +1,5 @@
 All Entry Names: 
    Gargant_Spino  x 2
-   Gargant_Spino_AB  x 1
 
 Engram Entries: 
    EngramEntry_SaddleEX_EXSpino_C
@@ -19,41 +18,30 @@ Container Name: null
          SubBP: GargantSpino_Character_BP_C 1.0
          SubBP: MegaGargantSpino_Character_BP_C 0.05
 Container Name: null
-   Entry Name: Gargant_Spino_AB
-      Main BP: GargantSpino_Character_BP_AB_C
-      Entry Weight: 0.5
-      Spawn Limit: 0.0
-      Multi Spawn Chance: 0.5
-         SubBP: GargantSpino_Character_BP_AB_C 1.0
-         SubBP: MegaGargantSpino_Character_BP_C 0.05
-Container Name: null
    Entry Name: Gargant_Spino
       Main BP: GargantSpino_Character_BP_C
       Entry Weight: 0.5
       Spawn Limit: 0.004
-      Multi Spawn Chance: 0.6
+      Multi Spawn Chance: 0.45
          SubBP: GargantSpino_Character_BP_C 1.0
          SubBP: MegaGargantSpino_Character_BP_C 0.05
 
 Global Entry Weights: 
    Main BP: Griffin_Character_BP_C
-      SubBP: Griffin_Character_BP_C 0.75
-      SubBP: GargantSpino_Character_BP_C 0.25
+      SubBP: Griffin_Character_BP_C 0.9
+      SubBP: GargantSpino_Character_BP_C 0.1
+   Main BP: Spino_Character_BP_Aberrant_C
+      SubBP: Spino_Character_BP_Aberrant_C 0.8
+      SubBP: GargantSpino_Character_BP_AB_C 0.2
 
 MultiParams Summary: 
-   Main BP: GargantSpino_Character_BP_AB_C
-      Entry Weight:                   0.5
-      Spawn Limit:                             0.0
-      Multi Spawn Chance:                               0.5
-SubBPList: GargantSpino_Character_BP_AB_C: 1.0, MegaGargantSpino_Character_BP_C: 0.05
-
    Main BP: GargantSpino_Character_BP_C
       Entry Weight:                   0.2
       Spawn Limit:                             0.02
       Multi Spawn Chance:                               0.3
       Entry Weight:                   0.5
       Spawn Limit:                             0.004
-      Multi Spawn Chance:                               0.6
+      Multi Spawn Chance:                               0.45
 SubBPList: GargantSpino_Character_BP_C: 1.0, MegaGargantSpino_Character_BP_C: 0.05
 SubBPList: GargantSpino_Character_BP_C: 1.0, MegaGargantSpino_Character_BP_C: 0.05
 

@@ -1,345 +1,80 @@
 All Entry Names: 
-   NULL  x 20
+   NULL  x 12
+   Enhydriodon  x 6
 
 Engram Entries: 
    EngramEntry_Saddle_Enhydriodon_C
    EngramEntry_EnhydriodonTreat_C
    EngramEntry_EnhydriodonTreat_Aberrant_C
+   EngramEntry_EnhydriodonTreat_Bog_C
+   EngramEntry_EnhydriodonTreat_Ocean_C
+   EngramEntry_EnhydriodonTreat_Snow_C
+   EngramEntry_EnhydriodonTreat_Tek_C
+   EngramEntry_EnhydriodonTreat_Volcano_C
 
 Dino Entries: 
    Enhydriodon_C
 
 Dino Additions: 
 Container Name: null
-   Entry Name: 
+   Entry Name: Enhydriodon
       Main BP: Enhydriodon_Character_BP_Adult_C
-      Entry Weight: 0.05
-      Spawn Limit: 0.05
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Adult_C
-      Entry Weight: 0.05
-      Spawn Limit: 0.1
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_C
-      Entry Weight: 0.05
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_C
-      Entry Weight: 0.05
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_C
-      Entry Weight: 0.05
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_C
-      Entry Weight: 0.05
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
+      Entry Weight: 0.01
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.2-0.1-0.05
 Container Name: null
-   Entry Name: 
+   Entry Name: Enhydriodon
       Main BP: Enhydriodon_Character_BP_Adult_C
-      Entry Weight: 0.05
-      Spawn Limit: 0.05
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Adult_C
-      Entry Weight: 0.05
-      Spawn Limit: 0.1
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_C
-      Entry Weight: 0.05
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_C
-      Entry Weight: 0.05
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_C
-      Entry Weight: 0.05
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_C
-      Entry Weight: 0.05
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
+      Entry Weight: 0.01
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.2-0.1-0.05
 Container Name: null
-   Entry Name: 
+   Entry Name: Enhydriodon
       Main BP: Enhydriodon_Character_BP_Adult_C
-      Entry Weight: 0.05
-      Spawn Limit: 0.05
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Adult_C
-      Entry Weight: 0.05
-      Spawn Limit: 0.1
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_C
-      Entry Weight: 0.05
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_C
-      Entry Weight: 0.05
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_C
-      Entry Weight: 0.05
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_C
-      Entry Weight: 0.05
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
+      Entry Weight: 0.01
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.2-0.1-0.05
 Container Name: null
-   Entry Name: 
+   Entry Name: Enhydriodon
       Main BP: Enhydriodon_Character_BP_Adult_C
-      Entry Weight: 0.05
-      Spawn Limit: 0.05
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Adult_C
-      Entry Weight: 0.05
-      Spawn Limit: 0.1
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_C
-      Entry Weight: 0.05
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_C
-      Entry Weight: 0.05
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_C
-      Entry Weight: 0.05
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_C
-      Entry Weight: 0.05
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
+      Entry Weight: 0.01
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.2-0.1-0.05
 Container Name: null
-   Entry Name: 
+   Entry Name: Enhydriodon
       Main BP: Enhydriodon_Character_BP_Adult_C
-      Entry Weight: 0.05
-      Spawn Limit: 0.05
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Adult_C
-      Entry Weight: 0.05
-      Spawn Limit: 0.1
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_C
-      Entry Weight: 0.05
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_C
-      Entry Weight: 0.05
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_C
-      Entry Weight: 0.05
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_C
-      Entry Weight: 0.05
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
+      Entry Weight: 0.01
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.2-0.1-0.05
 Container Name: null
-   Entry Name: 
+   Entry Name: Enhydriodon
       Main BP: Enhydriodon_Character_BP_Adult_C
-      Entry Weight: 0.05
-      Spawn Limit: 0.05
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Adult_C
-      Entry Weight: 0.05
-      Spawn Limit: 0.1
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_C
-      Entry Weight: 0.05
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_C
-      Entry Weight: 0.05
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_C
-      Entry Weight: 0.05
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_C
-      Entry Weight: 0.05
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
+      Entry Weight: 0.01
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.2-0.1-0.05
 Container Name: null
    Entry Name: 
       Main BP: Enhydriodon_Character_BP_Adult_Aberrant_C
       Entry Weight: 0.002
       Spawn Limit: 0.0009
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Adult_Aberrant_C
-      Entry Weight: 0.002
-      Spawn Limit: 0.01
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_Aberrant_C
-      Entry Weight: 0.002
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_Aberrant_C
-      Entry Weight: 0.002
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_Aberrant_C
-      Entry Weight: 0.002
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_Aberrant_C
-      Entry Weight: 0.002
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
+      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.2-0.1-0.05
 Container Name: null
    Entry Name: 
       Main BP: Enhydriodon_Character_BP_Adult_Aberrant_C
       Entry Weight: 0.002
       Spawn Limit: 0.0009
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Adult_Aberrant_C
-      Entry Weight: 0.002
-      Spawn Limit: 0.01
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_Aberrant_C
-      Entry Weight: 0.002
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_Aberrant_C
-      Entry Weight: 0.002
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_Aberrant_C
-      Entry Weight: 0.002
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_Aberrant_C
-      Entry Weight: 0.002
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
+      Multi Spawn Chance: 0.0
 Container Name: null
    Entry Name: 
       Main BP: Enhydriodon_Character_BP_Adult_C
       Entry Weight: 0.03
       Spawn Limit: 0.01
       Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Adult_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.05
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_C
-      Entry Weight: 0.03
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_C
-      Entry Weight: 0.03
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_C
-      Entry Weight: 0.03
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_C
-      Entry Weight: 0.03
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
 Container Name: null
    Entry Name: 
       Main BP: Enhydriodon_Character_BP_Adult_C
       Entry Weight: 0.03
-      Spawn Limit: 0.02
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Adult_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.1
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_C
-      Entry Weight: 0.03
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_C
-      Entry Weight: 0.03
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_C
-      Entry Weight: 0.03
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_C
-      Entry Weight: 0.03
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3-1.0-1.0-0.6-0.4-0.2
-Container Name: null
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Adult_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.02
-      Multi Spawn Chance: 1.0-1.0-0.6-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.1
-      Multi Spawn Chance: 1.0-1.0-0.6-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_C
-      Entry Weight: 0.03
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-1.0-0.6-0.2
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_C
-      Entry Weight: 0.03
-      Spawn Limit: Error, wrong BP or couldnt be found
+      Spawn Limit: 
       Multi Spawn Chance: 1.0-1.0-0.6-0.2
 Container Name: null
    Entry Name: 
@@ -347,10 +82,11 @@ Container Name: null
       Entry Weight: 0.3
       Spawn Limit: 0.3
       Multi Spawn Chance: 1.0-0.3
+Container Name: null
    Entry Name: 
       Main BP: Enhydriodon_Character_BP_Young_Aberrant_C
       Entry Weight: 0.3
-      Spawn Limit: Error, wrong BP or couldnt be found
+      Spawn Limit: 0.3
       Multi Spawn Chance: 1.0-0.3
 Container Name: null
    Entry Name: 
@@ -358,10 +94,11 @@ Container Name: null
       Entry Weight: 0.3
       Spawn Limit: 0.3
       Multi Spawn Chance: 1.0-0.3
+Container Name: null
    Entry Name: 
       Main BP: Enhydriodon_Character_BP_Young_Aberrant_C
       Entry Weight: 0.3
-      Spawn Limit: Error, wrong BP or couldnt be found
+      Spawn Limit: 0.3
       Multi Spawn Chance: 1.0-0.3
 Container Name: null
    Entry Name: 
@@ -369,43 +106,11 @@ Container Name: null
       Entry Weight: 0.3
       Spawn Limit: 0.3
       Multi Spawn Chance: 1.0-0.3
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_Aberrant_C
-      Entry Weight: 0.3
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3
 Container Name: null
    Entry Name: 
       Main BP: Enhydriodon_Character_BP_Young_Aberrant_C
       Entry Weight: 0.3
       Spawn Limit: 0.3
-      Multi Spawn Chance: 1.0-0.3
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_Aberrant_C
-      Entry Weight: 0.3
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3
-Container Name: null
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_Aberrant_C
-      Entry Weight: 0.3
-      Spawn Limit: 0.3
-      Multi Spawn Chance: 1.0-0.3
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_Aberrant_C
-      Entry Weight: 0.3
-      Spawn Limit: Error, wrong BP or couldnt be found
-      Multi Spawn Chance: 1.0-0.3
-Container Name: null
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_Aberrant_C
-      Entry Weight: 0.3
-      Spawn Limit: 0.3
-      Multi Spawn Chance: 1.0-0.3
-   Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Young_Aberrant_C
-      Entry Weight: 0.3
-      Spawn Limit: Error, wrong BP or couldnt be found
       Multi Spawn Chance: 1.0-0.3
 Container Name: null
    Entry Name: 
@@ -415,14 +120,8 @@ Container Name: null
       Multi Spawn Chance: 1.0-0.3
 Container Name: null
    Entry Name: 
-      Main BP: Enhydriodon_Character_BP_Adult_Bog_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.03
-      Multi Spawn Chance: 1.0-0.3
-Container Name: null
-   Entry Name: 
       Main BP: Enhydriodon_Character_BP_Adult_Snow_C
-      Entry Weight: 0.01
+      Entry Weight: 0.05
       Spawn Limit: 0.03
       Multi Spawn Chance: 1.0-0.3
 
@@ -430,77 +129,39 @@ MultiParams Summary:
    Main BP: Enhydriodon_Character_BP_Adult_Aberrant_C
       Entry Weight:                   0.002
       Spawn Limit:                             0.0009
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.002
-      Spawn Limit:                             0.01
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
+      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.2-0.1-0.05
       Entry Weight:                   0.002
       Spawn Limit:                             0.0009
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.002
-      Spawn Limit:                             0.01
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-
-   Main BP: Enhydriodon_Character_BP_Adult_Bog_C
-      Entry Weight:                   0.03
-      Spawn Limit:                             0.03
-      Multi Spawn Chance:                               1.0-0.3
+      Multi Spawn Chance:                               0.0
 
    Main BP: Enhydriodon_Character_BP_Adult_C
-      Entry Weight:                   0.05
-      Spawn Limit:                             0.05
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.05
-      Spawn Limit:                             0.1
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.05
-      Spawn Limit:                             0.05
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.05
-      Spawn Limit:                             0.1
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.05
-      Spawn Limit:                             0.05
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.05
-      Spawn Limit:                             0.1
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.05
-      Spawn Limit:                             0.05
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.05
-      Spawn Limit:                             0.1
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.05
-      Spawn Limit:                             0.05
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.05
-      Spawn Limit:                             0.1
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.05
-      Spawn Limit:                             0.05
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.05
-      Spawn Limit:                             0.1
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.2-0.1-0.05
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.2-0.1-0.05
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.2-0.1-0.05
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.2-0.1-0.05
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.2-0.1-0.05
+      Entry Weight:                   0.01
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.2-0.1-0.05
       Entry Weight:                   0.03
       Spawn Limit:                             0.01
       Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
       Entry Weight:                   0.03
-      Spawn Limit:                             0.05
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.03
-      Spawn Limit:                             0.02
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.03
-      Spawn Limit:                             0.1
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.03
-      Spawn Limit:                             0.02
+      Spawn Limit:                             
       Multi Spawn Chance:                               1.0-1.0-0.6-0.2
 
    Main BP: Enhydriodon_Character_BP_Adult_Snow_C
-      Entry Weight:                   0.01
+      Entry Weight:                   0.05
       Spawn Limit:                             0.03
       Multi Spawn Chance:                               1.0-0.3
 
@@ -510,171 +171,22 @@ MultiParams Summary:
       Multi Spawn Chance:                               1.0-0.3
 
    Main BP: Enhydriodon_Character_BP_Young_Aberrant_C
-      Entry Weight:                   0.002
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.002
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.002
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.002
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.002
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.002
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.002
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.002
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
       Entry Weight:                   0.3
       Spawn Limit:                             0.3
-      Multi Spawn Chance:                               1.0-0.3
-      Entry Weight:                   0.3
-      Spawn Limit:              Error, wrong BP or couldnt be found
       Multi Spawn Chance:                               1.0-0.3
       Entry Weight:                   0.3
       Spawn Limit:                             0.3
       Multi Spawn Chance:                               1.0-0.3
       Entry Weight:                   0.3
-      Spawn Limit:              Error, wrong BP or couldnt be found
+      Spawn Limit:                             0.3
       Multi Spawn Chance:                               1.0-0.3
       Entry Weight:                   0.3
       Spawn Limit:                             0.3
       Multi Spawn Chance:                               1.0-0.3
       Entry Weight:                   0.3
-      Spawn Limit:              Error, wrong BP or couldnt be found
+      Spawn Limit:                             0.3
       Multi Spawn Chance:                               1.0-0.3
       Entry Weight:                   0.3
       Spawn Limit:                             0.3
       Multi Spawn Chance:                               1.0-0.3
-      Entry Weight:                   0.3
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3
-      Entry Weight:                   0.3
-      Spawn Limit:                             0.3
-      Multi Spawn Chance:                               1.0-0.3
-      Entry Weight:                   0.3
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3
-      Entry Weight:                   0.3
-      Spawn Limit:                             0.3
-      Multi Spawn Chance:                               1.0-0.3
-      Entry Weight:                   0.3
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3
-
-   Main BP: Enhydriodon_Character_BP_Young_C
-      Entry Weight:                   0.05
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.05
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.05
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.05
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.05
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.05
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.05
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.05
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.05
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.05
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.05
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.05
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.05
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.05
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.05
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.05
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.05
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.05
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.05
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.05
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.05
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.05
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.05
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.05
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.03
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.03
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.03
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.03
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.03
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.03
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.03
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.03
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-0.3-1.0-1.0-0.6-0.4-0.2
-      Entry Weight:                   0.03
-      Spawn Limit:                             0.1
-      Multi Spawn Chance:                               1.0-1.0-0.6-0.2
-      Entry Weight:                   0.03
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-1.0-0.6-0.2
-      Entry Weight:                   0.03
-      Spawn Limit:              Error, wrong BP or couldnt be found
-      Multi Spawn Chance:                               1.0-1.0-0.6-0.2
 

@@ -3,13 +3,14 @@ All Entry Names:
    AB Maip  x 1
    Austro  x 1
    Austroraptor  x 3
+   Dilo  x 8
    Giant Spino  x 2
    GiantSpino  x 2
    Maip  x 3
    Saurophaganax  x 6
    Shoni  x 1
    Torvo  x 3
-   Torvosaurus  x 3
+   Torvosaurus  x 4
 
 Engram Entries: 
    EngramEntry_Saddle_Torvosaurus_BC_C
@@ -23,6 +24,7 @@ Engram Entries:
    EngramEntry_Saddle_Saurophaganax_BC_C
    EngramEntry_Saddle_Austroraptor_BC_C
    EngramEntry_Saddle_Maip_BC_C
+   EngramEntry_Saddle_Dilophosaurus_BC_C
 
 Dino Entries: 
    Torvosaurus_BC_C
@@ -31,6 +33,7 @@ Dino Entries:
    Saurophaganax_BC_C
    Austroraptor_BC_C
    Maip_BC_C
+   Dilophosaurus_BC_C
 
 Dino Additions: 
 Container Name: null
@@ -46,6 +49,13 @@ Container Name: null
       Entry Weight: 0.01
       Spawn Limit: 0.05
       Multi Spawn Chance: 1.0-0.2
+   Entry Name: Dilo
+      Main BP: Dilophosaurus_Character_BP_BC_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+         SubBP: Dilophosaurus_Character_BP_BC_C 0.95
+         SubBP: Dilophosaurus_Character_BP_BC_Alpha_C 0.05
 Container Name: null
    Entry Name: GiantSpino
       Main BP: GiantSpino_Character_BP_BC_C
@@ -54,6 +64,13 @@ Container Name: null
       Multi Spawn Chance: 1.0
          SubBP: GiantSpino_Character_BP_BC_C 0.97
          SubBP: GiantSpino_Character_BP_BC_Alpha_C 0.03
+   Entry Name: Dilo
+      Main BP: Dilophosaurus_Character_BP_BC_C
+      Entry Weight: 0.06
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+         SubBP: Dilophosaurus_Character_BP_BC_C 0.96
+         SubBP: Dilophosaurus_Character_BP_BC_Alpha_C 0.04
 Container Name: null
    Entry Name: Torvo
       Main BP: Torvosaurus_Character_BP_BC_C
@@ -104,7 +121,7 @@ Container Name: null
 Container Name: null
    Entry Name: Giant Spino
       Main BP: GiantSpino_Character_BP_BC_C
-      Entry Weight: 0.006
+      Entry Weight: 0.01
       Spawn Limit: 0.01
       Multi Spawn Chance: 1.0
          SubBP: GiantSpino_Character_BP_BC_C 0.97
@@ -132,6 +149,13 @@ Container Name: null
       Multi Spawn Chance: 1.0-0.5
          SubBP: Saurophaganax_Character_BP_BC_C 0.96
          SubBP: Saurophaganax_Character_BP_BC_Alpha_C 0.04
+   Entry Name: Dilo
+      Main BP: Dilophosaurus_Character_BP_BC_C
+      Entry Weight: 0.1
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+         SubBP: Dilophosaurus_Character_BP_BC_C 0.96
+         SubBP: Dilophosaurus_Character_BP_BC_Alpha_C 0.04
 Container Name: null
    Entry Name: Shoni
       Main BP: Shonisaurus_Character_BP_BC_C
@@ -148,6 +172,13 @@ Container Name: null
       Multi Spawn Chance: 1.0-0.5
          SubBP: Saurophaganax_Character_BP_BC_C 0.96
          SubBP: Saurophaganax_Character_BP_BC_Alpha_C 0.04
+   Entry Name: Dilo
+      Main BP: Dilophosaurus_Character_BP_BC_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+         SubBP: Dilophosaurus_Character_BP_BC_C 0.96
+         SubBP: Dilophosaurus_Character_BP_BC_Alpha_C 0.04
 Container Name: null
    Entry Name: Saurophaganax
       Main BP: Saurophaganax_Character_BP_BC_C
@@ -166,11 +197,18 @@ Container Name: null
          SubBP: Torvosaurus_Character_BP_BC_Alpha_C 0.04
    Entry Name: Saurophaganax
       Main BP: Saurophaganax_Character_BP_BC_C
-      Entry Weight: 0.0125
+      Entry Weight: 0.02
       Spawn Limit: 0.05
       Multi Spawn Chance: 1.0-0.5
          SubBP: Saurophaganax_Character_BP_BC_C 0.96
          SubBP: Saurophaganax_Character_BP_BC_Alpha_C 0.04
+   Entry Name: Dilo
+      Main BP: Dilophosaurus_Character_BP_BC_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+         SubBP: Dilophosaurus_Character_BP_BC_C 0.96
+         SubBP: Dilophosaurus_Character_BP_BC_Alpha_C 0.04
 Container Name: null
    Entry Name: Austroraptor
       Main BP: Austroraptor_Character_BP_BC_C
@@ -203,6 +241,13 @@ Container Name: null
       Multi Spawn Chance: 1.0
          SubBP: Austroraptor_Character_BP_BC_C 0.97
          SubBP: Austroraptor_Character_BP_Alpha_C 0.03
+   Entry Name: Dilo
+      Main BP: Dilophosaurus_Character_BP_BC_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+         SubBP: Dilophosaurus_Character_BP_BC_C 0.96
+         SubBP: Dilophosaurus_Character_BP_BC_Alpha_C 0.04
 Container Name: null
    Entry Name: Maip
       Main BP: Maip_Character_BP_BC_C
@@ -238,6 +283,31 @@ Container Name: null
          SubBP: Maip_Character_BP_BC_C 0.5
          SubBP: Maip_Character_BP_BC_Alpha_C 0.03
          SubBP: Maip_Character_BP_BC_Woolly_C 0.47
+Container Name: null
+   Entry Name: Torvosaurus
+      Main BP: Torvosaurus_Character_BP_BC_C
+      Entry Weight: 0.025
+      Spawn Limit: 0.025
+      Multi Spawn Chance: 1.0
+         SubBP: Torvosaurus_Character_BP_BC_C 0.95
+         SubBP: Torvosaurus_Character_BP_BC_Alpha_C 0.05
+Container Name: null
+   Entry Name: Dilo
+      Main BP: Dilophosaurus_Character_BP_BC_C
+      Entry Weight: 0.75
+      Spawn Limit: 0.04
+      Multi Spawn Chance: 1.0
+         SubBP: Dilophosaurus_Character_BP_BC_C 0.46
+         SubBP: Dilophosaurus_Character_BP_BC_Alpha_C 0.04
+         SubBP: Carno_Character_BP_C 0.5
+Container Name: null
+   Entry Name: Dilo
+      Main BP: Dilophosaurus_Character_BP_BC_C
+      Entry Weight: 0.08
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0
+         SubBP: Dilophosaurus_Character_BP_BC_C 0.95
+         SubBP: Dilophosaurus_Character_BP_BC_Alpha_C 0.05
 
 MultiParams Summary: 
    Main BP: Austroraptor_Character_BP_BC_C
@@ -258,6 +328,40 @@ SubBPList: Austroraptor_Character_BP_BC_C: 0.97, Austroraptor_Character_BP_Alpha
 SubBPList: Austroraptor_Character_BP_BC_C: 0.97, Austroraptor_Character_BP_Alpha_C: 0.03
 SubBPList: Austroraptor_Character_BP_BC_C: 0.97, Austroraptor_Character_BP_Alpha_C: 0.03
 
+   Main BP: Dilophosaurus_Character_BP_BC_C
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.06
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.1
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.75
+      Spawn Limit:                             0.04
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.08
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0
+SubBPList: Dilophosaurus_Character_BP_BC_C: 0.95, Dilophosaurus_Character_BP_BC_Alpha_C: 0.05
+SubBPList: Dilophosaurus_Character_BP_BC_C: 0.96, Dilophosaurus_Character_BP_BC_Alpha_C: 0.04
+SubBPList: Dilophosaurus_Character_BP_BC_C: 0.96, Dilophosaurus_Character_BP_BC_Alpha_C: 0.04
+SubBPList: Dilophosaurus_Character_BP_BC_C: 0.96, Dilophosaurus_Character_BP_BC_Alpha_C: 0.04
+SubBPList: Dilophosaurus_Character_BP_BC_C: 0.96, Dilophosaurus_Character_BP_BC_Alpha_C: 0.04
+SubBPList: Dilophosaurus_Character_BP_BC_C: 0.96, Dilophosaurus_Character_BP_BC_Alpha_C: 0.04
+SubBPList: Dilophosaurus_Character_BP_BC_C: 0.46, Dilophosaurus_Character_BP_BC_Alpha_C: 0.04, Carno_Character_BP_C: 0.5
+SubBPList: Dilophosaurus_Character_BP_BC_C: 0.95, Dilophosaurus_Character_BP_BC_Alpha_C: 0.05
+
    Main BP: GiantSpino_Character_BP_BC_Aberrant_C
       Entry Weight:                   0.002
       Spawn Limit:                             0.01
@@ -271,7 +375,7 @@ SubBPList: GiantSpino_Character_BP_BC_Aberrant_C: 0.97, GiantSpino_Character_BP_
       Entry Weight:                   0.005
       Spawn Limit:                             0.01
       Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.006
+      Entry Weight:                   0.01
       Spawn Limit:                             0.01
       Multi Spawn Chance:                               1.0
       Entry Weight:                   0.005
@@ -315,7 +419,7 @@ SubBPList: Maip_Character_BP_BC_C: 0.5, Maip_Character_BP_BC_Alpha_C: 0.03, Maip
       Entry Weight:                   0.0125
       Spawn Limit:                             0.05
       Multi Spawn Chance:                               1.0-1.0-0.25
-      Entry Weight:                   0.0125
+      Entry Weight:                   0.02
       Spawn Limit:                             0.05
       Multi Spawn Chance:                               1.0-0.5
 SubBPList: Saurophaganax_Character_BP_BC_C: 0.96, Saurophaganax_Character_BP_BC_Alpha_C: 0.04
@@ -354,10 +458,14 @@ SubBPList: Shonisaurus_Character_BP_BC_C: 0.97, Shonisaurus_Character_BP_BC_Alph
       Entry Weight:                   0.03
       Spawn Limit:                             0.05
       Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.025
+      Spawn Limit:                             0.025
+      Multi Spawn Chance:                               1.0
 SubBPList: Torvosaurus_Character_BP_BC_C: 0.95, Torvosaurus_Character_BP_BC_Alpha_C: 0.05
 SubBPList: Torvosaurus_Character_BP_BC_C: 0.95, Torvosaurus_Character_BP_BC_Alpha_C: 0.05
 SubBPList: Torvosaurus_Character_BP_BC_C: 0.95, Torvosaurus_Character_BP_BC_Alpha_C: 0.05
 SubBPList: Torvosaurus_Character_BP_BC_C: 0.95, Torvosaurus_Character_BP_BC_Alpha_C: 0.05
 SubBPList: Torvosaurus_Character_BP_BC_C: 0.95, Torvosaurus_Character_BP_BC_Alpha_C: 0.05
 SubBPList: Torvosaurus_Character_BP_BC_C: 0.96, Torvosaurus_Character_BP_BC_Alpha_C: 0.04
+SubBPList: Torvosaurus_Character_BP_BC_C: 0.95, Torvosaurus_Character_BP_BC_Alpha_C: 0.05
 
