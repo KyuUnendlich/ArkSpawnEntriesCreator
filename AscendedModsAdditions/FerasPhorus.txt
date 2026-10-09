@@ -1,0 +1,101 @@
+All Entry Names: 
+   Phorus  x 9
+
+Engram Entries: 
+   EngramEntry_PhorusrhacidaeSaddle_C
+
+Dino Entries: 
+   Phorus_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Phorus
+      Main BP: Phorusrhacidae_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Phorus
+      Main BP: Phorusrhacidae_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Phorus
+      Main BP: Phorusrhacidae_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Phorus
+      Main BP: Phorusrhacidae_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Phorus
+      Main BP: Phorusrhacidae_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Phorus
+      Main BP: Phorusrhacidae_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Phorus
+      Main BP: Phorusrhacidae_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Phorus
+      Main BP: Phorusrhacidae_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 
+Container Name: null
+   Entry Name: Phorus
+      Main BP: Phorusrhacidae_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 
+Container Name: null
+Container Name: null
+Container Name: null
+Container Name: null
+Container Name: null
+Container Name: null
+
+MultiParams Summary: 
+   Main BP: Phorusrhacidae_Character_BP_C
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               
+

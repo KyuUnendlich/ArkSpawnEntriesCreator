@@ -1,0 +1,158 @@
+All Entry Names: 
+   Clarcha(small) (1-3)  x 4
+   MonsterClarch (1-3)  x 1
+   SmallClarch (1-3)  x 1
+   TameryRaptor (1-3)  x 8
+
+Engram Entries: 
+   EngramEntry_Saddle_ClayTameryraptor_C
+   EngramEntry_Saddle_ClayMonsterClarcha_C
+   EngramEntry_Saddle_ClayClarch_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: TameryRaptor (1-3)
+      Main BP: Clay_Tameryraptor_Character_BP_C
+      Entry Weight: 0.09
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5-0.2
+Container Name: null
+   Entry Name: TameryRaptor (1-3)
+      Main BP: Clay_Tameryraptor_Character_BP_C
+      Entry Weight: 0.09
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5-0.2
+Container Name: null
+   Entry Name: TameryRaptor (1-3)
+      Main BP: Clay_Tameryraptor_Character_BP_C
+      Entry Weight: 0.09
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5-0.2
+Container Name: null
+   Entry Name: TameryRaptor (1-3)
+      Main BP: Clay_Tameryraptor_Character_BP_C
+      Entry Weight: 0.09
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.5-0.2
+Container Name: null
+   Entry Name: TameryRaptor (1-3)
+      Main BP: Clay_Tameryraptor_Character_BP_C
+      Entry Weight: 0.0075
+      Spawn Limit: 0.03
+      Multi Spawn Chance: 1.0-0.5-0.3
+Container Name: null
+   Entry Name: TameryRaptor (1-3)
+      Main BP: Clay_Tameryraptor_Character_BP_C
+      Entry Weight: 0.12
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.667-0.333
+Container Name: null
+   Entry Name: TameryRaptor (1-3)
+      Main BP: Clay_Tameryraptor_Character_BP_C
+      Entry Weight: 0.095
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-1.0-0.7
+Container Name: null
+   Entry Name: TameryRaptor (1-3)
+      Main BP: Clay_Tameryraptor_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0-1.0-0.8
+Container Name: null
+   Entry Name: Clarcha(small) (1-3)
+      Main BP: Clay_Clarcha_Character_BP_C
+      Entry Weight: 0.06
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0-0.01-0.2
+Container Name: null
+   Entry Name: Clarcha(small) (1-3)
+      Main BP: Clay_Clarcha_Character_BP_C
+      Entry Weight: 0.075
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.01-0.2
+Container Name: null
+   Entry Name: Clarcha(small) (1-3)
+      Main BP: Clay_Clarcha_Character_BP_C
+      Entry Weight: 0.065
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.2-0.01
+Container Name: null
+   Entry Name: MonsterClarch (1-3)
+      Main BP: Clay_MonsterClarcha_Character_BP_C
+      Entry Weight: 0.06
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.01-0.2
+Container Name: null
+   Entry Name: Clarcha(small) (1-3)
+      Main BP: Clay_Clarcha_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.05
+      Multi Spawn Chance: 1.0-0.01-0.2
+Container Name: null
+   Entry Name: SmallClarch (1-3)
+      Main BP: Clay_Clarcha_Character_BP_C
+      Entry Weight: 0.01
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.01-0.2
+
+Global Entry Weights: 
+   Main BP: Carcha_Character_BP_C
+      SubBP: Clay_Clarcha_Character_BP_C 0.5
+      SubBP: Clay_MonsterClarcha_Character_BP_C 0.5
+      SubBP: Carcha_Character_BP_C 0.5
+   Main BP: Clay_Tameryraptor_Character_BP_C
+      SubBP: Clay_Tameryraptor_Character_BP_C 1.0
+      SubBP: MegaClay_Tameryraptor_Character_BP_C 0.03
+   Main BP: Clay_Clarcha_Character_BP_C
+      SubBP: Clay_Clarcha_Character_BP_C 1.0
+      SubBP: MegaClay_Clarcha_Character_BP_C 0.05
+
+MultiParams Summary: 
+   Main BP: Clay_Clarcha_Character_BP_C
+      Entry Weight:                   0.06
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.01-0.2
+      Entry Weight:                   0.075
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.01-0.2
+      Entry Weight:                   0.065
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.2-0.01
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.05
+      Multi Spawn Chance:                               1.0-0.01-0.2
+      Entry Weight:                   0.01
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.01-0.2
+
+   Main BP: Clay_MonsterClarcha_Character_BP_C
+      Entry Weight:                   0.06
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.01-0.2
+
+   Main BP: Clay_Tameryraptor_Character_BP_C
+      Entry Weight:                   0.09
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5-0.2
+      Entry Weight:                   0.09
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5-0.2
+      Entry Weight:                   0.09
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5-0.2
+      Entry Weight:                   0.09
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.5-0.2
+      Entry Weight:                   0.0075
+      Spawn Limit:                             0.03
+      Multi Spawn Chance:                               1.0-0.5-0.3
+      Entry Weight:                   0.12
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-0.667-0.333
+      Entry Weight:                   0.095
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0-1.0-0.7
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               1.0-1.0-0.8
+
