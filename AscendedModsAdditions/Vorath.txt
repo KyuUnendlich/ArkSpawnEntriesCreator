@@ -1,0 +1,46 @@
+All Entry Names: 
+   Vorath (1-2)  x 3
+
+Engram Entries: 
+   EngramEntry_ParasiticCatalyzer_C
+   EngramEntry_Vorath_PatrolPost_C
+   EngramEntry_ShockingNet_Ammo_C
+
+Dino Entries: 
+   Entry_Vorath_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Vorath (1-2)
+      Main BP: Vorath_Character_BP_C
+      Entry Weight: 0.14
+      Spawn Limit: 0.33
+      Multi Spawn Chance: 1.0-0.5
+   Entry Name: Vorath (1-2)
+      Main BP: Vorath_Character_BP_C
+      Entry Weight: 0.14
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.5
+   Entry Name: Vorath (1-2)
+      Main BP: Vorath_Character_BP_C
+      Entry Weight: 0.14
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-0.5
+
+Global Entry Weights: 
+   Main BP: Angler_Character_BP_C
+      SubBP: Angler_Character_BP_C 0.85
+      SubBP: Vorath_Character_BP_C 0.15
+
+MultiParams Summary: 
+   Main BP: Vorath_Character_BP_C
+      Entry Weight:                   0.14
+      Spawn Limit:                             0.33
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.14
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.14
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-0.5
+

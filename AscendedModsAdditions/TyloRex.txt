@@ -1,0 +1,41 @@
+All Entry Names: 
+   TylosaurRex  x 3
+
+Engram Entries: 
+   EngramEntry_Saddle_TylosaurRex_C
+
+Dino Entries: 
+   TylosaurRex_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: TylosaurRex
+      Main BP: TyloRex_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: TylosaurRex
+      Main BP: TyloRex_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.01
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: TylosaurRex
+      Main BP: TyloRex_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 0.02
+      Multi Spawn Chance: 1.0
+
+MultiParams Summary: 
+   Main BP: TyloRex_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.01
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   1.0
+      Spawn Limit:                             0.02
+      Multi Spawn Chance:                               1.0
+
