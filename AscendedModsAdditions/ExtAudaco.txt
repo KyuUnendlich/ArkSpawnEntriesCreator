@@ -1,0 +1,64 @@
+All Entry Names: 
+   Audacoceratops  x 3
+
+Engram Entries: 
+   EngramEntry_TraditionalSaddle_ExTrike_C
+   EngramEntry_WorkPlatform_C
+   EngramEntry_WeaponSaddle_ExTrke_C
+
+Dino Entries: 
+   ExTrike_C
+   ExTrike_Temp_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Audacoceratops
+      Main BP: Audacoceratops_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-1.0-1.0
+         SubBP: Audacoceratops_Character_BP_C 0.95
+         SubBP: Audacoceratops_Character_BP_Tempered_C 0.05
+Container Name: null
+   Entry Name: Audacoceratops
+      Main BP: Audacoceratops_Character_BP_C
+      Entry Weight: 0.1
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-1.0-0.5
+         SubBP: Audacoceratops_Character_BP_C 0.95
+         SubBP: Audacoceratops_Character_BP_Tempered_C 0.05
+Container Name: null
+   Entry Name: Audacoceratops
+      Main BP: Audacoceratops_Character_BP_Volcano_C
+      Entry Weight: 0.1
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0-1.0
+         SubBP: Audacoceratops_Character_BP_Volcano_C 0.95
+         SubBP: Audacoceratops_Character_BP_Tempered_C 0.05
+
+Global Entry Weights: 
+   Main BP: Paracer_Character_BP_Corrupt_C
+      SubBP: Paracer_Character_BP_Corrupt_C 0.8
+      SubBP: Audacoceratops_Character_BP_Corrupt_C 0.2
+   Main BP: Diplodocus_Character_BP_C
+      SubBP: Diplodocus_Character_BP_C 0.9
+      SubBP: Audacoceratops_Character_BP_C 0.095
+      SubBP: Audacoceratops_Character_BP_Tempered_C 0.005
+
+MultiParams Summary: 
+   Main BP: Audacoceratops_Character_BP_C
+      Entry Weight:                   0.1
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-1.0-1.0
+      Entry Weight:                   0.1
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-1.0-0.5
+SubBPList: Audacoceratops_Character_BP_C: 0.95, Audacoceratops_Character_BP_Tempered_C: 0.05
+SubBPList: Audacoceratops_Character_BP_C: 0.95, Audacoceratops_Character_BP_Tempered_C: 0.05
+
+   Main BP: Audacoceratops_Character_BP_Volcano_C
+      Entry Weight:                   0.1
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0-1.0
+SubBPList: Audacoceratops_Character_BP_Volcano_C: 0.95, Audacoceratops_Character_BP_Tempered_C: 0.05
+

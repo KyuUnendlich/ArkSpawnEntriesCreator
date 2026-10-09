@@ -1,0 +1,104 @@
+All Entry Names: 
+   Alien Fish  x 1
+   AlienFish  x 5
+   Space AlienFish  x 1
+
+Engram Entries: 
+   EngramEntry_Saddle_AlienFish_C
+
+Dino Entries: 
+   AlienFish_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Alien Fish
+      Main BP: AlienFish_Character_BP_C
+      Entry Weight: 0.05
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+         SubBP: AlienFish_Character_BP_C 0.95
+         SubBP: AlienFish_Character_BP_Alpha_C 0.05
+Container Name: null
+   Entry Name: AlienFish
+      Main BP: AlienFish_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.2
+      Multi Spawn Chance: 1.0-0.5
+         SubBP: AlienFish_Character_BP_C 0.95
+         SubBP: AlienFish_Character_BP_Alpha_C 0.05
+Container Name: null
+   Entry Name: AlienFish
+      Main BP: AlienFish_Character_BP_C
+      Entry Weight: 0.2
+      Spawn Limit: 0.25
+      Multi Spawn Chance: 1.0
+         SubBP: AlienFish_Character_BP_C 0.5
+         SubBP: AlienFish_Character_BP_Space_C 0.45
+         SubBP: AlienFish_Character_BP_Alpha_C 0.05
+Container Name: null
+   Entry Name: AlienFish
+      Main BP: AlienFish_Character_BP_C
+      Entry Weight: 0.04
+      Spawn Limit: 0.1
+      Multi Spawn Chance: 1.0
+         SubBP: AlienFish_Character_BP_C 0.95
+         SubBP: AlienFish_Character_BP_Alpha_C 0.05
+Container Name: null
+   Entry Name: Space AlienFish
+      Main BP: SpaceWhale_Character_BP_C
+      Entry Weight: 1.0
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+         SubBP: AlienFish_Character_BP_Space_C 0.5
+         SubBP: AlienFish_Character_BP_Alpha_C 0.05
+         SubBP: SpaceWhale_Character_BP_C 0.45
+Container Name: null
+   Entry Name: AlienFish
+      Main BP: AlienFish_Character_BP_C
+      Entry Weight: 0.5
+      Spawn Limit: 0.5
+      Multi Spawn Chance: 1.0
+         SubBP: AlienFish_Character_BP_C 0.95
+         SubBP: AlienFish_Character_BP_Alpha_C 0.05
+Container Name: null
+   Entry Name: AlienFish
+      Main BP: AlienFish_Character_BP_C
+      Entry Weight: 0.5
+      Spawn Limit: 0.5
+      Multi Spawn Chance: 1.0
+         SubBP: AlienFish_Character_BP_C 0.95
+         SubBP: AlienFish_Character_BP_Alpha_C 0.05
+
+MultiParams Summary: 
+   Main BP: AlienFish_Character_BP_C
+      Entry Weight:                   0.05
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.2
+      Multi Spawn Chance:                               1.0-0.5
+      Entry Weight:                   0.2
+      Spawn Limit:                             0.25
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.04
+      Spawn Limit:                             0.1
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.5
+      Spawn Limit:                             0.5
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.5
+      Spawn Limit:                             0.5
+      Multi Spawn Chance:                               1.0
+SubBPList: AlienFish_Character_BP_C: 0.95, AlienFish_Character_BP_Alpha_C: 0.05
+SubBPList: AlienFish_Character_BP_C: 0.95, AlienFish_Character_BP_Alpha_C: 0.05
+SubBPList: AlienFish_Character_BP_C: 0.5, AlienFish_Character_BP_Space_C: 0.45, AlienFish_Character_BP_Alpha_C: 0.05
+SubBPList: AlienFish_Character_BP_C: 0.95, AlienFish_Character_BP_Alpha_C: 0.05
+SubBPList: AlienFish_Character_BP_C: 0.95, AlienFish_Character_BP_Alpha_C: 0.05
+SubBPList: AlienFish_Character_BP_C: 0.95, AlienFish_Character_BP_Alpha_C: 0.05
+
+   Main BP: SpaceWhale_Character_BP_C
+      Entry Weight:                   1.0
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+SubBPList: AlienFish_Character_BP_Space_C: 0.5, AlienFish_Character_BP_Alpha_C: 0.05, SpaceWhale_Character_BP_C: 0.45
+

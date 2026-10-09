@@ -1,0 +1,218 @@
+All Entry Names: 
+   Tyrannasorus rex  x 23
+
+Dino Entries: 
+   Tyrannasorus_C
+
+Dino Additions: 
+Container Name: null
+   Entry Name: Tyrannasorus rex
+      Main BP: TyrannasorusBP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Tyrannasorus rex
+      Main BP: TyrannasorusBP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Tyrannasorus rex
+      Main BP: TyrannasorusBP_C
+      Entry Weight: 0.07
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Tyrannasorus rex
+      Main BP: TyrannasorusBP_C
+      Entry Weight: 0.07
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Tyrannasorus rex
+      Main BP: TyrannasorusBP_C
+      Entry Weight: 0.07
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Tyrannasorus rex
+      Main BP: TyrannasorusBP_C
+      Entry Weight: 0.07
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Tyrannasorus rex
+      Main BP: TyrannasorusBP_C
+      Entry Weight: 0.07
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Tyrannasorus rex
+      Main BP: TyrannasorusBP_C
+      Entry Weight: 0.07
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Tyrannasorus rex
+      Main BP: TyrannasorusBP_C
+      Entry Weight: 0.04
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Tyrannasorus rex
+      Main BP: TyrannasorusBP_C
+      Entry Weight: 0.04
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Tyrannasorus rex
+      Main BP: TyrannasorusBP_C
+      Entry Weight: 0.04
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Tyrannasorus rex
+      Main BP: TyrannasorusBP_C
+      Entry Weight: 0.04
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Tyrannasorus rex
+      Main BP: TyrannasorusBP_C
+      Entry Weight: 0.01
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Tyrannasorus rex
+      Main BP: TyrannasorusBP_C
+      Entry Weight: 0.01
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Tyrannasorus rex
+      Main BP: TyrannasorusBP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Tyrannasorus rex
+      Main BP: TyrannasorusBP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Tyrannasorus rex
+      Main BP: TyrannasorusBP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Tyrannasorus rex
+      Main BP: TyrannasorusBP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Tyrannasorus rex
+      Main BP: TyrannasorusBP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Tyrannasorus rex
+      Main BP: TyrannasorusBP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Tyrannasorus rex
+      Main BP: TyrannasorusBP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Tyrannasorus rex
+      Main BP: TyrannasorusBP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+Container Name: null
+   Entry Name: Tyrannasorus rex
+      Main BP: TyrannasorusBP_C
+      Entry Weight: 0.05
+      Spawn Limit: 
+      Multi Spawn Chance: 1.0
+
+MultiParams Summary: 
+   Main BP: TyrannasorusBP_C
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.07
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.07
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.07
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.07
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.07
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.07
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.04
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.04
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.04
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.04
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.01
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.01
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+      Entry Weight:                   0.05
+      Spawn Limit:                             
+      Multi Spawn Chance:                               1.0
+
