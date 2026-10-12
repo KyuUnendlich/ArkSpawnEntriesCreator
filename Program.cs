@@ -47,13 +47,13 @@ namespace ArkSpawnEntriesCreator
             Prehistoric1, /*Beasts*/                XyphMischoptera,                    ACEndemics, /*Endemics*/            MarniiGriffins, /*Marnii MULTI*/FerasMegalodon,
             Prehistoric2,                           XyphVetuli,                         ACAquaria, /*Aquaria*/              IslaNycta,                      Vorath,
             Prehistoric3,                           KamiFeral,                          AC2WildArk, /*Addititio   2 Files*/ PaddletailSpino, /*PSpino*/     TyloRex,
-            Prehistoric4,                           TheSunkenWorld,                     FayeMenagerie, /*Menagerie*/        PolyOrycterocetus,              
-            Prehistoric5,                           NeoEuropa, /*Europa*/               AussieDiamantina, /*NickDiamant*/   DeimosShantungo,                
-            CyrusDrakonis,                          FerasDinocroc,                      AussieMuttaburra, /*NickMutta*/     MegaBitsAndBobs,                
-            WakSpino,                               FerasSmilo, /*GreaterSaber*/        AussieMinmi, /*AussieAdditions*/    ClayAnkylo,                     
-            Hatze,                                  FerasFoxes, /*Arcticfox*/           AbiArgentino, /*Argentino*/         ClayLeed,
-            TACElementalRaptors, /*TAC_FireAnd*/    CuriousCryptids, /*TutorialDino*/   FeralMajunga, /*Majunga*/           ClayPachyrhino,
-            MoroHydrovanta, /*Hydrovanta*/          AstraeosCreatures,                  FeralWalliserops, /*Walliserops*/   ClayRex,
+            Prehistoric4,                           TheSunkenWorld,                     FayeMenagerie, /*Menagerie*/        PolyOrycterocetus,              XyphTyran,
+            Prehistoric5,                           NeoEuropa, /*Europa*/               AussieDiamantina, /*NickDiamant*/   DeimosShantungo,                FerasPhorus,
+            CyrusDrakonis,                          FerasDinocroc,                      AussieMuttaburra, /*NickMutta*/     MegaBitsAndBobs,                PudRanasaurus, /*DarkPud*/
+            WakSpino,                               FerasSmilo, /*GreaterSaber*/        AussieMinmi, /*AussieAdditions*/    ClayAnkylo,                     ExtAudaco, /*tst*/
+            Hatze,                                  FerasFoxes, /*Arcticfox*/           AbiArgentino, /*Argentino*/         ClayLeed,                       AlienCreature,
+            TACElementalRaptors, /*TAC_FireAnd*/    CuriousCryptids, /*TutorialDino*/   FeralMajunga, /*Majunga*/           ClayPachyrhino,                 ClayCarch, /*Clarcha*/
+            MoroHydrovanta, /*Hydrovanta*/          AstraeosCreatures,                  FeralWalliserops, /*Walliserops*/   ClayRex,                        NasgardJelly,
             ShadAtlas,                              MyrmDracoteuthis, /*Dracoteuthis*/  Barsboldia,                         ClayTrike,
             PortsOfAtlas,                           MyrmDraconisGlaucus, /*Glaucus*/    Sivatherium,                        PaleoAscension,
             AtlasReborn,       /*MULTIMAIN*/        IsleSkyshroud, /*skysh  MULTIMAIN*/ Cockatrice,                         FerasWildSeas, /*FCR_Wild*/
@@ -81,7 +81,7 @@ namespace ArkSpawnEntriesCreator
             XyphMeiolania,                          RoyalArchaeopteryx,                 AnomalyGalvarex,                    FerasMegalania,                 ImprovedPhoenix,
         }
 
-        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/TyloRex.txt";
+        const string Path = "E:/ARK Saves/ArkSpawnEntriesCreator/AscendedModsAdditions/ShinsPortedCreatures.txt";
         const bool replaceFile = true;
         const bool multimain = false;
 
@@ -111,19 +111,19 @@ namespace ArkSpawnEntriesCreator
 
             //ASA_SpawnContainers.FindPhrase(Path_base, Path_test, "Wyvern_Character_BP_Fire_C");
             //ASA_Engrams.CreateFullEngramLine(path_engram, Path_test);
-
             //ASA_SpawnContainers.ReadContainerKnowledge(path_spawn2, Path_test, path_spawn, true);
 
             //ASA_SpawnContainers.CreateToolkitReplacements(path_toolkit, Path_test);
+
             //ASA_SpawnContainers.CreateToolkitSpawners(path_spawn, Path_test);
 
-            ASA_LootDrops.CreateModdedLootdrops(path_lootbase, path_loot, Path_test);
+            //ASA_LootDrops.CreateModdedLootdrops(path_lootbase, path_loot, Path_test);
 
             //ASA_Engrams.AddModifiersToEngrams(path_engram, Path_test);
 
             //ASA_SpawnContainers.CreateSpawnContainerAdditions(path_spawn, Path_test);
 
-            //ASAExtractor();
+            ASAExtractor();
         }
 
         public static void ASAExtractor()

@@ -1,9 +1,6 @@
 All Entry Names: 
    Amargasaur  x 1
-   Bloodstalker  x 2
-   Desmodus  x 2
    Dinopithecus  x 2
-   Ferox 1-2  x 1
    Ported Andrew  x 2
    Ported Fjordhawk  x 2
    Shadowmane Port  x 1
@@ -12,25 +9,18 @@ All Entry Names:
 
 Engram Entries: 
    PrimalEngramEntry_PortedAndrewSaddle_C
-   EngramEntry_MagmasaurSaddle_C
    EngramEntry_Saddle_Amarga_C
-   EngramEntry_PortedSaddle_Desmodus_C
    PortedEngramEntry_Saddle_Tropeognathus_C
 
 Dino Entries: 
    PortedAndrewsarchus_C
    PortedFjordhawk_C
-   Magmasaur_C
    Dinopithecus_C
    Amarga_C
    Sino_C
    TekWyvern_C
    LionFishLion_C
-   Desmodus_C
    Tropeognathus_C
-   ShapeShifter_Small_C
-   ShapeShifter_Large_C
-   Bloodstalker_C
 
 Dino Additions: 
 Container Name: null
@@ -77,19 +67,9 @@ Container Name: null
       Entry Weight: 0.0125
       Spawn Limit: 0.2
       Multi Spawn Chance: 1.0
-   Entry Name: Bloodstalker
-      Main BP: PortedBloodStalker_Character_BP_C
-      Entry Weight: 0.0125
-      Spawn Limit: 0.2
-      Multi Spawn Chance: 1.0
 Container Name: null
    Entry Name: Tropeo
       Main BP: PortedTropeognathus_Character_BP_C
-      Entry Weight: 0.0125
-      Spawn Limit: 0.2
-      Multi Spawn Chance: 1.0
-   Entry Name: Bloodstalker
-      Main BP: PortedBloodStalker_Character_BP_C
       Entry Weight: 0.0125
       Spawn Limit: 0.2
       Multi Spawn Chance: 1.0
@@ -105,32 +85,15 @@ Container Name: null
       Entry Weight: 0.1
       Spawn Limit: 0.1
       Multi Spawn Chance: 1.0-0.75-0.5
-Container Name: null
-   Entry Name: Desmodus
-      Main BP: PortedDesmodus_Character_BP_C
-      Entry Weight: 0.33
-      Spawn Limit: 0.3
-      Multi Spawn Chance: 1.0
-Container Name: null
-   Entry Name: Desmodus
-      Main BP: PortedDesmodus_Character_BP_C
-      Entry Weight: 0.33
-      Spawn Limit: 0.3
-      Multi Spawn Chance: 1.0-0.75-0.5-0.25
-Container Name: null
-   Entry Name: Ferox 1-2
-      Main BP: PortedFerox_Small_Character_BP_C
-      Entry Weight: 0.03
-      Spawn Limit: 0.06
-      Multi Spawn Chance: 1.0
 
 Global Entry Weights: 
    Main BP: FireLion_Character_BP_C
       SubBP: FireLion_Character_BP_C 0.7
       SubBP: Magmasaur_Character_BP_C 0.3
    Main BP: RockGolem_Character_BP_C
-      SubBP: BetterRockGolem_Character_BP_C 0.85
+      SubBP: BetterRockGolem_Character_BP_C 0.8
       SubBP: BetterRockGolem_Character_BP_Lava_C 0.15
+      SubBP: RockGolem_Character_BP_C 0.05
    Main BP: MegaWyvern_Character_BP_Fire_C
       SubBP: MegaWyvern_Character_BP_Fire_C 0.5
       SubBP: PortedTekWyvern_Character_BP_C 0.5
@@ -157,22 +120,6 @@ MultiParams Summary:
       Spawn Limit:                             0.1
       Multi Spawn Chance:                               1.0
 
-   Main BP: PortedBloodStalker_Character_BP_C
-      Entry Weight:                   0.0125
-      Spawn Limit:                             0.2
-      Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.0125
-      Spawn Limit:                             0.2
-      Multi Spawn Chance:                               1.0
-
-   Main BP: PortedDesmodus_Character_BP_C
-      Entry Weight:                   0.33
-      Spawn Limit:                             0.3
-      Multi Spawn Chance:                               1.0
-      Entry Weight:                   0.33
-      Spawn Limit:                             0.3
-      Multi Spawn Chance:                               1.0-0.75-0.5-0.25
-
    Main BP: PortedDinopithecus_Character_BP_C
       Entry Weight:                   0.06
       Spawn Limit:                             
@@ -180,11 +127,6 @@ MultiParams Summary:
       Entry Weight:                   0.06
       Spawn Limit:                             
       Multi Spawn Chance:                               1.0-1.0-1.0-1.0-1.0
-
-   Main BP: PortedFerox_Small_Character_BP_C
-      Entry Weight:                   0.03
-      Spawn Limit:                             0.06
-      Multi Spawn Chance:                               1.0
 
    Main BP: PortedShadowmane_Character_BP_C
       Entry Weight:                   0.1
